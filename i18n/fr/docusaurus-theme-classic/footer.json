@@ -1,0 +1,14 @@
+{
+  "link.title.Documentation": { "message": "Documentation", "description": "footer col title" },
+  "link.title.φ": { "message": "φ", "description": "footer col title" },
+  "link.title.Contribute": { "message": "Contribuer", "description": "footer col title" },
+  "link.item.label.Getting started": { "message": "Premiers pas", "description": "footer link" },
+  "link.item.label.The editor": { "message": "L’éditeur", "description": "footer link" },
+  "link.item.label.Keyboard shortcuts": { "message": "Raccourcis clavier", "description": "footer link" },
+  "link.item.label.Website": { "message": "Site web", "description": "footer link" },
+  "link.item.label.Themes gallery": { "message": "Galerie de thèmes", "description": "footer link" },
+  "link.item.label.GitHub": { "message": "GitHub", "description": "footer link" },
+  "link.item.label.Submit a theme": { "message": "Proposer un thème", "description": "footer link" },
+  "link.item.label.Improve these docs": { "message": "Améliorer cette documentation", "description": "footer link" },
+  "copyright": { "message": "φ — fait avec soin. © 2026.", "description": "The footer copyright" }
+}

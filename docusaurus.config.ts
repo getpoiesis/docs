@@ -21,7 +21,12 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es', 'fr'],
+    localeConfigs: {
+      en: { label: 'English' },
+      es: { label: 'Español' },
+      fr: { label: 'Français' },
+    },
   },
 
   markdown: {
@@ -84,6 +89,10 @@ const config: Config = {
         {
           href: 'https://github.com/getpoiesis',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],

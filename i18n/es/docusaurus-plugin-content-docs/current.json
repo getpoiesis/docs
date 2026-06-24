@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Actual",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting started": {
+    "message": "Primeros pasos",
+    "description": "The label for category 'Getting started' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Writing": {
+    "message": "Escritura",
+    "description": "The label for category 'Writing' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Organizing": {
+    "message": "Organización",
+    "description": "The label for category 'Organizing' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Journal & calendar": {
+    "message": "Diario y calendario",
+    "description": "The label for category 'Journal & calendar' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Tools": {
+    "message": "Herramientas",
+    "description": "The label for category 'Tools' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Sharing your work": {
+    "message": "Compartir tu trabajo",
+    "description": "The label for category 'Sharing your work' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Reference": {
+    "message": "Referencia",
+    "description": "The label for category 'Reference' in sidebar 'docs'"
+  }
+}
