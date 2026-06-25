@@ -80,5 +80,6 @@ segunda tecla.
 | --- | --- |
 | Ir a Documentos | `⌘G` y luego `N` |
 | Ir a Colecciones | `⌘G` y luego `C` |
+| Ir al Diario | `⌘G` y luego `J` |
 | Ir a Búsqueda | `⌘G` y luego `S` |
 | Ir al Grafo | `⌘G` y luego `G` |

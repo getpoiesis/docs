@@ -79,5 +79,6 @@ appuyez sur la seconde touche.
 | --- | --- |
 | Aller aux Documents | `⌘G` puis `N` |
 | Aller aux Collections | `⌘G` puis `C` |
+| Aller au Journal | `⌘G` puis `J` |
 | Aller à la Recherche | `⌘G` puis `S` |
 | Aller au Graphe | `⌘G` puis `G` |

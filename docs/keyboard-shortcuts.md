@@ -80,5 +80,6 @@ key.
 | --- | --- |
 | Go to Documents | `⌘G` then `N` |
 | Go to Collections | `⌘G` then `C` |
+| Go to Journal | `⌘G` then `J` |
 | Go to Search | `⌘G` then `S` |
 | Go to Graph | `⌘G` then `G` |
