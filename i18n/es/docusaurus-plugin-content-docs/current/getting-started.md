@@ -10,19 +10,37 @@ escrita.
 
 ## Instalación
 
-φ es una app de macOS. Descarga el `.dmg`, ábrelo y arrastra φ a tu carpeta de
-Aplicaciones. Inícialo desde Aplicaciones (o con Spotlight).
+φ es una app de macOS, nativa en Apple Silicon e Intel.
+**[Descarga la última versión](https://getpoiesis.com/download)**, abre el `.dmg`
+y arrastra φ a tu carpeta de Aplicaciones. Inícialo desde Aplicaciones (o con
+Spotlight).
 
-> **Nota de alfa:** durante la alfa privada puede que la app aún no esté
-> notarizada por Apple. Si macOS bloquea el primer inicio, haz clic derecho en
-> la app → **Abrir** y confirma. Solo tienes que hacer esto una vez.
+Las versiones están **firmadas y notarizadas por Apple**, así que se abren sin el
+aviso de Gatekeeper de «desarrollador no identificado».
+
+:::warning φ está en alfa
+Estás usando software temprano: espera asperezas. Tu escritura siempre está a
+salvo: son archivos planos en tu Mac, guardados de forma continua y con
+versiones. Consulta la [introducción](intro.md) para ver qué es sólido y qué aún
+se está asentando.
+:::
 
 ## Primer inicio
 
 La primera vez que abres φ, te pide elegir dónde debe vivir tu escritura. Una
 **bóveda** es simplemente una carpeta que contiene tus documentos: elige una
-carpeta existente o crea una nueva (por ejemplo `~/Documents/Mi Libro`). Ese es
-el único paso de configuración; una vez elegida, ya puedes escribir.
+carpeta existente o crea una nueva (por ejemplo `~/Documents/Mi Libro`).
+
+:::note macOS pedirá acceso a la carpeta
+Cuando tu bóveda está en una ubicación protegida —**Documentos, Escritorio,
+Descargas o iCloud Drive**— macOS muestra un aviso como *«φ quiere acceder a
+archivos de tu carpeta Documentos.»* Pulsa **OK** para permitirlo. φ lo necesita
+para leer y guardar tus documentos ahí; es un aviso de privacidad estándar de
+macOS y solo aparece una vez por ubicación. Puedes revisarlo o cambiarlo luego en
+**Ajustes del Sistema → Privacidad y seguridad → Archivos y carpetas**.
+:::
+
+Ese es el único paso de configuración; una vez elegida, ya puedes escribir.
 
 ## Abrir o crear otra bóveda
 

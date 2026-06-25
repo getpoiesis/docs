@@ -9,19 +9,35 @@ This page takes you from a fresh install to your first written page.
 
 ## Install
 
-φ is a macOS app. Download the `.dmg`, open it, and drag φ to your Applications
-folder. Launch it from Applications (or Spotlight).
+φ is a macOS app, native on both Apple Silicon and Intel.
+**[Download the latest build](https://getpoiesis.com/download)**, open the `.dmg`,
+and drag φ to your Applications folder. Launch it from Applications (or Spotlight).
 
-> **Alpha note:** during the private alpha the app may not yet be notarized by
-> Apple. If macOS blocks the first launch, right-click the app → **Open**, then
-> confirm. You only need to do this once.
+The builds are **signed and notarized by Apple**, so they open without a
+Gatekeeper "unidentified developer" warning.
+
+:::warning φ is in alpha
+You're using early software — expect rough edges. Your writing itself is always
+safe: it's plain files on your Mac, saved continuously and versioned. See the
+[introduction](intro.md) for what's solid versus still settling.
+:::
 
 ## First launch
 
 The first time you open φ, it asks you to choose where your writing should live.
 A **vault** is simply a folder that holds your documents — pick an existing
-folder or create a new one (for example `~/Documents/My Book`). That's the only
-setup step; once you've chosen, you're ready to write.
+folder or create a new one (for example `~/Documents/My Book`).
+
+:::note macOS will ask for folder access
+When your vault is in a protected location — **Documents, Desktop, Downloads, or
+iCloud Drive** — macOS shows a prompt like *"φ would like to access files in your
+Documents folder."* Click **OK** to allow it. φ needs this to read and save your
+documents there; it's a standard macOS privacy prompt and appears only once per
+location. You can review or change it later in **System Settings → Privacy &
+Security → Files and Folders**.
+:::
+
+That's the only setup step; once you've chosen, you're ready to write.
 
 ## Open or create another vault
 

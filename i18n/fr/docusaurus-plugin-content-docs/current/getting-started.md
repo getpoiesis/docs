@@ -9,21 +9,40 @@ Cette page vous mène d'une installation neuve à votre première page écrite.
 
 ## Installation
 
-φ est une application macOS. Téléchargez le fichier `.dmg`, ouvrez-le, et glissez
-φ dans votre dossier Applications. Lancez-la depuis Applications (ou Spotlight).
+φ est une application macOS, native sur Apple Silicon et Intel.
+**[Téléchargez la dernière version](https://getpoiesis.com/download)**, ouvrez le
+fichier `.dmg`, et glissez φ dans votre dossier Applications. Lancez-la depuis
+Applications (ou Spotlight).
 
-> **Note alpha :** pendant l'alpha privée, l'application peut ne pas encore être
-> notariée par Apple. Si macOS bloque le premier lancement, faites un clic droit
-> sur l'application → **Ouvrir**, puis confirmez. Vous n'avez à le faire qu'une
-> seule fois.
+Les versions sont **signées et notariées par Apple**, elles s'ouvrent donc sans
+l'avertissement Gatekeeper « développeur non identifié ».
+
+:::warning φ est en alpha
+Vous utilisez un logiciel à un stade précoce — attendez-vous à quelques aspérités.
+Votre écriture, elle, est toujours en sécurité : ce sont des fichiers simples sur
+votre Mac, enregistrés en continu et versionnés. Voir l'[introduction](intro.md)
+pour ce qui est solide et ce qui se stabilise encore.
+:::
 
 ## Premier lancement
 
 La première fois que vous ouvrez φ, l'application vous demande de choisir où votre
 écriture doit vivre. Un **coffre** est simplement un dossier qui contient vos
 documents — choisissez un dossier existant ou créez-en un nouveau (par exemple
-`~/Documents/Mon Livre`). C'est la seule étape de configuration ; une fois votre
-choix fait, vous êtes prêt à écrire.
+`~/Documents/Mon Livre`).
+
+:::note macOS demandera l'accès au dossier
+Quand votre coffre se trouve dans un emplacement protégé — **Documents, Bureau,
+Téléchargements ou iCloud Drive** — macOS affiche une invite du type *« φ
+souhaite accéder à des fichiers de votre dossier Documents. »* Cliquez sur **OK**
+pour l'autoriser. φ en a besoin pour lire et enregistrer vos documents ; c'est une
+invite de confidentialité standard de macOS, qui n'apparaît qu'une fois par
+emplacement. Vous pouvez la revoir ou la modifier ensuite dans **Réglages Système
+→ Confidentialité et sécurité → Fichiers et dossiers**.
+:::
+
+C'est la seule étape de configuration ; une fois votre choix fait, vous êtes prêt
+à écrire.
 
 ## Ouvrir ou créer un autre coffre
 
