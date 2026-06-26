@@ -25,6 +25,14 @@ Selecciona texto y aplica:
 Todo esto también está en el menú **Formato**, y muchos tienen atajos de teclado
 allí.
 
+:::tip Sal de la negrita o la cursiva escribiendo
+Cuando activas **negrita** o *cursiva* y sigues escribiendo, no hace falta volver
+a la barra de herramientas para detenerla. Termina la palabra y pulsa la barra
+espaciadora una segunda vez: el primer espacio sigue formando parte de la palabra
+con formato y el siguiente quita el formato, de modo que la palabra siguiente
+queda en texto normal.
+:::
+
 ## Encabezados y párrafos
 
 Tres niveles de encabezado estructuran un documento:

@@ -25,6 +25,14 @@ Sélectionnez du texte et appliquez :
 Ces options se trouvent aussi dans le menu **Format**, et beaucoup y ont des
 raccourcis clavier.
 
+:::tip Sortez du gras ou de l'italique en tapant
+Quand vous activez le **gras** ou l'*italique* et que vous continuez à écrire,
+inutile de revenir à la barre d'outils pour l'arrêter. Terminez le mot, puis
+appuyez une deuxième fois sur la barre d'espace : la première espace reste
+attachée au mot mis en forme, et la suivante retire la mise en forme, si bien que
+le mot d'après s'écrit en texte normal.
+:::
+
 ## Titres et paragraphes
 
 Trois niveaux de titre structurent un document :

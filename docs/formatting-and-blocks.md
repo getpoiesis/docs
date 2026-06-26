@@ -23,6 +23,13 @@ Select text and apply:
 
 These also live in the **Format** menu, and many have keyboard shortcuts there.
 
+:::tip Type your way out of bold or italic
+When you turn on **bold** or *italic* and keep typing, you don't have to reach
+back for the toolbar to stop. Finish the word, then press the space bar a second
+time — the first space stays part of the formatted word, and the next one drops
+the formatting so the following word is plain text.
+:::
+
 ## Headings and paragraphs
 
 Three heading levels structure a document:
