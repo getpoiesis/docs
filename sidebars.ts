@@ -19,6 +19,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'the-editor',
         'formatting-and-blocks',
+        'spelling',
         'links-and-graph',
         'annotations',
         'footnotes-and-citations',
