@@ -8,7 +8,7 @@ sidebar_position: 12
 φ incluye un diccionario sin conexión para que puedas comprobar el significado de
 una palabra — o encontrar una mejor — sin salir de la página ni conectarte. Funciona
 como el diccionario de un lector electrónico: instalas *paquetes* de diccionario, y
-las búsquedas ocurren por completo en tu Mac.
+las búsquedas ocurren por completo en tu equipo.
 
 ## Buscar una palabra
 

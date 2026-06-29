@@ -6,7 +6,7 @@ sidebar_position: 3
 # Coffres
 
 Un **coffre** est l'endroit où vit votre écriture. C'est un dossier ordinaire sur
-votre Mac qui contient vos documents, les images que vous avez ajoutées et un
+votre ordinateur qui contient vos documents, les images que vous avez ajoutées et un
 historique des versions. Pas de base de données, pas de cloud — juste des fichiers
 dans un dossier que vous avez choisi.
 

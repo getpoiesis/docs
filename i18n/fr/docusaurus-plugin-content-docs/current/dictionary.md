@@ -8,7 +8,7 @@ sidebar_position: 12
 φ intègre un dictionnaire hors ligne pour que vous puissiez vérifier le sens d’un
 mot — ou en trouver un meilleur — sans quitter la page ni passer en ligne. Il
 fonctionne comme le dictionnaire d’une liseuse : vous installez des *packs* de
-dictionnaire, et les recherches se font entièrement sur votre Mac.
+dictionnaire, et les recherches se font entièrement sur votre ordinateur.
 
 ## Rechercher un mot
 

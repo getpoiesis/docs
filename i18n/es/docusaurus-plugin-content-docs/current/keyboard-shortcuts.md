@@ -5,12 +5,32 @@ sidebar_position: 20
 
 # Atajos de teclado
 
-φ está diseñado para mantener tus manos en el teclado. Estos son los atajos tal
-como vienen en macOS. Las teclas modificadoras son ⌘ (Comando), ⇧ (Mayúsculas),
-⌥ (Opción) y ⌃ (Control).
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Si alguna vez olvidas uno, abre la paleta de comandos con `⌘P` y empieza a
-escribir — la mayoría de los comandos muestran su atajo a la derecha.
+φ está diseñado para mantener tus manos en el teclado. Las tablas de abajo
+muestran las teclas tal como aparecen en **macOS**; en **Windows y Linux** los
+modificadores se corresponden directamente, y φ muestra los correctos en sus
+propios menús.
+
+<Tabs groupId="os">
+  <TabItem value="mac" label="macOS" default>
+
+Las teclas modificadoras son ⌘ (Comando), ⇧ (Mayúsculas), ⌥ (Opción) y ⌃
+(Control).
+
+  </TabItem>
+  <TabItem value="win" label="Windows / Linux">
+
+Lee los modificadores de macOS como sus equivalentes: ⌘ → **Ctrl**, ⌥ → **Alt**,
+⇧ → **Mayús**, ⌃ → **Ctrl**. Así, `⌘N` es **Ctrl + N**, y `⌘⌥F` es **Ctrl + Alt +
+F**.
+
+  </TabItem>
+</Tabs>
+
+Si alguna vez olvidas uno, abre la paleta de comandos con `⌘P` (**Ctrl + P**) y
+empieza a escribir — la mayoría de los comandos muestran su atajo a la derecha.
 
 ## General
 

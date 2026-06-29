@@ -108,7 +108,7 @@ Choose how history is kept:
 
 - **Native** — local snapshots, no git required. This is the default.
 - **Git** — full git history plus optional remote backup. Available only when
-  git is installed on your Mac.
+  git is installed on your computer.
 
 Switching to git is a power-user step: φ runs `git init` in the vault, commits
 automatically on a schedule, and migrates your existing native history into git.

@@ -5,12 +5,29 @@ sidebar_position: 20
 
 # Keyboard shortcuts
 
-φ is built to keep your hands on the keyboard. These are the shortcuts as they
-ship on macOS. Modifier keys are ⌘ (Command), ⇧ (Shift), ⌥ (Option), and ⌃
-(Control).
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-If you ever forget one, open the command palette with `⌘P` and start typing —
-most commands show their shortcut on the right.
+φ is built to keep your hands on the keyboard. The tables below list the keys as
+they appear on **macOS**; on **Windows and Linux** the modifiers map straight
+across, and φ shows the right ones in its own menus.
+
+<Tabs groupId="os">
+  <TabItem value="mac" label="macOS" default>
+
+Modifier keys are ⌘ (Command), ⇧ (Shift), ⌥ (Option), and ⌃ (Control).
+
+  </TabItem>
+  <TabItem value="win" label="Windows / Linux">
+
+Read the macOS modifiers as their equivalents: ⌘ → **Ctrl**, ⌥ → **Alt**, ⇧ →
+**Shift**, ⌃ → **Ctrl**. So `⌘N` is **Ctrl + N**, and `⌘⌥F` is **Ctrl + Alt + F**.
+
+  </TabItem>
+</Tabs>
+
+If you ever forget one, open the command palette with `⌘P` (**Ctrl + P**) and
+start typing — most commands show their shortcut on the right.
 
 ## General
 

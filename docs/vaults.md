@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Vaults
 
-A **vault** is where your writing lives. It is an ordinary folder on your Mac
+A **vault** is where your writing lives. It is an ordinary folder on your computer
 that holds your documents, the images you've added, and a version history. There
 is no database and no cloud — just files in a folder you chose.
 

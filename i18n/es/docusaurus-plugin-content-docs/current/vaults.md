@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Bóvedas
 
-Una **bóveda** es donde vive tu escritura. Es una carpeta corriente de tu Mac
+Una **bóveda** es donde vive tu escritura. Es una carpeta corriente de tu equipo
 que contiene tus documentos, las imágenes que has añadido y un historial de
 versiones. No hay base de datos ni nube: solo archivos en una carpeta que tú
 elegiste.

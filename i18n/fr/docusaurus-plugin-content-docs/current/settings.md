@@ -115,7 +115,7 @@ Choisissez comment l’historique est conservé :
 
 - **Natif** — instantanés locaux, aucun git requis. C’est l’option par défaut.
 - **Git** — historique git complet plus sauvegarde distante optionnelle.
-  Disponible uniquement lorsque git est installé sur votre Mac.
+  Disponible uniquement lorsque git est installé sur votre ordinateur.
 
 Basculer vers git est une étape pour utilisateurs avancés : φ exécute `git init`
 dans le coffre, valide automatiquement des commits selon une planification et

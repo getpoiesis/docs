@@ -5,12 +5,32 @@ sidebar_position: 20
 
 # Raccourcis clavier
 
-φ est conçu pour garder vos mains sur le clavier. Voici les raccourcis tels
-qu’ils sont livrés sur macOS. Les touches de modification sont ⌘ (Commande), ⇧
-(Maj), ⌥ (Option) et ⌃ (Contrôle).
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Si vous en oubliez un, ouvrez la palette de commandes avec `⌘P` et commencez à
-taper — la plupart des commandes affichent leur raccourci à droite.
+φ est conçu pour garder vos mains sur le clavier. Les tableaux ci-dessous
+indiquent les touches telles qu’elles apparaissent sur **macOS** ; sur **Windows
+et Linux**, les modificateurs se correspondent directement, et φ affiche les bons
+dans ses propres menus.
+
+<Tabs groupId="os">
+  <TabItem value="mac" label="macOS" default>
+
+Les touches de modification sont ⌘ (Commande), ⇧ (Maj), ⌥ (Option) et ⌃
+(Contrôle).
+
+  </TabItem>
+  <TabItem value="win" label="Windows / Linux">
+
+Lisez les modificateurs macOS comme leurs équivalents : ⌘ → **Ctrl**, ⌥ →
+**Alt**, ⇧ → **Maj**, ⌃ → **Ctrl**. Ainsi `⌘N` correspond à **Ctrl + N**, et
+`⌘⌥F` à **Ctrl + Alt + F**.
+
+  </TabItem>
+</Tabs>
+
+Si vous en oubliez un, ouvrez la palette de commandes avec `⌘P` (**Ctrl + P**) et
+commencez à taper — la plupart des commandes affichent leur raccourci à droite.
 
 ## Général
 

@@ -111,7 +111,7 @@ Elige cómo se guarda el historial:
 
 - **Nativo** — instantáneas locales, sin git. Es el valor predeterminado.
 - **Git** — historial completo de git más respaldo remoto opcional. Disponible
-  solo cuando git está instalado en tu Mac.
+  solo cuando git está instalado en tu equipo.
 
 Cambiar a git es un paso para usuarios avanzados: φ ejecuta `git init` en la
 bóveda, confirma automáticamente según una programación y migra tu historial

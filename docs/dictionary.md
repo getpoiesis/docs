@@ -8,7 +8,7 @@ sidebar_position: 12
 φ includes an offline dictionary so you can check a word's meaning — or find a
 better one — without leaving the page or going online. It works the way an
 e-reader's dictionary does: you install dictionary *packs*, and lookups happen
-entirely on your Mac.
+entirely on your computer.
 
 ## Looking up a word
 
