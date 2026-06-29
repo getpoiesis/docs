@@ -9,16 +9,14 @@ This page takes you from a fresh install to your first written page.
 
 ## Install
 
-φ is a macOS app, native on both Apple Silicon and Intel.
-**[Download the latest build](https://getpoiesis.com/download)**, open the `.dmg`,
-and drag φ to your Applications folder. Launch it from Applications (or Spotlight).
-
-The builds are **signed and notarized by Apple**, so they open without a
-Gatekeeper "unidentified developer" warning.
+φ runs on **macOS, Windows, and Linux**.
+**[Download the latest build](https://getpoiesis.com/download)** for your system,
+then follow [Installing φ](installing.md) — it covers each platform, including the
+one-time Windows SmartScreen prompt and the Linux AppImage and `.deb` formats.
 
 :::warning φ is in alpha
 You're using early software — expect rough edges. Your writing itself is always
-safe: it's plain files on your Mac, saved continuously and versioned. See the
+safe: it's plain files on your computer, saved continuously and versioned. See the
 [introduction](intro.md) for what's solid versus still settling.
 :::
 

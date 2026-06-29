@@ -10,17 +10,15 @@ escrita.
 
 ## Instalación
 
-φ es una app de macOS, nativa en Apple Silicon e Intel.
-**[Descarga la última versión](https://getpoiesis.com/download)**, abre el `.dmg`
-y arrastra φ a tu carpeta de Aplicaciones. Inícialo desde Aplicaciones (o con
-Spotlight).
-
-Las versiones están **firmadas y notarizadas por Apple**, así que se abren sin el
-aviso de Gatekeeper de «desarrollador no identificado».
+φ funciona en **macOS, Windows y Linux**.
+**[Descarga la última versión](https://getpoiesis.com/download)** para tu sistema
+y sigue [Instalar φ](installing.md): cubre cada plataforma, incluido el aviso de
+SmartScreen de Windows (que aparece una sola vez) y los formatos AppImage y `.deb`
+de Linux.
 
 :::warning φ está en alfa
 Estás usando software temprano: espera asperezas. Tu escritura siempre está a
-salvo: son archivos planos en tu Mac, guardados de forma continua y con
+salvo: son archivos planos en tu equipo, guardados de forma continua y con
 versiones. Consulta la [introducción](intro.md) para ver qué es sólido y qué aún
 se está asentando.
 :::
