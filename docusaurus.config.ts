@@ -70,7 +70,8 @@ const config: Config = {
         alt: 'φ',
         src: 'img/phi-dark.svg',
         srcDark: 'img/phi-light.svg',
-        href: '/',
+        href: 'https://getpoiesis.com',
+        target: '_self',
         width: 38,
         height: 38,
       },
@@ -85,6 +86,7 @@ const config: Config = {
           href: 'https://getpoiesis.com',
           label: 'Website',
           position: 'right',
+          target: '_self',
         },
         {
           href: 'https://github.com/getpoiesis',
@@ -111,7 +113,7 @@ const config: Config = {
         {
           title: 'φ',
           items: [
-            { label: 'Website', href: 'https://getpoiesis.com' },
+            { label: 'Website', href: 'https://getpoiesis.com', target: '_self' },
             { label: 'Themes gallery', href: 'https://github.com/getpoiesis/themes' },
             { label: 'GitHub', href: 'https://github.com/getpoiesis' },
           ],
