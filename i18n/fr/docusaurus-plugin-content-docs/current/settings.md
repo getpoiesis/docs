@@ -7,11 +7,11 @@ sidebar_position: 18
 
 φ rassemble ses réglages en un seul endroit, regroupés pour que vous ayez
 rarement à chercher. Ouvrez les Réglages avec `⌘,` (ou **Préférences…** dans le
-menu de l’app). Une colonne à gauche liste six catégories ; choisissez-en une et
+menu de l’app). Une colonne à gauche liste les catégories ; choisissez-en une et
 ses options apparaissent à droite.
 
-Les catégories sont **Apparence**, **Éditeur**, **Versions**, **Coffre**,
-**Modèles** et **Données**.
+Les catégories sont **Apparence**, **Éditeur**, **Profils**, **Versions**,
+**Coffre**, **Modèles** et **Données**.
 
 La plupart des réglages s’appliquent à toute l’app et prennent effet
 immédiatement. L’exception est **Versions**, qui se configure *par coffre* — voir
@@ -30,6 +30,8 @@ langues ont leur propre page — voir [Thèmes et langues](themes-and-languages.
 - **Taille de l’interface** — met à l’échelle toute l’interface, icônes
   comprises, entre **100 %**, **115 %**, **130 %** et **150 %**. Utilisez-la si
   l’app vous paraît trop petite (ou trop grande) sur votre écran.
+- **La semaine commence le** — si le calendrier et la carte de chaleur commencent
+  la semaine le **lundi** ou le **dimanche**.
 
 ### Thème de couleur
 
@@ -102,6 +104,15 @@ Pour les blocs de code.
 
 Installez et gérez des packs de dictionnaire hors ligne. Cette section a sa
 propre page — voir [Dictionnaire et thésaurus](dictionary.md).
+
+## Profils
+
+Choisissez les fonctions que φ affiche, par coffre, avec un **profil d’écriture** —
+**Simple** (juste la page) ou **Complet** (tous les outils), plus les profils
+personnalisés que vous enregistrez. C’est aussi ici que vous choisissez votre
+**Affichage de la série** (Motivant / Discret / Désactivé) et un objectif de
+**Rythme hebdomadaire**. Masquer une fonction ne supprime jamais rien. Cette
+section a sa propre page — voir [Profils d’écriture](profiles.md).
 
 ## Versions
 

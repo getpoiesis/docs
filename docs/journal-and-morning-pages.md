@@ -12,7 +12,7 @@ Both feed a **writing streak** so showing up every day is visible and rewarding.
 ## The Journal space
 
 The Journal is one of the three spaces in the left rail (the notebook-and-pen
-icon, **Journal — morning pages**). Open it and the sidebar lists your dated
+icon, **Journal — dated entries**). Open it and the sidebar lists your dated
 entries, newest day first.
 
 A journal entry is just a document tied to a day. It lives in your vault like any
@@ -24,9 +24,10 @@ so a daily practice has a home.
 In the Journal sidebar, or on the Journal landing screen, click **New entry for
 today**. φ creates a fresh document dated to today and opens it.
 
-You can also start an entry for any day from the calendar — see
-[The calendar](calendar.md). Picking a past or future day and creating there
-dates the entry to that day.
+You can also start an entry for a **past day or today** from the calendar — see
+[The calendar](calendar.md). Creating there dates the entry to the day you picked.
+You can't date an entry in the **future**, though referencing a future date with a
+date chip still works.
 
 ## Morning pages
 
@@ -92,6 +93,11 @@ sun's streak going.
 
 Your current streak rides in the **status bar** at the bottom of the window as a
 flame: `🔥 N`. Hover it to read *N-day writing streak*.
+
+That flame is the **Motivational** streak display. φ can also show the streak
+**Quiet** (a lifetime word count instead of a flame) or **Off**, and you can set a
+gentler **weekly rhythm** goal in its place — you choose per writer profile. See
+[The streak, and how it shows](calendar.md#the-streak-and-how-it-shows).
 
 The calendar shows the same run on the grid, and surfaces the morning-pages
 streak too. See [The calendar](calendar.md).

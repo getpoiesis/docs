@@ -7,11 +7,11 @@ sidebar_position: 18
 
 φ guarda sus ajustes en un solo lugar, agrupados para que rara vez tengas que
 buscar. Abre los Ajustes con `⌘,` (o **Preferencias…** en el menú de la app). Una
-columna a la izquierda enumera seis categorías; elige una y sus opciones aparecen
+columna a la izquierda enumera las categorías; elige una y sus opciones aparecen
 a la derecha.
 
-Las categorías son **Apariencia**, **Editor**, **Versiones**, **Bóveda**,
-**Plantillas** y **Datos**.
+Las categorías son **Apariencia**, **Editor**, **Perfiles**, **Versiones**,
+**Bóveda**, **Plantillas** y **Datos**.
 
 La mayoría de los ajustes se aplican a toda la app y surten efecto de inmediato.
 La excepción es **Versiones**, que se configura *por bóveda* — ver más abajo.
@@ -29,6 +29,8 @@ ver [Temas e idiomas](themes-and-languages.md).
 - **Tamaño de la interfaz** — escala toda la interfaz, incluidos los iconos,
   entre **100%**, **115%**, **130%** y **150%**. Úsalo si la app se siente
   demasiado pequeña (o demasiado grande) en tu pantalla.
+- **La semana empieza en** — si el calendario y el mapa de calor empiezan la
+  semana en **lunes** o en **domingo**.
 
 ### Tema de color
 
@@ -98,6 +100,15 @@ Para los bloques de código.
 
 Instala y gestiona paquetes de diccionario sin conexión. Esta sección tiene su
 propia página — ver [Diccionario y tesauro](dictionary.md).
+
+## Perfiles
+
+Elige qué funciones muestra φ, por bóveda, con un **perfil de escritura** —
+**Sencillo** (solo la página) o **Completo** (todas las herramientas), además de
+los perfiles personalizados que guardes. Aquí también eliges tu **Mostrar la
+racha** (Motivadora / Discreta / Desactivada) y un objetivo de **Ritmo semanal**.
+Ocultar una función nunca borra nada. Esta sección tiene su propia página — ver
+[Perfiles de escritura](profiles.md).
 
 ## Versiones
 

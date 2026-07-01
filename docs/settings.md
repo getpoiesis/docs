@@ -7,10 +7,10 @@ sidebar_position: 18
 
 φ keeps its settings in one place, grouped so you rarely have to hunt. Open
 Settings with `⌘,` (or **Preferences…** in the app menu). A column on the left
-lists six categories; pick one and its options appear on the right.
+lists the categories; pick one and its options appear on the right.
 
-The categories are **Appearance**, **Editor**, **Versioning**, **Vault**,
-**Templates**, and **Data**.
+The categories are **Appearance**, **Editor**, **Profiles**, **Versioning**,
+**Vault**, **Templates**, and **Data**.
 
 Most settings apply to the whole app and take effect immediately. The exception
 is **Versioning**, which is configured *per vault* — see below.
@@ -28,6 +28,8 @@ page — see [Themes & languages](themes-and-languages.md).
 - **Interface size** — scales the whole UI, including icons, between **100%**,
   **115%**, **130%**, and **150%**. Use this if the app feels too small (or too
   large) on your display.
+- **Week starts on** — whether the calendar and heatmap begin the week on
+  **Monday** or **Sunday**.
 
 ### Color theme
 
@@ -95,6 +97,14 @@ For code blocks.
 
 Install and manage offline dictionary packs. This section has its own page —
 see [Dictionary & thesaurus](dictionary.md).
+
+## Profiles
+
+Choose which features φ shows, per vault, with a **writer profile** — **Simple**
+(just the page) or **Full** (every tool), plus any custom profiles you save. This
+is also where you pick your **Streak display** (Motivational / Quiet / Off) and a
+**Weekly rhythm** goal. Hiding a feature never deletes anything. This section has
+its own page — see [Writer profiles](profiles.md).
 
 ## Versioning
 

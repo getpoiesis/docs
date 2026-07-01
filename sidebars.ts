@@ -10,7 +10,7 @@ const sidebars: SidebarsConfig = {
       label: 'Getting started',
       className: 'si-getting-started',
       collapsed: false,
-      items: ['installing', 'getting-started', 'vaults'],
+      items: ['installing', 'getting-started', 'vaults', 'profiles'],
     },
     {
       type: 'category',
