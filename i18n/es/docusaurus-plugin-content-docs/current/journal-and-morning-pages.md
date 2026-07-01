@@ -13,7 +13,7 @@ para que presentarte cada día sea visible y gratificante.
 ## El espacio del Diario
 
 El Diario es uno de los tres espacios del riel izquierdo (el icono del cuaderno y
-la pluma, **Diario — páginas matutinas**). Ábrelo y la barra lateral mostrará tus
+la pluma, **Diario — entradas fechadas**). Ábrelo y la barra lateral mostrará tus
 entradas fechadas, primero el día más reciente.
 
 Una entrada de diario no es más que un documento atado a un día. Vive en tu bóveda
@@ -26,9 +26,10 @@ En la barra lateral del Diario, o en la pantalla de inicio del Diario, haz clic 
 **Nueva entrada de hoy**. φ crea un documento nuevo fechado al día de hoy y lo
 abre.
 
-También puedes empezar una entrada para cualquier día desde el calendario — consulta
-[El calendario](calendar.md). Elegir un día pasado o futuro y crear ahí fecha la
-entrada en ese día.
+También puedes empezar una entrada para un **día pasado o para hoy** desde el
+calendario — consulta [El calendario](calendar.md). Al crearla ahí, la entrada se
+fecha en el día que elegiste. No puedes fechar una entrada en el **futuro**, aunque
+hacer referencia a una fecha futura con un distintivo de fecha sigue funcionando.
 
 ## Páginas matutinas
 
@@ -100,6 +101,12 @@ ligero no mantiene viva la racha del sol.
 Tu racha actual viaja en la **barra de estado** en la parte inferior de la ventana
 como una llama: `🔥 N`. Pasa el cursor por encima para leer *Racha de escritura de
 N días*.
+
+Esa llama es la visualización **Motivadora**. φ también puede mostrar la racha de
+forma **Discreta** (un recuento de palabras total en lugar de una llama) o
+**Desactivada**, y en su lugar puedes fijar un objetivo de **ritmo semanal** más
+amable — lo eliges por perfil de escritura. Consulta [La racha, y cómo se
+muestra](calendar.md#la-racha-y-como-se-muestra).
 
 El calendario muestra la misma sucesión en la cuadrícula, y saca a la luz también
 la racha de páginas matutinas. Consulta [El calendario](calendar.md).

@@ -13,7 +13,7 @@ pratique privée du « écrire et lâcher prise ». Toutes deux alimentent une
 ## L’espace Journal
 
 Le Journal est l’un des trois espaces du rail de gauche (l’icône carnet-et-stylo,
-**Journal — pages du matin**). Ouvrez-le et la barre latérale liste vos entrées
+**Journal — entrées datées**). Ouvrez-le et la barre latérale liste vos entrées
 datées, du jour le plus récent au plus ancien.
 
 Une entrée de journal n’est qu’un document rattaché à un jour. Elle vit dans
@@ -27,9 +27,11 @@ Dans la barre latérale du Journal, ou sur l’écran d’accueil du Journal, cl
 sur **Nouvelle entrée du jour**. φ crée un document vierge daté du jour et
 l’ouvre.
 
-Vous pouvez aussi commencer une entrée pour n’importe quel jour depuis le
-calendrier — voir [Le calendrier](calendar.md). Choisir un jour passé ou futur
-et créer l’entrée là-bas la date de ce jour.
+Vous pouvez aussi commencer une entrée pour un **jour passé ou aujourd’hui** depuis
+le calendrier — voir [Le calendrier](calendar.md). En la créant là-bas, l’entrée
+est datée du jour choisi. Vous ne pouvez pas dater une entrée dans le **futur**,
+même si faire référence à une date future avec une pastille de date fonctionne
+toujours.
 
 ## Pages du matin
 
@@ -102,6 +104,12 @@ mots) — une journée légère ne maintient pas la série du soleil.
 
 Votre série en cours se loge dans la **barre d’état** en bas de la fenêtre sous
 forme de flamme : `🔥 N`. Survolez-la pour lire *Série d’écriture de N jours*.
+
+Cette flamme est l’affichage **Motivant**. φ peut aussi montrer la série de façon
+**Discrète** (un total de mots à la place d’une flamme) ou **Désactivée**, et vous
+pouvez à la place fixer un objectif de **rythme hebdomadaire** plus doux — au choix
+par profil d’écriture. Voir [La série, et comment elle
+s’affiche](calendar.md#la-serie-et-comment-elle-s-affiche).
 
 Le calendrier montre la même suite sur la grille, et fait aussi apparaître la
 série des pages du matin. Voir [Le calendrier](calendar.md).
