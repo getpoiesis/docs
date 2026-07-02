@@ -82,9 +82,10 @@ día y la racha crece.
 ### Qué cuenta para una racha
 
 - Un día cuenta en cuanto las palabras que **escribiste ese día** alcanzan el
-  mínimo. Las palabras se atribuyen al día en que se *creó* un documento, así que
-  una entrada de diario nueva o una página matutina cada día tienen exactamente la
-  forma adecuada. Editar un documento más antiguo no se suma al recuento de hoy.
+  mínimo — ya sea que empezaras algo nuevo o ampliaras un documento que ya tenías.
+  Las palabras se acreditan al día en que realmente las escribiste, así que una
+  entrada de diario nueva, una página matutina o una tarde dedicada a ampliar un
+  capítulo cuentan todas para ese día.
 - El mínimo predeterminado es **50 palabras al día**. Puedes subirlo en **Ajustes**
   (`⌘,`) → **Editor** → **Racha de escritura** → **Mínimo de palabras / día**. El
   suelo es 50.

@@ -74,10 +74,10 @@ there to make a habit visible — write a little every day and the streak grows.
 
 ### What counts toward a streak
 
-- A day counts once the words you **wrote that day** reach the minimum. Words are
-  attributed to the day a document was *created*, so a fresh journal entry or
-  morning page each day is exactly the right shape for it. Editing an older
-  document doesn't add to today's tally.
+- A day counts once the words you **wrote that day** reach the minimum — whether
+  you started something new or added to a document you already had. Words are
+  credited to the day you actually wrote them, so a fresh journal entry, a morning
+  page, or an afternoon spent expanding a chapter all count toward that day.
 - The default minimum is **50 words a day**. You can raise it in **Settings**
   (`⌘,`) → **Editor** → **Writing streak** → **Minimum words / day**. The floor
   is 50.
