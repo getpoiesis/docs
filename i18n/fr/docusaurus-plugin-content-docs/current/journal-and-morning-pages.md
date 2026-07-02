@@ -86,9 +86,10 @@ chaque jour et la série grandit.
 ### Ce qui compte pour une série
 
 - Un jour compte dès que les mots que vous avez **écrits ce jour-là** atteignent
-  le minimum. Les mots sont attribués au jour où un document a été *créé*, donc
-  une nouvelle entrée de journal ou une page du matin chaque jour a exactement la
-  bonne forme. Modifier un document plus ancien n’ajoute rien au total du jour.
+  le minimum — que vous ayez commencé quelque chose de nouveau ou étoffé un
+  document que vous aviez déjà. Les mots sont crédités au jour où vous les avez
+  réellement écrits : une nouvelle entrée de journal, une page du matin ou une
+  après-midi passée à développer un chapitre comptent toutes pour ce jour-là.
 - Le minimum par défaut est de **50 mots par jour**. Vous pouvez l’augmenter dans
   **Réglages** (`⌘,`) → **Éditeur** → **Série d’écriture** → **Minimum de mots /
   jour**. Le plancher est de 50.
