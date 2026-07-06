@@ -122,7 +122,12 @@ construit selon les conventions du livre :
   Obsidian / Logseq** dans la palette de commandes pour importer récursivement un
   dossier de coffre entier, en conservant sa structure de dossiers imbriqués.
   Vous pouvez l’importer **dans votre coffre actuel** ou **comme nouveau
-  coffre**.
+  coffre**. φ conserve la **date de création originale** de chaque note — à partir
+  d’une date dans le fichier, du nom d’un journal ou d’une note quotidienne (le
+  `2022_11_11` de Logseq) ou de l’historique git de la source — pour que votre
+  chronologie survive au déplacement. Il reconnecte aussi le **graphe de liens
+  `[[...]]`**, y compris les pages à espaces de noms de Logseq, pour que les
+  rétroliens et la vue graphe fonctionnent immédiatement sur le coffre importé.
 
 ## Voir aussi
 

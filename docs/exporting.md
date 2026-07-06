@@ -105,7 +105,11 @@ PDF you can print or send. The PDF is built to book conventions:
 - **Import an Obsidian / Logseq vault** — choose **Import Obsidian / Logseq vault**
   in the command palette to bring an entire vault folder in recursively, keeping
   its nested folder structure. You can import it **into your current vault** or
-  **as a new vault**.
+  **as a new vault**. φ keeps each note's **original creation date** — from a date
+  in the file, a journal/daily filename (Logseq's `2022_11_11`), or the source's
+  git history — so your timeline survives the move. It also reconnects the
+  **`[[link]]` graph**, including Logseq namespaced pages, so backlinks and the
+  graph view work on the imported vault right away.
 
 ## See also
 
