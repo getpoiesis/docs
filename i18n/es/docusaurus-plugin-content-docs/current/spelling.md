@@ -12,6 +12,35 @@ la palabra.
 
 Todo está en **Ajustes → Idioma**.
 
+## Revisar todo el documento
+
+Cuando prefieras revisar un borrador terminado en una sola pasada deliberada, usa
+**Revisar ortografía**. φ recorre cada error en orden y, para cada uno, muestra un
+pequeño panel con sugerencias y tus opciones; nunca se corrige nada de forma
+automática:
+
+- **Cambiar** — reemplaza esta palabra por la sugerencia (o escribe la tuya en el
+  cuadro).
+- **Cambiar todo** — corrige todas las apariciones de la palabra en el documento.
+- **Ignorar** / **Ignorar todo** — omite esta, o todas las apariciones, durante el
+  resto de la pasada.
+- **Añadir al diccionario** — conserva la palabra en todas partes, ahora y en
+  documentos futuros.
+
+La palabra en revisión se resalta en el texto para que siempre la veas en
+contexto, y un contador indica cuántas quedan. Inicia la pasada como prefieras:
+
+- la **paleta de comandos** (`⌘P`) → **Revisar ortografía…**
+- **Editar → Revisar ortografía…** en el menú
+- el atajo **⌘⇧L**
+- el botón de ortografía en la **barra de estado**
+
+La revisión de todo el documento usa los diccionarios integrados de φ (inglés,
+español y francés vienen incluidos), así que funciona incluso cuando tu motor
+habitual es el corrector del sistema operativo. Si el idioma del documento no tiene
+un diccionario instalado, φ te lleva a **Ajustes → Idioma → Ortografía** para
+añadir uno.
+
 ## Elegir un motor
 
 En **Ajustes → Idioma → Ortografía** eliges cómo revisa φ la ortografía:

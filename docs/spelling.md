@@ -11,6 +11,32 @@ pick a suggestion, or choose **Add to Dictionary** to keep the word.
 
 Everything lives in **Settings → Language**.
 
+## Check the whole document
+
+When you'd rather review a finished draft in one deliberate pass, run
+**Check spelling**. φ walks every misspelling in order and, for each one, shows a
+small panel with suggestions and your choices — nothing is ever corrected
+automatically:
+
+- **Change** — replace this word with the suggestion (or type your own in the box).
+- **Change all** — fix every occurrence of the word in the document.
+- **Ignore** / **Ignore all** — skip this one, or every occurrence, for the rest of
+  the pass.
+- **Add to dictionary** — keep the word everywhere, now and in future documents.
+
+The word under review is highlighted in the text so you always see it in context,
+and a counter shows how many are left. Start the pass any way you like:
+
+- the **command palette** (`⌘P`) → **Check spelling…**
+- **Edit → Check Spelling…** in the menu
+- the shortcut **⌘⇧L**
+- the spell-check button in the **status bar**
+
+The whole-document check uses φ's bundled dictionaries (English, Spanish, and
+French are built in), so it works even when your everyday engine is your operating
+system's checker. If the document's language has no dictionary installed, φ points
+you to **Settings → Language → Spelling** to add one.
+
 ## Choosing an engine
 
 Under **Settings → Language → Spelling** you pick how φ checks spelling:

@@ -12,6 +12,36 @@ dictionnaire** pour conserver le mot.
 
 Tout se trouve dans **Paramètres → Langue**.
 
+## Vérifier tout le document
+
+Lorsque vous préférez relire un brouillon terminé en une seule passe délibérée,
+lancez **Vérifier l'orthographe**. φ parcourt chaque faute dans l'ordre et, pour
+chacune, affiche un petit panneau avec des suggestions et vos choix — rien n'est
+jamais corrigé automatiquement :
+
+- **Remplacer** — remplacer ce mot par la suggestion (ou saisissez le vôtre dans le
+  champ).
+- **Tout remplacer** — corriger chaque occurrence du mot dans le document.
+- **Ignorer** / **Tout ignorer** — passer celle-ci, ou toutes les occurrences, pour
+  le reste de la passe.
+- **Ajouter au dictionnaire** — conserver le mot partout, maintenant et dans les
+  documents futurs.
+
+Le mot en cours de relecture est surligné dans le texte pour que vous le voyiez
+toujours en contexte, et un compteur indique combien il en reste. Lancez la passe
+comme bon vous semble :
+
+- la **palette de commandes** (`⌘P`) → **Vérifier l'orthographe…**
+- **Édition → Vérifier l'orthographe…** dans le menu
+- le raccourci **⌘⇧L**
+- le bouton d'orthographe dans la **barre d'état**
+
+La vérification de tout le document utilise les dictionnaires intégrés de φ
+(l'anglais, l'espagnol et le français sont inclus), elle fonctionne donc même
+lorsque votre moteur habituel est le correcteur de votre système d'exploitation.
+Si la langue du document n'a aucun dictionnaire installé, φ vous dirige vers
+**Paramètres → Langue → Orthographe** pour en ajouter un.
+
 ## Choisir un moteur
 
 Dans **Paramètres → Langue → Orthographe**, vous choisissez comment φ vérifie
