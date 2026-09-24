@@ -11,8 +11,8 @@ cuando no. Esta página cubre lo básico de la escritura: la página en sí, el
 guardado, la barra de selección, el menú de barra, las pestañas y el movimiento
 entre documentos.
 
-![Un capítulo abierto en el editor, con su panel a la derecha](/img/app/editor-light.png)
-![Un capítulo abierto en el editor, con su panel a la derecha](/img/app/editor-dark.png)
+<img src="/img/app/editor-light.png" alt="Un capítulo abierto en el editor, con su panel a la derecha" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/editor-dark.png" alt="Un capítulo abierto en el editor, con su panel a la derecha" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Título y descripción
 

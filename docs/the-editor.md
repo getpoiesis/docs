@@ -10,8 +10,8 @@ text — the controls appear when you reach for them and step back when you don'
 This page covers the basics of writing: the page itself, saving, the selection
 toolbar, the slash menu, tabs, and moving between documents.
 
-![A chapter open in the editor, with its panel on the right](/img/app/editor-light.png)
-![A chapter open in the editor, with its panel on the right](/img/app/editor-dark.png)
+<img src="/img/app/editor-light.png" alt="A chapter open in the editor, with its panel on the right" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/editor-dark.png" alt="A chapter open in the editor, with its panel on the right" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Title and description
 

@@ -11,8 +11,8 @@ essais, et les notes qui les nourrissent. Elle est d'abord conçue pour le
 **métier d'écrire** : une page calme et pleine largeur, un serif où l'on se sent
 chez soi, et une structure qui reste discrète jusqu'à ce que vous en ayez besoin.
 
-![Écrire : le travail en cours, les projets et le mois qui les précède](/img/app/write-home-light.png)
-![Écrire : le travail en cours, les projets et le mois qui les précède](/img/app/write-home-dark.png)
+<img src="/img/app/write-home-light.png" alt="Écrire : le travail en cours, les projets et le mois qui les précède" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/write-home-dark.png" alt="Écrire : le travail en cours, les projets et le mois qui les précède" width="1600" height="1048" loading="lazy" decoding="async" />
 
 :::warning φ est en alpha
 

@@ -10,6 +10,9 @@ où vous le mentionnez, puis vous montre ces connexions de deux façons — sous
 forme de liste à côté de la page, et sous forme de graphe de tout le coffre. Rien
 ne quitte votre Mac ; l’index des liens est construit et interrogé localement.
 
+<img src="/img/app/graph-light.png" alt="Le graphe d’un coffre : les documents et les liens entre eux" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/graph-dark.png" alt="Le graphe d’un coffre : les documents et les liens entre eux" width="1600" height="1048" loading="lazy" decoding="async" />
+
 ## Lier avec les `[[liens wiki]]`
 
 Pour lier à un autre document, tapez `[[` n’importe où dans le texte. Un petit
@@ -55,14 +58,16 @@ Le graphe est une carte de la manière dont votre coffre tient ensemble.
 Ouvrez-le depuis **Affichage → Aller à → Graphe** (`⌘G` puis `G`).
 
 Chaque **point** est un document, et chaque **trait** est un lien entre deux
-documents. Un point grossit légèrement à mesure que davantage de liens pointent
-vers lui, de sorte que vos pôles ressortent. Les documents sans aucun lien
-(orphelins) apparaissent estompés. Les pages du matin privées n’apparaissent
-jamais dans le graphe.
+documents. La taille d’un point augmente avec le nombre de liens, de sorte que vos
+pôles ressortent nettement. Les documents sans aucun lien (orphelins) apparaissent
+estompés. Les pages du matin privées n’apparaissent jamais dans le graphe.
 
 ### Lire et se déplacer
 
 - **Cliquez sur un point** pour ouvrir ce document.
+- **Survolez un point** pour le mettre en avant : le reste du graphe s’estompe,
+  les liens du document s’illuminent et les documents auxquels il se connecte
+  restent surlignés — une façon rapide de voir tout ce qu’une page touche.
 - **Faites défiler** pour zoomer ; **glissez** l’arrière-plan pour vous déplacer.
   Dézoomez pour une vue d’ensemble — les étiquettes s’effacent pour que vous
   voyiez la forme ; rezoomez et les titres reviennent.
@@ -70,8 +75,20 @@ jamais dans le graphe.
   jusqu’à ce que vous vous déplaciez ou zoomiez, après quoi elle reste en place.
 - La barre d’outils propose **Ajuster le graphe à la vue** pour tout recadrer,
   **Actualiser les liens** pour reconstruire à partir du contenu le plus récent,
-  et **Options du graphe** pour ajuster la disposition (distance des liens,
-  forces, taille des nœuds, affichage ou non des orphelins, et plus encore).
+  et **Options du graphe** pour ajuster l’aspect.
+
+### Options du graphe
+
+Ouvrez **Options du graphe** (l’icône de curseurs dans la barre d’outils) pour
+façonner le graphe :
+
+- **Afficher les orphelins** — masque ou affiche les documents sans liens.
+- **Taille des nœuds** et **Taille des étiquettes** — la taille des points et de
+  leurs titres.
+- **Estomper le texte** — avec quelle facilité les titres s’estompent quand vous
+  dézoomez.
+- **Forces** — la distance des liens et la poussée/attraction qui étale la
+  disposition, avec **Réinitialiser** pour revenir à l’aspect standard.
 
 ### Vous situer
 

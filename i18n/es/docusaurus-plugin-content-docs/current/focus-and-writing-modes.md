@@ -8,8 +8,8 @@ sidebar_position: 14
 Cuando llega el momento de escribir, la interfaz debería desaparecer. φ tiene varias
 maneras de aquietar la página — usa tanto o tan poco como quieras.
 
-![Modo concentración: las palabras y nada alrededor](/img/app/focus-light.png)
-![Modo concentración: las palabras y nada alrededor](/img/app/focus-dark.png)
+<img src="/img/app/focus-light.png" alt="Modo concentración: las palabras y nada alrededor" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Modo concentración: las palabras y nada alrededor" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Modo concentración
 

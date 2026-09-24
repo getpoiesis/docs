@@ -10,8 +10,8 @@ mot — ou en trouver un meilleur — sans quitter la page ni passer en ligne. I
 fonctionne comme le dictionnaire d’une liseuse : vous installez des *packs* de
 dictionnaire, et les recherches se font entièrement sur votre ordinateur.
 
-![Le dictionnaire, ouvert à côté du document](/img/app/dictionary-light.png)
-![Le dictionnaire, ouvert à côté du document](/img/app/dictionary-dark.png)
+<img src="/img/app/dictionary-light.png" alt="Le dictionnaire, ouvert à côté du document" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/dictionary-dark.png" alt="Le dictionnaire, ouvert à côté du document" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Rechercher un mot
 

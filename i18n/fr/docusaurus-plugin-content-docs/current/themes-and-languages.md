@@ -24,7 +24,9 @@ sombre)**, ou utilisez **Changer de thème** dans le menu Affichage.
 Un *thème de couleur* teinte l’interface — arrière-plans, texte, accents, la
 couleur des liens wiki, les couleurs de coloration syntaxique du code, etc. Le
 mode clair/sombre ci-dessus décide quel côté d’un thème s’applique ; le thème de
-couleur décide de la palette.
+couleur décide de la palette. Chaque thème de la liste affiche un petit aperçu —
+une maquette miniature de la fenêtre de φ — construit à partir de ses propres
+couleurs, pour que vous voyiez à quoi il ressemble avant de changer.
 
 ### Le thème φ intégré
 
@@ -32,27 +34,39 @@ couleur décide de la palette.
 blanc ou d’un noir pur. C’est le thème par défaut et il est marqué **Officiel**
 dans la liste. Il ne peut pas être retiré.
 
-### Installer un thème de la communauté
+### Installer des thèmes officiels
 
-Tout thème autre que Phi est un *thème de la communauté* — un petit fichier JSON
-que vous installez. Il vit en dehors de l’app, dans votre dossier de thèmes, de
-sorte qu’en ajouter ou en retirer un ne touche jamais à l’application
-elle-même.
+Le moyen le plus rapide d’ajouter un thème est depuis φ. Dans **Réglages →
+Apparence → Thème de couleur**, cliquez sur **Parcourir les thèmes officiels…**. φ
+affiche la galerie officielle — Nord, Dracula, Gruvbox et compagnie — chacun avec
+un petit aperçu tiré de ses propres couleurs. Cliquez sur **Installer** sur ceux
+qui vous plaisent.
 
-Pour en installer un :
+Installer ajoute le thème à votre liste **Thème de couleur** ; sélectionnez-le là
+pour l’appliquer. (Vous pouvez en prendre plusieurs — choisissez votre préféré
+ensuite.) Un thème déjà ajouté affiche **Installé**, et **Mettre à jour** récupère
+à nouveau sa dernière version.
+
+La galerie est mise en cache localement, de sorte qu’elle s’ouvre instantanément
+et continue de fonctionner hors ligne une fois chargée ; elle se rafraîchit
+discrètement au démarrage de φ et lorsque vous recherchez des mises à jour.
+
+### Installer un fichier de thème à la main
+
+Vous pouvez aussi installer un thème depuis un fichier — pratique pour un thème
+que vous avez créé vous-même ou qu’on vous a envoyé. Tout thème autre que Phi est
+un petit fichier JSON qui vit en dehors de l’app, dans votre dossier de thèmes, de
+sorte qu’en ajouter ou en retirer un ne touche jamais à l’application elle-même.
 
 1. Dans **Réglages → Apparence → Thème de couleur**, cliquez sur **Installer un
    thème…**.
 2. Sélectionnez le fichier `.json` du thème.
 
-Le thème apparaît dans la liste immédiatement et s’applique lorsque vous le
-sélectionnez. Pour voir où les thèmes sont conservés (par exemple pour y déposer
-un fichier à la main, ou pour les sauvegarder), cliquez sur **Ouvrir le dossier
-des thèmes**. Les fichiers que vous y placez sont pris en compte à la prochaine
-ouverture des Réglages.
-
-Retirez un thème de la communauté avec l’icône de corbeille à côté de lui ; son
-fichier est supprimé du dossier des thèmes.
+Pour voir où les thèmes sont conservés — pour y déposer un fichier à la main ou
+pour les sauvegarder — cliquez sur **Ouvrir le dossier des thèmes**. Les fichiers
+que vous y placez sont pris en compte à la prochaine ouverture des Réglages.
+Retirez n’importe quel thème de la communauté avec l’icône de corbeille à côté de
+lui ; son fichier est supprimé du dossier des thèmes.
 
 ### Comment fonctionnent les thèmes (et pourquoi ils sont sûrs)
 
@@ -66,20 +80,16 @@ une couleur.
 
 ### La galerie de thèmes
 
-Les thèmes de la communauté officiellement pris en charge vivent dans la
-**galerie de thèmes φ** :
+Les thèmes officiels proviennent de la **galerie de thèmes φ** — la même
+bibliothèque depuis laquelle installe le navigateur intégré :
 
 > **[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes)**
 
-C’est le foyer des palettes prêtes à l’emploi — Nord, Dracula et compagnie —
-empaquetées sous forme de fichiers de thème installables. Parcourez-la pour
-trouver une palette qui vous plaît, téléchargez le `.json` et installez-le comme
-ci-dessus.
-
 **Les contributions sont les bienvenues.** Vous avez créé un thème dont vous êtes
 fier ? Ouvrez une pull request vers la galerie et partagez-le — les thèmes bien
-faits sont ajoutés pour tout le monde. Le README du dépôt contient le (petit)
-format de fichier de thème et les consignes de contribution.
+faits sont ajoutés pour tout le monde, puis apparaissent dans le navigateur
+intégré pour tout le monde. Le README du dépôt contient le (petit) format de
+fichier de thème et les consignes de contribution.
 
 ## Langues
 

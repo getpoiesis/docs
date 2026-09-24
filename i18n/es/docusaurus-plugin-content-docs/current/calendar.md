@@ -10,8 +10,8 @@ escribiste, muestra tus rachas en la cuadrícula y te deja abrir o empezar el
 trabajo de un día desde un único lugar. También saca a la luz **recuerdos** — lo
 que creaste en esta fecha en años anteriores.
 
-![El calendario de φ: un año de días de escritura y el mes en detalle](/img/app/calendar-light.png)
-![El calendario de φ: un año de días de escritura y el mes en detalle](/img/app/calendar-dark.png)
+<img src="/img/app/calendar-light.png" alt="El calendario de φ: un año de días de escritura y el mes en detalle" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-dark.png" alt="El calendario de φ: un año de días de escritura y el mes en detalle" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Abrir el calendario
 

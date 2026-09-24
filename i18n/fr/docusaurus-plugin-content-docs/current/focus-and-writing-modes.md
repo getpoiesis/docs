@@ -9,8 +9,8 @@ Quand vient le moment d’écrire, l’interface devrait disparaître. φ propos
 plusieurs façons d’apaiser la page — utilisez-en autant ou aussi peu que vous le
 souhaitez.
 
-![Mode concentration : les mots, et rien autour](/img/app/focus-light.png)
-![Mode concentration : les mots, et rien autour](/img/app/focus-dark.png)
+<img src="/img/app/focus-light.png" alt="Mode concentration : les mots, et rien autour" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Mode concentration : les mots, et rien autour" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Mode concentration
 

@@ -8,8 +8,8 @@ sidebar_position: 13
 Your writing is saved continuously, and φ keeps a history so you can step back to
 any earlier draft. Nothing leaves your Mac unless you set up a remote yourself.
 
-![A document's history: named snapshots and automatic checkpoints](/img/app/versions-light.png)
-![A document's history: named snapshots and automatic checkpoints](/img/app/versions-dark.png)
+<img src="/img/app/versions-light.png" alt="A document's history: named snapshots and automatic checkpoints" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/versions-dark.png" alt="A document's history: named snapshots and automatic checkpoints" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## How saving works
 

@@ -10,8 +10,8 @@ shows your streaks on the grid, and lets you open or start a day's work from a
 single place. It also surfaces **memories** — what you made on this date in
 earlier years.
 
-![φ's calendar: a year of writing days and the month in detail](/img/app/calendar-light.png)
-![φ's calendar: a year of writing days and the month in detail](/img/app/calendar-dark.png)
+<img src="/img/app/calendar-light.png" alt="φ's calendar: a year of writing days and the month in detail" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-dark.png" alt="φ's calendar: a year of writing days and the month in detail" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Opening the calendar
 

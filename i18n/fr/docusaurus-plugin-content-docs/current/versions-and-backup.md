@@ -9,8 +9,8 @@ Votre écriture est enregistrée en continu, et φ conserve un historique pour q
 vous puissiez revenir à n’importe quel brouillon antérieur. Rien ne quitte votre
 Mac, à moins que vous ne configuriez vous-même un distant.
 
-![L’historique d’un document : instantanés nommés et points de contrôle automatiques](/img/app/versions-light.png)
-![L’historique d’un document : instantanés nommés et points de contrôle automatiques](/img/app/versions-dark.png)
+<img src="/img/app/versions-light.png" alt="L’historique d’un document : instantanés nommés et points de contrôle automatiques" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/versions-dark.png" alt="L’historique d’un document : instantanés nommés et points de contrôle automatiques" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Comment fonctionne l’enregistrement
 

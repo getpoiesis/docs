@@ -10,6 +10,9 @@ then shows you those connections two ways — as a list beside the page, and as 
 graph of the whole vault. Nothing leaves your Mac; the link index is built and
 queried locally.
 
+<img src="/img/app/graph-light.png" alt="The graph of a vault: documents and the links between them" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/graph-dark.png" alt="The graph of a vault: documents and the links between them" width="1600" height="1048" loading="lazy" decoding="async" />
+
 ## Linking with `[[wiki-links]]`
 
 To link to another document, type `[[` anywhere in the text. A small menu opens
@@ -52,20 +55,30 @@ The graph is a map of how your vault hangs together. Open it from
 **View → Go to → Graph** (`⌘G` then `G`).
 
 Each **dot** is a document, and each **line** is a link between two documents. A
-dot grows a little as more links point to it, so your hubs stand out. Documents
-with no links at all (orphans) appear dimmed. Private morning pages never appear
-in the graph.
+dot grows with the number of links pointing to it, so your hubs stand out clearly.
+Documents with no links at all (orphans) appear dimmed. Private morning pages
+never appear in the graph.
 
 ### Reading and moving around
 
 - **Click a dot** to open that document.
+- **Hover a dot** to focus it: the rest of the graph fades back, the document's
+  links light up, and the documents it connects to stay highlighted — a quick way
+  to see everything one page touches.
 - **Scroll** to zoom; **drag** the background to pan. Zoom out for an overview —
   labels fade away so you see the shape; zoom back in and titles return.
-- The layout arranges itself live and frames the whole graph for you until you
-  pan or zoom, after which it stays put.
 - The toolbar has **Fit graph to view** to re-frame everything, **Refresh links**
-  to rebuild from the latest content, and **Graph options** to tune the layout
-  (link distance, forces, node size, whether orphans show, and more).
+  to rebuild from the latest content, and **Graph options** to tune the look.
+
+### Graph options
+
+Open **Graph options** (the sliders icon in the toolbar) to shape the graph:
+
+- **Show orphans** — hide or show documents with no links.
+- **Node size** and **Label size** — how big the dots and their titles are.
+- **Text fade** — how readily titles fade as you zoom out.
+- **Forces** — link distance and the push/pull that spread the layout, with
+  **Reset to defaults** to get back to the standard look.
 
 ### Finding where you are
 

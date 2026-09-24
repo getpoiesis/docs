@@ -9,8 +9,8 @@ Las anotaciones te permiten marcar un pasaje y decir algo sobre él: un resaltad
 para señalarlo, un comentario al margen para recordar por qué. Viven con el
 documento, así que tus notas para ti mismo viajan con el borrador.
 
-![Un capítulo con dos resaltados y sus notas, junto a una nota al margen](/img/app/annotations-light.png)
-![Un capítulo con dos resaltados y sus notas, junto a una nota al margen](/img/app/annotations-dark.png)
+<img src="/img/app/annotations-light.png" alt="Un capítulo con dos resaltados y sus notas, junto a una nota al margen" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/annotations-dark.png" alt="Un capítulo con dos resaltados y sus notas, junto a una nota al margen" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Resaltar un pasaje
 

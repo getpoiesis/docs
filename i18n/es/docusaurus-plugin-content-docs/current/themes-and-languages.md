@@ -24,6 +24,9 @@ comandos (`⌘P`) y elige **Cambiar tema (sistema / claro / oscuro)**, o usa
 Un *tema de color* tinta la interfaz — fondos, texto, acentos, el color de los
 enlaces wiki, los colores de sintaxis del código, etc. El modo claro/oscuro de
 arriba decide qué lado de un tema se aplica; el tema de color decide la paleta.
+Cada tema de la lista muestra una pequeña vista previa —una mini maqueta de la
+ventana de φ— construida con sus propios colores, para que veas cómo se ve antes
+de cambiar.
 
 ### El tema φ integrado
 
@@ -31,24 +34,37 @@ arriba decide qué lado de un tema se aplica; el tema de color decide la paleta.
 negro puro. Es el predeterminado y está marcado como **Oficial** en la lista. No
 se puede quitar.
 
-### Instalar un tema de la comunidad
+### Instalar temas oficiales
 
-Todo tema que no sea Phi es un *tema de la comunidad* — un pequeño archivo JSON que
-instalas. Vive fuera de la app, en tu carpeta de temas, así que añadir o quitar
-uno nunca toca la aplicación en sí.
+La forma más rápida de añadir un tema es desde dentro de φ. En **Ajustes →
+Apariencia → Tema de color**, haz clic en **Explorar temas oficiales…**. φ muestra
+la galería oficial —Nord, Dracula, Gruvbox y compañía— cada uno con una pequeña
+vista previa hecha con sus propios colores. Haz clic en **Instalar** en los que te
+gusten.
 
-Para instalar uno:
+Instalar añade el tema a tu lista de **Tema de color**; selecciónalo ahí para
+aplicarlo. (No pasa nada por coger varios — elige tu favorito después.) Un tema ya
+añadido muestra **Instalado**, y **Actualizar** vuelve a obtener su última versión.
+
+La galería se guarda localmente en caché, así que se abre al instante y sigue
+funcionando sin conexión una vez cargada; se actualiza en silencio cuando φ se
+inicia y cuando buscas actualizaciones.
+
+### Instalar un archivo de tema a mano
+
+También puedes instalar un tema desde un archivo — útil para uno que hiciste tú
+mismo o que te enviaron. Todo tema que no sea Phi es un pequeño archivo JSON que
+vive fuera de la app, en tu carpeta de temas, así que añadir o quitar uno nunca
+toca la aplicación en sí.
 
 1. En **Ajustes → Apariencia → Tema de color**, haz clic en **Instalar tema…**.
 2. Selecciona el archivo `.json` del tema.
 
-El tema aparece en la lista de inmediato y se aplica cuando lo seleccionas. Para
-ver dónde se guardan los temas (por ejemplo, para colocar un archivo a mano, o
-para respaldarlos), haz clic en **Abrir carpeta de temas**. Los archivos que
-coloques ahí se detectan la próxima vez que abras los Ajustes.
-
-Quita un tema de la comunidad con el icono de la papelera junto a él; su archivo
-se elimina de la carpeta de temas.
+Para ver dónde se guardan los temas —para colocar un archivo a mano o para
+respaldarlos— haz clic en **Abrir carpeta de temas**. Los archivos que coloques
+ahí se detectan la próxima vez que abras los Ajustes. Quita cualquier tema de la
+comunidad con el icono de la papelera junto a él; su archivo se elimina de la
+carpeta de temas.
 
 ### Cómo funcionan los temas (y por qué son seguros)
 
@@ -61,19 +77,16 @@ no puede hacer nada más allá de cambiar un color.
 
 ### La galería de temas
 
-Los temas de la comunidad con soporte oficial viven en la **galería de temas de
-φ**:
+Los temas oficiales provienen de la **galería de temas de φ** — la misma
+biblioteca desde la que instala el explorador integrado:
 
 > **[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes)**
 
-Es el hogar de las paletas ya hechas — Nord, Dracula y compañía — empaquetadas
-como archivos de tema instalables. Explórala para encontrar una paleta que te
-guste, descarga el `.json` e instálalo como se indicó arriba.
-
 **Las contribuciones son bienvenidas.** ¿Hiciste un tema del que estás orgulloso?
 Abre una pull request a la galería y compártelo — los temas bien hechos se añaden
-para todos. El README del repositorio tiene el (pequeño) formato de archivo de
-tema y las pautas de contribución.
+para todos, y luego aparecen en el explorador integrado para todos. El README del
+repositorio tiene el (pequeño) formato de archivo de tema y las pautas de
+contribución.
 
 ## Idiomas
 

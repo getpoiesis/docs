@@ -108,8 +108,11 @@ PDF you can print or send. The PDF is built to book conventions:
   **as a new vault**. φ keeps each note's **original creation date** — from a date
   in the file, a journal/daily filename (Logseq's `2022_11_11`), or the source's
   git history — so your timeline survives the move. It also reconnects the
-  **`[[link]]` graph**, including Logseq namespaced pages, so backlinks and the
-  graph view work on the imported vault right away.
+  **`[[link]]` graph** — decoding Logseq's encoded filenames (namespaced pages and
+  special characters like `:` or `&`), honoring `title::` and `alias::` page
+  properties so a page is found by its real name and any alias, and treating
+  `#tags` as page links — so backlinks and the graph view work on the imported
+  vault right away.
 
 ## See also
 

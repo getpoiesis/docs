@@ -10,6 +10,9 @@ momento en que lo mencionas, y luego te muestra esas conexiones de dos formas:
 como una lista junto a la página y como un grafo de toda la bóveda. Nada sale de
 tu Mac; el índice de enlaces se construye y se consulta localmente.
 
+<img src="/img/app/graph-light.png" alt="El grafo de una bóveda: documentos y los enlaces entre ellos" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/graph-dark.png" alt="El grafo de una bóveda: documentos y los enlaces entre ellos" width="1600" height="1048" loading="lazy" decoding="async" />
+
 ## Enlazar con `[[wiki-links]]`
 
 Para enlazar a otro documento, escribe `[[` en cualquier parte del texto. Se abre
@@ -53,13 +56,16 @@ El grafo es un mapa de cómo se entrelaza tu bóveda. Ábrelo desde
 **Ver → Ir a → Grafo** (`⌘G` y luego `G`).
 
 Cada **punto** es un documento, y cada **línea** es un enlace entre dos
-documentos. Un punto crece un poco a medida que más enlaces apuntan a él, así que
-tus centros destacan. Los documentos sin ningún enlace (huérfanos) aparecen
-atenuados. Las páginas matinales privadas nunca aparecen en el grafo.
+documentos. El tamaño de un punto crece con la cantidad de enlaces, así que tus
+centros destacan con claridad. Los documentos sin ningún enlace (huérfanos)
+aparecen atenuados. Las páginas matinales privadas nunca aparecen en el grafo.
 
 ### Leer y desplazarse
 
 - **Haz clic en un punto** para abrir ese documento.
+- **Pasa el cursor sobre un punto** para enfocarlo: el resto del grafo se atenúa,
+  los enlaces del documento se iluminan y los documentos con los que se conecta
+  permanecen resaltados — una forma rápida de ver todo lo que toca una página.
 - **Desplázate** para acercar o alejar; **arrastra** el fondo para moverte. Aleja
   para tener una visión general —las etiquetas se desvanecen para que veas la
   forma— y vuelve a acercarte para que regresen los títulos.
@@ -67,8 +73,19 @@ atenuados. Las páginas matinales privadas nunca aparecen en el grafo.
   que mueves o haces zoom, momento en el que se queda fija.
 - La barra de herramientas tiene **Ajustar el grafo a la vista** para reencuadrar
   todo, **Actualizar enlaces** para reconstruir desde el contenido más reciente, y
-  **Opciones del grafo** para afinar la disposición (distancia de enlace, fuerzas,
-  tamaño de nodo, si se muestran los huérfanos y más).
+  **Opciones del grafo** para afinar el aspecto.
+
+### Opciones del grafo
+
+Abre **Opciones del grafo** (el icono de deslizadores en la barra de herramientas)
+para dar forma al grafo:
+
+- **Mostrar huérfanos** — oculta o muestra los documentos sin enlaces.
+- **Tamaño de nodo** y **Tamaño de etiqueta** — cómo de grandes son los puntos y
+  sus títulos.
+- **Desvanecer texto** — con qué facilidad se desvanecen los títulos al alejar.
+- **Fuerzas** — la distancia de enlace y el empuje/atracción que dispersa la
+  disposición, con **Restablecer valores** para volver al aspecto estándar.
 
 ### Saber dónde estás
 

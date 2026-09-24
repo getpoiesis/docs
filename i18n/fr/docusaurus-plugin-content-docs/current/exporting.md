@@ -126,8 +126,12 @@ construit selon les conventions du livre :
   d’une date dans le fichier, du nom d’un journal ou d’une note quotidienne (le
   `2022_11_11` de Logseq) ou de l’historique git de la source — pour que votre
   chronologie survive au déplacement. Il reconnecte aussi le **graphe de liens
-  `[[...]]`**, y compris les pages à espaces de noms de Logseq, pour que les
-  rétroliens et la vue graphe fonctionnent immédiatement sur le coffre importé.
+  `[[...]]`** — en décodant les noms de fichier encodés de Logseq (pages à espaces
+  de noms et caractères spéciaux comme `:` ou `&`), en respectant les propriétés
+  de page `title::` et `alias::` (une page est trouvée par son vrai nom et par
+  n’importe quel alias), et en traitant les `#tags` comme des liens de page — pour
+  que les rétroliens et la vue graphe fonctionnent immédiatement sur le coffre
+  importé.
 
 ## Voir aussi
 

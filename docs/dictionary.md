@@ -10,8 +10,8 @@ better one — without leaving the page or going online. It works the way an
 e-reader's dictionary does: you install dictionary *packs*, and lookups happen
 entirely on your computer.
 
-![The dictionary, open beside the document](/img/app/dictionary-light.png)
-![The dictionary, open beside the document](/img/app/dictionary-dark.png)
+<img src="/img/app/dictionary-light.png" alt="The dictionary, open beside the document" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/dictionary-dark.png" alt="The dictionary, open beside the document" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Looking up a word
 

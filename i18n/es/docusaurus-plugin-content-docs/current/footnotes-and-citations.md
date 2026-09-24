@@ -11,8 +11,8 @@ incorporado. Las notas al pie y las citas forman parte del documento, así que
 sobreviven a cada exportación y aterrizan en el lugar correcto del libro
 terminado.
 
-![Marcas de nota al pie en la prosa, listadas en el panel contiguo](/img/app/footnotes-light.png)
-![Marcas de nota al pie en la prosa, listadas en el panel contiguo](/img/app/footnotes-dark.png)
+<img src="/img/app/footnotes-light.png" alt="Marcas de nota al pie en la prosa, listadas en el panel contiguo" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-dark.png" alt="Marcas de nota al pie en la prosa, listadas en el panel contiguo" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Notas al pie
 

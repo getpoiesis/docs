@@ -11,8 +11,8 @@ nativement. Les notes de bas de page et les citations font partie du document,
 elles survivent donc à chaque export et atterrissent au bon endroit dans le livre
 fini.
 
-![Des appels de note dans la prose, listés dans le panneau à côté](/img/app/footnotes-light.png)
-![Des appels de note dans la prose, listés dans le panneau à côté](/img/app/footnotes-dark.png)
+<img src="/img/app/footnotes-light.png" alt="Des appels de note dans la prose, listés dans le panneau à côté" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-dark.png" alt="Des appels de note dans la prose, listés dans le panneau à côté" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Notes de bas de page
 

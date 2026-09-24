@@ -120,9 +120,12 @@ construye según las convenciones del libro:
   la **fecha de creación original** de cada nota — a partir de una fecha en el
   archivo, del nombre de un diario o entrada diaria (el `2022_11_11` de Logseq) o
   del historial de git del origen — para que tu cronología sobreviva al traslado.
-  También reconecta el **grafo de enlaces `[[...]]`**, incluidas las páginas con
-  espacios de nombres de Logseq, para que los retroenlaces y la vista de grafo
-  funcionen de inmediato en la bóveda importada.
+  También reconecta el **grafo de enlaces `[[...]]`** — decodificando los nombres
+  de archivo codificados de Logseq (páginas con espacios de nombres y caracteres
+  especiales como `:` o `&`), respetando las propiedades de página `title::` y
+  `alias::` (una página se encuentra por su nombre real y por cualquier alias), y
+  tratando las `#etiquetas` como enlaces de página — para que los retroenlaces y la
+  vista de grafo funcionen de inmediato en la bóveda importada.
 
 ## Véase también
 

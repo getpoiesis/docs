@@ -8,8 +8,8 @@ sidebar_position: 20
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-![La búsqueda alcanza documentos, días del diario y notas a la vez](/img/app/palette-light.png)
-![La búsqueda alcanza documentos, días del diario y notas a la vez](/img/app/palette-dark.png)
+<img src="/img/app/palette-light.png" alt="La búsqueda alcanza documentos, días del diario y notas a la vez" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/palette-dark.png" alt="La búsqueda alcanza documentos, días del diario y notas a la vez" width="1600" height="1048" loading="lazy" decoding="async" />
 
 φ está diseñado para mantener tus manos en el teclado. Las tablas de abajo
 muestran las teclas tal como aparecen en **macOS**; en **Windows y Linux** los

@@ -10,8 +10,8 @@ entrées datées que vous gardez et revisitez. Les **pages du matin** sont la
 pratique privée du « écrire et lâcher prise ». Toutes deux alimentent une
 **série d’écriture**, pour que votre régularité soit visible et gratifiante.
 
-![Le journal : un jour après l’autre, le plus récent en premier](/img/app/journal-light.png)
-![Le journal : un jour après l’autre, le plus récent en premier](/img/app/journal-dark.png)
+<img src="/img/app/journal-light.png" alt="Le journal : un jour après l’autre, le plus récent en premier" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/journal-dark.png" alt="Le journal : un jour après l’autre, le plus récent en premier" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## L’espace Journal
 

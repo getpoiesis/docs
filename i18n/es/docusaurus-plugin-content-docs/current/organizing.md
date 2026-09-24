@@ -10,8 +10,8 @@ estructura ligera —espacios, carpetas, etiquetas y búsqueda— para que pueda
 encontrar cualquier cosa sin imponer nunca más orden del que quieras. Nada de
 esto cambia cómo se escribe un documento; solo cambia cómo llegas a él.
 
-![Notas: tareas abiertas, las palabras clave que usas y lo que has fijado](/img/app/notes-light.png)
-![Notas: tareas abiertas, las palabras clave que usas y lo que has fijado](/img/app/notes-dark.png)
+<img src="/img/app/notes-light.png" alt="Notas: tareas abiertas, las palabras clave que usas y lo que has fijado" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/notes-dark.png" alt="Notas: tareas abiertas, las palabras clave que usas y lo que has fijado" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## El riel izquierdo: tres espacios
 

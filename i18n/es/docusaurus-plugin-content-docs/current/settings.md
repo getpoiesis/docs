@@ -10,8 +10,8 @@ buscar. Abre los Ajustes con `⌘,` (o **Preferencias…** en el menú de la app
 columna a la izquierda enumera las categorías; elige una y sus opciones aparecen
 a la derecha.
 
-![Ajustes](/img/app/settings-light.png)
-![Ajustes](/img/app/settings-dark.png)
+<img src="/img/app/settings-light.png" alt="Ajustes" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/settings-dark.png" alt="Ajustes" width="1600" height="1048" loading="lazy" decoding="async" />
 
 Las categorías son **Apariencia**, **Editor**, **Perfiles**, **Versiones**,
 **Bóveda**, **Plantillas** y **Datos**.

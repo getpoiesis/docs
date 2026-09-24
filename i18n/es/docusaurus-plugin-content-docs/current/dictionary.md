@@ -10,8 +10,8 @@ una palabra — o encontrar una mejor — sin salir de la página ni conectarte.
 como el diccionario de un lector electrónico: instalas *paquetes* de diccionario, y
 las búsquedas ocurren por completo en tu equipo.
 
-![El diccionario, abierto junto al documento](/img/app/dictionary-light.png)
-![El diccionario, abierto junto al documento](/img/app/dictionary-dark.png)
+<img src="/img/app/dictionary-light.png" alt="El diccionario, abierto junto al documento" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/dictionary-dark.png" alt="El diccionario, abierto junto al documento" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Buscar una palabra
 

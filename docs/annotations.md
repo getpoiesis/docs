@@ -9,8 +9,8 @@ Annotations let you mark a passage and say something about it — a highlight to
 flag it, a margin comment to remember why. They live with the document, so your
 notes to yourself travel with the draft.
 
-![A chapter with two highlights and the notes on them, beside a margin note](/img/app/annotations-light.png)
-![A chapter with two highlights and the notes on them, beside a margin note](/img/app/annotations-dark.png)
+<img src="/img/app/annotations-light.png" alt="A chapter with two highlights and the notes on them, beside a margin note" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/annotations-dark.png" alt="A chapter with two highlights and the notes on them, beside a margin note" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Highlighting a passage
 

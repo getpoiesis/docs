@@ -11,8 +11,8 @@ ensayos y las notas que los alimentan. Está hecha ante todo para el **oficio de
 escribir**: una página serena y a sangre completa, una serif en la que puedes
 habitar y una estructura que se mantiene al margen hasta que la necesitas.
 
-![Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos](/img/app/write-home-light.png)
-![Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos](/img/app/write-home-dark.png)
+<img src="/img/app/write-home-light.png" alt="Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/write-home-dark.png" alt="Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos" width="1600" height="1048" loading="lazy" decoding="async" />
 
 :::warning φ está en alfa
 

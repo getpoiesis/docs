@@ -11,8 +11,8 @@ ou de commencer le travail d’un jour depuis un seul endroit. Il fait aussi
 apparaître des **souvenirs** — ce que vous avez créé à cette date les années
 précédentes.
 
-![Le calendrier de φ : une année de jours d’écriture et le mois en détail](/img/app/calendar-light.png)
-![Le calendrier de φ : une année de jours d’écriture et le mois en détail](/img/app/calendar-dark.png)
+<img src="/img/app/calendar-light.png" alt="Le calendrier de φ : une année de jours d’écriture et le mois en détail" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-dark.png" alt="Le calendrier de φ : une année de jours d’écriture et le mois en détail" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Ouvrir le calendrier
 

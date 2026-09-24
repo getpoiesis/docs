@@ -10,8 +10,8 @@ fechadas que conservas y vuelves a visitar. Las **páginas matutinas** son la
 práctica privada de escribir y soltar. Ambos alimentan una **racha de escritura**
 para que presentarte cada día sea visible y gratificante.
 
-![El diario: un día tras otro, el más reciente primero](/img/app/journal-light.png)
-![El diario: un día tras otro, el más reciente primero](/img/app/journal-dark.png)
+<img src="/img/app/journal-light.png" alt="El diario: un día tras otro, el más reciente primero" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/journal-dark.png" alt="El diario: un día tras otro, el más reciente primero" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## El espacio del Diario
 

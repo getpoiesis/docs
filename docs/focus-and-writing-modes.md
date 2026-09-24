@@ -8,8 +8,8 @@ sidebar_position: 14
 When it's time to write, the interface should disappear. φ has a few ways to
 quiet the page — use as much or as little as you like.
 
-![Focus mode: the words, and nothing around them](/img/app/focus-light.png)
-![Focus mode: the words, and nothing around them](/img/app/focus-dark.png)
+<img src="/img/app/focus-light.png" alt="Focus mode: the words, and nothing around them" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Focus mode: the words, and nothing around them" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Focus mode
 

@@ -10,8 +10,8 @@ spaces, folders, tags, and search — so you can find anything without ever
 imposing more order than you want. Nothing here changes how a document is
 written; it only changes how you reach it.
 
-![Notes: open action items, the keywords you use, and what you pinned](/img/app/notes-light.png)
-![Notes: open action items, the keywords you use, and what you pinned](/img/app/notes-dark.png)
+<img src="/img/app/notes-light.png" alt="Notes: open action items, the keywords you use, and what you pinned" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/notes-dark.png" alt="Notes: open action items, the keywords you use, and what you pinned" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## The left rail: three spaces
 

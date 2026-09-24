@@ -10,8 +10,8 @@ escritura — y tú eliges cuál, por bóveda, con un **perfil de escritura**. U
 decide *qué funciones se muestran*. Nunca cambia lo que φ puede hacer ni toca tu
 trabajo; ocultar una función solo la aparta.
 
-![Perfiles de autor: la firma con la que se publica una obra](/img/app/authors-light.png)
-![Perfiles de autor: la firma con la que se publica una obra](/img/app/authors-dark.png)
+<img src="/img/app/authors-light.png" alt="Perfiles de autor: la firma con la que se publica una obra" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/authors-dark.png" alt="Perfiles de autor: la firma con la que se publica una obra" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Los dos perfiles integrados
 

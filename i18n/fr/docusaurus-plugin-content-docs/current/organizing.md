@@ -11,8 +11,8 @@ puissiez retrouver n’importe quoi sans jamais imposer plus d’ordre que vous 
 voulez. Rien ici ne change la façon dont un document est écrit ; cela change
 seulement la manière de l’atteindre.
 
-![Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé](/img/app/notes-light.png)
-![Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé](/img/app/notes-dark.png)
+<img src="/img/app/notes-light.png" alt="Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/notes-dark.png" alt="Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Le rail de gauche : trois espaces
 

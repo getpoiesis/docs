@@ -10,8 +10,8 @@ choose which, per vault, with a **writer profile**. A profile decides *which
 features are shown*. It never changes what φ can do and never touches your work;
 hiding a feature simply tidies it out of the way.
 
-![Author profiles — the byline a work is published under](/img/app/authors-light.png)
-![Author profiles — the byline a work is published under](/img/app/authors-dark.png)
+<img src="/img/app/authors-light.png" alt="Author profiles — the byline a work is published under" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/authors-dark.png" alt="Author profiles — the byline a work is published under" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## The two built-in profiles
 

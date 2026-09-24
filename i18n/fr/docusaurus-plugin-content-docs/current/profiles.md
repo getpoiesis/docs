@@ -11,8 +11,8 @@ d’écriture**. Un profil décide *quelles fonctions sont affichées*. Il ne ch
 jamais ce que φ sait faire et ne touche jamais à votre travail ; masquer une
 fonction ne fait que l’écarter.
 
-![Profils d’auteur — la signature sous laquelle une œuvre paraît](/img/app/authors-light.png)
-![Profils d’auteur — la signature sous laquelle une œuvre paraît](/img/app/authors-dark.png)
+<img src="/img/app/authors-light.png" alt="Profils d’auteur — la signature sous laquelle une œuvre paraît" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/authors-dark.png" alt="Profils d’auteur — la signature sous laquelle une œuvre paraît" width="1600" height="1048" loading="lazy" decoding="async" />
 
 ## Les deux profils intégrés
 

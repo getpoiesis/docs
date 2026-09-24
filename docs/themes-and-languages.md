@@ -23,7 +23,9 @@ palette (`⌘P`) and choose **Cycle theme (system / light / dark)**, or use
 
 A *color theme* tints the interface — backgrounds, text, accents, the wiki-link
 color, code syntax colors, and so on. The light/dark mode above decides which
-side of a theme applies; the color theme decides the palette.
+side of a theme applies; the color theme decides the palette. Each theme in the
+list shows a small preview — a tiny mock of the φ window — built from its own
+colors, so you can see what it looks like before switching.
 
 ### The built-in φ theme
 
@@ -31,24 +33,35 @@ side of a theme applies; the color theme decides the palette.
 black page. It's the default and is marked **Official** in the list. It can't
 be removed.
 
-### Installing a community theme
+### Installing official themes
 
-Every theme other than Phi is a *community theme* — a small JSON file you
-install. It lives outside the app, in your themes folder, so adding or removing
-one never touches the application itself.
+The quickest way to add a theme is from within φ. In **Settings → Appearance →
+Color theme**, click **Browse official themes…**. φ shows the official gallery —
+Nord, Dracula, Gruvbox, and friends — each with a small preview drawn from its own
+colors. Click **Install** on any you like.
 
-To install one:
+Installing adds the theme to your **Color theme** list; select it there to apply
+it. (Grabbing several is fine — pick your favorite afterward.) An already-added
+theme shows **Installed**, and **Update** re-fetches its latest version.
+
+The gallery is cached locally, so it opens instantly and keeps working offline
+once it has loaded; it refreshes quietly when φ starts and when you check for
+updates.
+
+### Installing a theme file by hand
+
+You can also install a theme from a file — handy for one you made yourself or
+were sent. Every theme other than Phi is a small JSON file that lives outside the
+app, in your themes folder, so adding or removing one never touches the
+application itself.
 
 1. In **Settings → Appearance → Color theme**, click **Install theme…**.
 2. Select the theme's `.json` file.
 
-The theme appears in the list right away and applies when you select it. To see
-where themes are kept (for example to drop a file in by hand, or to back them
-up), click **Open themes folder**. Files you place there are picked up the next
-time you open Settings.
-
-Remove a community theme with the trash icon next to it; its file is deleted
-from the themes folder.
+To see where themes are kept — to drop a file in by hand or back them up — click
+**Open themes folder**. Files you place there are picked up the next time you open
+Settings. Remove any community theme with the trash icon next to it; its file is
+deleted from the themes folder.
 
 ### How themes work (and why they're safe)
 
@@ -60,17 +73,15 @@ installed, so an untrusted theme file can't do anything beyond changing a color.
 
 ### The themes gallery
 
-Officially supported community themes live in the **φ themes gallery**:
+The official themes come from the **φ themes gallery** — the same library the
+in-app browser installs from:
 
 > **[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes)**
 
-It's the home for ready-made palettes — Nord, Dracula, and friends — packaged as
-installable theme files. Browse it for a palette you like, download the `.json`,
-and install it as above.
-
 **Contributions are welcome.** Made a theme you're proud of? Open a pull request
-to the gallery and share it — well-made themes are added for everyone. The repo's
-README has the (small) theme-file format and the contribution guidelines.
+to the gallery and share it — well-made themes are added for everyone, and then
+show up in the in-app browser for everyone. The repo's README has the (small)
+theme-file format and the contribution guidelines.
 
 ## Languages
 
