@@ -10,6 +10,9 @@ credited in the text, a reference list at the back — φ has it built in. Footn
 and citations are part of the document, so they survive every export and land in
 the right place in the finished book.
 
+![Footnote markers in the prose, listed in the panel beside it](/img/app/footnotes-light.png)
+![Footnote markers in the prose, listed in the panel beside it](/img/app/footnotes-dark.png)
+
 ## Footnotes
 
 A footnote is a small numbered marker in your text with a note attached. The

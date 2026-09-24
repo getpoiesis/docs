@@ -10,6 +10,9 @@ better one — without leaving the page or going online. It works the way an
 e-reader's dictionary does: you install dictionary *packs*, and lookups happen
 entirely on your computer.
 
+![The dictionary, open beside the document](/img/app/dictionary-light.png)
+![The dictionary, open beside the document](/img/app/dictionary-dark.png)
+
 ## Looking up a word
 
 There are three ways to look something up:

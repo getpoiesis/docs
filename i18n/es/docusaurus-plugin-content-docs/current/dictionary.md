@@ -10,6 +10,9 @@ una palabra — o encontrar una mejor — sin salir de la página ni conectarte.
 como el diccionario de un lector electrónico: instalas *paquetes* de diccionario, y
 las búsquedas ocurren por completo en tu equipo.
 
+![El diccionario, abierto junto al documento](/img/app/dictionary-light.png)
+![El diccionario, abierto junto al documento](/img/app/dictionary-dark.png)
+
 ## Buscar una palabra
 
 Hay tres formas de buscar algo:

@@ -10,6 +10,9 @@ escritura — y tú eliges cuál, por bóveda, con un **perfil de escritura**. U
 decide *qué funciones se muestran*. Nunca cambia lo que φ puede hacer ni toca tu
 trabajo; ocultar una función solo la aparta.
 
+![Perfiles de autor: la firma con la que se publica una obra](/img/app/authors-light.png)
+![Perfiles de autor: la firma con la que se publica una obra](/img/app/authors-dark.png)
+
 ## Los dos perfiles integrados
 
 - **Sencillo** — solo tú y la página. El editor y el formato básicos, las

@@ -8,8 +8,8 @@ sidebar_position: 20
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-![Search reaches documents, journal days and notes at once](/img/app/search-light.png)
-![Search reaches documents, journal days and notes at once](/img/app/search-dark.png)
+![Search reaches documents, journal days and notes at once](/img/app/palette-light.png)
+![Search reaches documents, journal days and notes at once](/img/app/palette-dark.png)
 
 φ is built to keep your hands on the keyboard. The tables below list the keys as
 they appear on **macOS**; on **Windows and Linux** the modifiers map straight

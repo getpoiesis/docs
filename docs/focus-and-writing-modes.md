@@ -8,6 +8,9 @@ sidebar_position: 14
 When it's time to write, the interface should disappear. φ has a few ways to
 quiet the page — use as much or as little as you like.
 
+![Focus mode: the words, and nothing around them](/img/app/focus-light.png)
+![Focus mode: the words, and nothing around them](/img/app/focus-dark.png)
+
 ## Focus mode
 
 Focus mode hides every piece of chrome — sidebar, panels, status bar — leaving

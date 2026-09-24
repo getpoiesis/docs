@@ -11,6 +11,9 @@ nativement. Les notes de bas de page et les citations font partie du document,
 elles survivent donc à chaque export et atterrissent au bon endroit dans le livre
 fini.
 
+![Des appels de note dans la prose, listés dans le panneau à côté](/img/app/footnotes-light.png)
+![Des appels de note dans la prose, listés dans le panneau à côté](/img/app/footnotes-dark.png)
+
 ## Notes de bas de page
 
 Une note de bas de page est un petit repère numéroté dans votre texte, assorti

@@ -11,6 +11,9 @@ d’écriture**. Un profil décide *quelles fonctions sont affichées*. Il ne ch
 jamais ce que φ sait faire et ne touche jamais à votre travail ; masquer une
 fonction ne fait que l’écarter.
 
+![Profils d’auteur — la signature sous laquelle une œuvre paraît](/img/app/authors-light.png)
+![Profils d’auteur — la signature sous laquelle une œuvre paraît](/img/app/authors-dark.png)
+
 ## Les deux profils intégrés
 
 - **Simple** — juste vous et la page. L’éditeur et la mise en forme de base, les

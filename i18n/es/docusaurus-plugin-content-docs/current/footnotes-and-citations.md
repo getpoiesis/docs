@@ -11,6 +11,9 @@ incorporado. Las notas al pie y las citas forman parte del documento, así que
 sobreviven a cada exportación y aterrizan en el lugar correcto del libro
 terminado.
 
+![Marcas de nota al pie en la prosa, listadas en el panel contiguo](/img/app/footnotes-light.png)
+![Marcas de nota al pie en la prosa, listadas en el panel contiguo](/img/app/footnotes-dark.png)
+
 ## Notas al pie
 
 Una nota al pie es un pequeño marcador numerado en tu texto con una nota

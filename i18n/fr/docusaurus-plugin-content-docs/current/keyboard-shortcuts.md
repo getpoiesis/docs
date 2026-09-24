@@ -8,8 +8,8 @@ sidebar_position: 20
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-![La recherche atteint documents, jours de journal et notes à la fois](/img/app/search-light.png)
-![La recherche atteint documents, jours de journal et notes à la fois](/img/app/search-dark.png)
+![La recherche atteint documents, jours de journal et notes à la fois](/img/app/palette-light.png)
+![La recherche atteint documents, jours de journal et notes à la fois](/img/app/palette-dark.png)
 
 φ est conçu pour garder vos mains sur le clavier. Les tableaux ci-dessous
 indiquent les touches telles qu’elles apparaissent sur **macOS** ; sur **Windows

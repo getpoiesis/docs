@@ -10,6 +10,9 @@ chose — un surlignage pour le signaler, un commentaire en marge pour vous
 rappeler pourquoi. Elles vivent avec le document, de sorte que vos notes pour
 vous-même voyagent avec le brouillon.
 
+![Un chapitre avec deux surlignages et leurs notes, à côté d’une note en marge](/img/app/annotations-light.png)
+![Un chapitre avec deux surlignages et leurs notes, à côté d’une note en marge](/img/app/annotations-dark.png)
+
 ## Surligner un passage
 
 Sélectionnez du texte. La barre d’outils flottante apparaît ; cliquez sur l’icône

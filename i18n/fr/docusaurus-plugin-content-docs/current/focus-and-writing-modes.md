@@ -9,6 +9,9 @@ Quand vient le moment d’écrire, l’interface devrait disparaître. φ propos
 plusieurs façons d’apaiser la page — utilisez-en autant ou aussi peu que vous le
 souhaitez.
 
+![Mode concentration : les mots, et rien autour](/img/app/focus-light.png)
+![Mode concentration : les mots, et rien autour](/img/app/focus-dark.png)
+
 ## Mode concentration
 
 Le mode concentration masque tout l’habillage — barre latérale, panneaux, barre
