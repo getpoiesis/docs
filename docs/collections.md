@@ -132,8 +132,10 @@ Some pages of a book aren't chapters — a dedication, a foreword, an
 acknowledgments page, an appendix. Mark any item as **Front / back matter** to
 make it *unnumbered*: it shows by its own name and takes no number, so your real
 chapters still start at 1. Marking a group as unnumbered cascades to everything
-inside it. Exports honor this — front matter appears unnumbered in the table of
-contents and the compiled document.
+inside it. This holds everywhere φ names a chapter — the document's own panel,
+the breadcrumb above it, the project's contents and totals, the table of
+contents and every export — so a book with a dedication and an epigraph in
+front of it still opens on Chapter 1.
 
 ## Table of contents
 

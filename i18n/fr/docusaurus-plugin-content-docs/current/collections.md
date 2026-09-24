@@ -144,8 +144,10 @@ une page de remerciements, une annexe. Marquez n’importe quel élément comme
 **Pages liminaires / finales** pour le rendre *sans numéro* : il s’affiche sous
 son propre nom et ne prend aucun numéro, de sorte que vos véritables chapitres
 commencent toujours à 1. Marquer un groupe comme sans numéro se répercute sur
-tout ce qu’il contient. Les exports en tiennent compte — les pages liminaires
-apparaissent sans numéro dans la table des matières et dans le document compilé.
+tout ce qu’il contient. Cela vaut partout où φ nomme un chapitre — le panneau du
+document lui-même, le fil d’ariane, le sommaire et les totaux du projet, et
+chaque export — de sorte qu’un livre précédé d’une dédicace et d’une épigraphe
+s’ouvre toujours sur le chapitre 1.
 
 ## Table des matières
 

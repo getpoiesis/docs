@@ -138,9 +138,11 @@ Algunas páginas de un libro no son capítulos — una dedicatoria, un prólogo,
 página de agradecimientos, un apéndice. Marca cualquier elemento como **Páginas
 preliminares / finales** para hacerlo *sin numerar*: se muestra con su propio
 nombre y no toma número, así que tus capítulos reales siguen empezando en 1.
-Marcar un grupo como sin numerar se propaga a todo lo que contiene. Las
-exportaciones respetan esto — las páginas preliminares aparecen sin numerar en el
-índice y en el documento compilado.
+Marcar un grupo como sin numerar se propaga a todo lo que contiene. Esto vale
+en todas partes donde φ nombra un capítulo — el panel del propio documento, la
+ruta de navegación, el índice y los totales del proyecto, y cada exportación —
+así que un libro con una dedicatoria y un epígrafe delante sigue empezando en el
+capítulo 1.
 
 ## Índice
 
