@@ -10,6 +10,9 @@ spaces, folders, tags, and search — so you can find anything without ever
 imposing more order than you want. Nothing here changes how a document is
 written; it only changes how you reach it.
 
+![Notes: open action items, the keywords you use, and what you pinned](/img/app/notes-light.png)
+![Notes: open action items, the keywords you use, and what you pinned](/img/app/notes-dark.png)
+
 ## The left rail: three spaces
 
 Down the left edge sits a thin vertical rail. The top three icons are **spaces**

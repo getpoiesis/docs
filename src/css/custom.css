@@ -269,3 +269,20 @@ article {
   border-left-color: var(--phi-danger);
   background: color-mix(in oklab, var(--phi-danger) 8%, var(--ifm-background-surface-color));
 }
+
+/* ---------- app screenshots ----------
+   Each shot ships as a light/dark pair and both sit in the page; the theme
+   decides which one is drawn. Docusaurus's <ThemedImage> would need MDX and
+   these pages are plain Markdown, so the swap is done here instead. */
+[data-theme='light'] img[src*='/img/app/'][src$='-dark.png'],
+[data-theme='dark'] img[src*='/img/app/'][src$='-light.png'] {
+  display: none;
+}
+img[src*='/img/app/'] {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+}

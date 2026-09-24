@@ -11,6 +11,9 @@ essais, et les notes qui les nourrissent. Elle est d'abord conçue pour le
 **métier d'écrire** : une page calme et pleine largeur, un serif où l'on se sent
 chez soi, et une structure qui reste discrète jusqu'à ce que vous en ayez besoin.
 
+![Écrire : le travail en cours, les projets et le mois qui les précède](/img/app/write-home-light.png)
+![Écrire : le travail en cours, les projets et le mois qui les précède](/img/app/write-home-dark.png)
+
 :::warning φ est en alpha
 
 Vous utilisez un logiciel à un stade précoce. Le cœur — écrire, organiser,

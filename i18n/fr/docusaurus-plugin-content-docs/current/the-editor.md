@@ -11,6 +11,9 @@ s'effacent quand vous n'en avez pas. Cette page couvre les bases de l'écriture 
 la page elle-même, l'enregistrement, la barre d'outils de sélection, le menu
 slash, les onglets et la navigation entre les documents.
 
+![Un chapitre ouvert dans l’éditeur, avec son panneau à droite](/img/app/editor-light.png)
+![Un chapitre ouvert dans l’éditeur, avec son panneau à droite](/img/app/editor-dark.png)
+
 ## Titre et description
 
 Au-dessus de la page se trouvent le **titre** du document et une **description**

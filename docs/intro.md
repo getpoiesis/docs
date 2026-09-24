@@ -11,6 +11,9 @@ notes that feed them. It is built first for the **craft of writing**: a calm,
 full-bleed page, a serif you can live in, and structure that stays out of your
 way until you reach for it.
 
+![Write: the work in progress, the projects, and the month behind them](/img/app/write-home-light.png)
+![Write: the work in progress, the projects, and the month behind them](/img/app/write-home-dark.png)
+
 :::warning φ is in alpha
 
 You're using early software. The core — writing, organizing, versioning, and

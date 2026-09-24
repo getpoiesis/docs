@@ -11,6 +11,9 @@ puissiez retrouver n’importe quoi sans jamais imposer plus d’ordre que vous 
 voulez. Rien ici ne change la façon dont un document est écrit ; cela change
 seulement la manière de l’atteindre.
 
+![Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé](/img/app/notes-light.png)
+![Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé](/img/app/notes-dark.png)
+
 ## Le rail de gauche : trois espaces
 
 Le long du bord gauche se trouve un fin rail vertical. Les trois icônes du haut

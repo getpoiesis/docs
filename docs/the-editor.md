@@ -10,6 +10,9 @@ text — the controls appear when you reach for them and step back when you don'
 This page covers the basics of writing: the page itself, saving, the selection
 toolbar, the slash menu, tabs, and moving between documents.
 
+![A chapter open in the editor, with its panel on the right](/img/app/editor-light.png)
+![A chapter open in the editor, with its panel on the right](/img/app/editor-dark.png)
+
 ## Title and description
 
 Above the page sits the document's **title** and an optional **description**.

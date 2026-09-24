@@ -9,6 +9,9 @@ Una **colección** reúne documentos en una secuencia ordenada — la estructura
 un libro, un volumen de poesía, un conjunto de ensayos, un guion. Es como φ se
 convierte en un editor de manuscritos en lugar de un simple cuaderno.
 
+![El contenido de un manuscrito: páginas preliminares, partes, capítulos y su estado](/img/app/manuscript-light.png)
+![El contenido de un manuscrito: páginas preliminares, partes, capítulos y su estado](/img/app/manuscript-dark.png)
+
 Una colección *referencia* documentos; no los contiene. El mismo documento puede
 aparecer en más de una colección, y **eliminar una colección nunca elimina sus
 documentos** — permanecen en tu biblioteca. La colección guarda el orden, la

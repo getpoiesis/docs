@@ -10,6 +10,9 @@ structure d’un livre, d’un recueil de poésie, d’un ensemble d’essais, d
 scénario. C’est ainsi que φ devient un éditeur de manuscrits plutôt qu’un simple
 carnet.
 
+![Le contenu d’un manuscrit : pages liminaires, parties, chapitres et leur statut](/img/app/manuscript-light.png)
+![Le contenu d’un manuscrit : pages liminaires, parties, chapitres et leur statut](/img/app/manuscript-dark.png)
+
 Une collection *référence* des documents ; elle ne les contient pas. Un même
 document peut figurer dans plus d’une collection, et **supprimer une collection
 ne supprime jamais ses documents** — ils restent dans votre bibliothèque. La

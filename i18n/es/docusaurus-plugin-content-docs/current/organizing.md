@@ -10,6 +10,9 @@ estructura ligera —espacios, carpetas, etiquetas y búsqueda— para que pueda
 encontrar cualquier cosa sin imponer nunca más orden del que quieras. Nada de
 esto cambia cómo se escribe un documento; solo cambia cómo llegas a él.
 
+![Notas: tareas abiertas, las palabras clave que usas y lo que has fijado](/img/app/notes-light.png)
+![Notas: tareas abiertas, las palabras clave que usas y lo que has fijado](/img/app/notes-dark.png)
+
 ## El riel izquierdo: tres espacios
 
 A lo largo del borde izquierdo hay un fino riel vertical. Los tres iconos

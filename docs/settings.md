@@ -9,6 +9,9 @@ sidebar_position: 18
 Settings with `⌘,` (or **Preferences…** in the app menu). A column on the left
 lists the categories; pick one and its options appear on the right.
 
+![Settings](/img/app/settings-light.png)
+![Settings](/img/app/settings-dark.png)
+
 The categories are **Appearance**, **Editor**, **Profiles**, **Versioning**,
 **Vault**, **Templates**, and **Data**.
 

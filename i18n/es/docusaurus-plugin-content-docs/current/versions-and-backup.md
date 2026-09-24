@@ -9,6 +9,9 @@ Tu escritura se guarda continuamente, y φ mantiene un historial para que puedas
 volver a cualquier borrador anterior. Nada sale de tu Mac a menos que tú mismo
 configures un remoto.
 
+![El historial de un documento: instantáneas con nombre y puntos de control automáticos](/img/app/versions-light.png)
+![El historial de un documento: instantáneas con nombre y puntos de control automáticos](/img/app/versions-dark.png)
+
 ## Cómo funciona el guardado
 
 Cada edición se guarda automáticamente y se verifica después de cada escritura —

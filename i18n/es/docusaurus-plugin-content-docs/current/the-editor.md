@@ -11,6 +11,9 @@ cuando no. Esta página cubre lo básico de la escritura: la página en sí, el
 guardado, la barra de selección, el menú de barra, las pestañas y el movimiento
 entre documentos.
 
+![Un capítulo abierto en el editor, con su panel a la derecha](/img/app/editor-light.png)
+![Un capítulo abierto en el editor, con su panel a la derecha](/img/app/editor-dark.png)
+
 ## Título y descripción
 
 Sobre la página están el **título** del documento y una **descripción**

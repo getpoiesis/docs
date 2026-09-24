@@ -10,6 +10,9 @@ fechadas que conservas y vuelves a visitar. Las **páginas matutinas** son la
 práctica privada de escribir y soltar. Ambos alimentan una **racha de escritura**
 para que presentarte cada día sea visible y gratificante.
 
+![El diario: un día tras otro, el más reciente primero](/img/app/journal-light.png)
+![El diario: un día tras otro, el más reciente primero](/img/app/journal-dark.png)
+
 ## El espacio del Diario
 
 El Diario es uno de los tres espacios del riel izquierdo (el icono del cuaderno y

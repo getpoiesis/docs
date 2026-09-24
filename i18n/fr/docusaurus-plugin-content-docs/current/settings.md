@@ -10,6 +10,9 @@ rarement à chercher. Ouvrez les Réglages avec `⌘,` (ou **Préférences…** 
 menu de l’app). Une colonne à gauche liste les catégories ; choisissez-en une et
 ses options apparaissent à droite.
 
+![Réglages](/img/app/settings-light.png)
+![Réglages](/img/app/settings-dark.png)
+
 Les catégories sont **Apparence**, **Éditeur**, **Profils**, **Versions**,
 **Coffre**, **Modèles** et **Données**.
 

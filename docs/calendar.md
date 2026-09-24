@@ -10,6 +10,9 @@ shows your streaks on the grid, and lets you open or start a day's work from a
 single place. It also surfaces **memories** — what you made on this date in
 earlier years.
 
+![φ's calendar: a year of writing days and the month in detail](/img/app/calendar-light.png)
+![φ's calendar: a year of writing days and the month in detail](/img/app/calendar-dark.png)
+
 ## Opening the calendar
 
 In the left rail, click the **Calendar** icon. It opens as a full view. Click it

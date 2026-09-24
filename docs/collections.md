@@ -9,6 +9,9 @@ A **collection** gathers documents into an ordered sequence — the structure of
 book, a poetry volume, a set of essays, a screenplay. It's how φ becomes a
 manuscript editor rather than just a notebook.
 
+![A manuscript's contents: front matter, parts, chapters and their status](/img/app/manuscript-light.png)
+![A manuscript's contents: front matter, parts, chapters and their status](/img/app/manuscript-dark.png)
+
 A collection *references* documents; it doesn't contain them. The same document
 can appear in more than one collection, and **deleting a collection never
 deletes its documents** — they stay in your library. The collection holds the

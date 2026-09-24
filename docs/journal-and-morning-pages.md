@@ -9,6 +9,9 @@ sidebar_position: 10
 keep and revisit. **Morning pages** are the private, write-and-let-go practice.
 Both feed a **writing streak** so showing up every day is visible and rewarding.
 
+![The journal: one day after another, most recent first](/img/app/journal-light.png)
+![The journal: one day after another, most recent first](/img/app/journal-dark.png)
+
 ## The Journal space
 
 The Journal is one of the three spaces in the left rail (the notebook-and-pen
