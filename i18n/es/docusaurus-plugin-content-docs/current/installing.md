@@ -16,6 +16,20 @@ salvo: son archivos planos en tu equipo, guardados de forma continua y con
 versiones.
 :::
 
+:::danger ¿Sigues en la 0.8.2 o anterior? Descarga φ otra vez
+**La 0.9.0 cambió cómo identifica tu sistema operativo a φ**, y eso rompió la
+actualización que normalmente se te ofrecería. Una copia antigua seguirá diciendo
+que está al día, para siempre. Descarga la versión actual desde la
+[página de descargas](https://getpoiesis.com/download) e instálala sobre la que
+tienes, una vez. A partir de la 0.9.0 las actualizaciones vuelven a funcionar.
+
+Tu trabajo no se toca: bóvedas, ajustes, diccionarios e historial dependen del
+nombre de la app, no de su identificador. Dos cosas se reinician una vez: en
+**macOS** se te pedirá de nuevo acceso a la carpeta de tu bóveda, y **Windows**
+trata esta como un programa distinto, así que desinstala la φ anterior o quedará
+junto a esta en Agregar o quitar programas.
+:::
+
 ## Requisitos del sistema
 
 - **macOS** 12 (Monterey) o posterior — Apple Silicon o Intel.

@@ -14,6 +14,20 @@ You're using early software — expect rough edges. Your writing itself is alway
 safe: it's plain files on your computer, saved continuously and versioned.
 :::
 
+:::danger Already running 0.8.2 or older? Download φ again
+**0.9.0 changed how your operating system identifies φ**, and that broke the
+update you would normally be offered. An older copy will keep telling you it is
+up to date, forever. Download the current version from the
+[download page](https://getpoiesis.com/download) and install it over the one you
+have — once. Updates work normally again from 0.9.0 onward.
+
+Your work is untouched: vaults, settings, dictionaries and history are all keyed
+to the app's name, not its identifier. Two things reset once — **macOS** asks
+again for access to the folder your vault is in, and **Windows** treats this as a
+separate program, so uninstall the earlier φ or it sits beside this one in Add or
+remove programs.
+:::
+
 ## System requirements
 
 - **macOS** 12 (Monterey) or later — Apple Silicon or Intel.

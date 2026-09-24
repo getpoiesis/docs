@@ -16,6 +16,21 @@ Votre écriture, elle, est toujours en sécurité : ce sont des fichiers simples
 votre ordinateur, enregistrés en continu et versionnés.
 :::
 
+:::danger Encore en 0.8.2 ou antérieure ? Téléchargez φ à nouveau
+**La 0.9.0 a changé la façon dont votre système identifie φ**, ce qui a cassé la
+mise à jour qui vous serait normalement proposée. Une ancienne copie continuera
+d'affirmer qu'elle est à jour, indéfiniment. Téléchargez la version actuelle
+depuis la [page de téléchargement](https://getpoiesis.com/download) et
+installez-la par-dessus celle que vous avez, une fois. À partir de la 0.9.0, les
+mises à jour refonctionnent.
+
+Votre travail n'est pas touché : coffres, réglages, dictionnaires et historique
+dépendent du nom de l'application, pas de son identifiant. Deux choses sont
+réinitialisées une fois : **macOS** redemande l'accès au dossier de votre coffre,
+et **Windows** traite ceci comme un programme distinct — désinstallez l'ancienne
+φ, sinon elle restera à côté dans Ajouter ou supprimer des programmes.
+:::
+
 ## Configuration requise
 
 - **macOS** 12 (Monterey) ou plus récent — Apple Silicon ou Intel.
