@@ -80,6 +80,48 @@ Los enlaces se abren en tu navegador predeterminado. Para seguir un enlace desde
 dentro del editor, mantén `⌘` y haz clic (en
 [modo lectura](the-editor.md#modo-lectura) un clic normal lo sigue).
 
+## Escribir en Markdown
+
+Si escribes Markdown por costumbre, sigue así: φ lo convierte en formato
+mientras escribes.
+
+- `#`, `##`, `###` y un espacio — un encabezado (`####` o más dan el más pequeño)
+- `-`, `*` o `1.` y un espacio — una lista; `[] ` o `- [ ] ` — una tarea
+  (`- [x] ` la empieza marcada)
+- `>` y un espacio — una cita; luego `[!tip] ` la convierte en un aviso (`note`,
+  `tip`, `warning`, `danger`)
+- ` ``` ` — un bloque de código; `---` — un separador
+- `**negrita**`, `*cursiva*`, `~~tachado~~`, `` `código` ``, `==resaltado==`
+- `[texto](https://…)` — un enlace; `![alt](https://…)` — una imagen
+
+**Desde Bear.** El Markdown propio de Bear llega como Bear lo entiende: `~texto~`
+es un subrayado, `==🟢texto==` un resaltado verde (también 🟡 🔵 🟣 🔴),
+`[[Nota|texto visible]]` y `[[Nota/Encabezado]]` enlazan a la nota, y las
+`#etiquetas` —incluidas `#anidadas/etiquetas` y `#varias palabras#`— se añaden a
+las etiquetas del documento. **⌥⇧⌘V** pega texto sin formato, como en Bear.
+
+**Mostrar el Markdown.** Activa **Ajustes → Editor → Mostrar Markdown** para ver
+los marcadores (`**`, `#`, `[…](…)` y demás) tenues alrededor del formato en la
+línea que escribes. Desaparecen de las líneas que dejas y nunca forman parte de
+tu texto: desactivar el ajuste no cambia nada del documento.
+
+Las notas al pie también se pueden escribir al estilo Markdown: `^[la nota]` en
+el texto, o `[^1]` con una línea `[^1]: la nota` más abajo.
+
+**Pegar Markdown.** Pega texto copiado de un editor de Markdown o de otra app de
+notas y llega con formato: encabezados, tareas, tablas, citas, avisos, código,
+enlaces e imágenes. Cada línea es su propio párrafo y una `#palabra` sigue
+siendo una palabra. El texto con formato de una página web o un procesador de
+textos se pega como siempre. Para pegar el texto tal cual, usa **⇧⌘V**.
+
+Lo pegado solo trae lo que el documento ofrece: una lista de tareas pegada en
+un capítulo llega como lista con su `[ ]`, una tabla como una línea por fila, y
+las páginas matutinas reciben párrafos simples.
+
+**Copiar como Markdown.** Elige **Copiar como Markdown** en el menú ⋮ de un
+documento o en la paleta de comandos (`⌘P`) para copiar la selección —o todo
+el documento, si no hay nada seleccionado— como Markdown.
+
 ## Tablas
 
 Inserta una tabla inicial con `/table`: una cuadrícula de 3×3 con una fila de

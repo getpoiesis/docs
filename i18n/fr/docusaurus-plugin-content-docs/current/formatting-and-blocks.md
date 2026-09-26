@@ -80,6 +80,51 @@ Les liens s'ouvrent dans votre navigateur par défaut. Pour suivre un lien depui
 l'intérieur de l'éditeur, maintenez `⌘` et cliquez (en
 [mode lecture](the-editor.md#mode-lecture), un simple clic le suit).
 
+## Écrire en Markdown
+
+Si vous écrivez en Markdown par habitude, continuez : φ le transforme en mise
+en forme pendant que vous tapez.
+
+- `#`, `##`, `###` et une espace — un titre (`####` et plus donnent le plus petit)
+- `-`, `*` ou `1.` et une espace — une liste ; `[] ` ou `- [ ] ` — une tâche
+  (`- [x] ` la commence cochée)
+- `>` et une espace — une citation ; puis `[!tip] ` la change en encadré
+  (`note`, `tip`, `warning`, `danger`)
+- ` ``` ` — un bloc de code ; `---` — un séparateur
+- `**gras**`, `*italique*`, `~~barré~~`, `` `code` ``, `==surlignage==`
+- `[texte](https://…)` — un lien ; `![alt](https://…)` — une image
+
+**Depuis Bear.** Le Markdown propre à Bear arrive comme Bear l'entend : `~texte~`
+est un soulignement, `==🟢texte==` un surlignage vert (🟡 🔵 🟣 🔴 aussi),
+`[[Note|texte affiché]]` et `[[Note/Titre]]` renvoient à la note, et les
+`#étiquettes` — y compris `#imbriquées/étiquettes` et `#plusieurs mots#` —
+rejoignent les étiquettes du document. **⌥⇧⌘V** colle du texte brut, comme dans
+Bear.
+
+**Afficher le Markdown.** Activez **Réglages → Éditeur → Afficher le Markdown**
+pour voir les marqueurs (`**`, `#`, `[…](…)` et les autres) en discret autour de
+la mise en forme de la ligne en cours. Ils disparaissent des lignes que vous
+quittez et ne font jamais partie du texte : désactiver le réglage ne change rien
+au document.
+
+Les notes de bas de page s'écrivent aussi en Markdown : `^[la note]` dans le
+texte, ou `[^1]` avec une ligne `[^1]: la note` plus bas.
+
+**Coller du Markdown.** Collez du texte copié depuis un éditeur Markdown ou une
+autre app de notes : il arrive mis en forme — titres, tâches, tableaux,
+citations, encadrés, code, liens et images. Chaque ligne devient son propre
+paragraphe, et un `#mot` reste un mot. Le texte mis en forme d'une page web ou
+d'un traitement de texte se colle comme avant. Pour coller le texte tel quel,
+utilisez **⇧⌘V**.
+
+Un collage n'apporte que ce que le document propose : une liste de tâches
+collée dans un chapitre arrive en liste avec ses `[ ]`, un tableau en une ligne
+par rangée, et les pages du matin reçoivent des paragraphes simples.
+
+**Copier en Markdown.** Choisissez **Copier en Markdown** dans le menu ⋮ d'un
+document ou dans la palette de commandes (`⌘P`) pour copier la sélection — ou
+tout le document si rien n'est sélectionné — en Markdown.
+
 ## Tableaux
 
 Insérez un tableau de départ avec `/table` — une grille 3×3 avec une ligne

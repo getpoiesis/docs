@@ -72,6 +72,49 @@ Links open in your default browser. To follow a link from inside the editor,
 hold `⌘` and click (in [reading mode](the-editor.md#reading-mode) a plain click
 follows it).
 
+## Writing in Markdown
+
+If you write Markdown out of habit, keep going: φ turns it into formatting as
+you type.
+
+- `#`, `##`, `###` and a space — a heading (`####` and deeper give the smallest)
+- `-`, `*` or `1.` and a space — a list; `[] ` or `- [ ] ` — a checklist item
+  (`- [x] ` starts it checked)
+- `>` and a space — a quote; then `[!tip] ` turns it into a callout (`note`,
+  `tip`, `warning`, `danger`)
+- ` ``` ` — a code block; `---` — a divider
+- `**bold**`, `*italic*`, `~~strike~~`, `` `code` ``, `==highlight==`
+- `[text](https://…)` — a link; `![alt](https://…)` — an image
+
+**From Bear.** Bear's own Markdown comes across as Bear means it: `~text~` is
+an underline, `==🟢text==` a green highlight (🟡 🔵 🟣 🔴 too),
+`[[Note|shown text]]` and `[[Note/Heading]]` link to the note, and `#tags` —
+including `#nested/tags` and `#multi word#` — are added to the document's tags.
+**⌥⇧⌘V** pastes plain text, as in Bear.
+
+**Showing the Markdown.** Turn on **Settings → Editor → Show Markdown** to see
+the markers (`**`, `#`, `[…](…)` and the rest) faintly around the formatting in
+the line you're writing. They disappear from the lines you leave, and they're
+never part of your text: turning the setting off changes nothing in the
+document.
+
+Footnotes can be written the Markdown way too — `^[the note]` right in the
+text, or `[^1]` with a `[^1]: the note` line anywhere below it.
+
+**Pasting Markdown.** Paste text copied from a Markdown editor or another notes
+app and it arrives formatted — headings, checklists, tables, quotes, callouts,
+code, links and images. Each line becomes its own paragraph, and a `#word`
+stays a word. Formatted text from a web page or a word processor pastes as it
+always has. To paste the text exactly as it is, use **⇧⌘V**.
+
+A paste only brings what the document offers: a checklist pasted into a
+chapter arrives as a list with its `[ ]` kept, a table as one line per row,
+and morning pages take plain paragraphs.
+
+**Copying as Markdown.** Choose **Copy as Markdown** from a document's ⋮ menu or
+the command palette (`⌘P`) to put the selection — or the whole document, when
+nothing is selected — on the clipboard as Markdown.
+
 ## Tables
 
 Insert a starter table with `/table` — a 3×3 grid with a header row that you can
