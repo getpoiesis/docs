@@ -42,7 +42,7 @@ document as…** for the format you want. φ renders it and asks where to save.
 
 The document formats are:
 
-- **Markdown / Obsidian (`.md`)** — Obsidian-flavored Markdown: callouts,
+- **Markdown (`.md`)** — Markdown with the common extensions: callouts,
   `==highlight==`, `[[wiki-links]]`, footnotes. Best for moving text into another
   Markdown app or a static site, or for plain-text archiving.
 - **HTML (`.html`)** — semantic, self-contained HTML. Best for the web or for
@@ -100,15 +100,15 @@ PDF you can print or send. The PDF is built to book conventions:
   file (with its embedded images) — for example, a copy you saved with **Save a
   Copy**.
 - **Import Markdown file(s)** — choose **Import Markdown file(s)** in the command
-  palette. φ reads Markdown / Obsidian / Logseq files, including frontmatter,
+  palette. φ reads Markdown files, including frontmatter,
   headings, lists and tasks, callouts, highlights, and wiki-links.
-- **Import an Obsidian / Logseq vault** — choose **Import Obsidian / Logseq vault**
-  in the command palette to bring an entire vault folder in recursively, keeping
+- **Import a folder of Markdown notes** — choose **Import Markdown folder**
+  in the command palette to bring an entire folder in recursively, keeping
   its nested folder structure. You can import it **into your current vault** or
   **as a new vault**. φ keeps each note's **original creation date** — from a date
-  in the file, a journal/daily filename (Logseq's `2022_11_11`), or the source's
+  in the file, a journal/daily filename (like `2022_11_11`), or the source's
   git history — so your timeline survives the move. It also reconnects the
-  **`[[link]]` graph** — decoding Logseq's encoded filenames (namespaced pages and
+  **`[[link]]` graph** — decoding encoded filenames (namespaced pages and
   special characters like `:` or `&`), honoring `title::` and `alias::` page
   properties so a page is found by its real name and any alias, and treating
   `#tags` as page links — so backlinks and the graph view work on the imported

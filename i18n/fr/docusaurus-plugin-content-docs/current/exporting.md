@@ -50,7 +50,7 @@ où l’enregistrer.
 
 Les formats de document sont :
 
-- **Markdown / Obsidian (`.md`)** — Markdown au format Obsidian : encadrés,
+- **Markdown (`.md`)** — Markdown avec les extensions courantes : encadrés,
   `==surlignage==`, `[[liens-wiki]]`, notes de bas de page. Idéal pour déplacer
   du texte vers une autre app Markdown ou un site statique, ou pour un archivage
   en texte brut.
@@ -115,18 +115,17 @@ construit selon les conventions du livre :
   fichier `.poiesis` portable (avec ses images intégrées) — par exemple, une
   copie que vous avez enregistrée avec **Enregistrer une copie**.
 - **Importer des fichiers Markdown** — choisissez **Importer des fichiers
-  Markdown** dans la palette de commandes. φ lit les fichiers Markdown / Obsidian
-  / Logseq, y compris le frontmatter, les titres, les listes et les tâches, les
+  Markdown** dans la palette de commandes. φ lit les fichiers Markdown, y compris le frontmatter, les titres, les listes et les tâches, les
   encadrés, les surlignages et les liens wiki.
-- **Importer un coffre Obsidian / Logseq** — choisissez **Importer un coffre
-  Obsidian / Logseq** dans la palette de commandes pour importer récursivement un
-  dossier de coffre entier, en conservant sa structure de dossiers imbriqués.
+- **Importer un dossier de notes Markdown** — choisissez **Importer un dossier
+  Markdown** dans la palette de commandes pour importer récursivement un
+  dossier entier, en conservant sa structure de dossiers imbriqués.
   Vous pouvez l’importer **dans votre coffre actuel** ou **comme nouveau
   coffre**. φ conserve la **date de création originale** de chaque note — à partir
-  d’une date dans le fichier, du nom d’un journal ou d’une note quotidienne (le
-  `2022_11_11` de Logseq) ou de l’historique git de la source — pour que votre
+  d’une date dans le fichier, du nom d’un journal ou d’une note quotidienne (comme
+  `2022_11_11`) ou de l’historique git de la source — pour que votre
   chronologie survive au déplacement. Il reconnecte aussi le **graphe de liens
-  `[[...]]`** — en décodant les noms de fichier encodés de Logseq (pages à espaces
+  `[[...]]`** — en décodant les noms de fichier encodés (pages à espaces
   de noms et caractères spéciaux comme `:` ou `&`), en respectant les propriétés
   de page `title::` et `alias::` (une page est trouvée par son vrai nom et par
   n’importe quel alias), et en traitant les `#tags` comme des liens de page — pour

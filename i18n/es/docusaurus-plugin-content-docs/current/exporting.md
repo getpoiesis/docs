@@ -48,7 +48,7 @@ guardarlo.
 
 Los formatos de documento son:
 
-- **Markdown / Obsidian (`.md`)** — Markdown al estilo de Obsidian: avisos,
+- **Markdown (`.md`)** — Markdown con las extensiones habituales: avisos,
   `==highlight==`, `[[wiki-links]]`, notas al pie. Lo mejor para llevar texto a
   otra app de Markdown o a un sitio estático, o para archivar en texto plano.
 - **HTML (`.html`)** — HTML semántico y autónomo. Lo mejor para la web o para
@@ -111,17 +111,17 @@ construye según las convenciones del libro:
   archivo `.poiesis` portátil (con sus imágenes incrustadas) — por ejemplo, una
   copia que guardaste con **Guardar una copia**.
 - **Importar archivo(s) Markdown** — elige **Importar archivo(s) Markdown** en la
-  paleta de comandos. φ lee archivos Markdown / Obsidian / Logseq, incluido el
+  paleta de comandos. φ lee archivos Markdown, incluido el
   frontmatter, encabezados, listas y tareas, avisos, resaltados y enlaces wiki.
-- **Importar una bóveda de Obsidian / Logseq** — elige **Importar bóveda de
-  Obsidian / Logseq** en la paleta de comandos para traer toda una carpeta de
-  bóveda de forma recursiva, conservando su estructura de carpetas anidada.
+- **Importar una carpeta de notas Markdown** — elige **Importar carpeta
+  Markdown** en la paleta de comandos para traer toda una carpeta de forma
+  recursiva, conservando su estructura de carpetas anidada.
   Puedes importarla **a tu bóveda actual** o **como una bóveda nueva**. φ conserva
   la **fecha de creación original** de cada nota — a partir de una fecha en el
-  archivo, del nombre de un diario o entrada diaria (el `2022_11_11` de Logseq) o
+  archivo, del nombre de un diario o entrada diaria (como `2022_11_11`) o
   del historial de git del origen — para que tu cronología sobreviva al traslado.
   También reconecta el **grafo de enlaces `[[...]]`** — decodificando los nombres
-  de archivo codificados de Logseq (páginas con espacios de nombres y caracteres
+  de archivo codificados (páginas con espacios de nombres y caracteres
   especiales como `:` o `&`), respetando las propiedades de página `title::` y
   `alias::` (una página se encuentra por su nombre real y por cualquier alias), y
   tratando las `#etiquetas` como enlaces de página — para que los retroenlaces y la
