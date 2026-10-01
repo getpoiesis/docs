@@ -1,14 +1,54 @@
 {
-  "link.title.Documentation": { "message": "Documentación", "description": "footer col title" },
-  "link.title.φ": { "message": "φ", "description": "footer col title" },
-  "link.title.Contribute": { "message": "Contribuir", "description": "footer col title" },
-  "link.item.label.Getting started": { "message": "Primeros pasos", "description": "footer link" },
-  "link.item.label.The editor": { "message": "El editor", "description": "footer link" },
-  "link.item.label.Keyboard shortcuts": { "message": "Atajos de teclado", "description": "footer link" },
-  "link.item.label.Website": { "message": "Sitio web", "description": "footer link" },
-  "link.item.label.Themes gallery": { "message": "Galería de temas", "description": "footer link" },
-  "link.item.label.GitHub": { "message": "GitHub", "description": "footer link" },
-  "link.item.label.Submit a theme": { "message": "Enviar un tema", "description": "footer link" },
-  "link.item.label.Improve these docs": { "message": "Mejorar esta documentación", "description": "footer link" },
-  "copyright": { "message": "φ — hecho con cuidado. © 2026.", "description": "The footer copyright" }
+  "link.title.Docs": {
+    "message": "Documentación",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Comunidad",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.φ": {
+    "message": "φ",
+    "description": "The title of the footer links column with title=φ in the footer"
+  },
+  "link.item.label.Getting started": {
+    "message": "Primeros pasos",
+    "description": "The label of footer link with label=Getting started"
+  },
+  "link.item.label.Keyboard shortcuts": {
+    "message": "Atajos de teclado",
+    "description": "The label of footer link with label=Keyboard shortcuts"
+  },
+  "link.item.label.Changelog": {
+    "message": "Novedades",
+    "description": "The label of footer link with label=Changelog"
+  },
+  "link.item.label.Themes gallery": {
+    "message": "Galería de temas",
+    "description": "The label of footer link with label=Themes gallery"
+  },
+  "link.item.label.Improve these docs": {
+    "message": "Mejorar esta documentación",
+    "description": "The label of footer link with label=Improve these docs"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub"
+  },
+  "link.item.label.Website": {
+    "message": "Sitio web",
+    "description": "The label of footer link with label=Website"
+  },
+  "link.item.label.Download": {
+    "message": "Descargar",
+    "description": "The label of footer link with label=Download"
+  },
+  "link.item.label.Privacy": {
+    "message": "Privacidad",
+    "description": "The label of footer link with label=Privacy"
+  },
+  "copyright": {
+    "message": "<img class=\"footer__mark\" src=\"/img/phi-dark.svg\" alt=\"\" aria-hidden=\"true\" /><img class=\"footer__mark footer__mark--dark\" src=\"/img/phi-light.svg\" alt=\"\" aria-hidden=\"true\" /> © 2026 φ. Escrito con cuidado.",
+    "description": "The footer copyright"
+  }
 }

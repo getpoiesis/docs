@@ -1,6 +1,22 @@
 {
-  "logo.alt": { "message": "φ", "description": "The alt text of navbar logo" },
-  "item.label.Documentation": { "message": "Documentation", "description": "Navbar item with label Documentation" },
-  "item.label.Website": { "message": "Site web", "description": "Navbar item with label Website" },
-  "item.label.GitHub": { "message": "GitHub", "description": "Navbar item with label GitHub" }
+  "title": {
+    "message": "Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "φ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Guide": {
+    "message": "Guide",
+    "description": "Navbar item with label Guide"
+  },
+  "item.label.Reference": {
+    "message": "Référence",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Changelog": {
+    "message": "Nouveautés",
+    "description": "Navbar item with label Changelog"
+  }
 }

@@ -33,23 +33,27 @@ You'll need [Node.js](https://nodejs.org) 18 or newer.
 
 ```bash
 npm install
-npm start            # live preview at http://localhost:3000
-npm run build        # production build into build/
-npm run serve        # preview the production build
+npm start              # the whole site, every language, with search: http://localhost:3000
+npm run dev            # live preview while you edit (one language, no search)
+npm run dev -- --locale es   # live preview of a translation (or fr)
 ```
 
-To preview a translation, start the dev server for that locale:
-
-```bash
-npm start -- --locale es   # or fr
-```
+`npm start` builds the site first, so it takes a little while and doesn't
+reload as you edit. `npm run dev` reloads instantly but serves a single
+language: its language menu leads to "page not found", and search is off.
 
 ## How it's organized
 
 - `docs/` — the English pages (Markdown).
 - `i18n/` — the Spanish and French translations.
-- `sidebars.ts` — how pages are grouped in the sidebar.
-- `src/css/` — the look and feel, in φ's brand colors and fonts.
+- `sidebars.ts` — the two sidebars (**Guide** and **Reference**) and how pages
+  are grouped in them.
+- `src/css/custom.css` — the look and feel, in φ's brand colors and fonts.
+  Stock Docusaurus markup only; nothing is swizzled.
+
+Search is [local](https://github.com/easyops-cn/docusaurus-search-local): the
+index is built with the site, so it only works in a production build
+(`npm run build && npm run serve`), not in `npm start`.
 
 The site deploys automatically to **docs.getpoiesis.com** whenever changes land
 on `main`.

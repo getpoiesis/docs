@@ -1,10 +1,12 @@
-import { themes as prismThemes } from 'prism-react-renderer'
 import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
+import type { PluginOptions as SearchOptions } from '@easyops-cn/docusaurus-search-local'
 
-// φ documentation site. Brand: PHI — neutral zinc grays + one restrained slate
-// accent, matching getpoiesis.com (see the app's BRAND.md). Theming lives in
-// src/css/custom.css; this file wires structure, navbar, and footer.
+// φ documentation site. Brand: PHI — neutral zinc greys + one restrained slate
+// accent, matching getpoiesis.com and the app. Theming lives in
+// src/css/custom.css; this file wires structure, navbar, footer and search.
+
+const RELEASES = 'https://github.com/getpoiesis/releases/releases'
 
 const config: Config = {
   title: 'φ',
@@ -35,9 +37,9 @@ const config: Config = {
     },
   },
 
-  // The brand faces: Inter for UI, Lora for serif display/headings.
+  // Lora for page titles and H2; chrome and body use the system sans.
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..700;1,14..32,400..600&family=Lora:ital,wght@0,400..600;1,400..600&display=swap',
+    'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..600&display=swap',
   ],
 
   presets: [
@@ -49,12 +51,30 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/getpoiesis/docs/edit/main/',
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
-          customCss: ['./src/css/custom.css'],
+          customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        language: ['en', 'es', 'fr'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 60,
+        searchBarShortcutKeymap: 'mod+k',
+      } satisfies SearchOptions,
     ],
   ],
 
@@ -64,38 +84,32 @@ const config: Config = {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
     },
+    docs: {
+      sidebar: { hideable: false, autoCollapseCategories: false },
+    },
+    tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
     navbar: {
-      title: '',
+      title: 'Docs',
       logo: {
         alt: 'φ',
         src: 'img/phi-dark.svg',
         srcDark: 'img/phi-light.svg',
         href: 'https://getpoiesis.com',
         target: '_self',
-        width: 38,
-        height: 38,
+        width: 22,
+        height: 22,
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'docs',
-          position: 'left',
-          label: 'Documentation',
-        },
-        {
-          href: 'https://getpoiesis.com',
-          label: 'Website',
-          position: 'right',
-          target: '_self',
-        },
+        { type: 'docSidebar', sidebarId: 'guide', position: 'left', label: 'Guide' },
+        { type: 'docSidebar', sidebarId: 'reference', position: 'left', label: 'Reference' },
+        { href: RELEASES, label: 'Changelog', position: 'left' },
+        { type: 'localeDropdown', position: 'right' },
+        { type: 'search', position: 'right' },
         {
           href: 'https://github.com/getpoiesis',
-          label: 'GitHub',
           position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub',
         },
       ],
     },
@@ -103,40 +117,36 @@ const config: Config = {
       style: 'light',
       links: [
         {
-          title: 'Documentation',
+          title: 'Docs',
           items: [
             { label: 'Getting started', to: '/getting-started' },
-            { label: 'The editor', to: '/the-editor' },
             { label: 'Keyboard shortcuts', to: '/keyboard-shortcuts' },
+            { label: 'Changelog', href: RELEASES },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            { label: 'Themes gallery', href: 'https://github.com/getpoiesis/themes' },
+            { label: 'Improve these docs', href: 'https://github.com/getpoiesis/docs' },
+            { label: 'GitHub', href: 'https://github.com/getpoiesis' },
           ],
         },
         {
           title: 'φ',
           items: [
             { label: 'Website', href: 'https://getpoiesis.com', target: '_self' },
-            { label: 'Themes gallery', href: 'https://github.com/getpoiesis/themes' },
-            { label: 'GitHub', href: 'https://github.com/getpoiesis' },
-          ],
-        },
-        {
-          title: 'Contribute',
-          items: [
-            {
-              label: 'Submit a theme',
-              href: 'https://github.com/getpoiesis/themes',
-            },
-            {
-              label: 'Improve these docs',
-              href: 'https://github.com/getpoiesis/docs',
-            },
+            { label: 'Download', href: 'https://getpoiesis.com/download', target: '_self' },
+            { label: 'Privacy', href: 'https://getpoiesis.com/privacy', target: '_self' },
           ],
         },
       ],
-      copyright: `φ — written with care. © ${new Date().getFullYear()}.`,
+      copyright: `<img class="footer__mark" src="/img/phi-dark.svg" alt="" aria-hidden="true" /><img class="footer__mark footer__mark--dark" src="/img/phi-light.svg" alt="" aria-hidden="true" /> © ${new Date().getFullYear()} φ. Written with care.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      // Token colours come from custom.css (keys in slate, literals in gold).
+      theme: { plain: {}, styles: [] },
+      darkTheme: { plain: {}, styles: [] },
     },
   } satisfies Preset.ThemeConfig,
 }
