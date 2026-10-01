@@ -1,74 +1,77 @@
 ---
-title: Introduction
-sidebar_position: 1
+title: Welcome
+description: What φ is, who it's for, and how it keeps your writing.
 slug: /
 ---
 
 # Welcome to φ
 
-φ is a writing app for the long haul — manuscripts, poetry, essays, and the
-notes that feed them. It is built first for the **craft of writing**: a calm,
-full-bleed page, a serif you can live in, and structure that stays out of your
-way until you reach for it.
+φ is a desktop writing app for long work: novels, poetry, essays, and the
+notes and journal days that feed them. It gives you a quiet page, keeps every
+word in plain files on your own computer, and stays out of the way until you
+reach for something.
 
-<img src="/img/app/write-home-light.png" alt="Write: the work in progress, the projects, and the month behind them" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/write-home-dark.png" alt="Write: the work in progress, the projects, and the month behind them" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/focus-light.png" alt="A chapter in Sanctuary: the page alone, with every sentence but the current one dimmed" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="A chapter in Sanctuary: the page alone, with every sentence but the current one dimmed" width="1600" height="1000" loading="lazy" decoding="async" />
 
-:::warning φ is in alpha
+## Get started
 
-You're using early software. The core — writing, organizing, versioning, and
-keeping your work safe in plain files — is solid and in daily use. But expect
-rough edges, occasional bugs, and features that are still settling.
+1. [Install φ](./installing) on macOS, Windows or Linux.
+2. [Create your first vault](./getting-started): the folder your writing
+   lives in.
+3. Take [a tour of the window](./finding-your-way).
+4. Click the sample project, **The Grey Morning**, in the sidebar, then
+   **Export** under it, to see how φ sets a book.
 
-**The weakest area today is export** — turning your work into EPUB, PDF, or Word
-files. It's under active development and the part most likely to need cleanup in
-the target app. Treat exported files as drafts and proofread them. See
-[Exporting & printing](exporting.md) for what to expect.
+## Three modes in one vault
 
-Your writing itself is never at risk: documents are plain files, saved
-continuously and verified, with version history you can roll back.
+φ is a manuscript editor first, with a notebook and a journal beside it. All
+three share one vault, so a chapter can link to a note and a journal day can
+mention a character.
+
+| Mode | What it holds |
+| --- | --- |
+| **Write** | Your projects (a novel, a poetry collection, a book of essays) with their parts and chapters, and **Pieces**: writing that belongs to no project yet. Characters, authors and research sit beside them. |
+| **Notes** | Ideas, sources, lines you overheard. Folders, tags, stars, boards and templates. |
+| **Journal** | A page for each day, and morning pages: three pages, first thing. |
+
+Type `[[` to link one document to another, and the
+[graph](./links-and-graph) shows how they connect. When it's time to write,
+**Sanctuary** (`⌘.`) hides everything but the page.
+
+## Your writing stays yours
+
+- **Plain files in a folder you choose.** There's no account and no cloud.
+  Writing, searching and exporting all work offline.
+- **Saved as you type.** Every document is saved continuously and checked
+  after each write. Version history lets you step back to any earlier draft,
+  and you can back it up to your own git remote if you want a copy elsewhere.
+  See [Versions & backup](./versions-and-backup).
+- **Easy to move and keep.** Copy the folder and you've copied everything. A
+  vault can sit in iCloud Drive, Dropbox or another synced folder, and φ for
+  iPhone and iPad opens the same vault. See [Vaults](./vaults).
+
+Each document is a `.poiesis` file that holds your text and its details as
+structured content, so annotations, footnotes and citations survive intact.
+φ doesn't store Markdown, but you can import, paste and export it freely.
+
+:::note φ is in alpha
+
+Writing, organising and versioning are in daily use, but expect rough edges.
+The **Alpha** badge at the foot of the sidebar is the way to tell us how it's
+going.
 
 :::
 
-## What makes φ different
+## What φ isn't
 
-**Your writing is yours.** Everything lives in plain files on your own Mac, in a
-folder you choose. There is no account, no cloud, and no network required to
-write, edit, search, or export. Close the app, open the folder, and your work is
-right there.
+- **A cloud service.** Nothing leaves your computer unless you set up a
+  backup or put the vault in a synced folder yourself.
+- **A real-time collaboration tool.** φ is for one writer at a time.
 
-**Local-first, durable by design.** Every document is saved automatically and
-verified after each write. φ keeps a version history so you can step back to any
-earlier draft, and it can back that history up to your own git remote if you want
-it off-machine — but nothing leaves your computer unless you set that up.
+## See also
 
-**One tool, two modes.** φ is a manuscript editor first and a note-taking app
-second, and the two share the same foundation. Write a book in *Collections*,
-keep a daily journal, link ideas with `[[wiki-links]]`, and watch them connect in
-the graph — all in one place, one vault.
-
-**Quiet by default.** Focus mode hides every piece of chrome. Typewriter
-scrolling keeps your line centered. The interface gets out of the way so the page
-is the thing.
-
-## What φ is not
-
-- **Not a cloud service.** There are no servers and no sync accounts. Backup and
-  portability are file- and git-based, under your control.
-- **Not a real-time collaboration tool.** φ is a single-writer app by design.
-- **Not Markdown-native.** Documents are stored as structured content
-  (ProseMirror JSON) so rich elements — annotations, footnotes, citations,
-  custom blocks — survive round-trips. You can still *import* and *export*
-  Markdown freely.
-
-## How writing is stored
-
-Each document is a `.poiesis` file: a small JSON wrapper around your text and its
-metadata. A **vault** is just a folder of these files (plus an `assets/` folder
-for images and a version history). Because it's all plain files in a normal
-folder, your writing is easy to back up, move, and keep for decades.
-
-## Where to go next
-
-New here? Start with [Getting started](getting-started.md) — you'll install φ,
-create your first vault, and write your first page in a few minutes.
+- [Your first vault](./getting-started)
+- [A tour of the window](./finding-your-way)
+- [The editor](./the-editor)
+- [Projects](./collections)

@@ -1,159 +1,151 @@
 ---
 title: Formatting & blocks
-sidebar_position: 5
+description: Every kind of formatting and block φ has, and the ways to insert each one.
 ---
 
 # Formatting & blocks
 
-φ gives you the everyday formatting you'd expect — headings, lists, quotes, code,
-links — plus a set of richer blocks built for manuscripts and poetry. Reach for
-inline formatting from the [bubble toolbar](the-editor.md#the-bubble-toolbar) or
-the Format menu, and insert blocks from the [slash menu](the-editor.md#the-slash-menu)
-(type `/`).
+φ has the formatting you'd expect (headings, lists, quotes, links) and a set
+of blocks made for books and poems: verse, scene breaks, epigraphs,
+footnotes. This page is the reference: what each one is for, and every way
+to make it.
 
-## Inline formatting
+## Format as you write
 
-Select text and apply:
+1. Select words and choose from the toolbar above them, or use a shortcut
+   such as `⌘B`.
+2. For a block, type `/` on an empty line, then a word: `/quote`, `/scene`,
+   `/verse`.
+3. Or write the Markdown you're used to: `## ` makes a heading, `**word**`
+   makes it bold.
+4. The same commands are in the **Format** menu in the menu bar.
 
-- **Bold** — `⌘B`
-- **Italic** — `⌘I`
-- **Underline** — `⌘U`
-- **Strikethrough** — from the toolbar or Format menu
-- **Inline code** — for short snippets within a sentence
+## Words and phrases
 
-These also live in the **Format** menu, and many have keyboard shortcuts there.
+| Formatting | Shortcut | Toolbar | Markdown |
+| --- | --- | --- | --- |
+| **Bold** | `⌘B` | **Bold** | `**bold**` |
+| **Italic** | `⌘I` | **Italic** | `*italic*` |
+| **Underline** | `⌘U` | **Underline** | `~underline~` |
+| **Strikethrough** | **Format → Strikethrough** | **More tools** › **Strikethrough** | `~~strike~~` |
+| **Inline code** | **Format → Inline Code** | **More tools** › **Inline code** | `` `code` `` |
+| **Highlight** | | **Highlight & comment** | `==highlight==` |
+| **Link** | `⌘⇧K` | **Link** | `[text](https://…)` |
 
-:::tip Type your way out of bold or italic
-When you turn on **bold** or *italic* and keep typing, you don't have to reach
-back for the toolbar to stop. Finish the word, then press the space bar a second
-time — the first space stays part of the formatted word, and the next one drops
-the formatting so the following word is plain text.
-:::
+**Getting out of bold or italic.** Finish the word and press the space bar
+twice. The first space stays with the formatted word; the second ends the
+formatting, so the next word is plain.
 
-## Headings and paragraphs
+**Links.** Typing or pasting a web address makes it a link by itself. To
+change or remove one, select the linked words and choose **Link** again:
+type a new address, or clear the field. Links open in your browser; while
+editing, hold `⌘` and click. To link to another document in the vault, use
+a wiki link instead ([Links & the graph](./links-and-graph)).
 
-Three heading levels structure a document:
+## Headings, lists and quotes
 
-- **Heading 1** — `⌘⌥1`
-- **Heading 2** — `⌘⌥2`
-- **Heading 3** — `⌘⌥3`
-- **Body text** (plain paragraph) — `⌘⌥0`
+| Block | Slash command | Shortcut | Markdown |
+| --- | --- | --- | --- |
+| **Text** (a plain paragraph) | `/text` | `⌘⌥0` | |
+| **Heading 1** | `/h1` | `⌘⌥1` | `# ` |
+| **Heading 2** | `/h2` | `⌘⌥2` | `## ` |
+| **Heading 3** | `/h3` | `⌘⌥3` | `### ` (`####` and deeper too) |
+| **Bullet List** | `/bullet` | `⌘⇧8` | `- ` or `* ` |
+| **Ordered List** | `/numbered` | `⌘⇧7` | `1. ` |
+| **Task List** | `/task` or `/checklist` | | `[] ` or `- [ ] ` (`- [x] ` starts it ticked) |
+| **Quote** | `/quote` | `⌘⇧9` | `> ` |
+| **Divider** | `/divider` | | `---` |
+| **Code Block** | `/code` | | ` ``` ` |
+| **Table** | `/table` | | |
 
-You can also type `/heading 1`, `/heading 2`, or `/heading 3`. Headings feed the
-document outline and the [Table of contents](#richer-blocks) block.
+Headings build the document's outline in the Info panel and feed a
+**Table of contents** block.
 
-## Lists
+**Alignment.** **Align Left**, **Align Center** (`⌘⇧E`), **Align Right**
+(`⌘⇧R`) and **Justify** (`⌘⇧J`) are in the **Format** menu and under the
+toolbar's **More tools**.
 
-- **Bullet list** — `⌘⇧8`, or `/bullet list`
-- **Numbered list** — `⌘⇧7`, or `/ordered list`
-- **Task list** — `/task list`. A checklist with three states: todo, doing, done.
+**Task lists** have three states, todo, doing and done; click the box to
+move an item on. They're offered in Notes and on research pages. To offer
+them elsewhere, turn on **Checklists** for that mode in **Settings → Setup
+→ Modes**.
 
-## Quotes and dividers
+**Tables** start as three columns and three rows with a header. Drag a
+column's edge to widen it. `Tab` moves to the next cell.
 
-- **Blockquote** — `⌘⇧9`, or `/quote`. For a quoted passage set off from the
-  surrounding text.
-- **Divider** — `/divider`. A horizontal rule to separate sections.
+**Code blocks** highlight the language they recognise, or the one you name
+after the opening fence (` ```python `). `Tab` indents and `⇧Tab` outdents;
+set **Indent using** (**Spaces** or **Tabs**) and **Indent width** under
+**Settings → Editor → Code**.
 
-## Code blocks
+## Blocks for books and poems
 
-For multi-line code, insert a **code block** with `/code block`. It's
-syntax-highlighted, and you can set the language so the highlighting matches.
-(For a few words of code inside a sentence, use inline code instead.)
+These are offered in documents that belong to a [project](./collections):
+chapters, poems, essays. A document that already has one shows it wherever
+it lives.
 
-## Links
+| Block | What it's for | Insert with |
+| --- | --- | --- |
+| **Verse** | A poem's lines, kept as you write them, at the text's own margin. | `/verse` or `⌥⌘V` |
+| **Scene break** | A centred ornament between scenes: **Asterism** ⁂, **Stars** \* \* \*, **Fleuron** ❧ or **Blank space**. Point at it to switch. | `/scene` |
+| **Epigraph** | An opening quotation, with its source on a line below. | `/epigraph` |
+| **Pull-quote** | A line set large, for emphasis. | `/pull-quote` |
+| **Drop cap** | An enlarged first letter for the paragraph. Choose it again to take it off. | `/drop` |
+| **Table of contents** | A live list of the document's headings; click one to go there. | `/toc` |
+| **Footnote** | A numbered note. | `/footnote` |
+| **Citation** | An author–year reference to a source. | `/citation` |
+| **Bibliography** | The sources you've cited, listed. | `/bibliography` |
 
-- **Add a link** — select text and use the link button in the bubble toolbar
-  (`⌘⇧K` from the Format menu), then enter the URL.
-- **Auto-detect** — paste or type a web address and φ recognizes it as a link.
-- **Edit or remove** — select a linked word and open the link control again. To
-  edit, type a new URL; to remove the link, clear the field and confirm.
+Verse, epigraphs and scene breaks are covered in
+[Poetry & verse](./poetry); footnotes, citations and the bibliography in
+[Footnotes & citations](./footnotes-and-citations).
 
-Links open in your default browser. To follow a link from inside the editor,
-hold `⌘` and click (in [reading mode](the-editor.md#reading-mode) a plain click
-follows it).
+## Pictures, callouts and dates
+
+| Block | What it's for | Insert with |
+| --- | --- | --- |
+| **Image** | A picture with a caption. Choose left, centre, right or full width from its toolbar, and drag its edge to resize. The file is copied into your vault. | `/image`, or `![alt](https://…)` |
+| **Callout** | A box for an aside: info, tip, warning or danger. Point at it to switch. | `/callout`, or `> [!tip] ` |
+| **Date** | Today's date as a chip that links the document to that day in the [calendar](./calendar). | `/date` |
+| **Date & time** | The same, with the time. | `/datetime` |
+| **Time** | The time now, as plain text. | `/time` |
+
+Click a date chip to open its day in the calendar; the pencil beside it
+(**Edit date & time**) changes the date or the time. Callouts aren't offered
+in journal entries.
+
+Two more things sit inside a line:
+
+- **@-mentions**: type `@` and pick a [character](./characters-and-authors),
+  or choose **Create @name** to make one from what you typed.
+- **Wiki links**: type `[[` and pick a document
+  ([Links & the graph](./links-and-graph)).
 
 ## Writing in Markdown
 
-If you write Markdown out of habit, keep going: φ turns it into formatting as
-you type.
+φ turns Markdown into formatting as you type, using the patterns in the
+tables above. You can also see it as you write: turn on **Settings → Editor
+→ Show Markdown**, and the markers (`**`, `#`, `[ ]( )`) show faintly around
+the formatting in the line you're on. They're never part of your text.
 
-- `#`, `##`, `###` and a space — a heading (`####` and deeper give the smallest)
-- `-`, `*` or `1.` and a space — a list; `[] ` or `- [ ] ` — a checklist item
-  (`- [x] ` starts it checked)
-- `>` and a space — a quote; then `[!tip] ` turns it into a callout (`note`,
-  `tip`, `warning`, `danger`)
-- ` ``` ` — a code block; `---` — a divider
-- `**bold**`, `*italic*`, `~~strike~~`, `` `code` ``, `==highlight==`
-- `[text](https://…)` — a link; `![alt](https://…)` — an image
+**Pasting Markdown.** Text copied from a Markdown editor or notes app
+arrives formatted: headings, checklists, tables, quotes, callouts, code,
+links, pictures and footnotes (`^[the note]`, or `[^1]` with its
+`[^1]: the note` line). It understands the variations other notes apps
+write, too: `~text~` underlines, `==🟢text==` is a green highlight,
+`[[Note|shown text]]` is a wiki link, and `#tags` become the document's
+tags. To paste the text exactly as it is, use `⇧⌘V`.
 
-**From Bear.** Bear's own Markdown comes across as Bear means it: `~text~` is
-an underline, `==🟢text==` a green highlight (🟡 🔵 🟣 🔴 too),
-`[[Note|shown text]]` and `[[Note/Heading]]` link to the note, and `#tags` —
-including `#nested/tags` and `#multi word#` — are added to the document's tags.
-**⌥⇧⌘V** pastes plain text, as in Bear.
+A paste brings only what the document offers: a checklist pasted into a
+chapter arrives as a list with its `[ ]` kept.
 
-**Showing the Markdown.** Turn on **Settings → Editor → Show Markdown** to see
-the markers (`**`, `#`, `[…](…)` and the rest) faintly around the formatting in
-the line you're writing. They disappear from the lines you leave, and they're
-never part of your text: turning the setting off changes nothing in the
-document.
+**Copying as Markdown.** **Copy as Markdown**, in the command palette
+(`⌘P`), copies the selection, or the whole document when nothing is
+selected. It's also on a document's right-click menu in the list.
 
-Footnotes can be written the Markdown way too — `^[the note]` right in the
-text, or `[^1]` with a `[^1]: the note` line anywhere below it.
+## See also
 
-**Pasting Markdown.** Paste text copied from a Markdown editor or another notes
-app and it arrives formatted — headings, checklists, tables, quotes, callouts,
-code, links and images. Each line becomes its own paragraph, and a `#word`
-stays a word. Formatted text from a web page or a word processor pastes as it
-always has. To paste the text exactly as it is, use **⇧⌘V**.
-
-A paste only brings what the document offers: a checklist pasted into a
-chapter arrives as a list with its `[ ]` kept, a table as one line per row,
-and morning pages take plain paragraphs.
-
-**Copying as Markdown.** Choose **Copy as Markdown** from a document's ⋮ menu or
-the command palette (`⌘P`) to put the selection — or the whole document, when
-nothing is selected — on the clipboard as Markdown.
-
-## Tables
-
-Insert a starter table with `/table` — a 3×3 grid with a header row that you can
-edit and grow from there.
-
-## Richer blocks
-
-Beyond standard prose, φ ships blocks built for books, essays, and poetry. Insert
-them from the slash menu. Some are **manuscript** tools that appear in writing and
-book documents but are hidden on the minimal journal / morning-pages page — if you
-don't see one, check the kind of document you're in.
-
-| Block | What it's for | Insert with |
-|---|---|---|
-| **Callout** | An info / tip / warning / danger box for asides and notes. | `/callout` |
-| **Verse** | A poem or verse block that keeps your hard line breaks and indentation, so poetry holds its shape. | `/verse` |
-| **Scene break** | A centered divider between scenes in fiction — asterism, stars, fleuron, or a blank gap. | `/scene break` |
-| **Epigraph** | An opening quotation with an attribution line, for the start of a chapter or book. | `/epigraph` |
-| **Pull-quote** | A large, prominent excerpt pulled out for emphasis. | `/pull-quote` |
-| **Drop cap** | A decorative oversized first letter. | `/drop cap` |
-| **Image** | A picture with an editable caption, alignment, and drag-to-resize width. The file is copied into your vault's `assets/`. | `/image` |
-| **Table of contents** | A live, clickable outline of this document's headings. It regenerates as you edit. | `/table of contents` |
-| **Bibliography** | An auto-generated reference list of the sources cited in the document. | `/bibliography` |
-
-You can also drop or paste an image straight onto the page to insert it without a
-caption.
-
-### Inline elements
-
-A few elements sit inside a line rather than as their own block:
-
-| Element | What it's for | Insert with |
-|---|---|---|
-| **Footnote** | A numbered note. The marker is a small superscript; on export the notes are collected at the end (or as native footnotes in Word). | `/footnote` |
-| **Citation** | An inline author–year reference pointing to a source in the document's library. Edit the source once and every citation updates. | `/citation` |
-| **Date chip** | A date (optionally with a time) that links the document to a calendar day. | `/date` or `/date & time` |
-| **@-mention** | A reference to a character by name. | Type `@` |
-| **Wiki link** | A `[[Note title]]` cross-link to another note in your vault. | Type `[[` |
-
-For more on these elements and how they behave, see the related guides:
-[Footnotes & citations](footnotes-and-citations.md),
-[Annotations](annotations.md), and [Links & the graph](links-and-graph.md).
+- [The editor](./the-editor): the toolbar and the slash menu.
+- [Poetry & verse](./poetry)
+- [Footnotes & citations](./footnotes-and-citations)
+- [Templates](./templates)

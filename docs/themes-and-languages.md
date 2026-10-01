@@ -1,119 +1,119 @@
 ---
 title: Themes & languages
-sidebar_position: 19
+description: Light or dark, the size of the interface, colour themes, and the languages φ speaks and checks.
 ---
 
 # Themes & languages
 
-φ should feel like *your* writing room — in the light or the dark, tinted the
-way you like, in the language you think in. All of this lives under
-**Settings** (`⌘,`) → **Appearance**.
+Make φ your own writing room: light or dark, larger or smaller, tinted the way
+you like, in the language you think in. Themes and size are in **Settings →
+Appearance**; languages are in **Settings → Language**.
 
-## Light, dark, or system
+<img src="/img/app/settings-light.png" alt="Settings → Appearance: Appearance, Interface size, the Phi colour theme, and the sidebar settings" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/settings-dark.png" alt="Settings → Appearance: Appearance, Interface size, the Phi colour theme, and the sidebar settings" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Under **Theme**, set **Appearance** to **Light**, **Dark**, or **System**.
-System follows your Mac's appearance and switches with it — light by day, dark
-by night, automatically.
+## Choose light or dark
 
-You can also flip the current mode without opening Settings: open the command
-palette (`⌘P`) and choose **Cycle theme (system / light / dark)**, or use
-**Toggle Theme** in the View menu.
+Set **Appearance** to **System**, **Light** or **Dark**. **System** follows
+your computer, so φ turns dark when your computer does.
 
-## Color themes
+To switch without opening Settings, choose **View → Toggle Theme**, or press
+`⌘P` and choose **Cycle theme (system / light / dark)**. Each goes one step
+round: system, light, dark.
 
-A *color theme* tints the interface — backgrounds, text, accents, the wiki-link
-color, code syntax colors, and so on. The light/dark mode above decides which
-side of a theme applies; the color theme decides the palette. Each theme in the
-list shows a small preview — a tiny mock of the φ window — built from its own
-colors, so you can see what it looks like before switching.
+## Make everything larger
 
-### The built-in φ theme
+**Interface size** scales the whole window, text and icons alike: **100%**,
+**115%**, **130%** or **150%**. **View → Actual Size** puts it back to 100%.
 
-φ ships with one official theme, **Phi**: neutral grays with a pure white or
-black page. It's the default and is marked **Official** in the list. It can't
-be removed.
+The size of your writing is separate: set it with **Font size** in
+**Settings → Editor**.
 
-### Installing official themes
+## Keep the sidebar dark or light
 
-The quickest way to add a theme is from within φ. In **Settings → Appearance →
-Color theme**, click **Browse official themes…**. φ shows the official gallery —
-Nord, Dracula, Gruvbox, and friends — each with a small preview drawn from its own
-colors. Click **Install** on any you like.
+In the light theme the sidebar is dark by default, so the page is the
+brightest thing on screen. For a light sidebar, set **Sidebar in light theme**
+to **Light**. In the dark theme the sidebar is always dark.
 
-Installing adds the theme to your **Color theme** list; select it there to apply
-it. (Grabbing several is fine — pick your favorite afterward.) An already-added
-theme shows **Installed**, and **Update** re-fetches its latest version.
+## Change the colours
 
-The gallery is cached locally, so it opens instantly and keeps working offline
-once it has loaded; it refreshes quietly when φ starts and when you check for
-updates.
+A colour theme sets the palette: backgrounds, text, accents, link and code
+colours. **Appearance** decides whether you see a theme's light side or its
+dark side. Each theme in the **Color theme** list has a small preview of the φ
+window in its colours; click one to use it.
 
-### Installing a theme file by hand
+φ comes with one theme, **Phi**, marked **Official**: neutral greys with a
+pure white or black page. It's the default and can't be removed.
 
-You can also install a theme from a file — handy for one you made yourself or
-were sent. Every theme other than Phi is a small JSON file that lives outside the
-app, in your themes folder, so adding or removing one never touches the
-application itself.
+### Install an official theme
 
-1. In **Settings → Appearance → Color theme**, click **Install theme…**.
-2. Select the theme's `.json` file.
+1. Under **Color theme**, open **Browse official themes…**.
+2. Each theme in the gallery shows a preview. Press **Install** on the ones you
+   like.
+3. Pick it in the **Color theme** list to use it.
 
-To see where themes are kept — to drop a file in by hand or back them up — click
-**Open themes folder**. Files you place there are picked up the next time you open
-Settings. Remove any community theme with the trash icon next to it; its file is
-deleted from the themes folder.
+A theme you already have shows **Installed**, and its button becomes
+**Update**, which fetches its latest version. If the gallery can't load, check
+your connection and press **Retry**. Once loaded, the gallery opens straight
+away and works offline; φ refreshes it in the background a few seconds after
+it starts, every six hours after that, and when you choose **Check for
+Updates…**.
 
-### How themes work (and why they're safe)
+The official themes live at
+[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes), where you
+can also offer one of your own.
 
-A theme supplies a `light` and/or a `dark` set of colors. Any color a theme
-leaves out falls back to the built-in Phi value, so a partial theme is perfectly
-fine. Themes can only set **colors** — fonts, spacing, and layout aren't
-themeable — and every value is validated as a safe CSS color when the file is
-installed, so an untrusted theme file can't do anything beyond changing a color.
+### Install a theme from a file
 
-### The themes gallery
+A theme is a small `.json` file. To add one you made or were sent:
 
-The official themes come from the **φ themes gallery** — the same library the
-in-app browser installs from:
+1. Under **Color theme**, press **Install theme…**.
+2. Choose the theme's `.json` file.
 
-> **[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes)**
+Themes you install are kept in your themes folder, not inside the app;
+**Open themes folder** shows it. To remove one, press the trash button beside
+it; φ asks first, then deletes its file from the themes folder.
 
-**Contributions are welcome.** Made a theme you're proud of? Open a pull request
-to the gallery and share it — well-made themes are added for everyone, and then
-show up in the in-app browser for everyone. The repo's README has the (small)
-theme-file format and the contribution guidelines.
+A theme can change colours and nothing else. φ checks every colour when a
+theme is installed, and any colour a theme leaves out comes from Phi.
 
-## Languages
+## Change φ's language
 
-φ's interface can run in different languages.
+Set **Interface language**. **System default** follows your computer.
+Otherwise choose a language: the ones that come with φ are listed under **φ**,
+each by its own name with the English beside it.
 
-### Switching language
+| Language | Shown as |
+| --- | --- |
+| English | **English (English)** |
+| Spanish | **Español (Spanish)** |
+| French | **Français (French)** |
 
-Under **Settings → Appearance → Language**, set **Interface language**.
-**System default** follows your Mac; otherwise pick a language from the list.
+Languages you install yourself are listed under **Community**.
 
-The built-in languages are:
+### Add a language
 
-- **English** (English)
-- **Spanish** (Español)
-- **French** (Français)
+Below the setting:
 
-### Community language packs
+- **Install a language…** adds a language file. It appears under
+  **Community**, and in a list below with a trash button to remove it.
+- **Export English template…** saves every phrase in φ, in English, to a file.
+  Translate the phrases, install the file, and φ speaks your language; share it
+  and it can ship for everyone.
+- **Open folder** shows where installed languages are kept.
 
-Like themes, additional languages are installable JSON files kept in your own
-locales folder, outside the app.
+A translation doesn't have to be finished. Anything a language leaves out shows
+in English.
 
-- **Install a language…** — select a language `.json` file to add it. It appears
-  under **Community** in the language list.
-- **Export English template…** — saves a file with every interface string in
-  English. Translate the values and install the result to run φ in your language
-   — or share it so it can ship for everyone.
-- **Open folder** — reveals where installed languages live.
+## Check spelling in your languages
 
-Remove a community language with the trash icon beside it.
+The languages φ checks your spelling in are set apart from the interface
+language, under **Spelling** on the same page: turn on **Check spelling**,
+choose the **Engine**, and tick the **Languages**. A vault can use its own
+engine, under **This vault**. [Spelling](./spelling) has the details.
 
-### Missing translations fall back to English
+## See also
 
-A translation doesn't have to be complete to be useful. Any string a language
-pack doesn't translate falls back to English, so φ is always fully labeled even
-with a partial translation in place.
+- [Settings](./settings): every setting on one page.
+- [Spelling](./spelling)
+- [Dictionary & thesaurus](./dictionary)

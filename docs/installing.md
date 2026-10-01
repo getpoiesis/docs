@@ -1,102 +1,116 @@
 ---
-title: Installing φ
-sidebar_position: 1
+title: Install φ
+description: Download φ for macOS, Windows or Linux, and keep it up to date.
 ---
 
-# Installing φ
+# Install φ
 
-φ runs on **macOS, Windows, and Linux**. Get the build for your system from the
-**[download page](https://getpoiesis.com/download)** — it offers the right file
-for the computer you're visiting from, with every other option a click away.
+φ runs on macOS, Windows and Linux. The
+[download page](https://getpoiesis.com/download) offers the right file for the
+computer you're visiting from, with every other option a click away. Once it's
+installed, φ tells you when there's a new version.
 
-:::warning φ is in alpha
-You're using early software — expect rough edges. Your writing itself is always
-safe: it's plain files on your computer, saved continuously and versioned.
-:::
+## Install φ
 
-:::danger Already running 0.8.2 or older? Download φ again
-**0.9.0 changed how your operating system identifies φ**, and that broke the
-update you would normally be offered. An older copy will keep telling you it is
-up to date, forever. Download the current version from the
-[download page](https://getpoiesis.com/download) and install it over the one you
-have — once. Updates work normally again from 0.9.0 onward.
+1. Open the [download page](https://getpoiesis.com/download) and download the
+   file it offers.
+2. Install it the way your system expects (see below).
+3. Open φ. Your system lists it as **φ Poiesis**, so typing "poiesis" in
+   Spotlight or the Start menu finds it.
+4. [Create your first vault](./getting-started).
 
-Your work is untouched: vaults, settings, dictionaries and history are all keyed
-to the app's name, not its identifier. Two things reset once — **macOS** asks
-again for access to the folder your vault is in, and **Windows** treats this as a
-separate program, so uninstall the earlier φ or it sits beside this one in Add or
-remove programs.
-:::
+## What you need
 
-## System requirements
+| System | Version |
+| --- | --- |
+| **macOS** | 12 (Monterey) or later, on Apple Silicon or Intel |
+| **Windows** | 10 or 11, 64-bit |
+| **Linux** | A modern 64-bit distribution. The AppImage runs almost anywhere; the `.deb` is for Debian and Ubuntu. |
 
-- **macOS** 12 (Monterey) or later — Apple Silicon or Intel.
-- **Windows** 10 or 11 (64-bit).
-- **Linux** — a modern 64-bit distribution. The AppImage runs almost anywhere; a
-  `.deb` is provided for Debian and Ubuntu.
+## On a Mac
 
-## macOS
+1. Download the `.dmg` for your Mac: **Apple Silicon** or **Intel**. Not sure
+   which? Apple menu → **About This Mac**: a chip named "Apple M…" is Apple
+   Silicon.
+2. Open the `.dmg` and drag φ into **Applications**.
+3. Open it from Applications or Spotlight.
 
-1. Download the `.dmg` — **Apple Silicon** or **Intel** to match your Mac. (Not
-   sure which you have? Apple menu → **About This Mac**; a chip listed as "Apple
-   M-series" is Apple Silicon.)
-2. Open the `.dmg` and drag **φ** into your **Applications** folder.
-3. Launch it from Applications or Spotlight.
+The Mac builds are signed and notarised by Apple, so they open without an
+"unidentified developer" warning.
 
-The macOS builds are **signed and notarized by Apple**, so they open without a
-Gatekeeper "unidentified developer" warning.
+## On Windows
 
-## Windows
+1. Download the installer (`.exe`) and run it. You can choose where φ is
+   installed.
+2. φ isn't code-signed yet, so Windows SmartScreen may say it's from an
+   unrecognised publisher. Click **More info**, then **Run anyway**. You only
+   need to do this once, and the download comes straight from φ's own
+   releases.
+3. Open φ from the Start menu.
 
-1. Download the installer (`.exe`) and run it. You can choose the install
-   location during setup.
-2. φ isn't code-signed yet, so Windows **SmartScreen** may warn that it's from an
-   unrecognized publisher. Click **More info → Run anyway** to continue — you only
-   need to do this once.
-3. Launch φ from the Start menu.
+## On Linux
 
-:::note Why the SmartScreen prompt?
-A code-signing certificate is something we'll add later. Until then the prompt is
-expected; the download comes straight from our own releases.
-:::
+The **AppImage** is the simpler choice and updates itself. The **`.deb`** fits
+in with Debian and Ubuntu, but you update it by installing the newer `.deb`.
 
-## Linux
+For the AppImage, make the file executable, then double-click it:
 
-φ ships in two formats. The **AppImage** is the simplest and **updates itself**;
-the **`.deb`** integrates with Debian and Ubuntu but is updated by reinstalling.
+```bash
+chmod +x poiesis-*.AppImage
+./poiesis-*.AppImage
+```
 
-### AppImage (recommended)
+Or right-click the file → **Properties** → **Permissions** → **Allow executing
+file as program**.
 
-1. Download the `.AppImage`.
-2. Make it executable — in a terminal:
-   ```bash
-   chmod +x poiesis-*.AppImage
-   ```
-   …or right-click the file → **Properties → Permissions → Allow executing file
-   as program**.
-3. Double-click it, or run `./poiesis-*.AppImage`.
-
-### Debian / Ubuntu (`.deb`)
+For the `.deb`:
 
 ```bash
 sudo dpkg -i poiesis-*.deb
 ```
 
-Then launch **φ** from your applications menu.
+Then open **φ Poiesis** from your applications menu.
 
-## Staying up to date
+## Keep φ up to date
 
-φ checks for updates on its own and installs them quietly in the background:
+φ looks for a new version a few seconds after it opens, and every six hours
+after that. It never downloads one without asking. When there's an update, a
+small banner says so:
 
-- **macOS**, **Windows**, and the **Linux AppImage** update themselves — you're
-  prompted to restart when a new version is ready.
-- The **Linux `.deb`** does **not** auto-update. Download and install the newer
-  `.deb` when you want to upgrade, or switch to the AppImage.
+1. **A new version (…) is available.** Click **Download** when it suits you.
+2. **Downloading update… %** shows how far it has got.
+3. **Update … ready to install.** Click **Restart & install**, or close the
+   banner and carry on: a downloaded update is installed the next time you
+   quit φ.
 
-You can also check on demand — **Help → Check for updates** (on macOS, the **φ**
-app menu).
+This works on macOS, Windows and the Linux AppImage. For the `.deb`, download
+and install the newer version yourself.
 
-## Next steps
+To check now:
 
-With φ installed, [Getting started](getting-started.md) walks you through your
-first vault and first page.
+- **On a Mac:** the **φ Poiesis** menu → **Check for Updates…**.
+- **On Windows and Linux:** press `Ctrl+P` and run **Check for updates…**.
+
+φ shows **Checking for updates…**, then offers the update, says **φ is up to
+date.**, or says **Couldn't check for updates.** when it can't reach the
+download server, for example when you're offline.
+
+:::note Still on 0.8.2 or older? Download φ again
+
+Version 0.9.0 changed how your system identifies φ, and that broke the update
+an older copy would offer: it will keep saying it's up to date. Download the
+current version from the [download page](https://getpoiesis.com/download) and
+install it over the one you have. You only need to do this once.
+
+Your vaults, settings, dictionaries and history are untouched. On a Mac,
+macOS asks once more for access to the folder your vault is in. On Windows,
+the new φ is listed as a separate program, so uninstall the old one from
+**Add or remove programs**.
+
+:::
+
+## See also
+
+- [Your first vault](./getting-started)
+- [Settings](./settings)
+- [Vaults](./vaults)

@@ -1,131 +1,98 @@
 ---
 title: The calendar
-sidebar_position: 11
+description: Your writing laid out by day, with your streak, the year at a glance, and what you made on this date in earlier years.
 ---
 
 # The calendar
 
-The calendar is your writing across time. It pairs each day with what you wrote,
-shows your streaks on the grid, and lets you open or start a day's work from a
-single place. It also surfaces **memories** — what you made on this date in
-earlier years.
+The calendar shows your writing across time. Each day carries what you wrote,
+started or linked to it, the days you wrote are marked, and from any past day
+you can open its work or start writing in it. It also brings back what you
+made on the same date in earlier years.
 
-<img src="/img/app/calendar-light.png" alt="φ's calendar: a year of writing days and the month in detail" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/calendar-dark.png" alt="φ's calendar: a year of writing days and the month in detail" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-light.png" alt="The calendar: the month's figures, streak and marks in the list, a heat map of the past months over the month grid, and the selected day with Write this day" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-dark.png" alt="The calendar: the month's figures, streak and marks in the list, a heat map of the past months over the month grid, and the selected day with Write this day" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Opening the calendar
+## Look back at a day
 
-In the left rail, click the **Calendar** icon. It opens as a full view. Click it
-again (or the back chevron in the header) to return to the editor.
+1. Click **Calendar** under **Places** in the sidebar.
+2. Move between months with the arrows beside the month's name; **Today**
+   brings you back.
+3. Click a day. Everything tied to it is listed below the grid.
+4. Click an item to open it, or press **Write this day** to write that day's
+   journal entry.
 
-At the top you'll find two modes:
+The calendar is also in `⌘K` (type "Calendar"), in the Journal list's **⋮**
+menu, and behind the month card on each mode's Home: click a day there to
+open it here. `⌘[` takes you back to where you were.
 
-- **Calendar** — the month grid (below).
-- **Pages** — a deliberate, browsable list of every morning page, newest first,
-  with a search box. This is the place to revisit pages if you choose to; they
-  open in reading mode.
+## What the list beside it shows
 
-## The writing heatmap
+| Section | What it holds |
+| --- | --- |
+| **Show** | **All**, **Write**, **Notes**, **Journal** or **Due**. Narrows the calendar to one mode's documents, or to the board cards that fall due. |
+| The month's name | The words you've written this month, how many writing days, and how many days of this week you wrote. Below them, your streak and how many mornings of morning pages, when there are any. |
+| **Heat map** | The key to the heat map's shades, from **Less** to **More**. |
+| **Marks** | What each mark on the grid means. |
 
-Above the month grid, a **heatmap** shows the past year of writing as a grid of
-small squares — one per day, like a contribution graph. The more you wrote on a
-day, the deeper its tint. It's a companion to the month grid: the grid handles one
-month up close, the heatmap shows the long rhythm at a glance.
+## Read the month
 
-- **Today** carries a warm outline, the **selected day** is enlarged, and the
-  **month you're viewing** in the grid below is gently outlined — so the two views
-  stay in step.
-- The heatmap shows a **whole year at a time**. As you move the calendar to older
-  months it pages back a year, keeping complete months in view; when you're
-  browsing an earlier year its date range is labeled and a **Back to today** link
-  returns you to the present. It never shows days in the future.
-- Click any square to open that day.
+Each day on the grid shows a count of what it holds, and these marks:
 
-Three figures sit above the heatmap and follow the month you're viewing:
+| Mark | Means |
+| --- | --- |
+| Flame | **You wrote that day**: you reached your daily word minimum. Days in your current run are brighter and joined together. |
+| Sunrise | **Morning pages** |
+| Notebook and pen | **Journal entry** |
+| Book | **Project started** |
+| Clock | **Something from an earlier year** on this date. |
 
-- **Total words** — every word you've written in this vault, all time. It only
-  ever grows.
-- **This month** — words written in the month on screen.
-- **Writing days this week** — how many of the last seven days you wrote, shown
-  against your weekly rhythm goal if you've set one.
+Above the grid, the **heat map** shows the past year as small squares, one
+for each day; the more you wrote, the deeper the colour. Today is outlined,
+the selected day is drawn larger, and the month on the grid is marked so the
+two stay in step. In a narrow window it shows fewer months rather than tiny
+squares. Click a square to open that day. When you move back into an earlier
+year, **Back to today** returns you.
 
-The heatmap and the grid both begin the week on the day you choose in **Settings**
-(`⌘,`) → **Appearance** → **Week starts on** (Monday or Sunday).
+## What a selected day lists
 
-## The month grid
+- **Projects** started that day.
+- **Board cards** due that day, marked **Due** with the board's name. Click
+  one to open its board.
+- **Journal entries**, **morning pages** and **documents**. Each document is
+  marked by how it relates to the day: **created**, **edited**, or
+  **linked**, when a date in its text points at the day.
 
-Move between months with the chevrons, and jump back with **Today**. Each cell is
-a day, and its marks tell you what happened.
+Documents and entries open to edit. Morning pages open read-only, since
+they aren't meant to be reread.
 
-### What the marks mean
+A day with nothing in it says *Nothing yet — start your pages for this day.*
 
-- **Writing flame** — a flame appears on any day you met your daily word minimum.
-  Days that are part of your **current streak run** burn brighter and the cells
-  are tied together, so you can see the unbroken stretch ending today (or
-  yesterday, within the one-day grace). See
-  [Journal & morning pages](journal-and-morning-pages.md) for the streak rules.
-  The flame follows your streak-display choice (see [The streak, and how it
-  shows](#the-streak-and-how-it-shows) below) — in **Quiet** it's calmer, and in
-  **Off** it's hidden entirely.
-- **Sunrise** — that day has **morning pages**.
-- **Notebook-and-pen** — that day has a **journal entry**.
-- **Book** — a **collection** was started that day.
-- **Count chip** — a small number showing how many items the day holds (journal
-  entries, morning pages, collections, and any documents created, edited, or
-  referencing that date).
-- **Clock** — a memory marker, meaning something was created on that date in an
-  earlier year (see below).
+## Write on a day
 
-The two streaks also appear as chips in the header when they're running: a flame
-for your overall **writing streak**, and a sunrise for your **morning-pages
-streak**. These show in the **Motivational** streak display; in **Quiet** or
-**Off** the calendar leans on the heatmap and summary figures instead.
+**Write this day** opens that day's journal entry, and makes it if there
+isn't one. It's there for today and every day before it. A future day can be
+mentioned in your writing, but can't have an entry of its own yet.
 
-## The streak, and how it shows
+## Meet your past writing
 
-φ can present your writing streak in three ways. Choose per writer profile in
-**Settings** (`⌘,`) → **Profiles** → **Streak display**:
+When the selected day holds something from earlier years, **On this day**
+appears above its list, with a count *from previous years*. Click it to see
+each piece with how long ago it was, such as *3y ago*, and click one to open
+it.
 
-- **Motivational** — the flame. Your current run shows as `🔥 N` in the status bar
-  and on the calendar grid, with your **weekly rhythm** beside it ("4 / 5 this
-  week") when you've set a goal.
-- **Quiet** — no streak, no pressure. The status bar shows your **total words**
-  (all time) instead — a number that only ever goes up.
-- **Off** — nothing is surfaced. The heatmap is still there as a record, framed as
-  rhythm rather than a scoreboard.
+:::tip Change how the streak shows
 
-**Weekly rhythm** is a gentler target than a daily chain: aim to write *N days a
-week*, measured over a rolling seven-day window, so a single missed day never
-resets it. Set it in the same **Profiles** panel. **Total words** counts your
-manuscripts and notes — Morning Pages and Journal entries don't add to it, since
-they're daily practice rather than output.
+**Settings** (`⌘,`) → **Setup** → **Streak** chooses **Flame and count**,
+**Plain days** or **Off**. With **Off**, the flames go and the heat map stays,
+as a record rather than a scoreboard. **Week starts on**, in the same place,
+sets the first column of the grid and the heat map.
 
-## Selecting a day
+:::
 
-Click a day to select it. The panel beside the grid lists everything tied to that
-day:
+## See also
 
-- **Collections** started that day.
-- **Journal entries** and **documents**, each badged by how they relate to the
-  day — *created*, *edited*, or *linked* (a date chip points at it).
-- **Morning pages**, badged as such.
-
-Click any item to open it. Documents and journal entries open to edit; morning
-pages open in **reading mode**, read-only.
-
-### Starting a day's work
-
-If a day has nothing yet, the panel invites you to begin. Use the calendar to
-start a journal entry on a chosen day — work you create here is dated to the day
-you picked, not just to today. You can backfill **today or a past day**, but not a
-day in the **future**: φ won't create an entry dated ahead of today. (You can
-still *reference* a future date in your writing with a date chip — that's
-different from dating an entry there.)
-
-## Memories — on this day
-
-When the day you've selected holds content from earlier years, an **On this day**
-reveal appears above the day's list, with a count *from previous years*. Click it
-to expand the list. Each memory shows its title and how long ago it was — for
-example *3y ago* — and opens with a click, just like any other item. It's a quiet
-way to meet your past writing as the year comes back around.
+- [Journal & morning pages](./journal-and-morning-pages): entries, morning
+  pages and how the streak is counted.
+- [Boards](./boards): cards with due dates.
+- [Finding your way](./finding-your-way)

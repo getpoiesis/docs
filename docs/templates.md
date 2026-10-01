@@ -1,66 +1,86 @@
 ---
 title: Templates
-sidebar_position: 15
+description: Reusable blocks you build once and drop into any document with a slash.
 ---
 
 # Templates
 
-Templates are reusable blocks you drop into any document — a scene heading, a
-poem skeleton, a daily-log layout, a letter format. Build the structure once,
-then insert it whenever you need it.
+A **template** is a block you reuse: a scene heading, a poem's skeleton, a
+daily log, a letter. Build the structure once, then put it wherever you need
+it with `/`. Templates can fill in today's date and put the caret where you'll
+start typing.
 
-## Inserting a template
+## Use a template
 
-Two ways, both wherever your caret is:
+1. Put the caret where the template should go.
+2. Type `/` and the template's name, or `/template` to see them all.
+3. Pick it from the menu. Each template is marked **Insert a saved template**
+   (every vault) or **Insert a vault template** (this vault only).
 
-- **Slash menu** — type `/` in the editor, then the template's name (or the word
-  `template`), and pick it from the list.
-- **Command palette** — open it with `⌘P` and search for the template.
+The block goes in at the caret, with any variables filled in.
 
-The block is inserted at the cursor, with any variables filled in (see below).
+## Save something as a template
 
-## Saving a template
+| To save | Do this | Where it's kept |
+| --- | --- | --- |
+| The whole document | `⌘P` → **Save document as template…**, then name it. | Every vault. |
+| Part of a document | Select it, press **›** (**More tools**) in the toolbar that appears, then **Save selection as template…**. Name it, then choose **All vaults** or **This vault only**. | Your choice. |
 
-Make the thing you want to reuse, then save it:
+Templates for every vault are kept by φ itself, so adding or removing one
+never touches your vault's files. Templates for one vault are kept inside its
+folder, so they travel with the vault.
 
-- **Save the whole document** — **Save document as template…** in the command
-  palette, or the save button in the templates list. Give it a name.
-- **Save a selection** — select the part you want and use **Save selection as
-  template…**, so you keep just that fragment.
+## The Templates page
 
-## Global vs vault templates
+In **Notes**, open **Templates** under **Places** in the sidebar, or press
+`⌘K` and type *Templates*. The list shows every template this vault can use,
+marked **This vault** or **On every vault**. Pick one to see what it writes.
 
-When you save, φ asks where it should live:
+- **+** (**New template**) makes an empty one for this vault, called
+  **Untitled template**.
+- **Edit template** opens it in the template editor.
+- **Remove template** deletes one of this vault's templates. Templates for
+  every vault are removed in Settings (below).
 
-- **All vaults (global)** — available everywhere. Global templates are stored at
-  the app level, shared across every vault, so adding or removing one never
-  touches your vault files.
-- **This vault only** — available just in the current vault, and travels with it.
+## Edit a template
 
-In the templates list, the two are shown under **Global templates** and **This
-vault** sections.
+The template editor is a writing surface of its own: editing a template there
+never disturbs the document you have open. Change the name and the content,
+then press **Save**. A reminder of the variables sits under it.
 
-## The template editor
+**Settings → Templates** lists them too, under **This vault** and **Global
+templates**, each with a pencil to edit and a bin to remove. Below the lists:
 
-To change a template, open the **Edit template** editor. It's a standalone
-writing surface — editing a template here never disturbs your open document. Edit
-the content and the name, then save. You can also rename, remove, install a
-template file, or open the templates folder from the list.
+- **Install a template…** adds a template file someone gave you.
+- **Open templates folder** shows where the templates for every vault are
+  kept.
 
-## Template variables
+## Fill in dates and the caret
 
-A template can include variables that fill in the moment you insert it (they're
-never stored already-resolved). Type them as literal text:
+A template can carry variables that fill in the moment you insert it. Because
+they're filled in each time, the same template gives today's date today and
+tomorrow's tomorrow. Type them as plain text in the template:
 
-| Variable        | Fills in with                                  |
-| --------------- | ---------------------------------------------- |
-| `<% today %>`   | today's date                                   |
-| `<% tomorrow %>`| tomorrow's date                                |
-| `<% yesterday %>`| yesterday's date                              |
-| `<% time %>`    | the current time                               |
-| `<% cursor %>`  | nothing — this is where the caret lands        |
+| Variable | Fills in with |
+| --- | --- |
+| `<% today %>` | Today's date. |
+| `<% tomorrow %>` | Tomorrow's date. |
+| `<% yesterday %>` | Yesterday's date. |
+| `<% time %>` | The time now. |
+| `<% cursor %>` | Nothing: it's where the caret lands, so you can start typing. |
 
-Variables work in plain text and inside links. The date variables become
-interactive date chips in plain text; inside a link or alongside other
-formatting they resolve to plain text. After insertion, your caret jumps to
-wherever you placed `<% cursor %>`, so you can start typing right away.
+In plain text, the dates become date chips you can click. Inside a link or
+other formatting they become plain text.
+
+:::tip A template for each kind of day
+
+A daily log with `<% today %>` as its heading and `<% cursor %>` underneath
+gives you a dated page, ready to write in, with one slash.
+
+:::
+
+## See also
+
+- [Formatting & blocks](./formatting-and-blocks): the `/` menu.
+- [Journal & morning pages](./journal-and-morning-pages)
+- [Settings](./settings)

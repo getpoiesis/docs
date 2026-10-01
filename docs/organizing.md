@@ -1,132 +1,171 @@
 ---
-title: Organizing your work
-sidebar_position: 6
+title: Organizing
+description: Folders, tags, sorting, moving documents about, and getting things back from the trash.
 ---
 
-# Organizing your work
+# Organizing
 
-A vault can hold a few notes or a few thousand. φ gives you light structure —
-spaces, folders, tags, and search — so you can find anything without ever
-imposing more order than you want. Nothing here changes how a document is
-written; it only changes how you reach it.
+φ gives you light structure: folders, tags, stars and a sort for every list.
+None of it changes how a document is written, only how you reach it, so use
+as much or as little as suits you. This page is the reference for all of it.
 
-<img src="/img/app/notes-light.png" alt="Notes: open action items, the keywords you use, and what you pinned" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/notes-dark.png" alt="Notes: open action items, the keywords you use, and what you pinned" width="1600" height="1048" loading="lazy" decoding="async" />
+## File a document in a folder
 
-## The left rail: three spaces
+1. Open **Pieces** in Write, or a folder in Notes.
+2. Make a folder if you need one: **New folder** at the foot of the list, then
+   name it.
+3. Drag the document onto the folder.
+4. Click the folder to open it in place. The folder path above the list
+   (**All › Drafts › Poems**) takes you back out.
 
-Down the left edge sits a thin vertical rail. The top three icons are **spaces**
-— different lenses over the one vault, grouped by what you're doing:
+## Pieces and notes
 
-- **Notes** (folder icon) — your documents and folders. The folder tree is home.
-- **Write** (book icon) — [collections](collections.md): manuscripts, poetry,
-  essays.
-- **Journal** (notebook icon) — your dated journal entries.
+Every document that isn't a chapter, a journal day or a morning page is one
+of two kinds:
 
-Below them, a **sun** opens today's morning pages, and a separator leads to the
-feature views — calendar, graph, characters, author profiles, research — with
-the trash pinned at the bottom. Clicking a space switches what the sidebar
-shows; it doesn't change the document you have open.
+- **Pieces** live in Write, under **Pieces**: a poem, an essay, a story
+  outside any project. A piece can have a status and a word goal. Add it to a
+  project whenever you like (see [Projects](./collections)).
+- **Notes** live in Notes: ideas, sources, lines you overheard. They have no
+  status and no word goal (see [Notes & capture](./notes)).
 
-## The sidebar
+Pieces and notes share the same folders. Notes shows every folder; Pieces
+shows the folders that hold pieces, and any new, empty ones.
 
-The sidebar is the panel next to the rail. What it contains depends on the space
-you're in: the folder tree in **Notes**, your books in **Write**, your entries
-in **Journal**.
+## Folders
 
-Toggle the sidebar with `⌘[` (View → Toggle Sidebar). Hide it when you want the
-page to itself; bring it back when you need to navigate. Drag its right edge to
-resize it.
+Folders are optional. A document in no folder sits at the top of the list.
 
-## The folder tree
+### Make a folder
 
-In the **Notes** space, your documents live in a nested folder tree. Folders are
-optional — a document with no folder sits at the root.
+- **New folder** at the foot of a folder listing makes one inside the folder
+  you're looking at.
+- **+** beside **Folders** in the Notes sidebar.
+- The list's **⋮** → **New folder**, in Write or Notes.
+- Right-click a folder → **New folder inside**.
 
-### Create and rename folders
+φ asks you to **Name the new folder**.
 
-- **New folder** — click the folder-plus button in the sidebar toolbar (creates
-  one at the root), or open a folder's **⋯** menu and choose **New subfolder**.
-- **Rename** — open a folder's **⋯** menu and choose **Rename**, then type the
-  new name and press Enter. (Press Escape to cancel.)
-- **Delete** — the **⋯** menu's **Delete**. Documents inside move up to the root;
-  they are never deleted with the folder.
+### A folder's menu
 
-### Color a folder
+Right-click a folder, in the Notes sidebar or in a list:
 
-In a folder's **⋯** menu, pick a swatch to color-label it — gray, red, orange,
-yellow, green, blue, purple, or pink — or the first swatch for no color. Colors
-are purely for your own at-a-glance sorting.
+| Item | What it does |
+| --- | --- |
+| **New piece** / **New note here** | A new document in this folder (the first in Write, the second in Notes). |
+| **New folder inside** | A folder within this one. |
+| **Rename this folder** | Gives it a new name. |
+| **Icon…** | Picks an icon for it (see below). |
+| **Colour** | **None**, **Grey**, **Red**, **Orange**, **Yellow**, **Green**, **Blue**, **Purple** or **Pink**. The colour tints the folder's icon. |
+| **Delete this folder** | Removes the folder after asking. Its documents move to the top level; none is ever deleted with a folder. This can't be undone. |
 
-### Move documents
+### Icons and colours
 
-Drag a document onto a folder to file it there. Drop it on empty space in the
-tree to move it back to the root.
+A folder or a project can have its own icon: right-click it → **Icon…**. For
+the project you're in, the list's **⋮** has **Icon…** and **Colour…** too.
 
-### Collapse and expand
+The picker has a search field, a row of colours, and icons in groups.
+**Default** goes back to the plain folder or book. The icon and colour follow
+the folder or project wherever it's named: the sidebar, the list, the folder
+path and Home.
 
-Click a folder's twisty (the caret) to open or close it. The collapse/expand
-button in the sidebar toolbar folds or unfolds the whole tree at once.
+## Move a document
 
-## Recent and Starred
-
-Above the folder tree, two sections give you fast paths to the documents you
-reach for most:
-
-- **Starred** — documents you've marked with the star. Star a document from its
-  header (the star button) or its right-click menu. Unstar from the same place.
-- **Recent** — the documents you opened most recently. (You can turn this section
-  off in Settings → Sidebar → Show recent documents.)
-
-Both sections collapse with their carets.
+| To move it | Do this |
+| --- | --- |
+| Into a folder | Drag it onto the folder, in a list or the Notes sidebar. Or right-click it → **Move to folder**. Or choose the folder under **In** on its **Details…** page. |
+| Out of every folder | Drop it on **All** in the folder path, or choose **No folder**. |
+| Up a level | Drop it on a step of the folder path. |
+| Into a different order | Drop it between two others. The order is kept while the list is sorted by **Last edited**. |
+| From Notes to Write, or back | Right-click it → **Move to Write's pieces** or **Move to Notes**. The same choice is on the document's **⋮** and its Details. |
+| Into a project | Right-click a piece → **Add to collection** or **Move to collection**. Or, on its Details, **Add it to a project…**. A note moves to Write's pieces first. |
+| Out of a project | Right-click the chapter → **Remove from collection**. |
+| To another vault | Right-click it → **Move to vault…** (when you have more than one; see [Vaults](./vaults)). |
 
 ## Tags
 
-Tags cut across folders: a document can carry any number of them, and you can
-group documents by tag regardless of where they're filed.
+Tags cut across folders, and a document can carry any number of them.
 
-- **Add a tag** — in a document's header, type into the **add tag…** field and
-  press Enter.
-- **Remove a tag** — click the **×** on the tag.
-- **Filter by tag** — when you have tags, a row of tag pills appears at the top
-  of the Notes sidebar. Click one to show only documents with that tag; click it
-  again to clear the filter.
+- **Add one**: open the document's **Details…**, type in **+ Tag** and press
+  Return.
+- **Remove one**: click the **×** on it.
+- **Browse one**: click a tag in Details, or under **Tags** in the Notes
+  sidebar, to list every note that carries it.
 
-## Search
+## Sort and search a list
 
-Every document in the vault is full-text searchable, and search runs entirely on
-your Mac.
+Every list has the same header: back and forward (`⌘[` and `⌘]`), the list's
+name, **+** to make the next thing here, and **⋮** for the mode's other
+actions.
 
-- **Find** (`⌘F`) — opens the sidebar's search box. Type to see ranked matches
-  with a snippet of the surrounding text. Results update as you type, and
-  prefix matches are included, so a partial word finds whole ones.
-- **Quick switch** (`⌘K`) — opens the quick switcher, a fast jump-to box that
-  searches documents *and* collections by title. Good for hopping somewhere you
-  already know the name of.
-- **Command palette** (`⌘P`) — runs commands and can jump to documents too.
+- **Sort.** Pieces and notes sort by **Last edited**, **Date created** or
+  **Title**. The button shows the current one.
+- **Search.** The field under the header narrows the list as you type, by
+  title, opening text and tags. Inside a folder it looks through the folders
+  below it too. `Esc` clears it.
+- **Step through.** `⌥⌘←` and `⌥⌘→` open the document above or below the
+  open one.
+- **Open beside.** `⌥`-click a row to open it next to the one you're reading
+  (see [Side by side](./side-by-side)).
 
-Morning pages, journal entries, and research pages are kept out of the folder
-view and out of search by design — they have their own spaces.
+## Details
 
-## Sort order
+Everything about a document that isn't its text is on its **Details…** page.
+Open it with the ⓘ at the top of the page, from the document's **⋮**, or from
+any row's right-click menu. **Back to text** returns you to the page.
 
-In the Notes sidebar, the sort button (the up/down arrows) sets how the folder
-tree orders documents:
+What it shows depends on the document:
 
-- **Last modified** — most recently edited first.
-- **Date created** — newest first.
-- **Title** — alphabetical.
-- **Manual** — your own order.
+| Row | Shown for |
+| --- | --- |
+| **Status** | Pieces: **draft**, **published** or **archived**. Chapters: **Todo**, **Draft**, **Revised** or **Final**. |
+| **Synopsis** or **Description** | A chapter has a synopsis; everything else a description. |
+| **Word goal** | Pieces and chapters, with a bar against the count. |
+| **Tags** | Everything. |
+| **Colour** | Chapters: **Grey**, **Red**, **Amber**, **Green**, **Blue** or **Violet**. |
+| **Starred** | Everything. |
+| **In** | A chapter: its project, part and number, **Leave out of the numbering**, and a link to open the project. A piece or a note: its folder, and the way across to the other mode. Any board card that points at the document is listed here too. |
+| **Linked to** | Pieces and notes: the documents, projects and characters this one is about (see [Research](./research)). |
 
-## Document status
+At the foot: when it was created and last edited, and how many versions it
+has.
 
-A document can carry a status to mark where it is in your process:
+## A document's menu
 
-- **draft**
-- **published**
-- **archived**
+Right-click a document in any list, or click its **⋮**:
 
-Set it from the status control in the document header. On a standalone note the
-status is optional — click the milestone button to reveal it, then choose one.
-Documents that belong to a collection always show their status. Journal entries
-don't use status.
+- **Details…**, **Open beside**, **Star** or **Unstar**.
+- **Outline**, **Wiki links**, **Notes**, **Version history**: each opens
+  that part of the Info panel.
+- The moves in the table above.
+- **Mark as morning pages** (see
+  [Journal & morning pages](./journal-and-morning-pages)).
+- **Rename…** and **Copy as Markdown**.
+- A submenu with every export format (see [Exporting](./exporting)).
+- **Delete**, which moves the document to the trash.
+
+## Trash
+
+Nothing you delete is gone at once. **Trash**, at the foot of the sidebar,
+holds deleted documents, projects, characters, author profiles, boards and
+board cards.
+
+1. Click **Trash**.
+2. Pick an item to see it. A document opens read-only.
+3. Press **Restore** to put it back, or **Delete forever** to remove it now.
+
+**Empty**, at the top of the trash list, clears everything after asking.
+Items in the trash are permanently deleted after 30 days.
+
+:::note
+
+`⌘⌫` moves the open document to the trash, after asking.
+
+:::
+
+## See also
+
+- [Notes & capture](./notes)
+- [Finding your way](./finding-your-way): the sidebar, the list and the page.
+- [Search & replace](./search-and-replace)
+- [Projects](./collections): organizing chapters and parts.

@@ -1,123 +1,84 @@
 ---
-title: Exporting & printing
-sidebar_position: 17
+title: How exporting works
+description: Where your work can go from φ, and how to get it there.
 ---
 
-# Exporting & printing
+# How exporting works
 
-Your writing lives in `.poiesis` files, but the world wants Word documents, PDFs,
-ebooks, and Markdown. φ exports to all of them — a single document for sharing a
-draft, or a whole collection compiled into one finished book.
+φ turns a project into the files the world takes: a print-ready book and its
+cover, an ebook, a manuscript for an agent, or a copy to share. Start with
+where the book is going, and φ shows only what that destination needs.
 
-Nothing leaves your Mac in the process: every export is rendered locally and
-written to a file you choose with a normal Save dialog.
+<img src="/img/app/export-light.png" alt="The Export tab of a book: the four destinations, the design and trim size, the check, and the export buttons" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/export-dark.png" alt="The Export tab of a book: the four destinations, the design and trim size, the check, and the export buttons" width="1600" height="1000" loading="lazy" decoding="async" />
 
-:::caution Export is the roughest part of φ right now
+## Export a project
 
-φ is alpha software, and **export — EPUB, PDF, Word (DOCX), and compiled HTML —
-is the area still under the most active work.** It's the part of the app most
-likely to disappoint today, so go in with the right expectations:
+1. Open the project in **Write**, then choose **Export** under it in the
+   sidebar.
+2. Pick where it's going: **Print book**, **Ebook**, **Agent or publisher** or
+   **Share a copy**.
+3. Make the few choices that tab asks for. φ checks the book as you go and
+   lists anything to fix.
+4. Choose **Preview** to see every page before you export, if you like.
+5. Press the export button and choose where to save the file.
 
-- **Treat every export as a draft, not a final file.** Open the result in the
-  target app (Word, a PDF viewer, an EPUB reader) and proofread it before you
-  rely on it. Expect to do some cleanup there.
-- **Complex layouts are where it strains** — heavy footnotes, citations and
-  bibliographies, nested chapter structure, images and full-bleed covers, and
-  unusual blocks may render imperfectly or need manual fixing.
-- **Your source is always safe.** Export never changes your `.poiesis` files, so
-  you can re-export as often as you like — and exporters are improving with each
-  release, so a document that exports poorly today should export better soon.
-- **For the most faithful results today**, Markdown and HTML are the most stable;
-  DOCX, EPUB, and PDF are improving but the least mature.
+Everything is made on your computer, and exporting never changes your
+documents, so you can export as often as you like.
 
-If an export comes out wrong, that's known territory — your feedback on *which*
-documents break and *how* is the most useful thing you can send during alpha.
+## The four destinations
 
-:::
+| Destination | What you get | Read more |
+| --- | --- | --- |
+| **Print book** | The interior PDF and the full-wrap cover for KDP, IngramSpark, Lulu and other print-on-demand services. | [Print a book](./print-a-book) |
+| **Ebook** | An EPUB for Apple Books, Kindle, Kobo and Google Play. | [Make an ebook](./make-an-ebook) |
+| **Agent or publisher** | Your manuscript in Standard Manuscript Format, in Word or PDF. | [Send to an agent or publisher](./send-to-an-agent) |
+| **Share a copy** | A PDF to read, Word to keep editing, a web page, Markdown, Rich Text, or a copy of the whole project. | [Share a copy](./share-a-copy) |
 
-## Exporting a single document
+φ remembers the destination and your choices for each project.
 
-With a document open, open the command palette (`⌘P`) and choose **Export
-document as…** for the format you want. φ renders it and asks where to save.
+## Check before you export
 
-The document formats are:
+While you set things up, φ builds the book in the background without saving
+anything, and the tab says what it found:
 
-- **Markdown (`.md`)** — Markdown with the common extensions: callouts,
-  `==highlight==`, `[[wiki-links]]`, footnotes. Best for moving text into another
-  Markdown app or a static site, or for plain-text archiving.
-- **HTML (`.html`)** — semantic, self-contained HTML. Best for the web or for
-  pasting into another tool with formatting intact.
-- **Plain text (`.txt`)** — just the words, no formatting. Best when a tool wants
-  raw text.
+- the page count and spine width, for a printed book;
+- anything to fix, such as a missing cover, cover art too small to print
+  sharply, a picture with no description, or contact details missing from
+  your author profile;
+- or **Nothing to fix: it's ready.**
 
-These export the one active document. To compile several documents into a single
-book, use a collection (below).
+Some notes are only for your information, like a spine too narrow for its
+title. Things that would spoil a published file (a missing picture, say) stop
+the export until they're fixed.
 
-## Exporting a collection (a book or manuscript)
+## The book's own pages
 
-A [collection](collections.md) compiles its documents — in tree order, parts and
-chapters included — into one finished work. Open the collection's page in the
-**Write** space and use the buttons at the bottom:
+The title page, copyright page, dedication, epigraph, "Also by" page and
+"About the author" come from your project, not from typing them into a
+document:
 
-- **Compile** — one self-contained **HTML** document, framed with a title page,
-  table of contents, and the collection's export style. Good for previewing the
-  whole book in a browser.
-- **PDF** — a print-ready PDF (see below).
-- **EPUB** — an EPUB3 ebook: your editor styling and chosen font embedded, images
-  included, a tree-aware navigation table of contents, and the cover.
-- **DOCX** — a Word document with headings, marks, lists, callouts, and scene
-  breaks preserved. Best for editors, submissions, and anyone who works in Word.
+- the cover and description are set at the top of the project's page;
+- everything else is in [Book details](./book-details) on the same page;
+- "About the author" comes from the first author's [profile](./characters-and-authors).
 
-Every collection export embeds the **cover image**, builds a table of contents
-from the book's structure, and can close with an **About the author** page when
-the author profile has a bio or photo. The byline and author details come from
-the collection's author profile.
+## Export a single document
 
-## Printing & PDF
+To export one document rather than a whole project, open it and use the
+command palette (`⌘P`, **Export document as…**) or the document's **⋮** menu.
+The formats are PDF, Word, Markdown, an HTML page, an HTML fragment (just the
+body, for pasting into a site), Rich Text, plain text and TextPack.
 
-φ doesn't print through the system print dialog; instead it produces a print-ready
-PDF you can print or send. The PDF is built to book conventions:
+**Copy as Markdown** (in the command palette and the document's menu) puts the
+document's text, or your selection, on the clipboard as Markdown, without a
+title or front matter.
 
-- **Fixed paper size** — US Letter, with book margins, a running title at the top,
-  and page numbers at the foot.
-- **WYSIWYG body** — each page renders in your chosen editor font and text
-  measure, so the PDF wraps lines the way the editor does.
-- **A page per chapter** — chapters (and parts) start on a new page, with
-  centered openers.
-- **True per-page footnotes** — each footnote is pinned to the bottom of the page
-  its marker sits on. See [Footnotes & citations](footnotes-and-citations.md).
-- **Bibliography on its own page** — the reference list opens a fresh page at the
-  end, with no stray blanks before it.
-- **Full-bleed cover** — the cover image fills its page, edge to edge, with no
-  running header or footer.
-
-## Importing
-
-φ reads work from other tools and from your own backups.
-
-- **Import a φ document (`.poiesis`)** — from the **File** menu, or **Import a φ
-  document** in the command palette (`⌘P`). This brings in a portable `.poiesis`
-  file (with its embedded images) — for example, a copy you saved with **Save a
-  Copy**.
-- **Import Markdown file(s)** — choose **Import Markdown file(s)** in the command
-  palette. φ reads Markdown files, including frontmatter,
-  headings, lists and tasks, callouts, highlights, and wiki-links.
-- **Import a folder of Markdown notes** — choose **Import Markdown folder**
-  in the command palette to bring an entire folder in recursively, keeping
-  its nested folder structure. You can import it **into your current vault** or
-  **as a new vault**. φ keeps each note's **original creation date** — from a date
-  in the file, a journal/daily filename (like `2022_11_11`), or the source's
-  git history — so your timeline survives the move. It also reconnects the
-  **`[[link]]` graph** — decoding encoded filenames (namespaced pages and
-  special characters like `:` or `&`), honoring `title::` and `alias::` page
-  properties so a page is found by its real name and any alias, and treating
-  `#tags` as page links — so backlinks and the graph view work on the imported
-  vault right away.
+Links between your own documents (`[[wiki links]]`) leave as plain text in
+every format: a reader without your vault has nothing to follow.
 
 ## See also
 
-- [Collections (books & manuscripts)](collections.md) — structuring the book you
-  export.
-- [Footnotes & citations](footnotes-and-citations.md) — how the apparatus renders
-  in each format.
-- [Vaults](vaults.md) — where imported work lands.
+- [Preview](./preview): every page before you export.
+- [Designs & adjusting them](./designs): how the book is set.
+- [Book details](./book-details): what the title and copyright pages carry.
+- [Importing](./importing): bringing work into φ.

@@ -1,82 +1,79 @@
 ---
 title: Spelling
-sidebar_position: 6
+description: Spelling checked as you write, and one calm pass over a whole document.
 ---
 
 # Spelling
 
-φ checks your spelling as you write. Misspelled words get a subtle wavy
-underline, and you can correct them straight from the **right-click menu** —
-pick a suggestion, or choose **Add to Dictionary** to keep the word.
+φ checks your spelling as you write. A misspelled word gets a soft wavy
+underline that you can fix from the right-click menu, or you can leave them
+all for one deliberate pass when the draft is done. Nothing is ever
+corrected for you.
 
-Everything lives in **Settings → Language**.
+## Check a whole document
 
-## Check the whole document
+1. Open the document.
+2. Press `⌘;`, or choose **Edit → Check Spelling…**, **Check spelling…** in
+   the document's ⋮ menu, or **Check spelling…** in the command palette.
+3. For each word φ stops at, choose what to do (below).
+4. When φ says it's all done, there's nothing left to review.
 
-When you'd rather review a finished draft in one deliberate pass, run
-**Check spelling**. φ walks every misspelling in order and, for each one, shows a
-small panel with suggestions and your choices — nothing is ever corrected
-automatically:
+The word under review is highlighted in the text, so you see it where it
+sits, and a counter shows how many are left.
 
-- **Change** — replace this word with the suggestion (or type your own in the box).
-- **Change all** — fix every occurrence of the word in the document.
-- **Ignore** / **Ignore all** — skip this one, or every occurrence, for the rest of
-  the pass.
-- **Add to dictionary** — keep the word everywhere, now and in future documents.
+| Choice | What it does |
+| --- | --- |
+| **Change** | Replaces this word with the suggestion, or with what you typed in **Correction**. |
+| **Change all** | Replaces every occurrence in the document. |
+| **Ignore** | Skips this one. |
+| **Ignore all** | Skips every occurrence, for the rest of this pass. |
+| **Add to dictionary** | Keeps the word, here and in every other document. |
 
-The word under review is highlighted in the text so you always see it in context,
-and a counter shows how many are left. Start the pass any way you like:
+When φ has nothing to suggest it says **No suggestions**, and you can type
+the correction yourself.
 
-- the **command palette** (`⌘P`) → **Check spelling…**
-- **Edit → Check Spelling…** in the menu
-- the shortcut **⌘⇧L**
-- the spell-check button in the **status bar**
+The whole-document check uses φ's own dictionaries: English, Spanish,
+Spanish (Mexico) and French. If none of the languages you check has one, φ
+says so and offers **Open settings**, so you can choose a language it has.
 
-The whole-document check uses φ's bundled dictionaries (English, Spanish, and
-French are built in), so it works even when your everyday engine is your operating
-system's checker. If the document's language has no dictionary installed, φ points
-you to **Settings → Language → Spelling** to add one.
+## Fix a word as you go
 
-## Choosing an engine
+Right-click an underlined word. φ's suggestions are at the top of the menu:
+pick one to replace the word, or choose **Add to Dictionary** to keep it
+and stop it being flagged.
 
-Under **Settings → Language → Spelling** you pick how φ checks spelling:
+## Choose how φ checks
 
-- **Native** (default) — uses your operating system's spell-checker. It's light
-  and leaves your system's writing tools untouched. On macOS the language is
-  detected automatically; on Windows and Linux you choose the languages below.
-- **Enhanced** — uses φ's own bundled dictionaries, so you get the same
-  high-quality checking on every operating system. English, Spanish,
-  Spanish (Mexico) and French are built in.
+Under **Settings → Language → Spelling**:
 
-Turn the whole feature off with the **Check spelling** toggle.
+- **Check spelling**: underlining on or off.
+- **Engine**: how φ checks as you type.
+  - **Native**, the default, uses your computer's own spell-checker.
+  - **Enhanced** uses φ's dictionaries, for the same results on every
+    computer.
+- **Languages**: which languages to check. Pick more than one and a word
+  that's right in any of them isn't flagged, so a document in two languages
+  reads clean. With **Native** on a Mac, the system works out the language
+  for itself.
 
-## Languages
+One vault can check differently from the rest: under **Settings → Language
+→ This vault**, set **Default for this vault** to **Use global**,
+**Native** or **Enhanced**. With **Enhanced**, you can choose that vault's
+languages too.
 
-Choose which languages to check under **Settings → Language → Spelling →
-Languages**. You can pick more than one — a document is checked against all of
-them, so a word that's correct in *any* chosen language isn't flagged. This is
-what makes multilingual documents work.
+## Your personal dictionary
 
-### Installing more languages
+Where a kept word goes depends on the engine:
 
-The Enhanced engine can use any Hunspell dictionary. To add one:
+- With **Enhanced**, and from the whole-document check, **Add to
+  dictionary** keeps the word in φ's own list. Review it, and remove words,
+  under **Settings → Language → Personal dictionary**. A word you remove is
+  flagged again.
+- With **Native**, **Add to Dictionary** in the right-click menu gives the
+  word to your computer's spell-checker, so it isn't in φ's list.
 
-1. Download a Hunspell dictionary (a folder with an `.aff` and a `.dic` file).
-2. **Settings → Language → Spelling → Install language…** and select the folder.
+## See also
 
-## Per-document and per-vault overrides
-
-Spelling settings cascade: **document → vault → global**. A more specific level
-wins, and anything you don't set falls back to the level above.
-
-- **For one document:** click the spell-check chip in the **status bar** (bottom
-  of the window) to set this document's engine and languages. Choose **Use
-  default** to clear the override and follow the vault/global setting again.
-- **For a vault:** **Settings → Language → This vault** sets a default for every
-  document in the current vault. Choose **Use global** to clear it.
-
-## Personal dictionary
-
-Words you add with **Add to Dictionary** are remembered across documents. Review
-or remove them under **Settings → Language → Personal dictionary** — removing a
-word makes φ flag it again.
+- [Dictionary & thesaurus](./dictionary)
+- [Themes & languages](./themes-and-languages)
+- [Settings](./settings)

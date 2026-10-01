@@ -1,156 +1,178 @@
 ---
-title: Collections (books & manuscripts)
-sidebar_position: 7
+title: Projects
+description: Books, parts and chapters, front and end matter, word goals, and the project's own page.
 ---
 
-# Collections (books & manuscripts)
+# Projects
 
-A **collection** gathers documents into an ordered sequence — the structure of a
-book, a poetry volume, a set of essays, a screenplay. It's how φ becomes a
-manuscript editor rather than just a notebook.
+A **project** gathers your pieces into one ordered work: a novel, a book of
+poems, a set of essays. It keeps the order, the parts, the numbering, the
+cover and the word goal, and it's what φ exports as a book.
 
-<img src="/img/app/manuscript-light.png" alt="A manuscript's contents: front matter, parts, chapters and their status" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/manuscript-dark.png" alt="A manuscript's contents: front matter, parts, chapters and their status" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/manuscript-light.png" alt="A project open in Write: its parts and chapters in the list, and its page with the cover, title, author, progress and settings" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/manuscript-dark.png" alt="A project open in Write: its parts and chapters in the list, and its page with the cover, title, author, progress and settings" width="1600" height="1000" loading="lazy" decoding="async" />
 
-A collection *references* documents; it doesn't contain them. The same document
-can appear in more than one collection, and **deleting a collection never
-deletes its documents** — they stay in your library. The collection holds the
-order, the structure, and the cover; the writing stays where it lives.
+## Start a project
 
-Open the **Write** space (the book icon on the left rail) to work with
-collections.
+1. In **Write**, click **New project** at the foot of **Projects** in the
+   sidebar.
+2. Give it a title. The project opens on its own page, with its outline in
+   the list beside it.
+3. Click **+** at the top of the list and choose **New chapter** (`⌘N`).
+4. On the project's page, under **Settings**, set its **Type**, its
+   **Author profile** and its **Word goal**.
 
-## Creating a collection
+On a vault with nothing in it yet, Write's Home offers **Start a project**
+instead: pick **Novel**, **Poetry**, **Essays** or **Other**, then press the
+**Create** button.
 
-In the Write space, click the **+** in the Collections header to make a new one.
-Each collection shows its type, author byline, document count, and word count
-(against its goal, if set). Click a collection's name to open it.
+## Choose what kind of work it is
 
-Use the **⋯** menu on a collection to add the current document, rename it, open
-it for editing, or delete it.
+A project's **Type** sets what φ calls the things inside it, and how it
+exports. Change it any time on the project's page; nothing you've written
+changes, only the names.
 
-## Collection types
+| Type | Made of | Grouped into |
+| --- | --- | --- |
+| **Book** | Chapters | Parts |
+| **Series** | Books | Parts |
+| **Poetry** | Poems | Parts |
+| **Essay collection** | Essays | Parts |
+| **Research** | Sections | Sections |
+| **Journal** | Entries | Groups |
+| **Custom** | Sections | Groups |
 
-A collection's **type** tints its vocabulary — what φ calls the items inside it —
-and shapes its exports. The types are:
+On this page, *chapter* and *part* stand for whatever your project's type
+calls them. A collection of poems has a page of its own:
+[Poetry & verse](./poetry).
 
-- **Book** — structured in *Chapters* (grouped into *Parts*).
-- **Series** — multiple books.
-- **Poetry** — *Poems*.
-- **Essay collection** — *Essays*.
-- **Research** — research material.
-- **Journal** — dated *Entries*.
-- **Screenplay** — *Scenes* (grouped into *Acts*).
-- **Custom** — generic *Sections* and *Groups*.
+## Find your way around a project
 
-Change the type any time from the collection page. The structure you built is
-preserved; only the labels change.
+Click a project in the sidebar to open it. Its pages appear under it:
 
-## The structure tree
+| Page | What's there |
+| --- | --- |
+| *The project's name* | The project's page: cover, title, author, description, progress, settings and [Book details](./book-details). |
+| **Contents** | The whole work on one page, to arrange it. |
+| **Research** | The research pages linked to the project ([Research](./research)). |
+| **Board** | The chapters as cards by status, and the project's task boards. |
+| **Read** | The manuscript in order, read-only: as **Prose**, or as a **Book** with its contents. |
+| **Export** | The printed book, the ebook, the manuscript for an agent ([How exporting works](./exporting)). |
 
-A collection is a **recursive tree** with no depth limit. A book might be:
+While a project is open, the list beside the page shows its outline: every
+chapter with its number and synopsis, grouped under its parts, with the
+words written against the goal at the top. Right-click the project in the
+sidebar for the same pages, **Icon…**, **Colour**, **Move to vault…** (when
+you have more than one vault) and **Delete project…**.
 
-```
-Book
- └─ Part
-     └─ Chapter
-         └─ (a deeper sub-section, if you want one)
-```
+## Add chapters and parts
 
-The tree has two kinds of items: **documents** (the leaves — your actual
-writing) and **groups** (the branches — Parts, Acts, and so on). Group items
-exist only to organize; they hold no prose of their own.
+- **+** at the top of the list: **New chapter** (`⌘N`) or **New part**
+  (`⇧⌘N`), added at the end.
+- A chapter's **⋮** in the list: **Add chapter below**, **Add part below**,
+  **Rename**, **Duplicate**, **Details…**, **Front / back matter**, **Move to
+  top**, **Move to bottom** and **Remove from collection**.
+- A part's **⋮** also has **New chapter inside**.
 
-### Numbers are computed, never stored
+From the keyboard:
 
-φ derives "Part I", "Chapter 3", "Scene 1.2" from each item's position in the
-tree. Reorder anything and everything renumbers instantly. You never type a
-chapter number, and you never have to fix one.
+| To | Press |
+| --- | --- |
+| Rename the open chapter | `↵` (`↵` keeps, `Esc` cancels) |
+| Move a chapter up or down | `⌥↑` / `⌥↓` |
+| Open the chapter before or after | `⌥⌘←` / `⌥⌘→` |
+| Rename a part | Double-click its name |
 
-## The collection panel
+Drag rows in the list to reorder them, or into and out of a part.
 
-When a collection is open, the panel beside the rail is its primary navigation —
-the structure tree, with the combined word count and goal progress at the top.
+## Arrange the contents
 
-Three tabs sit above the tree:
+**Contents** shows the work in three regions: **Front matter**, **The
+work** and **End matter**. Each row has its number, title, synopsis,
+status, words, and a ring for how far along it is: its word goal, or its
+status when it has no goal.
 
-- **Chapters** (labeled by type — *Poems*, *Scenes*, etc.) — the editable
-  structure tree.
-- **Outline** — a flat list with each item's synopsis and status.
-- **Index** — the generated table of contents (see below).
+- **Drag a row** to move it, into a part or between regions.
+- **Collapse a part** with its caret, and rename it by typing in its name.
+- A row's **⋯** moves it into a part, counts it as a chapter or not,
+  duplicates it, or removes it from the project.
+- **Add chapter** and **Add a part** are at the foot.
 
-### Adding and editing items
+You never type a chapter number. φ works out "Part II" and "Chapter 7" from
+where each one sits, so moving anything renumbers everything at once.
 
-Use the **+** to add a document or a group. Right-click any item (or use its
-menu) for the full set of actions:
+## Front and end matter
 
-- **Add below** — a new document or group after this one.
-- **Rename**, **Duplicate**.
-- **Status** — Draft, Revised, Final, or Todo.
-- **Color** — a label swatch.
-- **Front / back matter** — mark the item *unnumbered* (see below).
-- **Open** the referenced document.
-- **Remove from collection** — takes the item out of the structure; the document
-  itself is **not** deleted. Removing a group also unfiles everything inside it,
-  and again deletes none of the documents.
-- **Move to top** / **Move to bottom**.
+A dedication, a prologue, an appendix: some pages of a book aren't
+chapters. Drag one into **Front matter** or **End matter** on Contents, or
+choose **Front / back matter** from its **⋮** in the list, or tick **Leave
+out of the numbering** in its **Details**. It takes no number, so your
+first real chapter is still Chapter 1, in the outline, the reading view and
+every export.
 
-### Reorder by dragging
+The book's title page, copyright page and "Also by" page aren't documents
+at all: φ makes them from the project's [Book details](./book-details).
 
-Drag any item to a new place — up, down, into a group, out of a group. The tree
-re-nests and renumbers as you drop. You can also work from the keyboard when the
-tree is focused: arrow keys to move and expand/collapse, Enter to open, `F2` to
-rename, Delete to remove, `⌘D` to duplicate, and `⌘[` / `⌘]` to nudge an item up
-or down within its group.
+## Set word goals
 
-## Moving between chapters while writing
+- **For the whole project**: **Word goal** under **Settings** on the
+  project's page. The sidebar, the top of the list and Write's Home show how
+  far you've come.
+- **For one chapter**: **Word goal** in its **Details**, or **Set word
+  goal** in the document's ⋮ menu. Its ring on Contents and its count in the
+  corner of the page follow it.
 
-When you open a document that belongs to a collection, a chapter navigator
-appears with its position — "Chapter 3 / 12" — and previous/next controls.
-Navigation follows the full reading order of the book, descending into groups,
-not just the current level. Use the controls, or `⌘⌥←` and `⌘⌥→`.
+You can follow a chapter's goal and the book's at the same time.
 
-## The collection page
+## The project's page
 
-With a collection open and no document selected, you get its **page** — the cover
-and overview, all edited inline:
+Click the project's name in the sidebar for its page:
 
-- **Cover image** — click the cover well to choose one; remove it from the form
-  below.
-- **Title** — edit it in place.
-- **Author profile** — pick a profile to set the byline, or create a new one.
-  Author profiles carry a name, pen name, bio, photo, and links, and appear in
-  your exports.
-- **Type** — change the collection type here.
-- **Description** — a short summary of the work.
-- **Word goal** — see below.
+- **The cover**: click it to add or change it (**Add a cover**, **Change
+  cover**). **Remove cover** is the small bin beside it.
+- **The title**: click it to rename the project.
+- **The byline**: opens the author profile, or offers **New author
+  profile** when there's none.
+- **The description**: a few lines about the work.
+- **Progress**: words against the goal, and how many chapters, parts and
+  statuses there are.
+- **Settings**: **Type**, **Author profile** and **Word goal**. Click one
+  to change it.
+- **Book details**: what the book's own pages carry
+  ([Book details](./book-details)).
+- **Research** and **Notes**: what's linked to the project, with **New
+  research page**, **Link research…**, **New note about this** and **Link a
+  note…**.
+- **Go to**: **Contents**, the chapters board, and **Export**.
+- **Delete this project…**
 
-From the page you can also **Compile** the whole collection to a single HTML
-document, or export it as **PDF**, **EPUB**, or **DOCX**, and **Save a Copy** as
-a portable `.poiesis` file with images embedded.
+## Add a piece you've already written
 
-## Front and back matter
+- Right-click a piece in the list and choose **Add to collection** (or
+  **Move to collection**), then the project.
+- Or open its **Details** and choose the project from **Add it to a
+  project…**.
 
-Some pages of a book aren't chapters — a dedication, a foreword, an
-acknowledgments page, an appendix. Mark any item as **Front / back matter** to
-make it *unnumbered*: it shows by its own name and takes no number, so your real
-chapters still start at 1. Marking a group as unnumbered cascades to everything
-inside it. This holds everywhere φ names a chapter — the document's own panel,
-the breadcrumb above it, the project's contents and totals, the table of
-contents and every export — so a book with a dedication and an epigraph in
-front of it still opens on Chapter 1.
+A note goes into a project once it's a piece: choose **Move to Write's
+pieces** from its ⋮ menu first.
 
-## Table of contents
+## Remove or delete
 
-The **Index** tab generates a table of contents from the structure — depth-aware,
-following the tree and its computed numbering, with front and back matter shown
-unnumbered. It updates as you reorganize, and the same tree-aware contents is
-embedded when you export to HTML, PDF, EPUB, or DOCX.
+**Remove from collection** takes a chapter out of the project after asking.
+Removing a part takes out everything in it. Either way the documents stay
+in your vault, as pieces.
 
-## Word goals
+:::note Deleting a project keeps its documents
+**Delete project…** (from the right-click menu) or **Delete this
+project…** (on its page) asks first, then removes the project and nothing
+else. Every chapter stays in your vault, and the project goes to the
+trash, where you can restore it.
+:::
 
-You can set a **word goal** for a collection from its page. The panel header and
-the collection's listing show a progress bar against the combined word count of
-every document in the collection. Individual documents can carry their own goals
-too (set from the document header), so you can track a single chapter and the
-whole book at once.
+## See also
+
+- [Book details](./book-details): the title page, copyright page and the
+  book's other pages.
+- [How exporting works](./exporting)
+- [Boards](./boards)
+- [Organizing your work](./organizing)

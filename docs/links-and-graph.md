@@ -1,87 +1,111 @@
 ---
 title: Links & the graph
-sidebar_position: 8
+description: Link one document to another as you write, see what links where, and map the whole vault.
 ---
 
 # Links & the graph
 
-Ideas connect. φ lets you link one document to another the moment you mention it,
-then shows you those connections two ways — as a list beside the page, and as a
-graph of the whole vault. Nothing leaves your Mac; the link index is built and
-queried locally.
+Type `[[` and the name of another document, and the two are linked. φ keeps
+track of every link both ways, so from any page you can see what it points to
+and what points back at it. The graph draws the whole web at once.
 
-<img src="/img/app/graph-light.png" alt="The graph of a vault: documents and the links between them" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/graph-dark.png" alt="The graph of a vault: documents and the links between them" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/links-light.png" alt="A research page with a wiki-link in its text, and the Info panel's Links tab listing its outgoing links, backlinks and linked dates" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/links-dark.png" alt="A research page with a wiki-link in its text, and the Info panel's Links tab listing its outgoing links, backlinks and linked dates" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Linking with `[[wiki-links]]`
+## Link to another document
 
-To link to another document, type `[[` anywhere in the text. A small menu opens
-and filters as you keep typing — pick the document you want with the arrow keys
-and `Enter`, or click it.
+1. Type `[[` anywhere in the text. A menu of documents opens.
+2. Keep typing to narrow it.
+3. Pick the document with the arrow keys and Return, or click it.
+4. To follow the link, hold `⌘` and click it. In
+   [reading mode](./the-editor) a plain click is enough.
 
-Links are by identity, not by title: once you've linked to a document, renaming
-it later won't break the link.
+A link you pick from the menu points at that document itself, so renaming the
+document later won't break it. A `[[Title]]` you type out in full or paste in
+finds its document by title instead.
 
-### Linking to something that doesn't exist yet
+`⌥⌘`-click a link to open its document beside the one you're in (see
+[Side by side](./side-by-side)).
 
-If no document matches what you typed, the menu offers **Create "…"** at the top.
-Choose it and φ makes a new document with that title and links to it — a quick way
-to capture an idea before you've written the page for it. You can also follow an
-unresolved link later from the Links panel (below).
+## Link to a page you haven't written yet
 
-Hold `⌘` and click any wiki-link in the editor to open the document it points to.
-If that document doesn't exist yet, `⌘`-clicking creates it.
+If no document has the title you typed, the last entry in the menu is
+**Create "…"**. Choose it and φ writes the link, with nothing at the other end
+yet. It shows as a broken link until the page exists.
 
-## The Links panel
+The page is made when you follow the link: `⌘`-click it, or click it under
+**Outgoing links** (below). φ creates a document with that title and opens it.
 
-Open the right panel (`⌘]` toggles it) and choose the **Links** tab. It always
-reflects the document you're reading — including edits you haven't saved yet — and
-has three sections:
+## See what links where
 
-- **Outgoing links** — every document this one links to. Click any entry to jump
-  there.
-- **Unresolved links** appear in the same list, marked with a **+** icon. These
-  are `[[titles]]` you've written that don't match a document yet. Click one to
-  create that document and open it.
-- **Backlinks** — every document that links *to* this one. This is how you find
-  what references the page you're on, even though you never linked outward from
-  it.
-- **Linked dates** — any dates you've referenced with `/date`, each linking to its
-  day in the calendar.
+Open the Info panel (`⇧⌘I`) and choose **Links**. You can also pick **Links
+and backlinks** from the document's **⋮**, or **Wiki links** from a row's
+right-click menu. The tab follows the document you're reading, edits you
+haven't saved included:
 
-## The graph view
+| Section | What it lists |
+| --- | --- |
+| **In this document** | The characters you've @-mentioned here. Shown only when there are some. |
+| **Outgoing links** | Every document this one links to. Links that lead nowhere yet are listed too, with a create icon; click one to make that document. |
+| **Backlinks** | Every document that links *to* this one, even though you never linked outward from it. |
+| **Linked dates** | The dates you've put in with `/date`. Click one to show that day in the [calendar](./calendar). |
+| **Research** and **Notes** | Research pages (in Write) and notes linked to this document, with ways to add more. See [Research](./research). |
 
-The graph is a map of how your vault hangs together. Open it from
-**View → Go to → Graph** (`⌘G` then `G`).
+Click any entry to open it. **Local graph**, at the foot of the tab, opens
+the graph around this document.
 
-Each **dot** is a document, and each **line** is a link between two documents. A
-dot grows with the number of links pointing to it, so your hubs stand out clearly.
-Documents with no links at all (orphans) appear dimmed. Private morning pages
-never appear in the graph.
+## Explore the graph
 
-### Reading and moving around
+Open the graph from **Graph** under **Places** in the sidebar (in Write and
+Notes), from `⌘K`, or with `⌘G` then `G`.
 
-- **Click a dot** to open that document.
-- **Hover a dot** to focus it: the rest of the graph fades back, the document's
-  links light up, and the documents it connects to stay highlighted — a quick way
-  to see everything one page touches.
-- **Scroll** to zoom; **drag** the background to pan. Zoom out for an overview —
-  labels fade away so you see the shape; zoom back in and titles return.
-- The toolbar has **Fit graph to view** to re-frame everything, **Refresh links**
-  to rebuild from the latest content, and **Graph options** to tune the look.
+<img src="/img/app/graph-light.png" alt="The graph of a vault: linked documents drawn as larger dots joined by lines, unlinked ones as small faint dots" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/graph-dark.png" alt="The graph of a vault: linked documents drawn as larger dots joined by lines, unlinked ones as small faint dots" width="1600" height="1000" loading="lazy" decoding="async" />
 
-### Graph options
+Each dot is a document and each line a link. A dot grows with the number of
+links it has, so your hubs stand out, and documents with no links are drawn
+fainter. Morning pages, journal days and research pages never appear: the
+graph is the shape of your linked writing, not a list of every file.
 
-Open **Graph options** (the sliders icon in the toolbar) to shape the graph:
+- **Click a dot** to open that document. Closing it brings you back to the
+  graph.
+- **Hover a dot** to focus it. Everything else fades, and its links and
+  neighbours stay clear.
+- **Scroll** to zoom and **drag** the background to move about. Zoomed out,
+  the titles fade so you see the shape.
+- The document you have open is marked in the accent colour.
 
-- **Show orphans** — hide or show documents with no links.
-- **Node size** and **Label size** — how big the dots and their titles are.
-- **Text fade** — how readily titles fade as you zoom out.
-- **Forces** — link distance and the push/pull that spread the layout, with
-  **Reset to defaults** to get back to the standard look.
+The bar at the top counts the documents drawn and has **Animate**, which
+replays the layout settling, and **Refresh links**, which rebuilds it from
+the latest text.
 
-### Finding where you are
+## Change what the graph shows
 
-The graph shows the whole vault. To orient yourself within it, open a document
-first, then open the graph — the document you're in is marked as the active dot,
-so you can spot it and explore its neighbors outward from there.
+Press the panel button at the top right of the graph (`⇧⌘I`) to open **Graph
+settings**:
+
+| Group | Settings |
+| --- | --- |
+| **Which graph** | **Whole vault**, or **Local**: the last document you opened and everything within two links of it. |
+| **Show** | **Orphans** (documents with no links) and **Arrows** (which way each link points). |
+| **Display** | **Node size**, **Link thickness**, **Text fade** and **Label size**. |
+| **Forces** | **Repel force**, **Link distance**, **Center force** and **Link force**, which spread or gather the layout. |
+
+**Reset to defaults** puts the look back. Below the settings, a line counts
+documents, links and documents with no links, and **Most linked** lists your
+biggest hubs; click one to open it.
+
+:::tip Finding loose threads
+
+**Unlinked**, in the Notes sidebar, lists the notes that nothing links to and
+that link to nothing. See [Notes & capture](./notes).
+
+:::
+
+## See also
+
+- [Research](./research): notes and research linked to a chapter, project or
+  character.
+- [Characters & authors](./characters-and-authors): @-mentions.
+- [Calendar](./calendar)
+- [Side by side](./side-by-side)

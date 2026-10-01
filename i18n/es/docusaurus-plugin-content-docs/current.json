@@ -3,32 +3,40 @@
     "message": "Actual",
     "description": "The label for version current"
   },
-  "sidebar.docs.category.Getting started": {
+  "sidebar.reference.category.Settings & appearance": {
+    "message": "Ajustes y apariencia",
+    "description": "The label for category 'Settings & appearance' in sidebar 'reference'"
+  },
+  "sidebar.reference.category.Keyboard": {
+    "message": "Teclado",
+    "description": "The label for category 'Keyboard' in sidebar 'reference'"
+  },
+  "sidebar.guide.category.Getting started": {
     "message": "Primeros pasos",
-    "description": "The label for category 'Getting started' in sidebar 'docs'"
+    "description": "The label for category 'Getting started' in sidebar 'guide'"
   },
-  "sidebar.docs.category.Writing": {
+  "sidebar.guide.category.Writing": {
     "message": "Escritura",
-    "description": "The label for category 'Writing' in sidebar 'docs'"
+    "description": "The label for category 'Writing' in sidebar 'guide'"
   },
-  "sidebar.docs.category.Organizing": {
-    "message": "Organización",
-    "description": "The label for category 'Organizing' in sidebar 'docs'"
+  "sidebar.guide.category.Books & projects": {
+    "message": "Libros y proyectos",
+    "description": "The label for category 'Books & projects' in sidebar 'guide'"
   },
-  "sidebar.docs.category.Journal & calendar": {
-    "message": "Diario y calendario",
-    "description": "The label for category 'Journal & calendar' in sidebar 'docs'"
+  "sidebar.guide.category.Notes": {
+    "message": "Notas",
+    "description": "The label for category 'Notes' in sidebar 'guide'"
   },
-  "sidebar.docs.category.Tools": {
-    "message": "Herramientas",
-    "description": "The label for category 'Tools' in sidebar 'docs'"
+  "sidebar.guide.category.Journal": {
+    "message": "Diario",
+    "description": "The label for category 'Journal' in sidebar 'guide'"
   },
-  "sidebar.docs.category.Sharing your work": {
-    "message": "Compartir tu trabajo",
-    "description": "The label for category 'Sharing your work' in sidebar 'docs'"
+  "sidebar.guide.category.Publishing": {
+    "message": "Publicar",
+    "description": "The label for category 'Publishing' in sidebar 'guide'"
   },
-  "sidebar.docs.category.Reference": {
-    "message": "Referencia",
-    "description": "The label for category 'Reference' in sidebar 'docs'"
+  "sidebar.guide.category.Your files": {
+    "message": "Tus archivos",
+    "description": "The label for category 'Your files' in sidebar 'guide'"
   }
 }

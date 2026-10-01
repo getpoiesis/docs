@@ -1,100 +1,80 @@
 ---
 title: Footnotes & citations
-sidebar_position: 16
+description: Notes at the foot of the page, sources credited in the text, and a bibliography built from them.
 ---
 
 # Footnotes & citations
 
-When your writing needs an apparatus — an aside at the foot of the page, a source
-credited in the text, a reference list at the back — φ has it built in. Footnotes
-and citations are part of the document, so they survive every export and land in
-the right place in the finished book.
+When a book needs an apparatus (an aside at the foot of the page, a source
+credited in the text, a list of works cited), φ has it built in. Footnotes
+and citations are part of the document, so they reach every export and land
+where a reader expects them.
 
-<img src="/img/app/footnotes-light.png" alt="Footnote markers in the prose, listed in the panel beside it" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/footnotes-dark.png" alt="Footnote markers in the prose, listed in the panel beside it" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-light.png" alt="A chapter with a footnote marker in its text, and the Info panel's Outline listing the chapter's two footnotes" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-dark.png" alt="A chapter with a footnote marker in its text, and the Info panel's Outline listing the chapter's two footnotes" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Footnotes
+## Add a footnote
 
-A footnote is a small numbered marker in your text with a note attached. The
-marker shows only the number; the note's text lives off to the side so it never
-breaks the line you're reading.
+1. Put the cursor where the marker should go.
+2. Type `/footnote` and press `Enter`.
+3. Write the note in the **Footnote** box and confirm.
 
-### Inserting a footnote
+A small number appears in the text. φ numbers footnotes in order: add one
+earlier in the document and the ones after it renumber themselves.
 
-Type `/footnote` and choose **Footnote** from the slash menu. φ drops a numbered
-marker at the cursor. Numbering is automatic and stays in order — insert a
-footnote earlier in the document and everything after it renumbers itself.
+Footnotes, citations and the bibliography are offered in documents that
+belong to a [project](./collections), not in notes, pieces outside a
+project, or the journal.
 
-### The Footnotes panel
+## Read and edit your footnotes
 
-The marker carries the note's text, but you don't edit it inline. Instead, open
-the **Footnotes** panel in the right sidebar, where every footnote in the
-document is listed in order:
+Point at a marker to read its note, and click it to change the text.
 
-- **Edit** a note by typing in its text box.
-- **Jump to a marker** by clicking its number — useful in a long document.
-- **Remove** a footnote with the trash icon. The remaining footnotes renumber
-  automatically.
+Every footnote is also listed in the Info panel (`⌘⇧I`), on **Outline**,
+under **Footnotes**:
 
-In reading mode the panel is read-only — you can navigate but not edit.
+- Type in a note's box (**Footnote text…**) to edit it.
+- Click its number (**Jump to marker**) to go to it in the text.
+- The bin (**Delete footnote**) removes it, and the rest renumber.
 
-### How footnotes export
+## Cite a source
 
-Where a footnote ends up depends on the format:
+1. Type `/citation` and press `Enter`. **Cite a source** opens.
+2. Pick a source from the list, or search it with **Search sources…**.
+3. For a new one, choose **New source**, fill in **Author** (as *Smith,
+   Jane*), **Title**, **Year** and **URL (optional)**, then **Add & cite**.
 
-- **PDF** — true per-page footnotes. Each note is pinned to the bottom of the
-  page its marker sits on, with a thin rule above it, the way a printed book does
-  it.
-- **DOCX, EPUB, HTML, Markdown** — notes are collected as endnotes (or the
-  format's native footnote, in Markdown's `^[…]` style).
+The citation appears in the text in author–year form, such as *(Smith,
+2020)*. A source needs only an author or a title.
 
-## Citations
+Click a citation to change it. The dialog opens as **Edit source**: edit
+the details and **Save** (every citation of that source follows), pick a
+different source, or **Remove source**. A citation whose source is gone
+shows as *(?)*, so it's easy to find.
 
-A citation credits a source in author–year style — `(Smith, 2020)` — drawn from
-a small **source library** kept with the document. You build the library as you
-write, then reuse sources across the document.
+Each document keeps its own list of sources. When you export the project,
+the lists of all its documents are gathered, so a citation finds its source
+wherever in the book that source was added.
 
-### Adding a citation
+## Add a bibliography
 
-Type `/citation` and choose **Citation**. The citation dialog opens:
+Type `/bibliography` where the list should go. It lists only the sources
+you've cited, in alphabetical order by surname, each as *Author. (Year).
+Title. URL*, and it updates as you cite. In a PDF or a Word file, the
+bibliography starts on a page of its own.
 
-- **Pick an existing source** from the list to cite it at the cursor. Sources are
-  sorted by author surname; the search box filters by author, title, or year.
-- **Add a new source** with **New source**. Fill in **Author** (e.g.
-  `Smith, Jane`), **Title**, **Year**, and an optional **URL**, then **Add &
-  cite**. The source is saved to the library and the citation is inserted in one
-  step.
+## How they export
 
-You only need an author *or* a title to save a source.
-
-### Editing and managing sources
-
-Click any citation in the text to reopen the dialog in edit mode. From there you
-can:
-
-- **Edit the source's details** — author, title, year, URL. The change updates
-  every citation that points at that source.
-- **Swap the citation to a different source** by picking another from the list.
-- **Remove the source** entirely with **Remove source**.
-
-The source library belongs to the document, so a source defined in one document
-isn't shared with another.
-
-## The bibliography
-
-A bibliography is a reference list generated from your citations — you never type
-it by hand. Type `/bibliography` and choose **Bibliography** to place the block.
-
-The list is built automatically from the sources you've actually cited: each
-entry is formatted as `Author. (Year). Title. URL`, and entries are sorted
-alphabetically by author surname. Sources in the library that you haven't cited
-don't appear. Cite a new source and it's added the next time the list renders.
-
-When you export a book or manuscript, **the bibliography opens on its own page at
-the end** — with no stray blank pages before it in the PDF.
+| Format | Footnotes |
+| --- | --- |
+| **Printed book and PDF** | At the foot of the page their marker is on. |
+| **Word** and **Rich Text** | Real footnotes, placed and numbered by the word processor. |
+| **Ebook** | Notes that reading apps open when the marker is tapped. |
+| **Web page** | Gathered at the end, each linked back to its marker. |
+| **Markdown** | Written in the text as `^[the note]`. |
 
 ## See also
 
-- [Exporting & printing](exporting.md) — how footnotes, citations, and the
-  bibliography render in each format.
-- [Collections (books & manuscripts)](collections.md) — exporting a whole book.
+- [Formatting & blocks](./formatting-and-blocks)
+- [Projects](./collections)
+- [How exporting works](./exporting)

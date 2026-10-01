@@ -1,84 +1,140 @@
 ---
 title: Versions & backup
-sidebar_position: 13
+description: How φ saves as you write, keeps earlier versions you can compare and restore, and backs your history up to a place of your own.
 ---
 
 # Versions & backup
 
-Your writing is saved continuously, and φ keeps a history so you can step back to
-any earlier draft. Nothing leaves your Mac unless you set up a remote yourself.
+φ saves as you write, and keeps a history of each document so you can go
+back to any earlier draft. If you want a copy away from your computer, it can
+also send that history to a backup of your own. Nothing leaves your computer
+unless you set that up.
 
-<img src="/img/app/versions-light.png" alt="A document's history: named snapshots and automatic checkpoints" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/versions-dark.png" alt="A document's history: named snapshots and automatic checkpoints" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/versions-light.png" alt="A chapter open with the History tab beside it: Auto-saved, Save snapshot, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/versions-dark.png" alt="A chapter open with the History tab beside it: Auto-saved, Save snapshot, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## How saving works
+## Save a snapshot
 
-Every edit autosaves and is verified after each write — you never press Save to
-keep your work. (`⌘S` is there if you want it, but it's rarely needed.) The
-status bar shows **Saved** when the file is on disk.
+A snapshot is a version you name, to mark a milestone: the end of a chapter,
+a finished draft, the moment before a big cut.
 
-On top of saving, φ records **versions**: point-in-time copies you can browse and
-restore.
+1. Open the document.
+2. Press `⌘⇧S`, or choose **Save version…** in the document's **⋮** menu.
+3. Give it a name, such as "Second draft, Part Two".
 
-## Two kinds of version
+It appears in the document's **History** tab, marked **Snapshot**.
 
-- **Checkpoints** — created automatically as you write: on a regular interval,
-  when you go idle, and when you switch away from a document. These capture
-  progress without any effort on your part.
-- **Snapshots** — named versions you create on purpose to mark a milestone
-  (the end of a chapter, a finished draft). Press `⌘⇧S`, or use **Save
-  version…** from the command palette (`⌘P`), and give it a name.
+## How φ keeps your work
 
-## The version history panel
+- **Every edit saves itself** a moment after you stop typing. While it's
+  saving, the foot of the sidebar says **Saving…**. There is no Save button
+  to remember.
+- **Checkpoints are made for you**: every five minutes while you work, when
+  you close the window, and when φ updates your documents to a new file
+  format. Change how often in **Settings** (`⌘,`) → **Versioning** →
+  **Auto-checkpoint every**.
+- **`⌘S`** saves at once and makes a checkpoint, if you like a point of your
+  own to come back to.
+- **Before a change across the vault.** When you replace a word in every
+  document (see [Search & replace](./search-and-replace)), φ first saves a
+  version of the whole vault, so the change can be undone.
 
-Open it with `⌘]` (or the clock icon in the top bar) to see this document's
-history, grouped by day — Today, Yesterday, and so on.
+## Find an old version
 
-- **Browse** — click any version to preview its full content in the editor area.
-  Filter by type (All, Snapshots, Checkpoints, Restores) or search by name.
-- **See what changed** — with a version open, choose **Show changes** to view a
-  diff against the current version. You can tune how precisely changes are
-  highlighted in **Settings → Editor → Versions**.
-- **Restore** — bring an older version back as the live document. Your current
-  content is saved as a new version first, so nothing is ever lost.
+A document's history is in the **History** tab of the Info panel. To open
+it:
 
-## Native snapshots vs git
+- press `⇧⌘I` for the Info panel, then click **History**;
+- choose **Version history** in the document's **⋮** menu; or
+- right-click the document in a list and choose **Version history**.
 
-Each vault has its own versioning **backend**, chosen in **Settings →
-Versioning**:
+**Auto-saved** at the top is a reminder that your edits are already safe, and
+**Save snapshot** names a new version. Below, versions are grouped by day.
+Each day's checkpoints fold into one line you can open, so snapshots stand
+out. You can search versions by name, show **All**, **Snapshots**,
+**Checkpoints** or **Restores**, and fold or unfold every day at once.
 
-- **Native** — local snapshots stored alongside your vault. No git required;
-  works out of the box. There's a per-document history limit (older snapshots are
-  pruned to keep disk use bounded), which you can adjust.
-- **Git** — full, unlimited history plus the option to back up off-machine.
-  Choose this if you're comfortable with git.
+## Compare and restore
 
-**If git isn't installed**, φ stays on Native and tells you so — versioning keeps
-working, you simply don't get git's unlimited history or remote backup. The
-status bar shows **git unavailable** in that case. Install git to unlock those
-features.
+Click any version to open it in place of the document, read-only, under a
+**Previewing version** bar.
 
-> Switching a vault to git runs `git init` and commits on a schedule. To return
-> to Native later you must remove the `.git` folder in Finder yourself. See the
-> notes in the convert dialog before you switch.
+| Button | What it does |
+| --- | --- |
+| **Show changes** | Marks what differs from the document now. Switch between **Side by side** and **In content**. In content, **Metadata changes** also lists changes to the title, tags, status and the like. **Hide changes** turns the marks off. |
+| **Restore** | Makes this version the document again. What you have now is saved as a new version first, so nothing is lost. |
+| **Back to current** | Returns to the document as it is now. `Esc` does the same. |
 
-## Off-machine backup with a git remote
+Changes are marked letter by letter. To mark whole words instead, choose
+**Word** under **Settings** → **Editor** → **Version diff detail**.
 
-On the git backend you can push your history to your own remote (GitHub, GitLab,
-or any git host) so a copy lives somewhere other than your Mac. In **Settings →
-Versioning → Git backup**:
+## Choose where history is kept
 
-- Set a **Backup remote URL** to push to.
-- Turn on **Auto-push backups** to push new commits on an interval, or press
-  **Backup now** (also **Back up now** in the command palette) to push on demand.
-- Optionally set a dedicated **commit name/email** and an **SSH key path** so this
-  work stays off your main account, and **sign commits** for a Verified badge.
+Each vault keeps its history in one of two ways, chosen in **Settings** →
+**Versioning** → **Backend**.
 
-Use a private repository and a dedicated identity for this.
+| Backend | What it gives you |
+| --- | --- |
+| **Native** | The default. It needs nothing installed. It keeps up to 50 versions of each document and clears out the oldest; change that in **Local history limit**. |
+| **Git** | Unlimited history, and a backup to a place of your own. It's offered once git is installed on your computer; until then it reads **Git (needs git)**. |
 
-## A vault is just files
+Moving a vault to git is a one-way step, and φ explains it first in **Convert
+this vault to git?**. Your existing history comes across. To go back to
+**Native** later, you'd have to delete the vault's `.git` folder yourself.
 
-Because a vault is a plain folder of `.poiesis` files (with an `assets/` folder
-and the version history), any backup method you already trust works too — Time
-Machine, a cloud-synced folder, or a manual copy. φ's versioning is one option,
-not the only one.
+If the vault is in a cloud folder such as iCloud Drive or Dropbox, φ keeps
+its git history on this computer, outside the vault. Sync services copy
+files one at a time in any order, which can break a git history; your
+documents are one file each and travel safely. φ on iPhone and iPad uses the
+same vault but never runs git: versions made there are kept in the vault's
+`.poiesis-history` folder, which both apps share.
+
+## Back up your history with git
+
+With git, φ can send your history to a private repository on a service such
+as GitHub or GitLab, so there's a copy somewhere other than your computer.
+φ sends it in the background: a slow or unreachable service never holds up
+your writing, and if a send stalls, φ gives up after two minutes and tries
+again next time.
+
+1. Make a private, empty repository on GitHub, GitLab or another git host.
+   Copy its address (it looks like `git@github.com:you/novel.git`).
+2. In φ, switch the vault to **Git** under **Settings** → **Versioning**.
+3. Under **Git backup**, paste the address into **Backup remote URL**.
+4. Turn on **Auto-push backups** and choose **Push every** (it starts at 15
+   minutes).
+5. Press **Push now** to send the first copy.
+
+**Backup now** tells you whether you're **Up to date with the remote**, have
+unpushed commits, or have no remote yet. You can also push from `⌘P` →
+**Back up now (git push to remote)**.
+
+The other settings under **Git backup** are for anyone who wants this work
+kept apart from their main git account:
+
+| Setting | What it's for |
+| --- | --- |
+| **Commit name** and **Commit email** | Who the history is recorded as. Blank uses your computer's git identity. |
+| **SSH key path** | The private key φ pushes with, such as `~/.ssh/id_ed25519`, so it can push as a different account. The key file must be readable only by you (`chmod 600`). |
+| **Backup remote URL** | Blank uses the repository's existing `origin`. |
+| **Sign commits** | Signs each commit with an **SSH** or **GPG** key so the host shows it as verified. |
+
+:::tip Use a private repository
+
+Your history holds every draft. Back it up to a private repository, ideally
+under an identity you use only for this.
+
+:::
+
+## A vault is plain files
+
+A vault is an ordinary folder of `.poiesis` files, with an `assets` folder
+for images and its version history, so any backup you already trust works
+too: Time Machine, a synced folder, or a copy on a drive.
+
+## See also
+
+- [Vaults](./vaults): vaults on several devices, and what happens when two
+  of them change the same document.
+- [Search & replace](./search-and-replace)
+- [Settings](./settings)

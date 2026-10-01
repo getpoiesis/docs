@@ -1,205 +1,162 @@
 ---
 title: Settings
-sidebar_position: 18
+description: Every section of φ's Settings, and what each setting changes.
 ---
 
 # Settings
 
-φ keeps its settings in one place, grouped so you rarely have to hunt. Open
-Settings with `⌘,` (or **Preferences…** in the app menu). A column on the left
-lists the categories; pick one and its options appear on the right.
+φ keeps its settings in one window: the sections down the left, the settings
+of the one you pick beside them. Changes take effect straight away; there's
+nothing to save.
 
-<img src="/img/app/settings-light.png" alt="Settings" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/settings-dark.png" alt="Settings" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/settings-light.png" alt="Settings open on Appearance: theme, interface size, colour theme and sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/settings-dark.png" alt="Settings open on Appearance: theme, interface size, colour theme and sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
 
-The categories are **Appearance**, **Editor**, **Profiles**, **Versioning**,
-**Vault**, **Templates**, and **Data**.
+## Open Settings
 
-Most settings apply to the whole app and take effect immediately. The exception
-is **Versioning**, which is configured *per vault* — see below.
+- Click the sliders button at the top of the sidebar, beside the vault's name.
+- Press `⌘P` and choose **Open settings**.
+- On a Mac, press `⌘,`, or choose **Preferences…** in the app menu.
+
+| Section | What it holds | Applies to |
+| --- | --- | --- |
+| **Appearance** | Light or dark, interface size, colour theme, the sidebar | The whole app |
+| **Editor** | The writing surface: font, size, focus, dates, streak, code, versions | The whole app |
+| **Setup** | The signals φ gives back and the places each mode offers | The open vault |
+| **Language** | The app's language, spelling, your dictionary | The whole app, plus a **This vault** part |
+| **Versioning** | How history is kept and backed up | The open vault |
+| **Vault** | Which modes the vault has, and adding or removing vaults | The open vault |
+| **Templates** | Your templates and their variables | This vault and every vault |
+| **Shortcuts** | The main keyboard shortcuts | — |
+| **Data** | The health of your files, migration backups, a reset | The whole app |
 
 ## Appearance
 
-How φ looks: light or dark, how large the interface is, which color theme it
-uses, and what language it speaks. Color themes and languages have their own
-page — see [Themes & languages](themes-and-languages.md).
+How φ looks. More on colour themes in
+[Themes & languages](./themes-and-languages).
 
-### Theme
-
-- **Appearance** — choose **System**, **Light**, or **Dark**. System follows
-  your Mac's setting and switches with it.
-- **Interface size** — scales the whole UI, including icons, between **100%**,
-  **115%**, **130%**, and **150%**. Use this if the app feels too small (or too
-  large) on your display.
-- **Week starts on** — whether the calendar and heatmap begin the week on
-  **Monday** or **Sunday**.
-
-### Color theme
-
-A list of installed color themes. The built-in **Phi** theme is marked
-**Official**; community themes you install appear below it and can be removed
-with the trash icon. **Install theme…** adds a theme JSON file, and **Open
-themes folder** reveals where they live. Full details on the
-[Themes & languages](themes-and-languages.md) page.
-
-### Language
-
-The **Interface language** of the app. Built-in languages are English, Spanish,
-and French; **System default** follows your Mac. You can **Install a language…**
-(a community translation file), **Export English template…** to start your own,
-and **Open folder** to see where languages are kept. Missing translations fall
-back to English.
-
-### Sidebar
-
-- **Show recent documents** — show or hide the Recent section at the top of the
-  file sidebar.
+| Setting | What it does |
+| --- | --- |
+| **Appearance** | **System**, **Light** or **Dark**. System follows your computer and switches with it. |
+| **Interface size** | **100%**, **115%**, **130%** or **150%**. Scales everything, icons included. |
+| **Color theme** | The installed themes, each with a small preview. **Install theme…**, **Open themes folder** and **Browse official themes…** add more. |
+| **Sidebar in light theme** | **Dark** (the default, so the page is the brightest thing on screen) or **Light**. In the dark theme the sidebar is always dark. |
+| **Sanctuary dims the rest** | In [Sanctuary](./focus-and-writing-modes), only the sentence you're in stays at full strength, or the paragraph if **Focus typing** says so. Turn it off to keep everything lit. |
 
 ## Editor
 
-Everything about the writing surface itself.
+The writing surface.
 
-### Writing
+| Setting | What it does |
+| --- | --- |
+| **Body font** | The typeface you write in, grouped into Serif, Sans and Mono. Fonts marked *system* come from your computer; the others come with φ and are embedded in ebooks. |
+| **Font size** | 14 to 26 px. **Reset** goes back to the default. |
+| **Line height** | 1.3 to 2.2. **Reset** goes back to the default. |
+| **Focus typing** | **Off**, **Sentence** or **Paragraph**: dims everything but the sentence or paragraph you're in. |
+| **Show Markdown** | Shows the `**`, `#` and `[ ]( )` marks faintly around the formatting in the line you're writing. Your documents don't change. |
+| **Typewriter scrolling** | Keeps the line you're writing in the middle of the window. |
+| **Date format** | How dates read across the app: *June 11, 2026*, *Jun 11, 2026*, *6/11/2026*, *2026-06-11*, *Tue, Jun 11, 2026*, or **Custom…**. Only the display changes, never the stored day. |
+| **Custom pattern** | Appears with **Custom…**. Takes date-fns tokens (`yyyy`, `MMM`, `d`, `EEEE`…) and shows today's date as you type. |
+| **Minimum words / day** | Under **Writing streak**: how many words make a day count towards your streak (50 or more). |
+| **Indent using** | Under **Code**: **Spaces** or **Tabs** in code blocks. |
+| **Indent width** | Under **Code**: spaces per indent, 1 to 8, and how wide a tab shows. |
+| **Version diff detail** | Under **Versions & import**: when you preview an old version, mark changes by **Word** or by **Character**. |
+| **Imported images** | Under **Versions & import**: **Copy to vault** puts images you bring in in the vault's `assets/` folder; **Inline** keeps them inside the document, which makes it larger. |
 
-- **Body font** — the typeface for your text, grouped into Serif, Sans, and
-  Mono. Bundled fonts embed in EPUB exports; system fonts are marked.
-- **Font size** — editor body text, from 14 to 26 px. **Reset** returns it to
-  the default.
-- **Line height** — the space between lines, from 1.3 to 2.2. **Reset** returns
-  it to the default.
-- **Focus typing** — dim everything but the line you're on: **Off**,
-  **Sentence**, or **Paragraph**.
-- **Typewriter scrolling** — keep the caret vertically centered as you type.
-- **Date format** — how dates display across the app. The stored day never
-  changes; this only affects how it's shown. Choosing **Custom** reveals a
-  **Custom pattern** field that uses date-fns tokens (`yyyy`, `MMM`, `d`,
-  `EEEE`…), with today's date shown as a live preview.
+## Setup
 
-### Writing streak
+What φ shows you in this vault. Turning something off hides it, never your
+work. [Setup](./setup) covers it in full.
 
-- **Minimum words / day** — a day counts toward your writing streak once you
-  write this many words. The minimum is 50.
+| Setting | What it does |
+| --- | --- |
+| **Start sessions automatically** | The clock starts at your first keystroke. Off, it runs only when you start it. |
+| **Readability statistics** | Reading grade and sentence length in a document's statistics. |
+| **Streak** | **Flame and count**, **Plain days** or **Off**. |
+| **Week starts on** | Any day of the week: the first column of the calendar and the heatmap, and the week your pace is counted in. |
+| **Weekly pace** | **None**, or a number of days a week to aim for. A missed day never resets it. |
+| **Modes** | Open **Write**, **Notes** or **Journal** to choose the places it offers (Characters, Authors, Research, Boards, Graph, Calendar, morning pages), change the signals for that mode only, and turn **Checklists** on or off. Each reads **Follows the vault** or **Differs**; **Follow the vault again** undoes the difference. |
+| **Saved setups** | **Save as…** keeps this setup under a name. **Use in this vault** or **Use in another vault…** puts it on a vault; you can also rename or delete it. |
 
-### Code
+## Language
 
-For code blocks.
+| Setting | What it does |
+| --- | --- |
+| **Interface language** | The language φ speaks: **System default**, a language that comes with φ, or one you installed. **Install a language…**, **Export English template…** and **Open folder** sit below it. |
+| **Check spelling** | Underlines misspelled words as you write. |
+| **Engine** | **Native** uses your computer's spell-checker; **Enhanced** uses φ's own dictionaries, so results are the same on every system. |
+| **Languages** | Which languages to check. With **Native** on a Mac, the system picks the language by itself. |
+| **Default for this vault** | Under **This vault**: **Use global**, **Native** or **Enhanced** for this vault only. With **Enhanced**, you can also pick its languages. |
+| **Personal dictionary** | Words you've added, each with a trash button to remove it. |
+| **Dictionary & Thesaurus** | **Install dictionary pack…**, and the packs you have with their word counts. |
 
-- **Indent using** — **Spaces** or **Tabs**.
-- **Indent width** — spaces per indent (and the display width of a tab), 1 to 8.
-  2 and 4 are common.
-
-### Versions & import
-
-- **Version diff detail** — how precisely changes are highlighted when you
-  preview a version: by **Word** or by **Character**.
-- **Imported images** — when you bring in an image, either **Copy to vault**
-  (into the vault's `assets/` folder) or keep it **Inline** as a data URI
-  (self-contained, but larger documents).
-
-### Dictionary & Thesaurus
-
-Install and manage offline dictionary packs. This section has its own page —
-see [Dictionary & thesaurus](dictionary.md).
-
-## Profiles
-
-Choose which features φ shows, per vault, with a **writer profile** — **Simple**
-(just the page) or **Full** (every tool), plus any custom profiles you save. This
-is also where you pick your **Streak display** (Motivational / Quiet / Off) and a
-**Weekly rhythm** goal. Hiding a feature never deletes anything. This section has
-its own page — see [Writer profiles](profiles.md).
+See [Themes & languages](./themes-and-languages), [Spelling](./spelling) and
+[Dictionary & thesaurus](./dictionary).
 
 ## Versioning
 
-**These settings apply to the active vault.** Each vault is its own repository
-with its own backend, remote, and identity — so the name of the vault you're
-configuring is shown at the top.
+These settings belong to the open vault, and its name is shown at the top.
+Each vault keeps its own history.
 
-### Backend
+| Setting | What it does |
+| --- | --- |
+| **Backend** | **Native**: local snapshots, nothing to install. **Git**: full history and optional backup to a remote. Until git is installed the choice reads **Git (needs git)**. Switching to git asks first and brings your history across; to go back, you'd remove the vault's `.git` folder yourself. |
+| **Auto-checkpoint every** | How often your edits become an automatic version: type a number of minutes, pick **1**, **5**, **10** or **30**, or **Off**. Versions you save by hand aren't affected. |
+| **Local history limit** | Native only: the most versions kept per document. Older ones are removed. |
 
-Choose how history is kept:
+With **Git**, a **Git backup** group appears:
 
-- **Native** — local snapshots, no git required. This is the default.
-- **Git** — full git history plus optional remote backup. Available only when
-  git is installed on your computer.
+| Setting | What it does |
+| --- | --- |
+| **Commit name** · **Commit email** | Who φ commits as. Blank uses your computer's git user. |
+| **SSH key path** | The private key φ pushes with, with **Browse…**. The key file must be `chmod 600`. |
+| **Backup remote URL** | Where to push. Blank uses the repository's existing remote. |
+| **Auto-push backups** | Pushes new commits on a schedule, every **Push every** minutes. |
+| **Sign commits** | Signs commits so they show as verified, with a **Signing method** (SSH or GPG) and a **Signing key**. |
+| **Backup now** | Says whether you're up to date, have commits waiting, or have no remote yet. **Push now** pushes straight away. |
 
-Switching to git is a power-user step: φ runs `git init` in the vault, commits
-automatically on a schedule, and migrates your existing native history into git.
-A confirmation dialog spells out the caveats first. Once a vault is a git
-repository, φ keeps it on git; to go back to native you remove the `.git` folder
-yourself.
-
-### History
-
-- **Auto-checkpoint every** — how often edits are committed as an automatic
-  version. Set a number of minutes, pick a preset (1 / 5 / 10 / 30), or turn it
-  **Off**. Manual snapshots and on-close saves are unaffected.
-- **Local history limit** (native only) — the maximum number of versions kept
-  per document. Older snapshots are pruned to bound disk use. Install git for
-  unlimited history.
-
-### Git backup (git backend only)
-
-When a vault uses git, you can also configure how φ commits and where it backs
-up:
-
-- **Commit name** / **Commit email** — the identity φ commits as. Leave blank to
-  use your machine's git user. A dedicated email keeps this work off your main
-  GitHub graph.
-- **SSH key path** — the private key φ uses to push (for example
-  `~/.ssh/id_ed25519`). The key file must be `chmod 600`.
-- **Backup remote URL** — the GitHub/GitLab/… remote to push to. Blank uses the
-  repo's existing origin.
-- **Auto-push backups** — push new commits to the remote on a regular interval.
-  When on, set **Push every** (minutes).
-- **Sign commits** — cryptographically sign commits so they show as *Verified*.
-  Choose a **Signing method** (SSH or GPG) and a **Signing key**.
-- **Backup now** — push immediately with **Push now**. The hint tells you
-  whether you're up to date, have unpushed commits, or have no remote yet.
-
-For more on versions and backup, see
-[Versions & backup](versions-and-backup.md).
+If the vault is in a cloud folder, φ keeps its git repository on this computer
+instead of inside the vault. φ on iPhone and iPad never runs git; it keeps
+versions in the vault's `.poiesis-history`. More in
+[Versions & backup](./versions-and-backup).
 
 ## Vault
 
-About the vault you're working in.
+| Setting | What it does |
+| --- | --- |
+| **Active vault** | The open vault's name and folder. |
+| **Spaces** | Which of **Write**, **Notes** and **Journal** the vault shows (at least one), and where it **Opens on**: **Home** or one of its modes. |
+| **Manage** | **Open vault…** and **Create vault…** add a vault. **Remove vault…** asks how: **Unlink (keep folder)** takes it out of φ and leaves the folder alone; **Move to Trash** moves the whole folder to your computer's Trash, where you can still get it back. |
 
-- **Active vault** — the current vault's name and folder path.
-- **Manage** — **Open vault…** and **Create vault…** to switch or add vaults,
-  and **Remove vault…** to drop the active vault from φ. Removing a vault only
-  forgets it; your files on disk are untouched.
-
-See [Vaults](vaults.md) for the full picture.
+See [Vaults](./vaults).
 
 ## Templates
 
-Reusable snippets with variables. This section lists your **vault templates**
-(specific to the active vault) and **global templates** (available everywhere).
-Edit one with the pencil icon or remove it with the trash icon. **Install a
-template…** adds a template file, and **Open folder** reveals where global
-templates are stored.
+The variables a template can use, shown as chips: `<% today %>`,
+`<% tomorrow %>`, `<% yesterday %>`, `<% time %>` and `<% cursor %>` (where
+the caret lands). Below them, two lists, **This vault** and **Global
+templates**, each template with a pencil to edit it and a trash button to
+remove it. **Install a template…** adds a template file; **Open templates
+folder** shows where they're kept. See [Templates](./templates).
 
-See [Templates](templates.md) for how variables work.
+## Shortcuts
+
+The main keyboard shortcuts, grouped as **Move around**, **Documents**,
+**Writing** and **Format**: the same card `⌘/` shows. Type in **Search
+commands…** to narrow the list. Every shortcut is on
+[Keyboard shortcuts](./keyboard-shortcuts).
 
 ## Data
 
-The health of your `.poiesis` files, migration backups, and a settings reset.
+| Setting | What it does |
+| --- | --- |
+| **Vault health** | Whether your documents use the current file format. If some are older, **Migrate all notes** updates them, saving a backup of each first. |
+| **Backups** | Appears once something has been migrated: how many backups there are and their size, with **Open backups folder** and **Clear old backups**. |
+| **Reset all settings…** | Puts every app setting (theme, editor, layout, graph, dates) back to its default, after asking. Your documents, vaults and writing records are kept. |
 
-### Vault health
+## See also
 
-φ checks whether your documents are on the current schema. When everything is
-up to date, it says so (with the schema and document versions). If some
-documents use an older schema, **Migrate all notes** updates them — and a backup
-is saved automatically before any document is migrated.
-
-### Backups
-
-Appears once a migration has run. Shows how many backup files exist and their
-total size. **Open backups folder** reveals them; **Clear old backups** removes
-older ones.
-
-### Reset
-
-**Reset all settings…** restores every app setting — theme, editor, layout,
-dates, and so on — to its factory default. Your notes, vaults, and writing
-records are not affected.
+- [Setup](./setup): signals, places and modes in full.
+- [Themes & languages](./themes-and-languages)
+- [Keyboard shortcuts](./keyboard-shortcuts)
+- [Versions & backup](./versions-and-backup)

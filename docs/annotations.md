@@ -1,75 +1,84 @@
 ---
-title: Annotations
-sidebar_position: 9
+title: Annotations & margin notes
+description: Highlight a passage, say something about it, and keep notes about the whole document beside the text.
 ---
 
-# Annotations
+# Annotations & margin notes
 
-Annotations let you mark a passage and say something about it — a highlight to
-flag it, a margin comment to remember why. They live with the document, so your
-notes to yourself travel with the draft.
+An **annotation** marks a passage and says something about it: a highlight to
+flag it, a comment to remember why. A **margin note** is about the whole
+document instead, like a reminder of what the chapter still needs. Both stay
+with the document, so your notes to yourself travel with the draft.
 
-<img src="/img/app/annotations-light.png" alt="A chapter with two highlights and the notes on them, beside a margin note" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/annotations-dark.png" alt="A chapter with two highlights and the notes on them, beside a margin note" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/annotations-light.png" alt="A chapter with a highlighted passage, and the Info panel's Notes tab showing a margin note and two annotations with their comments" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/annotations-dark.png" alt="A chapter with a highlighted passage, and the Info panel's Notes tab showing a margin note and two annotations with their comments" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Highlighting a passage
+## Annotate a passage
 
-Select some text. The bubble toolbar appears; click the **highlighter** icon
-(**Highlight & comment**) to open its menu, then pick a color. The selected text
-gets a soft highlight in that color.
+1. Select the text.
+2. In the toolbar that appears, click the colour swatch (**Highlight &
+   comment**) and pick a colour. Or click **Comment (no highlight)** to leave
+   the text untinted.
+3. The Info panel opens on its **Notes** tab with the new annotation ready.
+   Write your comment in its box.
 
-There are five preset colors — **Yellow**, **Green**, **Blue**, **Purple**, and
-**Orange**. They're translucent, so they read well in both light and dark themes.
+There are five colours, **Yellow**, **Green**, **Blue**, **Purple** and
+**Orange**, soft enough to read in light and dark themes. **Custom color**
+opens the system colour picker for any other.
 
-### A custom color
+To take a highlight off, select the text, open the swatch's menu again and
+choose **Remove highlight**.
 
-Next to the presets is a **custom color** swatch. Click it to open the system
-color picker and choose any color you like for the highlight.
+## Find your notes
 
-## A comment without a highlight
+Everything written beside a document is on the Info panel's **Notes** tab.
+Open it with `⇧⌘A`, from **Notes** in the document's **⋮**, or by right-clicking
+in the text and choosing **Annotations**.
 
-Sometimes you want to note something without coloring the text. In the
-highlighter menu, choose **Comment (no highlight)**. φ attaches a comment to the
-selection without tinting it — you write the note itself in the Annotations panel.
-Every highlight can carry a comment too; the two work together.
+The tab has two parts: **Margin notes** at the top, then **Annotations**.
 
-To remove a highlight, select the highlighted text and choose **Remove highlight**
-from the same menu.
+## Work with an annotation
 
-## The Annotations panel
+Each annotation is a card with the passage it marks, its colour and your
+comment. From a card you can:
 
-Open the right panel (`⌘]` toggles it) and choose the **Annotations** tab to see
-every annotation in the current document. Each card shows the quoted text, its
-color, and a box for your comment.
+| To | Do this |
+| --- | --- |
+| Go to the passage | Click the quote. φ scrolls to it and selects it. |
+| Write or change the comment | Type in the card's box (**Add a note…**). |
+| Change its colour | Pick another colour, **Custom color**, or **No highlight (comment)** to keep only the comment. |
+| Mark it dealt with | Click the check (**Mark resolved**). Resolved annotations are dimmed but kept; **Mark unresolved** brings one back. |
+| Remove it | Click the bin (**Delete annotation**). |
 
-From the panel you can:
+Once a document has annotations, **Search annotations…** finds them by the
+passage or your comment, and the menu beside it shows **All**,
+**Highlights**, **Comments**, **Open** or **Resolved**.
 
-- **Jump to the text** — click a card's quote to scroll to and select that passage
-  in the editor. (Clicking a highlight in the editor works the other way: it opens
-  that annotation in the panel.)
-- **Write or edit a comment** — type in the card's note box.
-- **Recolor** — pick a different preset, a custom color, or **No highlight
-  (comment)**.
-- **Resolve** — click the check to mark an annotation done; resolved ones are
-  dimmed but kept.
-- **Remove** — click the trash icon to delete the annotation.
+### When the text is gone
 
-### Finding annotations
+If the passage an annotation marked is edited away, the annotation is kept
+and marked **Detached from text**. Select a new passage and click **Reattach
+to selection** to anchor it there.
 
-When a document has several annotations, use the **search** box to filter by the
-quoted text or your comment, and the **filter** menu to show only Highlights,
-Comments, Open, or Resolved annotations.
+## Write a margin note
 
-### Detached annotations
+1. Open the **Notes** tab (`⇧⌘A`).
+2. Click **+** beside **Margin notes** (**Add a margin note**).
+3. Write in the box (**Write a note about this document…**).
 
-If the text an annotation pointed to is edited away, the annotation becomes
-**detached** — it's kept in the panel and marked, with a **Reattach to selection**
-action so you can re-anchor it to a new passage.
+Each margin note shows when you wrote it, and its bin icon (**Delete margin
+note**) removes it.
 
-## How annotations are stored
+:::note Where they're kept
 
-Annotations are part of the document. The colored highlight is a mark in the
-document's content (a small `annotationId` tag on the text), and the comment,
-color, and resolved state are saved in the document's metadata inside the same
-`.poiesis` file. Nothing is stored separately and nothing leaves your Mac — copy
-or back up the file and its annotations come with it.
+Annotations and margin notes are part of the document's own file. Copy or
+back up the file and they come with it, and nothing leaves your computer.
+
+:::
+
+## See also
+
+- [Boards](./boards): checklist items you can track on a board are on the
+  **Tasks** tab.
+- [The editor](./the-editor)
+- [Versions & backup](./versions-and-backup)
