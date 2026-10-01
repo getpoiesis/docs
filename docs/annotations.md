@@ -23,7 +23,7 @@ with the document, so your notes to yourself travel with the draft.
    Write your comment in its box.
 
 There are five colours, **Yellow**, **Green**, **Blue**, **Purple** and
-**Orange**, soft enough to read in light and dark themes. **Custom color**
+**Orange**, soft enough to read in light and dark themes. **Custom colour**
 opens the system colour picker for any other.
 
 To take a highlight off, select the text, open the swatch's menu again and
@@ -46,7 +46,7 @@ comment. From a card you can:
 | --- | --- |
 | Go to the passage | Click the quote. φ scrolls to it and selects it. |
 | Write or change the comment | Type in the card's box (**Add a note…**). |
-| Change its colour | Pick another colour, **Custom color**, or **No highlight (comment)** to keep only the comment. |
+| Change its colour | Pick another colour, **Custom colour**, or **No highlight (comment)** to keep only the comment. |
 | Mark it dealt with | Click the check (**Mark resolved**). Resolved annotations are dimmed but kept; **Mark unresolved** brings one back. |
 | Remove it | Click the bin (**Delete annotation**). |
 

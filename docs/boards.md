@@ -60,7 +60,7 @@ the trash; **Restore** there puts it back in its column.
 ## Arrange the columns
 
 - **Rename**: click a column's name and type.
-- **Colour**: click the dot beside the name, or **No color**.
+- **Colour**: click the dot beside the name, or **No colour**.
 - **Move**: drag a column by its handle. On a tasks board the order is the
   meaning, first to do and last done.
 - **Add**: **Add column**, at the end of the columns or in the board's **⋮**.

@@ -76,7 +76,7 @@ path and Home.
 | Into a folder | Drag it onto the folder, in a list or the Notes sidebar. Or right-click it → **Move to folder**. Or choose the folder under **In** on its **Details…** page. |
 | Out of every folder | Drop it on **All** in the folder path, or choose **No folder**. |
 | Up a level | Drop it on a step of the folder path. |
-| Into a different order | Drop it between two others. The order is kept while the list is sorted by **Last edited**. |
+| Into a different order | Drop it between two others. The order is kept while the list is sorted by **Edited**. |
 | From Notes to Write, or back | Right-click it → **Move to Write's pieces** or **Move to Notes**. The same choice is on the document's **⋮** and its Details. |
 | Into a project | Right-click a piece → **Add to collection** or **Move to collection**. Or, on its Details, **Add it to a project…**. A note moves to Write's pieces first. |
 | Out of a project | Right-click the chapter → **Remove from collection**. |
@@ -98,7 +98,7 @@ Every list has the same header: back and forward (`⌘[` and `⌘]`), the list's
 name, **+** to make the next thing here, and **⋮** for the mode's other
 actions.
 
-- **Sort.** Pieces and notes sort by **Last edited**, **Date created** or
+- **Sort.** Pieces and notes sort by **Edited**, **Created** or
   **Title**. The button shows the current one.
 - **Search.** The field under the header narrows the list as you type, by
   title, opening text and tags. Inside a folder it looks through the folders

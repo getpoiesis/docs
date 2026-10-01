@@ -53,7 +53,7 @@ a wiki link instead ([Links & the graph](./links-and-graph)).
 | **Bullet List** | `/bullet` | `⌘⇧8` | `- ` or `* ` |
 | **Ordered List** | `/numbered` | `⌘⇧7` | `1. ` |
 | **Task List** | `/task` or `/checklist` | | `[] ` or `- [ ] ` (`- [x] ` starts it ticked) |
-| **Quote** | `/quote` | `⌘⇧9` | `> ` |
+| **Quote** | `/quote` | `⇧⌘B` | `> ` |
 | **Divider** | `/divider` | | `---` |
 | **Code Block** | `/code` | | ` ``` ` |
 | **Table** | `/table` | | |

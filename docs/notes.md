@@ -71,7 +71,7 @@ The sidebar in Notes lists the ways in:
 | **Tags** | Every tag on your notes, with a count. |
 
 Each list has a search field at the top that narrows it by title, opening
-text and tags, and a sort: **Last edited**, **Date created** or **Title**.
+text and tags, and a sort: **Edited**, **Created** or **Title**.
 `⌘K` finds any document by name from anywhere. See
 [Search & replace](./search-and-replace).
 

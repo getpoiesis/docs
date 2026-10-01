@@ -28,7 +28,7 @@ these four parts, you know where everything is.
 From top to bottom:
 
 - **The vault's name.** Click it for your vaults, **Open another vault…**,
-  **New vault…**, **Show in Finder** and **Import…**. With more than one
+  **New vault…**, **Show in Finder** (**Show in File Explorer** on Windows) and **Import…**. With more than one
   vault, it also offers **Merge into another vault…**. See [Vaults](./vaults).
 - **The sliders** beside it open **Settings** (`⌘,`).
 - **Write · Notes · Journal**, the mode switch. `⌘1`, `⌘2` and `⌘3` take you
@@ -108,7 +108,7 @@ click it again for the full **Document stats**.
 
 | Tab | What it shows |
 | --- | --- |
-| **Outline** | Words, reading time and the goal; the headings and footnotes; **Add to board…** and **Save snapshot**. |
+| **Outline** | Words, reading time and the goal; the headings and footnotes; **Add to board…** and **Save version…**. |
 | **Links** | What this document links to and what links to it, the notes linked to it, and **Local graph**. See [Links & the graph](./links-and-graph). |
 | **Notes** | Its highlights, comments and margin notes (`⇧⌘A`). See [Annotations](./annotations). |
 | **Tasks** | Its checklist items, and the board cards tracking them. |

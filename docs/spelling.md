@@ -61,6 +61,18 @@ One vault can check differently from the rest: under **Settings → Language
 **Native** or **Enhanced**. With **Enhanced**, you can choose that vault's
 languages too.
 
+## Add a language φ doesn't bring
+
+The **Enhanced** engine can check any language with a Hunspell dictionary,
+the kind LibreOffice and Firefox use: a folder holding an `.aff` and a
+`.dic` file.
+
+1. Under **Settings → Language → This vault**, set **Default for this
+   vault** to **Enhanced**.
+2. Next to **Add a language**, press **Add…** and pick the dictionary's
+   folder.
+3. Tick the new language in that vault's **Languages**.
+
 ## Your personal dictionary
 
 Where a kept word goes depends on the engine:

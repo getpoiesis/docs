@@ -58,7 +58,7 @@ Select some text and a small toolbar floats above it:
 - **Bold** (`⌘B`), **Italic** (`⌘I`) and **Underline** (`⌘U`).
 - **Heading**: makes the line a heading, or text again.
 - **Link**: asks for a web address.
-- **Highlight & comment** (the colour swatch): a colour, a **Custom color**,
+- **Highlight & comment** (the colour swatch): a colour, a **Custom colour**,
   or **Remove highlight**.
 - **Comment (no highlight)**: a comment on the words without colouring them.
 

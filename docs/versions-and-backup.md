@@ -10,8 +10,8 @@ back to any earlier draft. If you want a copy away from your computer, it can
 also send that history to a backup of your own. Nothing leaves your computer
 unless you set that up.
 
-<img src="/img/app/versions-light.png" alt="A chapter open with the History tab beside it: Auto-saved, Save snapshot, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/versions-dark.png" alt="A chapter open with the History tab beside it: Auto-saved, Save snapshot, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/versions-light.png" alt="A chapter open with the History tab beside it: Auto-saved, Save version, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/versions-dark.png" alt="A chapter open with the History tab beside it: Auto-saved, Save version, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Save a snapshot
 
@@ -49,7 +49,7 @@ it:
 - right-click the document in a list and choose **Version history**.
 
 **Auto-saved** at the top is a reminder that your edits are already safe, and
-**Save snapshot** names a new version. Below, versions are grouped by day.
+**Save version…** names a new version. Below, versions are grouped by day.
 Each day's checkpoints fold into one line you can open, so snapshots stand
 out. You can search versions by name, show **All**, **Snapshots**,
 **Checkpoints** or **Restores**, and fold or unfold every day at once.

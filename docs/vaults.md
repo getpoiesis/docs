@@ -45,7 +45,7 @@ One is open at a time, and each has its own documents, history and
 - **The vault menu.** Click the vault's name at the top of the sidebar. It
   lists your vaults, each with where it lives (**Local**, iCloud, Dropbox,
   Google Drive or OneDrive), then **Open another vault…**, **New vault…**,
-  **Show in Finder** and **Import…**.
+  **Show in Finder** (**Show in File Explorer** on Windows) and **Import…**.
 - **The vault switcher.** **File** → **Switch Vault…** (`⌥⌘O`) opens a short
   list: type to narrow it and press Return. The vault you're in is marked
   **here now**.
