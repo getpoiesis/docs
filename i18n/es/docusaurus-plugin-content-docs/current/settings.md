@@ -1,212 +1,246 @@
 ---
 title: Ajustes
-sidebar_position: 18
 ---
 
 # Ajustes
 
-φ guarda sus ajustes en un solo lugar, agrupados para que rara vez tengas que
-buscar. Abre los Ajustes con `⌘,` (o **Preferencias…** en el menú de la app). Una
-columna a la izquierda enumera las categorías; elige una y sus opciones aparecen
-a la derecha.
+φ reúne sus ajustes en un solo lugar, agrupados para que casi nunca tengas que
+buscar. Una columna a la izquierda lista las categorías; elige una y sus
+opciones aparecen al lado.
 
-<img src="/img/app/settings-light.png" alt="Ajustes" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/settings-dark.png" alt="Ajustes" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/settings-light.png" alt="Ajustes" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/settings-dark.png" alt="Ajustes" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Las categorías son **Apariencia**, **Editor**, **Perfiles**, **Versiones**,
-**Bóveda**, **Plantillas** y **Datos**.
+Para abrir los Ajustes:
 
-La mayoría de los ajustes se aplican a toda la app y surten efecto de inmediato.
-La excepción es **Versiones**, que se configura *por bóveda* — ver más abajo.
+- haz clic en el botón de controles deslizantes arriba de la barra lateral,
+  junto al nombre de la bóveda;
+- en macOS, pulsa `⌘,` (o elige **Preferencias…** en el menú de la app); o
+- pulsa `⌘K` y elige **Abrir ajustes**.
 
-## Apariencia
+Las categorías son **Apariencia**, **Editor**, **Ajustes de escritura**,
+**Idioma**, **Versiones**, **Bóveda**, **Plantillas**, **Atajos** y **Datos**.
+Los cambios se aplican al instante. La mayoría de los ajustes afectan a toda la
+app; **Ajustes de escritura**, **Versiones** y **Bóveda** pertenecen a la bóveda
+que tienes abierta.
 
-El aspecto de φ: claro u oscuro, el tamaño de la interfaz, qué tema de color usa
-y en qué idioma habla. Los temas de color y los idiomas tienen su propia página —
-ver [Temas e idiomas](themes-and-languages.md).
+## Apariencia {#appearance}
 
-### Tema
+El aspecto de φ. Los temas de color tienen su propia página:
+[Temas e idiomas](./themes-and-languages.md).
 
-- **Apariencia** — elige **Sistema**, **Claro** u **Oscuro**. Sistema sigue la
-  configuración de tu Mac y cambia con ella.
-- **Tamaño de la interfaz** — escala toda la interfaz, incluidos los iconos,
-  entre **100%**, **115%**, **130%** y **150%**. Úsalo si la app se siente
-  demasiado pequeña (o demasiado grande) en tu pantalla.
-- **La semana empieza en** — si el calendario y el mapa de calor empiezan la
-  semana en **lunes** o en **domingo**.
+### Tema {#theme}
 
-### Tema de color
+- **Apariencia**: **Sistema**, **Claro** u **Oscuro**. Sistema sigue el ajuste
+  de tu ordenador y cambia con él.
+- **Tamaño de la interfaz**: escala toda la interfaz, iconos incluidos, a
+  **100%**, **115%**, **130%** o **150%**.
 
-Una lista de los temas de color instalados. El tema integrado **Phi** está
-marcado como **Oficial**; los temas de la comunidad que instales aparecen debajo y
-pueden quitarse con el icono de la papelera. **Instalar tema…** añade un archivo
-JSON de tema, y **Abrir carpeta de temas** revela dónde viven. Todos los detalles
-en la página [Temas e idiomas](themes-and-languages.md).
+### Tema de color {#color-theme}
 
-### Idioma
+Los temas de color instalados, cada uno con una pequeña vista previa. El tema
+integrado **Phi** está marcado como **Oficial**; los temas que instales aparecen
+debajo con una papelera para quitarlos. **Instalar tema…** añade un archivo de
+tema, **Abrir carpeta de temas** muestra dónde se guardan y **Explorar temas
+oficiales…** abre la galería.
 
-El **Idioma de la interfaz** de la app. Los idiomas integrados son inglés,
-español y francés; **Predeterminado del sistema** sigue a tu Mac. Puedes
-**Instalar un idioma…** (un archivo de traducción de la comunidad), **Exportar
-plantilla en inglés…** para empezar la tuya y **Abrir carpeta** para ver dónde se
-guardan los idiomas. Las traducciones que falten se muestran en inglés.
+### Barra lateral {#sidebar}
 
-### Barra lateral
+- **Barra lateral en tema claro**: **Oscuro** o **Claro**. En el tema claro la
+  barra lateral es oscura por defecto, lo que mantiene la página como lo más
+  luminoso de la pantalla; elige **Claro** para una barra lateral clara. (En el
+  tema oscuro siempre es oscura.)
+- **El santuario atenúa el resto**: en el
+  [Santuario](./focus-and-writing-modes.md), solo la oración en la que estás se
+  mantiene con toda su intensidad. Desactívalo para mantenerlo todo iluminado.
 
-- **Mostrar documentos recientes** — muestra u oculta la sección Recientes en la
-  parte superior de la barra lateral de archivos.
+## Editor {#editor}
 
-## Editor
+La propia superficie de escritura.
 
-Todo sobre la superficie de escritura en sí.
+### Escritura {#writing}
 
-### Escritura
+- **Fuente del cuerpo**: el tipo de letra de tu texto, agrupado en Serif, Sans y
+  Mono. Las fuentes que vienen con φ se integran en las exportaciones EPUB; las
+  fuentes de tu sistema van marcadas como *sistema*.
+- **Tamaño de fuente**: de 14 a 26 px. **Restablecer** vuelve al valor
+  predeterminado.
+- **Altura de línea**: de 1,3 a 2,2. **Restablecer** vuelve al valor
+  predeterminado.
+- **Escritura enfocada**: atenúa todo salvo la **Oración** o el **Párrafo**
+  actual, o **Desactivado**.
+- **Mostrar Markdown**: dibuja de forma tenue los marcadores de Markdown (`**`,
+  `#`, `[ ]( )`) alrededor del formato en la línea que estás escribiendo. Tus
+  documentos no cambian.
+- **Desplazamiento de máquina de escribir**: mantiene el cursor en el centro de
+  la ventana.
+- **Formato de fecha**: cómo se muestran las fechas en toda la app: *June 11,
+  2026*, *Jun 11, 2026*, *6/11/2026*, *2026-06-11*, *Tue, Jun 11, 2026*, o
+  **Custom…**. El día guardado nunca cambia; solo cómo se muestra. **Custom…**
+  añade un campo **Patrón personalizado** que acepta tokens de date-fns (`yyyy`,
+  `MMM`, `d`, `EEEE`…) y muestra la fecha de hoy como vista previa.
 
-- **Fuente del cuerpo** — el tipo de letra de tu texto, agrupado en Serif, Sans y
-  Mono. Las fuentes incluidas se integran en los EPUB; las del sistema están
-  marcadas.
-- **Tamaño de fuente** — el texto del cuerpo del editor, de 14 a 26 px.
-  **Restablecer** lo devuelve al valor predeterminado.
-- **Altura de línea** — el espacio entre líneas, de 1.3 a 2.2. **Restablecer** lo
-  devuelve al valor predeterminado.
-- **Escritura enfocada** — atenúa todo excepto la línea en la que estás:
-  **Desactivado**, **Oración** o **Párrafo**.
-- **Desplazamiento de máquina de escribir** — mantiene el cursor centrado
-  verticalmente mientras escribes.
-- **Formato de fecha** — cómo se muestran las fechas en la app. El día almacenado
-  nunca cambia; esto solo afecta a cómo se muestra. Elegir **Personalizado**
-  revela un campo de **Patrón personalizado** que usa tokens de date-fns (`yyyy`,
-  `MMM`, `d`, `EEEE`…), con la fecha de hoy mostrada como vista previa en vivo.
+### Racha de escritura {#writing-streak}
 
-### Racha de escritura
+- **Mínimo de palabras / día**: un día cuenta para tu racha en cuanto has
+  escrito este número de palabras (50 o más).
 
-- **Mínimo de palabras / día** — un día cuenta para tu racha de escritura cuando
-  escribes esta cantidad de palabras. El mínimo es 50.
-
-### Código
+### Código {#code}
 
 Para los bloques de código.
 
-- **Sangrar con** — **Espacios** o **Tabulaciones**.
-- **Ancho de sangría** — espacios por sangría (y el ancho de visualización de una
-  tabulación), de 1 a 8. 2 y 4 son habituales.
+- **Sangrar con**: **Espacios** o **Tabulaciones**.
+- **Ancho de sangría**: espacios por sangría, y el ancho con el que se muestra
+  una tabulación, de 1 a 8.
 
-### Versiones e importación
+### Versiones e importación {#versions--import}
 
-- **Detalle de diferencias de versión** — con qué precisión se resaltan los
-  cambios al previsualizar una versión: por **Palabra** o por **Carácter**.
-- **Imágenes importadas** — cuando traes una imagen, o bien **Copiar a la bóveda**
-  (a la carpeta `assets/` de la bóveda) o mantenerla **Incrustada** como data URI
-  (autónoma, pero con documentos más grandes).
+- **Detalle de diferencias**: con qué detalle se marcan los cambios al
+  previsualizar una versión antigua: por **Palabra** o por **Carácter**.
+- **Imágenes importadas**: **Copiar a la bóveda** coloca la imagen que traes en
+  la carpeta `assets/` de la bóveda; **Incrustado** la mantiene dentro del
+  documento (autónomo, pero con archivos más grandes).
 
-### Diccionario y tesauro
+## Ajustes de escritura {#setup}
 
-Instala y gestiona paquetes de diccionario sin conexión. Esta sección tiene su
-propia página — ver [Diccionario y tesauro](dictionary.md).
+Lo que φ te muestra en esta bóveda: las señales que te devuelve sobre tu
+escritura y los lugares que ofrece cada modo. Desactivar algo lo oculta, nunca
+toca tu trabajo. Esta categoría tiene su propia página:
+[Ajustes de escritura](./setup.md).
 
-## Perfiles
+- **Señales**: **Iniciar sesiones automáticamente** (una [sesión de
+  escritura](./focus-and-writing-modes.md#writing-sessions) empieza con tu
+  primera pulsación de tecla), **Estadísticas de legibilidad** (facilidad de
+  lectura y nivel escolar en las estadísticas de un documento), **Racha**
+  (**Llama y número**, **Días a secas** o **Apagada**), **La semana empieza en**
+  (la primera columna del calendario y del mapa de calor, y la semana en la que
+  se cuenta tu ritmo) y **Ritmo semanal** (**Ninguno**, o un número de días por
+  semana).
+- **Modos**: abre **Escribir**, **Notas** o **Diario** para elegir qué lugares
+  ofrece, cambiar las señales solo para ese modo y decidir si se pueden empezar
+  nuevas **Listas de tareas** allí. Un modo indica **Sigue a la bóveda** o
+  **Difiere**, con **Volver a seguir a la bóveda** para deshacerlo.
+- **Ajustes guardados**: **Guardar como…** conserva una copia de estos ajustes
+  con un nombre, para aplicarlos a otra bóveda con **Usar en esta bóveda** o
+  **Usar en otra bóveda…**.
 
-Elige qué funciones muestra φ, por bóveda, con un **perfil de escritura** —
-**Sencillo** (solo la página) o **Completo** (todas las herramientas), además de
-los perfiles personalizados que guardes. Aquí también eliges tu **Mostrar la
-racha** (Motivadora / Discreta / Desactivada) y un objetivo de **Ritmo semanal**.
-Ocultar una función nunca borra nada. Esta sección tiene su propia página — ver
-[Perfiles de escritura](profiles.md).
+## Idioma {#language}
 
-## Versiones
+- **Idioma**: el **Idioma de la interfaz** en el que habla φ, además de
+  **Instalar un idioma…**, **Exportar plantilla en inglés…** y **Abrir
+  carpeta**. Consulta [Temas e idiomas](./themes-and-languages.md#languages).
+- **Ortografía**: **Revisar ortografía** activado o desactivado, el **Motor**
+  (**Nativo** o **Mejorado**) y los **Idiomas** que revisar.
+- **Esta bóveda**: un motor de ortografía solo para esta bóveda
+  (**Predeterminado para esta bóveda**), que puede ser distinto del global.
+- **Diccionario personal**: las palabras que has añadido, cada una con una
+  papelera para quitarla.
+- **Diccionario y tesauro**: **Instalar paquete de diccionario…** y los paquetes
+  que tienes. Consulta [Diccionario y tesauro](./dictionary.md).
 
-**Estos ajustes se aplican a la bóveda activa.** Cada bóveda es su propio
-repositorio con su propio backend, remoto e identidad — por eso el nombre de la
-bóveda que estás configurando se muestra en la parte superior.
+La ortografía se explica a fondo en [Ortografía](./spelling.md).
 
-### Backend
+## Versiones {#versioning}
 
-Elige cómo se guarda el historial:
+**Estos ajustes se aplican a la bóveda que tienes abierta.** Cada bóveda guarda
+su propio historial, con su propio motor, remoto e identidad, por eso el nombre
+de la bóveda aparece arriba.
 
-- **Nativo** — instantáneas locales, sin git. Es el valor predeterminado.
-- **Git** — historial completo de git más respaldo remoto opcional. Disponible
-  solo cuando git está instalado en tu equipo.
+### Backend {#backend}
 
-Cambiar a git es un paso para usuarios avanzados: φ ejecuta `git init` en la
-bóveda, confirma automáticamente según una programación y migra tu historial
-nativo existente a git. Un cuadro de diálogo de confirmación detalla primero las
-advertencias. Una vez que una bóveda es un repositorio git, φ la mantiene en git;
-para volver a nativo eliminas tú mismo la carpeta `.git`.
+- **Backend**: **Nativo** (instantáneas locales, nada que instalar; el
+  predeterminado) o **Git** (historial completo y respaldo remoto opcional). Git
+  se ofrece una vez que está instalado en tu ordenador; hasta entonces la opción
+  dice **Git (requiere git)**.
 
-### Historial
+Cambiar a git pregunta primero y explica lo que ocurre: φ ejecuta `git init` en
+la bóveda, hace commits periódicamente y trae tu historial nativo. Una vez que
+una bóveda es un repositorio git, φ la mantiene en git; para volver atrás
+tendrías que quitar tú mismo la carpeta `.git`. Unas notas bajo el ajuste
+explican dónde vive el repositorio si la bóveda está en una carpeta sincronizada
+en la nube, y que φ en iPhone y iPad guarda sus versiones en la carpeta
+`.poiesis-history` de la bóveda.
 
-- **Punto de control automático cada** — con qué frecuencia se confirman las
-  ediciones como versión automática. Establece un número de minutos, elige un
-  valor predefinido (1 / 5 / 10 / 30) o desactívalo (**Desactivado**). Las
-  instantáneas manuales y los guardados al cerrar no se ven afectados.
-- **Límite de historial local** (solo nativo) — el número máximo de versiones que
-  se conservan por documento. Las instantáneas antiguas se podan para acotar el
-  uso de disco. Instala git para historial ilimitado.
+### Historial {#history}
 
-### Respaldo en git (solo backend de git)
+- **Punto de control automático cada**: con qué frecuencia se guardan tus
+  ediciones como versión automática. Escribe un número de minutos, elige **1**,
+  **5**, **10** o **30**, o elige **Desactivado**. Las instantáneas con nombre y
+  el punto de control al cerrar no se ven afectados.
+- **Límite de historial local** (solo Nativo): el máximo de versiones que se
+  conservan por documento; las más antiguas se eliminan.
 
-Cuando una bóveda usa git, también puedes configurar cómo confirma φ y dónde hace
-las copias de seguridad:
+### Respaldo en git (solo git) {#git-backup-git-only}
 
-- **Nombre del commit** / **Correo del commit** — la identidad con la que confirma
-  φ. Déjalo en blanco para usar el usuario git de tu equipo. Un correo dedicado
-  mantiene este trabajo fuera de tu gráfico principal de GitHub.
-- **Ruta de la clave SSH** — la clave privada que φ usa para hacer push (por
-  ejemplo `~/.ssh/id_ed25519`). El archivo de clave debe tener `chmod 600`.
-- **URL del remoto de respaldo** — el remoto de GitHub/GitLab/… al que hacer push.
-  En blanco usa el origin existente del repositorio.
-- **Push automático de respaldos** — envía los nuevos commits al remoto a
-  intervalos regulares. Cuando está activo, define **Push cada** (minutos).
-- **Firmar commits** — firma criptográficamente los commits para que aparezcan
-  como *Verificado*. Elige un **Método de firma** (SSH o GPG) y una **Clave de
-  firma**.
-- **Respaldar ahora** — haz push de inmediato con **Hacer push ahora**. La pista
-  te indica si estás al día, tienes commits sin enviar o aún no tienes remoto.
+- **Nombre del commit** y **Correo del commit**: con qué identidad hace φ los
+  commits. Déjalos en blanco para usar el usuario git de tu ordenador.
+- **Ruta de la clave SSH**: la clave privada con la que φ hace push (por ejemplo
+  `~/.ssh/id_ed25519`), con **Examinar…**. El archivo de la clave debe tener
+  `chmod 600`.
+- **URL del remoto de respaldo**: adónde hacer push. En blanco usa el origin
+  existente del repositorio.
+- **Push automático de respaldos**: envía los nuevos commits periódicamente,
+  cada **Push cada** minutos.
+- **Firmar commits**: los firma para que aparezcan como verificados, con un
+  **Método de firma** (SSH o GPG) y una **Clave de firma**.
+- **Respaldar ahora**: indica si estás al día, si tienes commits sin enviar o si
+  aún no tienes remoto. **Hacer push ahora** envía de inmediato.
 
-Para más sobre versiones y copias de seguridad, consulta [Versiones y copias de
-seguridad](versions-and-backup.md).
+Más en [Versiones y copias de seguridad](./versions-and-backup.md).
 
-## Bóveda
+## Bóveda {#vault}
 
 Sobre la bóveda en la que estás trabajando.
 
-- **Bóveda activa** — el nombre y la ruta de carpeta de la bóveda actual.
-- **Gestionar** — **Abrir bóveda…** y **Crear bóveda…** para cambiar o añadir
-  bóvedas, y **Quitar bóveda…** para descartar la bóveda activa de φ. Quitar una
-  bóveda solo hace que φ la olvide; tus archivos en disco quedan intactos.
+- **Bóveda activa**: su nombre y su carpeta.
+- **Espacios**: cuáles de **Escribir**, **Notas** y **Diario** muestra esta
+  bóveda (al menos uno), y dónde se abre (**Se abre en**).
+- **Gestionar**: **Abrir bóveda…** y **Crear bóveda…** para añadir una bóveda, y
+  **Quitar bóveda…** para la que tienes abierta. Al quitarla te pregunta cómo:
+  **Desvincular (conservar carpeta)** la saca de φ y deja la carpeta como está;
+  **Mover a la papelera** mueve la carpeta entera a la Papelera de tu ordenador,
+  donde aún puedes recuperarla.
 
-Consulta [Bóvedas](vaults.md) para el panorama completo.
+Consulta [Bóvedas](./vaults.md) para verlo todo.
 
-## Plantillas
+## Plantillas {#templates}
 
-Fragmentos reutilizables con variables. Esta sección enumera tus **plantillas de
-bóveda** (específicas de la bóveda activa) y las **plantillas globales**
-(disponibles en todas partes). Edita una con el icono del lápiz o quítala con el
-icono de la papelera. **Instalar una plantilla…** añade un archivo de plantilla, y
-**Abrir carpeta** revela dónde se guardan las plantillas globales.
+- Las **variables** de plantilla que puedes usar, como distintivos:
+  `<% today %>`, `<% tomorrow %>`, `<% yesterday %>`, `<% time %>` y
+  `<% cursor %>`.
+- **Esta bóveda** y **Plantillas globales**: cada plantilla con un lápiz para
+  editarla y una papelera para quitarla.
+- **Instalar una plantilla…** añade un archivo de plantilla; **Abrir carpeta de
+  plantillas** muestra dónde se guardan las globales.
 
-Consulta [Plantillas](templates.md) para saber cómo funcionan las variables.
+Consulta [Plantillas](./templates.md).
 
-## Datos
+## Atajos {#shortcuts}
 
-El estado de tus archivos `.poiesis`, las copias de seguridad de migración y un
-restablecimiento de ajustes.
+Una tabla con búsqueda de los principales atajos de teclado de φ, agrupados de
+la misma forma que la tarjeta que muestra `⌘/`. Escribe en **Buscar comandos…**
+para acotarla. Para la lista completa, consulta
+[Atajos de teclado](./keyboard-shortcuts.md).
 
-### Estado de la bóveda
+## Datos {#data}
 
-φ comprueba si tus documentos están en el esquema actual. Cuando todo está al día,
-lo indica (con las versiones de esquema y de documento). Si algunos documentos
-usan un esquema antiguo, **Migrar todas las notas** los actualiza — y se guarda
-una copia de seguridad automáticamente antes de migrar cualquier documento.
+El estado de tus archivos `.poiesis`, las copias de seguridad que se hacen al
+actualizarlos y un restablecimiento.
 
-### Copias de seguridad
+### Estado de la bóveda {#vault-health}
 
-Aparece una vez que se ha ejecutado una migración. Muestra cuántos archivos de
-copia de seguridad existen y su tamaño total. **Abrir carpeta de copias** las
-revela; **Borrar copias antiguas** elimina las más viejas.
+φ comprueba si tus documentos usan el formato de archivo actual. Si es así, lo
+indica, con los números de versión. Si algunos son más antiguos, **Migrar todas
+las notas** los actualiza, y antes se guarda una copia de seguridad de cada uno.
 
-### Restablecer
+### Copias de seguridad {#backups}
 
-**Restablecer todos los ajustes…** restaura todos los ajustes de la app — tema,
-editor, diseño, fechas, etc. — a sus valores de fábrica. Tus notas, bóvedas y
-registros de escritura no se ven afectados.
+Aparece una vez que se han migrado documentos. Muestra cuántos archivos de copia
+hay y cuánto espacio ocupan. **Abrir carpeta de copias** los muestra; **Borrar
+copias antiguas** elimina los que tienen más de 30 días.
+
+### Restablecer {#reset}
+
+**Restablecer todos los ajustes…** devuelve todos los ajustes de la app (tema,
+editor, disposición, grafo, fechas, etc.) a su valor predeterminado, tras
+preguntarte. Tus notas, bóvedas y registros de escritura se conservan.

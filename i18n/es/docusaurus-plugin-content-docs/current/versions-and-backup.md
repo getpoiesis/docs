@@ -1,92 +1,135 @@
 ---
 title: Versiones y copias de seguridad
-sidebar_position: 13
 ---
 
 # Versiones y copias de seguridad
 
 Tu escritura se guarda continuamente, y φ mantiene un historial para que puedas
-volver a cualquier borrador anterior. Nada sale de tu Mac a menos que tú mismo
-configures un remoto.
+volver a cualquier borrador anterior. Nada sale de tu ordenador a menos que tú
+mismo configures un remoto.
 
-<img src="/img/app/versions-light.png" alt="El historial de un documento: instantáneas con nombre y puntos de control automáticos" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/versions-dark.png" alt="El historial de un documento: instantáneas con nombre y puntos de control automáticos" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/versions-light.png" alt="El historial de un documento: instantáneas con nombre y puntos de control automáticos" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/versions-dark.png" alt="El historial de un documento: instantáneas con nombre y puntos de control automáticos" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Cómo funciona el guardado
+## Cómo funciona el guardado {#how-saving-works}
 
-Cada edición se guarda automáticamente y se verifica después de cada escritura —
-nunca tienes que pulsar Guardar para conservar tu trabajo. (`⌘S` está ahí si lo
-quieres, pero rara vez hace falta.) La barra de estado muestra **Guardado**
-cuando el archivo está en disco.
+Cada edición se guarda sola un momento después de que dejas de escribir, y cada
+escritura se verifica antes de darla por buena. Nunca tienes que pulsar Guardar.
+Mientras se está guardando, el pie de la barra lateral dice **Guardando…**.
 
-Además del guardado, φ registra **versiones**: copias en un momento dado que
+`⌘S` sigue ahí si lo quieres: guarda al instante y registra un punto de control,
+para que tengas un punto explícito al que volver.
+
+Además del guardado, φ registra **versiones**: copias de un momento dado que
 puedes explorar y restaurar.
 
-## Dos tipos de versión
+## Dos tipos de versión {#two-kinds-of-version}
 
-- **Puntos de control** — se crean automáticamente mientras escribes: a
-  intervalos regulares, cuando quedas inactivo y cuando cambias de documento.
-  Capturan tu progreso sin esfuerzo alguno por tu parte.
-- **Instantáneas** — versiones con nombre que creas a propósito para marcar un
-  hito (el final de un capítulo, un borrador terminado). Pulsa `⌘⇧S`, o usa
-  **Guardar versión…** desde la paleta de comandos (`⌘P`), y dale un nombre.
+- **Los puntos de control** se crean por ti: a intervalos regulares mientras
+  trabajas (cada cinco minutos, salvo que lo cambies en **Ajustes → Versiones**),
+  cuando cierras la ventana, cuando pulsas `⌘S` y cuando φ actualiza tus
+  documentos a un nuevo formato de archivo. No tienes que pensar en ellos.
+- **Las instantáneas** son versiones con nombre que creas a propósito para
+  marcar un hito: el final de un capítulo, un borrador terminado. Pulsa `⌘⇧S`
+  (**Archivo → Guardar versión…**), o haz clic en **Guardar instantánea** en la
+  parte superior de la pestaña Historial, y dale un nombre.
 
-## El panel de historial de versiones
+## La pestaña Historial {#the-history-tab}
 
-Ábrelo con `⌘]` (o el icono de reloj en la barra superior) para ver el historial
-de este documento, agrupado por día — Hoy, Ayer, y así sucesivamente.
+El historial de un documento vive en la pestaña **Historial** del
+[panel de Información](./finding-your-way.md). Para abrirla:
 
-- **Explorar** — haz clic en cualquier versión para previsualizar su contenido
-  completo en el área del editor. Filtra por tipo (Todas, Instantáneas, Puntos de
-  control, Restauraciones) o busca por nombre.
-- **Ver qué cambió** — con una versión abierta, elige **Mostrar cambios** para
-  ver las diferencias respecto a la versión actual. Puedes ajustar con qué
-  precisión se resaltan los cambios en **Ajustes → Editor → Versiones**.
-- **Restaurar** — recupera una versión anterior como documento en vivo. Tu
-  contenido actual se guarda primero como una nueva versión, así no se pierde
-  nada.
+- pulsa `⇧⌘I` para el panel de Información y luego haz clic en **Historial**;
+- elige **Historial de versiones** en el menú ⋮ del documento; o
+- haz clic derecho en el documento en la lista y elige **Historial de
+  versiones**.
 
-## Instantáneas nativas frente a git
+Arriba, **Guardado automático** te recuerda que tus ediciones ya están a salvo,
+y **Guardar instantánea** da nombre a una nueva versión. Debajo, el historial se
+agrupa por día (Hoy, Ayer, etc.). Los puntos de control de un día se pliegan en
+una sola línea que puedes abrir, para que las instantáneas destaquen. Puedes
+plegar o desplegar todos los días a la vez, buscar versiones por nombre y
+filtrar por **Todas**, **Instantáneas**, **Puntos de control** o
+**Restauraciones**.
 
-Cada bóveda tiene su propio **backend** de versionado, que se elige en **Ajustes
-→ Versiones**:
+### Ver una versión antigua {#looking-at-an-old-version}
 
-- **Nativo** — instantáneas locales almacenadas junto a tu bóveda. No requiere
-  git; funciona desde el primer momento. Hay un límite de historial por documento
-  (las instantáneas antiguas se podan para mantener acotado el uso de disco), que
-  puedes ajustar.
-- **Git** — historial completo e ilimitado, además de la opción de respaldar
-  fuera de la máquina. Elige esta opción si te sientes cómodo con git.
+Haz clic en cualquier versión para abrirla en lugar del documento, en solo
+lectura, bajo una barra **Previsualizando la versión**:
 
-**Si git no está instalado**, φ se mantiene en Nativo y te lo indica — el
-versionado sigue funcionando, simplemente no obtienes el historial ilimitado ni
-el respaldo remoto de git. En ese caso la barra de estado muestra **git no
-disponible**. Instala git para desbloquear esas funciones.
+- **Mostrar cambios** marca lo que difiere de la versión actual. Con los cambios
+  visibles, alterna entre **Lado a lado** y **En el contenido**. En el contenido,
+  una línea **Cambios de metadatos** también lista los cambios en el título, la
+  descripción, las etiquetas, el estado, la meta o la estrella. **Ocultar
+  cambios** quita las marcas. Puedes elegir con qué detalle se marcan los
+  cambios, por palabra o por carácter, en **Ajustes → Editor → Detalle de
+  diferencias**.
+- **Restaurar** devuelve esta versión como documento activo. Tu texto actual se
+  guarda antes como una nueva versión, así que no se pierde nada.
+- **Volver al actual** (o `Esc`) regresa al documento tal como está ahora.
 
-> Cambiar una bóveda a git ejecuta `git init` y confirma según una programación.
-> Para volver a Nativo más tarde deberás eliminar tú mismo la carpeta `.git` en
-> el Finder. Consulta las notas del cuadro de diálogo de conversión antes de
-> cambiar.
+## Historial nativo o git {#native-history-or-git}
 
-## Copia de seguridad fuera de la máquina con un remoto de git
+Cada bóveda tiene su propio **motor** de versiones, que se elige en **Ajustes →
+Versiones**:
 
-En el backend de git puedes enviar tu historial a tu propio remoto (GitHub,
-GitLab o cualquier servidor git) para que una copia viva en otro lugar además de
-tu Mac. En **Ajustes → Versiones → Respaldo en git**:
+- **Nativo** guarda instantáneas locales junto a tu bóveda. No necesita nada
+  instalado y funciona desde el primer momento. Hay un límite de versiones
+  conservadas por documento (las más antiguas se eliminan para controlar el uso
+  de disco), que puedes cambiar.
+- **Git** guarda un historial completo e ilimitado, y puede respaldarlo en otro
+  lugar. Se ofrece una vez que git está instalado en tu ordenador (hasta
+  entonces la opción dice **Git (requiere git)**).
 
-- Define una **URL del remoto de respaldo** a la que hacer push.
-- Activa el **Push automático de respaldos** para enviar los nuevos commits a
-  intervalos, o pulsa **Respaldar ahora** (también **Respaldar ahora** en la
-  paleta de comandos) para hacer push bajo demanda.
-- Opcionalmente, define un **nombre/correo del commit** dedicado y una **ruta de
-  la clave SSH** para que este trabajo quede fuera de tu cuenta principal, y
-  **firma los commits** para obtener una insignia Verificado.
+Pasar una bóveda a git es un paso deliberado, y φ lo explica primero en un
+diálogo **¿Convertir esta bóveda a git?**: φ ejecuta `git init` en la bóveda,
+hace commits periódicamente y trae contigo tu historial nativo existente. Una
+vez que una bóveda es un repositorio git, se queda en git; para volver a Nativo
+tendrías que borrar tú mismo su carpeta `.git`.
+
+Algunas cosas que conviene saber:
+
+- **Carpetas sincronizadas en la nube.** Si la bóveda vive en una carpeta
+  sincronizada en la nube, φ guarda su repositorio git en este ordenador en
+  lugar de dentro de la bóveda. La sincronización copia los archivos de un
+  repositorio de uno en uno, en cualquier orden, y así es como se rompen los
+  repositorios; tus documentos son un archivo cada uno y viajan sin problema.
+- **φ en iPhone y iPad** lee y escribe la misma bóveda, pero nunca ejecuta git.
+  Las versiones creadas allí se guardan en la carpeta `.poiesis-history` de la
+  bóveda, que comparten ambas apps.
+- Si no se puede conservar el historial de una bóveda, la pestaña Historial dice
+  **El versionado no está disponible.** y por qué.
+
+### Antes de cambios grandes {#before-big-changes}
+
+Cuando reemplazas una palabra **en todas partes** de la bóveda (consulta
+[Buscar y reemplazar](./search-and-replace.md)), φ guarda primero una versión de
+toda la bóveda, con el nombre de lo que estás reemplazando, para que el cambio
+se pueda deshacer.
+
+## Respaldar en un remoto git {#backing-up-to-a-git-remote}
+
+Con el motor git puedes enviar tu historial a un remoto propio (GitHub, GitLab o
+cualquier servidor git), para que haya una copia en otro lugar además de tu
+ordenador. En **Ajustes → Versiones → Respaldo en git**:
+
+- Define una **URL del remoto de respaldo** a la que enviar (en blanco usa el
+  origin existente del repositorio).
+- Activa **Push automático de respaldos** para enviar los nuevos commits cada
+  cierto tiempo, y ajusta **Push cada** (minutos).
+- **Respaldar ahora** te dice si estás al día, si tienes commits sin enviar o si
+  aún no tienes remoto. **Hacer push ahora** envía al instante; también lo hace
+  **Respaldar ahora (git push al remoto)** en la paleta de comandos.
+- Opcionalmente define un **Nombre del commit**, un **Correo del commit** y una
+  **Ruta de la clave SSH** para que este trabajo quede fuera de tu cuenta
+  principal, y **Firmar commits** para que aparezcan como verificados.
 
 Usa un repositorio privado y una identidad dedicada para esto.
 
-## Una bóveda no es más que archivos
+## Una bóveda son solo archivos {#a-vault-is-just-files}
 
-Como una bóveda es una carpeta normal de archivos `.poiesis` (con una carpeta
-`assets/` y el historial de versiones), cualquier método de copia de seguridad en
-el que ya confíes también funciona — Time Machine, una carpeta sincronizada en la
-nube o una copia manual. El versionado de φ es una opción, no la única.
+Una bóveda es una carpeta normal de archivos `.poiesis` (con una carpeta
+`assets/` para las imágenes, y su historial de versiones), así que cualquier
+copia de seguridad en la que ya confíes también sirve: Time Machine, una carpeta
+sincronizada o una copia en un disco. El versionado de φ es una red de
+seguridad, no la única.

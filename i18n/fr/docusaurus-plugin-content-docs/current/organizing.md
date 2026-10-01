@@ -1,150 +1,248 @@
 ---
 title: Organiser votre travail
-sidebar_position: 6
 ---
 
 # Organiser votre travail
 
 Un coffre peut contenir quelques notes ou quelques milliers. φ vous offre une
-structure légère — espaces, dossiers, étiquettes et recherche — pour que vous
-puissiez retrouver n’importe quoi sans jamais imposer plus d’ordre que vous n’en
-voulez. Rien ici ne change la façon dont un document est écrit ; cela change
+structure légère — modes, dossiers, favoris, étiquettes et recherche — pour que
+vous retrouviez n’importe quoi sans imposer plus d’ordre que vous n’en voulez.
+Rien de tout cela ne change la façon dont un document est écrit ; cela change
 seulement la manière de l’atteindre.
 
-<img src="/img/app/notes-light.png" alt="Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/notes-dark.png" alt="Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/notes-light.png" alt="Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/notes-dark.png" alt="Notes : tâches ouvertes, les mots-clés que vous utilisez et ce que vous avez épinglé" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Le rail de gauche : trois espaces
+## Trois modes, chacun avec ses lieux {#three-modes-each-with-its-places}
 
-Le long du bord gauche se trouve un fin rail vertical. Les trois icônes du haut
-sont des **espaces** — différentes loupes sur le coffre unique, regroupées selon
-ce que vous faites :
+En haut de la barre latérale se trouve le sélecteur **Écrire · Notes ·
+Journal** (`⌘1`, `⌘2`, `⌘3`). Chaque mode est une loupe différente sur le coffre
+unique, et chacun a ses propres **lieux**, listés sous le sélecteur :
 
-- **Notes** (icône de dossier) — vos documents et dossiers. L’arborescence des
-  dossiers est le point d’ancrage.
-- **Écrire** (icône de livre) — [collections](collections.md) : manuscrits,
-  poésie, essais.
-- **Journal** (icône de carnet) — vos entrées de journal datées.
+| Mode | Lieux |
+| --- | --- |
+| **Écrire** | **Accueil**, **Pièces**, **Projets** (avec **Nouveau projet**), **Monde** (Personnages, Auteurs, Recherche), **Lieux** (Tableaux, Graphe, Calendrier) |
+| **Notes** | **Accueil**, **Toutes les notes**, **Favoris**, **Non liées**, **Dossiers**, **Étiquettes**, **Lieux** (Tableaux, Graphe, Calendrier, Modèles) |
+| **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Scellées**, **Lieux** (Calendrier) |
 
-En dessous, un **soleil** ouvre les pages du matin du jour, et un séparateur mène
-aux vues de fonctionnalités — calendrier, graphe, personnages, profils d’auteur,
-recherche — avec la corbeille épinglée en bas. Cliquer sur un espace change ce
-que la barre latérale affiche ; cela ne change pas le document que vous avez
-ouvert.
+Choisir un lieu remplit la **liste** à côté de la barre latérale ; choisir une
+ligne de la liste l’ouvre sur la **page**. La liste reste en place pendant que
+vous travaillez, pour que vous puissiez la parcourir. La **Corbeille** se trouve
+au pied de la barre latérale dans chaque mode. Chaque mode s’ouvre sur son
+propre **Accueil** — voir [Vous repérer](finding-your-way.md) pour une visite.
 
-## La barre latérale
+La barre latérale ne peut pas être masquée, mais le **Sanctuaire** (`⌘.`) efface
+tout sauf la page quand vous voulez être seul avec elle — voir
+[Sanctuaire et sessions d’écriture](focus-and-writing-modes.md). `⌘[` et `⌘]`
+reviennent en arrière et vont en avant dans les lieux où vous êtes passé.
 
-La barre latérale est le panneau voisin du rail. Son contenu dépend de l’espace
-dans lequel vous êtes : l’arborescence des dossiers dans **Notes**, vos livres
-dans **Écrire**, vos entrées dans **Journal**.
+## Pièces et notes {#pieces-and-notes}
 
-Affichez ou masquez la barre latérale avec `⌘[` (Affichage → Afficher/masquer la
-barre latérale). Masquez-la quand vous voulez laisser la page à elle-même ;
-faites-la revenir quand vous avez besoin de naviguer. Glissez son bord droit pour
-la redimensionner.
+Tout document qui n’est ni une journée du journal ni une page du matin est de
+l’un de ces deux types :
 
-## L’arborescence des dossiers
+- Les **pièces** sont ce que vous écrivez dans **Écrire** hors d’un projet — un
+  poème, un essai, une nouvelle. Elles comptent les mots et peuvent porter un
+  statut et un objectif de mots. Ajoutez-en une à un projet quand vous voulez
+  (voir [Projets](collections.md)).
+- Les **notes** vivent dans **Notes** — idées, sources, phrases entendues au
+  passage. Elles n’ont ni statut, ni objectif, ni nombre de mots à surveiller.
 
-Dans l’espace **Notes**, vos documents vivent dans une arborescence de dossiers
-imbriqués. Les dossiers sont facultatifs — un document sans dossier reste à la
-racine.
+Un document peut changer de camp : faites un clic droit dessus (ou utilisez son
+**⋮**) et choisissez **Déplacer vers Notes** ou **Déplacer vers les pièces
+d’Écrire**. Une note que vous ajoutez à un projet devient une pièce.
 
-### Créer et renommer des dossiers
+## Dossiers {#folders}
 
-- **Nouveau dossier** — cliquez sur le bouton dossier-plus dans la barre d’outils
-  de la barre latérale (en crée un à la racine), ou ouvrez le menu **⋯** d’un
-  dossier et choisissez **Nouveau sous-dossier**.
-- **Renommer** — ouvrez le menu **⋯** d’un dossier et choisissez **Renommer**,
-  puis tapez le nouveau nom et appuyez sur Entrée. (Appuyez sur Échap pour
-  annuler.)
-- **Supprimer** — l’option **Supprimer** du menu **⋯**. Les documents qu’il
-  contient remontent à la racine ; ils ne sont jamais supprimés avec le dossier.
+Les dossiers sont facultatifs. Un document sans dossier se trouve au niveau
+supérieur — **Toutes** dans le chemin des dossiers. Les pièces et les notes
+partagent les mêmes dossiers.
 
-### Colorer un dossier
+### Créer un dossier {#make-a-folder}
 
-Dans le menu **⋯** d’un dossier, choisissez une pastille pour lui attribuer une
-couleur d’étiquette — gris, rouge, orange, jaune, vert, bleu, violet ou rose — ou
-la première pastille pour aucune couleur. Les couleurs servent uniquement à votre
-propre tri d’un coup d’œil.
+- Dans Notes, cliquez sur le **+** à côté de **Dossiers** dans la barre
+  latérale.
+- Au pied de n’importe quel listage de dossier, cliquez sur **Nouveau dossier**
+  — il est créé dans le dossier que vous regardez.
+- Le **⋮** de la liste → **Nouveau dossier** (dans Écrire et dans Notes).
+- Clic droit sur un dossier → **Nouveau dossier à l’intérieur**.
 
-### Déplacer des documents
+φ vous demande le **Nom du nouveau dossier**.
 
-Glissez un document sur un dossier pour l’y classer. Déposez-le sur un espace vide
-de l’arborescence pour le ramener à la racine.
+### Parcourir les dossiers {#browse-folders}
 
-### Réduire et développer
+Un dossier s’ouvre **sur place** dans la liste : d’abord ses dossiers, puis ses
+documents. Le chemin des dossiers au-dessus de la liste — **Toutes › Brouillons
+› Poèmes** — vous fait ressortir un niveau à la fois. Dans Notes, vos dossiers
+de premier niveau sont aussi listés dans la barre latérale, chacun avec un
+nombre.
 
-Cliquez sur le chevron (la flèche) d’un dossier pour l’ouvrir ou le fermer. Le
-bouton réduire/développer de la barre d’outils replie ou déplie toute
-l’arborescence d’un coup.
+### Le menu d’un dossier {#a-folders-menu}
 
-## Récents et Favoris
+Faites un clic droit sur un dossier, dans la barre latérale ou dans la liste,
+pour tout ce qu’un dossier sait faire :
 
-Au-dessus de l’arborescence des dossiers, deux sections vous offrent des chemins
-rapides vers les documents que vous consultez le plus :
+- **Nouvelle pièce** (dans Écrire) ou **Nouvelle note ici** (dans Notes).
+- **Nouveau dossier à l’intérieur**.
+- **Renommer ce dossier**.
+- **Icône…** — choisissez-lui une icône (voir plus bas).
+- **Couleur** — **Aucune**, **Gris**, **Rouge**, **Orange**, **Jaune**,
+  **Vert**, **Bleu**, **Violet** ou **Rose**. La couleur teinte l’icône du
+  dossier.
+- **Supprimer ce dossier** — φ demande d’abord : *Les documents de ce dossier
+  sont déplacés à la racine. Cette action est irréversible.* Les dossiers qu’il
+  contient remontent là où il était. Aucun document n’est jamais supprimé avec
+  un dossier.
 
-- **Favoris** — les documents que vous avez marqués d’une étoile. Mettez un
-  document en favori depuis son en-tête (le bouton étoile) ou son menu
-  contextuel. Retirez-le des favoris au même endroit.
-- **Récents** — les documents que vous avez ouverts le plus récemment. (Vous
-  pouvez désactiver cette section dans Réglages → Barre latérale → Afficher les
-  documents récents.)
+### Classer des documents {#file-documents}
 
-Les deux sections se réduisent avec leurs chevrons.
+- **Glissez** un document sur un dossier — dans la liste ou dans la barre
+  latérale de Notes — pour l’y classer.
+- **Déposez-le** sur une étape du chemin des dossiers pour le faire remonter ;
+  déposez-le sur **Toutes** pour le sortir de tout dossier.
+- Clic droit dessus → **Déplacer vers un dossier** → choisissez un dossier, ou
+  **Aucun dossier**.
+- Ouvrez ses **Détails…** et choisissez un dossier dans **Dans**.
 
-## Étiquettes
+Déposez un document **entre** deux autres pour le placer dans cet ordre. L’ordre
+que vous créez est conservé quand la liste est triée par **Modifié**.
 
-Les étiquettes traversent les dossiers : un document peut en porter un nombre
-quelconque, et vous pouvez regrouper les documents par étiquette quel que soit
-l’endroit où ils sont classés.
+## Icônes et couleurs des projets et des dossiers {#icons-and-colours-for-projects-and-folders}
 
-- **Ajouter une étiquette** — dans l’en-tête d’un document, tapez dans le champ
-  **ajouter une étiquette…** et appuyez sur Entrée.
-- **Retirer une étiquette** — cliquez sur le **×** de l’étiquette.
-- **Filtrer par étiquette** — lorsque vous avez des étiquettes, une rangée de
-  pastilles d’étiquettes apparaît en haut de la barre latérale Notes. Cliquez sur
-  l’une d’elles pour n’afficher que les documents portant cette étiquette ;
-  cliquez à nouveau pour effacer le filtre.
+Donnez à un projet ou à un dossier sa propre icône : clic droit dessus →
+**Icône…** (ou, pour le projet où vous êtes, le **⋮** de la liste → **Icône…**).
+Un petit sélecteur s’ouvre, avec un champ de recherche et 224 icônes réparties
+en groupes ; **Par défaut** revient au livre ou au dossier ordinaire. Le
+sélecteur a aussi une rangée de couleurs. La couleur d’un projet peut aussi être
+définie depuis son menu contextuel → **Couleur**, ou depuis le **⋮** de la liste
+→ **Couleur…**.
 
-## Recherche
+L’icône et la couleur suivent le projet ou le dossier partout où il est nommé —
+la barre latérale, la liste, le chemin des dossiers, l’Accueil, **Déplacer vers
+un dossier**, `⌘K` et les Détails d’un document.
 
-Chaque document du coffre est consultable en texte intégral, et la recherche
-s’exécute entièrement sur votre Mac.
+## Favoris {#starred}
 
-- **Rechercher** (`⌘F`) — ouvre le champ de recherche de la barre latérale. Tapez
-  pour voir des correspondances classées avec un extrait du texte environnant.
-  Les résultats se mettent à jour à mesure que vous tapez, et les correspondances
-  par préfixe sont incluses, si bien qu’un mot partiel en trouve des entiers.
-- **Bascule rapide** (`⌘K`) — ouvre le sélecteur rapide, une boîte de saut rapide
-  qui recherche les documents *et* les collections par titre. Pratique pour
-  bondir vers un endroit dont vous connaissez déjà le nom.
-- **Palette de commandes** (`⌘P`) — exécute des commandes et peut aussi sauter
-  vers des documents.
+Mettez en favori ce que vous utilisez le plus : depuis le **⋮** du document →
+**Mettre en favori**, depuis le menu contextuel d’une ligne, ou avec l’étoile de
+sa page **Détails…**. Choisissez-le de nouveau pour le retirer des favoris.
 
-Les pages du matin, les entrées de journal et les pages de recherche sont tenues
-à l’écart de la vue des dossiers et de la recherche, par conception — elles ont
-leurs propres espaces.
+Dans Notes, **Favoris** dans la barre latérale liste vos notes favorites, et
+l’Accueil de Notes les garde en vue.
 
-## Ordre de tri
+## Étiquettes {#tags}
 
-Dans la barre latérale Notes, le bouton de tri (les flèches haut/bas) définit
-l’ordre dans lequel l’arborescence des dossiers classe les documents :
+Les étiquettes traversent les dossiers : un document peut en porter autant que
+vous voulez.
 
-- **Dernière modification** — les plus récemment modifiés en premier.
-- **Date de création** — les plus récents en premier.
-- **Titre** — par ordre alphabétique.
-- **Manuel** — votre propre ordre.
+- **Ajouter une étiquette** — ouvrez **Détails…**, tapez dans **+ Étiquette**,
+  puis appuyez sur Entrée. Dans la saisie rapide, un `#mot` dans ce que vous
+  tapez devient une étiquette.
+- **Retirer une étiquette** — cliquez sur son **×** dans les Détails.
+- **Parcourir par étiquette** — dans Notes, le groupe **Étiquettes** de la barre
+  latérale liste chaque étiquette avec le nombre de notes qui la portent.
+  Cliquez sur l’une pour les lister.
 
-## Statut du document
+## Non liées {#unlinked}
 
-Un document peut porter un statut pour indiquer où il en est dans votre processus :
+**Non liées**, dans la barre latérale de Notes, liste les notes vers lesquelles
+rien ne pointe et qui ne pointent vers rien — pratique pour retrouver les fils
+qui traînent. Voir [Liens et graphe](links-and-graph.md).
 
-- **brouillon**
-- **publié**
-- **archivé**
+## Saisie rapide {#quick-capture}
 
-Définissez-le depuis le contrôle de statut dans l’en-tête du document. Sur une
-note autonome, le statut est facultatif — cliquez sur le bouton de jalon pour le
-faire apparaître, puis choisissez-en un. Les documents qui appartiennent à une
-collection affichent toujours leur statut. Les entrées de journal n’utilisent pas
-de statut.
+En haut de la liste de Notes (sur **Toutes les notes**, un dossier ou une
+étiquette) et sur l’Accueil de Notes se trouve une case : **Notez une idée…**.
+Tapez et appuyez sur Entrée : c’est enregistré comme note — dans le dossier ou
+sous l’étiquette que vous regardez. Un `#mot` dedans ajoute cette étiquette.
+
+## La liste {#the-list}
+
+Chaque liste a les mêmes quelques commandes en haut :
+
+- Un **champ de recherche** qui restreint la liste à mesure que vous tapez. À
+  l’intérieur d’un dossier, il cherche aussi dans tous les dossiers qu’il
+  contient.
+- Un **tri** pour les documents : **Dernière modification**, **Date de
+  création** ou **Titre**. **Modifié** conserve l’ordre que vous avez créé en
+  glissant.
+- **+** pour créer l’élément suivant ici — une pièce, une note, un chapitre, une
+  entrée.
+- **⋮** pour les autres actions du mode (nouveau projet, nouveau dossier, etc.).
+- Des flèches précédent et suivant.
+
+`⌥⌘←` et `⌥⌘→` ouvrent le document situé au-dessus ou au-dessous de celui qui
+est ouvert dans la liste.
+
+## Recherche {#search}
+
+La recherche s’exécute entièrement sur votre ordinateur.
+
+- **Rechercher dans le document** (`⌘F`) — cherche dans la page où vous êtes.
+- **Rechercher un document** (`⌘K`) — trouve des documents par leur titre et par
+  leur contenu, ainsi que des projets et des personnages. Il s’ouvre sur les
+  documents ouverts en ce moment, les endroits où aller et ce que vous pouvez
+  créer. Les pages du matin en sont exclues.
+- **Commandes** (`⌘P`) — lance une commande par son nom. Il ne liste que des
+  commandes.
+- **Recherche** (`⇧⌘F`) — une page de recherche complète, avec remplacement.
+  Voir [Rechercher et remplacer](search-and-replace.md).
+
+## Détails {#details}
+
+Tout ce qui concerne un document sans être son texte se trouve sur sa page
+**Détails…** — ouvrez-la depuis le **⋮** du document ou depuis le menu
+contextuel de n’importe quelle ligne. **Retour au texte** vous ramène à la page.
+Ce qu’elle affiche dépend du document :
+
+- **Statut** — pour les pièces : **brouillon**, **publié** ou **archivé**. Pour
+  les chapitres d’un projet : **À faire**, **Brouillon**, **Révisé** ou
+  **Final**. Les notes n’ont pas de statut.
+- **Synopsis** (un chapitre) ou **Description** (tout le reste).
+- **Objectif de mots** — pour les pièces et les chapitres, avec une barre face
+  au décompte.
+- **Étiquettes**, et pour un chapitre une **Couleur**.
+- **Favori**.
+- **Dans** — où il se trouve. Un chapitre affiche son projet, sa partie et son
+  numéro, avec **Laisser hors de la numérotation** et un lien pour ouvrir le
+  projet. Une pièce ou une note affiche son dossier ; une pièce propose aussi
+  **L’ajouter à un projet…** ; et l’une comme l’autre peut passer d’Écrire à
+  Notes. Toute carte de tableau qui pointe vers le document est aussi listée
+  ici.
+- **Lié à** — pour les pièces et les notes, les documents, projets et
+  personnages dont celui-ci parle. Voir [Recherche](research.md).
+
+Au pied : sa date de création et de dernière modification, et son nombre de
+versions.
+
+## Le menu d’une ligne {#a-rows-menu}
+
+Faites un clic droit sur un document dans n’importe quelle liste, ou cliquez sur
+son **⋮**, pour :
+
+- **Détails…**, **Mettre en favori** / **Retirer des favoris**.
+- **Plan**, **Liens wiki**, **Notes**, **Historique des versions** — chacun
+  ouvre cette partie du panneau d’informations.
+- **Ajouter à une collection** / **Déplacer vers une collection** — le placer
+  dans un projet.
+- **Déplacer vers Notes** / **Déplacer vers les pièces d’Écrire**.
+- **Déplacer vers un dossier**.
+- **Retirer de la collection** (quand il est dans l’une d’elles).
+- **Masquer de Documents** — le garde hors des listes et du calendrier ; `⌘K` le
+  trouve toujours, et **Afficher dans Documents** le fait revenir.
+- **Marquer comme pages du matin** — voir
+  [Journal et pages du matin](journal-and-morning-pages.md).
+- **Renommer…**, **Copier en Markdown**, et un sous-menu d’export avec tous les
+  formats (voir [Exporter](exporting.md)).
+- **Supprimer** — le document part à la corbeille.
+
+## Corbeille {#trash}
+
+Rien de ce que vous supprimez ne disparaît d’un coup. La **Corbeille**, au pied
+de la barre latérale, garde les documents, projets, personnages, profils
+d’auteur, tableaux et cartes de tableau supprimés. Choisissez un élément pour le
+voir (un document s’ouvre en lecture seule), puis **Restaurer** ou **Supprimer
+définitivement**. **Vider**, en haut de la liste, efface le tout, après
+confirmation.
+
+Les éléments de la corbeille sont supprimés définitivement au bout de 30 jours.

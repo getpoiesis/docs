@@ -1,222 +1,254 @@
 ---
 title: Réglages
-sidebar_position: 18
 ---
 
 # Réglages
 
 φ rassemble ses réglages en un seul endroit, regroupés pour que vous ayez
-rarement à chercher. Ouvrez les Réglages avec `⌘,` (ou **Préférences…** dans le
-menu de l’app). Une colonne à gauche liste les catégories ; choisissez-en une et
-ses options apparaissent à droite.
+rarement à chercher. Une colonne à gauche liste les catégories ; choisissez-en
+une et ses options apparaissent à côté.
 
-<img src="/img/app/settings-light.png" alt="Réglages" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/settings-dark.png" alt="Réglages" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/settings-light.png" alt="Réglages" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/settings-dark.png" alt="Réglages" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Les catégories sont **Apparence**, **Éditeur**, **Profils**, **Versions**,
-**Coffre**, **Modèles** et **Données**.
+Pour ouvrir les Réglages :
 
-La plupart des réglages s’appliquent à toute l’app et prennent effet
-immédiatement. L’exception est **Versions**, qui se configure *par coffre* — voir
-ci-dessous.
+- cliquez sur le bouton à curseurs en haut de la barre latérale, à côté du nom
+  du coffre ;
+- sur macOS, appuyez sur `⌘,` (ou choisissez **Préférences…** dans le menu de
+  l’app) ; ou
+- appuyez sur `⌘K` et choisissez **Ouvrir les réglages**.
 
-## Apparence
+Les catégories sont **Apparence**, **Éditeur**, **Réglages d’écriture**,
+**Langue**, **Versions**, **Coffre**, **Modèles**, **Raccourcis** et
+**Données**. Les changements prennent effet immédiatement. La plupart des
+réglages s’appliquent à toute l’app ; **Réglages d’écriture**, **Versions** et
+**Coffre** appartiennent au coffre que vous avez ouvert.
 
-L’aspect de φ : clair ou sombre, la taille de l’interface, le thème de couleur
-utilisé et la langue dans laquelle il s’exprime. Les thèmes de couleur et les
-langues ont leur propre page — voir [Thèmes et langues](themes-and-languages.md).
+## Apparence {#appearance}
 
-### Thème
+L’aspect de φ. Les thèmes de couleur ont leur propre page :
+[Thèmes et langues](./themes-and-languages.md).
 
-- **Apparence** — choisissez **Système**, **Clair** ou **Sombre**. Système suit
-  le réglage de votre Mac et bascule avec lui.
-- **Taille de l’interface** — met à l’échelle toute l’interface, icônes
-  comprises, entre **100 %**, **115 %**, **130 %** et **150 %**. Utilisez-la si
-  l’app vous paraît trop petite (ou trop grande) sur votre écran.
-- **La semaine commence le** — si le calendrier et la carte de chaleur commencent
-  la semaine le **lundi** ou le **dimanche**.
+### Thème {#theme}
 
-### Thème de couleur
+- **Apparence** : **Système**, **Clair** ou **Sombre**. Système suit le réglage
+  de votre ordinateur et bascule avec lui.
+- **Taille de l'interface** : met à l’échelle toute l’interface, icônes
+  comprises, à **100 %**, **115 %**, **130 %** ou **150 %**.
 
-Une liste des thèmes de couleur installés. Le thème intégré **Phi** est marqué
-**Officiel** ; les thèmes de la communauté que vous installez apparaissent en
-dessous et peuvent être retirés avec l’icône de corbeille. **Installer un
-thème…** ajoute un fichier JSON de thème, et **Ouvrir le dossier des thèmes**
-révèle où ils se trouvent. Détails complets sur la page [Thèmes et
-langues](themes-and-languages.md).
+### Thème de couleur {#color-theme}
 
-### Langue
+Les thèmes de couleur installés, chacun avec un petit aperçu. Le thème intégré
+**Phi** est marqué **Officiel** ; les thèmes que vous installez apparaissent en
+dessous avec une icône de corbeille pour les retirer. **Installer un thème…**
+ajoute un fichier de thème, **Ouvrir le dossier des thèmes** montre où ils sont
+conservés, et **Parcourir les thèmes officiels…** ouvre la galerie.
 
-La **langue de l’interface** de l’app. Les langues intégrées sont l’anglais,
-l’espagnol et le français ; **Réglage du système** suit votre Mac. Vous pouvez
-**Installer une langue…** (un fichier de traduction communautaire), **Exporter le
-modèle anglais…** pour commencer la vôtre, et **Ouvrir le dossier** pour voir où
-les langues sont conservées. Les traductions manquantes reviennent à l’anglais.
+### Barre latérale {#sidebar}
 
-### Barre latérale
+- **Barre latérale en thème clair** : **Sombre** ou **Clair**. En thème clair,
+  la barre latérale est sombre par défaut, ce qui garde la page comme l’élément
+  le plus lumineux de l’écran ; choisissez **Clair** pour une barre latérale
+  claire. (En thème sombre, elle est toujours sombre.)
+- **Le sanctuaire atténue le reste** : dans le
+  [Sanctuaire](./focus-and-writing-modes.md), seule la phrase où vous êtes reste
+  pleinement visible. Désactivez ce réglage pour tout garder éclairé.
 
-- **Afficher les documents récents** — affiche ou masque la section Récents en
-  haut de la barre latérale des fichiers.
+## Éditeur {#editor}
 
-## Éditeur
+La surface d’écriture elle-même.
 
-Tout ce qui concerne la surface d’écriture elle-même.
+### Écriture {#writing}
 
-### Écriture
+- **Police du corps** : la police de votre texte, regroupée en Serif, Sans et
+  Mono. Les polices fournies avec φ sont intégrées aux exports EPUB ; les
+  polices de votre système sont marquées *système*.
+- **Taille de police** : de 14 à 26 px. **Réinitialiser** revient à la valeur
+  par défaut.
+- **Hauteur de ligne** : de 1,3 à 2,2. **Réinitialiser** revient à la valeur
+  par défaut.
+- **Écriture focalisée** : atténue tout sauf la **Phrase** ou le **Paragraphe**
+  en cours, ou **Désactivé**.
+- **Afficher le Markdown** : dessine en léger les marqueurs Markdown (`**`,
+  `#`, `[ ]( )`) autour de la mise en forme de la ligne que vous écrivez. Vos
+  documents ne changent pas.
+- **Défilement machine à écrire** : garde le curseur au milieu de la fenêtre.
+- **Format de date** : comment les dates s’affichent dans toute l’app : *June
+  11, 2026*, *Jun 11, 2026*, *6/11/2026*, *2026-06-11*, *Tue, Jun 11, 2026*, ou
+  **Custom…**. Le jour enregistré ne change jamais ; seulement son affichage.
+  **Custom…** ajoute un champ **Modèle personnalisé** qui accepte les jetons de
+  date-fns (`yyyy`, `MMM`, `d`, `EEEE`…) et affiche la date du jour en aperçu.
 
-- **Police du corps** — la typographie de votre texte, regroupée en Serif, Sans
-  et Mono. Les polices incluses sont intégrées aux exports EPUB ; les polices
-  système sont signalées.
-- **Taille de police** — le texte du corps de l’éditeur, de 14 à 26 px.
-  **Réinitialiser** la ramène à la valeur par défaut.
-- **Hauteur de ligne** — l’espace entre les lignes, de 1,3 à 2,2.
-  **Réinitialiser** la ramène à la valeur par défaut.
-- **Écriture focalisée** — atténue tout sauf la ligne où vous êtes :
-  **Désactivé**, **Phrase** ou **Paragraphe**.
-- **Défilement machine à écrire** — garde le curseur centré verticalement à
-  mesure que vous tapez.
-- **Format de date** — comment les dates s’affichent dans l’app. Le jour stocké
-  ne change jamais ; cela n’affecte que son affichage. Choisir **Personnalisé**
-  révèle un champ **Modèle personnalisé** qui utilise les jetons date-fns
-  (`yyyy`, `MMM`, `d`, `EEEE`…), avec la date du jour affichée en aperçu en
-  direct.
+### Série d’écriture {#writing-streak}
 
-### Série d’écriture
+- **Minimum de mots / jour** : un jour compte pour votre série dès que vous avez
+  écrit ce nombre de mots (50 ou plus).
 
-- **Minimum de mots / jour** — une journée compte pour votre série d’écriture dès
-  que vous écrivez ce nombre de mots. Le minimum est de 50.
-
-### Code
+### Code {#code}
 
 Pour les blocs de code.
 
-- **Indenter avec** — **Espaces** ou **Tabulations**.
-- **Largeur d’indentation** — espaces par indentation (et largeur d’affichage
-  d’une tabulation), de 1 à 8. 2 et 4 sont courants.
+- **Indenter avec** : **Espaces** ou **Tabulations**.
+- **Largeur d’indentation** : espaces par indentation, et la largeur
+  d’affichage d’une tabulation, de 1 à 8.
 
-### Versions et import
+### Versions et import {#versions--import}
 
-- **Détail des différences** — avec quelle précision les changements sont mis en
-  évidence lorsque vous prévisualisez une version : par **Mot** ou par
+- **Détail des différences** : la finesse avec laquelle les changements sont
+  marqués quand vous prévisualisez une ancienne version : par **Mot** ou par
   **Caractère**.
-- **Images importées** — lorsque vous importez une image, soit **Copier dans le
-  coffre** (dans le dossier `assets/` du coffre), soit la conserver **Intégrée**
-  en data URI (autonome, mais documents plus volumineux).
+- **Images importées** : **Copier dans le coffre** place l’image que vous
+  importez dans le dossier `assets/` du coffre ; **Intégré** la garde à
+  l’intérieur du document (autonome, mais fichiers plus lourds).
 
-### Dictionnaire et thésaurus
+## Réglages d’écriture {#setup}
 
-Installez et gérez des packs de dictionnaire hors ligne. Cette section a sa
-propre page — voir [Dictionnaire et thésaurus](dictionary.md).
+Ce que φ vous montre dans ce coffre : les signaux qu’il vous renvoie sur votre
+écriture, et les lieux que propose chaque mode. Désactiver quelque chose le
+masque, jamais votre travail. Cette catégorie a sa propre page :
+[Réglages d’écriture](./setup.md).
 
-## Profils
+- **Signaux** : **Démarrer les sessions automatiquement** (une [session
+  d’écriture](./focus-and-writing-modes.md#writing-sessions) commence à votre
+  première frappe), **Statistiques de lisibilité** (facilité de lecture et
+  niveau scolaire dans les statistiques d’un document), **Série** (**Flamme et
+  compte**, **Jours simples** ou **Désactivée**), **La semaine commence le** (la
+  première colonne du calendrier et de la carte de chaleur, et la semaine dans
+  laquelle votre rythme est compté), et **Rythme hebdomadaire** (**Aucun**, ou
+  un nombre de jours par semaine).
+- **Modes** : ouvrez **Écrire**, **Notes** ou **Journal** pour choisir les lieux
+  qu’il propose, changer les signaux pour ce mode seulement, et décider si de
+  nouvelles **Listes de tâches** peuvent y être commencées. Un mode indique
+  **Suit le coffre** ou **Diffère**, avec **Suivre le coffre à nouveau** pour
+  annuler.
+- **Réglages enregistrés** : **Enregistrer sous…** garde une copie de ces
+  réglages sous un nom, pour les appliquer à un autre coffre avec **Utiliser
+  dans ce coffre** ou **Utiliser dans un autre coffre…**.
 
-Choisissez les fonctions que φ affiche, par coffre, avec un **profil d’écriture** —
-**Simple** (juste la page) ou **Complet** (tous les outils), plus les profils
-personnalisés que vous enregistrez. C’est aussi ici que vous choisissez votre
-**Affichage de la série** (Motivant / Discret / Désactivé) et un objectif de
-**Rythme hebdomadaire**. Masquer une fonction ne supprime jamais rien. Cette
-section a sa propre page — voir [Profils d’écriture](profiles.md).
+## Langue {#language}
 
-## Versions
+- **Langue** : la **Langue de l'interface** dans laquelle φ s’exprime, ainsi que
+  **Installer une langue…**, **Exporter le modèle anglais…** et **Ouvrir le
+  dossier**. Voir [Thèmes et langues](./themes-and-languages.md#languages).
+- **Orthographe** : **Vérifier l’orthographe** activé ou non, le **Moteur**
+  (**Natif** ou **Amélioré**) et les **Langues** à vérifier.
+- **Ce coffre** : un moteur d’orthographe propre à ce coffre (**Par défaut pour
+  ce coffre**), qui peut différer du moteur global.
+- **Dictionnaire personnel** : les mots que vous avez ajoutés, chacun avec une
+  icône de corbeille pour le retirer.
+- **Dictionnaire et thésaurus** : **Installer un pack de dictionnaire…** et les
+  packs dont vous disposez. Voir [Dictionnaire et thésaurus](./dictionary.md).
 
-**Ces réglages s’appliquent au coffre actif.** Chaque coffre est son propre dépôt
-avec son backend, son distant et son identité — le nom du coffre que vous
-configurez est donc affiché en haut.
+L’orthographe est traitée en détail dans [Orthographe](./spelling.md).
 
-### Backend
+## Versions {#versioning}
 
-Choisissez comment l’historique est conservé :
+**Ces réglages s’appliquent au coffre que vous avez ouvert.** Chaque coffre
+conserve son propre historique, avec son propre moteur, son distant et son
+identité, c’est pourquoi le nom du coffre est affiché en haut.
 
-- **Natif** — instantanés locaux, aucun git requis. C’est l’option par défaut.
-- **Git** — historique git complet plus sauvegarde distante optionnelle.
-  Disponible uniquement lorsque git est installé sur votre ordinateur.
+### Backend {#backend}
 
-Basculer vers git est une étape pour utilisateurs avancés : φ exécute `git init`
-dans le coffre, valide automatiquement des commits selon une planification et
-migre votre historique natif existant vers git. Une boîte de dialogue de
-confirmation détaille d’abord les mises en garde. Une fois qu’un coffre est un
-dépôt git, φ le garde sous git ; pour revenir au natif, vous supprimez vous-même
-le dossier `.git`.
+- **Backend** : **Natif** (instantanés locaux, rien à installer ; par défaut) ou
+  **Git** (historique complet et sauvegarde distante facultative). Git est
+  proposé dès qu’il est installé sur votre ordinateur ; jusque-là, l’option
+  indique **Git (git requis)**.
 
-### Historique
+Passer à git demande d’abord confirmation et explique ce qui se passe : φ
+exécute `git init` dans le coffre, fait des commits à intervalles réguliers, et
+reprend votre historique natif. Une fois qu’un coffre est un dépôt git, φ le
+garde sur git ; pour revenir en arrière, il vous faudrait supprimer vous-même le
+dossier `.git`. Des notes sous le réglage expliquent où se trouve le dépôt si le
+coffre est dans un dossier synchronisé dans le cloud, et que φ sur iPhone et
+iPad conserve plutôt ses versions dans le dossier `.poiesis-history` du coffre.
 
-- **Point de contrôle automatique toutes les** — à quelle fréquence les
-  modifications sont validées en version automatique. Définissez un nombre de
-  minutes, choisissez un préréglage (1 / 5 / 10 / 30) ou désactivez-le
-  (**Désactivé**). Les instantanés manuels et les enregistrements à la fermeture
-  ne sont pas affectés.
-- **Limite d’historique local** (natif uniquement) — le nombre maximal de
-  versions conservées par document. Les anciens instantanés sont élagués pour
-  limiter l’usage du disque. Installez git pour un historique illimité.
+### Historique {#history}
 
-### Sauvegarde git (backend git uniquement)
+- **Point de contrôle automatique toutes les** : la fréquence à laquelle vos
+  modifications sont enregistrées comme version automatique. Tapez un nombre de
+  minutes, choisissez **1**, **5**, **10** ou **30**, ou choisissez
+  **Désactivé**. Les instantanés nommés et le point de contrôle à la fermeture ne
+  sont pas concernés.
+- **Limite d’historique local** (Natif uniquement) : le nombre maximal de
+  versions conservées par document ; les plus anciennes sont élaguées.
 
-Lorsqu’un coffre utilise git, vous pouvez aussi configurer comment φ valide les
-commits et où il sauvegarde :
+### Sauvegarde git (git uniquement) {#git-backup-git-only}
 
-- **Nom du commit** / **E-mail du commit** — l’identité sous laquelle φ valide.
-  Laissez vide pour utiliser l’utilisateur git de votre machine. Une adresse
-  dédiée garde ce travail hors de votre graphe GitHub principal.
-- **Chemin de la clé SSH** — la clé privée que φ utilise pour pousser (par
-  exemple `~/.ssh/id_ed25519`). Le fichier de clé doit être en `chmod 600`.
-- **URL du distant de sauvegarde** — le distant GitHub/GitLab/… vers lequel
-  pousser. Vide utilise l’origin existant du dépôt.
-- **Push automatique des sauvegardes** — pousse les nouveaux commits vers le
-  distant à intervalle régulier. Lorsqu’il est actif, définissez **Pousser toutes
-  les** (minutes).
-- **Signer les commits** — signe cryptographiquement les commits pour qu’ils
-  apparaissent comme *Vérifié*. Choisissez une **Méthode de signature** (SSH ou
-  GPG) et une **Clé de signature**.
-- **Sauvegarder maintenant** — pousse immédiatement avec **Pousser maintenant**.
-  L’indication vous dit si vous êtes à jour, si vous avez des commits non poussés
-  ou si vous n’avez pas encore de distant.
+- **Nom du commit** et **E-mail du commit** : l’identité sous laquelle φ fait
+  ses commits. Laissez-les vides pour utiliser l’utilisateur git de votre
+  ordinateur.
+- **Chemin de la clé SSH** : la clé privée avec laquelle φ pousse (par exemple
+  `~/.ssh/id_ed25519`), avec **Parcourir…**. Le fichier de clé doit être en
+  `chmod 600`.
+- **URL du distant de sauvegarde** : où pousser. Vide, elle utilise l’origin
+  existant du dépôt.
+- **Push automatique des sauvegardes** : pousse les nouveaux commits à
+  intervalles réguliers, selon **Pousser toutes les** (minutes).
+- **Signer les commits** : les signe pour qu’ils apparaissent comme vérifiés,
+  avec une **Méthode de signature** (SSH ou GPG) et une **Clé de signature**.
+- **Sauvegarder maintenant** : indique si vous êtes à jour, si vous avez des
+  commits non poussés, ou si vous n’avez pas encore de distant. **Pousser
+  maintenant** pousse immédiatement.
 
-Pour en savoir plus sur les versions et la sauvegarde, voir [Versions et
-sauvegarde](versions-and-backup.md).
+Plus d’informations dans [Versions et sauvegarde](./versions-and-backup.md).
 
-## Coffre
+## Coffre {#vault}
 
 À propos du coffre dans lequel vous travaillez.
 
-- **Coffre actif** — le nom du coffre actuel et le chemin de son dossier.
-- **Gérer** — **Ouvrir un coffre…** et **Créer un coffre…** pour changer de
-  coffre ou en ajouter, et **Retirer le coffre…** pour retirer le coffre actif de
-  φ. Retirer un coffre ne fait que l’oublier ; vos fichiers sur le disque restent
-  intacts.
+- **Coffre actif** : son nom et son dossier.
+- **Espaces** : lesquels d’**Écrire**, **Notes** et **Journal** ce coffre
+  affiche (au moins un), et où il s’ouvre (**S’ouvre sur**).
+- **Gérer** : **Ouvrir un coffre…** et **Créer un coffre…** pour ajouter un
+  coffre, et **Retirer le coffre…** pour celui que vous avez ouvert. Le retrait
+  vous demande comment : **Dissocier (conserver le dossier)** le retire de φ et
+  laisse le dossier tel quel ; **Déplacer vers la corbeille** déplace tout le
+  dossier dans la Corbeille de votre ordinateur, d’où vous pouvez encore le
+  récupérer.
 
-Voir [Coffres](vaults.md) pour le tableau complet.
+Voir [Coffres](./vaults.md) pour une vue d’ensemble.
 
-## Modèles
+## Modèles {#templates}
 
-Des fragments réutilisables avec variables. Cette section liste vos **modèles de
-coffre** (propres au coffre actif) et vos **modèles globaux** (disponibles
-partout). Modifiez-en un avec l’icône de crayon ou retirez-le avec l’icône de
-corbeille. **Installer un modèle…** ajoute un fichier de modèle, et **Ouvrir le
-dossier** révèle où sont stockés les modèles globaux.
+- Les **variables** de modèle que vous pouvez utiliser, sous forme de
+  pastilles : `<% today %>`, `<% tomorrow %>`, `<% yesterday %>`, `<% time %>`
+  et `<% cursor %>`.
+- **Ce coffre** et **Modèles globaux** : chaque modèle avec un crayon pour le
+  modifier et une icône de corbeille pour le retirer.
+- **Installer un modèle…** ajoute un fichier de modèle ; **Ouvrir le dossier des
+  modèles** montre où sont conservés les modèles globaux.
 
-Voir [Modèles](templates.md) pour comprendre le fonctionnement des variables.
+Voir [Modèles](./templates.md).
 
-## Données
+## Raccourcis {#shortcuts}
 
-La santé de vos fichiers `.poiesis`, les sauvegardes de migration et une
-réinitialisation des réglages.
+Un tableau consultable des principaux raccourcis clavier de φ, regroupés de la
+même façon que la carte qu’affiche `⌘/`. Tapez dans **Rechercher des
+commandes…** pour le filtrer. Pour la liste complète, voir
+[Raccourcis clavier](./keyboard-shortcuts.md).
 
-### Santé du coffre
+## Données {#data}
 
-φ vérifie si vos documents sont au schéma actuel. Quand tout est à jour, il le
-signale (avec les versions de schéma et de document). Si certains documents
-utilisent un schéma plus ancien, **Migrer toutes les notes** les met à jour — et
-une sauvegarde est enregistrée automatiquement avant la migration de tout
-document.
+La santé de vos fichiers `.poiesis`, les sauvegardes créées lors de leur mise à
+jour, et une réinitialisation.
 
-### Sauvegardes
+### Santé du coffre {#vault-health}
 
-Apparaît une fois qu’une migration a été exécutée. Indique combien de fichiers de
-sauvegarde existent et leur taille totale. **Ouvrir le dossier des sauvegardes**
-les révèle ; **Effacer les anciennes sauvegardes** retire les plus anciennes.
+φ vérifie si vos documents utilisent le format de fichier actuel. Si c’est le
+cas, il l’indique, avec les numéros de version. Si certains sont plus anciens,
+**Migrer toutes les notes** les met à jour, et une sauvegarde de chacun est
+d’abord enregistrée.
 
-### Réinitialiser
+### Sauvegardes {#backups}
 
-**Réinitialiser tous les réglages…** rétablit tous les réglages de l’app —
-thème, éditeur, mise en page, dates, etc. — à leurs valeurs d’usine. Vos notes,
-coffres et statistiques d’écriture ne sont pas affectés.
+Apparaît une fois que des documents ont été migrés. Indique combien de fichiers
+de sauvegarde existent et l’espace qu’ils occupent. **Ouvrir le dossier des
+sauvegardes** les montre ; **Effacer les anciennes sauvegardes** supprime celles
+de plus de 30 jours.
+
+### Réinitialiser {#reset}
+
+**Réinitialiser tous les réglages…** remet chaque réglage de l’app (thème,
+éditeur, disposition, graphe, dates, etc.) à sa valeur par défaut, après
+confirmation. Vos notes, coffres et historiques d’écriture sont conservés.

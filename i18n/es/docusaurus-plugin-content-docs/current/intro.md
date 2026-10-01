@@ -1,6 +1,5 @@
 ---
 title: Introducción
-sidebar_position: 1
 slug: /
 ---
 
@@ -11,8 +10,8 @@ ensayos y las notas que los alimentan. Está hecha ante todo para el **oficio de
 escribir**: una página serena y a sangre completa, una serif en la que puedes
 habitar y una estructura que se mantiene al margen hasta que la necesitas.
 
-<img src="/img/app/write-home-light.png" alt="Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/write-home-dark.png" alt="Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/write-home-light.png" alt="Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/write-home-dark.png" alt="Escribir: el trabajo en curso, los proyectos y el mes detrás de ellos" width="1600" height="1000" loading="lazy" decoding="async" />
 
 :::warning φ está en alfa
 
@@ -33,30 +32,32 @@ puedes volver.
 
 :::
 
-## Qué hace diferente a φ
+## Qué hace diferente a φ {#what-makes-φ-different}
 
-**Tu escritura es tuya.** Todo vive en archivos sencillos en tu propio Mac, en
-una carpeta que tú eliges. No hay cuenta, ni nube, ni se necesita red para
-escribir, editar, buscar o exportar. Cierra la app, abre la carpeta y tu trabajo
-está justo ahí.
+**Tu escritura es tuya.** Todo vive en archivos sencillos en tu propio equipo,
+en una carpeta que tú eliges. φ funciona en macOS, Windows y Linux, y no hay
+cuenta, ni nube, ni se necesita red para escribir, editar, buscar o exportar.
+Cierra la app, abre la carpeta y tu trabajo está justo ahí.
 
 **Local primero, duradero por diseño.** Cada documento se guarda automáticamente
 y se verifica tras cada escritura. φ mantiene un historial de versiones para que
-puedas retroceder a cualquier borrador anterior, y puede respaldar ese historial
-en tu propio remoto de git si lo deseas para tenerlo fuera del equipo, pero nada
-sale de tu ordenador a menos que tú lo configures.
+puedas volver a cualquier borrador anterior, y puede respaldar ese historial en
+tu propio remoto de git si quieres tenerlo fuera del equipo, pero nada sale de tu
+ordenador a menos que tú lo configures.
 
-**Una herramienta, dos modos.** φ es ante todo un editor de manuscritos y, en
-segundo lugar, una app de notas, y ambos comparten la misma base. Escribe un
-libro en *Colecciones*, lleva un diario diario, enlaza ideas con
-`[[wiki-links]]` y míralas conectarse en el grafo, todo en un mismo lugar, una
+**Tres modos, una bóveda.** φ es ante todo un editor de manuscritos, con un
+cuaderno y un diario a su lado, y los tres comparten la misma base. Escribe un
+libro como **proyecto** en *Escribir*, guarda ideas y fuentes en *Notas*, lleva
+una entrada diaria y páginas matutinas en *Diario*, enlaza lo que sea con
+`[[wiki-links]]` y míralo conectarse en el grafo, todo en un mismo lugar, una
 sola bóveda.
 
-**Silenciosa por defecto.** El modo concentración oculta cada elemento de la
-interfaz. El desplazamiento de máquina de escribir mantiene tu línea centrada.
-La interfaz se aparta para que la página sea lo único que importa.
+**Silenciosa por defecto.** **Santuario** (`⌘.`) lo oculta todo salvo la página
+y atenúa todo menos la frase en la que estás, de modo que las palabras que tienes
+delante son lo único iluminado. El desplazamiento de máquina de escribir mantiene
+tu línea centrada. La interfaz se aparta para que la página sea lo que importa.
 
-## Qué no es φ
+## Qué no es φ {#what-φ-is-not}
 
 - **No es un servicio en la nube.** No hay servidores ni cuentas de
   sincronización. El respaldo y la portabilidad se basan en archivos y en git,
@@ -66,17 +67,27 @@ La interfaz se aparta para que la página sea lo único que importa.
 - **No es nativa de Markdown.** Los documentos se almacenan como contenido
   estructurado (JSON de ProseMirror) para que los elementos enriquecidos
   —anotaciones, notas al pie, citas, bloques personalizados— sobrevivan las idas
-  y vueltas. Aun así puedes *importar* y *exportar* Markdown con libertad.
+  y vueltas. Aun así puedes *importar*, *pegar* y *exportar* Markdown con
+  libertad.
 
-## Cómo se almacena tu escritura
+## Cómo se almacena tu escritura {#how-writing-is-stored}
 
 Cada documento es un archivo `.poiesis`: una pequeña envoltura JSON alrededor de
 tu texto y sus metadatos. Una **bóveda** es simplemente una carpeta de estos
-archivos (más una carpeta `assets/` para las imágenes y un historial de
-versiones). Como todo son archivos sencillos en una carpeta normal, tu escritura
-es fácil de respaldar, mover y conservar durante décadas.
+archivos, más algunas cosas que φ guarda a su lado:
 
-## A dónde ir después
+- una carpeta `assets/` para las imágenes que añades,
+- una carpeta `.trash/` para lo que eliminas,
+- un pequeño archivo marcador, `.poiesis-vault.json`, que da nombre a la bóveda,
+- y su historial de versiones: en `.poiesis-history/`, o en un repositorio git si
+  te pasas a git.
+
+Como todo son archivos sencillos en una carpeta normal, tu escritura es fácil de
+respaldar, mover y conservar durante décadas. φ para iPhone y iPad también puede
+abrir la misma bóveda. Consulta [Bóvedas](vaults.md) para saber más.
+
+## A dónde ir después {#where-to-go-next}
 
 ¿Eres nuevo aquí? Empieza con [Primeros pasos](getting-started.md): instalarás
 φ, crearás tu primera bóveda y escribirás tu primera página en pocos minutos.
+Después, [Cómo moverte por φ](finding-your-way.md) te enseña la ventana.

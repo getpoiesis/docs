@@ -1,108 +1,132 @@
 ---
 title: Notas al pie y citas
-sidebar_position: 16
 ---
 
 # Notas al pie y citas
 
-Cuando tu escritura necesita un aparato —un inciso al pie de la página, una
-fuente acreditada en el texto, una lista de referencias al final— φ lo trae
-incorporado. Las notas al pie y las citas forman parte del documento, así que
-sobreviven a cada exportación y aterrizan en el lugar correcto del libro
+Cuando tu escritura necesita un aparato crítico (un comentario al pie de la
+página, una fuente reconocida en el texto, una lista de referencias al final),
+φ lo trae incorporado. Las notas al pie y las citas forman parte del documento,
+así que sobreviven a cada exportación y aparecen en el lugar correcto del libro
 terminado.
 
-<img src="/img/app/footnotes-light.png" alt="Marcas de nota al pie en la prosa, listadas en el panel contiguo" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/footnotes-dark.png" alt="Marcas de nota al pie en la prosa, listadas en el panel contiguo" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-light.png" alt="Marcas de notas al pie en la prosa, listadas en el panel de al lado" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-dark.png" alt="Marcas de notas al pie en la prosa, listadas en el panel de al lado" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Notas al pie
+:::note
+Las notas al pie, las citas y la bibliografía son herramientas de manuscrito,
+así que se ofrecen en los documentos que pertenecen a un
+[proyecto](collections.md). No aparecen en el menú de barra de una nota, de una
+pieza fuera de un proyecto ni de una entrada del diario.
+:::
 
-Una nota al pie es un pequeño marcador numerado en tu texto con una nota
-adjunta. El marcador muestra solo el número; el texto de la nota vive a un lado
-para que nunca rompa la línea que estás leyendo.
+## Notas al pie {#footnotes}
 
-### Insertar una nota al pie
+Una nota al pie es una pequeña marca numerada en tu texto con una nota adjunta.
+La marca solo muestra el número; el texto de la nota se guarda aparte para que
+nunca interrumpa la línea que estás leyendo.
 
-Escribe `/footnote` y elige **Nota al pie** en el menú de barra. φ coloca un
-marcador numerado en el cursor. La numeración es automática y se mantiene en
-orden — inserta una nota al pie antes en el documento y todo lo que va después se
-renumera solo.
+### Insertar una nota al pie {#inserting-a-footnote}
 
-### El panel de Notas al pie
+Escribe `/footnote` y pulsa `Enter`. φ te pide el texto de la **Nota al pie**;
+escríbelo y confirma, y aparece una marca numerada en el cursor. La numeración
+es automática y se mantiene en orden: inserta una nota al pie antes en el
+documento y todo lo que viene después se renumera solo.
 
-El marcador lleva el texto de la nota, pero no lo editas en línea. En su lugar,
-abre el panel **Notas al pie** en la barra lateral derecha, donde cada nota al pie
-del documento aparece en orden:
+Pasa el puntero sobre una marca para leer su nota. Haz clic en la marca para
+editar el texto.
 
-- **Edita** una nota escribiendo en su casilla de texto.
-- **Salta a un marcador** haciendo clic en su número — útil en un documento
-  largo.
-- **Quita** una nota al pie con el icono de la papelera. Las notas restantes se
-  renumeran automáticamente.
+### La lista de notas al pie {#the-footnote-list}
 
-En modo lectura el panel es de solo lectura — puedes navegar pero no editar.
+Todas las notas al pie del documento aparecen en el Panel de información
+(`⇧⌘I`), en la pestaña **Esquema**, bajo **Notas al pie · N**:
 
-### Cómo se exportan las notas al pie
+- **Edita** una nota escribiendo en su cuadro (**Texto de la nota al pie…**).
+- **Ir al marcador**: haz clic en su número para ir a ella en el texto, algo
+  útil en un documento largo.
+- **Eliminar nota al pie**: el icono de la papelera. Las notas al pie restantes
+  se renumeran automáticamente.
+
+Si aún no hay notas al pie, la lista dice **Aún no hay notas al pie. Inserta
+una con /footnote.** En el modo de lectura es de solo lectura.
+
+### Cómo se exportan las notas al pie {#how-footnotes-export}
 
 Dónde acaba una nota al pie depende del formato:
 
-- **PDF** — verdaderas notas al pie por página. Cada nota queda fijada al pie de
-  la página en la que está su marcador, con una fina línea por encima, como lo
-  hace un libro impreso.
-- **DOCX, EPUB, HTML, Markdown** — las notas se recopilan como notas finales (o la
-  nota al pie nativa del formato, en el estilo `^[…]` de Markdown).
+- **PDF**: al pie de la página en la que está su marca, como en un libro
+  impreso.
+- **Word** y **RTF**: notas al pie reales, que el procesador de textos coloca y
+  numera por sí mismo.
+- **EPUB**: notas al pie que los lectores electrónicos muestran en una ventana
+  emergente al tocar la marca.
+- **HTML**: reunidas como notas finales al final, cada una enlazada de vuelta a
+  su marca.
+- **Markdown**: escritas en línea como `^[la nota]`.
 
-## Citas
+Cuando exportas un proyecto entero, el estilo de exportación decide si las notas
+al pie van al pie de la página o se reúnen al final, y si la numeración es
+continua en todo el libro o se reinicia en cada capítulo. Consulta
+[Exportar](exporting.md).
 
-Una cita acredita una fuente al estilo autor–año —`(Smith, 2020)`— extraída de
-una pequeña **biblioteca de fuentes** que se guarda con el documento. Construyes
-la biblioteca a medida que escribes y luego reutilizas las fuentes a lo largo del
-documento.
+## Citas {#citations}
 
-### Añadir una cita
+Una cita reconoce una fuente en estilo autor–año, como `(Smith, 2020)`, tomada
+de una pequeña **biblioteca de fuentes** que se guarda con el documento.
+Construyes la biblioteca mientras escribes y luego reutilizas sus fuentes.
 
-Escribe `/citation` y elige **Cita bibliográfica**. Se abre el diálogo de citas:
+### Añadir una cita {#adding-a-citation}
+
+Escribe `/citation` y pulsa `Enter`. Se abre el diálogo **Citar una fuente**:
 
 - **Elige una fuente existente** de la lista para citarla en el cursor. Las
-  fuentes se ordenan por el apellido del autor; la casilla de búsqueda filtra por
+  fuentes se ordenan por el apellido del autor, y **Buscar fuentes…** filtra por
   autor, título o año.
 - **Añade una fuente nueva** con **Nueva fuente**. Rellena **Autor** (p. ej.
-  `Smith, Jane`), **Título**, **Año** y una **URL** opcional, luego **Añadir y
-  citar**. La fuente se guarda en la biblioteca y la cita se inserta en un solo
-  paso.
+  `Smith, Jane`), **Título**, **Año** y **URL (opcional)**, y luego haz clic en
+  **Añadir y citar**. La fuente se guarda en la biblioteca y la cita se inserta
+  en un solo paso.
 
 Solo necesitas un autor *o* un título para guardar una fuente.
 
-### Editar y gestionar fuentes
+### Editar y gestionar fuentes {#editing-and-managing-sources}
 
-Haz clic en cualquier cita del texto para reabrir el diálogo en modo edición.
-Desde ahí puedes:
+Haz clic en cualquier cita del texto para volver a abrir el diálogo como
+**Editar fuente**. Desde ahí puedes:
 
-- **Editar los detalles de la fuente** — autor, título, año, URL. El cambio
-  actualiza todas las citas que apuntan a esa fuente.
-- **Cambiar la cita a otra fuente** eligiendo otra de la lista.
-- **Eliminar la fuente** por completo con **Eliminar fuente**.
+- **Editar los datos de la fuente** y **Guardar**. Todas las citas que apuntan a
+  la fuente se actualizan.
+- **Hacer que la cita apunte a otra fuente** eligiendo otra de la lista.
+- **Eliminar fuente** para borrarla de la biblioteca.
+- **Cancelar** para dejarlo todo como estaba.
 
-La biblioteca de fuentes pertenece al documento, así que una fuente definida en un
-documento no se comparte con otro.
+Una cita cuya fuente se ha eliminado se imprime como `(?)`, así que es fácil de
+detectar.
 
-## La bibliografía
+### Una biblioteca por documento, una bibliografía por libro {#one-library-per-document-one-bibliography-per-book}
 
-Una bibliografía es una lista de referencias generada a partir de tus citas —
-nunca la escribes a mano. Escribe `/bibliography` y elige **Bibliografía** para
-colocar el bloque.
+El diálogo muestra las fuentes del documento en el que estás. Sin embargo, cuando
+exportas un proyecto entero, las fuentes de todos sus documentos se reúnen en
+una sola biblioteca, de modo que una cita se resuelve sin importar en qué parte
+del libro se añadió su fuente, y la bibliografía enumera todo lo que el libro
+cita.
 
-La lista se construye automáticamente a partir de las fuentes que realmente has
-citado: cada entrada se formatea como `Author. (Year). Title. URL`, y las entradas
-se ordenan alfabéticamente por el apellido del autor. Las fuentes de la biblioteca
-que no has citado no aparecen. Cita una fuente nueva y se añade la próxima vez que
-la lista se genere.
+## La bibliografía {#the-bibliography}
 
-Cuando exportas un libro o manuscrito, **la bibliografía se abre en su propia
-página al final** — sin páginas en blanco sueltas antes de ella en el PDF.
+Una bibliografía es una lista de referencias construida a partir de tus citas;
+nunca la escribes a mano. Escribe `/bibliography` y pulsa `Enter` para colocar
+el bloque.
 
-## Véase también
+La lista incluye solo las fuentes que has citado de verdad, cada una con el
+formato `Autor. (Año). Título. URL` y ordenadas alfabéticamente por el apellido
+del autor. Las fuentes de la biblioteca que no has citado no aparecen. Cita una
+fuente nueva y se une a la lista.
 
-- [Exportar e imprimir](exporting.md) — cómo se generan las notas al pie, las
-  citas y la bibliografía en cada formato.
-- [Colecciones (libros y manuscritos)](collections.md) — exportar un libro
-  entero.
+En una exportación a PDF o Word, **la bibliografía empieza en una página
+propia**.
+
+## Consulta también {#see-also}
+
+- [Exportar](exporting.md): cómo se representan las notas al pie, las citas y la
+  bibliografía en cada formato.
+- [Proyectos](collections.md): exportar un libro entero.

@@ -1,138 +1,120 @@
 ---
 title: El calendario
-sidebar_position: 11
 ---
 
 # El calendario
 
-El calendario es tu escritura a lo largo del tiempo. Empareja cada día con lo que
-escribiste, muestra tus rachas en la cuadrícula y te deja abrir o empezar el
-trabajo de un día desde un único lugar. También saca a la luz **recuerdos** — lo
-que creaste en esta fecha en años anteriores.
+El calendario es tu escritura a lo largo del tiempo. Empareja cada día con lo
+que escribiste, marca los días en que te presentaste y te deja abrir o empezar
+el trabajo de un día desde un solo lugar. También te devuelve **recuerdos**: lo
+que hiciste en esta fecha en años anteriores.
 
-<img src="/img/app/calendar-light.png" alt="El calendario de φ: un año de días de escritura y el mes en detalle" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/calendar-dark.png" alt="El calendario de φ: un año de días de escritura y el mes en detalle" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-light.png" alt="El calendario de φ: un año de días de escritura y el mes en detalle" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-dark.png" alt="El calendario de φ: un año de días de escritura y el mes en detalle" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Abrir el calendario
+## Abrir el calendario {#opening-the-calendar}
 
-En el riel izquierdo, haz clic en el icono del **Calendario**. Se abre como una
-vista completa. Haz clic de nuevo (o en el galón de atrás en la cabecera) para
-volver al editor.
+- **Lugares** → **Calendario** en la barra lateral, en cualquier modo.
+- `⌘K` → **Calendario**.
+- En el Diario, el **⋮** de la lista → **Calendario**.
+- La tarjeta del mes en el Inicio de un modo.
 
-En la parte superior encontrarás dos modos:
+Sal con `⌘[` (atrás) o `⌘W`, que te devuelve al Inicio del modo.
 
-- **Calendario** — la cuadrícula del mes (más abajo).
-- **Páginas** — una lista deliberada y navegable de cada página matutina, la más
-  reciente primero, con un cuadro de búsqueda. Este es el lugar para volver a
-  visitar las páginas si así lo decides; se abren en modo lectura.
+## La lista a su lado {#the-list-beside-it}
 
-## El mapa de calor de escritura
+Mientras el calendario está abierto, la columna de la lista contiene lo que lo
+enmarca:
 
-Encima de la cuadrícula del mes, un **mapa de calor** muestra el último año de
-escritura como una cuadrícula de pequeños cuadrados — uno por día, como un gráfico
-de contribuciones. Cuanto más escribiste un día, más intenso su tono. Es un
-complemento de la cuadrícula del mes: la cuadrícula muestra un mes de cerca, y el
-mapa de calor muestra el ritmo largo de un vistazo.
+- **Mostrar**: **Todo**, **Escribir**, **Notas**, **Diario** o **Vence**.
+  Limita el calendario a los documentos de un modo, o a las tarjetas de tablero
+  que vencen.
+- **Este mes**: las palabras que escribiste, cuántos días de escritura y cuántos
+  días de esta semana escribiste.
+- Tu **racha** y cuántas **mañanas** de páginas matutinas llevas este mes, si hay
+  alguna.
+- **Mapa de calor**: la clave de sus tonos, de **Menos** a **Más**.
+- **Marcas**: qué significa cada marca de la cuadrícula (ver más abajo).
 
-- **Hoy** lleva un contorno cálido, el **día seleccionado** se agranda, y el **mes
-  que estás viendo** en la cuadrícula de abajo queda sutilmente contorneado — para
-  que ambas vistas vayan al mismo paso.
-- El mapa de calor muestra **un año completo a la vez**. A medida que llevas el
-  calendario a meses más antiguos, retrocede un año y mantiene los meses completos
-  a la vista; cuando navegas por un año anterior, se etiqueta su rango de fechas y
-  un enlace **Volver a hoy** te devuelve al presente. Nunca muestra días en el
-  futuro.
-- Haz clic en cualquier cuadrado para abrir ese día.
+## El mapa de calor de escritura {#the-writing-heatmap}
 
-Tres cifras se sitúan encima del mapa de calor y siguen el mes que estás viendo:
+Sobre la cuadrícula del mes, un **mapa de calor** muestra el último año como
+pequeños cuadrados, uno por día. Cuanto más escribiste, más intenso el tono. La
+cuadrícula muestra un mes de cerca; el mapa de calor muestra el ritmo largo de
+un vistazo.
 
-- **Palabras totales** — todas las palabras que has escrito en esta bóveda, desde
-  siempre. Solo crece.
-- **Este mes** — palabras escritas en el mes en pantalla.
-- **Días de escritura esta semana** — cuántos de los últimos siete días escribiste,
-  mostrado frente a tu objetivo de ritmo semanal si has fijado uno.
+- **Hoy** lleva un contorno cálido, el día seleccionado aparece ampliado y el mes
+  que estás viendo va suavemente contorneado, para que las dos vistas vayan a la
+  par.
+- Muestra **un año entero cada vez**. Lleva el calendario a meses anteriores y
+  retrocede un año; mientras exploras un año anterior, **Volver a hoy** te trae
+  de vuelta. Nunca muestra días futuros.
+- Haz clic en un cuadrado para abrir ese día.
 
-El mapa de calor y la cuadrícula empiezan la semana el día que elijas en
-**Ajustes** (`⌘,`) → **Apariencia** → **La semana empieza en** (lunes o domingo).
+Para tu recuento de palabras de toda la vida, haz clic en el recuento de
+palabras en la esquina de un documento: **Estadísticas del documento** lo tiene.
 
-## La cuadrícula del mes
+## La cuadrícula del mes {#the-month-grid}
 
-Muévete entre meses con los galones, y salta de vuelta con **Hoy**. Cada celda es
-un día, y sus marcas te dicen qué ocurrió.
+Muévete entre meses con las flechas; **Hoy** te devuelve al actual. Cada celda es
+un día, y sus marcas dicen qué pasó:
 
-### Qué significan las marcas
+- **Llama**: alcanzaste tu mínimo diario de palabras. Los días de tu **racha
+  actual** arden con más brillo y van unidos, para que veas el tramo ininterrumpido
+  que termina hoy (o ayer, dentro del día de gracia).
+- **Amanecer**: páginas matutinas.
+- **Cuaderno y pluma**: una entrada de diario.
+- **Libro**: se empezó un proyecto.
+- **Reloj**: se hizo algo en esta fecha en un año anterior.
+- Un pequeño recuento de cuántos elementos contiene el día.
 
-- **Llama de escritura** — aparece una llama en cualquier día en que alcanzaste tu
-  mínimo diario de palabras. Los días que forman parte de tu **racha actual** arden
-  con más brillo y las celdas quedan ligadas entre sí, para que veas el tramo
-  ininterrumpido que termina hoy (o ayer, dentro del día de gracia). Consulta
-  [Diario y páginas matutinas](journal-and-morning-pages.md) para las reglas de la
-  racha. La llama sigue tu elección de visualización de racha (ver [La racha, y
-  cómo se muestra](#la-racha-y-como-se-muestra) más abajo) — en **Discreta** es más
-  calmada, y en **Desactivada** se oculta por completo.
-- **Amanecer** — ese día tiene **páginas matutinas**.
-- **Cuaderno y pluma** — ese día tiene una **entrada de diario**.
-- **Libro** — ese día se inició una **colección**.
-- **Distintivo de recuento** — un número pequeño que muestra cuántos elementos
-  contiene el día (entradas de diario, páginas matutinas, colecciones y cualquier
-  documento creado, editado o que haga referencia a esa fecha).
-- **Reloj** — un marcador de recuerdo, que significa que algo se creó en esa fecha
-  en un año anterior (ver más abajo).
+Las llamas siguen tu ajuste de racha (ver más abajo).
 
-Las dos rachas también aparecen como distintivos en la cabecera cuando están en
-curso: una llama para tu **racha de escritura** general, y un amanecer para tu
-**racha de páginas matutinas**. Estos distintivos aparecen en la visualización
-**Motivadora**; en **Discreta** o **Desactivada** el calendario se apoya en el
-mapa de calor y las cifras de resumen.
+## La racha y cómo se muestra {#the-streak-and-how-it-shows}
 
-## La racha, y cómo se muestra {#la-racha-y-como-se-muestra}
+Elige en **Ajustes** (`⌘,`) → **Ajustes de escritura** → **Racha**:
 
-φ puede presentar tu racha de escritura de tres formas. Elige por perfil de
-escritura en **Ajustes** (`⌘,`) → **Perfiles** → **Mostrar la racha**:
+- **Llama y número**: llamas en la cuadrícula, con la racha actual resaltada.
+- **Días a secas**: las llamas se quedan, sin resaltar la racha.
+- **Apagada**: ninguna llama. El mapa de calor sigue ahí, como registro más que
+  como marcador.
 
-- **Motivadora** — la llama. Tu racha actual aparece como `🔥 N` en la barra de
-  estado y en la cuadrícula del calendario, con tu **ritmo semanal** al lado
-  («4 / 5 esta semana») cuando has fijado un objetivo.
-- **Discreta** — sin racha, sin presión. La barra de estado muestra tus **palabras
-  totales** (desde siempre) en su lugar — un número que solo sube.
-- **Desactivada** — no se muestra nada. El mapa de calor sigue ahí como registro,
-  planteado como ritmo y no como un marcador.
+El **Ritmo semanal**, en el mismo sitio, fija un objetivo más suave de *N días a
+la semana* sobre siete días móviles. Las reglas de la racha en sí están en
+[Diario y páginas matutinas](journal-and-morning-pages.md#writing-streaks).
 
-El **ritmo semanal** es un objetivo más amable que una cadena diaria: propón
-escribir *N días a la semana*, medido sobre una ventana móvil de siete días, para
-que un solo día perdido nunca lo reinicie. Fíjalo en el mismo panel de
-**Perfiles**. Las **palabras totales** cuentan tus manuscritos y notas — las
-páginas matutinas y las entradas de diario no suman, porque son práctica diaria y
-no producción.
+**La semana empieza en**, también en **Ajustes** → **Ajustes de escritura**,
+fija la primera columna de la cuadrícula y del mapa de calor, y la semana en la
+que se cuenta el ritmo: el día que prefieras.
 
-## Seleccionar un día
+## Seleccionar un día {#selecting-a-day}
 
-Haz clic en un día para seleccionarlo. El panel junto a la cuadrícula muestra todo
-lo atado a ese día:
+Haz clic en un día para seleccionarlo. El panel junto a la cuadrícula lista todo
+lo que está ligado a él:
 
-- **Colecciones** iniciadas ese día.
-- **Entradas de diario** y **documentos**, cada uno marcado según cómo se relacionan
-  con el día — *creado*, *editado* o *enlazado* (un distintivo de fecha apunta a él).
-- **Páginas matutinas**, marcadas como tales.
+- **Proyectos** empezados ese día.
+- **Tarjetas de tablero** que vencen ese día: **Vence ·** y el nombre del
+  tablero. Haz clic en una para abrir su tablero.
+- **Entradas de diario** y **documentos**, cada uno marcado según su relación con
+  el día: *creado*, *editado* o *enlazado* (una fecha en el texto apunta a él).
+- **Páginas matutinas**.
 
-Haz clic en cualquier elemento para abrirlo. Los documentos y las entradas de diario
-se abren para editar; las páginas matutinas se abren en **modo lectura**, de solo
-lectura.
+Haz clic en cualquier elemento para abrirlo. Los documentos y las entradas se
+abren para editarlos; las páginas matutinas se abren en modo de solo lectura.
 
-### Empezar el trabajo de un día
+### Escribir en un día {#writing-on-a-day}
 
-Si un día aún no tiene nada, el panel te invita a empezar. Usa el calendario para
-empezar una entrada de diario en un día elegido — el trabajo que crees aquí se
-fecha en el día que elegiste, no solo en hoy. Puedes rellenar **hoy o un día
-pasado**, pero no un día en el **futuro**: φ no creará una entrada fechada por
-delante de hoy. (Aún puedes *hacer referencia* a una fecha futura en tu escritura
-con un distintivo de fecha — eso es distinto de fechar una entrada ahí).
+**Escribir este día**, en lo alto del panel del día, abre la entrada de diario de
+ese día, y la crea si no existe. Puedes escribir hoy o en cualquier día
+anterior, pero no en un día por venir: una fecha futura se puede *mencionar* en
+lo que escribes, pero ahí no se crea ninguna entrada.
 
-## Recuerdos — un día como hoy
+Un día sin nada todavía lo dice: *Nada aún — empieza tus páginas para este día.*
 
-Cuando el día que has seleccionado contiene material de años anteriores, aparece un
-desplegable **Un día como hoy** encima de la lista del día, con un recuento *de años
-anteriores*. Haz clic para expandir la lista. Cada recuerdo muestra su título y
-cuánto tiempo hace — por ejemplo *hace 3 a* — y se abre con un clic, igual que
-cualquier otro elemento. Es una forma serena de reencontrarte con tu escritura
-pasada conforme el año vuelve a girar.
+## Recuerdos: un día como hoy {#memories--on-this-day}
+
+Cuando el día seleccionado contiene algo de años anteriores, **Un día como hoy**
+aparece sobre su lista con un recuento *de años anteriores*. Haz clic para
+abrirlo. Cada recuerdo muestra su título y cuánto hace —*hace 3 a*— y se abre con
+un clic. Es una forma tranquila de reencontrarte con tu escritura pasada a
+medida que el año da la vuelta.

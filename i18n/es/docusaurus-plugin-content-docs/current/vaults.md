@@ -84,6 +84,56 @@ Cambiar de bóveda recarga la barra lateral, la búsqueda y todo lo demás para 
 carpeta. Cada bóveda es independiente: sus propios documentos, su propio
 historial, sus propios [ajustes de escritura](setup.md).
 
+## Mover un documento a otra bóveda {#moving-a-document-to-another-vault}
+
+Para mover un documento a otra de tus bóvedas, elige **Mover a otra bóveda…** en
+su menú ⋮ (en su fila de la lista o encima de la página).
+
+- **Adónde va.** Elige la bóveda. Solo se ofrecen las que tienen el modo del
+  documento, así que un capítulo sigue en Escribir y una nota en Notas. Llega al
+  nivel superior, con sus etiquetas, notas, comentarios y adjuntos.
+- **Lo conectado.** φ muestra los documentos conectados: sus páginas de
+  investigación, aquello para lo que es una investigación, lo que enlaza y lo
+  que lo enlaza, todos marcados para moverse con él. Desmarca los que prefieras
+  dejar. Uno cuyo modo no tiene la otra bóveda no puede ir, y lo indica.
+- **Lo que se queda.** Antes de mover, φ te dice: el proyecto que deja (un
+  capítulo llega como borrador), sus tarjetas en tableros de aquí, los
+  personajes que menciona (sus nombres quedan en el texto), los enlaces desde
+  documentos que se quedan y su historial de versiones.
+- **Después,** un resumen muestra lo que se movió y qué adjuntos se copiaron. Si
+  la otra bóveda ya tenía un archivo distinto con el mismo nombre, la copia se
+  renombra en lugar de sobrescribirlo. Los originales van a la **Papelera** de
+  esta bóveda, así que no se pierde nada si cambias de idea.
+
+## Mover un proyecto, o fusionar una bóveda entera {#moving-a-project-or-merging-a-whole-vault}
+
+**Un proyecto.** Elige **Mover a otra bóveda…** en el ⋮ del proyecto (en la
+barra lateral, o en el menú de Escribir mientras está abierto) y una bóveda que
+tenga Escribir. El proyecto va entero: sus partes y capítulos en orden, su
+objetivo, portada e icono, y los personajes propios del proyecto. Marca qué más
+debe ir:
+
+- **Sus páginas de investigación.**
+- **Sus tableros.**
+- **Otros personajes que mencionan sus capítulos.** Van como *copias*, porque
+  otro proyecto también puede mencionarlos.
+
+Después verás el mismo resumen que para un documento, y los originales
+—proyecto incluido— quedan en la **Papelera** de esta bóveda.
+
+**Una bóveda entera.** Para unir una bóveda con otra, ábrela y elige
+**Fusionar con otra bóveda…** en el menú de bóvedas. Va todo: cada documento en
+su sitio, cada proyecto, tablero, personaje, autor y plantilla, y los adjuntos
+que usan. Solo se ofrecen bóvedas que tengan todos los modos que se usan aquí.
+
+- No se sobrescribe nada: una carpeta cuyo nombre ya existe allí recibe el
+  nombre de esta bóveda detrás del suyo (por ejemplo, «Borradores (Notas
+  viejas)»), y un adjunto con un nombre ocupado se renombra.
+- No se quita nada. Al terminar, abre la otra bóveda o elige **Quitar «…»** para
+  sacar la bóveda antigua de φ: se te preguntará si su carpeta va a la Papelera o
+  se queda en el disco.
+- El historial de versiones se queda en la carpeta de la bóveda antigua.
+
 ## Espacios: qué modos tiene una bóveda {#spaces-which-modes-a-vault-has}
 
 No todas las bóvedas necesitan los tres modos. En **Ajustes → Bóveda →

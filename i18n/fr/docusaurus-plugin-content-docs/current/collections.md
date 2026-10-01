@@ -1,170 +1,208 @@
 ---
-title: Collections (livres et manuscrits)
-sidebar_position: 7
+title: Projets
 ---
 
-# Collections (livres et manuscrits)
+# Projets
 
-Une **collection** rassemble des documents en une séquence ordonnée — la
-structure d’un livre, d’un recueil de poésie, d’un ensemble d’essais, d’un
-scénario. C’est ainsi que φ devient un éditeur de manuscrits plutôt qu’un simple
-carnet.
+Un **projet** rassemble des pièces en un tout ordonné — un roman, un recueil de
+poèmes, une série d’essais. Il détient l’ordre, les parties, la numérotation, la
+couverture et l’objectif, et c’est ainsi que φ devient un éditeur de manuscrits
+plutôt qu’un simple carnet.
 
-<img src="/img/app/manuscript-light.png" alt="Le contenu d’un manuscrit : pages liminaires, parties, chapitres et leur statut" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/manuscript-dark.png" alt="Le contenu d’un manuscrit : pages liminaires, parties, chapitres et leur statut" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/manuscript-light.png" alt="Le sommaire d’un manuscrit : pièces liminaires, parties, chapitres et leur statut" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/manuscript-dark.png" alt="Le sommaire d’un manuscrit : pièces liminaires, parties, chapitres et leur statut" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Une collection *référence* des documents ; elle ne les contient pas. Un même
-document peut figurer dans plus d’une collection, et **supprimer une collection
-ne supprime jamais ses documents** — ils restent dans votre bibliothèque. La
-collection détient l’ordre, la structure et la couverture ; l’écriture, elle,
-reste là où elle vit.
+Un projet *fait référence* à ses documents ; il ne les avale pas. **Supprimer un
+projet ne supprime jamais ses documents** — ils restent dans votre coffre sous
+forme de pièces. Le projet part à la corbeille, d’où vous pouvez le restaurer.
 
-Ouvrez l’espace **Écrire** (l’icône de livre sur le rail de gauche) pour
-travailler avec les collections.
+Les projets vivent dans **Écrire**. Certains menus et fichiers plus anciens les
+appellent encore *collections* ; c’est la même chose.
 
-## Créer une collection
+## Commencer un projet {#starting-a-project}
 
-Dans l’espace Écrire, cliquez sur le **+** dans l’en-tête Collections pour en
-créer une nouvelle. Chaque collection affiche son type, la signature de l’auteur,
-le nombre de documents et le nombre de mots (par rapport à son objectif, s’il est
-défini). Cliquez sur le nom d’une collection pour l’ouvrir.
+- Dans la barre latérale d’Écrire, cliquez sur **Nouveau projet** au pied de
+  **Projets**.
+- Le **⋮** de la liste → **Nouveau projet**.
+- `⌘P` → **Nouvelle collection**.
+- Dans un coffre tout neuf, l’Accueil d’Écrire propose **Commencer un projet** :
+  choisissez **Roman**, **Poésie**, **Essais**, **Scénario** ou **Autre**, puis
+  **Créer** suivi du type (par exemple **Créer roman**).
 
-Utilisez le menu **⋯** d’une collection pour ajouter le document actuel, la
-renommer, l’ouvrir pour la modifier, ou la supprimer.
+φ vous demande un titre, puis ouvre le projet, prêt pour son premier chapitre.
 
-## Types de collection
+Chaque projet est listé dans la barre latérale d’Écrire avec son avancement — le
+pourcentage de son objectif de mots, ou le nombre de documents qu’il contient
+quand il n’a pas d’objectif.
 
-Le **type** d’une collection teinte son vocabulaire — la façon dont φ nomme les
-éléments qu’elle contient — et façonne ses exports. Les types sont :
+## Types de projet {#project-types}
 
-- **Livre** — structuré en *Chapitres* (regroupés en *Parties*).
-- **Série** — plusieurs livres.
-- **Poésie** — des *Poèmes*.
-- **Recueil d’essais** — des *Essais*.
-- **Recherche** — du matériel de recherche.
-- **Journal** — des *Entrées* datées.
-- **Scénario** — des *Scènes* (regroupées en *Actes*).
-- **Personnalisé** — des *Sections* et *Groupes* génériques.
+Le **type** d’un projet définit comment φ appelle ce qu’il contient, et façonne
+ses exports :
 
-Changez le type à tout moment depuis la page de la collection. La structure que
-vous avez bâtie est préservée ; seuls les libellés changent.
+| Type | Composé de | Regroupés en |
+| --- | --- | --- |
+| **Livre** | Chapitres | Parties |
+| **Série** | Livres | Parties |
+| **Poésie** | Poèmes | Parties |
+| **Recueil d’essais** | Essais | Parties |
+| **Recherche** | Sections | Sections |
+| **Journal** | Entrées | Groupes |
+| **Personnalisé** | Sections | Groupes |
 
-## L’arborescence de structure
+Changez le type à tout moment dans l’**Aperçu** du projet. Ce que vous avez
+construit est conservé ; seuls les mots changent. (Un projet **Scénario** créé
+auparavant garde son type — des Scènes regroupées en Actes — mais ce type n’est
+plus proposé pour les nouveaux projets depuis l’Aperçu.)
 
-Une collection est un **arbre récursif** sans limite de profondeur. Un livre
-pourrait être :
+Tout au long de cette page, *chapitre* et *partie* désignent ce que le type de
+votre projet appelle ainsi.
 
-```
-Book
- └─ Part
-     └─ Chapter
-         └─ (a deeper sub-section, if you want one)
-```
+## Le plan dans la liste {#the-outline-in-the-list}
 
-L’arbre comporte deux sortes d’éléments : les **documents** (les feuilles — votre
-écriture réelle) et les **groupes** (les branches — Parties, Actes, etc.). Les
-éléments de groupe n’existent que pour organiser ; ils ne contiennent aucune
-prose propre.
+Cliquez sur un projet dans la barre latérale et son **plan** remplit la liste :
+chaque chapitre avec son numéro, son synopsis et son statut, regroupés sous
+leurs parties. Une fine barre sous le titre du projet montre les mots écrits par
+rapport à son objectif. La page s’ouvre sur le dernier chapitre sur lequel vous
+avez travaillé.
 
-### Les numéros sont calculés, jamais stockés
+### Ajouter {#adding}
 
-φ déduit « Partie I », « Chapitre 3 », « Scène 1.2 » de la position de chaque
-élément dans l’arbre. Réorganisez quoi que ce soit et tout se renumérote
-instantanément. Vous ne tapez jamais un numéro de chapitre, et vous n’avez jamais
-à en corriger un.
+Cliquez sur **+** en haut de la liste :
 
-## Le panneau de la collection
+- **Nouveau chapitre** (`⌘N`) — ajouté à la fin.
+- **Nouvelle partie** (`⇧⌘N`).
 
-Lorsqu’une collection est ouverte, le panneau voisin du rail est sa navigation
-principale — l’arborescence de structure, avec le nombre de mots combiné et la
-progression vers l’objectif en haut.
+### Le menu d’une ligne {#a-rows-menu}
 
-Trois onglets se trouvent au-dessus de l’arbre :
+Chaque ligne a un **⋮** :
 
-- **Chapitres** (libellé selon le type — *Poèmes*, *Scènes*, etc.) —
-  l’arborescence de structure modifiable.
-- **Plan** — une liste à plat avec le synopsis et le statut de chaque élément.
-- **Index** — la table des matières générée (voir ci-dessous).
+- **Ajouter chapitre en dessous**, **Ajouter partie en dessous**.
+- **Renommer** (`↵`), **Dupliquer**.
+- **Détails…** — statut, synopsis, objectif de mots, couleur.
+- **Pages liminaires / finales** — le sortir de la numérotation (voir plus bas).
+- **Déplacer tout en haut**, **Déplacer tout en bas**.
+- **Retirer de la collection** — le sort du projet, après confirmation. Le
+  document lui-même n’est **pas** supprimé ; il reste dans votre coffre. Retirer
+  une partie en sort tout ce qu’elle contient, sans supprimer aucun des
+  documents non plus.
 
-### Ajouter et modifier des éléments
+Le **⋮** d’une partie propose aussi **Nouveau chapitre dedans**.
 
-Utilisez le **+** pour ajouter un document ou un groupe. Faites un clic droit sur
-n’importe quel élément (ou utilisez son menu) pour accéder à l’ensemble des
-actions :
+Faites un clic droit sur un chapitre pour le même menu que n’importe quel
+document (voir [Organiser votre travail](organizing.md#a-rows-menu)).
 
-- **Ajouter en dessous** — un nouveau document ou groupe après celui-ci.
-- **Renommer**, **Dupliquer**.
-- **Statut** — Brouillon, Révisé, Final ou À faire.
-- **Couleur** — une pastille d’étiquette.
-- **Pages liminaires / finales** — marquer l’élément comme *sans numéro* (voir
-  ci-dessous).
-- **Ouvrir** le document référencé.
-- **Retirer de la collection** — sort l’élément de la structure ; le document
-  lui-même n’est **pas** supprimé. Retirer un groupe désaffecte aussi tout ce
-  qu’il contient, et là encore ne supprime aucun des documents.
-- **Déplacer tout en haut** / **Déplacer tout en bas**.
+### Clavier {#keyboard}
 
-### Réorganiser par glisser-déposer
+- `↵` sur le chapitre ouvert le renomme sur place (`↵` valide, `Échap` annule).
+- `⌥↑` / `⌥↓` montent ou descendent un chapitre au sein de sa partie.
+- Double-cliquez sur le nom d’une partie pour la renommer.
+- `⌥⌘←` / `⌥⌘→` ouvrent le chapitre précédent ou suivant, dans l’ordre du livre
+  entier — en entrant dans les parties et en en sortant.
 
-Glissez n’importe quel élément vers un nouvel emplacement — vers le haut, vers le
-bas, dans un groupe, hors d’un groupe. L’arbre se réimbrique et se renumérote au
-moment où vous déposez. Vous pouvez aussi travailler au clavier lorsque l’arbre a
-le focus : les flèches pour vous déplacer et développer/réduire, Entrée pour
-ouvrir, `F2` pour renommer, Suppr pour retirer, `⌘D` pour dupliquer, et `⌘[` /
-`⌘]` pour décaler un élément vers le haut ou le bas au sein de son groupe.
+Glissez les lignes pour les réordonner, ou pour les faire entrer dans une partie
+ou en sortir.
 
-## Passer d’un chapitre à l’autre pendant l’écriture
+## Ajouter des documents existants {#adding-existing-documents}
 
-Lorsque vous ouvrez un document qui appartient à une collection, un navigateur de
-chapitres apparaît avec sa position — « Chapitre 3 / 12 » — et des contrôles
-précédent/suivant. La navigation suit l’ordre de lecture complet du livre, en
-descendant dans les groupes, pas seulement le niveau courant. Utilisez les
-contrôles, ou `⌘⌥←` et `⌘⌥→`.
+- Clic droit sur une pièce ou une note → **Ajouter à une collection** ou
+  **Déplacer vers une collection** → le projet.
+- Ouvrez ses **Détails…** et choisissez **L’ajouter à un projet…**.
 
-## La page de la collection
+Une note ajoutée à un projet devient une pièce.
 
-Avec une collection ouverte et aucun document sélectionné, vous obtenez sa
-**page** — la couverture et la vue d’ensemble, le tout modifiable en place :
+## Les pages du projet {#the-projects-pages}
 
-- **Image de couverture** — cliquez sur la zone de couverture pour en choisir
-  une ; retirez-la depuis le formulaire ci-dessous.
-- **Titre** — modifiez-le sur place.
-- **Profil d’auteur** — choisissez un profil pour définir la signature, ou créez-
-  en un nouveau. Les profils d’auteur portent un nom, un nom de plume, une
-  biographie, une photo et des liens, et apparaissent dans vos exports.
-- **Type** — changez ici le type de la collection.
-- **Description** — un court résumé de l’œuvre.
-- **Objectif de mots** — voir ci-dessous.
+Le **⋮** de la liste (quand vous êtes dans un projet), ou un clic droit sur le
+projet dans la barre latérale, mène à ses pages :
 
-Depuis la page, vous pouvez aussi **Compiler** toute la collection en un seul
-document HTML, ou l’exporter en **PDF**, **EPUB** ou **DOCX**, et **Enregistrer
-une copie** sous forme de fichier `.poiesis` portable avec les images intégrées.
+### Sommaire {#contents}
 
-## Pages liminaires et finales
+L’organiseur : l’œuvre entière sur une page, en trois régions — **Pièces
+liminaires**, **L’œuvre** et **Pièces finales**. Chaque ligne affiche son
+numéro, son titre, son synopsis, son statut, ses mots et un anneau de
+progression (son propre objectif de mots, ou l’avancement de son statut).
+Glissez une ligne dans une région et elle en prend le rôle : les pièces
+liminaires et finales cessent de compter comme chapitres ; tout ce qui est dans
+**L’œuvre** garde son numéro. Repliez une partie avec son chevron, renommez-la
+en tapant dans son nom, et utilisez le **⋯** d’une ligne pour la déplacer dans
+une partie, la compter (ou non) comme chapitre, la dupliquer ou la retirer du
+projet. **Ajouter chapitre** et **Ajouter une partie** se trouvent au pied.
 
-Certaines pages d’un livre ne sont pas des chapitres — une dédicace, une préface,
-une page de remerciements, une annexe. Marquez n’importe quel élément comme
-**Pages liminaires / finales** pour le rendre *sans numéro* : il s’affiche sous
-son propre nom et ne prend aucun numéro, de sorte que vos véritables chapitres
-commencent toujours à 1. Marquer un groupe comme sans numéro se répercute sur
-tout ce qu’il contient. Cela vaut partout où φ nomme un chapitre — le panneau du
-document lui-même, le fil d’ariane, le sommaire et les totaux du projet, et
-chaque export — de sorte qu’un livre précédé d’une dédicace et d’une épigraphe
-s’ouvre toujours sur le chapitre 1.
+### Aperçu {#overview}
 
-## Table des matières
+Le projet dans son ensemble :
 
-L’onglet **Index** génère une table des matières à partir de la structure — en
-tenant compte de la profondeur, en suivant l’arbre et sa numérotation calculée,
-les pages liminaires et finales étant affichées sans numéro. Elle se met à jour à
-mesure que vous réorganisez, et la même table tenant compte de l’arbre est
-intégrée lorsque vous exportez en HTML, PDF, EPUB ou DOCX.
+- **Couverture** — **Ajouter une couverture**, **Changer la couverture** ou
+  **Retirer la couverture**.
+- **Titre** — cliquez dessus pour renommer le projet.
+- **Signature** — cliquez pour ouvrir le profil d’auteur, ou sur **Nouveau
+  profil d’auteur** quand il n’y en a pas (voir
+  [Personnages et auteurs](characters-and-authors.md)).
+- **Description** — un bref résumé de l’œuvre.
+- **Progression** — les mots par rapport à l’objectif, et le nombre de
+  chapitres, de parties et de statuts.
+- **Réglages** — **Type**, **Profil d’auteur** et **Objectif de mots**, chacun
+  affiché avec sa valeur ; cliquez sur l’un d’eux pour le changer.
+- **Notes à ce sujet** — les notes et pages de recherche liées au projet (voir
+  [Recherche](research.md)).
+- **Aller à** — **Sommaire**, le tableau des chapitres et **Exporter**.
+- **Supprimer ce projet…**
 
-## Objectifs de mots
+### Lire {#read}
 
-Vous pouvez définir un **objectif de mots** pour une collection depuis sa page.
-L’en-tête du panneau et la fiche de la collection affichent une barre de
-progression par rapport au nombre de mots combiné de chaque document de la
-collection. Les documents individuels peuvent aussi porter leurs propres
-objectifs (définis depuis l’en-tête du document), de sorte que vous pouvez suivre
-un seul chapitre et le livre entier à la fois.
+Le manuscrit tel qu’un lecteur le découvre, dans l’ordre, en lecture seule.
+Basculez entre **Prose** (le texte en continu) et **Livre** (avec son sommaire
+et la page de l’auteur, tel que le livre sera mis en page).
+
+### Tableau {#board}
+
+**Ouvrir le tableau du projet** affiche les chapitres comme des cartes dans des
+colonnes de statut — **À faire**, **Brouillon**, **Révisé**, **Final**. Glissez
+une carte pour changer son statut. En dessous se trouvent les tableaux de tâches
+du projet (voir [Tableaux](boards.md)).
+
+### Exporter {#export}
+
+**Exporter le manuscrit…** ouvre la page d’export du projet : style, sommaire,
+encre, papier et tous les formats. Voir [Exporter](exporting.md).
+
+### Et depuis le menu contextuel {#and-from-the-right-click-menu}
+
+Faites un clic droit sur un projet dans la barre latérale pour **Ouvrir**,
+**Icône…**, **Couleur**, les pages ci-dessus et **Supprimer le projet…**.
+
+## Les numéros sont calculés, jamais enregistrés {#numbers-are-computed-never-stored}
+
+φ déduit « Partie I » ou « Chapitre 3 » de la position de chaque élément.
+Réordonnez n’importe quoi et tout se renumérote aussitôt. Vous ne tapez jamais
+un numéro de chapitre, et vous n’avez jamais à en corriger un.
+
+## Pièces liminaires et finales {#front-and-back-matter}
+
+Certaines pages d’un livre ne sont pas des chapitres — une dédicace, une
+préface, une annexe. Marquez-en une comme **Pages liminaires / finales** (depuis
+son **⋮**, avec **Laisser hors de la numérotation** dans ses Détails, ou en la
+glissant dans **Pièces liminaires** ou **Pièces finales** du Sommaire) et elle
+ne prend aucun numéro, si bien que vos vrais chapitres commencent toujours à 1.
+Marquer une partie s’applique en cascade à tout ce qu’elle contient. Cela vaut
+partout où φ nomme un chapitre — le plan, les Détails, le Sommaire, la vue Lire
+et chaque export.
+
+## Objectifs de mots {#word-goals}
+
+- **Le projet** — définissez l’**Objectif de mots** dans l’Aperçu. La barre
+  latérale, l’en-tête de la liste et l’Accueil affichent la progression par
+  rapport à lui.
+- **Un chapitre** — définissez l’**Objectif de mots** dans ses **Détails…**, ou
+  depuis le **⋮** du document → **Définir un objectif de mots**. Son anneau dans
+  le Sommaire le suit.
+
+Vous pouvez suivre un seul chapitre et le livre entier en même temps.
+
+## Supprimer un projet {#deleting-a-project}
+
+**Supprimer le projet…** (depuis le menu contextuel ou le **⋮** de la liste) ou
+**Supprimer ce projet…** dans l’Aperçu. φ demande d’abord : le projet est
+retiré, et ses documents ne sont **pas** supprimés. Il part à la corbeille, d’où
+vous pouvez le restaurer.

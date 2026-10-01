@@ -1,90 +1,147 @@
 ---
-title: Concentration et modes d’écriture
-sidebar_position: 14
+title: Sanctuaire et sessions d’écriture
 ---
 
-# Concentration et modes d’écriture
+# Sanctuaire et sessions d’écriture
 
-Quand vient le moment d’écrire, l’interface devrait disparaître. φ propose
-plusieurs façons d’apaiser la page — utilisez-en autant ou aussi peu que vous le
-souhaitez.
+Quand vient le moment d’écrire, l’interface devrait s’effacer. Le Sanctuaire
+dégage tout sauf la page, quelques réglages plus discrets vous aident à garder
+le fil, et φ suit vos séances et vos nombres de mots sans que vous ayez à le lui
+demander.
 
-<img src="/img/app/focus-light.png" alt="Mode concentration : les mots, et rien autour" width="1600" height="1048" loading="lazy" decoding="async" />
-<img src="/img/app/focus-dark.png" alt="Mode concentration : les mots, et rien autour" width="1600" height="1048" loading="lazy" decoding="async" />
+<img src="/img/app/focus-light.png" alt="Sanctuaire : les mots, et rien autour" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Sanctuaire : les mots, et rien autour" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Mode concentration
+## Sanctuaire {#sanctuary}
 
-Le mode concentration masque tout l’habillage — barre latérale, panneaux, barre
-d’état — ne laissant que la page. Activez-le avec `⌘⇧F` (ou **Mode concentration**
-dans la palette de commandes, `⌘P`). Appuyez à nouveau pour tout faire revenir.
+Le Sanctuaire masque la barre latérale, la liste, le panneau Infos et tous les
+boutons, et vous laisse seul avec la page. Appuyez sur `⌘.` pour y entrer. Vous
+pouvez aussi utiliser **Affichage → Sanctuaire**, l’icône du Sanctuaire en haut à
+droite de la page, **Sanctuaire** dans le menu ⋮ du document, ou **Sanctuaire**
+dans la palette de commandes (`⌘P`).
 
-## Sanctuaire
+Il est proposé là où il y a quelque chose avec quoi être seul : un document que
+vous écrivez, et le [graphe](./links-and-graph.md). Il reste dans la fenêtre où
+vous êtes au lieu de passer en plein écran ; l’élément plein écran du menu
+**Affichage** est là si vous voulez les deux.
 
-Le sanctuaire est le réglage le plus profond : habillage masqué *et* fenêtre
-passée en plein écran, pour que rien d’autre ne soit visible. Activez-le avec
-`⌘⇧↩`. Il dure le temps de la session — quittez-le de la même façon que vous y
-êtes entré.
+Pendant que vous êtes dans le Sanctuaire :
 
-## Défilement machine à écrire
+- **Seule la phrase où vous êtes reste pleinement visible** ; le reste du texte
+  est atténué. Si vous avez choisi **Paragraphe** sous
+  [Écriture focalisée](#focus-typing), c’est tout le paragraphe qui reste
+  éclairé. Pour tout garder pleinement visible, désactivez **Réglages →
+  Apparence → Le sanctuaire atténue le reste**.
+- **Une ligne discrète en haut indique où vit le document** : son mode, son
+  projet, sa partie et son chapitre, ou son dossier. Cliquez sur n’importe quelle
+  étape pour y aller ; cela quitte le Sanctuaire en gardant le document ouvert.
+- **Le nombre de mots passe en bas au centre**, avec le nombre de mots ajoutés
+  pendant cette séance (**+N cette séance**).
+- **Le défilement machine à écrire** a son propre bouton en haut à droite, à côté
+  de la sortie.
 
-Le défilement machine à écrire garde le curseur centré à l’écran, pour que la
-ligne que vous écrivez reste en place et que le texte monte à sa rencontre.
-Activez-le dans **Réglages → Éditeur → Défilement machine à écrire**, ou avec
-**Défilement machine à écrire** dans la palette de commandes.
+Pour sortir, appuyez sur `Esc` ou de nouveau sur `⌘.`, ou cliquez sur l’icône en
+haut à droite. Aller quelque part où le Sanctuaire n’a pas sa place, comme le
+calendrier ou un tableau, y met fin de lui-même.
 
-## Écriture focalisée
+## Défilement machine à écrire {#typewriter-scrolling}
 
-L’écriture focalisée atténue tout sauf l’endroit où vous travaillez, pour que
-votre œil se pose sur la pensée en cours. Choisissez la portée :
+Le défilement machine à écrire garde la ligne que vous écrivez au milieu de la
+fenêtre, pour que vos yeux restent en place et que le texte monte à leur
+rencontre. Activez-le ou désactivez-le avec `⇧⌘T` (ou `⌥⌘T`), **Affichage →
+Défilement machine à écrire**, **Défilement machine à écrire** dans le menu ⋮ du
+document, le bouton dans le Sanctuaire, ou **Réglages → Éditeur → Défilement
+machine à écrire**.
 
-- **Phrase** — seule la phrase en cours reste éclairée.
-- **Paragraphe** — le paragraphe en cours reste éclairé.
-- **Désactivé** — tout est pleinement éclairé.
+## Écriture focalisée {#focus-typing}
 
-Réglez-la dans **Réglages → Éditeur → Écriture focalisée**, le menu **Affichage →
-Écriture focalisée**, ou depuis la palette de commandes.
+L’écriture focalisée atténue tout sauf l’endroit où vous travaillez, dans le
+Sanctuaire ou en dehors. Choisissez ce qui reste éclairé :
 
-## Mode lecture
+- **Phrase** : seulement la phrase en cours.
+- **Paragraphe** : le paragraphe en cours.
+- **Désactivé** : tout est pleinement éclairé. (Le Sanctuaire atténue quand même
+  jusqu’à la phrase, sauf si vous l’avez désactivé.)
 
-Quand vous voulez lire plutôt que modifier, le mode lecture ouvre le document en
-lecture seule — une façon réfléchie de revisiter un brouillon sans risque de
-frappes intempestives. Activez-le avec `⌘E`. Appuyez à nouveau pour revenir à
-l’édition.
+Réglez-la dans **Affichage → Écriture focalisée**, dans **Réglages → Éditeur →
+Écriture focalisée**, ou avec **Basculer l'écriture focalisée** dans la palette
+de commandes.
 
-## Sessions d’écriture
+## Mode lecture {#reading-mode}
 
-Une session d’écriture mesure l’effort d’une séance. Démarrez-en une depuis le
-bouton **lecture** à droite de la barre d’état (ou commencez simplement à taper),
-et elle affiche :
+Quand vous voulez lire plutôt que modifier, le mode lecture affiche le document
+en lecture seule, pour que vous puissiez revisiter un brouillon sans frappe
+malencontreuse. Basculez-le avec `⌘E`, **Affichage → Mode lecture**, **Mode
+lecture** dans le menu ⋮ du document, ou **Mode lecture** dans la palette de
+commandes.
 
-```
-active time · words · wpm
-```
+## Sessions d’écriture {#writing-sessions}
 
-- **Temps actif** ne compte que pendant que vous écrivez réellement. Il se
-  **met en pause automatiquement** quand vous êtes inactif, quand la fenêtre perd
-  le focus, et quand vous quittez l’éditeur (pour les Réglages, le graphe ou le
-  mode lecture).
-- **Mots** correspond aux mots bruts écrits dans cette session — les suppressions
-  ne soustraient rien — ainsi une séance riche en révisions reflète quand même le
-  travail.
-- **wpm** est votre rythme sur le temps actif.
+Une session d’écriture, ou *séance*, est une plage de travail. Vous n’avez pas à
+la démarrer : elle commence à votre première frappe et compte les mots que vous
+ajoutez. Elle compte les mots écrits, donc supprimer ne retranche rien, et une
+séance riche en révisions montre quand même le travail accompli.
 
-Utilisez les boutons **pause/reprise** et **arrêt** dans la barre d’état pour
-contrôler la session à la main. Les sessions vivent le temps de l’exécution de
-l’app ; quitter les termine. Votre **session la plus longue** et votre **plus
-grand nombre de mots en une session** sont conservés comme records personnels.
+Une séance ne compte le temps que pendant que vous écrivez vraiment. Elle se met
+**en pause** après une minute sans frappe, quand vous passez à une autre app,
+quand vous quittez l’éditeur, et en mode lecture. La frappe suivante la reprend.
+Après vingt minutes sans un mot, la séance se termine d’elle-même.
 
-## Statistiques d’écriture
+Vous verrez la séance à trois endroits :
 
-Cliquez sur le nombre de mots dans la barre d’état pour le popover de
-statistiques du document : mots, caractères, phrases, temps de lecture, lisibilité
-(facilité de lecture et niveau scolaire), un petit graphique d’évolution du nombre
-de mots, vos totaux à l’échelle du coffre, et vos records de session.
+- **+N cette séance** dans l’onglet **Plan** du panneau Infos, sous le nombre de
+  mots.
+- **+N cette séance** à côté du nombre de mots dans le Sanctuaire.
+- **N min cette séance** sur l’Accueil d’**Écrire**, dans la carte Aujourd’hui.
 
-## Objectifs de mots
+Si vous préférez décider quand une séance commence, désactivez **Démarrer les
+sessions automatiquement** dans **Réglages → Réglages d’écriture**. Utilisez
+ensuite **Démarrer la session d’écriture** dans la palette de commandes pour en
+commencer une, et **Terminer la session d’écriture** pour l’arrêter. Les deux
+commandes fonctionnent quel que soit le réglage.
 
-Définissez une cible par document avec **Définir un objectif de mots**. Lorsqu’un
-objectif est défini, la barre d’état affiche votre progression sous la forme
-`mots / objectif` avec une petite barre qui se remplit à mesure que vous écrivez
-et marque l’objectif comme atteint quand vous y arrivez.
+Votre **session la plus longue** et **le plus de mots en une session** sont
+conservés comme records personnels, affichés dans les statistiques du document
+ci-dessous.
+
+## Nombre de mots et statistiques {#word-count--statistics}
+
+Le nombre de mots d’un document se trouve dans le coin inférieur droit de la
+page. Les notes n’en affichent pas, puisqu’une note ne s’écrit pas en vue d’une
+longueur.
+
+Cliquez sur le nombre pour voir les statistiques du document :
+
+- **Mots**, **Caractères**, **Phrases** et **Temps de lecture**.
+- **Facilité de lecture** et **Niveau scolaire**, si **Statistiques de
+  lisibilité** est activé dans **Réglages → Réglages d’écriture**.
+- Un petit graphique du nombre de mots du document au fil du temps, intitulé
+  **Nombre de mots · N jours travaillés**, dès qu’il a plus d’un jour
+  d’historique.
+- **Total du coffre**, **Documents** et **Mots au total** : les mots du coffre
+  aujourd’hui, le nombre de documents qu’il contient, et tous les mots que vous y
+  avez écrits.
+- **Session la plus longue** et **Meilleure session (mots)**, dès que vous en
+  avez.
+
+## Objectifs de mots {#word-goals}
+
+Donnez un objectif à un document avec **Définir un objectif de mots** dans son
+menu ⋮, ou le champ **Objectif de mots** dans **Détails…**. Avec un objectif
+défini :
+
+- Le nombre dans le coin affiche **mots / objectif mots**, par exemple
+  *1 240 / 3 000 mots*.
+- L’onglet **Plan** du panneau Infos affiche une barre qui se remplit à mesure
+  que vous écrivez, et le pourcentage de l’objectif atteint (par exemple
+  *41 % de 3 000*).
+
+Voir [Projets](./collections.md) pour les objectifs sur toute une œuvre.
+
+## Afficher le Markdown {#show-markdown}
+
+Si vous pensez en Markdown, **Réglages → Éditeur → Afficher le Markdown**
+dessine les marqueurs (`**`, `#`, `[ ]( )`, etc.) en léger autour de la mise en
+forme de la ligne que vous écrivez, et les masque à nouveau dans les lignes que
+vous quittez. Cela ne change que ce que vous voyez ; vos documents restent
+exactement tels qu’ils sont.
