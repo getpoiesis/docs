@@ -1,73 +1,58 @@
 ---
-title: Ce que φ montre (Réglages d'écriture)
+title: Réglages d’écriture
+description: Choisissez ce que φ vous dit de votre écriture, et les lieux que propose chaque mode.
 ---
 
-# Ce que φ montre (Réglages d'écriture)
+# Réglages d’écriture
 
-**Réglages → Réglages d'écriture** décide de ce que φ vous renvoie sur votre
-écriture — le chronomètre de séance, la série, un rythme hebdomadaire, la
-lisibilité — et des lieux que chaque mode propose dans sa barre latérale. Chaque
-coffre a ses propres réglages d'écriture, et désactiver quelque chose ne fait que
-le ranger : cela ne touche jamais à votre travail.
+**Réglages → Réglages d’écriture** décide de ce que φ vous renvoie sur votre
+écriture (votre série, un rythme hebdomadaire, la lisibilité) et des lieux que
+chaque mode liste dans sa barre latérale. Chaque coffre a ses propres réglages
+d’écriture : un roman et un journal peuvent ainsi ne montrer, chacun, que ce
+dont ils ont besoin.
 
-## Des réglages par coffre {#one-setup-per-vault}
+## Régler un coffre {#set-up-a-vault}
 
-Ouvrez **Réglages** (`⌘,`) → **Réglages d'écriture**. Ce que vous changez ici
-s'applique au coffre où vous êtes, de sorte qu'un roman et un journal peuvent
-chacun montrer exactement ce dont ils ont besoin. Un nouveau coffre commence avec
-les valeurs par défaut décrites ci-dessous. Il n'y a pas de valeur par défaut
-globale ; pour donner les mêmes réglages à un autre coffre, enregistrez-les sous
-un nom et utilisez-les là-bas (voir [Réglages enregistrés](#saved-setups)).
+1. Ouvrez les **Réglages** (`⌘,`, ou le bouton à curseurs à côté du nom du
+   coffre) et choisissez **Réglages d’écriture**.
+2. Sous **Signaux**, choisissez ce que φ vous dit de votre écriture.
+3. Sous **Modes**, cliquez sur **Écrire**, **Notes** ou **Journal** pour
+   choisir les lieux que propose ce mode.
+4. Pour utiliser les mêmes réglages dans un autre coffre, appuyez sur
+   **Enregistrer sous…** sous **Réglages enregistrés**.
 
-Masquer une fonctionnalité ne supprime jamais rien. Désactivez les pages du matin
-dans Journal et vos pages restent dans le coffre, intactes ; réactivez-les et
-elles réapparaissent.
+Ce que vous changez s’applique au coffre où vous êtes. Un nouveau coffre
+commence avec les valeurs par défaut ci-dessous.
 
-## Signaux {#signals}
+## Choisir ce que φ vous dit {#choose-what-φ-tells-you}
 
-Le groupe **Signaux** est ce que φ vous renvoie sur votre écriture :
+| Signal | Ce qu’il fait | Au départ |
+| --- | --- | --- |
+| **Démarrer les sessions automatiquement** | Commence à chronométrer une session d’écriture à votre première frappe. Désactivez-le et une session ne démarre que si vous la lancez : `⌘P` → **Démarrer la session d’écriture** (et **Terminer la session d’écriture**). | Activé |
+| **Statistiques de lisibilité** | Ajoute le niveau de lecture et la longueur des phrases aux **Statistiques du document**. Cliquez sur le nombre de mots dans le coin de la page, puis cliquez dessus à nouveau. | Désactivé |
+| **Série** | Comment votre série d’écriture s’affiche sur l’Accueil et dans le calendrier : **Flamme et compte**, **Jours simples** ou **Désactivée**. | **Flamme et compte** |
+| **La semaine commence le** | Le premier jour de la semaine, pour le calendrier et pour la semaine sur laquelle votre rythme est compté. Celui-ci s’applique à tous les coffres. | Lundi |
+| **Rythme hebdomadaire** | Un objectif doux de jours d’écriture par semaine : **Aucun**, ou de **1/semaine** à **7/semaine**. C’est une fenêtre glissante de sept jours : un jour manqué ne le réinitialise jamais. | **Aucun** |
 
-- **Minuteur de session** — si φ chronomètre vos sessions d'écriture. Activé par
-  défaut.
-- **Démarrer les sessions automatiquement** — une session démarre à votre
-  première frappe. Désactivez-le et le chronomètre ne tourne que si vous le
-  lancez : `⌘P` → **Démarrer la session d'écriture** (et **Terminer la session
-  d'écriture**). Activé par défaut.
-- **Statistiques de lisibilité** — niveau de lecture et longueur des phrases dans
-  les **Statistiques du document** (cliquez sur le nombre de mots dans le coin de
-  la page). Désactivé par défaut.
-- **Série** — comment votre série d'écriture est affichée : **Flamme et compte**
-  (par défaut), **Jours simples** ou **Désactivée**.
-- **La semaine commence le** — le premier jour de la semaine, pour le calendrier,
-  la carte de chaleur et la semaine sur laquelle votre rythme est compté.
-  N'importe lequel des sept jours. Celui-ci s'applique à tous les coffres.
-- **Rythme hebdomadaire** — un objectif doux de jours d'écriture par semaine :
-  **Aucun** (par défaut), ou de **1/semaine** à **7/semaine**. C'est une fenêtre
-  glissante de sept jours, donc un jour manqué ne la réinitialise jamais.
+Le nombre de mots qui fait compter une journée dans votre série se règle dans
+**Réglages → Éditeur → Série d’écriture → Minimum de mots / jour** (50 ou
+plus).
 
-Le nombre de mots qui fait compter une journée dans votre série se règle
-ailleurs, dans **Réglages → Éditeur → Série d'écriture → Minimum de mots / jour**
-(50 ou plus).
+## Choisir les lieux de chaque mode {#choose-each-modes-places}
 
-## Modes {#modes}
+Sous **Modes**, chaque mode utilisé par le coffre a une ligne. Elle indique
+**Suit le coffre** jusqu’à ce que vous y changiez quelque chose, puis
+**Diffère**. Cliquez sur une ligne pour l’ouvrir :
 
-Le groupe **Modes** a une ligne pour chaque mode utilisé par ce coffre. Chaque
-ligne est repliée et indique **Suit le coffre** jusqu'à ce que vous y changiez
-quelque chose ; elle indique alors **Diffère**. Cliquez sur une ligne pour
-l'ouvrir :
+- **Les lieux** que propose la barre latérale de ce mode, chacun avec un
+  interrupteur.
+- **Les interrupteurs des signaux**, pour ce mode seulement.
+- **Listes de tâches** : si l’on peut commencer une nouvelle liste de tâches
+  ici. Un document qui en contient déjà une la garde, et ses cases se cochent
+  toujours.
 
-- **Lieux** — des interrupteurs pour les lieux que propose la barre latérale de
-  ce mode. Chaque mode liste les lieux qu'il pourrait raisonnablement porter.
-- **Les signaux** — **Minuteur de session**, **Démarrer les sessions
-  automatiquement** et **Statistiques de lisibilité**, pour ce mode seulement.
-- **Listes de tâches** — si l'on peut commencer une nouvelle liste de tâches ici.
-  Un document qui en contient déjà une l'affiche toujours, et ses cases se
-  cochent toujours.
-
-**Suivre le coffre à nouveau** ramène en un clic un mode qui diffère aux réglages
-du coffre.
-
-### Où chaque lieu apparaît par défaut {#where-each-place-appears-by-default}
+**Suivre le coffre à nouveau** ramène un mode qui diffère aux réglages du
+coffre.
 
 | Lieu | Écrire | Notes | Journal |
 | --- | :---: | :---: | :---: |
@@ -79,39 +64,49 @@ du coffre.
 | **Calendrier** | ✓ | ✓ | ✓ |
 | **Commencer les pages du matin du jour** | | | ✓ |
 
-Dans Écrire et dans Notes, vous pouvez activer n'importe lequel des autres lieux
-sauf les pages du matin — Personnages dans Notes, par exemple. Recherche
-appartient à Écrire seul et ne peut pas être ajouté à Notes. Journal est
-volontairement dépouillé : il propose le calendrier et les pages du matin.
-Désactiver **Commencer les pages du matin du jour** masque **Pages du matin** et
-**Scellées** dans la barre latérale de Journal.
+Dans Écrire et dans Notes, vous pouvez activer n’importe lequel des autres
+lieux sauf les pages du matin, par exemple **Personnages** dans Notes.
+**Recherche** appartient à Écrire seul. Journal est volontairement dépouillé :
+il propose le calendrier et les pages du matin. Désactivez **Commencer les
+pages du matin du jour**, et **Pages du matin** et **Scellées** quittent la
+barre latérale de Journal.
 
 Les **Listes de tâches** sont activées dans Notes et désactivées dans Écrire et
-Journal par défaut — une liste de tâches, c'est l'affaire d'une note. Si vous
-gardiez des listes de tâches dans un manuscrit, réactivez-les ici pour Écrire.
+Journal, car une liste de tâches, c’est l’affaire d’une note. Si vous gardez
+des listes de tâches dans un manuscrit, activez-les ici pour Écrire.
 
-## Réglages enregistrés {#saved-setups}
+## Utiliser des réglages dans un autre coffre {#use-a-setup-in-another-vault}
 
-Des réglages enregistrés sont une copie des réglages d'écriture de ce coffre sous
-un nom, prête à être posée sur un autre coffre.
+**Réglages enregistrés** garde des copies de réglages sous un nom.
 
-- **Enregistrer sous…** — nommez les réglages actuels et gardez-en une copie.
-  Modifier ce coffre ensuite laisse la copie enregistrée telle quelle.
-- **Utiliser dans ce coffre** — remplace les réglages de ce coffre par ceux
+- **Enregistrer sous…** nomme les réglages actuels et en garde une copie.
+  Modifier ce coffre ensuite laisse la copie telle quelle.
+- **Utiliser dans ce coffre** remplace les réglages de ce coffre par ceux
   enregistrés.
-- **Utiliser dans un autre coffre…** — choisissez un autre coffre auquel donner
-  les réglages enregistrés.
-- **Renommer** et **Supprimer** — rangez votre liste. Supprimer des réglages
-  enregistrés ne change pas les coffres où vous les avez posés ; ils gardent ce
-  qu'ils ont.
+- **Utiliser dans un autre coffre…** les donne à un autre coffre.
+- **Renommer** et **Supprimer** rangent la liste. Supprimer des réglages
+  enregistrés ne change pas les coffres où vous les avez posés.
 
-## Ce que les Réglages d'écriture ne changent pas {#what-setup-doesnt-change}
+:::note Masquer ne supprime jamais
 
-- **Les modes d'un coffre.** C'est un réglage du coffre lui-même :
-  **Réglages → Coffre → Espaces**. Voir
-  [Coffres](vaults.md#spaces-which-modes-a-vault-has).
-- **Les outils de l'éditeur.** Les citations, la table des matières et les
-  modèles ne sont pas des interrupteurs ; ils sont là partout où le type de
+Désactiver quelque chose ne fait que le ranger. Désactivez les pages du matin
+et vos pages restent dans le coffre, intactes ; réactivez-les et elles
+réapparaissent.
+
+:::
+
+## Ce que les Réglages d’écriture ne changent pas {#what-setup-doesnt-change}
+
+- **Les modes d’un coffre.** C’est **Réglages → Coffre → Espaces**. Voir
+  [Coffres](./vaults).
+- **Les outils de l’éditeur.** Les citations, la table des matières et les
+  modèles ne sont pas des interrupteurs ; ils sont là partout où le type de
   document que vous écrivez les propose.
-- **Votre travail.** Rien sur cette page ne déplace ni ne supprime quoi que ce
-  soit.
+- **Votre travail.** Rien sur cette page ne déplace ni ne supprime de document.
+
+## Voir aussi {#see-also}
+
+- [Se repérer dans φ](./finding-your-way)
+- [Réglages](./settings)
+- [Sanctuaire et sessions d’écriture](./focus-and-writing-modes)
+- [Le calendrier](./calendar)

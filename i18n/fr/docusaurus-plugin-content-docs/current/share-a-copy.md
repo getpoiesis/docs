@@ -7,7 +7,7 @@ description: Un PDF à lire, un Word pour continuer à éditer, une page web, du
 
 Tous les exports ne sont pas destinés à une librairie. **Partager une copie**
 crée un fichier à lire, à envoyer à un ami, à continuer d’éditer ailleurs ou à
-ranger : le projet entier dans le format qui convient.
+ranger : le projet entier dans le format qui convient.
 
 ## Créer une copie {#make-a-copy}
 
@@ -18,7 +18,7 @@ ranger : le projet entier dans le format qui convient.
 
 | Format | Idéal pour |
 | --- | --- |
-| **PDF** | Lire à l’écran ou imprimer chez soi : la couverture, les pages propres au livre, le sommaire, les notes en bas de leur page, et aucune page blanche. |
+| **PDF** | Lire à l’écran ou imprimer chez soi : la couverture, les pages propres au livre, le sommaire, les notes en bas de leur page, et aucune page blanche. |
 | **Word** | Envoyer à un éditeur ou à un lecteur qui commente dans Word, toujours modifiable. |
 | **Page web** | Un seul fichier HTML avec toute l’œuvre, styles et images compris, à ouvrir dans un navigateur ou à mettre sur un site. |
 | **Markdown** | Tout ce qui accepte le texte brut, chapitres et numérotation conservés. |
@@ -27,22 +27,22 @@ ranger : le projet entier dans le format qui convient.
 
 ## Styles et papier {#styles-and-paper}
 
-Une copie partagée utilise un **style** plutôt qu’une maquette de livre : **As
-it looks in φ** (par défaut : la police de votre éditeur, avec des marges de
+Une copie partagée utilise un **style** plutôt qu’une maquette de livre : **As
+it looks in φ** (par défaut : la police de votre éditeur, avec des marges de
 livre), **Standard manuscript**, **Paperback**, **Poetry** ou **Academic
 paper**, ou l’un des vôtres ([Styles personnalisés](./custom-styles)). Le
-**Papier** fixe la taille de page du PDF : Letter, A4, A5, Digest ou Trade. Les
+**Papier** fixe la taille de page du PDF : Letter, A4, A5, Digest ou Trade. Les
 autres formats se recomposent.
 
 ## Rapporter une copie {#bringing-a-copy-back}
 
 Une **Copie du projet** est un fichier `.poiesis` qui contient le projet, ses
 documents et ses images. Pour l’ouvrir dans un autre coffre, utilisez
-**Importer un document φ (.poiesis)…** dans la palette de commandes
+**Importer un document φ (`.poiesis`)…** dans la palette de commandes
 ([Importer](./importing)).
 
 ## Voir aussi {#see-also}
 
-- [Comment fonctionne l’export](./exporting) : exporter un seul document.
-- [Imprimer un livre](./print-a-book) et [Créer un livre numérique](./make-an-ebook) :
+- [Comment fonctionne l’export](./exporting) : exporter un seul document.
+- [Imprimer un livre](./print-a-book) et [Créer un livre numérique](./make-an-ebook) :
   des fichiers à publier.

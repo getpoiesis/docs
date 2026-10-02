@@ -1,168 +1,183 @@
 ---
 title: Atajos de teclado
+description: Todos los atajos de teclado de φ, para escribir, dar formato, orientarte y organizar la ventana.
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Atajos de teclado
 
-φ está hecho para que no apartes las manos del teclado. Esta página lista todos
-los atajos, escritos al estilo de macOS; en Windows y Linux los modificadores se
-corresponden directamente, y φ muestra los correctos en sus propios menús.
+Todos los atajos de φ, escritos al estilo del Mac. En Windows y Linux la
+mayoría funcionan con **Ctrl** en lugar de ⌘; los pocos que cambian están al
+final.
 
-<img src="/img/app/palette-light.png" alt="La búsqueda alcanza documentos, días del diario y notas a la vez" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/palette-dark.png" alt="La búsqueda alcanza documentos, días del diario y notas a la vez" width="1600" height="1000" loading="lazy" decoding="async" />
+Pulsa `⌘/` para ver una tarjeta con los atajos principales, y `⌘/` o `Esc` para
+cerrarla. La misma lista, con un campo de búsqueda, está en **Ajustes →
+Atajos**, y la paleta de comandos (`⌘P`) muestra el atajo de cada comando a su
+lado.
 
-<Tabs groupId="os">
-  <TabItem value="mac" label="macOS" default>
+Las teclas son ⌘ Comando, ⇧ Mayúsculas, ⌥ Opción, ⌃ Control, ↵ Retorno y ⌫
+Borrar.
 
-Las teclas modificadoras son ⌘ (Comando), ⇧ (Mayúsculas), ⌥ (Opción) y ⌃
-(Control).
+## Escribir {#writing}
 
-  </TabItem>
-  <TabItem value="win" label="Windows / Linux">
-
-Lee los modificadores de macOS como sus equivalentes: ⌘ → **Ctrl**, ⌥ → **Alt**,
-⇧ → **Mayús**, ⌃ → **Ctrl**. Así, `⌘N` es **Ctrl + N**, y `⌘⌥F` es **Ctrl + Alt
-+ F**.
-
-Algunos son distintos:
-
-- **Eliminar documento** es la tecla **Supr** sola.
-- **Pantalla completa** es **F11**.
-- **Rehacer** es **Ctrl + Y**.
-- **Ajustes** no tiene atajo; usa el botón de controles deslizantes arriba de la
-  barra lateral.
-
-</TabItem>
-</Tabs>
-
-Si olvidas alguno, pulsa `⌘/` para ver una tarjeta con los atajos principales
-(púlsalo de nuevo, o `Esc`, para cerrarla). La misma lista, con un campo de
-búsqueda, está en **Ajustes → Atajos**. Y la paleta de comandos (`⌘P`) muestra
-el atajo de cada comando a su lado.
-
-## Orientarse {#finding-your-way}
-
-| Acción | Atajo |
+| Para | Pulsa |
 | --- | --- |
-| Buscar un documento… | `⌘K` |
-| Paleta de comandos | `⌘P` |
-| Tarjeta de atajos | `⌘/` |
+| Crear un documento nuevo donde estás (en el esquema de un proyecto, un capítulo nuevo) | `⌘N` |
+| Crear una parte nueva, en el esquema de un proyecto | `⇧⌘N` |
+| Guardar ahora, con un punto de control | `⌘S` |
+| Guardar una versión con nombre | `⇧⌘S` |
+| Deshacer · rehacer | `⌘Z` · `⇧⌘Z` |
+| Cortar · copiar · pegar | `⌘X` · `⌘C` · `⌘V` |
+| Pegar como texto plano | `⇧⌘V` o `⌥⇧⌘V` |
+| Seleccionar todo | `⌘A` |
 | Buscar en este documento | `⌘F` |
-| Buscar y reemplazar en el documento | `⌘⌥F` |
-| Buscar en todos los documentos | `⌘⇧F` |
-| Ir al Inicio de un modo (Escribir, Notas, Diario, en el orden de la barra lateral) | `⌘1`, `⌘2`, `⌘3` |
-| Inicio de este modo | `⌘⇧H` |
-| Atrás · adelante | `⌘[` · `⌘]` |
-| Documento anterior · siguiente en la lista | `⌥⌘←` · `⌥⌘→` |
-| Cambiar de bóveda… | `⌥⌘O` |
-| Abrir bóveda… | `⌘⇧O` |
-| Ajustes (macOS) | `⌘,` |
+| Buscar y reemplazar en este documento | `⌥⌘F` |
+| Buscar en todos los documentos | `⇧⌘F` |
+| Revisar la ortografía, palabra por palabra | `⌘;` |
+| Empezar una línea nueva sin un párrafo nuevo | `⇧↵` |
+| Sangrar · quitar sangría a un elemento de lista | `Tab` · `⇧Tab` |
+| Dejar de escribir en negrita o cursiva | Dos espacios |
+| Mover el documento a la papelera (φ pregunta antes) | `⌘⌫` |
+
+Un pegado normal interpreta el Markdown pegado como formato; **Pegar como texto
+plano** mantiene el texto exactamente como está. Fuera de las listas y las
+tablas, `Tab` escribe una tabulación.
+
+### Mientras escribes {#as-you-type}
+
+| Escribe | Para |
+| --- | --- |
+| `/` | Insertar un bloque: un encabezado, una cita, un verso, una tabla, una plantilla… |
+| `[[` | Enlazar a otro documento |
+| `@` | Mencionar a un personaje |
+
+### En un verso {#in-a-verse}
+
+| Para | Pulsa |
+| --- | --- |
+| Convertir un párrafo en verso, o al revés | `⌥⌘V` |
+| Empezar una línea nueva del verso | `↵` |
+| Salir del verso a un párrafo nuevo | `⌘↵` |
+
+### Enlaces {#links}
+
+| Para | Haz |
+| --- | --- |
+| Seguir un enlace mientras escribes | `⌘`-clic en él |
+| Abrir un documento enlazado junto a este | `⌥⌘`-clic en él |
+| Seguir un enlace en modo lectura | Clic en él (`⌥`-clic lo abre al lado) |
+
+## Formato {#formatting}
+
+| Para | Pulsa |
+| --- | --- |
+| Negrita | `⌘B` |
+| Cursiva | `⌘I` |
+| Subrayado | `⌘U` |
+| Añadir o cambiar un enlace | `⇧⌘K` |
+| Encabezado 1 · 2 · 3 | `⌥⌘1` · `⌥⌘2` · `⌥⌘3` |
+| Volver al texto normal | `⌥⌘0` |
+| Lista con viñetas | `⇧⌘8` |
+| Lista numerada | `⇧⌘7` |
+| Cita | `⇧⌘B` |
+| Bloque de código | `⌥⌘C` |
+| Alinear a la izquierda · centrar · alinear a la derecha | `⇧⌘L` · `⇧⌘E` · `⇧⌘R` |
+| Justificar | `⇧⌘J` |
+
+**Tachado** y **Código en línea** están en el menú **Formato**, y en la barra
+que aparece al seleccionar texto.
+
+## Orientarte {#navigating}
+
+| Para | Pulsa |
+| --- | --- |
+| Buscar un documento | `⌘K` |
+| Abrir la paleta de comandos | `⌘P` |
+| Mostrar la tarjeta de atajos | `⌘/` |
+| Ir atrás · adelante | `⌘[` · `⌘]` |
+| Abrir el documento anterior · siguiente de la lista | `⌥⌘←` · `⌥⌘→` |
+| Ir al Inicio del primer, segundo o tercer modo, en el orden de la barra lateral | `⌘1` · `⌘2` · `⌘3` |
+| Ir al Inicio de este modo | `⇧⌘H` |
+| Cambiar de bóveda | `⌥⌘O` |
+| Abrir una bóveda | `⇧⌘O` |
 
 Los botones laterales del ratón también van atrás y adelante.
 
 ### Ir a {#go-to}
 
-Los atajos de **Ir a** son un acorde: pulsa `⌘G`, suelta y luego pulsa la
-segunda tecla en un par de segundos.
+Pulsa `⌘G`, suelta y luego pulsa la segunda tecla en un par de segundos.
 
-| Ir a | Atajo |
+| Ir a | Pulsa |
 | --- | --- |
-| Inicio de Notas | `⌘G` y luego `N` |
-| Inicio de Escribir | `⌘G` y luego `C` |
-| Inicio del Diario | `⌘G` y luego `J` |
-| Buscar un documento… | `⌘G` y luego `S` |
-| Grafo | `⌘G` y luego `G` |
+| Notas | `⌘G` y luego `N` |
+| Escribir | `⌘G` y luego `C` |
+| Diario | `⌘G` y luego `J` |
+| Buscar un documento | `⌘G` y luego `S` |
+| El grafo | `⌘G` y luego `G` |
 
-## Documentos {#documents}
+### En la paleta `⌘K` {#in-the-k-palette}
 
-| Acción | Atajo |
+| Para | Pulsa |
 | --- | --- |
-| Nuevo: un capítulo, pieza, nota o entrada, según dónde estés | `⌘N` |
-| Nueva parte (en el esquema de un proyecto) | `⌘⇧N` |
-| Cerrar documento (en vista dividida: el panel en el que estás) | `⌘W` |
-| Vista dividida: un panel vacío al lado ([lado a lado](side-by-side.md)) | `⌘\` |
-| Panel anterior · panel siguiente | `⌃⌘←` · `⌃⌘→` |
-| Cerrar los demás paneles | `⌥⌘W` |
-| Guardar ahora, con un punto de control | `⌘S` |
-| Guardar versión… | `⌘⇧S` |
-| Eliminar documento | `⌘⌫` |
-
-`⌘N` crea lo siguiente donde estás: un nuevo capítulo en el esquema de un
-proyecto, una pieza o una nota en la carpeta que tienes abierta, etc. `⌘W` en un
-lugar sin documento (el calendario, el grafo, los tableros, la papelera) te
-lleva de vuelta al Inicio del modo.
-
-## Vista y paneles {#view--panels}
-
-| Acción | Atajo |
-| --- | --- |
-| Panel de Información | `⇧⌘I` |
-| Panel de Información, pestaña Notas | `⇧⌘A` |
-| Diccionario | `⌘⇧D` |
-| Modo lectura | `⌘E` |
-| Santuario (`Esc` también sale) | `⌘.` |
-| Desplazamiento de máquina de escribir | `⇧⌘T` o `⌥⌘T` |
-| Acercar · alejar | `⌘+` · `⌘-` |
-| Barra lateral sobre los paneles, en vista dividida | `⌘0` |
-| Pantalla completa | `⌃⌘F` |
-
-En el grafo, `⇧⌘I` abre los ajustes del grafo en lugar del panel de
-Información.
-
-## Edición {#editing}
-
-| Acción | Atajo |
-| --- | --- |
-| Deshacer | `⌘Z` |
-| Rehacer | `⌘⇧Z` |
-| Cortar · copiar · pegar | `⌘X` · `⌘C` · `⌘V` |
-| Pegar como texto plano | `⇧⌘V` o `⌥⇧⌘V` |
-| Seleccionar todo | `⌘A` |
-| Revisar ortografía… | `⌘;` |
-
-Un pegado normal interpreta el Markdown pegado como formato; **Pegar como texto
-plano** mantiene el texto exactamente como está.
-
-## Formato {#formatting}
-
-| Acción | Atajo |
-| --- | --- |
-| Negrita | `⌘B` |
-| Cursiva | `⌘I` |
-| Subrayado | `⌘U` |
-| Enlace… | `⌘⇧K` |
-| Encabezado 1 · 2 · 3 | `⌘⌥1` · `⌘⌥2` · `⌘⌥3` |
-| Texto normal | `⌘⌥0` |
-| Lista con viñetas | `⌘⇧8` |
-| Lista numerada | `⌘⇧7` |
-| Cita | `⌘⇧9` |
-| Alinear a la izquierda | `⌘⇧L` |
-| Centrar | `⌘⇧E` |
-| Alinear a la derecha | `⌘⇧R` |
-| Justificar | `⌘⇧J` |
-
-**Tachado** y **Código en línea** están en el menú **Formato**, y tras **›** en
-la barra que aparece al seleccionar texto.
-
-## En la paleta `⌘K` {#in-the-k-palette}
-
-| Acción | Atajo |
-| --- | --- |
-| Moverse por los resultados | `↑` · `↓` |
+| Moverte por los resultados | `↑` · `↓` |
 | Abrir el resultado resaltado | `↵` |
 | Abrirlo y mantener la paleta abierta, para abrir varios | `⌘↵` |
-| Abrirlo al lado del documento en el que estás | `⌥↵` |
+| Abrirlo junto al documento en el que estás | `⌥↵` |
 | Cerrar el documento abierto resaltado | `⌘W` |
 | Cerrar la paleta | `Esc` |
 
-## En el esquema de un proyecto {#in-a-projects-outline}
+### En el esquema de un proyecto {#in-a-projects-outline}
 
-En la lista junto a los capítulos de un proyecto:
+En la lista de capítulos de un proyecto:
 
-| Acción | Atajo |
+| Para | Pulsa |
 | --- | --- |
 | Renombrar el capítulo abierto | `↵` |
 | Mover un capítulo arriba · abajo dentro de su parte | `⌥↑` · `⌥↓` |
+
+## Ventanas y paneles {#windows--panels}
+
+| Para | Pulsa |
+| --- | --- |
+| Mostrar u ocultar el panel de Información | `⇧⌘I` |
+| Abrir las Notas del panel de Información | `⇧⌘A` |
+| Abrir el diccionario | `⇧⌘D` |
+| Cambiar entre leer y editar | `⌘E` |
+| Entrar en Santuario o salir | `⌘.` (`Esc` también sale) |
+| Desplazamiento de máquina de escribir | `⇧⌘T` o `⌥⌘T` |
+| Cerrar el documento (en vista dividida, el panel en el que estás) | `⌘W` |
+| Vista dividida: abrir un panel junto a este documento | `⌘\` |
+| Ir al panel anterior · siguiente | `⌃⌘←` · `⌃⌘→` |
+| Cerrar los demás paneles | `⌥⌘W` |
+| Mostrar la barra lateral sobre los paneles, en vista dividida | `⌘0` |
+| Acercar · alejar | `⌘+` · `⌘-` |
+| Pantalla completa | `⌃⌘F` |
+| Abrir los Ajustes | `⌘,` |
+| Minimizar la ventana | `⌘M` |
+| Ocultar φ · ocultar las demás apps | `⌘H` · `⌥⌘H` |
+| Salir | `⌘Q` |
+
+En el grafo, `⇧⌘I` muestra los ajustes del grafo en lugar del panel de
+Información. `⌘W` en un lugar sin documento abierto, como el calendario o un
+tablero, te lleva de vuelta al Inicio del modo.
+
+## En Windows y Linux {#on-windows-and-linux}
+
+Lee ⌘ como **Ctrl**, ⌥ como **Alt** y ⇧ como **Mayús**: `⇧⌘F` es
+**Ctrl + Mayús + F**, y `⌥⌘F` es **Ctrl + Alt + F**. Estos cambian:
+
+| Para | Pulsa |
+| --- | --- |
+| Mover el documento a la papelera | **Supr** |
+| Ir al panel anterior · siguiente | **Ctrl + Alt + Mayús + ←** · **→** |
+| Rehacer | **Ctrl + Mayús + Z** o **Ctrl + Y** |
+| Pantalla completa | **F11** |
+| Abrir los Ajustes | El botón de los controles deslizantes en la parte superior de la barra lateral (sin atajo) |
+
+Ocultar φ y las demás apps solo existe en el Mac.
+
+## Consulta también {#see-also}
+
+- [Cómo orientarte](./finding-your-way)
+- [Formato y bloques](./formatting-and-blocks)
+- [Lado a lado](./side-by-side)
+- [Ajustes](./settings)

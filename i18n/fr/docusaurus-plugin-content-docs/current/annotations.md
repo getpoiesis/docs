@@ -1,97 +1,89 @@
 ---
-title: Annotations
+title: Annotations et notes en marge
+description: Surlignez un passage, dites-en quelque chose, et gardez à côté du texte des notes sur le document entier.
 ---
 
-# Annotations
+# Annotations et notes en marge
 
-Les annotations vous permettent de marquer un passage et d'en dire quelque
-chose : un surlignage pour le signaler, un commentaire pour vous rappeler
-pourquoi. Elles vivent avec le document, si bien que vos notes pour vous-même
-voyagent avec le brouillon.
+Une **annotation** marque un passage et en dit quelque chose : un surlignage
+pour le signaler, un commentaire pour vous rappeler pourquoi. Une **note en
+marge** porte plutôt sur le document entier, comme un rappel de ce qu’il manque
+encore au chapitre. Les deux restent avec le document, si bien que vos notes
+pour vous-même voyagent avec le brouillon.
 
-<img src="/img/app/annotations-light.png" alt="Un chapitre avec deux surlignages et leurs notes, à côté d'une note en marge" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/annotations-dark.png" alt="Un chapitre avec deux surlignages et leurs notes, à côté d'une note en marge" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/annotations-light.png" alt="Un chapitre avec un passage surligné, et l’onglet Notes du panneau Infos montrant une note en marge et deux annotations avec leurs commentaires" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/annotations-dark.png" alt="Un chapitre avec un passage surligné, et l’onglet Notes du panneau Infos montrant une note en marge et deux annotations avec leurs commentaires" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Surligner un passage {#highlighting-a-passage}
+## Annoter un passage {#annotate-a-passage}
 
-Sélectionnez du texte. La barre d'outils contextuelle apparaît ; cliquez sur la
-pastille de couleur (**Surligner et commenter**) pour ouvrir son menu, puis
-choisissez une couleur. Le texte sélectionné reçoit un surlignage doux de cette
-couleur.
+1. Sélectionnez le texte.
+2. Dans la barre d’outils qui apparaît, cliquez sur la pastille de couleur
+   (**Surligner et commenter**) et choisissez une couleur. Ou cliquez sur
+   **Commenter (sans surlignage)** pour laisser le texte sans teinte.
+3. Le panneau Infos s’ouvre sur son onglet **Notes**, avec la nouvelle
+   annotation prête. Écrivez votre commentaire dans sa case.
 
-Il y a cinq couleurs prédéfinies : **Jaune**, **Vert**, **Bleu**, **Violet** et
-**Orange**. Elles sont translucides, et se lisent donc bien avec les thèmes
-clairs comme sombres. À côté, **Couleur personnalisée** ouvre le sélecteur de
-couleur du système pour que vous choisissiez la couleur de votre choix.
+Il y a cinq couleurs, **Jaune**, **Vert**, **Bleu**, **Violet** et
+**Orange**, assez douces pour se lire avec les thèmes clairs comme sombres.
+**Couleur personnalisée** ouvre le sélecteur de couleur du système pour
+n’importe quelle autre.
 
-Pour retirer un surlignage, sélectionnez le texte surligné, ouvrez le même menu
-et choisissez **Retirer le surlignage**.
+Pour retirer un surlignage, sélectionnez le texte, rouvrez le menu de la
+pastille et choisissez **Retirer le surlignage**.
 
-## Un commentaire sans surlignage {#a-comment-without-a-highlight}
+## Retrouver vos notes {#find-your-notes}
 
-Parfois, vous voulez noter quelque chose sans colorer le texte. Sélectionnez-le
-et cliquez sur **Commenter (sans surlignage)** dans la barre d'outils
-contextuelle. φ attache un commentaire à la sélection sans la teinter.
+Tout ce qui est écrit à côté d’un document se trouve dans l’onglet **Notes**
+du panneau Infos. Ouvrez-le avec `⇧⌘A`, depuis **Notes** dans le **⋮** du
+document, ou d’un clic droit dans le texte en choisissant **Annotations**.
 
-Dans les deux cas, le Panneau d’infos s'ouvre sur son onglet **Notes** avec la
-nouvelle annotation prête à recevoir votre texte. Chaque surlignage peut aussi
-porter un commentaire ; les deux fonctionnent ensemble.
+L’onglet a deux parties : les **Notes en marge** en haut, puis les
+**Annotations**.
 
-## L'onglet Notes {#the-notes-tab}
+## Travailler avec une annotation {#work-with-an-annotation}
 
-Toutes les notes d'un document pour lui-même se trouvent dans l'onglet
-**Notes** du Panneau d’infos. Ouvrez-le avec `⇧⌘A`, depuis **Notes** dans le
-menu ⋮ du document, ou en ouvrant le Panneau d’infos (`⇧⌘I`) et en choisissant
-l'onglet. Vous pouvez aussi y accéder par un clic droit dans le texte en
-choisissant **Annotations**.
+Chaque annotation est une carte avec le passage qu’elle marque, sa couleur et
+votre commentaire. Depuis une carte, vous pouvez :
 
-L'onglet comporte trois sections : notes en marge, annotations et actions.
+| Pour | Faites ceci |
+| --- | --- |
+| Aller au passage | Cliquez sur la citation. φ y fait défiler le texte et le sélectionne. |
+| Écrire ou modifier le commentaire | Tapez dans la case de la carte (**Ajouter une note…**). |
+| Changer sa couleur | Choisissez une autre couleur, **Couleur personnalisée**, ou **Sans surlignage (commentaire)** pour ne garder que le commentaire. |
+| La marquer comme traitée | Cliquez sur la coche (**Marquer comme résolue**). Les annotations résolues sont estompées mais conservées ; **Marquer comme non résolue** en ramène une. |
+| La supprimer | Cliquez sur la corbeille (**Supprimer l’annotation**). |
 
-### Notes en marge {#margin-notes}
+Dès qu’un document a des annotations, **Rechercher des annotations…** les
+retrouve par le passage ou par votre commentaire, et le menu à côté affiche
+**Toutes**, **Surlignages**, **Commentaires**, **Ouvertes** ou **Résolues**.
 
-Les notes en marge portent sur le document entier plutôt que sur une phrase
-précise : un rappel de ce qui manque encore au chapitre, une question pour le
-prochain brouillon. Cliquez sur **Ajouter une note en marge** et écrivez dans la
-zone (**Écrivez une note sur ce document…**). Chacune dispose d'un bouton
-**Supprimer la note en marge**.
+### Quand le texte a disparu {#when-the-text-is-gone}
 
-### Annotations {#annotations}
+Si le passage qu’une annotation marquait disparaît au fil des modifications,
+l’annotation est conservée et marquée **Détachée du texte**. Sélectionnez un
+nouveau passage et cliquez sur **Relier à la sélection** pour l’y ancrer.
 
-Chaque annotation apparaît sous forme de carte avec le texte cité, sa couleur et
-une zone pour votre commentaire. Depuis une carte, vous pouvez :
+## Écrire une note en marge {#write-a-margin-note}
 
-- **Aller au texte** : cliquez sur la citation pour faire défiler l'éditeur
-  jusqu'à ce passage et le sélectionner.
-- **Écrire ou modifier le commentaire** : tapez dans la zone de note de la
-  carte.
-- **Changer la couleur** : choisissez une autre couleur prédéfinie, une
-  **Couleur personnalisée** ou **Sans surlignage (commentaire)**.
-- **Résoudre** : cliquez sur la coche pour **Marquer comme résolue**. Les
-  annotations résolues sont estompées mais conservées ; **Marquer comme non
-  résolue** en fait revenir une.
-- **Supprimer** : l'icône de corbeille (**Supprimer l’annotation**).
+1. Ouvrez l’onglet **Notes** (`⇧⌘A`).
+2. Cliquez sur **+** à côté de **Notes en marge** (**Ajouter une note en
+   marge**).
+3. Écrivez dans la case (**Écrivez une note sur ce document…**).
 
-Dès qu'un document comporte des annotations, une zone de recherche
-(**Rechercher des annotations…**) les filtre selon le texte cité ou votre
-commentaire, et un menu à côté affiche **Toutes**, **Surlignages**,
-**Commentaires**, **Ouvertes** ou **Résolues**.
+Chaque note en marge indique quand vous l’avez écrite, et son icône de
+corbeille (**Supprimer la note en marge**) la retire.
 
-#### Annotations détachées {#detached-annotations}
+:::note Où elles sont gardées
 
-Si le texte visé par une annotation disparaît au fil des modifications,
-l'annotation est conservée et marquée **Détachée du texte**. Sélectionnez un
-nouveau passage et cliquez sur **Relier à la sélection** pour l'y ancrer.
+Les annotations et les notes en marge font partie du fichier même du document.
+Copiez ou sauvegardez le fichier et elles viennent avec, et rien ne quitte
+votre ordinateur.
 
-### Actions {#action-items}
+:::
 
-La dernière section liste les éléments de liste de tâches du document qui
-peuvent être suivis sur un tableau, pour qu'une tâche écrite dans une note
-puisse devenir une carte. Voir [Tableaux](boards.md).
+## Voir aussi {#see-also}
 
-## Comment les annotations sont stockées {#how-annotations-are-stored}
-
-Les annotations font partie du document. Le surlignage est une marque dans le
-texte du document, et le commentaire, la couleur et l'état de résolution sont
-enregistrés dans le même fichier `.poiesis`, avec vos notes en marge. Rien
-n'est stocké à part et rien ne quitte votre ordinateur : copiez ou sauvegardez
-le fichier, et ses annotations l'accompagnent.
+- [Tableaux](./boards) : les éléments de liste de tâches que vous pouvez suivre
+  sur un tableau se trouvent dans l’onglet **Tâches**.
+- [L’éditeur](./the-editor)
+- [Versions et sauvegarde](./versions-and-backup)

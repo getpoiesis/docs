@@ -37,7 +37,7 @@ de página del PDF: Carta, A4, A5, Digest o Trade. Los demás formatos se adapta
 
 Una **Copia del proyecto** es un archivo `.poiesis` que contiene el proyecto,
 sus documentos y sus imágenes. Para abrirlo en otra bóveda, usa **Importar un
-documento φ (.poiesis)…** en la paleta de comandos ([Importar](./importing)).
+documento φ (`.poiesis`)…** en la paleta de comandos ([Importar](./importing)).
 
 ## Ver también {#see-also}
 

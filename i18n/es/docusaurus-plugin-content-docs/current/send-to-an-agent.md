@@ -33,7 +33,7 @@ Word, unos pocos quieren PDF y algunos piden solo los primeros capítulos.
 - **Las demás páginas:** 12 pt, doble espacio, márgenes de una pulgada, párrafos
   con sangría de media pulgada y «Apellido / PALABRA CLAVE / página» arriba a la
   derecha. La palabra clave es la primera palabra principal del título, en
-  mayúsculas («The Salt Road» da SALT).
+  mayúsculas («The Weighing House» da WEIGHING).
 - **Los capítulos** empiezan en una página nueva, a un tercio de altura.
 - **Los cambios de escena** son un `#` centrado, y el manuscrito termina con END.
 - **La cursiva se queda en cursiva.** La vieja norma de subrayarla viene de las

@@ -10,8 +10,8 @@ les écrivez. **Vers** place vos lignes à la marge même du texte, avec vos
 retours à la ligne, vos strophes et vos retraits, et chaque export les imprime
 de la même façon.
 
-<img src="/img/app/poem-light.png" alt="Un poème sur la page : une épigraphe avec sa source, deux strophes en vers à la marge du texte, un saut de scène entre elles et un exergue en dessous" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/poem-dark.png" alt="Un poème sur la page : une épigraphe avec sa source, deux strophes en vers à la marge du texte, un saut de scène entre elles et un exergue en dessous" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/poem-light.png" alt="Un poème sur la page : une épigraphe avec sa source, deux strophes en vers à la marge du texte, un saut de scène entre elles et un exergue en dessous" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/poem-dark.png" alt="Un poème sur la page : une épigraphe avec sa source, deux strophes en vers à la marge du texte, un saut de scène entre elles et un exergue en dessous" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Écrire un poème {#write-a-poem}
 
@@ -45,7 +45,7 @@ partout ailleurs.
 
 ## Transformer de la prose en vers, et inversement {#turn-prose-into-verse-and-back}
 
-Vous avez déjà écrit le poème en paragraphes ? Sélectionnez-les et choisissez
+Vous avez déjà écrit le poème en paragraphes ? Sélectionnez-les et choisissez
 **Vers** (`/verse` ou `⌥⌘V`). Chaque paragraphe devient une ligne, et un
 paragraphe vide devient un saut de strophe. Recommencez dans les vers et chaque
 ligne redevient un paragraphe à part entière.
@@ -53,7 +53,7 @@ ligne redevient un paragraphe à part entière.
 ## Ouvrir sur une épigraphe {#open-with-an-epigraph}
 
 Tapez `/epigraph` pour une citation d’ouverture. Écrivez la citation, puis sa
-source dans le champ d’attribution en dessous ; `↓` depuis la dernière ligne de
+source dans le champ d’attribution en dessous ; `↓` depuis la dernière ligne de
 la citation vous y amène.
 
 Une épigraphe pour tout le livre a sa place dans les
@@ -62,9 +62,9 @@ part.
 
 ## Mettre une ligne en valeur {#set-a-line-apart}
 
-- **Exergue** (`/pull-quote`) : une ligne composée en grand, pour une phrase
+- **Exergue** (`/pull-quote`) : une ligne composée en grand, pour une phrase
   sur laquelle vous voulez que le lecteur s’arrête.
-- **Saut de scène** (`/scene`) : un ornement centré entre les sections :
+- **Saut de scène** (`/scene`) : un ornement centré entre les sections :
   **Astérisme** ⁂, **Étoiles** \* \* \*, **Fleuron** ❧ ou **Espace vide**.
   Pointez-le pour en changer. Dans un livre exporté, chaque saut prend
   l’ornement de la maquette, que vous pouvez changer sous **Ajuster la
@@ -82,14 +82,14 @@ part.
 Donnez à un projet le type **Poésie** et il sera fait de **Poèmes**, groupés en
 **Parties**. Réglez-le sous **Réglages → Type** sur la page du projet, ou
 choisissez **Poésie** quand l’Accueil d’Écrire propose **Commencer un projet**.
-Tout le reste fonctionne comme pour n’importe quel projet : organisez les
+Tout le reste fonctionne comme pour n’importe quel projet : organisez les
 poèmes dans **Sommaire**, placez une dédicace dans les pages liminaires, fixez
 un objectif.
 
 ## Exporter avec la maquette Poésie {#export-with-the-poetry-design}
 
 Sur la page **Exporter** du projet, sous **Livre imprimé** ou **Livre
-numérique**, choisissez la maquette **Poésie**. Elle compose les vers en vers :
+numérique**, choisissez la maquette **Poésie**. Elle compose les vers en vers :
 lignes conservées, rien de justifié ni de coupé, pas de retrait de première
 ligne, chaque poème commençant sur une nouvelle page avec de l’espace autour.
 

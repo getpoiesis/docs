@@ -1,134 +1,87 @@
 ---
 title: Notes de bas de page et citations
+description: Des notes en bas de page, des sources créditées dans le texte, et une bibliographie construite à partir d’elles.
 ---
 
 # Notes de bas de page et citations
 
-Quand votre écriture a besoin d'un appareil critique (un aparté en bas de page,
-une source créditée dans le texte, une liste de références à la fin), φ l'a
-intégré. Les notes de bas de page et les citations font partie du document :
-elles survivent donc à chaque export et arrivent au bon endroit dans le livre
-terminé.
+Quand un livre a besoin d’un appareil critique (un aparté en bas de page, une
+source créditée dans le texte, une liste des ouvrages cités), φ l’a intégré.
+Les notes de bas de page et les citations font partie du document : elles
+arrivent donc dans chaque export, là où un lecteur les attend.
 
-<img src="/img/app/footnotes-light.png" alt="Des appels de note dans la prose, listés dans le panneau à côté" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/footnotes-dark.png" alt="Des appels de note dans la prose, listés dans le panneau à côté" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-light.png" alt="Un chapitre avec un appel de note dans son texte, et le Plan du panneau Infos qui liste les deux notes de bas de page du chapitre" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/footnotes-dark.png" alt="Un chapitre avec un appel de note dans son texte, et le Plan du panneau Infos qui liste les deux notes de bas de page du chapitre" width="1600" height="1000" loading="lazy" decoding="async" />
 
-:::note
-Les notes de bas de page, les citations et la bibliographie sont des outils de
-manuscrit : elles sont donc proposées dans les documents qui appartiennent à un
-[projet](collections.md). Elles n'apparaissent pas dans le menu slash d'une
-note, d'un texte hors projet ou d'une entrée de journal.
-:::
+## Ajouter une note de bas de page {#add-a-footnote}
 
-## Notes de bas de page {#footnotes}
+1. Placez le curseur là où doit aller l’appel de note.
+2. Tapez `/footnote` et appuyez sur `Enter`.
+3. Écrivez la note dans la zone **Note de bas de page** et validez.
 
-Une note de bas de page est un petit repère numéroté dans votre texte auquel
-une note est attachée. Le repère n'affiche que le numéro ; le texte de la note
-est gardé à part pour ne jamais couper la ligne que vous lisez.
+Un petit numéro apparaît dans le texte. φ numérote les notes dans l’ordre :
+ajoutez-en une plus tôt dans le document et celles qui suivent se renumérotent
+d’elles-mêmes.
 
-### Insérer une note de bas de page {#inserting-a-footnote}
+Les notes de bas de page, les citations et la bibliographie sont proposées dans
+les documents qui appartiennent à un [projet](./collections), pas dans les
+notes, les textes hors projet ni le journal.
 
-Tapez `/footnote` et appuyez sur `Enter`. φ vous demande le texte de la **Note
-de bas de page** ; tapez-le et validez, et un repère numéroté apparaît au
-curseur. La numérotation est automatique et reste dans l'ordre : insérez une
-note plus tôt dans le document et tout ce qui suit se renumérote tout seul.
+## Lire et modifier vos notes {#read-and-edit-your-footnotes}
 
-Survolez un repère pour lire sa note. Cliquez sur le repère pour modifier le
-texte.
+Survolez un appel de note pour lire sa note, et cliquez dessus pour en modifier
+le texte.
 
-### La liste des notes {#the-footnote-list}
+Chaque note de bas de page est aussi listée dans le panneau Infos (`⌘⇧I`), sur
+**Plan**, sous **Notes de bas de page** :
 
-Toutes les notes de bas de page du document sont listées dans le Panneau
-d’infos (`⇧⌘I`), dans l'onglet **Plan**, sous **Notes de bas de page · N** :
+- Tapez dans la zone d’une note (**Texte de la note…**) pour la modifier.
+- Cliquez sur son numéro (**Aller au repère**) pour la retrouver dans le texte.
+- La corbeille (**Supprimer la note**) la retire, et les autres se
+  renumérotent.
 
-- **Modifiez** une note en tapant dans sa zone (**Texte de la note…**).
-- **Aller au repère** : cliquez sur son numéro pour y aller dans le texte, ce
-  qui est utile dans un long document.
-- **Supprimer la note** : l'icône de corbeille. Les notes restantes se
-  renumérotent automatiquement.
+## Citer une source {#cite-a-source}
 
-Tant qu'il n'y a aucune note, la liste indique **Aucune note de bas de page.
-Insérez-en une avec /footnote.** En mode lecture, elle est en lecture seule.
+1. Tapez `/citation` et appuyez sur `Enter`. **Citer une source** s’ouvre.
+2. Choisissez une source dans la liste, ou cherchez-la avec **Rechercher des
+   sources…**.
+3. Pour une nouvelle source, choisissez **Nouvelle source**, remplissez
+   **Auteur** (sous la forme *Smith, Jane*), **Titre**, **Année** et **URL
+   (facultatif)**, puis **Ajouter et citer**.
 
-### Comment les notes s'exportent {#how-footnotes-export}
+La citation apparaît dans le texte au format auteur–année, comme *(Smith,
+2020)*. Une source n’a besoin que d’un auteur ou d’un titre.
 
-L'endroit où arrive une note de bas de page dépend du format :
+Cliquez sur une citation pour la modifier. La boîte de dialogue s’ouvre en
+**Modifier la source** : modifiez les informations et cliquez sur
+**Enregistrer** (toutes les citations de cette source suivent), choisissez une
+autre source, ou **Supprimer la source**. Une citation dont la source a disparu
+s’affiche *(?)*, pour qu’on la repère facilement.
 
-- **PDF** : en bas de la page où se trouve son repère, comme dans un livre
-  imprimé.
-- **Word** et **RTF** : de vraies notes de bas de page, que le traitement de
-  texte place et numérote lui-même.
-- **EPUB** : des notes que les liseuses affichent dans une fenêtre surgissante
-  quand vous touchez le repère.
-- **HTML** : regroupées en notes de fin, chacune reliée à son repère.
-- **Markdown** : écrites en ligne sous la forme `^[la note]`.
+Chaque document garde sa propre liste de sources. Quand vous exportez le
+projet, les listes de tous ses documents sont réunies : une citation trouve
+donc sa source où que celle-ci ait été ajoutée dans le livre.
 
-Quand vous exportez un projet entier, le style d'export décide si les notes vont
-en bas de page ou sont regroupées à la fin, et si la numérotation court tout au
-long du livre ou recommence à chaque chapitre. Voir
-[Exporter](exporting.md).
+## Ajouter une bibliographie {#add-a-bibliography}
 
-## Citations {#citations}
+Tapez `/bibliography` là où la liste doit aller. Elle ne liste que les sources
+que vous avez citées, par ordre alphabétique du nom de famille, chacune sous la
+forme *Auteur. (Année). Titre. URL*, et elle se met à jour à mesure que vous
+citez. Dans un PDF ou un fichier Word, la bibliographie commence sur une page à
+part.
 
-Une citation crédite une source au format auteur–année, comme `(Smith, 2020)`,
-tirée d'une petite **bibliothèque de sources** conservée avec le document. Vous
-construisez la bibliothèque au fil de l'écriture, puis vous réutilisez ses
-sources.
+## Comment elles s’exportent {#how-they-export}
 
-### Ajouter une citation {#adding-a-citation}
-
-Tapez `/citation` et appuyez sur `Enter`. La boîte de dialogue **Citer une
-source** s'ouvre :
-
-- **Choisissez une source existante** dans la liste pour la citer au curseur.
-  Les sources sont triées par nom de famille de l'auteur, et **Rechercher des
-  sources…** filtre par auteur, titre ou année.
-- **Ajoutez une nouvelle source** avec **Nouvelle source**. Remplissez
-  **Auteur** (p. ex. `Smith, Jane`), **Titre**, **Année** et **URL
-  (facultatif)**, puis cliquez sur **Ajouter et citer**. La source est
-  enregistrée dans la bibliothèque et la citation est insérée en une seule
-  étape.
-
-Il suffit d'un auteur *ou* d'un titre pour enregistrer une source.
-
-### Modifier et gérer les sources {#editing-and-managing-sources}
-
-Cliquez sur n'importe quelle citation dans le texte pour rouvrir la boîte de
-dialogue en mode **Modifier la source**. De là, vous pouvez :
-
-- **Modifier les informations de la source** et **Enregistrer**. Toutes les
-  citations qui pointent vers la source se mettent à jour.
-- **Faire pointer la citation vers une autre source** en en choisissant une
-  autre dans la liste.
-- **Supprimer la source** pour la retirer de la bibliothèque.
-- **Annuler** pour tout laisser tel quel.
-
-Une citation dont la source a été supprimée s'affiche sous la forme `(?)`, pour
-qu'on la repère facilement.
-
-### Une bibliothèque par document, une bibliographie par livre {#one-library-per-document-one-bibliography-per-book}
-
-La boîte de dialogue liste les sources du document où vous vous trouvez. Quand
-vous exportez un projet entier, en revanche, les sources de tous ses documents
-sont réunies en une seule bibliothèque : une citation se résout donc où que sa
-source ait été ajoutée dans le livre, et la bibliographie liste tout ce que le
-livre cite.
-
-## La bibliographie {#the-bibliography}
-
-Une bibliographie est une liste de références construite à partir de vos
-citations ; vous ne la tapez jamais à la main. Tapez `/bibliography` et appuyez
-sur `Enter` pour placer le bloc.
-
-La liste ne comprend que les sources que vous avez réellement citées, chacune
-au format `Auteur. (Année). Titre. URL` et triées par ordre alphabétique du nom
-de famille de l'auteur. Les sources de la bibliothèque que vous n'avez pas
-citées n'apparaissent pas. Citez une nouvelle source et elle rejoint la liste.
-
-Dans un export PDF ou Word, **la bibliographie commence sur une page à part**.
+| Format | Notes de bas de page |
+| --- | --- |
+| **Livre imprimé et PDF** | En bas de la page où se trouve leur appel de note. |
+| **Word** et **Texte enrichi** | De vraies notes de bas de page, placées et numérotées par le traitement de texte. |
+| **Livre numérique** | Des notes que les applis de lecture ouvrent quand on touche l’appel de note. |
+| **Page web** | Regroupées à la fin, chacune reliée à son appel de note. |
+| **Markdown** | Écrites dans le texte sous la forme `^[la note]`. |
 
 ## Voir aussi {#see-also}
 
-- [Exporter](exporting.md) : comment les notes de bas de page, les citations et
-  la bibliographie s'affichent dans chaque format.
-- [Projets](collections.md) : exporter un livre entier.
+- [Mise en forme et blocs](./formatting-and-blocks)
+- [Projets](./collections)
+- [Comment fonctionne l’export](./exporting)

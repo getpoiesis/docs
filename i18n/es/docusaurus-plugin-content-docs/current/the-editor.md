@@ -1,173 +1,156 @@
 ---
 title: El editor
+description: La página en la que escribes, la barra de herramientas de selección, el menú de barra y el menú ⋮ del documento.
 ---
 
 # El editor
 
 La página es donde escribes, y φ la mantiene en silencio: un título, tus
-palabras y controles que solo aparecen cuando los buscas. Esta página cubre la
-página en sí, el guardado, la barra de herramientas de selección, el menú de
-barra, el menú ⋮ del documento y el movimiento entre documentos.
+palabras y unos pocos controles que solo aparecen cuando los buscas. Todo lo
+demás sobre un documento espera en sus menús y en su panel de Información hasta
+que lo necesites.
 
-<img src="/img/app/editor-light.png" alt="Un capítulo abierto en el editor, con su panel a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/editor-dark.png" alt="Un capítulo abierto en el editor, con su panel a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/editor-light.png" alt="Un capítulo abierto en la página, con los capítulos del proyecto en la lista de al lado y los botones de la página arriba a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/editor-dark.png" alt="Un capítulo abierto en la página, con los capítulos del proyecto en la lista de al lado y los botones de la página arriba a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## La página {#the-page}
+## Escribe algo {#write-something}
 
-En la parte superior de la página está el **título** del documento y, debajo, tu
-texto. El título es como se llama el documento en todas partes: en la lista, en
-la búsqueda, en `⌘K` y en los enlaces.
+1. Pulsa `⌘N` para un documento nuevo, o elige uno en la lista.
+2. Escribe un título arriba. Es el nombre del documento en todas partes: en la
+   lista, en la búsqueda y en los enlaces.
+3. Escribe debajo. φ guarda sobre la marcha.
+4. Escribe `/` en una línea vacía para un encabezado, una lista, una cita o
+   cualquier otro bloque.
+5. Selecciona palabras para ver la barra de herramientas: negrita, cursiva, un
+   enlace, un resaltado, un comentario.
 
-Todo lo demás sobre un documento (su estado, su sinopsis, su meta de palabras,
-sus etiquetas, su color, su estrella y dónde vive) se guarda fuera de la página,
-en **Detalles…**. Ábrelo desde el menú ⋮ del documento, arriba a la derecha, o
-haz clic derecho en el documento en la lista.
+## Los botones sobre la página {#the-buttons-above-the-page}
 
-En la esquina inferior derecha de la página está el **recuento de palabras** (o
-«palabras de la meta», si has fijado una). Haz clic en él para ver las
-**Estadísticas del documento**: palabras, caracteres, oraciones, tiempo de
-lectura y tus totales de la bóveda. Las notas no muestran recuento, porque una
-nota no se escribe hacia una extensión.
+Arriba a la derecha de la página hay unos pocos botones:
 
-## Guardado automático {#autosave}
+| Botón | Qué hace |
+| --- | --- |
+| **Vista dividida** (`⌘\`) | Abre un segundo panel junto a la página. Consulta [Lado a lado](./side-by-side). |
+| **⋮** | El menú del documento, más abajo. |
+| **Detalles…** (ⓘ) | El estado del documento, su sinopsis, su meta de palabras, sus etiquetas, su color, su estrella y dónde vive. |
+| **Información** (`⌘⇧I`) | El panel de Información: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. |
+| **Santuario** (`⌘.`) | Todo desaparece salvo la página. Consulta [Concentración y Santuario](./focus-and-writing-modes). |
 
-Nunca tienes que guardar. Mientras escribes, φ guarda tu trabajo automáticamente
-un momento después de que te detienes. Cada guardado es **atómico y
-verificado**: φ escribe en un archivo temporal, lo vuelve a leer para confirmar
-que los bytes llegaron y solo entonces lo pone en su lugar. Un cierre inesperado
-o un disco lleno no pueden dejarte con un documento a medio escribir.
+El recuento de palabras está en la esquina inferior derecha de la página, junto
+a la meta cuando el documento tiene una. Haz clic en él para abrir el
+**Esquema** del panel de Información, con las palabras y el tiempo de lectura;
+vuelve a hacer clic para ver las estadísticas completas del documento. Las notas
+no muestran recuento, porque una nota no se escribe hacia una extensión.
 
-Si quieres guardar *ahora mismo*, por ejemplo justo antes de apartarte, pulsa
-`⌘S`. Eso escribe el documento actual de inmediato y además registra un punto de
-control de versión, para que tengas un punto explícito al que volver. Para
-guardar una versión con nombre, usa **Guardar versión…** (`⌘⇧S`). Consulta
-[Versiones y copias de seguridad](versions-and-backup.md).
+## Guardar {#saving}
 
-## La barra de herramientas flotante {#the-bubble-toolbar}
+Nunca tienes que guardar. φ guarda un momento después de que dejas de escribir.
+Cada guardado se escribe en un archivo temporal, se vuelve a leer para
+comprobarlo y solo entonces se pone en su lugar, así que un cierre inesperado o
+un disco lleno no pueden dejar un documento a medio escribir.
 
-Selecciona un texto y una pequeña barra de herramientas flota sobre él. Siempre
-contiene lo poco para lo que suele servir una selección:
+`⌘S` guarda al instante y además registra una versión a la que puedes volver.
+Para ponerle nombre a una versión, usa **Guardar versión…** (`⌘⇧S`). Consulta
+[Versiones y copias de seguridad](./versions-and-backup).
 
-- **Negrita** (`⌘B`), **Cursiva** (`⌘I`) y **Subrayado** (`⌘U`)
-- **Encabezado**: convierte la línea en un encabezado, o de nuevo en texto
-- **Enlace**: pide una dirección web y enlaza la selección. Consulta
-  [Enlaces](formatting-and-blocks.md#links).
-- **Resaltar y comentar** (la muestra de color): elige un color para resaltar la
-  selección, elige un **Color personalizado** o **Quitar resaltado**
-- **Comentar (sin resaltado)**: adjunta un comentario a la selección sin
-  colorearla
+## Dar formato a una selección {#format-a-selection}
 
-Los resaltados y los comentarios se convierten en anotaciones; consulta
-[Anotaciones](annotations.md).
+Selecciona un texto y una pequeña barra de herramientas flota sobre él:
 
-El botón **›** del final (**Más herramientas**) abre el resto a su lado:
+- **Negrita** (`⌘B`), **Cursiva** (`⌘I`) y **Subrayado** (`⌘U`).
+- **Encabezado**: convierte la línea en un encabezado, o de nuevo en texto.
+- **Enlace**: pide una dirección web.
+- **Resaltar y comentar** (la muestra de color): un color, un **Color
+  personalizado** o **Quitar resaltado**.
+- **Comentar (sin resaltado)**: un comentario sobre las palabras sin
+  colorearlas.
 
-- **Tachado** y **Código en línea**
-- **Alinear a la izquierda**, **Centrar**, **Alinear a la derecha** y
-  **Justificar**
-- **Buscar palabra**: abre el [diccionario](dictionary.md) con la selección
-- **Guardar selección como plantilla…**: guarda el pasaje seleccionado como
-  [plantilla](templates.md)
+**Más herramientas** (› al final) abre el resto: **Tachado**, **Código en
+línea**, **Alinear a la izquierda**, **Centrar**, **Alinear a la derecha**,
+**Justificar**, **Buscar palabra** (el [diccionario](./dictionary)) y **Guardar
+selección como plantilla…**.
 
-Pulsa `Esc` para cerrar la barra de herramientas. No aparece en el
-[modo lectura](#reading-mode) ni en las páginas matutinas, que son
-deliberadamente despojadas.
+Los resaltados y los comentarios se guardan como
+[anotaciones](./annotations). `Esc` cierra la barra de herramientas. No aparece
+en el modo lectura ni en las páginas matinales.
 
-## El menú de barra {#the-slash-menu}
+## Insertar un bloque {#insert-a-block}
 
-Para insertar un bloque (un encabezado, una lista, una cita, una imagen y más),
-escribe **`/`** en cualquier punto de una línea. Se abre un menú; sigue
-escribiendo para acotarlo y luego pulsa `Enter` o haz clic para insertar.
+Escribe `/` y una palabra para acotar el menú, y pulsa `Enter`. Un espacio
+cierra el menú, así que escribe una sola palabra: `/heading`, `/quote`,
+`/table`, `/image`, `/date`, `/scene`, `/verse`, `/footnote`. Tus propias
+[plantillas](./templates) también están en el menú, por su nombre.
 
-Escribe una sola palabra tras la barra, porque un espacio cierra el menú. Por
-ejemplo:
+También puedes apuntar al borde izquierdo de una línea y hacer clic en el **+**
+que aparece (**Insertar bloque debajo (/)**).
 
-- `/heading` o `/h1`, `/h2`, `/h3`
-- `/bullet`, `/numbered`, `/task`
-- `/quote`, `/table`, `/image`, `/code`
-- `/date`, `/time`
-- `/scene`, `/verse`, `/footnote`, `/toc`
+El menú ofrece lo que encaja donde estás:
 
-Tus propias [plantillas](templates.md) también aparecen en el menú, por su
-nombre.
-
-También puedes pasar el puntero cerca del borde izquierdo de cualquier línea y
-hacer clic en el **+** que aparece (**Insertar bloque debajo (/)**). Abre el
-mismo menú para una línea nueva debajo.
-
-### Qué ofrece cada tipo de documento {#what-each-kind-of-document-offers}
-
-El menú solo ofrece lo que encaja con el documento en el que estás:
-
-- **Los documentos de un proyecto** (capítulos, poemas, ensayos) lo tienen todo,
-  incluidos los bloques de manuscrito: **Verso**, **Salto de escena**,
-  **Epígrafe**, **Cita destacada**, **Nota al pie**, **Capitular**, **Cita
-  bibliográfica**, **Bibliografía** e **Índice**.
-- **Las notas**, y las piezas de Escribir que no están en un proyecto, lo tienen
-  todo salvo esos bloques de manuscrito.
-- **Las entradas del diario** tienen encabezados, listas, citas, imágenes y
-  fechas, pero no recuadros, tablas ni bloques de código.
-- **Las páginas matutinas** no tienen menú de barra. Son solo para el texto.
+| Dónde | Qué ofrece el menú |
+| --- | --- |
+| **Un capítulo, poema o ensayo de un proyecto** | Todo, incluidos **Verso**, **Salto de escena**, **Epígrafe**, **Cita destacada**, **Capitular**, **Nota al pie**, **Cita bibliográfica**, **Bibliografía** e **Índice**. |
+| **Una nota, o una pieza fuera de un proyecto** | Todo salvo esos bloques de manuscrito. |
+| **Una entrada del diario** | Encabezados, listas, citas, imágenes y fechas; no hay avisos, tablas ni código. |
+| **Páginas matinales** | No hay menú: solo el texto. |
 
 Las listas de tareas (**Lista de tareas**) se ofrecen en Notas y en las páginas
-de investigación. Puedes cambiarlo por modo en **Ajustes → Ajustes de escritura
-→ Modos → Listas de tareas**.
+de investigación. Para ofrecerlas en otro modo, abre **Ajustes → Ajustes de
+escritura → Modos** y activa **Listas de tareas** para ese modo. Un bloque que
+ya está en un documento siempre se muestra, esté donde esté el documento.
 
-El catálogo completo está en [Formato y bloques](formatting-and-blocks.md).
+Cada bloque, y cómo insertarlo, está en
+[Formato y bloques](./formatting-and-blocks).
 
 ## El menú ⋮ del documento {#the-documents--menu}
 
-El **⋮** de la parte superior derecha de la página reúne lo que haces con el
-documento en su conjunto:
+El **⋮** sobre la página reúne lo que haces con el documento en su conjunto:
 
-- **Destacar**, **Añadir al tablero…** y **Definir meta de palabras**
+- **Destacar**, **Añadir al tablero…** y **Definir meta de palabras**.
 - **Mover a las piezas de Escribir** o **Mover a Notas**, para un documento que
-  no está en un proyecto
-- **Detalles…**: estado, sinopsis, meta, etiquetas, color y ubicación
-- **Información**: **Esquema**, **Enlaces y retroenlaces**, **Notas** e
-  **Historial de versiones** abren esa pestaña del panel de información;
-  **Guardar versión…** (`⌘⇧S`) y **Abrir el diccionario** (`⌘⇧D`)
-- **Ver**: **Modo lectura**, **Desplazamiento de máquina de escribir** (`⌘⇧T`),
-  **Santuario** (`⌘.`) y **Revisar ortografía…**
-- **Exportar**: todos los formatos en que se puede guardar el documento, y
-  **Guardar una copia (.poiesis con imágenes)…**. Consulta
-  [Exportar](exporting.md).
-- **Mover a la papelera**
+  no está en un proyecto.
+- **Detalles…**, **Vista dividida** y **Abrir al lado…**.
+- Las partes del panel de Información: **Esquema**, **Enlaces y
+  retroenlaces**, **Notas** e **Historial de versiones**; **Guardar versión…** y
+  **Abrir el diccionario** (`⌘⇧D`).
+- **Modo lectura**, **Desplazamiento de máquina de escribir**, **Santuario** y
+  **Revisar ortografía…**.
+- Todos los formatos en que se puede exportar el documento, **Guardar una copia
+  (`.poiesis` con imágenes)…** y **Mover a otra bóveda…**.
+- **Mover a la papelera**.
 
-En una página matutina el menú es más corto, con **Sellar el día** en lugar de
-la estrella y el tablero.
+Una página matinal tiene **Sellar el día** en lugar de la estrella y el
+tablero.
 
-Al hacer clic derecho en el texto también aparecen accesos directos a
-**Esquema**, **Enlaces wiki**, **Anotaciones** e **Historial de versiones**,
-debajo de los habituales cortar, copiar y pegar.
+Haz clic derecho en el texto para ver sugerencias ortográficas, cortar, copiar
+y pegar, y después **Esquema**, **Enlaces wiki**, **Anotaciones** e **Historial
+de versiones**.
 
-## Moverse entre documentos {#moving-between-documents}
+## Moverse entre documentos {#move-between-documents}
 
-No hay pestañas. Abres un documento eligiéndolo en la lista, siguiendo un enlace
-o encontrándolo con `⌘K`. Los documentos que has tenido abiertos recientemente
-aparecen en **Abierto ahora** en `⌘K`, donde puedes volver a uno o cerrarlo.
+No hay pestañas. Abre un documento desde la lista, desde un enlace o con `⌘K`,
+que muestra los documentos que tienes abiertos en **Abierto ahora**.
 
-- **Documento nuevo**: `⌘N`
-- **Cerrar el documento**: `⌘W` te devuelve a donde lo abriste.
-- **Atrás y adelante**: las flechas **‹ ›** de la parte superior de la lista (o
-  de la parte superior de la página cuando la lista está oculta), `⌘[` y `⌘]`, o
-  los botones laterales del ratón. Vuelven sobre tus pasos como lo hace un
-  navegador, algo muy útil después de seguir una cadena de
-  [wiki-links](links-and-graph.md).
-- **Anterior o siguiente en la lista**: `⌥⌘←` y `⌥⌘→` recorren los documentos de
-  la lista en la que estás.
+| Para | Haz esto |
+| --- | --- |
+| Crear un documento nuevo | `⌘N` |
+| Cerrar el documento | `⌘W` |
+| Ir atrás o adelante | **‹ ›** arriba de la lista, `⌘[` y `⌘]`, o los botones laterales del ratón |
+| Abrir el de arriba o el de abajo en la lista | `⌥⌘←` y `⌥⌘→` |
 
-## Tipografía inteligente {#smart-typography}
+## Leer sin editar {#read-without-editing}
 
-Mientras escribes, φ ordena por ti la puntuación habitual: las comillas rectas se
-vuelven tipográficas, dos guiones se convierten en una raya, tres puntos en unos
-puntos suspensivos, etcétera. Escribes con naturalidad y el texto sale
-compuesto.
+El **Modo lectura** (`⌘E`, o **Ver → Modo lectura**) deja la página en solo
+lectura, para que puedas repasar un borrador sin pulsaciones descarriadas. Un
+clic normal sigue un enlace; mientras editas, mantén pulsado `⌘` y haz clic.
+Pulsa `⌘E` otra vez para escribir.
 
-## Modo lectura {#reading-mode}
+Mientras escribes, φ compone la puntuación por ti: las comillas rectas se
+vuelven tipográficas, dos guiones una raya y tres puntos unos puntos
+suspensivos.
 
-Cuando prefieras leer en vez de editar, activa el **Modo lectura** (`⌘E`) desde
-el menú **Ver**, o **Modo lectura** en el menú ⋮ del documento. La página pasa a
-ser de solo lectura y un clic normal sigue los enlaces. (Mientras editas, mantén
-`⌘` pulsado y haz clic para seguir uno.) Pulsa `⌘E` otra vez para volver a
-escribir.
+## Ver también {#see-also}
+
+- [Formato y bloques](./formatting-and-blocks)
+- [Concentración y Santuario](./focus-and-writing-modes)
+- [Anotaciones](./annotations)
+- [Atajos de teclado](./keyboard-shortcuts)

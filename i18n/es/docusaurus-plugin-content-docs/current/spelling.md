@@ -1,85 +1,95 @@
 ---
 title: Ortografía
+description: La ortografía revisada mientras escribes, y una pasada tranquila por todo un documento.
 ---
 
 # Ortografía
 
-φ revisa tu ortografía mientras escribes. Las palabras mal escritas reciben un
-sutil subrayado ondulado, y puedes corregirlas directamente desde el menú
-contextual, o revisar todo el documento en una pasada tranquila.
+φ revisa tu ortografía mientras escribes. Una palabra mal escrita recibe un
+sutil subrayado ondulado que puedes corregir desde el menú contextual, o puedes
+dejarlas todas para una pasada deliberada cuando el borrador esté terminado.
+Nunca se corrige nada por ti.
 
-Todo está en **Ajustes → Idioma**.
+## Revisar todo un documento {#check-a-whole-document}
 
-## Corregir una palabra sobre la marcha {#fixing-a-word-as-you-go}
+1. Abre el documento.
+2. Pulsa `⌘;`, o elige **Edición → Revisar ortografía…**, **Revisar
+   ortografía…** en el menú ⋮ del documento, o **Revisar ortografía…** en la
+   paleta de comandos.
+3. Para cada palabra en la que se detiene φ, elige qué hacer (abajo).
+4. Cuando φ dice que ha terminado, no queda nada por revisar.
 
-Haz clic derecho en una palabra subrayada. El menú se abre con las sugerencias
-de φ arriba: elige una para reemplazar la palabra. Elige **Añadir al
-diccionario** para conservar la palabra y que deje de marcarse.
+La palabra en revisión se resalta en el texto, para que la veas donde está, y
+un contador muestra cuántas quedan.
 
-## Revisar todo el documento {#check-the-whole-document}
+| Opción | Qué hace |
+| --- | --- |
+| **Cambiar** | Reemplaza esta palabra por la sugerencia, o por lo que hayas escrito en **Corrección**. |
+| **Cambiar todo** | Reemplaza todas las apariciones en el documento. |
+| **Ignorar** | Se salta esta. |
+| **Ignorar todo** | Se salta todas las apariciones, durante el resto de esta pasada. |
+| **Añadir al diccionario** | Conserva la palabra, aquí y en todos los demás documentos. |
 
-Cuando prefieras revisar un borrador terminado en una sola pasada deliberada,
-ejecuta **Revisar ortografía**. φ recorre cada error en orden y, para cada uno,
-muestra un pequeño panel con un cuadro de **Corrección** y sugerencias. Nunca se
-corrige nada automáticamente:
+Cuando φ no tiene nada que sugerir dice **Sin sugerencias**, y puedes escribir
+tú la corrección.
 
-- **Cambiar**: reemplaza esta palabra por la sugerencia (o por lo que hayas
-  escrito en el cuadro).
-- **Cambiar todo**: corrige todas las apariciones de la palabra en el documento.
-- **Ignorar** / **Ignorar todo**: sáltate esta, o todas las apariciones, durante
-  el resto de la pasada.
-- **Añadir al diccionario**: conserva la palabra, ahora y en documentos futuros.
+La revisión de todo el documento usa los diccionarios propios de φ: inglés,
+español, español (México) y francés. Si ninguno de los idiomas que revisas
+tiene uno, φ te lo dice y te ofrece **Abrir ajustes**, para que elijas un
+idioma que sí tenga.
 
-La palabra en revisión se resalta en el texto para que siempre la veas en
-contexto, y un contador muestra cuántas quedan. Cuando φ no tiene nada que
-ofrecer, dice **Sin sugerencias**, y puedes escribir tú mismo la corrección.
+## Corregir una palabra sobre la marcha {#fix-a-word-as-you-go}
 
-Empieza la pasada como prefieras:
+Haz clic derecho en una palabra subrayada. Las sugerencias de φ están arriba
+del menú: elige una para reemplazar la palabra, o elige **Añadir al
+diccionario** para conservarla y que deje de marcarse.
 
-- **Revisar ortografía…** en el menú ⋮ del documento
-- **Edición → Revisar ortografía…** en la barra de menús, o `⌘;`
-- **Revisar ortografía…** en la paleta de comandos (`⌘P`)
-
-La revisión de todo el documento siempre usa los diccionarios incluidos en φ
-(inglés, español, español de México y francés), incluso cuando tu motor habitual
-es el corrector de tu sistema operativo. Si ninguno de los idiomas del documento
-tiene un diccionario incluido, φ te dice que no puede hacer la revisión y te
-ofrece **Abrir ajustes**, para que elijas un idioma que sí tenga.
-
-## Ajustes {#settings}
-
-### Ortografía {#spelling}
+## Elegir cómo revisa φ {#choose-how-φ-checks}
 
 En **Ajustes → Idioma → Ortografía**:
 
-- **Revisar ortografía**: activa o desactiva el subrayado.
+- **Revisar ortografía**: el subrayado, activado o desactivado.
 - **Motor**: cómo revisa φ mientras escribes.
-  - **Nativo** (el predeterminado) usa el corrector ortográfico de tu sistema
-    operativo. Es ligero y deja intactas las herramientas de escritura de tu
-    sistema.
-  - **Mejorado** usa los diccionarios incluidos en φ, así obtienes los mismos
-    resultados en cualquier sistema operativo.
-- **Idiomas**: qué idiomas revisar. Puedes elegir más de uno: una palabra que es
-  correcta en *cualquiera* de ellos no se marca, y eso es lo que hace funcionar
-  los documentos multilingües. Con el motor Nativo en macOS, el sistema detecta
-  el idioma por sí mismo.
+  - **Nativo**, el predeterminado, usa el corrector ortográfico de tu propio
+    ordenador.
+  - **Mejorado** usa los diccionarios de φ, para obtener los mismos resultados
+    en cualquier ordenador.
+- **Idiomas**: qué idiomas revisar. Elige más de uno y una palabra que es
+  correcta en cualquiera de ellos no se marca, así que un documento en dos
+  idiomas se lee limpio. Con **Nativo** en un Mac, el sistema detecta el idioma
+  por sí mismo.
 
-### Esta bóveda {#this-vault}
+Una bóveda puede revisar de forma distinta al resto: en **Ajustes → Idioma →
+Esta bóveda**, pon **Predeterminado para esta bóveda** en **Usar global**,
+**Nativo** o **Mejorado**. Con **Mejorado**, también puedes elegir los idiomas
+de esa bóveda.
 
-En **Ajustes → Idioma → Esta bóveda**, **Predeterminado para esta bóveda**
-permite que una bóveda revise de forma distinta al resto: **Usar global** (seguir
-los ajustes de arriba), **Nativo** o **Mejorado**. Si eliges **Mejorado** aquí,
-aparece una lista de idiomas para que elijas también los idiomas de esta bóveda.
+## Añadir un idioma que φ no trae {#add-a-language-φ-doesnt-bring}
 
-## Diccionario personal {#personal-dictionary}
+El motor **Mejorado** puede revisar cualquier idioma que tenga un diccionario
+Hunspell, el tipo que usan LibreOffice y Firefox: una carpeta con un archivo
+`.aff` y otro `.dic`.
 
-Las palabras que conservas se recuerdan entre documentos, pero dónde se guardan
-depende del motor:
+1. En **Ajustes → Idioma → Esta bóveda**, pon **Predeterminado para esta
+   bóveda** en **Mejorado**.
+2. Junto a **Añadir un idioma**, pulsa **Añadir…** y elige la carpeta del
+   diccionario.
+3. Marca el idioma nuevo en los **Idiomas** de esa bóveda.
+
+## Tu diccionario personal {#your-personal-dictionary}
+
+Dónde va una palabra que conservas depende del motor:
 
 - Con **Mejorado**, y desde la revisión de todo el documento, **Añadir al
-  diccionario** guarda la palabra en la lista propia de φ. Puedes revisarla, y
-  quitar palabras, en **Ajustes → Idioma → Diccionario personal**. Quitar una
-  palabra hace que φ vuelva a marcarla.
+  diccionario** guarda la palabra en la lista propia de φ. Revísala, y quita
+  palabras, en **Ajustes → Idioma → Diccionario personal**. Una palabra que
+  quitas vuelve a marcarse.
 - Con **Nativo**, **Añadir al diccionario** en el menú contextual entrega la
-  palabra al corrector ortográfico del sistema, así que no aparece en la lista
+  palabra al corrector ortográfico de tu ordenador, así que no está en la lista
   de φ.
+
+## Ver también {#see-also}
+
+- [Diccionario y tesauro](./dictionary)
+- [Temas e idiomas](./themes-and-languages)
+- [Ajustes](./settings)

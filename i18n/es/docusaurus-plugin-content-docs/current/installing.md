@@ -1,88 +1,70 @@
 ---
 title: Instalar φ
+description: Descarga φ para macOS, Windows o Linux, y mantenlo al día.
 ---
 
 # Instalar φ
 
-φ funciona en **macOS, Windows y Linux**. Consigue la versión para tu sistema en
-la **[página de descargas](https://getpoiesis.com/download)**: ofrece el archivo
-adecuado para el equipo desde el que la visitas, con todas las demás opciones a un
-clic.
+φ funciona en macOS, Windows y Linux. La
+[página de descargas](https://getpoiesis.com/download) te ofrece el archivo
+adecuado para el equipo desde el que la visitas, con todas las demás opciones a
+un clic. Una vez instalado, φ te avisa cuando hay una versión nueva.
 
-:::warning φ está en alfa
-Estás usando software temprano: espera asperezas. Tu escritura en sí siempre está
-a salvo: son archivos sencillos en tu equipo, guardados de forma continua y con
-versiones.
-:::
+## Instalar φ {#install-φ-1}
 
-:::danger ¿Sigues en la 0.8.2 o anterior? Descarga φ otra vez
-**La 0.9.0 cambió cómo identifica tu sistema operativo a φ**, y eso rompió la
-actualización que normalmente se te ofrecería. Una copia antigua seguirá diciendo
-que está al día, para siempre. Descarga la versión actual desde la
-[página de descargas](https://getpoiesis.com/download) e instálala sobre la que
-tienes, una vez. A partir de la 0.9.0 las actualizaciones vuelven a funcionar con
-normalidad.
+1. Abre la [página de descargas](https://getpoiesis.com/download) y descarga el
+   archivo que te ofrece.
+2. Instálalo como espera tu sistema (mira más abajo).
+3. Abre φ. Tu sistema lo muestra como **φ Poiesis**, así que al escribir
+   «poiesis» en Spotlight o en el menú Inicio lo encuentras.
+4. [Crea tu primera bóveda](./getting-started).
 
-Tu trabajo no se toca: bóvedas, ajustes, diccionarios e historial dependen del
-nombre de la app, no de su identificador. Dos cosas se reinician una vez:
-**macOS** vuelve a pedir acceso a la carpeta donde está tu bóveda, y **Windows**
-trata esta como un programa distinto, así que desinstala la φ anterior o quedará
-junto a esta en Agregar o quitar programas.
-:::
+## Qué necesitas {#what-you-need}
 
-## Requisitos del sistema {#system-requirements}
+| Sistema | Versión |
+| --- | --- |
+| **macOS** | 13 (Ventura) o posterior, en Apple Silicon o Intel |
+| **Windows** | 10 u 11, de 64 bits |
+| **Linux** | Una distribución moderna de 64 bits. El AppImage funciona casi en cualquier parte; el `.deb` es para Debian y Ubuntu. |
 
-- **macOS** 12 (Monterey) o posterior — Apple Silicon o Intel.
-- **Windows** 10 u 11 (64 bits).
-- **Linux** — una distribución moderna de 64 bits. El AppImage funciona casi en
-  cualquier parte; se ofrece un `.deb` para Debian y Ubuntu.
+## En un Mac {#on-a-mac}
 
-## macOS {#macos}
+1. Descarga el `.dmg` para tu Mac: **Apple Silicon** o **Intel**. ¿No sabes
+   cuál? Menú Apple → **Acerca de este Mac**: un chip llamado «Apple M…» es
+   Apple Silicon.
+2. Abre el `.dmg` y arrastra φ a **Aplicaciones**.
+3. Ábrelo desde Aplicaciones o con Spotlight.
 
-1. Descarga el `.dmg` — **Apple Silicon** o **Intel** según tu Mac. (¿No sabes
-   cuál tienes? Menú Apple → **Acerca de este Mac**; un chip que aparezca como
-   «Apple M-series» es Apple Silicon.)
-2. Abre el `.dmg` y arrastra φ a tu carpeta **Aplicaciones**.
-3. Ábrelo desde Aplicaciones o con Spotlight: aparece como **φ Poiesis**, así
-   que al escribir «poiesis» lo encuentras.
+Las versiones para Mac están firmadas y notarizadas por Apple, así que se abren
+sin el aviso de «desarrollador no identificado».
 
-Las versiones de macOS están **firmadas y notarizadas por Apple**, así que se
-abren sin el aviso de Gatekeeper de «desarrollador no identificado».
+## En Windows {#on-windows}
 
-## Windows {#windows}
+1. Descarga el instalador (`.exe`) y ejecútalo. Puedes elegir dónde se instala
+   φ.
+2. φ aún no tiene firma de código, así que SmartScreen de Windows puede decir
+   que procede de un editor no reconocido. Haz clic en **Más información** y
+   luego en **Ejecutar de todas formas**. Solo hace falta hacerlo una vez, y la
+   descarga procede directamente de las publicaciones de φ.
+3. Abre φ desde el menú Inicio.
 
-1. Descarga el instalador (`.exe`) y ejecútalo. Durante la instalación puedes
-   elegir la ubicación.
-2. φ aún no tiene firma de código, así que **SmartScreen** de Windows puede
-   avisar de que procede de un editor no reconocido. Haz clic en **Más
-   información → Ejecutar de todas formas** para continuar; solo hace falta una
-   vez.
-3. Abre φ desde el menú Inicio, donde aparece como **φ Poiesis**.
+## En Linux {#on-linux}
 
-:::note ¿Por qué el aviso de SmartScreen?
-Un certificado de firma de código es algo que añadiremos más adelante. Hasta
-entonces el aviso es esperable; la descarga procede directamente de nuestras
-propias publicaciones.
-:::
+El **AppImage** es la opción más sencilla y se actualiza solo. El **`.deb`** se
+integra con Debian y Ubuntu, pero se actualiza instalando el `.deb` más
+reciente.
 
-## Linux {#linux}
+Para el AppImage, haz el archivo ejecutable y luego haz doble clic en él:
 
-φ se distribuye en dos formatos. El **AppImage** es el más sencillo y **puede
-actualizarse solo**; el **`.deb`** se integra con Debian y Ubuntu, pero se
-actualiza reinstalando.
+```bash
+chmod +x poiesis-*.AppImage
+./poiesis-*.AppImage
+```
 
-### AppImage (recomendado) {#appimage-recommended}
+O haz clic derecho en el archivo → **Propiedades** → **Permisos** → **Permitir
+ejecutar el archivo como un programa**.
 
-1. Descarga el `.AppImage`.
-2. Hazlo ejecutable — en una terminal:
-   ```bash
-   chmod +x poiesis-*.AppImage
-   ```
-   …o haz clic derecho en el archivo → **Propiedades → Permisos → Permitir
-   ejecutar el archivo como un programa**.
-3. Haz doble clic en él, o ejecuta `./poiesis-*.AppImage`.
-
-### Debian / Ubuntu (`.deb`) {#debian--ubuntu-deb}
+Para el `.deb`:
 
 ```bash
 sudo dpkg -i poiesis-*.deb
@@ -90,36 +72,49 @@ sudo dpkg -i poiesis-*.deb
 
 Después abre **φ Poiesis** desde el menú de aplicaciones.
 
-## Mantenerse al día {#staying-up-to-date}
+## Mantén φ al día {#keep-φ-up-to-date}
 
-φ busca una versión nueva por su cuenta —unos segundos después de abrirse y luego
-cada seis horas—, pero nunca la descarga sin preguntar. Cuando hay una
-actualización, un pequeño aviso te lo dice:
+φ busca una versión nueva unos segundos después de abrirse, y luego cada seis
+horas. Nunca la descarga sin preguntar. Cuando hay una actualización, un pequeño
+aviso te lo dice:
 
 1. **Hay una nueva versión (…) disponible.** Haz clic en **Descargar** cuando te
    venga bien.
 2. **Descargando actualización… %** muestra cuánto lleva.
 3. **La actualización … está lista para instalar.** Haz clic en **Reiniciar e
-   instalar** para reiniciar ya en la nueva versión, o cierra el aviso para
-   seguir: una actualización descargada también se instala la próxima vez que
-   salgas de φ.
+   instalar**, o cierra el aviso y sigue: una actualización descargada se
+   instala la próxima vez que salgas de φ.
 
-Esto funciona en **macOS**, **Windows** y el **AppImage de Linux**. El **`.deb`
-de Linux** se actualiza descargando e instalando el `.deb` más reciente, o
-cambiándote al AppImage.
+Esto funciona en macOS, Windows y el AppImage de Linux. Para el `.deb`,
+descarga e instala tú mismo la versión nueva.
 
-### Comprobarlo a mano {#checking-by-hand}
+Para comprobarlo ahora:
 
-- **macOS** — el menú de la app **φ Poiesis** → **Buscar actualizaciones…**.
-- **Windows y Linux** — pulsa `⌘P` (Ctrl+P) y ejecuta **Buscar
-  actualizaciones…**.
+- **En un Mac:** el menú **φ Poiesis** → **Buscar actualizaciones…**.
+- **En Windows y Linux:** pulsa `Ctrl+P` y ejecuta **Buscar actualizaciones…**.
 
-φ responde con **Buscando actualizaciones…** y después te ofrece la
-actualización, te dice **φ está actualizado.** o avisa **No se pudieron buscar
-actualizaciones.** si no puede llegar al servidor de descargas (por ejemplo,
-cuando no tienes conexión).
+φ muestra **Buscando actualizaciones…** y luego te ofrece la actualización,
+dice **φ está actualizado.** o dice **No se pudieron buscar actualizaciones.**
+cuando no puede llegar al servidor de descargas, por ejemplo cuando no tienes
+conexión.
 
-## Siguientes pasos {#next-steps}
+:::note ¿Sigues en la 0.8.2 o anterior? Descarga φ otra vez
 
-Con φ instalado, [Primeros pasos](getting-started.md) te guía por tu primera
-bóveda y tu primera página.
+La versión 0.9.0 cambió cómo identifica tu sistema a φ, y eso rompió la
+actualización que ofrecería una copia antigua: seguirá diciendo que está al día.
+Descarga la versión actual desde la
+[página de descargas](https://getpoiesis.com/download) e instálala sobre la que
+tienes. Solo hace falta hacerlo una vez.
+
+Tus bóvedas, ajustes, diccionarios e historial no se tocan. En un Mac, macOS
+vuelve a pedir una vez acceso a la carpeta donde está tu bóveda. En Windows, la
+nueva φ aparece como un programa distinto, así que desinstala la anterior desde
+**Agregar o quitar programas**.
+
+:::
+
+## Consulta también {#see-also}
+
+- [Tu primera bóveda](./getting-started)
+- [Ajustes](./settings)
+- [Bóvedas](./vaults)

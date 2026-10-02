@@ -1,117 +1,114 @@
 ---
 title: Liens et graphe
+description: Liez un document à un autre en écrivant, voyez ce qui pointe vers quoi, et cartographiez tout le coffre.
 ---
 
 # Liens et graphe
 
-Les idées se relient. φ vous permet de lier un document à un autre dès que vous
-le mentionnez, puis vous montre ces connexions de deux façons : sous forme de
-liste à côté de la page, et sous forme de graphe de tout le coffre. Rien ne
-quitte votre ordinateur ; l'index des liens est construit et lu localement.
+Tapez `[[` puis le nom d’un autre document, et les deux sont liés. φ suit
+chaque lien dans les deux sens : depuis n’importe quelle page, vous voyez vers
+quoi elle pointe et ce qui pointe vers elle. Le graphe dessine toute la toile
+d’un coup.
 
-<img src="/img/app/graph-light.png" alt="Le graphe d'un coffre : les documents et les liens entre eux" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/graph-dark.png" alt="Le graphe d'un coffre : les documents et les liens entre eux" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/links-light.png" alt="Une page de recherche avec un wiki-lien dans son texte, et l’onglet Liens du panneau Infos qui liste ses liens sortants, ses rétroliens et ses dates liées" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/links-dark.png" alt="Une page de recherche avec un wiki-lien dans son texte, et l’onglet Liens du panneau Infos qui liste ses liens sortants, ses rétroliens et ses dates liées" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Lier avec des `[[wiki-links]]` {#linking-with-wiki-links}
+## Lier vers un autre document {#link-to-another-document}
 
-Pour créer un lien vers un autre document, tapez `[[` n'importe où dans le
-texte. Un petit menu s'ouvre et se resserre à mesure que vous tapez. Choisissez
-le document voulu avec les flèches et `Enter`, ou cliquez dessus.
+1. Tapez `[[` n’importe où dans le texte. Un menu de documents s’ouvre.
+2. Continuez à taper pour le resserrer.
+3. Choisissez le document avec les flèches et Entrée, ou cliquez dessus.
+4. Pour suivre le lien, maintenez `⌘` et cliquez dessus. En
+   [mode lecture](./the-editor), un simple clic suffit.
 
-Un lien choisi dans le menu pointe vers le document lui-même, si bien que
-renommer le document plus tard ne le cassera pas. Un `[[Titre]]` que vous tapez
-en entier ou que vous collez retrouve son document par le titre.
+Un lien choisi dans le menu pointe vers le document lui-même : renommer le
+document plus tard ne le cassera pas. Un `[[Titre]]` que vous tapez en entier
+ou que vous collez retrouve plutôt son document par le titre.
 
-Pour ouvrir le document vers lequel pointe un lien, maintenez `⌘` et cliquez sur
-le lien (en [mode lecture](the-editor.md#reading-mode), un simple clic suffit).
+`⌥⌘`-cliquez sur un lien pour ouvrir son document à côté de celui où vous êtes
+(voir [Côte à côte](./side-by-side)).
 
-### Lier vers quelque chose qui n'existe pas encore {#linking-to-something-that-doesnt-exist-yet}
+## Lier vers une page pas encore écrite {#link-to-a-page-you-havent-written-yet}
 
-Si aucun document ne porte exactement le titre que vous avez tapé, la dernière
-entrée du menu est **Créer « … »**. Choisissez-la et φ écrit le lien, même s'il
-n'y a encore rien à l'autre bout. C'est une façon rapide de noter une idée
-avant d'avoir écrit sa page.
+Si aucun document ne porte le titre que vous avez tapé, la dernière entrée du
+menu est **Créer «  …  »**. Choisissez-la et φ écrit le lien, sans rien encore à
+l’autre bout. Il s’affiche comme un lien cassé jusqu’à ce que la page existe.
 
-Le document lui-même est créé quand vous suivez le lien : `⌘`-cliquez dessus,
-ou cliquez dessus dans le panneau Liens (ci-dessous). φ crée un document portant
-ce titre et l'ouvre.
+La page est créée quand vous suivez le lien : `⌘`-cliquez dessus, ou cliquez
+dessus sous **Liens sortants** (ci-dessous). φ crée un document portant ce
+titre et l’ouvre.
 
-## Le panneau Liens {#the-links-panel}
+## Voir ce qui pointe vers quoi {#see-what-links-where}
 
-Ouvrez le Panneau d’infos (`⇧⌘I`) et choisissez l'onglet **Liens**, ou
-choisissez **Liens et rétroliens** dans le menu ⋮ du document. Il reflète
-toujours le document que vous lisez, y compris les modifications que vous
-n'avez pas encore enregistrées :
+Ouvrez le panneau Infos (`⇧⌘I`) et choisissez **Liens**. Vous pouvez aussi
+choisir **Liens et rétroliens** dans le **⋮** du document, ou **Liens wiki**
+dans le menu contextuel d’une ligne. L’onglet suit le document que vous lisez,
+y compris les modifications pas encore enregistrées :
 
-- **Dans ce document** : les personnages que vous avez mentionnés ici avec @.
-  Cliquez sur l'un d'eux pour ouvrir sa page. (Affiché seulement s'il y en a.)
-- **Liens sortants** : tous les documents vers lesquels celui-ci pointe.
-  Cliquez sur une entrée pour y aller. Les liens qui ne mènent encore nulle part
-  sont aussi listés, marqués d'un **+** ; cliquez sur l'un d'eux pour créer ce
-  document et l'ouvrir.
-- **Rétroliens** : tous les documents qui pointent *vers* celui-ci. C'est ainsi
-  que vous trouvez ce qui fait référence à la page où vous êtes, même si vous
-  n'avez jamais créé de lien sortant depuis elle.
-- **Dates liées** : les dates que vous avez insérées avec `/date`. Cliquez sur
-  l'une d'elles pour afficher ce jour dans le [calendrier](calendar.md).
-- **Notes à ce sujet** : les notes et pages de recherche liées à ce document.
-  Utilisez **Nouvelle note à ce sujet**, **Lier une note…** ou **Nouvelle page de
-  recherche** pour en ajouter une. Voir [Recherche](research.md).
+| Section | Ce qu’elle liste |
+| --- | --- |
+| **Dans ce document** | Les personnages que vous avez mentionnés ici avec @. Affichée seulement s’il y en a. |
+| **Liens sortants** | Tous les documents vers lesquels celui-ci pointe. Les liens qui ne mènent encore nulle part y figurent aussi, avec une icône de création ; cliquez sur l’un d’eux pour créer ce document. |
+| **Rétroliens** | Tous les documents qui pointent *vers* celui-ci, même si vous n’avez jamais créé de lien sortant depuis lui. |
+| **Dates liées** | Les dates que vous avez insérées avec `/date`. Cliquez sur l’une d’elles pour afficher ce jour dans le [calendrier](./calendar). |
+| **Recherches** et **Notes** | Les pages de recherche (dans Écrire) et les notes liées à ce document, avec de quoi en ajouter d’autres. Voir [Recherche](./research). |
 
-En bas, **Graphe local** ouvre le graphe centré sur ce document.
+Cliquez sur n’importe quelle entrée pour l’ouvrir. **Graphe local**, au pied de
+l’onglet, ouvre le graphe autour de ce document.
 
-## Le graphe {#the-graph}
+## Explorer le graphe {#explore-the-graph}
 
-Le graphe est une carte de la façon dont votre coffre tient ensemble.
-Ouvrez-le depuis **Graphe** sous **Lieux** dans la barre latérale (dans Écrire
-et Notes), depuis `⌘K`, ou avec **Affichage → Aller à → Graphe** (`⌘G` puis
-`G`).
+Ouvrez le graphe depuis **Graphe** sous **Lieux** dans la barre latérale (dans
+Écrire et Notes), depuis `⌘K`, ou avec `⌘G` puis `G`.
 
-Chaque **point** est un document, et chaque **trait** est un lien entre deux
-documents. Un point grossit avec le nombre de liens qu'il possède, si bien que
-vos pivots ressortent. Les documents sans aucun lien (orphelins) sont dessinés
-plus pâles. Les pages du matin, les journées du journal et les pages de
-recherche n'apparaissent jamais dans le graphe : c'est la forme de votre travail
-relié, pas un relevé de chaque fichier.
+<img src="/img/app/graph-light.png" alt="Le graphe d’un coffre : les documents liés dessinés en points plus gros reliés par des traits, les documents sans lien en petits points pâles" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/graph-dark.png" alt="Le graphe d’un coffre : les documents liés dessinés en points plus gros reliés par des traits, les documents sans lien en petits points pâles" width="1600" height="1000" loading="lazy" decoding="async" />
 
-### Lire et se déplacer {#reading-and-moving-around}
+Chaque point est un document et chaque trait un lien. Un point grossit avec le
+nombre de liens qu’il possède, si bien que vos pivots ressortent, et les
+documents sans aucun lien sont dessinés plus pâles. Les pages du matin, les
+journées du journal et les pages de recherche n’apparaissent jamais : le graphe
+est la forme de votre écriture reliée, pas une liste de chaque fichier.
 
-- **Cliquez sur un point** pour ouvrir ce document.
-- **Survolez un point** pour le mettre en évidence : le reste du graphe
-  s'estompe, les liens du document s'allument, et les documents auxquels il se
-  relie restent nets. C'est une façon rapide de voir tout ce que touche une
-  page.
-- **Faites défiler** pour zoomer ; **faites glisser** le fond pour vous
-  déplacer. Dézoomez pour une vue d'ensemble et les étiquettes s'effacent pour
-  laisser voir la forme ; rezoomez et les titres reviennent.
-- Le document ouvert est marqué dans la couleur d'accent, pour que vous
-  retrouviez votre place et exploriez à partir de lui.
+- **Cliquez sur un point** pour ouvrir ce document. Le refermer vous ramène au
+  graphe.
+- **Survolez un point** pour le mettre en avant. Tout le reste s’estompe, et ses
+  liens et ses voisins restent nets.
+- **Faites défiler** pour zoomer et **faites glisser** le fond pour vous
+  déplacer. En vue éloignée, les titres s’effacent pour laisser voir la forme.
+- Le document ouvert est marqué dans la couleur d’accent.
 
-Le graphe se cadre de lui-même pour tenir à l'écran. Sa petite barre d'outils
-indique combien de documents sont dessinés, et propose **Animer** (rejouer la
-mise en place de la disposition), **Actualiser les liens** (reconstruire à
-partir du contenu le plus récent) et **Réglages du graphe**.
+La barre du haut compte les documents dessinés et propose **Animer**, qui
+rejoue la mise en place de la disposition, et **Actualiser les liens**, qui la
+reconstruit à partir du texte le plus récent.
 
-Appuyez sur `⌘.` pour passer en [Sanctuaire](focus-and-writing-modes.md) et
-masquer tout sauf le graphe.
+## Changer ce que montre le graphe {#change-what-the-graph-shows}
 
-### Réglages du graphe {#graph-settings}
+Appuyez sur le bouton de panneau en haut à droite du graphe (`⇧⌘I`) pour ouvrir
+les **Réglages du graphe** :
 
-Les réglages se trouvent dans la colonne de liste à côté du graphe, et
-**Réglages du graphe** dans la barre d'outils (`⇧⌘I`) les affiche aussi dans le
-panneau de droite :
+| Groupe | Réglages |
+| --- | --- |
+| **Quel graphe** | **Tout le coffre**, ou **Local** : le dernier document que vous avez ouvert et tout ce qui se trouve à deux liens ou moins de lui. |
+| **Afficher** | **Orphelins** (documents sans liens) et **Flèches** (le sens de chaque lien). |
+| **Affichage** | **Taille des nœuds**, **Épaisseur des liens**, **Estomper le texte** et **Taille des étiquettes**. |
+| **Forces** | **Force de répulsion**, **Distance des liens**, **Force centrale** et **Force des liens**, qui étalent ou resserrent la disposition. |
 
-- **Quel graphe** : **Tout le coffre**, ou **Local**, qui montre le dernier
-  document ouvert et tout ce qui se trouve à deux liens ou moins de lui.
-- **Afficher** : **Orphelins** (documents sans liens) et **Flèches** (le sens de
-  chaque lien).
-- **Affichage** : **Taille des nœuds**, **Épaisseur des liens**, **Estomper le
-  texte** (la facilité avec laquelle les titres s'effacent quand vous dézoomez)
-  et **Taille des étiquettes**.
-- **Forces** : **Force de répulsion**, **Distance des liens**, **Force
-  centrale** et **Force des liens**, qui étalent ou resserrent la disposition.
-- **Réinitialiser** revient à l'apparence standard.
+**Réinitialiser** rétablit l’apparence par défaut. Sous les réglages, une ligne
+compte les documents, les liens et les documents sans liens, et **Les plus
+liés** liste vos principaux pivots ; cliquez sur l’un d’eux pour l’ouvrir.
 
-Sous les réglages, une ligne compte les documents, les liens et les documents
-sans liens, et **Les plus liés** liste vos principaux pivots. Cliquez sur l'un
-d'eux pour l'ouvrir.
+:::tip Retrouver les fils qui traînent
+
+**Non liées**, dans la barre latérale de Notes, liste les notes vers lesquelles
+rien ne pointe et qui ne pointent vers rien. Voir [Notes et capture](./notes).
+
+:::
+
+## Voir aussi {#see-also}
+
+- [Recherche](./research) : notes et recherches liées à un chapitre, un projet
+  ou un personnage.
+- [Personnages et auteurs](./characters-and-authors) : les mentions avec @.
+- [Le calendrier](./calendar)
+- [Documents côte à côte](./side-by-side)

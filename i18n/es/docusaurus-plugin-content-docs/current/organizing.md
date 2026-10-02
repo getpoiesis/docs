@@ -1,239 +1,181 @@
 ---
-title: Organizar tu trabajo
+title: Organizar
+description: Carpetas, etiquetas, orden, mover documentos de un sitio a otro y recuperar cosas de la papelera.
 ---
 
-# Organizar tu trabajo
+# Organizar
 
-Una bóveda puede contener unas pocas notas o unos cuantos miles. φ te da una
-estructura ligera —modos, carpetas, destacados, etiquetas y búsqueda— para que
-encuentres cualquier cosa sin imponer más orden del que quieras. Nada de esto
-cambia cómo se escribe un documento; solo cambia cómo llegas a él.
+φ te da una estructura ligera: carpetas, etiquetas, destacados y un orden para
+cada lista. Nada de esto cambia cómo se escribe un documento, solo cómo llegas
+a él, así que usa tanto o tan poco como te venga bien. Esta página es la
+referencia de todo ello.
 
-<img src="/img/app/notes-light.png" alt="Notas: tareas abiertas, las palabras clave que usas y lo que has fijado" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/notes-dark.png" alt="Notas: tareas abiertas, las palabras clave que usas y lo que has fijado" width="1600" height="1000" loading="lazy" decoding="async" />
+## Archivar un documento en una carpeta {#file-a-document-in-a-folder}
 
-## Tres modos, cada uno con sus lugares {#three-modes-each-with-its-places}
-
-En lo alto de la barra lateral está el selector **Escribir · Notas · Diario**
-(`⌘1`, `⌘2`, `⌘3`). Cada modo es una lente distinta sobre la única bóveda, y
-cada uno tiene sus propios **lugares**, listados bajo el selector:
-
-| Modo | Lugares |
-| --- | --- |
-| **Escribir** | **Inicio**, **Piezas**, **Proyectos** (con **Nuevo proyecto**), **Mundo** (Personajes, Autores, Investigación), **Lugares** (Tableros, Grafo, Calendario) |
-| **Notas** | **Inicio**, **Todas las notas**, **Destacados**, **Sin enlazar**, **Carpetas**, **Etiquetas**, **Lugares** (Tableros, Grafo, Calendario, Plantillas) |
-| **Diario** | **Inicio**, **Hoy**, **Todas las entradas**, **Páginas matutinas**, **Selladas**, **Lugares** (Calendario) |
-
-Elegir un lugar llena la **lista** junto a la barra lateral; elegir una fila de
-la lista la abre en la **página**. La lista se queda donde está mientras
-trabajas, así que puedes recorrerla paso a paso. La **Papelera** está al pie de
-la barra lateral en todos los modos. Cada modo se abre en su propio **Inicio**:
-consulta [Orientarte](finding-your-way.md) para un recorrido.
-
-La barra lateral no se puede ocultar, pero el **Santuario** (`⌘.`) lo despeja
-todo salvo la página cuando quieres estar a solas con ella: consulta
-[Santuario y sesiones de escritura](focus-and-writing-modes.md). `⌘[` y `⌘]`
-van hacia atrás y hacia delante por los lugares en los que has estado.
+1. Abre **Piezas** en Escribir, o una carpeta en Notas.
+2. Crea una carpeta si la necesitas: **Nueva carpeta** al pie de la lista, y
+   ponle nombre.
+3. Arrastra el documento sobre la carpeta.
+4. Haz clic en la carpeta para abrirla en su sitio. La ruta de carpetas sobre
+   la lista (**Todas › Borradores › Poemas**) te devuelve hacia fuera.
 
 ## Piezas y notas {#pieces-and-notes}
 
-Todo documento que no sea un día del diario ni unas páginas matutinas es de uno
-de dos tipos:
+Todo documento que no sea un capítulo, un día del diario o unas páginas
+matinales es de uno de dos tipos:
 
-- Las **piezas** son lo que escribes en **Escribir** fuera de un proyecto: un
-  poema, un ensayo, un relato. Cuentan palabras y pueden llevar un estado y una
-  meta de palabras. Añade una a un proyecto cuando quieras (consulta
-  [Proyectos](collections.md)).
-- Las **notas** viven en **Notas**: ideas, fuentes, frases que oíste al pasar.
-  No tienen estado, ni meta, ni recuento de palabras que vigilar.
+- Las **piezas** viven en Escribir, en **Piezas**: un poema, un ensayo, un
+  relato fuera de cualquier proyecto. Una pieza puede tener un estado y una
+  meta de palabras. Añádela a un proyecto cuando quieras (consulta
+  [Proyectos](./collections)).
+- Las **notas** viven en Notas: ideas, fuentes, frases que oíste al pasar. No
+  tienen estado ni meta de palabras (consulta [Notas y captura](./notes)).
 
-Un documento puede cambiar de lado: haz clic derecho sobre él (o usa su **⋮**) y
-elige **Mover a Notas** o **Mover a las piezas de Escribir**. Una nota que
-añades a un proyecto se convierte en una pieza.
+Las piezas y las notas comparten las mismas carpetas. Notas muestra todas las
+carpetas; Piezas muestra las carpetas que contienen piezas, y las nuevas que
+aún están vacías.
 
 ## Carpetas {#folders}
 
-Las carpetas son opcionales. Un documento sin carpeta queda en el nivel
-superior: **Todas** en la ruta de carpetas. Las piezas y las notas comparten las
-mismas carpetas.
+Las carpetas son opcionales. Un documento sin carpeta queda en lo alto de la
+lista.
 
 ### Crear una carpeta {#make-a-folder}
 
-- En Notas, haz clic en el **+** junto a **Carpetas** en la barra lateral.
-- Al pie de cualquier listado de carpeta, haz clic en **Nueva carpeta**: se crea
-  dentro de la carpeta que estás viendo.
-- El **⋮** de la lista → **Nueva carpeta** (en Escribir y en Notas).
+- **Nueva carpeta**, al pie de un listado de carpeta, crea una dentro de la
+  carpeta que estás viendo.
+- El **+** junto a **Carpetas** en la barra lateral de Notas.
+- El **⋮** de la lista → **Nueva carpeta**, en Escribir o en Notas.
 - Clic derecho sobre una carpeta → **Nueva carpeta dentro**.
 
 φ te pide el **Nombre de la nueva carpeta**.
 
-### Recorrer carpetas {#browse-folders}
-
-Una carpeta se abre **en su sitio** dentro de la lista: primero sus carpetas,
-luego sus documentos. La ruta de carpetas sobre la lista —**Todas › Borradores
-› Poemas**— te devuelve hacia fuera nivel a nivel. En Notas, tus carpetas de
-nivel superior también aparecen en la barra lateral, cada una con un recuento.
-
 ### El menú de una carpeta {#a-folders-menu}
 
-Haz clic derecho sobre una carpeta, en la barra lateral o en la lista, para ver
-todo lo que puede hacer una carpeta:
+Haz clic derecho sobre una carpeta, en la barra lateral de Notas o en una
+lista:
 
-- **Nueva pieza** (en Escribir) o **Nueva nota aquí** (en Notas).
-- **Nueva carpeta dentro**.
-- **Renombrar esta carpeta**.
-- **Icono…**: elige un icono para ella (ver más abajo).
-- **Color**: **Ninguno**, **Gris**, **Rojo**, **Naranja**, **Amarillo**,
-  **Verde**, **Azul**, **Morado** o **Rosa**. El color tiñe el icono de la
-  carpeta.
-- **Eliminar esta carpeta**: φ pregunta antes: *Los documentos dentro de esta
-  carpeta se mueven a la raíz. Esto no se puede deshacer.* Las carpetas que
-  contiene suben al lugar donde estaba. Nunca se elimina ningún documento junto
-  con una carpeta.
+| Elemento | Qué hace |
+| --- | --- |
+| **Nueva pieza** / **Nueva nota aquí** | Un documento nuevo en esta carpeta (el primero en Escribir, el segundo en Notas). |
+| **Nueva carpeta dentro** | Una carpeta dentro de esta. |
+| **Renombrar esta carpeta** | Le da un nombre nuevo. |
+| **Icono…** | Elige un icono para ella (ver más abajo). |
+| **Color** | **Ninguno**, **Gris**, **Rojo**, **Naranja**, **Amarillo**, **Verde**, **Azul**, **Morado** o **Rosa**. El color tiñe el icono de la carpeta. |
+| **Eliminar esta carpeta** | Quita la carpeta tras preguntar. Sus documentos pasan al nivel superior; nunca se elimina ningún documento junto con una carpeta. Esto no se puede deshacer. |
 
-### Archivar documentos {#file-documents}
+### Iconos y colores {#icons-and-colours}
 
-- **Arrastra** un documento sobre una carpeta —en la lista o en la barra lateral
-  de Notas— para archivarlo ahí.
-- **Suéltalo** sobre un paso de la ruta de carpetas para subirlo de nivel;
-  suéltalo sobre **Todas** para sacarlo de cualquier carpeta.
-- Clic derecho sobre él → **Mover a carpeta** → elige una carpeta, o **Sin
-  carpeta**.
-- Abre sus **Detalles…** y elige una carpeta en **En**.
+Una carpeta o un proyecto puede tener su propio icono: clic derecho → **Icono…**.
+Para el proyecto en el que estás, el **⋮** de la lista también tiene **Icono…**
+y **Color…**.
 
-Suelta un documento **entre** otros dos para colocarlo en ese orden. El orden
-que creas se conserva cuando la lista se ordena por **Editado**.
+El selector tiene un campo de búsqueda, una fila de colores e iconos en grupos.
+**Predeterminado** vuelve a la carpeta o al libro sencillos. El icono y el color
+acompañan a la carpeta o al proyecto allí donde aparezca su nombre: la barra
+lateral, la lista, la ruta de carpetas e Inicio.
 
-## Iconos y colores para proyectos y carpetas {#icons-and-colours-for-projects-and-folders}
+## Mover un documento {#move-a-document}
 
-Dale a un proyecto o a una carpeta su propio icono: clic derecho → **Icono…**
-(o, para el proyecto en el que estás, el **⋮** de la lista → **Icono…**). Se
-abre un pequeño selector con un campo de búsqueda y 224 iconos en grupos;
-**Predeterminado** vuelve al libro o a la carpeta sencillos. El selector también
-tiene una fila de colores. El color de un proyecto también se puede definir
-desde su menú de clic derecho → **Color**, o desde el **⋮** de la lista →
-**Color…**.
-
-El icono y el color acompañan al proyecto o a la carpeta allí donde aparezca su
-nombre: la barra lateral, la lista, la ruta de carpetas, Inicio, **Mover a
-carpeta**, `⌘K` y los Detalles de un documento.
-
-## Destacados {#starred}
-
-Destaca lo que más usas: desde el **⋮** del documento → **Destacar**, desde el
-menú de clic derecho de una fila, o con la estrella de su página de
-**Detalles…**. Elígelo de nuevo para quitar el destacado.
-
-En Notas, **Destacados** en la barra lateral lista tus notas destacadas, y el
-Inicio de Notas las mantiene a la vista.
+| Para moverlo | Haz esto |
+| --- | --- |
+| A una carpeta | Arrástralo sobre la carpeta, en una lista o en la barra lateral de Notas. O clic derecho → **Mover a carpeta**. O elige la carpeta en **En** en su página de **Detalles…**. |
+| Fuera de toda carpeta | Suéltalo sobre **Todas** en la ruta de carpetas, o elige **Sin carpeta**. |
+| Un nivel más arriba | Suéltalo sobre un paso de la ruta de carpetas. |
+| A otro orden | Suéltalo entre otros dos. El orden se conserva mientras la lista se ordena por **Editado**. |
+| De Notas a Escribir, o al revés | Clic derecho → **Mover a las piezas de Escribir** o **Mover a Notas**. La misma opción está en el **⋮** del documento y en sus Detalles. |
+| A un proyecto | Clic derecho sobre una pieza → **Añadir a un proyecto** o **Mover a otro proyecto**. O, en sus Detalles, **Añadirlo a un proyecto…**. Una nota pasa primero a las piezas de Escribir. |
+| Fuera de un proyecto | Clic derecho sobre el capítulo → **Quitar del proyecto**. |
+| A otra bóveda | Clic derecho → **Mover a otra bóveda…** (cuando tienes más de una; consulta [Bóvedas](./vaults)). |
 
 ## Etiquetas {#tags}
 
-Las etiquetas cruzan las carpetas: un documento puede llevar cualquier número de
-ellas.
+Las etiquetas atraviesan las carpetas, y un documento puede llevar cualquier
+número de ellas.
 
-- **Añadir una etiqueta**: abre **Detalles…**, escribe en **+ Etiqueta** y pulsa
-  Enter. En la captura rápida, una `#palabra` en lo que escribes se convierte en
-  una etiqueta.
-- **Quitar una etiqueta**: haz clic en su **×** en Detalles.
-- **Explorar por etiqueta**: en Notas, el grupo **Etiquetas** de la barra
-  lateral lista cada etiqueta con cuántas notas la llevan. Haz clic en una para
-  listarlas.
+- **Añadir una**: abre los **Detalles…** del documento, escribe en
+  **+ Etiqueta** y pulsa Retorno.
+- **Quitar una**: haz clic en su **×**.
+- **Recorrer una**: haz clic en una etiqueta en Detalles, o en **Etiquetas** en
+  la barra lateral de Notas, para ver todas las notas que la llevan.
 
-## Sin enlazar {#unlinked}
+## Ordenar y buscar en una lista {#sort-and-search-a-list}
 
-**Sin enlazar**, en la barra lateral de Notas, lista las notas a las que nada
-enlaza y que no enlazan a nada: útil para encontrar cabos sueltos. Consulta
-[Enlaces y el grafo](links-and-graph.md).
+Todas las listas tienen la misma cabecera: atrás y adelante (`⌘[` y `⌘]`), el
+nombre de la lista, **+** para crear lo siguiente aquí y **⋮** para las demás
+acciones del modo.
 
-## Captura rápida {#quick-capture}
-
-En lo alto de la lista de Notas (en **Todas las notas**, una carpeta o una
-etiqueta) y en el Inicio de Notas hay un cuadro: **Anota una idea…**. Escribe y
-pulsa Enter, y se guarda como nota, en la carpeta o bajo la etiqueta que estás
-viendo. Una `#palabra` dentro añade esa etiqueta.
-
-## La lista {#the-list}
-
-Todas las listas tienen los mismos pocos controles arriba:
-
-- Un **campo de búsqueda** que filtra la lista mientras escribes. Dentro de una
-  carpeta, busca también en todas las carpetas que contiene.
-- Un **orden** para los documentos: **Última edición**, **Fecha de creación** o
-  **Título**. **Editado** conserva cualquier orden que hayas creado arrastrando.
-- **+** para crear lo siguiente aquí: una pieza, una nota, un capítulo, una
-  entrada.
-- **⋮** para las demás acciones del modo (nuevo proyecto, nueva carpeta, etc.).
-- Flechas de atrás y adelante.
-
-`⌥⌘←` y `⌥⌘→` abren el documento que está encima o debajo del abierto en la
-lista.
-
-## Búsqueda {#search}
-
-La búsqueda se ejecuta enteramente en tu ordenador.
-
-- **Buscar en el documento** (`⌘F`): busca en la página en la que estás.
-- **Buscar un documento** (`⌘K`): encuentra documentos por título y por su
-  contenido, además de proyectos y personajes. Se abre con los documentos que
-  tienes abiertos ahora, adónde ir y qué crear. Las páginas matutinas quedan
-  fuera.
-- **Comandos** (`⌘P`): ejecuta un comando por su nombre. Solo lista comandos.
-- **Buscar** (`⇧⌘F`): una página de búsqueda completa, con reemplazo. Consulta
-  [Buscar y reemplazar](search-and-replace.md).
+- **Ordenar.** Las piezas y las notas se ordenan por **Editado**, **Creado** o
+  **Título**. El botón muestra el orden actual.
+- **Buscar.** El campo bajo la cabecera filtra la lista mientras escribes, por
+  título, primeras líneas y etiquetas. Dentro de una carpeta, busca también en
+  las carpetas que contiene. `Esc` lo borra.
+- **Recorrer.** `⌥⌘←` y `⌥⌘→` abren el documento que está encima o debajo del
+  abierto.
+- **Abrir al lado.** Haz `⌥`-clic en una fila para abrirla junto a la que estás
+  leyendo (consulta [Documentos lado a lado](./side-by-side)).
 
 ## Detalles {#details}
 
-Todo lo que concierne a un documento y no es su texto vive en su página de
-**Detalles…**: ábrela desde el **⋮** del documento o desde el menú de clic
-derecho de cualquier fila. **Volver al texto** te devuelve a la página. Lo que
-muestra depende del documento:
+Todo lo que concierne a un documento y no es su texto está en su página de
+**Detalles…**. Ábrela con la ⓘ en lo alto de la página, desde el **⋮** del
+documento o desde el menú de clic derecho de cualquier fila. **Volver al
+texto** te devuelve a la página.
 
-- **Estado**: en las piezas, **borrador**, **publicado** o **archivado**. En los
-  capítulos de un proyecto, **Pendiente**, **Borrador**, **Revisado** o
-  **Final**. Las notas no tienen estado.
-- **Sinopsis** (un capítulo) o **Descripción** (todo lo demás).
-- **Meta de palabras**: para piezas y capítulos, con una barra frente al
-  recuento.
-- **Etiquetas**, y para un capítulo, un **Color**.
-- **Destacado**.
-- **En**: dónde vive. Un capítulo muestra su proyecto, su parte y su número, con
-  **Dejar fuera de la numeración** y un enlace para abrir el proyecto. Una pieza
-  o una nota muestra su carpeta; una pieza ofrece además **Añadirlo a un
-  proyecto…**; y cualquiera de las dos puede pasar entre Escribir y Notas. Aquí
-  también se listan las tarjetas de tablero que apuntan al documento.
-- **Vinculado a**: para piezas y notas, los documentos, proyectos y personajes
-  de los que trata. Consulta [Investigación](research.md).
+Lo que muestra depende del documento:
+
+| Fila | Se muestra para |
+| --- | --- |
+| **Estado** | Piezas: **borrador**, **publicado** o **archivado**. Capítulos: **Pendiente**, **Borrador**, **Revisado** o **Final**. |
+| **Sinopsis** o **Descripción** | Un capítulo tiene sinopsis; todo lo demás, descripción. |
+| **Meta de palabras** | Piezas y capítulos, con una barra frente al recuento. |
+| **Etiquetas** | Todo. |
+| **Color** | Capítulos: **Gris**, **Rojo**, **Ámbar**, **Verde**, **Azul** o **Violeta**. |
+| **Destacado** | Todo. |
+| **En** | Un capítulo: su proyecto, su parte y su número, **Dejar fuera de la numeración** y un enlace para abrir el proyecto. Una pieza o una nota: su carpeta y el paso al otro modo. Aquí también se lista cualquier tarjeta de tablero que apunte al documento. |
+| **Vinculado a** | Piezas y notas: los documentos, proyectos y personajes de los que trata (consulta [Investigación](./research)). |
 
 Al pie: cuándo se creó y se editó por última vez, y cuántas versiones tiene.
 
-## El menú de una fila {#a-rows-menu}
+## El menú de un documento {#a-documents-menu}
 
-Haz clic derecho sobre un documento en cualquier lista, o haz clic en su **⋮**,
-para ver:
+Haz clic derecho sobre un documento en cualquier lista, o haz clic en su **⋮**:
 
-- **Detalles…**, **Destacar** / **Quitar destacado**.
-- **Esquema**, **Enlaces wiki**, **Notas**, **Historial de versiones**: cada uno
-  abre esa parte del panel de información.
-- **Añadir a colección** / **Mover a colección**: ponerlo en un proyecto.
-- **Mover a Notas** / **Mover a las piezas de Escribir**.
-- **Mover a carpeta**.
-- **Quitar de la colección** (cuando está en una).
-- **Ocultar de Documentos**: lo mantiene fuera de las listas y del calendario;
-  `⌘K` lo sigue encontrando, y **Mostrar en Documentos** lo trae de vuelta.
-- **Marcar como páginas matinales**: consulta
-  [Diario y páginas matutinas](journal-and-morning-pages.md).
-- **Renombrar…**, **Copiar como Markdown** y un submenú de exportación con todos
-  los formatos (consulta [Exportar](exporting.md)).
-- **Eliminar**: el documento va a la papelera.
+- **Detalles…**, **Abrir al lado**, **Destacar** o **Quitar destacado**.
+- **Esquema**, **Enlaces wiki**, **Notas**, **Historial de versiones**: cada
+  uno abre esa parte del panel de información.
+- Los movimientos de la tabla de arriba.
+- **Marcar como páginas matinales** (consulta
+  [Diario y páginas matinales](./journal-and-morning-pages)).
+- **Renombrar…** y **Copiar como Markdown**.
+- Un submenú con todos los formatos de exportación (consulta
+  [Exportar](./exporting)).
+- **Eliminar**, que mueve el documento a la papelera.
 
 ## Papelera {#trash}
 
 Nada de lo que eliminas desaparece de inmediato. La **Papelera**, al pie de la
 barra lateral, guarda los documentos, proyectos, personajes, perfiles de autor,
-tableros y tarjetas de tablero eliminados. Elige un elemento para verlo (un
-documento se abre en modo de solo lectura) y luego **Restaurar** o **Eliminar
-para siempre**. **Vaciar**, en lo alto de la lista, lo borra todo, tras
-preguntar.
+tableros y tarjetas de tablero eliminados.
 
-Los elementos de la papelera se eliminan definitivamente pasados 30 días.
+1. Haz clic en **Papelera**.
+2. Elige un elemento para verlo. Un documento se abre en modo de solo lectura.
+3. Pulsa **Restaurar** para devolverlo a su sitio, o **Eliminar para siempre**
+   para quitarlo ya.
+
+**Vaciar**, en lo alto de la lista de la papelera, lo borra todo tras
+preguntar. Los elementos de la papelera se eliminan definitivamente pasados 30
+días.
+
+:::note
+
+`⌘⌫` mueve el documento abierto a la papelera, tras preguntar.
+
+:::
+
+## Ver también {#see-also}
+
+- [Notas y captura](./notes)
+- [Cómo moverte por φ](./finding-your-way): la barra lateral, la lista y la página.
+- [Buscar y reemplazar](./search-and-replace)
+- [Proyectos](./collections): organizar capítulos y partes.

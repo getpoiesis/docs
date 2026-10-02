@@ -1,84 +1,74 @@
 ---
 title: Diccionario y tesauro
+description: Busca una palabra, para saber qué significa o encontrar una mejor, sin salir de la página ni conectarte a internet.
 ---
 
 # Diccionario y tesauro
 
-φ puede buscar una palabra por ti, para saber qué significa o para encontrar una
-mejor, sin salir de la página ni conectarse a internet. Funciona como el
-diccionario de un lector electrónico: instalas *paquetes* de diccionario, y cada
-búsqueda ocurre en tu ordenador.
+φ puede buscar una palabra, para saber qué significa o para encontrar una
+mejor, junto a la página que estás escribiendo. Funciona como el diccionario de
+un lector electrónico: instalas paquetes de diccionario, y cada búsqueda ocurre
+en tu ordenador.
 
-<img src="/img/app/dictionary-light.png" alt="El diccionario, abierto junto al documento" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/dictionary-dark.png" alt="El diccionario, abierto junto al documento" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/dictionary-light.png" alt="Una palabra seleccionada en un capítulo, y sus definiciones y sinónimos en la pestaña Diccionario del panel de Información" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/dictionary-dark.png" alt="Una palabra seleccionada en un capítulo, y sus definiciones y sinónimos en la pestaña Diccionario del panel de Información" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Buscar una palabra {#looking-up-a-word}
+## Buscar una palabra {#look-up-a-word}
 
-El diccionario se abre como una pestaña **Diccionario** en el
-[Panel de información](./finding-your-way.md), junto a Esquema, Enlaces, Notas e
-Historial. Solo se une al panel mientras lo usas, y solo cuando hay un documento
-abierto: un tablero, una lista o la papelera no tienen palabras delante que
-buscar.
+1. Selecciona la palabra en la página.
+2. En la barra de herramientas que aparece encima, haz clic en **Más
+   herramientas** (›) y luego en **Buscar palabra**.
+3. Lee la definición en la pestaña **Diccionario** del panel de Información.
 
-Hay varias formas de llegar:
+Para buscar una palabra que aún no has escrito, pulsa `⌘⇧D` (o elige **Ver →
+Diccionario**, o **Abrir el diccionario** en el menú ⋮ del documento o en la
+paleta de comandos), escríbela en **Buscar una palabra…** y pulsa `Enter`.
+Pulsa `⌘⇧D` otra vez para devolver el panel a su **Esquema**.
 
-- **Desde una selección.** Selecciona una palabra en el editor. En la pequeña
-  barra de herramientas que aparece, haz clic en **›** (**Más herramientas**) y
-  luego en **Buscar palabra** (el icono del libro).
-- **Desde el teclado.** Pulsa `⌘⇧D`, o elige **Ver → Diccionario**. Es práctico
-  cuando quieres comprobar una palabra *antes* de escribirla. Pulsa `⌘⇧D` de
-  nuevo y el panel vuelve a su Esquema.
-- **Desde el documento.** Abre el menú ⋮ del documento, arriba a la derecha, y
-  elige **Abrir el diccionario**. El mismo comando está en la paleta de comandos
-  (`⌘P`).
-- **Desde el cuadro de búsqueda.** Con la pestaña Diccionario abierta, escribe
-  cualquier palabra en **Buscar una palabra…** y pulsa Enter.
+Cada resultado muestra la definición y, donde el paquete los tiene, sinónimos,
+con la etiqueta del paquete del que procede. Haz clic en cualquier sinónimo o
+referencia cruzada para buscar esa palabra a su vez.
 
-Los resultados muestran la definición y, donde el diccionario los proporciona,
-sinónimos. Cada resultado lleva la etiqueta del paquete del que procede. **Haz
-clic en cualquier referencia cruzada o sinónimo** de una definición para buscar
-esa palabra a su vez; te quedas dentro del panel.
+No necesitas la forma exacta del diccionario: *running*, *ledgers* y *cities*
+encuentran *run*, *ledger* y *city*. Muchos paquetes llevan también su propia
+lista de formas, así que un diccionario de español encuentra *correr* a partir
+de *corriendo*.
 
-### Palabras flexionadas {#inflected-words}
+La pestaña **Diccionario** solo se une al panel de Información mientras la
+usas, y solo cuando hay un documento abierto.
 
-No tienes que escribir la forma exacta del diccionario. Busca *running*,
-*changes* o *cities* y φ encontrará *run*, *change* y *city*. Muchos
-diccionarios también llevan su propia lista de formas alternativas, que φ usa
-automáticamente, así que con un diccionario de español *corriendo* se resuelve
-en *correr*.
-
-## Instalar un diccionario {#installing-a-dictionary}
+## Instalar un diccionario {#install-a-dictionary}
 
 φ no viene con ningún diccionario, así que la primera vez que abres la pestaña
-dice **No hay diccionarios instalados.** Añadir uno lleva un minuto. φ lee el
-formato **StarDict**, muy extendido:
+dice **No hay diccionarios instalados.** Lee el formato **StarDict**, muy
+extendido:
 
-1. Descarga un paquete de diccionario. Buenas fuentes gratuitas son
-   [freedict.org](https://freedict.org) y [wikdict.com](https://www.wikdict.com).
-   Para definiciones en inglés con sinónimos, un paquete StarDict de **WordNet**
-   funciona bien.
-2. Descomprímelo. Obtendrás una carpeta con archivos como `.ifo`, `.idx` y
-   `.dict` (a veces comprimidos como `.idx.gz` o `.dict.dz`; ambos sirven).
-3. En φ, abre **Ajustes** → **Idioma** → **Diccionario y tesauro**, haz clic en
-   **Instalar paquete de diccionario…** y selecciona la carpeta.
+1. Descarga un paquete. Buenas fuentes gratuitas son
+   [freedict.org](https://freedict.org) y
+   [wikdict.com](https://www.wikdict.com). Para definiciones en inglés con
+   sinónimos, un paquete StarDict de **WordNet** funciona bien.
+2. Descomprímelo. Tendrás una carpeta con archivos que terminan en `.ifo`,
+   `.idx` y `.dict` (a veces `.idx.gz` o `.dict.dz`; ambos sirven).
+3. Abre **Ajustes → Idioma → Diccionario y tesauro**, haz clic en **Instalar
+   paquete de diccionario…** y elige la carpeta.
 
-El paquete aparece en la lista de inmediato y está listo para usarse. Instala
-tantos como quieras: una búsqueda consulta todos.
+El paquete está listo al instante. Instala tantos como quieras: una búsqueda
+los consulta todos. Como los paquetes son archivos que tú eliges, pueden estar
+en cualquier idioma, o ser bilingües, para traducir mientras escribes.
 
-### Idiomas {#languages}
+## Gestionar tus paquetes {#manage-your-packs}
 
-Como los paquetes son simplemente archivos que eliges, φ no se limita al inglés.
-Instala un diccionario de español o de francés para buscar palabras en ese
-idioma, o un paquete bilingüe (inglés→español, por ejemplo) para traducir
-mientras escribes.
+**Ajustes → Idioma → Diccionario y tesauro** enumera cada paquete con el número
+de palabras que contiene. Para quitar uno, haz clic en la papelera que tiene al
+lado y confirma **¿Quitar diccionario?**
 
-## Gestionar paquetes {#managing-packs}
+:::note Nada sale de tu ordenador
+Los paquetes instalados se guardan en la carpeta de la aplicación de φ, y
+ninguna búsqueda se conecta nunca a internet.
+:::
 
-**Ajustes → Idioma → Diccionario y tesauro** enumera cada paquete instalado con
-el número de palabras que contiene. Para quitar uno, haz clic en el icono de la
-papelera a su lado y confirma **¿Quitar diccionario?**.
+## Ver también {#see-also}
 
-## Privacidad {#privacy}
-
-Todo aquí es local. Los diccionarios instalados se guardan en la carpeta de
-datos de la aplicación de φ, y ninguna búsqueda toca nunca la red.
+- [Ortografía](./spelling)
+- [El editor](./the-editor): la barra de herramientas de selección.
+- [Temas e idiomas](./themes-and-languages)

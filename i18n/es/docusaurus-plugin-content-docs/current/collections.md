@@ -1,44 +1,36 @@
 ---
 title: Proyectos
+description: Libros, partes y capítulos, preliminares y páginas finales, metas de palabras y la página propia del proyecto.
 ---
 
 # Proyectos
 
-Un **proyecto** reúne piezas en un todo ordenado: una novela, un libro de
+Un **proyecto** reúne tus piezas en una obra ordenada: una novela, un libro de
 poemas, una serie de ensayos. Guarda el orden, las partes, la numeración, la
-portada y la meta, y es lo que convierte a φ en un editor de manuscritos y no
-solo en un cuaderno.
+portada y la meta de palabras, y es lo que φ exporta como libro.
 
-<img src="/img/app/manuscript-light.png" alt="El índice de un manuscrito: preliminares, partes, capítulos y su estado" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/manuscript-dark.png" alt="El índice de un manuscrito: preliminares, partes, capítulos y su estado" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/manuscript-light.png" alt="Un proyecto abierto en Escribir: sus partes y capítulos en la lista, y su página con la portada, el título, el autor, el progreso y los ajustes" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/manuscript-dark.png" alt="Un proyecto abierto en Escribir: sus partes y capítulos en la lista, y su página con la portada, el título, el autor, el progreso y los ajustes" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Un proyecto *hace referencia* a sus documentos; no se los traga. **Eliminar un
-proyecto nunca elimina sus documentos**: se quedan en tu bóveda como piezas. El
-proyecto va a la papelera, desde donde puedes restaurarlo.
+## Empezar un proyecto {#start-a-project}
 
-Los proyectos viven en **Escribir**. Algunos menús y archivos antiguos todavía
-los llaman *colecciones*; es lo mismo.
+1. En **Escribir**, haz clic en **Nuevo proyecto** al pie de **Proyectos** en
+   la barra lateral.
+2. Ponle un título. El proyecto se abre en su propia página, con su esquema en
+   la lista de al lado.
+3. Haz clic en **+** en lo alto de la lista y elige **Añadir capítulo** (`⌘N`).
+4. En la página del proyecto, bajo **Ajustes**, define su **Tipo**, su
+   **Perfil de autor** y su **Meta de palabras**.
 
-## Empezar un proyecto {#starting-a-project}
+En una bóveda que todavía está vacía, el Inicio de Escribir ofrece en su lugar
+**Empieza un proyecto**: elige **Novela**, **Poesía**, **Ensayos** u **Otro**,
+y pulsa el botón **Crear**.
 
-- En la barra lateral de Escribir, haz clic en **Nuevo proyecto** al pie de
-  **Proyectos**.
-- El **⋮** de la lista → **Nuevo proyecto**.
-- `⌘P` → **Nueva colección**.
-- En una bóveda recién creada, el Inicio de Escribir ofrece **Empieza un
-  proyecto**: elige **Novela**, **Poesía**, **Ensayos**, **Guion** u **Otro**, y
-  luego **Crear** seguido del tipo (por ejemplo, **Crear novela**).
+## Elegir qué tipo de obra es {#choose-what-kind-of-work-it-is}
 
-φ te pide un título y luego abre el proyecto, listo para su primer capítulo.
-
-Cada proyecto aparece en la barra lateral de Escribir con lo que ha avanzado: el
-porcentaje de su meta de palabras o, si no tiene meta, cuántos documentos
-contiene.
-
-## Tipos de proyecto {#project-types}
-
-El **tipo** de un proyecto define cómo llama φ a lo que contiene, y da forma a
-sus exportaciones:
+El **Tipo** de un proyecto define cómo llama φ a lo que contiene, y cómo se
+exporta. Cámbialo cuando quieras en la página del proyecto; nada de lo que has
+escrito cambia, solo los nombres.
 
 | Tipo | Hecho de | Agrupados en |
 | --- | --- | --- |
@@ -50,156 +42,160 @@ sus exportaciones:
 | **Diario** | Entradas | Grupos |
 | **Personalizado** | Secciones | Grupos |
 
-Cambia el tipo cuando quieras en el **Resumen** del proyecto. Lo que has
-construido se conserva; solo cambian las palabras. (Un proyecto **Guion** creado
-antes conserva su tipo —Escenas agrupadas en Actos—, pero no se ofrece para
-proyectos nuevos desde el Resumen.)
+En esta página, *capítulo* y *parte* equivalen a como los llame el tipo de tu
+proyecto. Una colección de poemas tiene su propia página:
+[Poesía y verso](./poetry).
 
-En toda esta página, *capítulo* y *parte* equivalen a como los llame el tipo de
-tu proyecto.
+## Moverte por un proyecto {#find-your-way-around-a-project}
 
-## El esquema en la lista {#the-outline-in-the-list}
+Haz clic en un proyecto en la barra lateral para abrirlo. Sus páginas aparecen
+debajo:
 
-Haz clic en un proyecto en la barra lateral y su **esquema** llena la lista:
-cada capítulo con su número, su sinopsis y su estado, agrupados bajo sus partes.
-Una barra fina bajo el título del proyecto muestra las palabras escritas frente
-a su meta. La página se abre en el capítulo en el que trabajaste por última vez.
+| Página | Qué hay |
+| --- | --- |
+| *El nombre del proyecto* | La página del proyecto: portada, título, autor, descripción, progreso, ajustes y [Datos del libro](./book-details). |
+| **Índice** | Toda la obra en una página, para ordenarla. |
+| **Investigación** | Las páginas de investigación vinculadas al proyecto ([Investigación](./research)). |
+| **Personajes** | Los personajes del proyecto, y los compartidos ([Personajes y autores](./characters-and-authors)). |
+| **Tablero** | Los capítulos como tarjetas por estado, y los tableros propios del proyecto, listados al lado ([Tableros](./boards)). |
+| **Leer** | El manuscrito en orden, en modo de solo lectura: como **Prosa** o como **Libro** con su índice. |
+| **Exportar** | El libro impreso, el libro electrónico, el manuscrito para un agente ([Cómo funciona la exportación](./exporting)). |
 
-### Añadir {#adding}
+Mientras un proyecto está abierto, la lista junto a la página muestra su
+esquema: cada capítulo con su número y su sinopsis, agrupados bajo sus partes,
+con las palabras escritas frente a la meta en lo alto. Haz clic derecho en el
+proyecto en la barra lateral para ver las mismas páginas, **Icono…**,
+**Color**, **Mover a otra bóveda…** (cuando tienes más de una bóveda) y
+**Eliminar proyecto…**.
 
-Haz clic en **+** en lo alto de la lista:
+## Añadir capítulos y partes {#add-chapters-and-parts}
 
-- **Nuevo capítulo** (`⌘N`): se añade al final.
-- **Nueva parte** (`⇧⌘N`).
+- **+** en lo alto de la lista: **Añadir capítulo** (`⌘N`) o **Añadir parte**
+  (`⇧⌘N`), que se añaden al final.
+- El **⋮** de un capítulo en la lista: **Añadir capítulo debajo**, **Añadir
+  parte debajo**, **Renombrar**, **Duplicar**, **Detalles…**, **Páginas
+  preliminares / finales**, **Mover arriba del todo**, **Mover abajo del
+  todo** y **Quitar del proyecto**.
+- El **⋮** de una parte también tiene **Añadir capítulo dentro**.
 
-### El menú de una fila {#a-rows-menu}
+Desde el teclado:
 
-Cada fila tiene un **⋮**:
+| Para | Pulsa |
+| --- | --- |
+| Renombrar el capítulo abierto | `↵` (`↵` conserva, `Esc` cancela) |
+| Subir o bajar un capítulo | `⌥↑` / `⌥↓` |
+| Abrir el capítulo anterior o el siguiente | `⌥⌘←` / `⌥⌘→` |
+| Renombrar una parte | Doble clic en su nombre |
 
-- **Añadir capítulo debajo**, **Añadir parte debajo**.
-- **Renombrar** (`↵`), **Duplicar**.
-- **Detalles…**: estado, sinopsis, meta de palabras, color.
-- **Páginas preliminares / finales**: lo saca de la numeración (ver más abajo).
-- **Mover arriba del todo**, **Mover abajo del todo**.
-- **Quitar de la colección**: lo saca del proyecto, tras preguntar. El documento
-  en sí **no** se elimina; se queda en tu bóveda. Quitar una parte saca todo lo
-  que contiene, y tampoco elimina ninguno de los documentos.
+Arrastra filas en la lista para reordenarlas, o para meterlas en una parte o
+sacarlas de ella.
 
-El **⋮** de una parte también tiene **Nuevo capítulo dentro**.
+## Ordenar el índice {#arrange-the-contents}
 
-Haz clic derecho sobre un capítulo para ver el mismo menú que tiene cualquier
-documento (consulta [Organizar tu trabajo](organizing.md#a-rows-menu)).
+**Índice** muestra la obra en tres regiones: **Preliminares**, **La obra** y
+**Final**. Cada fila tiene su número, título, sinopsis, estado, palabras y un
+anillo que indica lo avanzada que está: su meta de palabras, o su estado
+cuando no tiene meta.
 
-### Teclado {#keyboard}
+- **Arrastra una fila** para moverla, a una parte o entre regiones.
+- **Contrae una parte** con su flecha, y renómbrala escribiendo en su nombre.
+- El **⋯** de una fila la mueve a una parte, la cuenta o no como capítulo, la
+  duplica o la quita del proyecto.
+- **Añadir capítulo** y **Añadir una parte** están al pie.
 
-- `↵` sobre el capítulo abierto lo renombra en su sitio (`↵` conserva, `Esc`
-  descarta).
-- `⌥↑` / `⌥↓` suben o bajan un capítulo dentro de su parte.
-- Haz doble clic en el nombre de una parte para renombrarla.
-- `⌥⌘←` / `⌥⌘→` abren el capítulo anterior o el siguiente, en el orden de todo
-  el libro, entrando y saliendo de las partes.
+Nunca escribes un número de capítulo. φ deduce «Parte II» y «Capítulo 7» de
+dónde está cada uno, así que mover cualquier cosa lo renumera todo a la vez.
 
-Arrastra filas para reordenarlas, o para meterlas en una parte o sacarlas de
-ella.
+## Preliminares y páginas finales {#front-and-end-matter}
 
-## Añadir documentos existentes {#adding-existing-documents}
+Una dedicatoria, un prólogo, un apéndice: algunas páginas de un libro no son
+capítulos. Arrastra una a **Preliminares** o **Final** en el Índice, elige
+**Páginas preliminares / finales** en su **⋮** de la lista, o marca **Dejar
+fuera de la numeración** en sus **Detalles**. No lleva número, así que tu
+primer capítulo de verdad sigue siendo el Capítulo 1, en el esquema, en la
+vista de lectura y en todas las exportaciones.
 
-- Clic derecho sobre una pieza o una nota → **Añadir a colección** o **Mover a
-  colección** → el proyecto.
-- Abre sus **Detalles…** y elige **Añadirlo a un proyecto…**.
+La portada del libro, la página de créditos y la página «Otros títulos» no son
+documentos: φ las crea a partir de los [Datos del libro](./book-details) del
+proyecto.
 
-Una nota añadida a un proyecto se convierte en una pieza.
+## Definir metas de palabras {#set-word-goals}
 
-## Las páginas del proyecto {#the-projects-pages}
+- **Para todo el proyecto**: **Meta de palabras** bajo **Ajustes** en la
+  página del proyecto. La barra lateral, lo alto de la lista y el Inicio de
+  Escribir muestran cuánto has avanzado.
+- **Para un capítulo**: **Meta de palabras** en sus **Detalles**, o **Definir
+  meta de palabras** en el menú ⋮ del documento. Su anillo en el Índice y su
+  recuento en la esquina de la página la siguen.
 
-El **⋮** de la lista (mientras estás en un proyecto), o un clic derecho sobre el
-proyecto en la barra lateral, lleva a sus páginas:
+Puedes seguir la meta de un capítulo y la del libro a la vez.
 
-### Índice {#contents}
+## La página del proyecto {#the-projects-page}
 
-El organizador: toda la obra en una página, en tres regiones: **Preliminares**,
-**La obra** y **Final**. Cada fila muestra su número, título, sinopsis, estado,
-palabras y un anillo de progreso (su propia meta de palabras, o lo avanzado que
-está su estado). Arrastra una fila a una región y adopta ese papel: los
-preliminares y las páginas finales dejan de contar como capítulos; todo lo que
-está en **La obra** conserva su número. Contrae una parte con su flecha,
-renómbrala escribiendo en su nombre y usa el **⋯** de una fila para moverla a
-una parte, contarla (o no) como capítulo, duplicarla o quitarla del proyecto.
-**Añadir capítulo** y **Añadir una parte** están al pie.
+Haz clic en el nombre del proyecto en la barra lateral para abrir su página:
 
-### Resumen {#overview}
-
-El proyecto en su conjunto:
-
-- **Portada**: **Añadir portada**, **Cambiar portada** o **Quitar portada**.
-- **Título**: haz clic en él para renombrar el proyecto.
-- **Firma**: haz clic para abrir el perfil de autor, o en **Nuevo perfil de
-  autor** cuando no hay ninguno (consulta
-  [Personajes y autores](characters-and-authors.md)).
-- **Descripción**: un breve resumen de la obra.
-- **Progreso**: palabras frente a la meta, y cuántos capítulos, partes y estados
-  hay.
-- **Ajustes**: **Tipo**, **Perfil de autor** y **Meta de palabras**, cada uno
-  mostrado con su valor; haz clic en uno para cambiarlo.
-- **Notas sobre esto**: las notas y páginas de investigación vinculadas al
-  proyecto (consulta [Investigación](research.md)).
+- **La portada**: haz clic en ella para añadirla o cambiarla (**Añadir
+  portada**, **Cambiar portada**). **Quitar portada** es la pequeña papelera de
+  al lado.
+- **El título**: haz clic en él para renombrar el proyecto.
+- **La firma**: abre el perfil de autor, u ofrece **Nuevo perfil de autor**
+  cuando no hay ninguno.
+- **La descripción**: unas líneas sobre la obra.
+- **Progreso**: palabras frente a la meta, y cuántos capítulos, partes y
+  estados hay.
+- **Ajustes**: **Tipo**, **Perfil de autor** y **Meta de palabras**. Haz clic
+  en uno para cambiarlo.
+- **Datos del libro**: lo que llevan las páginas propias del libro
+  ([Datos del libro](./book-details)).
+- **Investigación** y **Notas**: lo que está vinculado al proyecto, con
+  **Nueva página de investigación**, **Vincular investigación…**, **Nueva nota
+  sobre esto** y **Vincular una nota…**.
 - **Ir a**: **Índice**, el tablero de capítulos y **Exportar**.
 - **Eliminar este proyecto…**
 
-### Leer {#read}
+## Añadir una pieza que ya has escrito {#add-a-piece-youve-already-written}
 
-El manuscrito tal como lo encuentra un lector, en orden, en modo de solo
-lectura. Alterna entre **Prosa** (el texto seguido) y **Libro** (con su índice y
-la página del autor, tal como se maquetará el libro).
+- Haz clic derecho sobre una pieza en la lista y elige **Añadir a un
+  proyecto** (o **Mover a otro proyecto**), y luego el proyecto.
+- O abre sus **Detalles** y elige el proyecto en **Añadirlo a un proyecto…**.
 
-### Tablero {#board}
+Una nota entra en un proyecto una vez que es una pieza: elige primero **Mover
+a las piezas de Escribir** en su menú ⋮.
 
-**Abrir el tablero del proyecto** muestra los capítulos como tarjetas en
-columnas de estado: **Pendiente**, **Borrador**, **Revisado**, **Final**.
-Arrastra una tarjeta para cambiar su estado. Debajo están los tableros de tareas
-del proyecto (consulta [Tableros](boards.md)).
+## Guardar un proyecto {#put-a-project-away}
 
-### Exportar {#export}
+Un libro terminado, o uno que has dejado a un lado, no necesita ocupar la barra
+lateral.
 
-**Exportar manuscrito…** abre la página de exportación del proyecto: estilo,
-índice, tinta, papel y todos los formatos. Consulta [Exportar](exporting.md).
+1. Haz clic derecho en el proyecto en la barra lateral (o abre su **⋮**).
+2. Elige **Guardar**.
 
-### Y desde el menú de clic derecho {#and-from-the-right-click-menu}
+<img src="/img/app/put-away-light.png" alt="Los proyectos de la barra lateral con la línea Guardados abierta, mostrando Low Water, y la página de ese proyecto" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/put-away-dark.png" alt="Los proyectos de la barra lateral con la línea Guardados abierta, mostrando Low Water, y la página de ese proyecto" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Haz clic derecho sobre un proyecto en la barra lateral para ver **Abrir**,
-**Icono…**, **Color**, las páginas de arriba y **Eliminar proyecto…**.
+Se pliega en una discreta línea **Guardados** al pie de **Proyectos**. Haz clic
+en ella para ver tus proyectos guardados; **Recuperar** (en el mismo menú)
+devuelve uno. Nada cambia dentro, y ⌘K lo sigue encontrando. Cuando todos los
+capítulos de un proyecto están marcados como finales, su página ofrece
+guardarlo; φ nunca lo hace por ti.
 
-## Los números se calculan, nunca se guardan {#numbers-are-computed-never-stored}
+## Quitar o eliminar {#remove-or-delete}
 
-φ deduce «Parte I» o «Capítulo 3» de la posición de cada elemento. Reordena lo
-que sea y todo se renumera al instante. Nunca escribes un número de capítulo, y
-nunca tienes que corregir uno.
+**Quitar del proyecto** saca un capítulo del proyecto, tras preguntar. Quitar
+una parte saca todo lo que contiene. En ambos casos los documentos se quedan
+en tu bóveda, como piezas.
 
-## Preliminares y páginas finales {#front-and-back-matter}
+:::note Eliminar un proyecto conserva sus documentos
+**Eliminar proyecto…** (desde el menú de clic derecho) o **Eliminar este
+proyecto…** (en su página) pregunta primero, y luego quita el proyecto y nada
+más. Todos los capítulos se quedan en tu bóveda, y el proyecto va a la
+papelera, desde donde puedes restaurarlo.
+:::
 
-Algunas páginas de un libro no son capítulos: una dedicatoria, un prólogo, un
-apéndice. Marca una como **Páginas preliminares / finales** (desde su **⋮**, con
-**Dejar fuera de la numeración** en sus Detalles, o arrastrándola a
-**Preliminares** o **Final** en el Índice) y no llevará número, así que tus
-capítulos de verdad siguen empezando en el 1. Marcar una parte se aplica en
-cascada a todo lo que contiene. Esto vale en todos los lugares donde φ nombra un
-capítulo: el esquema, los Detalles, el Índice, la vista Leer y todas las
-exportaciones.
+## Ver también {#see-also}
 
-## Metas de palabras {#word-goals}
-
-- **El proyecto**: define la **Meta de palabras** en el Resumen. La barra
-  lateral, la cabecera de la lista y el Inicio muestran el progreso frente a
-  ella.
-- **Un capítulo**: define la **Meta de palabras** en sus **Detalles…**, o desde
-  el **⋮** del documento → **Definir meta de palabras**. Su anillo en el Índice
-  la sigue.
-
-Puedes seguir un solo capítulo y el libro entero a la vez.
-
-## Eliminar un proyecto {#deleting-a-project}
-
-**Eliminar proyecto…** (desde el menú de clic derecho o el **⋮** de la lista) o
-**Eliminar este proyecto…** en el Resumen. φ pregunta antes: el proyecto se
-quita y sus documentos **no** se eliminan. Va a la papelera, desde donde puedes
-restaurarlo.
+- [Datos del libro](./book-details): la portada, la página de créditos y las
+  demás páginas del libro.
+- [Cómo funciona la exportación](./exporting)
+- [Tableros](./boards)
+- [Organizar tu trabajo](./organizing)

@@ -1,169 +1,145 @@
 ---
-title: Diario y páginas matutinas
+title: Diario y páginas matinales
+description: Una entrada fechada para cada día, la práctica de las tres páginas matinales y la racha que cuenta los días en que escribes.
 ---
 
-# Diario y páginas matutinas
+# Diario y páginas matinales
 
-φ trae integrados dos hábitos diarios. El **diario** guarda una entrada fechada
-para cada día, para conservarla y volver a ella. Las **páginas matutinas** son la
-práctica privada de escribir y soltar. Ambos alimentan una **racha de
-escritura**, para que presentarte cada día sea algo que puedas ver.
+El **Diario** guarda una entrada para cada día, para volver a ella. Las
+**páginas matinales** están a su lado: tres páginas escritas a primera hora,
+que luego se sellan y se sueltan. Ambas cuentan para tu racha de escritura, así
+que un hábito diario es algo que puedes ver.
 
-<img src="/img/app/journal-light.png" alt="El diario: un día tras otro, el más reciente primero" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/journal-dark.png" alt="El diario: un día tras otro, el más reciente primero" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/journal-light.png" alt="El Diario: todas las entradas listadas por día con la franja de esta semana arriba, y la entrada de hoy abierta con su etiqueta de páginas matinales selladas" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/journal-dark.png" alt="El Diario: todas las entradas listadas por día con la franja de esta semana arriba, y la entrada de hoy abierta con su etiqueta de páginas matinales selladas" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## El modo Diario {#the-journal-mode}
+## Escribe la entrada de hoy {#write-todays-entry}
 
-**Diario** es el tercer modo del selector de la barra lateral (`⌘3`). Sus
-lugares:
+1. Elige **Diario** en el selector de modo de la barra lateral (`⌘3` cuando la
+   bóveda tiene los tres modos).
+2. Haz clic en **Hoy**. φ abre la entrada de hoy, y la crea si aún no existe.
+3. Escribe. La entrada se guarda sola mientras escribes.
+4. Para empezar también las páginas matinales del día, haz clic en **Empezar
+   las páginas matinales** junto a la fecha.
 
-- **Inicio**: la entrada de hoy, esta semana y los días anteriores, las páginas
-  matutinas de hoy, el mes y lo que escribiste este mismo día en otros años.
-- **Hoy**: abre la entrada de hoy.
-- **Todas las entradas**: cada día en que has escrito, el más reciente primero.
-- **Páginas matutinas**: cada sesión de páginas matutinas.
-- **Selladas**: las páginas matutinas que has terminado y sellado.
-- **Lugares** → **Calendario**.
+También puedes empezar desde la tarjeta **Hoy** del **Inicio** del Diario,
+desde **+** en lo alto de **Todas las entradas** (**Escribir hoy**) o desde
+`⌘P` → **Nueva entrada de diario**.
 
-Una entrada de diario es un documento atado a un día. Vive en tu bóveda como
-cualquier otro —se puede buscar, enlazar y exportar—, pero el diario la agrupa
-por fecha, para que una práctica diaria tenga un hogar.
+## Muévete por el Diario {#find-your-way-around-the-journal}
 
-## Escribir hoy {#writing-today}
+| En la barra lateral | Qué muestra |
+| --- | --- |
+| **Inicio** | La entrada de hoy, esta semana, los últimos días, las páginas matinales de hoy, el mes y **Un día como hoy**: lo que escribiste en esta fecha en años anteriores. |
+| **Hoy** | La entrada de hoy. |
+| **Todas las entradas** | Cada día en que has escrito, el más reciente primero, con esta semana como una franja de días arriba. Abre un día para leerlo, o quédate en la lista para recorrer todos los días como una sola página y escribir en cualquiera de ellos ahí mismo. |
+| **Páginas matinales** | Cada sesión, con sus páginas y palabras. |
+| **Selladas** | Las páginas matinales que has terminado. |
+| **Calendario** | Tu escritura a lo largo de los meses (consulta [El calendario](./calendar)). |
 
-Cualquiera de estas opciones abre la entrada de hoy, y la crea si aún no existe:
+Una entrada va encabezada por su día de la semana sobre la fecha. A su lado
+están la etiqueta de páginas matinales de ese día, **Hoy** cuando estás en otro
+día, y flechas para pasar al día anterior o siguiente en que escribiste. Bajo la
+entrada, **Mencionado en** lista los documentos que llevan la fecha de ese día o
+enlazan a él.
 
-- **Hoy** en la barra lateral.
-- **+** en lo alto de **Todas las entradas** (**Escribir hoy**).
-- En el Inicio del Diario, **Empieza la entrada de hoy** (o **Continuar la
-  entrada** una vez que has empezado).
-- `⌘P` → **Nueva entrada de diario**.
+Una entrada de diario es un documento como cualquier otro: se puede buscar,
+enlazar y exportar. El Diario solo la agrupa por su día.
 
-:::note
-`⌘N` en el Diario crea una nueva **nota**, no una entrada: el diario tiene una
-entrada por día.
-:::
+## Escribe en un día anterior {#write-on-an-earlier-day}
 
-## Escribir en otro día {#writing-on-another-day}
+Puedes escribir hoy o en cualquier día anterior, nunca por adelantado.
 
-Puedes escribir hoy o en cualquier día anterior, nunca por adelantado:
-
-- Sin nada abierto en **Todas las entradas**, la página muestra todos los días
-  como un solo flujo, con hoy arriba. Haz clic en un día para escribir en él
-  ahí mismo, o usa **Escribir en un día…** para elegir una fecha.
-- La **franja semanal** en lo alto de la lista: haz clic en un día.
-- En el [calendario](calendar.md), selecciona un día y elige **Escribir este
+- Haz clic en un día de la franja semanal en lo alto de **Todas las entradas**.
+- En la página con todos tus días, pulsa **Escribir en un día…** y elige una
+  fecha.
+- En el [calendario](./calendar), selecciona un día y pulsa **Escribir este
   día**.
 
-Un día que abres y dejas sin escribir se vuelve a quitar: va a la papelera en
-lugar de dejar un archivo vacío.
+Un día que abres y dejas sin escribir ni una palabra va a la papelera, para que
+no se acumulen días vacíos.
 
-## La página de una entrada {#an-entrys-page}
+## Lleva tus páginas matinales {#keep-morning-pages}
 
-Una entrada va encabezada por su día de la semana, en dorado, sobre la fecha. A
-su lado:
+Las páginas matinales son una práctica manuscrita, lo primero del día: tres
+páginas, escritas con libertad y sin releerlas. φ mantiene su página despejada
+a propósito. No hay barra de herramientas, ni menú de barra inclinada, ni
+sugerencias de `@` o `[[`, ni etiquetas: solo la fecha y la página.
 
-- Una etiqueta para las páginas matutinas de ese día: **Empezar las páginas
-  matinales**, **Páginas matinales** o **selladas**.
-- **Hoy**, cuando estás en otro día.
-- **←** y **→** pasan al día anterior o siguiente en que escribiste.
-
-Bajo la entrada, **Mencionado en**, con un recuento, lista los documentos que
-llevan la fecha de ese día o enlazan a la entrada: lo que convierte una fecha en
-un lugar.
-
-## Páginas matutinas {#morning-pages}
-
-Las páginas matutinas son una práctica manuscrita, lo primero del día: tres
-páginas, escritas con libertad, sin releerlas. φ lo respeta. Las páginas
-matutinas son **privadas** —se mantienen fuera de las listas, del grafo y de
-`⌘K`— y están pensadas para soltarlas, no para pulirlas.
-
-Por eso la superficie está despejada a propósito: sin menú de barra inclinada,
-sin barra de herramientas, sin sugerencias, sin etiquetas, sin estado, sin meta;
-solo la fecha y la página.
-
-### Abrir las páginas de hoy {#open-todays-pages}
-
-- **Diario** → **Páginas matutinas**, y luego **+** (**Empezar las páginas
-  matutinas de hoy**) o **Escribir las páginas de hoy**.
-- La tarjeta **Páginas matutinas** en el Inicio del Diario.
-- La etiqueta de páginas matutinas en cualquier entrada.
-- `⌘P` → **Páginas matutinas de hoy**.
+Para abrir las páginas de hoy, usa **Empezar las páginas matinales** junto a una
+entrada, la tarjeta **Páginas matinales** del Inicio del Diario, **+** en lo
+alto de **Páginas matinales** o `⌘P` → **Páginas matinales de hoy**.
 
 ### Tres páginas {#three-pages}
 
-La meta son **tres páginas**, que φ cuenta como **750 palabras**. Un discreto
-pie bajo la página muestra dónde estás
-—`{words} / 750 palabras · página {page} de 3`—, con un pequeño anillo y **Marcar como hecho**. El botón espera hasta que
-llegues a 750; pasa el puntero por encima para ver cuántas palabras faltan.
+La meta son tres páginas, que φ cuenta como 750 palabras. Una línea discreta
+bajo la página muestra dónde estás, por ejemplo «320 / 750 palabras · página 2
+de 3», con un pequeño anillo y **Marcar como hecho**. El botón espera hasta que
+llegues a 750 palabras; pasa el puntero por encima para ver cuántas faltan.
 
-### Sellar el día {#sealing-the-day}
+### Sella el día {#seal-the-day}
 
 **Marcar como hecho** sella las páginas del día. También puedes sellarlas en
 cualquier momento desde el **⋮** del documento → **Sellar el día**.
 
-Las páginas matutinas no están pensadas para releerse, así que un día sellado se
-abre en una tarjeta discreta en lugar de tu texto: *Tres páginas, selladas.*
-Desde ahí, **Leer estas páginas** las muestra en modo de solo lectura, y
-**Quitar el sello para editar…** (también en el **⋮**) te deja volver a escribir
-en ellas, tras preguntar. Las páginas que abres desde el calendario siempre se
-abren en modo de solo lectura.
+Un día sellado se abre en una tarjeta breve en lugar de tu texto. Desde ahí,
+**Leer estas páginas** las muestra sin dejarte editarlas, y **Quitar el sello
+para editar** te deja volver a escribir en ellas, tras preguntarte antes. Las
+páginas que abres desde el calendario siempre se abren en modo de solo lectura.
 
 ### La práctica {#the-practice}
 
-Con unas páginas matutinas abiertas, el panel de información (`⇧⌘I`) tiene dos
+Con unas páginas matinales abiertas, el panel de información (`⇧⌘I`) tiene dos
 pestañas, **La práctica** e **Historial**. La práctica muestra las páginas y
-palabras de hoy, tu racha y tu racha más larga, los días de este mes y cuántas
-páginas has sellado.
+palabras de hoy, cuántos días seguidos la has mantenido y tu racha más larga,
+los días de este mes y cuántas páginas has sellado.
 
-La lista de **Páginas matutinas** muestra cada sesión con su día, su página y
-sus palabras; su página añade los totales: sesiones, selladas y tus rachas.
+### Convierte un documento en páginas matinales {#make-a-document-into-morning-pages}
 
-### Convertir un documento en páginas matutinas {#turning-a-document-into-morning-pages}
+Haz clic derecho sobre cualquier documento de una lista y elige **Marcar como
+páginas matinales**. **Desmarcar páginas matinales** lo deshace.
 
-Clic derecho sobre cualquier documento → **Marcar como páginas matinales** lo
-convierte en páginas matutinas (y **Desmarcar páginas matinales** lo deshace).
+:::note Privadas por diseño
 
-:::tip
-`⌘K` deja fuera las páginas matutinas, pero la página de búsqueda completa
-(`⇧⌘F`) sí las incluye: consulta [Buscar y reemplazar](search-and-replace.md).
+Las páginas matinales se mantienen fuera de `⌘K` y del grafo. Si prefieres no
+llevarlas en absoluto, desactiva **Páginas matinales** en **Ajustes** (`⌘,`) →
+**Ajustes de escritura** → **Modos** → **Diario**.
+
 :::
 
-## Rachas de escritura {#writing-streaks}
+## Mantén una racha de escritura {#keep-a-writing-streak}
 
-Una racha es la serie de días seguidos en los que has alcanzado un mínimo diario
-de palabras. Escribe un poco cada día y crece.
+Una racha es la serie de días seguidos en los que has escrito al menos un
+número mínimo de palabras.
 
-### Qué cuenta {#what-counts}
+- **Cualquier escritura cuenta**: una entrada de diario, páginas matinales, un
+  capítulo, una nota. Las palabras cuentan el día en que las escribiste.
+- **El mínimo es de 50 palabras al día.** Súbelo en **Ajustes** → **Editor** →
+  **Racha de escritura** → **Mínimo de palabras / día**.
+- **Un día de gracia.** Una racha que terminó ayer aún no está rota: tienes el
+  resto de hoy para mantenerla.
 
-- Un día cuenta en cuanto las palabras que **escribiste ese día** llegan al
-  mínimo, en cualquier lugar de la bóveda: una entrada de diario, páginas
-  matutinas, un capítulo, una nota. Las palabras se acreditan al día en que de
-  verdad las escribiste.
-- El mínimo es de **50 palabras al día**, salvo que lo subas en **Ajustes**
-  (`⌘,`) → **Editor** → **Racha de escritura** → **Mínimo de palabras / día**.
-  No puede bajar de 50.
-- Hay **un día de gracia**: una racha que terminó *ayer* aún no está rota;
-  tienes el resto de hoy para mantenerla.
+La verás en el Inicio de Escribir (la tarjeta **Hoy**), en el Inicio del
+Diario, en el calendario y en **La práctica**, junto a unas páginas matinales.
 
-### Dónde aparece {#where-it-shows}
+Para cambiar cómo se muestra, ve a **Ajustes** → **Ajustes de escritura** →
+**Racha**:
 
-- La tarjeta **Hoy** en el Inicio de Escribir.
-- Una etiqueta en el Inicio del Diario.
-- Una etiqueta en la lista del calendario.
-- **La práctica**, junto a unas páginas matutinas.
+| Opción | Qué ves |
+| --- | --- |
+| **Llama y número** | Una llama en cada día en que escribiste, con tu racha actual enlazada en el calendario. |
+| **Días a secas** | Las llamas, sin la racha resaltada. |
+| **Apagada** | Sin llamas y sin racha en el Inicio de Escribir. |
 
-### Cómo se muestra {#how-it-shows}
+El **Ritmo semanal**, en el mismo sitio, es un objetivo más suave: un número de
+días a la semana, contados sobre los últimos siete días, para que un solo día
+perdido nunca lo reinicie.
 
-Elige en **Ajustes** → **Ajustes de escritura** → **Racha**:
+## Ver también {#see-also}
 
-- **Llama y número**: el calendario marca cada día en que escribiste con una
-  llama y enlaza tu racha actual.
-- **Días a secas**: las llamas se quedan, pero la racha no se resalta.
-- **Apagada**: sin llamas en el calendario y sin racha en el Inicio de Escribir.
-
-El **Ritmo semanal**, en el mismo sitio, es un objetivo más suave: proponte
-escribir *N días a la semana*, medidos sobre siete días móviles, para que un
-solo día perdido nunca lo reinicie. Consulta
-[El calendario](calendar.md#the-streak-and-how-it-shows).
+- [El calendario](./calendar): cada día en que escribiste y lo que está ligado
+  a él.
+- [Cómo moverte por φ](./finding-your-way): la barra lateral, la lista y el
+  panel de información.
+- [Versiones y copias de seguridad](./versions-and-backup): la pestaña
+  Historial.
