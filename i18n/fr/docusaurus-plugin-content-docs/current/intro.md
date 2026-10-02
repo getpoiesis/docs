@@ -1,97 +1,84 @@
 ---
-title: Introduction
+title: Bienvenue
+description: Ce qu’est φ, à qui il s’adresse, et comment il garde votre écriture.
 slug: /
 ---
 
 # Bienvenue dans φ
 
-φ est une application d'écriture pensée pour la durée — manuscrits, poésie,
-essais, et les notes qui les nourrissent. Elle est d'abord conçue pour le
-**métier d'écrire** : une page calme et pleine largeur, un serif où l'on se sent
-chez soi, et une structure qui reste discrète jusqu'à ce que vous en ayez besoin.
+φ est une application d’écriture de bureau pensée pour les œuvres longues :
+romans, poésie, essais, et les notes et journées de journal qui les nourrissent.
+Il vous offre une page calme, garde chaque mot dans des fichiers sur votre
+propre ordinateur, et reste discret jusqu’à ce que vous ayez besoin de quelque
+chose.
 
-<img src="/img/app/write-home-light.png" alt="Écrire : le travail en cours, les projets et le mois qui les précède" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/write-home-dark.png" alt="Écrire : le travail en cours, les projets et le mois qui les précède" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-light.png" alt="Un chapitre dans le Sanctuaire : la page seule, chaque phrase estompée sauf celle en cours" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Un chapitre dans le Sanctuaire : la page seule, chaque phrase estompée sauf celle en cours" width="1600" height="1000" loading="lazy" decoding="async" />
 
-:::warning φ est en alpha
+## Commencer {#get-started}
 
-Vous utilisez un logiciel à un stade précoce. Le cœur — écrire, organiser,
-versionner et garder votre travail en sécurité dans de simples fichiers — est
-solide et utilisé au quotidien. Mais attendez-vous à des aspérités, des bogues
-occasionnels et des fonctionnalités qui se stabilisent encore.
+1. [Installez φ](./installing) sous macOS, Windows ou Linux.
+2. [Créez votre premier coffre](./getting-started) : le dossier où vit votre
+   écriture.
+3. Faites [le tour de la fenêtre](./finding-your-way).
+4. Cliquez sur le projet d’exemple, **The Grey Morning**, dans la barre
+   latérale, puis sur **Exporter** juste en dessous, pour voir comment φ compose
+   un livre.
 
-**Le point faible aujourd'hui, c'est l'export** — la conversion de votre travail
-en fichiers EPUB, PDF ou Word. Il est en développement actif et c'est la partie
-la plus susceptible de nécessiter un nettoyage dans l'application cible. Traitez
-les fichiers exportés comme des brouillons et relisez-les. Voir
-[Exporter et imprimer](exporting.md) pour savoir à quoi vous attendre.
+## Trois modes dans un coffre {#three-modes-in-one-vault}
 
-Votre écriture elle-même n'est jamais en danger : les documents sont de simples
-fichiers, enregistrés en continu et vérifiés, avec un historique des versions que
-vous pouvez restaurer.
+φ est d’abord un éditeur de manuscrits, avec un carnet et un journal à ses
+côtés. Les trois partagent un même coffre : un chapitre peut donc renvoyer à une
+note, et une journée de journal mentionner un personnage.
+
+| Mode | Ce qu’il contient |
+| --- | --- |
+| **Écrire** | Vos projets (un roman, un recueil de poèmes, un livre d’essais), avec leurs parties et leurs chapitres, et les **Pièces** : des textes qui n’appartiennent encore à aucun projet. Les personnages, les auteurs et la recherche se trouvent à côté. |
+| **Notes** | Idées, sources, phrases entendues au vol. Dossiers, étiquettes, étoiles, tableaux et modèles. |
+| **Journal** | Une page pour chaque jour, et les pages du matin : trois pages, dès le réveil. |
+
+Tapez `[[` pour lier un document à un autre, et le
+[graphe](./links-and-graph) montre comment ils se relient. Quand vient le moment
+d’écrire, le **Sanctuaire** (`⌘.`) masque tout sauf la page.
+
+## Votre écriture reste la vôtre {#your-writing-stays-yours}
+
+- **Vos fichiers, dans un dossier que vous choisissez.** Ni compte, ni cloud.
+  Écrire, rechercher et exporter fonctionnent entièrement hors ligne.
+- **Enregistré pendant que vous tapez.** Chaque document est enregistré en
+  continu et vérifié après chaque écriture. L’historique des versions vous
+  permet de revenir à n’importe quel brouillon antérieur, et vous pouvez le
+  sauvegarder sur votre propre dépôt git distant si vous voulez une copie
+  ailleurs. Voir [Versions et sauvegarde](./versions-and-backup).
+- **Facile à déplacer et à conserver.** Copiez le dossier et vous avez tout
+  copié. Un coffre peut se trouver dans iCloud Drive, Dropbox ou un autre
+  dossier synchronisé, et φ pour iPhone et iPad, quand il arrivera, ouvrira le
+  même coffre. Voir [Coffres](./vaults).
+
+Chaque document est un fichier `.poiesis` qui contient votre texte et ses
+détails sous forme de contenu structuré : annotations, notes de bas de page et
+citations restent donc intactes. φ n’enregistre pas en Markdown, mais vous
+pouvez en importer, en coller et en exporter librement.
+
+:::note φ est en alpha
+
+Écrire, organiser et versionner servent au quotidien, mais attendez-vous à des
+aspérités. Le badge **Alpha**, en bas de la barre latérale, est le moyen de nous
+dire comment ça se passe.
 
 :::
 
-## Ce qui rend φ différent {#what-makes-φ-different}
+## Ce que φ n’est pas {#what-φ-isnt}
 
-**Votre écriture vous appartient.** Tout vit dans de simples fichiers sur votre
-propre ordinateur, dans un dossier que vous choisissez. φ fonctionne sous macOS,
-Windows et Linux, et il n'y a ni compte, ni cloud, ni réseau requis pour écrire,
-modifier, rechercher ou exporter. Fermez l'application, ouvrez le dossier : votre
-travail est là.
+- **Un service cloud.** Rien ne quitte votre ordinateur, sauf si vous
+  configurez vous-même une sauvegarde ou placez le coffre dans un dossier
+  synchronisé.
+- **Un outil de collaboration en temps réel.** φ est fait pour un seul auteur à
+  la fois.
 
-**Local d'abord, durable par conception.** Chaque document est enregistré
-automatiquement et vérifié après chaque écriture. φ conserve un historique des
-versions pour que vous puissiez revenir à n'importe quel brouillon antérieur, et
-peut sauvegarder cet historique sur votre propre dépôt git distant si vous le
-voulez hors de la machine — mais rien ne quitte votre ordinateur à moins que vous
-ne le configuriez.
+## Voir aussi {#see-also}
 
-**Trois modes, un coffre.** φ est d'abord un éditeur de manuscrits, avec un
-carnet et un journal à ses côtés, et les trois partagent les mêmes fondations.
-Écrivez un livre comme **projet** dans *Écrire*, gardez idées et sources dans
-*Notes*, tenez une entrée quotidienne et des pages du matin dans *Journal*, liez
-ce que vous voulez avec des `[[wiki-links]]`, et regardez le tout se connecter
-dans le graphe — en un seul endroit, un seul coffre.
-
-**Discrète par défaut.** **Sanctuaire** (`⌘.`) masque tout sauf la page et
-estompe tout sauf la phrase où vous êtes, pour que les mots devant vous soient la
-seule chose éclairée. Le défilement machine à écrire garde votre ligne centrée.
-L'interface s'efface pour que la page soit l'essentiel.
-
-## Ce que φ n'est pas {#what-φ-is-not}
-
-- **Pas un service cloud.** Il n'y a ni serveurs ni comptes de synchronisation.
-  La sauvegarde et la portabilité reposent sur des fichiers et sur git, sous
-  votre contrôle.
-- **Pas un outil de collaboration en temps réel.** φ est, par conception, une
-  application pour un seul auteur.
-- **Pas natif Markdown.** Les documents sont stockés sous forme de contenu
-  structuré (JSON ProseMirror) pour que les éléments riches — annotations, notes
-  de bas de page, citations, blocs personnalisés — survivent aux allers-retours.
-  Vous pouvez tout de même *importer*, *coller* et *exporter* du Markdown
-  librement.
-
-## Comment l'écriture est stockée {#how-writing-is-stored}
-
-Chaque document est un fichier `.poiesis` : une petite enveloppe JSON autour de
-votre texte et de ses métadonnées. Un **coffre** n'est qu'un dossier de ces
-fichiers, plus quelques éléments que φ garde à côté :
-
-- un dossier `assets/` pour les images que vous ajoutez,
-- un dossier `.trash/` pour ce que vous supprimez,
-- un petit fichier marqueur, `.poiesis-vault.json`, qui nomme le coffre,
-- et son historique des versions — dans `.poiesis-history/`, ou dans un dépôt
-  git si vous passez à git.
-
-Comme tout n'est que de simples fichiers dans un dossier ordinaire, votre
-écriture est facile à sauvegarder, à déplacer et à conserver pendant des
-décennies. φ pour iPhone et iPad peut aussi ouvrir le même coffre. Voir
-[Coffres](vaults.md) pour en savoir plus.
-
-## Par où continuer {#where-to-go-next}
-
-Vous débutez ? Commencez par [Premiers pas](getting-started.md) — vous
-installerez φ, créerez votre premier coffre et écrirez votre première page en
-quelques minutes. Ensuite, [Se repérer dans φ](finding-your-way.md) vous fait
-découvrir la fenêtre.
+- [Votre premier coffre](./getting-started)
+- [Le tour de la fenêtre](./finding-your-way)
+- [L’éditeur](./the-editor)
+- [Projets](./collections)

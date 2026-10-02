@@ -110,7 +110,7 @@ The **⋮** above the page holds what you do to the document as a whole:
   (`⌘⇧D`).
 - **Read mode**, **Typewriter scrolling**, **Sanctuary** and **Check
   spelling…**.
-- Every format the document can be exported as, **Save a Copy (.poiesis
+- Every format the document can be exported as, **Save a Copy (`.poiesis`
   with images)…** and **Move to vault…**.
 - **Move to trash**.
 

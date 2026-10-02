@@ -1,142 +1,154 @@
 ---
 title: Versions et sauvegarde
+description: Comment φ enregistre pendant que vous écrivez, conserve des versions antérieures que vous pouvez comparer et restaurer, et sauvegarde votre historique dans un endroit à vous.
 ---
 
 # Versions et sauvegarde
 
-Votre écriture est enregistrée en continu, et φ conserve un historique pour que
-vous puissiez revenir à n’importe quel brouillon antérieur. Rien ne quitte votre
-ordinateur à moins que vous ne configuriez vous-même un distant.
+φ enregistre pendant que vous écrivez, et conserve un historique de chaque
+document pour que vous puissiez revenir à n’importe quel brouillon antérieur.
+Si vous voulez une copie hors de votre ordinateur, il peut aussi envoyer cet
+historique vers une sauvegarde à vous. Rien ne quitte votre ordinateur à moins
+que vous ne le configuriez.
 
-<img src="/img/app/versions-light.png" alt="L’historique d’un document : instantanés nommés et points de contrôle automatiques" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/versions-dark.png" alt="L’historique d’un document : instantanés nommés et points de contrôle automatiques" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/versions-light.png" alt="Un chapitre ouvert avec l’onglet Historique à côté : Enregistré, Enregistrer une version, et des instantanés nommés et points de contrôle regroupés par jour" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/versions-dark.png" alt="Un chapitre ouvert avec l’onglet Historique à côté : Enregistré, Enregistrer une version, et des instantanés nommés et points de contrôle regroupés par jour" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Comment fonctionne l’enregistrement {#how-saving-works}
+## Enregistrer un instantané {#save-a-snapshot}
 
-Chaque modification s’enregistre d’elle-même un instant après que vous avez
-cessé de taper, et chaque écriture est vérifiée avant d’être considérée comme
-fiable. Vous n’avez jamais besoin d’appuyer sur Enregistrer. Pendant un
-enregistrement, le pied de la barre latérale indique **Enregistrement…**.
+Un instantané est une version que vous nommez, pour marquer une étape : la fin
+d’un chapitre, un brouillon terminé, le moment avant une grosse coupe.
 
-`⌘S` est toujours là si vous le souhaitez : il enregistre immédiatement et crée
-un point de contrôle, pour que vous ayez un point explicite où revenir.
+1. Ouvrez le document.
+2. Appuyez sur `⌘⇧S`, ou choisissez **Enregistrer une version…** dans le menu
+   **⋮** du document.
+3. Donnez-lui un nom, par exemple «  Deuxième brouillon, deuxième partie  ».
 
-En plus de l’enregistrement, φ crée des **versions** : des copies à un instant
-donné que vous pouvez parcourir et restaurer.
+Il apparaît dans l’onglet **Historique** du document, marqué comme instantané.
 
-## Deux types de version {#two-kinds-of-version}
+## Comment φ conserve votre travail {#how-φ-keeps-your-work}
 
-- **Les points de contrôle** sont créés pour vous : à intervalle régulier
-  pendant que vous travaillez (toutes les cinq minutes, sauf si vous le changez
-  dans **Réglages → Versions**), quand vous fermez la fenêtre, quand vous
-  appuyez sur `⌘S`, et quand φ met à jour vos documents vers un nouveau format
-  de fichier. Vous n’avez pas à y penser.
-- **Les instantanés** sont des versions nommées que vous créez volontairement
-  pour marquer une étape : la fin d’un chapitre, un brouillon terminé. Appuyez
-  sur `⌘⇧S` (**Fichier → Enregistrer une version…**), ou cliquez sur
-  **Enregistrer un instantané** en haut de l’onglet Historique, et donnez-lui un
-  nom.
+- **Chaque modification s’enregistre d’elle-même** un instant après que vous
+  avez cessé de taper. Pendant l’enregistrement, le pied de la barre latérale
+  indique **Enregistrement…**. Il n’y a pas de bouton Enregistrer à ne pas
+  oublier.
+- **Des points de contrôle sont créés pour vous** : toutes les cinq minutes
+  pendant que vous travaillez, quand vous fermez la fenêtre, et quand φ met à
+  jour vos documents vers un nouveau format de fichier. Changez la fréquence
+  dans **Réglages** (`⌘,`) → **Versions** → **Point de contrôle automatique
+  toutes les**.
+- **`⌘S`** enregistre immédiatement et crée un point de contrôle, si vous aimez
+  avoir un point à vous où revenir.
+- **Avant un changement dans tout le coffre.** Quand vous remplacez un mot dans
+  tous les documents (voir [Rechercher et remplacer](./search-and-replace)), φ
+  enregistre d’abord une version du coffre entier, pour que le changement
+  puisse être annulé.
 
-## L’onglet Historique {#the-history-tab}
+## Retrouver une ancienne version {#find-an-old-version}
 
-L’historique d’un document se trouve dans l’onglet **Historique** du
-[panneau Infos](./finding-your-way.md). Pour l’ouvrir :
+L’historique d’un document se trouve dans l’onglet **Historique** du panneau
+Infos. Pour l’ouvrir :
 
-- appuyez sur `⇧⌘I` pour le panneau Infos, puis cliquez sur **Historique** ;
-- choisissez **Historique des versions** dans le menu ⋮ du document ; ou
-- faites un clic droit sur le document dans la liste et choisissez
+- appuyez sur `⇧⌘I` pour le panneau Infos, puis cliquez sur **Historique** ;
+- choisissez **Historique des versions** dans le menu **⋮** du document ; ou
+- faites un clic droit sur le document dans une liste et choisissez
   **Historique des versions**.
 
-En haut, **Enregistré** vous rappelle que vos modifications sont déjà en
-sécurité, et **Enregistrer un instantané** nomme une nouvelle version. En
-dessous, l’historique est regroupé par jour (Aujourd’hui, Hier, etc.). Les
-points de contrôle d’une journée se replient en une seule ligne que vous pouvez
-ouvrir, pour que les instantanés ressortent. Vous pouvez replier ou déplier tous
-les jours d’un coup, chercher des versions par nom, et filtrer par **Toutes**,
-**Instantanés**, **Points de contrôle** ou **Restaurations**.
+**Enregistré**, en haut, vous rappelle que vos modifications sont déjà en
+sécurité, et **Enregistrer une version…** nomme une nouvelle version. En
+dessous, les versions sont regroupées par jour. Les points de contrôle de
+chaque jour se replient en une seule ligne que vous pouvez ouvrir, pour que les
+instantanés ressortent. Vous pouvez chercher des versions par nom, afficher
+**Toutes**, **Instantanés**, **Points de contrôle** ou **Restaurations**, et
+replier ou déplier tous les jours d’un coup.
 
-### Consulter une ancienne version {#looking-at-an-old-version}
+## Comparer et restaurer {#compare-and-restore}
 
 Cliquez sur n’importe quelle version pour l’ouvrir à la place du document, en
-lecture seule, sous une barre **Aperçu de la version** :
+lecture seule, sous une barre **Aperçu de la version**.
 
-- **Afficher les changements** marque ce qui diffère de la version actuelle.
-  Avec les changements affichés, basculez entre **Côte à côte** et **Dans le
-  contenu**. Dans le contenu, une ligne **Changements de métadonnées** liste
-  aussi les changements de titre, de description, d’étiquettes, de statut,
-  d’objectif ou d’étoile. **Masquer les changements** retire les marques. Vous
-  pouvez choisir la finesse du marquage, par mot ou par caractère, dans
-  **Réglages → Éditeur → Détail des différences**.
-- **Restaurer** fait de cette version le document actif. Votre texte actuel est
-  d’abord enregistré comme nouvelle version, donc rien n’est perdu.
-- **Revenir à l’actuel** (ou `Esc`) revient au document tel qu’il est
-  maintenant.
+| Bouton | Ce qu’il fait |
+| --- | --- |
+| **Afficher les changements** | Marque ce qui diffère du document actuel. Basculez entre **Côte à côte** et **Dans le contenu**. Dans le contenu, **Changements de métadonnées** liste aussi les changements de titre, d’étiquettes, de statut et autres. **Masquer les changements** retire les marques. |
+| **Restaurer** | Fait de cette version le document. Ce que vous avez maintenant est d’abord enregistré comme nouvelle version, donc rien n’est perdu. |
+| **Revenir à l’actuel** | Revient au document tel qu’il est maintenant. `Esc` fait de même. |
 
-## Historique natif ou git {#native-history-or-git}
+Les changements sont marqués lettre par lettre. Pour marquer des mots entiers à
+la place, choisissez **Mot** dans **Réglages** → **Éditeur** → **Détail des
+différences**.
 
-Chaque coffre a son propre **moteur** de versions, choisi dans **Réglages →
-Versions** :
+## Choisir où l’historique est conservé {#choose-where-history-is-kept}
 
-- **Natif** conserve des instantanés locaux à côté de votre coffre. Il ne
-  nécessite aucune installation et fonctionne d’emblée. Le nombre de versions
-  conservées par document est limité (les plus anciennes sont élaguées pour
-  maîtriser l’espace disque), et vous pouvez modifier cette limite.
-- **Git** conserve un historique complet et illimité, et peut le sauvegarder
-  ailleurs. Il est proposé dès que git est installé sur votre ordinateur
-  (jusque-là, l’option indique **Git (git requis)**).
+Chaque coffre conserve son historique de l’une de deux façons, choisie dans
+**Réglages** → **Versions** → **Backend**.
 
-Passer un coffre à git est une démarche délibérée, et φ l’explique d’abord dans
-une boîte de dialogue **Convertir ce coffre en git ?** : φ exécute `git init`
-dans le coffre, fait des commits à intervalles réguliers, et reprend votre
-historique natif existant. Une fois qu’un coffre est un dépôt git, il reste sur
-git ; pour revenir à Natif, il vous faudrait supprimer vous-même son dossier
-`.git`.
+| Backend | Ce qu’il vous apporte |
+| --- | --- |
+| **Natif** | Le choix par défaut. Il ne nécessite aucune installation. Il conserve jusqu’à 50 versions de chaque document et élimine les plus anciennes ; modifiez cela dans **Limite d’historique local**. |
+| **Git** | Un historique illimité, et une sauvegarde dans un endroit à vous. Il est proposé dès que git est installé sur votre ordinateur ; jusque-là, il indique **Git (git requis)**. |
 
-Quelques points à connaître :
+Passer un coffre à git est une étape sans retour, et φ l’explique d’abord dans
+**Convertir ce coffre en git ?**. Votre historique existant est repris. Pour
+revenir à **Natif** plus tard, il vous faudrait supprimer vous-même le dossier
+`.git` du coffre.
 
-- **Dossiers synchronisés dans le cloud.** Si le coffre se trouve dans un
-  dossier synchronisé dans le cloud, φ garde son dépôt git sur cet ordinateur
-  plutôt qu’à l’intérieur du coffre. La synchronisation copie les fichiers d’un
-  dépôt un par un, dans n’importe quel ordre, et c’est ainsi que les dépôts se
-  cassent ; vos documents font chacun un seul fichier et voyagent sans risque.
-- **φ sur iPhone et iPad** lit et écrit le même coffre mais n’exécute jamais
-  git. Les versions créées là-bas sont conservées dans le dossier
-  `.poiesis-history` du coffre, que les deux apps partagent.
-- Si l’historique ne peut pas du tout être conservé pour un coffre, l’onglet
-  Historique indique **Le versionnage est indisponible.** et pourquoi.
+Si le coffre se trouve dans un dossier cloud comme iCloud Drive ou Dropbox, φ
+garde son historique git sur cet ordinateur, en dehors du coffre. Les services
+de synchronisation copient les fichiers un par un, dans n’importe quel ordre, ce
+qui peut casser un historique git ; vos documents font chacun un seul fichier et
+voyagent sans risque. φ sur iPhone et iPad (bientôt) utilise le même coffre
+mais n’exécute jamais git : les versions créées là-bas sont conservées dans le
+dossier `.poiesis-history` du coffre, que les deux apps partagent.
 
-### Avant les gros changements {#before-big-changes}
+## Sauvegarder votre historique avec git {#back-up-your-history-with-git}
 
-Quand vous remplacez un mot **partout** dans le coffre (voir
-[Rechercher et remplacer](./search-and-replace.md)), φ enregistre d’abord une
-version du coffre entier, nommée d’après ce que vous remplacez, pour que le
-changement puisse être annulé.
+Avec git, φ peut envoyer votre historique vers un dépôt privé sur un service
+comme GitHub ou GitLab, pour qu’une copie existe ailleurs que sur votre
+ordinateur. φ l’envoie en arrière-plan : un service lent ou injoignable ne
+retarde jamais votre écriture, et si un envoi bloque, φ abandonne au bout de
+deux minutes et réessaie la fois suivante.
 
-## Sauvegarder vers un distant git {#backing-up-to-a-git-remote}
+1. Créez un dépôt privé et vide sur GitHub, GitLab ou un autre hébergeur git.
+   Copiez son adresse (elle ressemble à `git@github.com:you/novel.git`).
+2. Dans φ, passez le coffre à **Git** dans **Réglages** → **Versions**.
+3. Sous **Sauvegarde git**, collez l’adresse dans **URL du distant de
+   sauvegarde**.
+4. Activez **Push automatique des sauvegardes** et choisissez **Pousser toutes
+   les** (au départ, 15 minutes).
+5. Appuyez sur **Pousser maintenant** pour envoyer la première copie.
 
-Avec le moteur git, vous pouvez pousser votre historique vers un distant à vous
-(GitHub, GitLab ou n’importe quel hébergeur git), pour qu’une copie existe
-ailleurs que sur votre ordinateur. Dans **Réglages → Versions → Sauvegarde
-git** :
+**Sauvegarder maintenant** vous indique si vous êtes **À jour avec le
+distant.**, si vous avez des commits non poussés, ou si vous n’avez pas encore
+de distant. Vous pouvez aussi pousser depuis `⌘P` → **Sauvegarder maintenant
+(git push vers le distant)**.
 
-- Définissez une **URL du distant de sauvegarde** vers laquelle pousser (vide,
-  elle utilise l’origin existant du dépôt).
-- Activez **Push automatique des sauvegardes** pour pousser les nouveaux commits
-  régulièrement, et réglez **Pousser toutes les** (minutes).
-- **Sauvegarder maintenant** vous indique si vous êtes à jour, si vous avez des
-  commits non poussés, ou si vous n’avez pas encore de distant. **Pousser
-  maintenant** pousse immédiatement ; tout comme **Sauvegarder maintenant (git
-  push vers le distant)** dans la palette de commandes.
-- Définissez éventuellement un **Nom du commit**, un **E-mail du commit** et un
-  **Chemin de la clé SSH** pour que ce travail reste à l’écart de votre compte
-  principal, et **Signer les commits** pour qu’ils apparaissent comme vérifiés.
+Les autres réglages sous **Sauvegarde git** s’adressent à ceux qui veulent
+garder ce travail à l’écart de leur compte git principal :
 
-Utilisez un dépôt privé et une identité dédiée pour cela.
+| Réglage | À quoi il sert |
+| --- | --- |
+| **Nom du commit** et **E-mail du commit** | Sous quelle identité l’historique est enregistré. Vide, il utilise l’identité git de votre ordinateur. |
+| **Chemin de la clé SSH** | La clé privée avec laquelle φ pousse, comme `~/.ssh/id_ed25519`, pour pouvoir pousser sous un autre compte. Le fichier de clé doit être lisible par vous seul (`chmod 600`). |
+| **URL du distant de sauvegarde** | Vide, elle utilise l’`origin` existant du dépôt. |
+| **Signer les commits** | Signe chaque commit avec une clé **SSH** ou **GPG** pour que l’hébergeur l’affiche comme vérifié. |
 
-## Un coffre, ce ne sont que des fichiers {#a-vault-is-just-files}
+:::tip Utilisez un dépôt privé
 
-Un coffre est un simple dossier de fichiers `.poiesis` (avec un dossier
-`assets/` pour les images, et son historique de versions), donc toute sauvegarde
-en laquelle vous avez déjà confiance fonctionne aussi : Time Machine, un dossier
-synchronisé, ou une copie sur un disque. Le versionnage de φ est un filet de
-sécurité, pas le seul.
+Votre historique contient chaque brouillon. Sauvegardez-le dans un dépôt privé,
+idéalement sous une identité que vous n’utilisez que pour cela.
+
+:::
+
+## Un coffre est un dossier ordinaire {#a-vault-is-an-ordinary-folder}
+
+Un coffre est un dossier ordinaire de fichiers `.poiesis`, avec un dossier
+`assets` pour les images et son historique des versions, donc toute sauvegarde
+en laquelle vous avez déjà confiance fonctionne aussi : Time Machine, un dossier
+synchronisé, ou une copie sur un disque.
+
+## Voir aussi {#see-also}
+
+- [Coffres](./vaults) : les coffres sur plusieurs appareils, et ce qui se passe
+  quand deux d’entre eux modifient le même document.
+- [Rechercher et remplacer](./search-and-replace)
+- [Réglages](./settings)

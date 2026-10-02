@@ -1,143 +1,108 @@
 ---
-title: Santuario y sesiones de escritura
+title: Concentración y Santuario
+description: El Santuario, el desplazamiento de máquina de escribir, la escritura enfocada y el modo lectura, para cuando la página debe ser lo único que hay.
 ---
 
-# Santuario y sesiones de escritura
+# Concentración y Santuario
 
-Cuando llega el momento de escribir, la interfaz debería hacerse a un lado. El
-Santuario despeja todo salvo la página, unos cuantos ajustes más discretos te
-ayudan a no perder el hilo, y φ lleva la cuenta de tus sesiones y de tus palabras
-sin que tengas que pedírselo.
+Cuando llega el momento de escribir, el resto de φ debería hacerse a un lado.
+El **Santuario** despeja todo salvo la página, y unos cuantos ajustes más
+discretos mantienen tus ojos en la línea que estás escribiendo.
 
-<img src="/img/app/focus-light.png" alt="Santuario: las palabras y nada alrededor" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/focus-dark.png" alt="Santuario: las palabras y nada alrededor" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-light.png" alt="Santuario: un capítulo a solas en la página, la oración que se está escribiendo con toda su intensidad y el resto atenuado, con el lugar donde vive el capítulo en una línea discreta arriba" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Santuario: un capítulo a solas en la página, la oración que se está escribiendo con toda su intensidad y el resto atenuado, con el lugar donde vive el capítulo en una línea discreta arriba" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Santuario {#sanctuary}
+## Entrar en el Santuario {#go-into-sanctuary}
 
-El Santuario oculta la barra lateral, la lista, el panel de Información y todos
-los botones, y te deja a solas con la página. Pulsa `⌘.` para entrar. También
-puedes usar **Ver → Santuario**, el icono del Santuario arriba a la derecha de la
-página, **Santuario** en el menú ⋮ del documento, o **Santuario** en la paleta de
-comandos (`⌘P`).
+1. Abre el documento que quieres escribir.
+2. Pulsa `⌘.`, o haz clic en **Santuario** arriba a la derecha de la página.
+3. Escribe.
+4. Pulsa `Esc` o `⌘.` para volver.
 
-Está disponible donde hay algo con lo que quedarse a solas: un documento que
-estás escribiendo, y el [grafo](./links-and-graph.md). Se queda en la ventana en
-la que estás en lugar de pasar a pantalla completa; el elemento de pantalla
-completa del menú **Ver** está ahí si quieres ambas cosas.
+El Santuario también está en el menú **Ver**, en el menú ⋮ del documento y en
+la paleta de comandos (`⌘P`). Está disponible para un documento y para el
+[grafo](./links-and-graph).
 
-Mientras estás en el Santuario:
+## Mientras estás en el Santuario {#while-youre-in-sanctuary}
 
-- **Solo la oración en la que estás se mantiene con toda su intensidad**; el
-  resto del texto se atenúa. Si has elegido **Párrafo** en
-  [Escritura enfocada](#focus-typing), todo el párrafo queda iluminado. Para
-  mantenerlo todo con plena intensidad, desactiva **Ajustes → Apariencia → El
-  santuario atenúa el resto**.
-- **Una línea discreta arriba muestra dónde vive el documento**: su modo,
-  proyecto, parte y capítulo, o su carpeta. Haz clic en cualquier paso para ir
-  allí; eso sale del Santuario con el documento aún abierto.
-- **El recuento de palabras pasa abajo al centro**, con cuántas palabras has
-  añadido en esta sesión (**+N en esta sesión**).
-- **El desplazamiento de máquina de escribir** tiene su propio botón arriba a la
-  derecha, junto a la salida.
+La barra lateral, la lista, el panel de Información y los botones desaparecen.
+Lo que queda:
 
-Para salir, pulsa `Esc` o `⌘.` otra vez, o haz clic en el icono de arriba a la
-derecha. Ir a algún sitio al que el Santuario no pertenece, como el calendario o
-un tablero, lo termina por sí solo.
+- **La oración en la que estás se mantiene con toda su intensidad**, y el resto
+  del texto se atenúa. Si **Escritura enfocada** está en **Párrafo**, todo el
+  párrafo queda iluminado. Para mantenerlo todo con plena intensidad, desactiva
+  **Ajustes → Apariencia → El santuario atenúa el resto**.
+- **Una línea discreta arriba dice dónde vive el documento**: su modo, su
+  proyecto, parte y capítulo, o su carpeta. Haz clic en un paso para ir allí;
+  eso sale del Santuario con el documento aún abierto.
+- **El recuento de palabras pasa abajo al centro**, junto a la meta cuando hay
+  una.
+- **El desplazamiento de máquina de escribir** tiene su propio botón arriba a
+  la derecha.
 
-## Desplazamiento de máquina de escribir {#typewriter-scrolling}
+El ☰ de arriba a la izquierda (**Mostrar las herramientas**) lo trae todo de
+vuelta. El Santuario se queda en la ventana en lugar de pasar a pantalla
+completa; usa el elemento de pantalla completa del menú **Ver** si quieres
+ambas cosas. Abrir una página que no es un documento, como el calendario o un
+tablero, lo termina por sí solo.
 
-El desplazamiento de máquina de escribir mantiene la línea que estás escribiendo
-en el centro de la ventana, para que tus ojos se queden quietos y el texto suba a
-su encuentro. Actívalo o desactívalo con `⇧⌘T` (o `⌥⌘T`), **Ver → Desplazamiento
-de máquina de escribir**, **Desplazamiento de máquina de escribir** en el menú ⋮
-del documento, el botón dentro del Santuario, o **Ajustes → Editor →
-Desplazamiento de máquina de escribir**.
+Con documentos [lado a lado](./side-by-side), el Santuario conserva los
+paneles, y el atenuado y el desplazamiento de máquina de escribir solo se
+aplican al panel en el que escribes.
 
-## Escritura enfocada {#focus-typing}
+## Mantén tu línea en el centro {#keep-your-line-in-the-middle}
 
-La escritura enfocada atenúa todo excepto donde estás trabajando, dentro o fuera
-del Santuario. Elige cuánto queda iluminado:
+El **Desplazamiento de máquina de escribir** mantiene la línea que estás
+escribiendo en el centro de la ventana, para que tus ojos se queden quietos y
+el texto suba a su encuentro. Actívalo o desactívalo con `⇧⌘T`, **Ver →
+Desplazamiento de máquina de escribir**, el menú ⋮ del documento, el botón del
+Santuario o **Ajustes → Editor → Desplazamiento de máquina de escribir**.
 
-- **Oración**: solo la oración actual.
-- **Párrafo**: el párrafo actual.
-- **Desactivado**: todo queda plenamente iluminado. (El Santuario sigue
-  atenuando hasta la oración a menos que lo hayas desactivado.)
+## Atenúa lo que no estás escribiendo {#dim-what-youre-not-writing}
 
-Configúralo en **Ver → Escritura enfocada**, en **Ajustes → Editor → Escritura
-enfocada**, o con **Alternar escritura enfocada** en la paleta de comandos.
+La **Escritura enfocada** atenúa todo salvo donde estás, dentro o fuera del
+Santuario:
 
-## Modo lectura {#reading-mode}
+| Ajuste | Qué queda iluminado |
+| --- | --- |
+| **Oración** | La oración en la que estás. |
+| **Párrafo** | El párrafo en el que estás. |
+| **Desactivado** | Todo. (El Santuario sigue atenuando hasta la oración, a menos que lo hayas desactivado.) |
 
-Cuando quieras leer en lugar de editar, el modo lectura muestra el documento en
-solo lectura, para que puedas volver a un borrador sin pulsaciones de tecla
-descarriadas. Actívalo o desactívalo con `⌘E`, **Ver → Modo lectura**, **Modo
-lectura** en el menú ⋮ del documento, o **Modo lectura** en la paleta de
-comandos.
+Configúrala en **Ver → Escritura enfocada**, en **Ajustes → Editor → Escritura
+enfocada**, o recorre las tres opciones con **Alternar escritura enfocada** en
+la paleta de comandos.
 
-## Sesiones de escritura {#writing-sessions}
+## Leer sin editar {#read-without-editing}
 
-Una sesión de escritura es un tramo de trabajo. No tienes que iniciarla: empieza
-con tu primera pulsación de tecla y lleva la cuenta de las palabras que añades.
-Cuenta las palabras escritas, así que borrar no resta, y una sesión con muchas
-revisiones sigue mostrando el trabajo que hiciste.
+El **Modo lectura** muestra el documento en solo lectura, para que puedas
+repasar un borrador sin pulsaciones descarriadas. Actívalo o desactívalo con
+`⌘E`, **Ver → Modo lectura**, **Modo lectura** en el menú ⋮ del documento, o
+**Modo lectura** en la paleta de comandos.
 
-Una sesión solo cuenta el tiempo mientras de verdad estás escribiendo. Se
-**pausa** tras un minuto sin teclear, cuando cambias a otra app, cuando sales
-del editor y en el modo lectura. La siguiente pulsación la retoma. Tras veinte
-minutos sin una palabra, la sesión termina sola.
+## Tus sesiones de escritura {#your-writing-sessions}
 
-Verás la sesión en tres lugares:
+Una sesión de escritura es un tramo de trabajo. Empieza con tu primera
+pulsación de tecla y cuenta las palabras que añades; borrar no resta, así que
+una sesión dedicada a revisar sigue mostrando el trabajo que hiciste.
 
-- **+N en esta sesión** en la pestaña **Esquema** del panel de Información, bajo
-  el recuento de palabras.
-- **+N en esta sesión** junto al recuento de palabras en el Santuario.
-- **N min esta sesión** en el Inicio de **Escribir**, en la tarjeta de Hoy.
+Una sesión solo cuenta el tiempo en que estás escribiendo. Se pausa tras un
+minuto sin teclear, cuando cambias a otra app, cuando sales de la página y en
+el modo lectura; la siguiente pulsación la retoma. Tras veinte minutos sin una
+palabra, termina.
 
-Si prefieres decidir tú cuándo empieza una sesión, desactiva **Iniciar sesiones
-automáticamente** en **Ajustes → Ajustes de escritura**. Luego usa **Iniciar
-sesión de escritura** en la paleta de comandos para empezar una, y **Terminar
-sesión de escritura** para detenerla. Ambos comandos funcionan sea cual sea el
-ajuste.
+- El Inicio de **Escribir** muestra los minutos de la sesión actual en su
+  tarjeta **Hoy**.
+- Las estadísticas del documento (haz clic en el recuento de palabras y luego
+  otra vez) guardan tu **Sesión más larga** y tu **Mejor sesión (palabras)**.
 
-Tu **sesión más larga** y tu **mayor número de palabras en una sesión** se
-conservan como récords personales, que se muestran en las estadísticas del
-documento (ver más abajo).
+Para decidir tú cuándo empieza una sesión, desactiva **Iniciar sesiones
+automáticamente** en **Ajustes → Ajustes de escritura**, y usa **Iniciar sesión
+de escritura** y **Terminar sesión de escritura** en la paleta de comandos.
 
-## Recuento de palabras y estadísticas {#word-count--statistics}
+## Ver también {#see-also}
 
-El recuento de palabras de un documento está en la esquina inferior derecha de
-la página. Las notas no lo muestran, porque una nota no se escribe con una
-extensión en mente.
-
-Haz clic en el recuento para ver las estadísticas del documento:
-
-- **Palabras**, **Caracteres**, **Oraciones** y **Tiempo de lectura**.
-- **Facilidad de lectura** y **Nivel escolar**, si **Estadísticas de
-  legibilidad** está activado en **Ajustes → Ajustes de escritura**.
-- Una pequeña gráfica del recuento de palabras del documento a lo largo del
-  tiempo, titulada **Recuento · N días trabajados**, en cuanto tiene historial
-  de más de un día.
-- **Total de la bóveda**, **Documentos** y **Palabras totales**: las palabras
-  de la bóveda ahora, cuántos documentos contiene y todas las palabras que has
-  escrito en ella.
-- **Sesión más larga** y **Mejor sesión (palabras)**, en cuanto tengas alguna.
-
-## Metas de palabras {#word-goals}
-
-Dale un objetivo a un documento con **Definir meta de palabras** en su menú ⋮, o
-con el campo **Meta de palabras** en **Detalles…**. Con una meta definida:
-
-- El recuento de la esquina muestra **palabras / meta palabras**, por ejemplo
-  *1,240 / 3,000 palabras*.
-- La pestaña **Esquema** del panel de Información muestra una barra que se llena
-  a medida que escribes, y el porcentaje de la meta que has alcanzado (por
-  ejemplo *41% de 3,000*).
-
-Consulta [Proyectos](./collections.md) para metas de toda una obra.
-
-## Mostrar Markdown {#show-markdown}
-
-Si piensas en Markdown, **Ajustes → Editor → Mostrar Markdown** dibuja los
-marcadores (`**`, `#`, `[ ]( )`, etc.) de forma tenue alrededor del formato en la
-línea que estás escribiendo, y los vuelve a ocultar en las líneas que dejas.
-Solo cambia lo que ves; tus documentos quedan exactamente como están.
+- [El editor](./the-editor)
+- [Lado a lado](./side-by-side)
+- [Ajustes](./settings)
+- [Atajos de teclado](./keyboard-shortcuts)

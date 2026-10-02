@@ -21,7 +21,8 @@ destacados, los resaltados, las notas al pie y los enlaces wiki.
 
 ## Importar una carpeta de notas {#import-a-folder-of-notes}
 
-¿Vienes de otra aplicación de notas? Trae la carpeta entera:
+¿Vienes de otra aplicación de notas, como Obsidian o Logseq? Trae la carpeta
+entera:
 
 1. En la paleta de comandos, elige **Importar carpeta Markdown → a la bóveda
    actual…** o **Importar carpeta Markdown → como bóveda nueva…**.
@@ -42,7 +43,7 @@ destacados, los resaltados, las notas al pie y los enlaces wiki.
 Un archivo `.poiesis` hecho con **Guardar una copia** o **Copia del proyecto**
 se abre con sus imágenes:
 
-- elige **Importar un documento φ (.poiesis)…** en la paleta de comandos, o
+- elige **Importar un documento φ (`.poiesis`)…** en la paleta de comandos, o
   **Archivo → Importar documento φ…**; o
 - arrastra el archivo a la ventana de φ.
 

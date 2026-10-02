@@ -1,116 +1,114 @@
 ---
 title: Enlaces y el grafo
+description: Enlaza un documento con otro mientras escribes, mira qué enlaza adónde y traza el mapa de toda la bóveda.
 ---
 
 # Enlaces y el grafo
 
-Las ideas se conectan. φ te permite enlazar un documento con otro en el mismo
-momento en que lo mencionas, y luego te muestra esas conexiones de dos formas:
-como una lista junto a la página y como un grafo de toda la bóveda. Nada sale de
-tu ordenador; el índice de enlaces se construye y se consulta localmente.
+Escribe `[[` y el nombre de otro documento, y los dos quedan enlazados. φ lleva
+la cuenta de cada enlace en los dos sentidos, así que desde cualquier página
+puedes ver a qué apunta y qué apunta hacia ella. El grafo dibuja toda la red de
+una vez.
 
-<img src="/img/app/graph-light.png" alt="El grafo de una bóveda: documentos y los enlaces entre ellos" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/graph-dark.png" alt="El grafo de una bóveda: documentos y los enlaces entre ellos" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/links-light.png" alt="Una página de investigación con un enlace wiki en su texto, y la pestaña Enlaces del panel de información con sus enlaces salientes, retroenlaces y fechas enlazadas" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/links-dark.png" alt="Una página de investigación con un enlace wiki en su texto, y la pestaña Enlaces del panel de información con sus enlaces salientes, retroenlaces y fechas enlazadas" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Enlazar con `[[wiki-links]]` {#linking-with-wiki-links}
+## Enlazar a otro documento {#link-to-another-document}
 
-Para enlazar a otro documento, escribe `[[` en cualquier parte del texto. Se
-abre un pequeño menú que se va filtrando a medida que sigues escribiendo. Elige
-el documento que quieras con las teclas de flecha y `Enter`, o haz clic en él.
+1. Escribe `[[` en cualquier parte del texto. Se abre un menú de documentos.
+2. Sigue escribiendo para filtrarlo.
+3. Elige el documento con las teclas de flecha y Retorno, o haz clic en él.
+4. Para seguir el enlace, mantén pulsado `⌘` y haz clic en él. En el
+   [modo de lectura](./the-editor) basta un clic normal.
 
-Un enlace que eliges del menú apunta a ese documento en sí, así que renombrar el
-documento más tarde no lo rompe. Un `[[Título]]` que escribes completo o pegas
-encuentra su documento por el título.
+Un enlace que eliges del menú apunta a ese documento en sí, así que renombrar
+el documento más tarde no lo rompe. Un `[[Título]]` que escribes completo o
+pegas encuentra su documento por el título.
 
-Para abrir el documento al que apunta un enlace, mantén pulsado `⌘` y haz clic
-en el enlace (en el [modo de lectura](the-editor.md#reading-mode) basta un clic
-normal).
+Haz `⌥⌘`-clic en un enlace para abrir su documento junto al que estás (consulta
+[Documentos lado a lado](./side-by-side)).
 
-### Enlazar a algo que aún no existe {#linking-to-something-that-doesnt-exist-yet}
+## Enlazar a una página que aún no has escrito {#link-to-a-page-you-havent-written-yet}
 
-Si ningún documento tiene exactamente el título que escribiste, la última
-entrada del menú es **Crear «…»**. Elígela y φ escribe el enlace, aunque todavía
-no haya nada al otro lado. Es una forma rápida de anotar una idea antes de haber
-escrito su página.
+Si ningún documento tiene el título que escribiste, la última entrada del menú
+es **Crear «…»**. Elígela y φ escribe el enlace, aunque todavía no haya nada al
+otro lado. Se muestra como un enlace roto hasta que la página exista.
 
-El documento en sí se crea cuando sigues el enlace: haz `⌘`-clic en él, o haz
-clic en él en el panel Enlaces (más abajo). φ crea un documento con ese título y
-lo abre.
+La página se crea cuando sigues el enlace: haz `⌘`-clic en él, o haz clic en él
+en **Enlaces salientes** (más abajo). φ crea un documento con ese título y lo
+abre.
 
-## El panel Enlaces {#the-links-panel}
+## Ver qué enlaza adónde {#see-what-links-where}
 
-Abre el Panel de información (`⇧⌘I`) y elige la pestaña **Enlaces**, o elige
-**Enlaces y retroenlaces** en el menú ⋮ del documento. Siempre refleja el
-documento que estás leyendo, incluidos los cambios que aún no has guardado:
+Abre el panel de información (`⇧⌘I`) y elige **Enlaces**. También puedes elegir
+**Enlaces y retroenlaces** en el **⋮** del documento, o **Enlaces wiki** en el
+menú de clic derecho de una fila. La pestaña sigue al documento que estás
+leyendo, incluidos los cambios que aún no has guardado:
 
-- **En este documento**: los personajes que has mencionado aquí con @. Haz clic
-  en uno para abrir su página. (Solo se muestra cuando hay alguno.)
-- **Enlaces salientes**: todos los documentos a los que enlaza este. Haz clic en
-  una entrada para ir allí. Los enlaces que todavía no llevan a ninguna parte
-  también aparecen, marcados con un **+**; haz clic en uno para crear ese
-  documento y abrirlo.
-- **Retroenlaces**: todos los documentos que enlazan *a* este. Así encuentras lo
-  que hace referencia a la página en la que estás, aunque nunca hayas enlazado
-  hacia fuera desde ella.
-- **Fechas enlazadas**: las fechas que has insertado con `/date`. Haz clic en
-  una para mostrar ese día en el [calendario](calendar.md).
-- **Notas sobre esto**: notas y páginas de investigación enlazadas a este
-  documento. Usa **Nueva nota sobre esto**, **Vincular una nota…** o **Nueva
-  página de investigación** para añadir una. Consulta
-  [Investigación](research.md).
+| Sección | Qué muestra |
+| --- | --- |
+| **En este documento** | Los personajes que has mencionado aquí con @. Solo se muestra cuando hay alguno. |
+| **Enlaces salientes** | Todos los documentos a los que enlaza este. Los enlaces que todavía no llevan a ninguna parte también aparecen, con un icono de crear; haz clic en uno para crear ese documento. |
+| **Retroenlaces** | Todos los documentos que enlazan *a* este, aunque nunca hayas enlazado hacia fuera desde él. |
+| **Fechas enlazadas** | Las fechas que has insertado con `/date`. Haz clic en una para mostrar ese día en el [calendario](./calendar). |
+| **Investigación** y **Notas** | Las páginas de investigación (en Escribir) y las notas enlazadas a este documento, con formas de añadir más. Consulta [Investigación](./research). |
 
-Abajo del todo, **Grafo local** abre el grafo centrado en este documento.
+Haz clic en cualquier entrada para abrirla. **Grafo local**, al pie de la
+pestaña, abre el grafo alrededor de este documento.
 
-## El grafo {#the-graph}
+## Explorar el grafo {#explore-the-graph}
 
-El grafo es un mapa de cómo se articula tu bóveda. Ábrelo desde **Grafo** en
-**Lugares** de la barra lateral (en Escribir y Notas), desde `⌘K`, o con
-**Ver → Ir a → Grafo** (`⌘G` y luego `G`).
+Abre el grafo desde **Grafo** en **Lugares** de la barra lateral (en Escribir y
+Notas), desde `⌘K`, o con `⌘G` y luego `G`.
 
-Cada **punto** es un documento, y cada **línea** es un enlace entre dos
-documentos. Un punto crece con el número de enlaces que tiene, así que tus
-centros destacan. Los documentos sin ningún enlace (huérfanos) se dibujan más
-tenues. Las páginas matutinas, los días del diario y las páginas de
-investigación nunca aparecen en el grafo: es la forma de tu trabajo enlazado, no
-un registro de cada archivo.
+<img src="/img/app/graph-light.png" alt="El grafo de una bóveda: los documentos enlazados dibujados como puntos más grandes unidos por líneas, y los no enlazados como puntos pequeños y tenues" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/graph-dark.png" alt="El grafo de una bóveda: los documentos enlazados dibujados como puntos más grandes unidos por líneas, y los no enlazados como puntos pequeños y tenues" width="1600" height="1000" loading="lazy" decoding="async" />
 
-### Leer y moverse {#reading-and-moving-around}
+Cada punto es un documento y cada línea un enlace. Un punto crece con el número
+de enlaces que tiene, así que tus centros destacan, y los documentos sin
+enlaces se dibujan más tenues. Las páginas matinales, los días del diario y las
+páginas de investigación nunca aparecen: el grafo es la forma de tu escritura
+enlazada, no una lista de cada archivo.
 
-- **Haz clic en un punto** para abrir ese documento.
-- **Pasa el puntero sobre un punto** para enfocarlo: el resto del grafo se
-  atenúa, los enlaces del documento se iluminan y los documentos a los que se
-  conecta siguen nítidos. Es una forma rápida de ver todo lo que toca una
-  página.
-- **Desplaza** para hacer zoom; **arrastra** el fondo para moverte. Aleja el
-  zoom para una vista general y las etiquetas se desvanecen para que veas la
-  forma; vuelve a acercarte y los títulos regresan.
-- El documento que tienes abierto se marca con el color de acento, para que
-  encuentres tu sitio y explores hacia fuera desde él.
+- **Haz clic en un punto** para abrir ese documento. Al cerrarlo vuelves al
+  grafo.
+- **Pasa el puntero sobre un punto** para enfocarlo. Todo lo demás se atenúa, y
+  sus enlaces y vecinos siguen nítidos.
+- **Desplaza** para hacer zoom y **arrastra** el fondo para moverte. Con el zoom
+  alejado, los títulos se desvanecen para que veas la forma.
+- El documento que tienes abierto se marca con el color de acento.
 
-El grafo se encuadra solo para caber. Su pequeña barra de herramientas muestra
-cuántos documentos hay dibujados, y tiene **Animar** (repetir cómo se asienta la
-disposición), **Actualizar enlaces** (reconstruir a partir del contenido más
-reciente) y **Ajustes del grafo**.
+La barra de arriba cuenta los documentos dibujados y tiene **Animar**, que
+repite cómo se asienta la disposición, y **Actualizar enlaces**, que la
+reconstruye a partir del texto más reciente.
 
-Pulsa `⌘.` para entrar en [Santuario](focus-and-writing-modes.md) y ocultar todo
-excepto el grafo.
+## Cambiar lo que muestra el grafo {#change-what-the-graph-shows}
 
-### Ajustes del grafo {#graph-settings}
+Pulsa el botón del panel, arriba a la derecha del grafo (`⇧⌘I`), para abrir
+**Ajustes del grafo**:
 
-Los ajustes están en la columna de lista junto al grafo, y **Ajustes del grafo**
-en la barra de herramientas (`⇧⌘I`) los muestra también en el panel derecho:
+| Grupo | Ajustes |
+| --- | --- |
+| **Qué grafo** | **Toda la bóveda**, o **Local**: el último documento que abriste y todo lo que está a dos enlaces o menos de él. |
+| **Mostrar** | **Huérfanos** (documentos sin enlaces) y **Flechas** (hacia dónde apunta cada enlace). |
+| **Visualización** | **Tamaño de nodo**, **Grosor de enlace**, **Desvanecer texto** y **Tamaño de etiqueta**. |
+| **Fuerzas** | **Fuerza de repulsión**, **Distancia de enlace**, **Fuerza central** y **Fuerza de enlace**, que expanden o agrupan la disposición. |
 
-- **Qué grafo**: **Toda la bóveda**, o **Local**, que muestra el último
-  documento que abriste y todo lo que está a dos enlaces o menos de él.
-- **Mostrar**: **Huérfanos** (documentos sin enlaces) y **Flechas** (hacia dónde
-  apunta cada enlace).
-- **Visualización**: **Tamaño de nodo**, **Grosor de enlace**, **Desvanecer
-  texto** (con qué facilidad se desvanecen los títulos al alejar el zoom) y
-  **Tamaño de etiqueta**.
-- **Fuerzas**: **Fuerza de repulsión**, **Distancia de enlace**, **Fuerza
-  central** y **Fuerza de enlace**, que expanden o agrupan la disposición.
-- **Restablecer valores** vuelve al aspecto estándar.
+**Restablecer valores** devuelve el aspecto original. Debajo de los ajustes,
+una línea cuenta los documentos, los enlaces y los documentos sin enlaces, y
+**Más enlazados** enumera tus mayores centros; haz clic en uno para abrirlo.
 
-Debajo de los ajustes, una línea cuenta los documentos, los enlaces y los
-documentos sin enlaces, y **Más enlazados** enumera tus mayores centros. Haz
-clic en uno para abrirlo.
+:::tip Encontrar cabos sueltos
+
+**Sin enlazar**, en la barra lateral de Notas, lista las notas a las que nada
+enlaza y que no enlazan a nada. Consulta [Notas y captura](./notes).
+
+:::
+
+## Ver también {#see-also}
+
+- [Investigación](./research): notas e investigación enlazadas a un capítulo,
+  un proyecto o un personaje.
+- [Personajes y autores](./characters-and-authors): las menciones con @.
+- [El calendario](./calendar)
+- [Documentos lado a lado](./side-by-side)

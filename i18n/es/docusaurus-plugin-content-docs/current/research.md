@@ -1,67 +1,94 @@
 ---
 title: Investigación
+description: Páginas de material guardadas para una obra, cada una vinculada al capítulo, proyecto o personaje al que sirve.
 ---
 
 # Investigación
 
-Las **páginas de investigación** son el material que guardas para una obra
-—fuentes, datos, lugares, cronologías—, cada una vinculada a aquello de lo que
-trata: un capítulo, un proyecto, un personaje. Están junto a la escritura sin
-formar nunca parte de ella.
+Las **páginas de investigación** guardan el material que hay detrás de una
+obra: fuentes, datos, lugares, cronologías. Cada una está vinculada a aquello
+de lo que trata, un capítulo, un proyecto o un personaje, así que la
+investigación está a mano cuando escribes esa parte y nunca estorba al libro en
+sí.
 
-<img src="/img/app/research-light.png" alt="Páginas de investigación, cada una con aquello de lo que trata" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/research-dark.png" alt="Páginas de investigación, cada una con aquello de lo que trata" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/research-light.png" alt="La lista de Investigación en Escribir, y la página de Investigación que reúne cada página de investigación con los capítulos y personajes a los que está vinculada" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/research-dark.png" alt="La lista de Investigación en Escribir, y la página de Investigación que reúne cada página de investigación con los capítulos y personajes a los que está vinculada" width="1600" height="1000" loading="lazy" decoding="async" />
 
-La investigación pertenece a **Escribir**: abre **Escribir** → **Mundo** →
-**Investigación**. La lista muestra todas las páginas de investigación; cuando
-no hay ninguna abierta, la página las agrupa por mes, cada una con las cosas a
-las que está vinculada.
+## Empezar una página de investigación para un capítulo {#start-a-research-page-for-a-chapter}
 
-## Crear una página de investigación {#making-a-research-page}
+1. Abre el capítulo y su panel de información (`⇧⌘I`), y elige **Enlaces**.
+2. En **Investigación**, pulsa **Nueva página de investigación**. La página
+   nueva ya está vinculada al capítulo.
+3. Ponle un título y escribe. Una página de investigación se escribe como
+   cualquier documento: encabezados, listas, citas, enlaces.
+4. La página muestra para qué es bajo su título (**Investigación para**). Haz
+   clic en un nombre ahí para ir a él.
 
-- **+** en lo alto de la lista de Investigación (**Nueva página de
-  investigación**).
-- `⌘P` → **Nueva página de investigación**.
-- **Nueva página de investigación** bajo **Notas sobre esto**: en el Resumen de
-  un proyecto, en la ficha de un personaje o en Información → **Enlaces** de un
-  documento. Una página creada ahí ya está vinculada a lo que estabas viendo.
+## Dónde vive la investigación {#where-research-lives}
 
-Una página de investigación se escribe como una nota —encabezados, listas,
-citas, listas de tareas, enlaces— y se abre en el editor como cualquier
-documento.
+La investigación pertenece a **Escribir**. Abre **Mundo** → **Investigación** en
+la barra lateral para ver todas las páginas de investigación. Cuando no hay
+ninguna abierta, la página las agrupa por mes, cada una con las cosas a las que
+está vinculada.
 
-## Vincularla a aquello de lo que trata {#linking-it-to-what-its-about}
+Dentro de un proyecto, la barra lateral también muestra **Investigación** bajo
+el proyecto. Esa lista contiene solo la investigación vinculada al proyecto o a
+uno de sus capítulos.
 
-Abre los **Detalles…** de la página (desde su **⋮**). En **Vinculado a**, haz
-clic en **Enlazar con…** y elige un documento, un proyecto o un personaje. Una
-página puede estar vinculada a tantas cosas como quieras, y cada una aparece
-como una etiqueta; haz clic en su **×** para quitar el vínculo.
+El **Inicio** de Escribir muestra tu **Investigación reciente**, cada página con
+aquello de lo que trata. La investigación de un proyecto cuyos capítulos están
+todos marcados como **Final** desaparece de ahí, porque ya ha cumplido su
+función.
 
-El mismo **Vinculado a** funciona para cualquier nota o pieza fuera de un
-proyecto: una página de investigación es simplemente el tipo pensado para ello.
+## Crear una página de investigación {#make-a-research-page}
 
-## Ver la investigación de algo {#seeing-the-research-for-something}
+- **+** en lo alto de una lista de Investigación (**Nueva página de
+  investigación**). Si la creas desde la propia lista de Investigación de un
+  proyecto, queda vinculada a ese proyecto.
+- `⌘K` → **Nueva página de investigación**.
+- **Nueva página de investigación** en **Investigación**, en la pestaña
+  **Enlaces** de un documento, en la página de un proyecto o en la página de
+  un personaje. Queda vinculada a lo que estabas viendo.
+
+## Vincularla a aquello de lo que trata {#link-it-to-what-its-about}
+
+1. Abre los **Detalles…** de la página de investigación (la ⓘ en lo alto de la
+   página).
+2. En **Investigación para**, haz clic en **Enlazar con…**.
+3. Elige un **Documento**, un **Proyecto** o un **Personaje**.
+
+Una página puede estar vinculada a tantas cosas como quieras. Cada una aparece
+como una etiqueta; su **×** quita el vínculo.
+
+## Ver la investigación de algo {#see-the-research-for-something}
 
 Estés donde estés trabajando, la investigación sigue a aquello de lo que trata.
-**Notas sobre esto** lista cada nota y página de investigación vinculada aquí:
+Estos lugares listan la investigación y las notas vinculadas ahí:
 
-- En un **documento**, en la pestaña **Enlaces** del panel de información
-  (`⇧⌘I`).
-- En el **Resumen de un proyecto**.
-- En la **ficha de un personaje**.
+- El panel de información de un documento → **Enlaces**.
+- La página de un proyecto.
+- La página de un personaje.
 
-Desde ahí, **Nueva nota sobre esto** crea una nota ya vinculada, **Vincular una
-nota…** vincula una que ya tienes y **Nueva página de investigación** empieza una
-página de investigación vinculada aquí.
+Cada uno tiene dos secciones. **Investigación** lista las páginas de
+investigación, con **Nueva página de investigación** y **Vincular
+investigación…**. **Notas** lista las notas corrientes vinculadas ahí, con
+**Nueva nota sobre esto** y **Vincular una nota…**. La **×** junto a una
+entrada quita el vínculo.
 
-## Investigación en curso {#research-in-progress}
-
-El **Inicio** de Escribir muestra tus páginas de investigación editadas más
-recientemente bajo **Investigación en curso**, cada una con aquello de lo que
-trata, y un enlace a la lista completa.
+Las notas y las piezas también se pueden vincular, desde **Vinculado a** en sus
+Detalles, así que una nota sobre un capítulo aparece a su lado sin ser una
+página de investigación.
 
 :::note
-Las páginas de investigación quedan fuera del [grafo](links-and-graph.md), para
-que el mapa de tu escritura no se llene de sus fuentes. Solo aparecen en
-Escribir; Notas no las muestra.
+
+Las páginas de investigación quedan fuera del [grafo](./links-and-graph) y de
+las listas de Notas, para que ninguno de los dos se llene de fuentes.
+
 :::
+
+## Ver también {#see-also}
+
+- [Enlaces y el grafo](./links-and-graph)
+- [Proyectos](./collections)
+- [Personajes y autores](./characters-and-authors)
+- [Notas y captura](./notes)

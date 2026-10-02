@@ -8,7 +8,7 @@ slug: /
 
 φ is a desktop writing app for long work: novels, poetry, essays, and the
 notes and journal days that feed them. It gives you a quiet page, keeps every
-word in plain files on your own computer, and stays out of the way until you
+word in files on your own computer, and stays out of the way until you
 reach for something.
 
 <img src="/img/app/focus-light.png" alt="A chapter in Sanctuary: the page alone, with every sentence but the current one dimmed" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -41,7 +41,7 @@ Type `[[` to link one document to another, and the
 
 ## Your writing stays yours
 
-- **Plain files in a folder you choose.** There's no account and no cloud.
+- **Your files, in a folder you choose.** There's no account and no cloud.
   Writing, searching and exporting all work offline.
 - **Saved as you type.** Every document is saved continuously and checked
   after each write. Version history lets you step back to any earlier draft,
@@ -49,7 +49,8 @@ Type `[[` to link one document to another, and the
   See [Versions & backup](./versions-and-backup).
 - **Easy to move and keep.** Copy the folder and you've copied everything. A
   vault can sit in iCloud Drive, Dropbox or another synced folder, and φ for
-  iPhone and iPad opens the same vault. See [Vaults](./vaults).
+  iPhone and iPad, when it comes, will open the same vault. See
+  [Vaults](./vaults).
 
 Each document is a `.poiesis` file that holds your text and its details as
 structured content, so annotations, footnotes and citations survive intact.

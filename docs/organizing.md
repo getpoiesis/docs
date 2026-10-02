@@ -78,8 +78,8 @@ path and Home.
 | Up a level | Drop it on a step of the folder path. |
 | Into a different order | Drop it between two others. The order is kept while the list is sorted by **Edited**. |
 | From Notes to Write, or back | Right-click it → **Move to Write's pieces** or **Move to Notes**. The same choice is on the document's **⋮** and its Details. |
-| Into a project | Right-click a piece → **Add to collection** or **Move to collection**. Or, on its Details, **Add it to a project…**. A note moves to Write's pieces first. |
-| Out of a project | Right-click the chapter → **Remove from collection**. |
+| Into a project | Right-click a piece → **Add to project** or **Move to project**. Or, on its Details, **Add it to a project…**. A note moves to Write's pieces first. |
+| Out of a project | Right-click the chapter → **Remove from project**. |
 | To another vault | Right-click it → **Move to vault…** (when you have more than one; see [Vaults](./vaults)). |
 
 ## Tags

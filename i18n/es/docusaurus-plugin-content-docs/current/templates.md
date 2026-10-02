@@ -1,90 +1,92 @@
 ---
 title: Plantillas
+description: Bloques reutilizables que construyes una vez y colocas en cualquier documento con una barra.
 ---
 
 # Plantillas
 
-Las plantillas son bloques reutilizables que colocas en cualquier documento: un
-encabezado de escena, el esqueleto de un poema, un diseño de registro diario, un
-formato de carta. Construye la estructura una vez y luego insértala donde la
-necesites.
+Una **plantilla** es un bloque que reutilizas: un encabezado de escena, el
+esqueleto de un poema, un registro diario, una carta. Construye la estructura
+una vez y luego colócala donde la necesites con `/`. Las plantillas pueden
+rellenar la fecha de hoy y dejar el cursor donde vas a empezar a escribir.
 
-## Insertar una plantilla {#inserting-a-template}
+## Usar una plantilla {#use-a-template}
 
-Coloca el cursor donde debe ir la plantilla, escribe `/`, luego el nombre de la
-plantilla (o la palabra `template` para verlas todas) y elígela de la lista. El
-menú de barra inclinada marca cada una como plantilla guardada o plantilla de la
-bóveda.
+1. Coloca el cursor donde debe ir la plantilla.
+2. Escribe `/` y el nombre de la plantilla, o `/template` para verlas todas.
+3. Elígela en el menú. Cada plantilla está marcada como **Insertar una
+   plantilla guardada** (todas las bóvedas) o **Insertar una plantilla de la
+   bóveda** (solo esta bóveda).
 
-El bloque se inserta en el cursor, con las variables ya rellenadas (ver más
-abajo).
+El bloque se inserta en el cursor, con las variables ya rellenadas.
 
-## Guardar una plantilla {#saving-a-template}
+## Guardar algo como plantilla {#save-something-as-a-template}
 
-Crea lo que quieras reutilizar y luego guárdalo:
+| Para guardar | Haz esto | Dónde se guarda |
+| --- | --- | --- |
+| El documento entero | `⌘P` → **Guardar documento como plantilla…**, y ponle nombre. | Todas las bóvedas. |
+| Parte de un documento | Selecciónala, pulsa **›** (**Más herramientas**) en la barra que aparece y luego **Guardar selección como plantilla…**. Ponle nombre y elige **Todas las bóvedas** o **Solo esta bóveda**. | Tú eliges. |
 
-- **El documento entero.** Abre la paleta de comandos (`⌘P`) y elige **Guardar
-  documento como plantilla…**, luego dale un nombre. Una plantilla guardada así
-  está disponible en todas las bóvedas.
-- **Solo una selección.** Selecciona la parte que quieres, haz clic en **›**
-  (**Más herramientas**) en la barra que aparece y luego en el icono **Guardar
-  selección como plantilla…**. Ponle nombre y φ te pregunta dónde debe vivir:
-  - **Todas las bóvedas**: disponible en todas partes. Estas plantillas las
-    guarda la propia app, así que añadir o quitar una nunca toca los archivos de
-    tu bóveda.
-  - **Solo esta bóveda**: disponible solo en la bóveda actual, y se guarda dentro
-    de su carpeta, así que viaja con la bóveda.
+Las plantillas para todas las bóvedas las guarda el propio φ, así que añadir o
+quitar una nunca toca los archivos de tu bóveda. Las plantillas de una sola
+bóveda se guardan dentro de su carpeta, así que viajan con la bóveda.
 
-## El lugar Plantillas {#the-templates-place}
+## La página Plantillas {#the-templates-page}
 
-Cada plantilla que esta bóveda puede usar tiene su propio lugar. En **Notas**,
-busca **Plantillas** en **Lugares** en la barra lateral, o pulsa `⌘K` y escribe
-*Plantillas*.
+En **Notas**, abre **Plantillas** en **Lugares** de la barra lateral, o pulsa
+`⌘K` y escribe *Plantillas*. La lista muestra todas las plantillas que esta
+bóveda puede usar, marcadas como **Esta bóveda** o **En todas las bóvedas**.
+Elige una para ver lo que escribe.
 
-La lista muestra primero las plantillas propias de esta bóveda y luego las
-guardadas para todas las bóvedas (marcadas **En todas las bóvedas**). Elige una
-para ver lo que escribe en la página.
+- **+** (**Nueva plantilla**) crea una vacía para esta bóveda, llamada
+  **Plantilla sin título**.
+- **Editar plantilla** la abre en el editor de plantillas.
+- **Quitar plantilla** elimina una de las plantillas de esta bóveda. Las
+  plantillas para todas las bóvedas se quitan en Ajustes (más abajo).
 
-- **+** (o **Nueva plantilla**) crea una plantilla de bóveda vacía llamada
-  **Plantilla sin título**, lista para editar.
-- **Editar plantilla** abre el editor de plantillas.
-- **Quitar plantilla** elimina una plantilla de bóveda. (Las plantillas guardadas
-  para todas las bóvedas se quitan en Ajustes, más abajo.)
+## Editar una plantilla {#edit-a-template}
 
-## El editor de plantillas {#the-template-editor}
-
-El editor de plantillas es una superficie de escritura propia. Editar una
+El editor de plantillas es una superficie de escritura propia: editar una
 plantilla ahí nunca altera el documento que tienes abierto. Cambia el nombre y
-el contenido, y luego **Guardar**. Debajo tienes un recordatorio de las
+el contenido, y pulsa **Guardar**. Debajo tienes un recordatorio de las
 variables.
 
-## Plantillas en Ajustes {#templates-in-settings}
-
-**Ajustes → Plantillas** también las reúne, en dos listas: **Esta bóveda** y
-**Plantillas globales**. Cada una tiene un lápiz para editarla y una papelera
-para quitarla. Debajo de las listas:
+**Ajustes → Plantillas** también las lista, en **Esta bóveda** y **Plantillas
+globales**, cada una con un lápiz para editarla y una papelera para quitarla.
+Debajo de las listas:
 
 - **Instalar una plantilla…** añade un archivo de plantilla que alguien te haya
   dado.
-- **Abrir carpeta de plantillas** muestra dónde se guardan las plantillas de
+- **Abrir carpeta de plantillas** muestra dónde se guardan las plantillas para
   todas las bóvedas.
 
-## Variables de plantilla {#template-variables}
+## Rellenar fechas y el cursor {#fill-in-dates-and-the-caret}
 
-Una plantilla puede incluir variables que se rellenan en el momento en que la
-insertas. Nunca se guardan ya rellenadas, así que la misma plantilla da la fecha
-de hoy hoy y la de mañana mañana. Escríbelas como texto plano:
+Una plantilla puede llevar variables que se rellenan en el momento en que la
+insertas. Como se rellenan cada vez, la misma plantilla da la fecha de hoy hoy
+y la de mañana mañana. Escríbelas como texto plano en la plantilla:
 
 | Variable | Se rellena con |
 | --- | --- |
-| `<% today %>` | la fecha de hoy |
-| `<% tomorrow %>` | la fecha de mañana |
-| `<% yesterday %>` | la fecha de ayer |
-| `<% time %>` | la hora actual |
-| `<% cursor %>` | nada; aquí es donde queda el cursor |
+| `<% today %>` | La fecha de hoy. |
+| `<% tomorrow %>` | La fecha de mañana. |
+| `<% yesterday %>` | La fecha de ayer. |
+| `<% time %>` | La hora actual. |
+| `<% cursor %>` | Nada: es donde queda el cursor, para que empieces a escribir. |
 
-Las variables funcionan en texto plano y dentro de enlaces. En texto plano, las
-variables de fecha se convierten en distintivos de fecha en los que puedes hacer
-clic; dentro de un enlace o de otro formato se convierten en texto plano. Tras
-insertar, el cursor salta a donde pusiste `<% cursor %>`, para que puedas empezar
-a escribir de inmediato.
+En texto plano, las fechas se convierten en distintivos de fecha en los que
+puedes hacer clic. Dentro de un enlace o de otro formato se convierten en texto
+plano.
+
+:::tip Una plantilla para cada tipo de día
+
+Un registro diario con `<% today %>` como encabezado y `<% cursor %>` debajo te
+da una página con fecha, lista para escribir, con una sola barra.
+
+:::
+
+## Ver también {#see-also}
+
+- [Formato y bloques](./formatting-and-blocks): el menú `/`.
+- [Diario y páginas matinales](./journal-and-morning-pages)
+- [Ajustes](./settings)

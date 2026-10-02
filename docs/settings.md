@@ -39,7 +39,7 @@ How φ looks. More on colour themes in
 | --- | --- |
 | **Appearance** | **System**, **Light** or **Dark**. System follows your computer and switches with it. |
 | **Interface size** | **100%**, **115%**, **130%** or **150%**. Scales everything, icons included. |
-| **Color theme** | The installed themes, each with a small preview. **Install theme…**, **Open themes folder** and **Browse official themes…** add more. |
+| **Colour theme** | The installed themes, each with a small preview. **Install theme…**, **Open themes folder** and **Browse official themes…** add more. |
 | **Sidebar in light theme** | **Dark** (the default, so the page is the brightest thing on screen) or **Light**. In the dark theme the sidebar is always dark. |
 | **Sanctuary dims the rest** | In [Sanctuary](./focus-and-writing-modes), only the sentence you're in stays at full strength, or the paragraph if **Focus typing** says so. Turn it off to keep everything lit. |
 
@@ -116,7 +116,7 @@ With **Git**, a **Git backup** group appears:
 | **Backup now** | Says whether you're up to date, have commits waiting, or have no remote yet. **Push now** pushes straight away. |
 
 If the vault is in a cloud folder, φ keeps its git repository on this computer
-instead of inside the vault. φ on iPhone and iPad never runs git; it keeps
+instead of inside the vault. φ on iPhone and iPad (coming soon) never runs git; it keeps
 versions in the vault's `.poiesis-history`. More in
 [Versions & backup](./versions-and-backup).
 

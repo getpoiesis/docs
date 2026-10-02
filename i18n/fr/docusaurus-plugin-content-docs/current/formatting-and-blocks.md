@@ -1,220 +1,158 @@
 ---
 title: Mise en forme et blocs
+description: Toutes les mises en forme et tous les blocs de φ, et toutes les façons d’insérer chacun.
 ---
 
 # Mise en forme et blocs
 
-φ vous offre la mise en forme du quotidien à laquelle vous vous attendez
-(titres, listes, citations, code, liens), plus un ensemble de blocs plus riches
-conçus pour les manuscrits et la poésie. Mettez en forme le texte depuis la
-[barre d'outils contextuelle](the-editor.md#the-bubble-toolbar) ou le menu
-**Format**, et insérez des blocs depuis le [menu slash](the-editor.md#the-slash-menu)
-(tapez `/`).
+φ a la mise en forme à laquelle vous vous attendez (titres, listes, citations,
+liens) et un ensemble de blocs conçus pour les livres et les poèmes : vers,
+sauts de scène, épigraphes, notes de bas de page. Cette page sert de
+référence : à quoi sert chacun, et toutes les façons de le créer.
 
-## Mise en forme en ligne {#inline-formatting}
+## Mettre en forme en écrivant {#format-as-you-write}
 
-Sélectionnez du texte et appliquez :
+1. Sélectionnez des mots et choisissez dans la barre d’outils au-dessus, ou
+   utilisez un raccourci comme `⌘B`.
+2. Pour un bloc, tapez `/` sur une ligne vide, puis un mot : `/quote`,
+   `/scene`, `/verse`.
+3. Ou écrivez le Markdown dont vous avez l’habitude : `## ` crée un titre,
+   `**mot**` le met en gras.
+4. Les mêmes commandes se trouvent dans le menu **Format** de la barre de
+   menus.
 
-- **Gras** : `⌘B`
-- **Italique** : `⌘I`
-- **Souligné** : `⌘U`
-- **Barré** : depuis **Plus d’outils** (›) dans la barre d'outils, ou depuis le
-  menu Format
-- **Code en ligne** : pour de courts extraits au sein d'une phrase, depuis les
-  mêmes endroits
+## Mots et expressions {#words-and-phrases}
 
-:::tip Sortez du gras ou de l'italique en tapant
-Quand vous activez le **gras** ou l'*italique* et que vous continuez à écrire,
-inutile de revenir à la barre d'outils pour l'arrêter. Terminez le mot, puis
-appuyez une deuxième fois sur la barre d'espace : la première espace reste
-attachée au mot mis en forme, et la suivante retire la mise en forme, si bien que
-le mot d'après s'écrit en texte normal.
-:::
+| Mise en forme | Raccourci | Barre d’outils | Markdown |
+| --- | --- | --- | --- |
+| **Gras** | `⌘B` | **Gras** | `**gras**` |
+| **Italique** | `⌘I` | **Italique** | `*italique*` |
+| **Souligné** | `⌘U` | **Souligné** | `~souligné~` |
+| **Barré** | **Format → Barré** | **Plus d’outils** › **Barré** | `~~barré~~` |
+| **Code en ligne** | **Format → Code en ligne** | **Plus d’outils** › **Code en ligne** | `` `code` `` |
+| **Surlignage** | | **Surligner et commenter** | `==surlignage==` |
+| **Lien** | `⌘⇧K` | **Lien** | `[texte](https://…)` |
 
-## Titres et paragraphes {#headings-and-paragraphs}
+**Sortir du gras ou de l’italique.** Terminez le mot et appuyez deux fois sur
+la barre d’espace. La première espace reste avec le mot mis en forme ; la
+seconde met fin à la mise en forme, et le mot suivant s’écrit en texte normal.
 
-Trois niveaux de titre structurent un document :
+**Liens.** Taper ou coller une adresse web en fait un lien tout seul. Pour en
+modifier ou en supprimer un, sélectionnez les mots liés et choisissez de
+nouveau **Lien** : tapez une nouvelle adresse, ou videz le champ. Les liens
+s’ouvrent dans votre navigateur ; pendant l’édition, maintenez `⌘` et cliquez.
+Pour créer un lien vers un autre document du coffre, utilisez plutôt un lien
+wiki ([Liens et graphe](./links-and-graph)).
 
-- **Titre 1** : `⌘⌥1`
-- **Titre 2** : `⌘⌥2`
-- **Titre 3** : `⌘⌥3`
-- **Texte normal** (un paragraphe simple) : `⌘⌥0`
+## Titres, listes et citations {#headings-lists-and-quotes}
 
-Depuis le menu slash, `/heading` affiche les trois, et `/h1`, `/h2` ou `/h3`
-mène directement à l'un d'eux. `/text` retransforme une ligne en paragraphe
-simple. Le bouton **Titre** de la barre d'outils contextuelle active ou désactive
-un titre moyen. Les titres alimentent le plan du document et le bloc
-[Table des matières](#richer-blocks).
+| Bloc | Commande slash | Raccourci | Markdown |
+| --- | --- | --- | --- |
+| **Texte** (un paragraphe simple) | `/text` | `⌘⌥0` | |
+| **Titre 1** | `/h1` | `⌘⌥1` | `# ` |
+| **Titre 2** | `/h2` | `⌘⌥2` | `## ` |
+| **Titre 3** | `/h3` | `⌘⌥3` | `### ` (`####` et au-delà aussi) |
+| **Liste à puces** | `/bullet` | `⌘⇧8` | `- ` ou `* ` |
+| **Liste ordonnée** | `/numbered` | `⌘⇧7` | `1. ` |
+| **Liste de tâches** | `/task` ou `/checklist` | | `[] ` ou `- [ ] ` (`- [x] ` la crée cochée) |
+| **Citation** | `/quote` | `⇧⌘B` | `> ` |
+| **Séparateur** | `/divider` | | `---` |
+| **Bloc de code** | `/code` | | ` ``` ` |
+| **Tableau** | `/table` | | |
 
-## Alignement {#alignment}
+Les titres construisent le plan du document dans le panneau Infos et
+alimentent un bloc **Table des matières**.
 
-Les paragraphes et les titres peuvent être alignés depuis le menu Format ou
-depuis **Plus d’outils** (›) dans la barre d'outils :
+**Alignement.** **Aligner à gauche**, **Centrer** (`⌘⇧E`), **Aligner à
+droite** (`⌘⇧R`) et **Justifier** (`⌘⇧J`) se trouvent dans le menu **Format**
+et sous **Plus d’outils** dans la barre d’outils.
 
-- **Aligner à gauche**
-- **Centrer** : `⌘⇧E`
-- **Aligner à droite** : `⌘⇧R`
-- **Justifier** : `⌘⇧J`
+**Les listes de tâches** ont trois états, à faire, en cours et fait ; cliquez
+sur la case pour faire avancer un élément. Elles sont proposées dans les Notes
+et sur les pages de recherche. Pour les proposer ailleurs, activez **Listes de
+tâches** pour ce mode dans **Réglages → Réglages d’écriture → Modes**.
 
-## Listes {#lists}
+**Les tableaux** commencent avec trois colonnes, trois lignes et une ligne
+d’en-tête. Faites glisser le bord d’une colonne pour l’élargir. `Tab` passe à
+la cellule suivante.
 
-- **Liste à puces** : `⌘⇧8`, ou `/bullet`
-- **Liste numérotée** : `⌘⇧7`, ou `/numbered`
-- **Liste de tâches** : `/task` ou `/checklist`. Une liste de contrôle dont les
-  éléments passent par trois états : à faire, en cours, fait.
+**Les blocs de code** colorent le langage qu’ils reconnaissent, ou celui que
+vous indiquez après la clôture d’ouverture (` ```python `). `Tab` augmente
+l’indentation et `⇧Tab` la réduit ; réglez **Indenter avec** (**Espaces** ou
+**Tabulations**) et **Largeur d’indentation** sous **Réglages → Éditeur →
+Code**.
 
-Les listes de tâches sont proposées là où elles ont leur place : dans les Notes
-et sur les pages de recherche, par défaut. Un chapitre ou une journée du journal
-n'en propose pas. Vous pouvez changer cela pour chaque mode dans **Réglages →
-Réglages d’écriture → Modes → Listes de tâches**. Un document qui contient déjà
-une liste de tâches l'affiche toujours, où qu'il se trouve.
+## Blocs pour les livres et les poèmes {#blocks-for-books-and-poems}
 
-## Citations et séparateurs {#quotes-and-dividers}
+Ils sont proposés dans les documents qui appartiennent à un
+[projet](./collections) : chapitres, poèmes, essais. Un document qui en
+contient déjà un l’affiche où qu’il se trouve.
 
-- **Bloc de citation** : `⌘⇧9`, ou `/quote`. Pour un passage cité détaché du
-  texte qui l'entoure.
-- **Séparateur** : `/divider`. Une ligne horizontale pour séparer des sections.
+| Bloc | À quoi il sert | S’insère avec |
+| --- | --- | --- |
+| **Vers** | Les lignes d’un poème, gardées telles que vous les écrivez, à la marge du texte. | `/verse` ou `⌥⌘V` |
+| **Saut de scène** | Un ornement centré entre les scènes : **Astérisme** ⁂, **Étoiles** \* \* \*, **Fleuron** ❧ ou **Espace vide**. Survolez-le pour en changer. | `/scene` |
+| **Épigraphe** | Une citation d’ouverture, avec sa source sur une ligne en dessous. | `/epigraph` |
+| **Exergue** | Une ligne composée en grand, pour l’emphase. | `/pull-quote` |
+| **Lettrine** | Une première lettre agrandie pour le paragraphe. Choisissez-la de nouveau pour la retirer. | `/drop` |
+| **Table des matières** | Une liste vivante des titres du document ; cliquez sur l’un d’eux pour y aller. | `/toc` |
+| **Note de bas de page** | Une note numérotée. | `/footnote` |
+| **Citation bibliographique** | Une référence auteur–année à une source. | `/citation` |
+| **Bibliographie** | La liste des sources que vous avez citées. | `/bibliography` |
 
-## Blocs de code {#code-blocks}
+Les vers, les épigraphes et les sauts de scène sont expliqués dans
+[Poésie et vers](./poetry) ; les notes de bas de page, les citations et la
+bibliographie dans [Notes de bas de page et citations](./footnotes-and-citations).
 
-Pour du code sur plusieurs lignes, insérez un **bloc de code** avec `/code`. φ
-reconnaît le langage et le colore pour vous. Si vous écrivez le bloc à la manière
-de Markdown, avec le langage après la clôture d'ouverture (` ```python `), c'est
-ce langage qui est utilisé.
+## Images, encadrés et dates {#pictures-callouts-and-dates}
 
-Dans un bloc de code, `Tab` augmente l'indentation et `⇧Tab` la réduit, et
-`Enter` conserve l'indentation de la ligne en cours. Choisissez la façon
-d'indenter dans **Réglages → Éditeur → Code** : **Indenter avec** (**Espaces**
-ou **Tabulations**) et **Largeur d’indentation**.
+| Bloc | À quoi il sert | S’insère avec |
+| --- | --- | --- |
+| **Image** | Une image avec une légende. Choisissez gauche, centre, droite ou pleine largeur depuis sa barre d’outils, et faites glisser son bord pour la redimensionner. Le fichier est copié dans votre coffre. | `/image`, ou `![alt](https://…)` |
+| **Encadré** | Une boîte pour un aparté : information, astuce, avertissement ou danger. Survolez-le pour en changer. | `/callout`, ou `> [!tip] ` |
+| **Date** | La date du jour sous forme de puce, qui relie le document à ce jour dans le [calendrier](./calendar). | `/date` |
+| **Date et heure** | La même chose, avec l’heure. | `/datetime` |
+| **Heure** | L’heure actuelle, en texte simple. | `/time` |
 
-Pour quelques mots de code au sein d'une phrase, utilisez plutôt le code en
-ligne.
+Cliquez sur une puce de date pour ouvrir son jour dans le calendrier ; le
+crayon à côté (**Modifier la date et l’heure**) change la date ou l’heure. Les
+encadrés ne sont pas proposés dans les entrées du journal.
 
-## Liens {#links}
+Deux autres éléments se placent à l’intérieur d’une ligne :
 
-- **Ajouter un lien** : sélectionnez du texte et utilisez **Lien** dans la barre
-  d'outils contextuelle (ou **Format → Lien…**, `⌘⇧K`), puis saisissez l'adresse
-  web.
-- **Détection automatique** : tapez ou collez une adresse web et φ la reconnaît
-  comme un lien.
-- **Modifier ou supprimer** : sélectionnez les mots liés et utilisez de nouveau
-  **Lien**. Tapez une nouvelle adresse pour la changer, ou videz le champ pour
-  supprimer le lien.
-
-Les liens s'ouvrent dans votre navigateur par défaut. Pour suivre un lien
-pendant l'édition, maintenez `⌘` et cliquez ; en
-[mode lecture](the-editor.md#reading-mode), un simple clic suffit.
-
-Pour créer un lien vers un autre document de votre coffre, utilisez plutôt un
-lien wiki : voir [Liens et graphe](links-and-graph.md).
+- **Les mentions @** : tapez `@` et choisissez un
+  [personnage](./characters-and-authors), ou choisissez **Créer @nom** pour
+  en créer un à partir de ce que vous avez tapé.
+- **Les liens wiki** : tapez `[[` et choisissez un document
+  ([Liens et graphe](./links-and-graph)).
 
 ## Écrire en Markdown {#writing-in-markdown}
 
-Si vous écrivez en Markdown par habitude, continuez : φ le transforme en mise en
-forme pendant que vous tapez.
+φ transforme le Markdown en mise en forme pendant que vous tapez, selon les
+motifs des tableaux ci-dessus. Vous pouvez aussi le voir en écrivant : activez
+**Réglages → Éditeur → Afficher le Markdown**, et les marques (`**`, `#`,
+`[ ]( )`) apparaissent en léger autour de la mise en forme de la ligne où vous
+êtes. Elles ne font jamais partie de votre texte.
 
-- `#`, `##`, `###` et une espace : un titre (`####` et au-delà donnent le plus
-  petit)
-- `-`, `*` ou `1.` et une espace : une liste ; `[] ` ou `- [ ] ` : un élément de
-  liste de tâches (`- [x] ` le crée coché), là où les listes de tâches sont
-  proposées
-- `>` et une espace : une citation ; ensuite `[!tip] ` la transforme en encadré
-  (`note`, `tip`, `warning`, `danger`), là où les encadrés sont proposés
-- ` ``` ` : un bloc de code ; `---` : un séparateur
-- `**gras**`, `*italique*`, `~~barré~~`, `` `code` ``, `==surlignage==`
-- `[texte](https://…)` : un lien ; `![alt](https://…)` : une image
+**Coller du Markdown.** Le texte copié depuis un éditeur Markdown ou une
+application de notes arrive mis en forme : titres, listes de tâches, tableaux,
+citations, encadrés, code, liens, images et notes de bas de page
+(`^[la note]`, ou `[^1]` avec sa ligne `[^1]: la note`). Il comprend aussi les
+variantes qu’écrivent d’autres applications de notes : `~texte~` souligne,
+`==🟢texte==` est un surlignage vert, `[[Note|texte affiché]]` est un lien
+wiki, et les `#étiquettes` deviennent les étiquettes du document. Pour coller
+le texte exactement tel quel, utilisez `⇧⌘V`.
 
-**Le Markdown d'autres applications de notes.** Certaines applications écrivent
-leur propre variante de Markdown, et φ la lit comme elles l'entendent :
-`~texte~` est un soulignement, `==🟢texte==` un surlignage vert (🟡 🔵 🟣 🔴
-aussi), `[[Note|texte affiché]]` et `[[Note/Titre]]` renvoient vers la note, et
-les `#étiquettes` (y compris `#étiquettes/imbriquées` et `#plusieurs mots#`)
-sont ajoutées aux étiquettes du document. `⌥⇧⌘V` colle du texte brut, comme
-`⇧⌘V`.
+Un collage n’apporte que ce que le document propose : une liste de tâches
+collée dans un chapitre arrive sous forme de liste en gardant ses `[ ]`.
 
-**Afficher le Markdown.** Activez **Réglages → Éditeur → Afficher le Markdown**
-pour voir les marques (`**`, `#`, `[…](…)` et les autres) en discret autour de
-la mise en forme dans la ligne que vous écrivez. Elles disparaissent des lignes
-que vous quittez, et elles ne font jamais partie de votre texte : désactiver le
-réglage ne change rien au document.
+**Copier en Markdown.** **Copier en Markdown**, dans la palette de commandes
+(`⌘P`), copie la sélection, ou tout le document quand rien n’est sélectionné.
+C’est aussi dans le menu contextuel (clic droit) d’un document dans la liste.
 
-**Coller du Markdown.** Collez du texte copié depuis un éditeur Markdown ou une
-autre application de notes et il arrive mis en forme : titres, listes de tâches,
-tableaux, citations, encadrés, code, liens et images. Chaque ligne devient son
-propre paragraphe, et un `#mot` reste un mot. Les notes de bas de page suivent
-aussi, qu'elles soient écrites `^[la note]` dans le texte ou sous forme `[^1]`
-avec une ligne `[^1]: la note` en dessous. Le texte mis en forme provenant d'une
-page web ou d'un traitement de texte se colle comme toujours. Pour coller le
-texte exactement tel quel, utilisez `⇧⌘V`.
+## Voir aussi {#see-also}
 
-Un collage n'apporte que ce que le document propose : une liste de tâches collée
-dans un chapitre arrive sous forme de liste en gardant ses `[ ]`, un tableau
-sous forme d'une ligne par rangée, et les pages du matin reçoivent des
-paragraphes simples.
-
-**Copier en Markdown.** Choisissez **Copier en Markdown** dans la palette de
-commandes (`⌘P`) pour placer la sélection (ou tout le document, si rien n'est
-sélectionné) dans le presse-papiers au format Markdown. C'est aussi dans le menu
-⋮ d'un document et dans son menu contextuel de la liste, où cela copie tout le
-document.
-
-## Tableaux {#tables}
-
-Insérez un tableau de départ avec `/table` : une grille de 3×3 avec une ligne
-d'en-tête que vous pouvez modifier et agrandir à partir de là. Faites glisser le
-bord d'une colonne pour l'élargir ou la rétrécir.
-
-Les tableaux sont proposés dans les notes et dans Écrire, mais pas dans les
-entrées du journal.
-
-## Dates et heures {#dates-and-times}
-
-- `/date` insère la date du jour sous forme de **puce de date**, qui relie le
-  document à ce jour dans le [calendrier](calendar.md).
-- `/datetime` insère la date et l'heure actuelle sous forme de puce.
-- `/time` insère l'heure actuelle en texte simple.
-
-Cliquez sur une puce de date pour ouvrir ce jour dans le calendrier. Le petit
-crayon à côté (**Modifier la date et l’heure**) vous permet de changer la date,
-ou d'ajouter ou de retirer l'heure.
-
-## Blocs plus riches {#richer-blocks}
-
-Au-delà de la prose standard, φ propose des blocs conçus pour les livres, les
-essais et la poésie. Insérez-les depuis le menu slash.
-
-| Bloc | À quoi il sert | S'insère avec |
-|---|---|---|
-| **Encadré** | Un encadré d'information, d'astuce, d'avertissement ou de danger pour les apartés. Changez son type avec les petits boutons qui apparaissent au survol. | `/callout` |
-| **Image** | Une image avec une légende modifiable. Choisissez gauche, centre, droite ou pleine largeur depuis sa barre d'outils, et faites glisser son bord pour la redimensionner. Le fichier est copié dans votre coffre. | `/image` |
-| **Vers** | Un bloc de poème ou de vers qui conserve vos retours à la ligne et vos espacements. `Enter` commence une nouvelle ligne dans le vers ; `⌘↩` sort vers un paragraphe en dessous. | `/verse` |
-| **Saut de scène** | Un séparateur centré entre les scènes : astérisme, étoiles, fleuron ou espace vide. | `/scene` |
-| **Épigraphe** | Une citation d'ouverture avec une ligne d'attribution, pour le début d'un chapitre ou d'un livre. | `/epigraph` |
-| **Exergue** | Un extrait grand et bien visible mis en avant pour l'emphase. | `/pull-quote` |
-| **Lettrine** | Une première lettre décorative surdimensionnée pour le paragraphe. | `/drop` |
-| **Table des matières** | Un plan vivant et cliquable des titres de ce document. Il se met à jour pendant que vous éditez. | `/toc` |
-| **Bibliographie** | Une liste de références construite à partir des sources citées dans le document. | `/bibliography` |
-
-**Encadré** et **Image** sont disponibles dans les notes et dans Écrire (les
-images aussi dans le journal). Les autres, de **Vers** jusqu'en bas, sont des
-blocs de manuscrit : ils sont proposés dans les documents qui appartiennent à un
-projet, et masqués dans les notes, dans les textes hors projet et dans le
-journal. Un document qui en contient déjà un l'affiche toujours.
-
-### Éléments en ligne {#inline-elements}
-
-Quelques éléments se placent à l'intérieur d'une ligne plutôt que de former leur
-propre bloc :
-
-| Élément | À quoi il sert | S'insère avec |
-|---|---|---|
-| **Note de bas de page** | Une note numérotée. φ vous demande le texte de la note, puis place une petite marque en exposant. Dans les documents d'un projet. | `/footnote` |
-| **Citation bibliographique** | Une référence auteur–année à une source de la bibliothèque du document. Dans les documents d'un projet. | `/citation` |
-| **Puce de date** | Une date (éventuellement avec une heure) qui relie le document à un jour du calendrier. | `/date` |
-| **Mention @** | Une référence à un personnage. Choisissez-en un dans la liste, ou choisissez **Create @nom** (**Nouveau personnage**) pour en ajouter un à partir de ce que vous avez tapé. | Tapez `@` |
-| **Lien wiki** | Un lien `[[Titre]]` vers un autre document de votre coffre. | Tapez `[[` |
-
-Pour en savoir plus, voir
-[Notes de bas de page et citations](footnotes-and-citations.md),
-[Personnages et auteurs](characters-and-authors.md),
-[Annotations](annotations.md) et [Liens et graphe](links-and-graph.md).
+- [L’éditeur](./the-editor) : la barre d’outils et le menu slash.
+- [Poésie et vers](./poetry)
+- [Notes de bas de page et citations](./footnotes-and-citations)
+- [Modèles](./templates)

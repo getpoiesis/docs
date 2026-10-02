@@ -1,177 +1,149 @@
 ---
 title: Journal et pages du matin
+description: Une entrée datée pour chaque jour, la pratique des trois pages du matin, et la série qui compte les jours où vous écrivez.
 ---
 
 # Journal et pages du matin
 
-φ intègre deux habitudes quotidiennes. Le **journal** garde une entrée datée
-pour chaque jour, à conserver et à retrouver. Les **pages du matin** sont la
-pratique privée qui consiste à écrire et à lâcher prise. Les deux alimentent une
-**série d’écriture**, pour que votre présence chaque jour soit quelque chose que
-vous pouvez voir.
+Le **Journal** garde une entrée pour chaque jour, à laquelle revenir. Les
+**pages du matin** se trouvent à côté : trois pages écrites dès le réveil, puis
+scellées et laissées derrière soi. Les deux comptent pour votre série
+d’écriture, pour qu’une habitude quotidienne soit quelque chose que vous pouvez
+voir.
 
-<img src="/img/app/journal-light.png" alt="Le journal : un jour après l’autre, le plus récent en premier" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/journal-dark.png" alt="Le journal : un jour après l’autre, le plus récent en premier" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/journal-light.png" alt="Le Journal : Toutes les entrées, listées par jour avec la bande de la semaine en haut, et l’entrée du jour ouverte avec sa pastille de pages du matin scellées" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/journal-dark.png" alt="Le Journal : Toutes les entrées, listées par jour avec la bande de la semaine en haut, et l’entrée du jour ouverte avec sa pastille de pages du matin scellées" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Le mode Journal {#the-journal-mode}
+## Écrire l’entrée du jour {#write-todays-entry}
 
-**Journal** est le troisième mode du sélecteur de la barre latérale (`⌘3`). Ses
-lieux :
+1. Choisissez **Journal** dans le sélecteur de modes de la barre latérale
+   (`⌘3` quand le coffre a les trois modes).
+2. Cliquez sur **Aujourd’hui**. φ ouvre l’entrée du jour, et la crée si elle
+   n’existe pas encore.
+3. Écrivez. L’entrée s’enregistre au fil de l’écriture.
+4. Pour commencer aussi les pages du matin du jour, cliquez sur **Commencer les
+   pages du matin** à côté de la date.
 
-- **Accueil** — l’entrée du jour, cette semaine et les jours précédents, les
-  pages du matin du jour, le mois, et ce que vous avez écrit ce même jour les
-  autres années.
-- **Aujourd’hui** — ouvre l’entrée du jour.
-- **Toutes les entrées** — chaque jour où vous avez écrit, le plus récent en
-  premier.
-- **Pages du matin** — chaque séance de pages du matin.
-- **Scellées** — les pages du matin que vous avez terminées et scellées.
-- **Lieux** → **Calendrier**.
+Vous pouvez aussi partir de la carte **Aujourd’hui** dans l’**Accueil** du
+Journal, du **+** en haut de **Toutes les entrées** (**Écrire aujourd’hui**),
+ou de `⌘P` → **Nouvelle entrée de journal**.
 
-Une entrée de journal est un document rattaché à un jour. Elle vit dans votre
-coffre comme n’importe quel autre — cherchable, liable, exportable — mais le
-journal la regroupe par date, pour qu’une pratique quotidienne ait un foyer.
+## Se repérer dans le Journal {#find-your-way-around-the-journal}
 
-## Écrire aujourd’hui {#writing-today}
+| Dans la barre latérale | Ce qui s’affiche |
+| --- | --- |
+| **Accueil** | L’entrée du jour, cette semaine, les derniers jours, les pages du matin du jour, le mois, et **Ce jour-là** : ce que vous avez écrit à cette date les années précédentes. |
+| **Aujourd’hui** | L’entrée du jour. |
+| **Toutes les entrées** | Chaque jour où vous avez écrit, le plus récent en premier, avec cette semaine sous forme de bande de jours en haut. Ouvrez un jour pour le lire, ou restez sur la liste pour faire défiler tous les jours comme une seule page et écrire sur place dans n’importe lequel. |
+| **Pages du matin** | Chaque séance, avec ses pages et ses mots. |
+| **Scellées** | Les pages du matin que vous avez terminées. |
+| **Calendrier** | Votre écriture au fil des mois (voir [Le calendrier](./calendar)). |
 
-Chacune de ces actions ouvre l’entrée du jour, et la crée si elle n’existe pas
-encore :
+Une entrée a pour en-tête son jour de la semaine, au-dessus de la date. À côté
+se trouvent la pastille des pages du matin de ce jour, **Aujourd’hui** quand
+vous êtes sur un autre jour, et des flèches pour passer au jour précédent ou
+suivant où vous avez écrit. Sous l’entrée, **Mentionné dans** liste les
+documents qui portent la date de ce jour ou y renvoient.
 
-- **Aujourd’hui** dans la barre latérale.
-- **+** en haut de **Toutes les entrées** (**Écrire aujourd’hui**).
-- Dans l’Accueil du Journal, **Commencer l’entrée du jour** (ou **Continuer
-  l’entrée** une fois commencée).
-- `⌘P` → **Nouvelle entrée de journal**.
+Une entrée de journal est un document comme les autres : on peut la
+rechercher, la lier et l’exporter. Le Journal se contente de la ranger par jour.
 
-:::note
-`⌘N` dans Journal crée une nouvelle **note**, pas une entrée — le journal a une
-entrée par jour.
-:::
-
-## Écrire un autre jour {#writing-on-another-day}
+## Écrire un jour passé {#write-on-an-earlier-day}
 
 Vous pouvez écrire aujourd’hui ou n’importe quel jour précédent, jamais en
-avance :
+avance.
 
-- Quand rien n’est ouvert dans **Toutes les entrées**, la page affiche tous les
-  jours en un seul fil, aujourd’hui en haut. Cliquez dans un jour pour y écrire
-  sur place, ou utilisez **Écrire un jour…** pour choisir une date.
-- La **bande de la semaine** en haut de la liste : cliquez sur un jour.
-- Dans le [calendrier](calendar.md), sélectionnez un jour et choisissez **Écrire
-  ce jour**.
+- Cliquez sur un jour dans la bande de la semaine en haut de **Toutes les
+  entrées**.
+- Sur la page de tous vos jours, appuyez sur **Écrire un jour…** et choisissez
+  une date.
+- Dans le [calendrier](./calendar), sélectionnez un jour et appuyez sur
+  **Écrire ce jour**.
 
-Un jour que vous ouvrez puis quittez sans écrire est de nouveau retiré — il part
-à la corbeille au lieu de laisser un fichier vide derrière lui.
+Un jour que vous ouvrez puis quittez sans écrire un mot part à la corbeille,
+pour que les jours vides ne s’accumulent pas.
 
-## La page d’une entrée {#an-entrys-page}
+## Tenir des pages du matin {#keep-morning-pages}
 
-Une entrée a pour en-tête son jour de la semaine, en doré, au-dessus de la date.
-À côté :
+Les pages du matin sont une pratique manuscrite, dès le réveil : trois pages,
+écrites librement et sans être relues. φ garde leur page dépouillée exprès. Pas
+de barre d’outils, pas de menu slash, pas de suggestions `@` ou `[[`, pas
+d’étiquettes : seulement la date et la page.
 
-- Une pastille pour les pages du matin de ce jour — **Commencer les pages du
-  matin**, **Pages du matin** ou **scellées**.
-- **Aujourd’hui**, quand vous êtes sur un autre jour.
-- **←** et **→** passent au jour précédent ou suivant où vous avez écrit.
-
-Sous l’entrée, **Mentionné dans**, avec un nombre, liste les documents qui
-portent la date de ce jour ou renvoient à l’entrée — ce qui fait d’une date un
-lieu.
-
-## Pages du matin {#morning-pages}
-
-Les pages du matin sont une pratique manuscrite, dès le réveil : trois pages,
-écrites librement, sans les relire. φ respecte cela. Les pages du matin sont
-**privées** — tenues à l’écart des listes, du graphe et de `⌘K` — et sont faites
-pour être lâchées, pas peaufinées.
-
-La surface est donc dépouillée exprès : pas de menu slash, pas de barre
-d’outils, pas de suggestions, pas d’étiquettes, pas de statut, pas d’objectif —
-juste la date et la page.
-
-### Ouvrir les pages du jour {#open-todays-pages}
-
-- **Journal** → **Pages du matin**, puis **+** (**Commencer les pages du matin
-  du jour**) ou **Écrire les pages du jour**.
-- La carte **Pages du matin** dans l’Accueil du Journal.
-- La pastille des pages du matin sur n’importe quelle entrée.
-- `⌘P` → **Pages du matin d’aujourd’hui**.
+Pour ouvrir les pages du jour, utilisez **Commencer les pages du matin** à côté
+d’une entrée, la carte **Pages du matin** dans l’Accueil du Journal, le **+** en
+haut de **Pages du matin**, ou `⌘P` → **Pages du matin d’aujourd’hui**.
 
 ### Trois pages {#three-pages}
 
-L’objectif est de **trois pages**, que φ compte comme **750 mots**. Un pied de
-page discret sous la page indique où vous en êtes —
-`{words} / 750 mots · page {page} sur 3` — avec un petit anneau et **Marquer
-comme fait**. Le bouton attend que vous atteigniez 750 ; survolez-le pour voir
-combien de mots il reste.
+L’objectif est de trois pages, que φ compte comme 750 mots. Une ligne discrète
+sous la page indique où vous en êtes, par exemple «  320 / 750 mots · page 2
+sur 3  », avec un petit anneau et **Marquer comme fait**. Le bouton attend que
+vous atteigniez 750 mots ; survolez-le pour voir combien il en reste.
 
-### Sceller la journée {#sealing-the-day}
+### Sceller la journée {#seal-the-day}
 
 **Marquer comme fait** scelle les pages du jour. Vous pouvez aussi les sceller à
 tout moment depuis le **⋮** du document → **Sceller la journée**.
 
-Les pages du matin ne sont pas faites pour être relues, alors une journée
-scellée s’ouvre sur une carte discrète au lieu de votre texte : *Trois pages,
-scellées.* De là, **Lire ces pages** les affiche en lecture seule, et
-**Desceller pour modifier…** (aussi dans le **⋮**) vous permet d’y écrire de
-nouveau, après confirmation. Les pages que vous ouvrez depuis le calendrier
-s’ouvrent toujours en lecture seule.
+Une journée scellée s’ouvre sur une courte carte au lieu de votre texte. De là,
+**Lire ces pages** les affiche sans vous laisser les modifier, et **Desceller
+pour modifier** vous permet d’y écrire de nouveau, après vous l’avoir demandé.
+Les pages ouvertes depuis le calendrier s’ouvrent toujours en lecture seule.
 
 ### La pratique {#the-practice}
 
-Avec des pages du matin ouvertes, le panneau d’informations (`⇧⌘I`) a deux
-onglets, **La pratique** et **Historique**. La pratique affiche les pages et les
-mots du jour, votre série et votre plus longue série, les jours de ce mois, et
-combien de pages vous avez scellées.
+Quand des pages du matin sont ouvertes, le panneau Infos (`⇧⌘I`) a deux
+onglets, **La pratique** et **Historique**. La pratique affiche les pages et
+les mots du jour, combien de jours d’affilée vous l’avez tenue et votre plus
+longue série, les jours de ce mois, et combien de pages vous avez scellées.
 
-La liste **Pages du matin** montre chaque séance avec son jour, sa page et ses
-mots ; sa page ajoute les totaux — séances, scellées et vos séries.
+### Transformer un document en pages du matin {#make-a-document-into-morning-pages}
 
-### Transformer un document en pages du matin {#turning-a-document-into-morning-pages}
+Faites un clic droit sur n’importe quel document d’une liste et choisissez
+**Marquer comme pages du matin**. **Démarquer les pages du matin** annule cela.
 
-Clic droit sur n’importe quel document → **Marquer comme pages du matin** en
-fait des pages du matin (et **Démarquer les pages du matin** annule cela).
+:::note Privées par conception
 
-:::tip
-`⌘K` laisse de côté les pages du matin, mais la page de recherche complète
-(`⇧⌘F`) les inclut — voir [Rechercher et remplacer](search-and-replace.md).
+Les pages du matin sont tenues à l’écart de `⌘K` et du graphe. Si vous préférez
+ne pas en tenir du tout, désactivez **Pages du matin** dans **Réglages** (`⌘,`)
+→ **Réglages d’écriture** → **Modes** → **Journal**.
+
 :::
 
-## Séries d’écriture {#writing-streaks}
+## Tenir une série d’écriture {#keep-a-writing-streak}
 
-Une série est la suite de jours consécutifs où vous avez atteint un minimum
-quotidien de mots. Écrivez un peu chaque jour et elle s’allonge.
+Une série est la suite de jours consécutifs où vous avez écrit au moins un
+nombre de mots défini.
 
-### Ce qui compte {#what-counts}
+- **Toute écriture compte** : une entrée de journal, des pages du matin, un
+  chapitre, une note. Les mots comptent le jour où vous les avez écrits.
+- **Le minimum est de 50 mots par jour.** Augmentez-le dans **Réglages** →
+  **Éditeur** → **Série d’écriture** → **Minimum de mots / jour**.
+- **Un jour de grâce.** Une série qui s’est arrêtée hier n’est pas encore
+  rompue : vous avez le reste de la journée pour la prolonger.
 
-- Un jour compte dès que les mots que vous avez **écrits ce jour-là** atteignent
-  le minimum — n’importe où dans le coffre : une entrée de journal, des pages du
-  matin, un chapitre, une note. Les mots sont crédités au jour où vous les avez
-  réellement écrits.
-- Le minimum est de **50 mots par jour**, sauf si vous l’augmentez dans
-  **Réglages** (`⌘,`) → **Éditeur** → **Série d’écriture** → **Minimum de mots
-  / jour**. Il ne peut pas descendre sous 50.
-- Il y a **un jour de grâce** : une série qui s’est arrêtée *hier* n’est pas
-  encore rompue — vous avez le reste de la journée pour la prolonger.
+Vous la voyez dans l’Accueil d’Écrire (la carte **Aujourd’hui**), dans l’Accueil
+du Journal, dans le calendrier, et dans **La pratique** à côté de pages du
+matin.
 
-### Où elle s’affiche {#where-it-shows}
+Pour changer son affichage, allez dans **Réglages** → **Réglages d’écriture** →
+**Série** :
 
-- La carte **Aujourd’hui** dans l’Accueil d’Écrire.
-- Une pastille dans l’Accueil du Journal.
-- Une pastille dans la liste du calendrier.
-- **La pratique**, à côté de pages du matin.
+| Choix | Ce que vous voyez |
+| --- | --- |
+| **Flamme et compte** | Une flamme sur chaque jour où vous avez écrit, avec votre série en cours reliée dans le calendrier. |
+| **Jours simples** | Les flammes, sans mise en valeur de la série. |
+| **Désactivée** | Pas de flammes, et pas de série dans l’Accueil d’Écrire. |
 
-### Comment elle s’affiche {#how-it-shows}
+Le **Rythme hebdomadaire**, au même endroit, est un objectif plus doux : un
+nombre de jours par semaine, compté sur les sept derniers jours, pour qu’un seul
+jour manqué ne le remette jamais à zéro.
 
-Choisissez dans **Réglages** → **Réglages d’écriture** → **Série** :
+## Voir aussi {#see-also}
 
-- **Flamme et compte** — le calendrier marque d’une flamme chaque jour où vous
-  avez écrit et relie votre série en cours.
-- **Jours simples** — les flammes restent, mais la série n’est pas mise en
-  valeur.
-- **Désactivée** — pas de flammes dans le calendrier et pas de série dans
-  l’Accueil d’Écrire.
-
-Le **Rythme hebdomadaire**, au même endroit, est un objectif plus doux : visez à
-écrire *N jours par semaine*, mesurés sur sept jours glissants, pour qu’un seul
-jour manqué ne le remette jamais à zéro. Voir
-[Le calendrier](calendar.md#the-streak-and-how-it-shows).
+- [Le calendrier](./calendar) : chaque jour où vous avez écrit, et ce qui s’y
+  rattache.
+- [Se repérer dans φ](./finding-your-way) : la barre latérale, la liste et le
+  panneau Infos.
+- [Versions et sauvegarde](./versions-and-backup) : l’onglet Historique.

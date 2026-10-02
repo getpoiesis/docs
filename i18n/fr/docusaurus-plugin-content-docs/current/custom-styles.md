@@ -16,7 +16,7 @@ ce que vous voulez, et utilisez-le pour n’importe quel projet du coffre.
    styles…**.
 2. Dans **Styles d’export**, choisissez la maquette ou le style le plus proche
    de ce que vous voulez sous **Intégrés à φ**, puis **Dupliquer**. Les styles
-   propres à φ ne peuvent pas être modifiés ; la copie est à vous.
+   propres à φ ne peuvent pas être modifiés ; la copie est à vous.
 3. Changez ce qui vous plaît. Chaque modification est enregistrée aussitôt, et
    l’aperçu à côté des réglages montre les premières pages.
 4. Choisissez **Utiliser pour ce projet**.
@@ -35,15 +35,15 @@ ce que vous voulez, et utilisez-le pour n’importe quel projet du coffre.
 | **Pages propres au livre** | La page de titre, la page de copyright, la dédicace et les autres pages. |
 | **Notes** | Notes en bas de page ou en fin d’ouvrage, et leur numérotation. |
 
-φ maintient chaque valeur dans ce qui s’imprime et se lit bien : une marge trop
+φ maintient chaque valeur dans ce qui s’imprime et se lit bien : une marge trop
 petite pour la reliure ou une couleur trop pâle pour être lue est ramenée dans
 les limites, et la vérification de l’export le signale.
 
 ## Partager, sauvegarder et supprimer des styles {#share-back-up-and-remove-styles}
 
-- Vos styles vivent dans le coffre (dans un dossier caché `.poiesis-styles`) :
+- Vos styles vivent dans le coffre (dans un dossier caché `.poiesis-styles`) :
   ils voyagent avec lui et se synchronisent avec lui.
-- **Exporter…** enregistre un style dans un fichier à donner à quelqu’un ;
+- **Exporter…** enregistre un style dans un fichier à donner à quelqu’un ;
   **Importer un style…** en ajoute un.
 - Supprimer un style le place dans la corbeille du coffre. Les projets qui
   l’utilisaient reviennent au style par défaut de φ.

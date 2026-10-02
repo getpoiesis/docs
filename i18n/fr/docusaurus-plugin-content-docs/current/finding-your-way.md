@@ -1,195 +1,211 @@
 ---
-title: Se repérer dans φ
+title: Visite de la fenêtre
+description: La barre latérale, la liste, la page et le panneau Infos, et les touches qui vous mènent partout.
 ---
 
-# Se repérer dans φ
+# Visite de la fenêtre
 
-La fenêtre de φ a trois colonnes — la **barre latérale**, la **liste** et la
-**page** — et chacun de ses trois modes s'ouvre sur un **Accueil** qui lui est
-propre. Cette page est une visite, de gauche à droite, puis un tour des touches
-qui vous mènent partout.
+La fenêtre de φ a trois colonnes : la **barre latérale**, la **liste** à côté,
+et la **page** sur laquelle vous écrivez, avec un panneau **Infos** que vous
+pouvez ouvrir à droite. Chaque mode, Écrire, Notes et Journal, s’ouvre sur un
+**Accueil** qui lui est propre. Une fois ces quatre parties connues, vous savez
+où se trouve chaque chose.
 
-<img src="/img/app/write-home-light.png" alt="La barre latérale à gauche, et l'Accueil d'Écrire qui occupe le reste de la fenêtre" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/write-home-dark.png" alt="La barre latérale à gauche, et l'Accueil d'Écrire qui occupe le reste de la fenêtre" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/editor-light.png" alt="La barre latérale avec Écrire choisi, les chapitres de The Weighing House listés à côté, et un chapitre ouvert sur la page" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/editor-dark.png" alt="La barre latérale avec Écrire choisi, les chapitres de The Weighing House listés à côté, et un chapitre ouvert sur la page" width="1600" height="1000" loading="lazy" decoding="async" />
+
+## Se déplacer {#get-around}
+
+1. Choisissez un mode en haut de la barre latérale : **Écrire**, **Notes** ou
+   **Journal**.
+2. Choisissez un lieu dans la barre latérale, comme un projet ou **Toutes les
+   notes**. La liste à côté montre ce qu’il contient.
+3. Choisissez une ligne dans la liste. Elle s’ouvre sur la page, et la liste
+   reste en place.
+4. Appuyez sur `⇧⌘I` pour ouvrir le panneau **Infos** à côté de la page.
+5. Appuyez sur `⌘[` pour revenir là où vous étiez.
 
 ## La barre latérale {#the-sidebar}
 
-La barre latérale est toujours là, sauf dans le [Sanctuaire](focus-and-writing-modes.md).
-De haut en bas :
+De haut en bas :
 
-- **Le nom du coffre.** Cliquez dessus pour le menu du coffre : vos coffres,
-  **Ouvrir un autre coffre…**, **Nouveau coffre…**, **Afficher dans le Finder**
-  et **Importer…**. Voir [Coffres](vaults.md).
-- **Le bouton à curseurs**, à côté, ouvre les **Réglages** (`⌘,`).
-- **Écrire · Notes · Journal** — le sélecteur de mode. `⌘1`, `⌘2` et `⌘3`
-  choisissent un mode dans cet ordre et vous mènent à son Accueil. (Un coffre qui
-  n'utilise qu'un seul mode n'a pas de sélecteur ; voir
-  [Espaces](vaults.md#spaces-which-modes-a-vault-has).)
-- **Les lieux du mode**, par groupes — voir ci-dessous.
-- **Le pied** : ce que fait le coffre (**Enregistrement…**, **Indexation…**), la
-  **Corbeille**, et le badge **Alpha**, qui est aussi le moyen de nous dire
-  comment φ se passe pour vous.
+- **Le nom du coffre.** Cliquez dessus pour vos coffres, **Ouvrir un autre
+  coffre…**, **Nouveau coffre…**, **Afficher dans le Finder** (**Afficher dans
+  l’Explorateur de fichiers** sous Windows) et **Importer…**. Avec plus d’un
+  coffre, il propose aussi **Fusionner dans un autre coffre…**. Voir
+  [Coffres](./vaults).
+- **Les curseurs**, à côté, ouvrent les **Réglages** (`⌘,`).
+- **Écrire · Notes · Journal**, le sélecteur de mode. `⌘1`, `⌘2` et `⌘3` vous
+  mènent à l’Accueil de chaque mode. Un coffre qui n’utilise qu’un seul mode
+  n’a pas de sélecteur.
+- **Les lieux du mode**, par groupes (ci-dessous).
+- **Au pied :** ce que fait le coffre (**Enregistrement…**, **Indexation…**),
+  la **Corbeille**, et le badge **Alpha**, qui sert aussi à envoyer vos
+  retours.
 
-Ce que contient la barre latérale de chaque mode :
-
-| Mode | Lieux |
+| Mode | Ce que liste la barre latérale |
 | --- | --- |
-| **Écrire** | **Accueil**, **Pièces** (les écrits qui n'appartiennent à aucun projet), **Projets** (chaque projet, et **Nouveau projet**), **Monde** (**Personnages**, **Auteurs**, **Recherche**), **Lieux** (**Tableaux**, **Graphe**, **Calendrier**) |
+| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Auteurs**, **Recherche**), **Lieux** (**Graphe**, **Calendrier**) |
 | **Notes** | **Accueil**, **Toutes les notes**, **Favoris**, **Non liées**, **Dossiers** (avec un **+** pour un nouveau dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Graphe**, **Calendrier**, **Modèles**) |
-| **Journal** | **Accueil**, **Aujourd'hui**, **Toutes les entrées**, **Pages du matin**, **Scellées**, **Lieux** (**Calendrier**) |
+| **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Scellées**, **Lieux** (**Calendrier**) |
 
-Les lieux partagés affichés par chaque mode se choisissent dans
-[Réglages → Réglages d'écriture](setup.md). Faites un clic droit sur un projet ou
-un dossier de la barre latérale pour son propre menu — son icône, sa couleur, et
-ainsi de suite — et glissez une note sur un dossier pour l'y ranger.
+Cliquez sur un projet et sa propre page s’ouvre, avec son plan dans la liste.
+Tant que vous y êtes, ses parties se placent sous lui dans la barre latérale :
+**Sommaire**, **Recherche**, **Personnages**, **Tableau**, **Lire** et
+**Exporter**.
+
+Faites un clic droit sur un projet ou un dossier pour son menu. Glissez une
+note sur un dossier de la barre latérale pour l’y ranger. Les lieux que montre
+chaque mode se choisissent dans [Ce que φ montre](./setup).
 
 ## La liste {#the-list}
 
-Choisissez quelque chose dans la barre latérale et la deuxième colonne le liste :
-le plan d'un projet, vos pièces, un dossier de notes, les jours du journal, les
-tableaux, la corbeille. Choisissez une ligne et elle s'ouvre sur la page ; la
-liste reste où elle est.
+La deuxième colonne liste ce que vous avez choisi : les chapitres d’un projet,
+vos pièces, un dossier de notes, les jours du journal, les tableaux, la
+corbeille.
 
-En haut de la liste :
+En haut :
 
-- **‹ ›** — retour et suivant (`⌘[` et `⌘]`), avec l'endroit où vous êtes à côté.
+- **‹ ›** : retour et suivant, avec l’endroit où vous êtes à côté (**Écrire ·
+  Projets**, par exemple).
 - **Le titre** de ce qui est listé.
-- **Le tri** — **Modifié**, **Créé** ou **Titre** — sur les listes de pièces et
-  de notes.
-- **+** — en créer un nouveau ici : un chapitre ou une partie dans un projet, une
-  pièce, une note, l'entrée du jour, une carte sur un tableau.
-- **⋮** — les choses moins fréquentes pour ce mode. Dans un projet, il contient
-  aussi les pages propres au projet : **Sommaire**, **Aperçu**, **Lire**,
-  **Ouvrir le tableau du projet** et **Exporter le manuscrit…**.
+- **Le tri** sur les pièces et les notes : **Modifié**, **Créé** ou **Titre**.
+- **+** : en créer un nouveau ici. Dans un projet, il propose un nouveau
+  chapitre (`⌘N`) ou une nouvelle partie (`⇧⌘N`), nommés selon le type de
+  projet.
+- **⋮** : ce dont vous avez moins souvent besoin. Dans un projet, il contient
+  aussi les pages et les réglages du projet : **Sommaire**, **Icône…**,
+  **Couleur…**, **Aperçu**, **Recherche**, **Lire**, **Ouvrir le tableau du
+  projet**, **Exporter le manuscrit…** et **Supprimer le projet…**.
 
 Les pièces, les notes, les personnages, les auteurs et la recherche ont un
-**champ de recherche** sous le titre (**Rechercher dans pièces**, **Rechercher
-dans toutes les notes**, …) qui filtre la liste pendant que vous tapez ; Échap
-l'efface. **Toutes les notes**, un dossier de notes et une étiquette ont aussi
-une zone **Notez une idée…** : tapez une ligne et appuyez sur Entrée, et elle est
-enregistrée comme note.
+champ de recherche sous le titre, qui filtre la liste pendant que vous tapez ;
+`Esc` l’efface.
 
-**Les dossiers s'ouvrent sur place.** Dans Pièces et dans Notes, ouvrez un
-dossier et la liste montre ce qu'il contient, avec le chemin du dossier au-dessus
-— **Tout › Essais › Brouillons**. Cliquez sur n'importe quelle étape du chemin
-pour en ressortir, et déposez un document sur un dossier ou sur une étape du
-chemin pour l'y déplacer.
+**Toutes les notes**, un dossier et une étiquette portent aussi une zone
+**Notez une idée…**. Tapez une ligne et appuyez sur `Enter` : elle est
+enregistrée comme note, dans le dossier ou sous l’étiquette que vous regardez.
+Dans **Toutes les notes** ou un dossier, un `#mot` dans la ligne lui ajoute
+une étiquette.
+
+**Les dossiers s’ouvrent sur place.** Ouvrez un dossier dans Pièces ou dans
+Notes et la liste montre ce qu’il contient, avec le chemin au-dessus
+(**Tout › Essais › Brouillons**). Cliquez sur une étape du chemin pour en
+ressortir. Déposez un document sur un dossier, ou sur une étape du chemin, pour
+l’y déplacer.
 
 ## La page {#the-page}
 
-La page ne porte que le titre et les mots. Tout le reste est gardé sur ses
-bords :
+La page porte le titre et les mots. Avec un document ouvert, les boutons en
+haut à droite sont :
 
-- **En haut à droite**, trois boutons : le menu **⋮** du document, **Infos**
-  (`⇧⌘I`) et **Sanctuaire** (`⌘.`).
-- **Dans le coin inférieur droit**, le nombre de mots — ou les mots par rapport à
-  l'objectif, si le document en a un. Cliquez dessus pour les **Statistiques du
-  document**.
+| Bouton | Ce qu’il fait |
+| --- | --- |
+| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de celui-ci. Voir [Documents côte à côte](./side-by-side). |
+| **⋮** | Le menu du document : favori, ajout à un tableau, mode lecture, défilement machine à écrire, vérification de l’orthographe, enregistrement d’une version, export, mise à la corbeille, et plus encore. |
+| **Détails…** (le ⓘ) | Le statut du document, son synopsis ou sa description, son objectif de mots, ses étiquettes, sa couleur et son emplacement. Voir [Organiser votre travail](./organizing). |
+| **Infos** (`⇧⌘I`) | Ouvre ou ferme le panneau Infos. |
+| **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Sanctuaire et sessions d’écriture](./focus-and-writing-modes). |
 
-### Le panneau Infos {#the-info-panel}
+Le nombre de mots se trouve dans le coin inférieur droit, ou vos mots par
+rapport à l’objectif si le document en a un. Cliquez dessus pour ouvrir
+**Infos** sur son **Plan** ; cliquez de nouveau pour les **Statistiques du
+document** complètes.
 
-**Infos** ouvre un panneau à droite avec quatre onglets :
+## Le panneau Infos {#the-info-panel}
 
-- **Plan** — mots, temps de lecture, l'objectif et cette séance ; les titres et
-  les notes de bas de page du document ; **Ajouter au tableau…** et
-  **Enregistrer un instantané**.
-- **Liens** — ce vers quoi ce document pointe et ce qui pointe vers lui, et les
-  notes à son sujet.
-- **Notes** — ses surlignages, commentaires et tâches (`⇧⌘A` ouvre cet onglet).
-- **Historique** — ses versions. Voir [Versions et sauvegarde](versions-and-backup.md).
+<img src="/img/app/outline-light.png" alt="Le panneau Infos à côté d’une page de recherche, sur son onglet Plan : mots, temps de lecture, titres et notes de bas de page" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/outline-dark.png" alt="Le panneau Infos à côté d’une page de recherche, sur son onglet Plan : mots, temps de lecture, titres et notes de bas de page" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Le [dictionnaire](dictionary.md) s'y ajoute comme cinquième onglet pendant que
-vous l'utilisez. Le panneau reste ouvert jusqu'à ce que vous le fermiez ; une
-fois fermé, il reste fermé pour tous les documents, même après avoir quitté,
-jusqu'à ce que vous le rouvriez.
+**Infos** (`⇧⌘I`) ouvre un panneau à droite d’un document, en cinq onglets :
 
-### Détails {#details}
+| Onglet | Ce qu’il montre |
+| --- | --- |
+| **Plan** | Mots, temps de lecture et objectif ; les titres et les notes de bas de page ; **Ajouter au tableau…** et **Enregistrer une version…**. |
+| **Liens** | Ce vers quoi ce document pointe et ce qui pointe vers lui, les notes qui lui sont liées, et le **Graphe local**. Voir [Liens et graphe](./links-and-graph). |
+| **Notes** | Ses surlignages, commentaires et notes de marge (`⇧⌘A`). Voir [Annotations](./annotations). |
+| **Tâches** | Ses éléments de liste de tâches, et les cartes de tableau qui les suivent. |
+| **Historique** | Ses versions. Voir [Versions et sauvegarde](./versions-and-backup). |
 
-Le statut d'un document, son synopsis ou sa description, son objectif de mots,
-ses étiquettes, sa couleur, son étoile et son emplacement se trouvent sur sa page
-**Détails** — choisissez **Détails…** dans n'importe quel menu ⋮ ou en faisant un
-clic droit sur un document dans une liste. Voir
-[Organiser votre travail](organizing.md).
+Le [dictionnaire](./dictionary) s’y ajoute comme sixième onglet pendant que
+vous l’utilisez (`⇧⌘D`). Une page du matin montre plutôt **La pratique** et
+**Historique**, et les pages propres à un projet montrent **Projet**.
 
-### Redimensionner les colonnes {#resizing-the-columns}
+Le panneau reste ouvert jusqu’à ce que vous le fermiez. Une fois fermé, il
+reste fermé pour tous les documents, même après avoir quitté φ, jusqu’à ce que
+vous le rouvriez. Quand la fenêtre est trop étroite pour tout afficher, il
+s’efface.
 
-Faites glisser le fin séparateur entre deux colonnes pour élargir ou rétrécir
-l'une d'elles (ou donnez le focus au séparateur et utilisez les flèches). φ
-retient les largeurs pour chaque coffre. Faire glisser le séparateur du panneau
-Infos presque jusqu'au bout le ferme, tout comme un double-clic sur le
-séparateur. Quand la fenêtre est trop étroite pour tout afficher, le panneau
-Infos s'efface.
+Faites glisser le fin séparateur entre deux colonnes pour les redimensionner,
+ou donnez-lui le focus et utilisez les flèches. φ retient les largeurs pour
+chaque coffre. Double-cliquez sur le séparateur du panneau Infos, ou faites-le
+glisser presque jusqu’au bout, pour fermer le panneau.
 
-Avec le thème clair, la barre latérale reste sombre, pour que la page soit
-l'élément le plus lumineux de l'écran. **Réglages → Apparence → Barre latérale en
-thème clair** la rend claire.
+## L’Accueil de chaque mode {#each-modes-home}
 
-## L'Accueil de chaque mode {#each-modes-home}
+`⌘⇧H`, ou **Accueil** en haut de la barre latérale, vous mène à l’Accueil du
+mode où vous êtes.
 
-Chaque mode s'ouvre sur un **Accueil** qui occupe la page. `⌘⇧H` vous mène à
-l'Accueil du mode où vous êtes, et **Accueil** en haut de la barre latérale fait
-de même.
+- **Écrire** vous accueille avec le chapitre à **Reprendre**, les projets
+  **En cours**, les **Pièces** récentes et les **Recherches récentes**. À côté :
+  **Aujourd’hui** (mots du jour, votre série, cette séance, jours cette
+  semaine), le mois, et ce qui est **À rendre cette semaine** sur vos tableaux.
+- **Notes** s’ouvre sur **Notez une idée…**, avec ce que vous avez **Modifié
+  récemment** et vos **Actions en cours**. À côté : le mois, vos notes
+  **Favoris** et vos **Étiquettes**.
+- **Journal** s’ouvre sur l’entrée du jour, **Cette semaine** et les jours
+  précédents. À côté : les **Pages du matin** du jour, le mois, et **Ce
+  jour-là** : ce que vous avez écrit à cette date les autres années.
 
-- **L'Accueil d'Écrire** vous accueille avec ce qu'il y a à **reprendre**, les
-  projets sur lesquels vous travaillez, les pièces récentes et les **Recherches
-  en cours** ; à côté, les chiffres du jour (mots aujourd'hui, votre série, cette
-  séance, jours cette semaine), le mois, et ce qui est **À rendre cette semaine**
-  sur vos tableaux.
-- **L'Accueil de Notes** s'ouvre sur une zone **Notez une idée…** — appuyez sur
-  Entrée pour l'enregistrer comme note, et un `#mot` dedans devient une
-  étiquette — avec ce que vous avez modifié récemment et, à côté, le mois, vos
-  notes favorites et vos étiquettes.
-- **L'Accueil de Journal** s'ouvre sur l'entrée du jour, cette semaine et les
-  jours précédents, avec vos **Pages du matin** du jour, le mois, et **Ce
-  jour-là** — ce que vous avez écrit à cette date les autres années.
+## Tout trouver : `⌘K` {#find-anything-k}
 
-## Trouver un document : `⌘K` {#find-a-document-k}
+`⌘K` (**Fichier → Rechercher un document…**) trouve un document, un projet ou
+un personnage par son nom. Avant que vous tapiez, il montre :
 
-`⌘K` (**Fichier → Rechercher un document…**) est le chemin vers partout. À
-l'ouverture, avant que vous tapiez, il montre trois choses :
+- **Ouvert maintenant** : les documents que vous avez ouverts et pas fermés.
+  Celui à l’écran est marqué **ici**.
+- **Aller à** : l’Accueil, les modes et les lieux ; d’autres encore à mesure
+  que vous tapez.
+- **Créer** : un nouveau document, et d’autres choses à mesure que vous tapez.
 
-- **Ouvert maintenant** — les documents que vous avez ouverts et pas fermés.
-  Celui à l'écran est marqué **ici**.
-- **Aller à** — les modes et les lieux : Accueil, Écrire, Notes, Journal, le
-  graphe et, à mesure que vous tapez, le calendrier, les tableaux, les
-  personnages, les modèles, la corbeille, les Réglages.
-- **Créer** — un nouveau document et, à mesure que vous tapez, un projet, un
-  dossier, l'entrée du jour, et ainsi de suite.
+Tapez, et il cherche dans tous les documents par titre et par contenu, dans
+les trois modes, en indiquant dans quel mode se trouve chacun.
 
-Commencez à taper et il cherche dans tous les documents par titre et par contenu,
-dans les trois modes (chaque résultat indique dans quel mode il se trouve), ainsi
-que dans vos projets et personnages.
+| Touche | Ce qu’elle fait |
+| --- | --- |
+| `Enter` | Ouvre le résultat en surbrillance. |
+| `⌥↵` | L’ouvre à côté du document où vous êtes. |
+| `⌘↵` | L’ouvre et garde la palette ouverte, pour que vous puissiez en ouvrir plusieurs. |
+| `⌘W` | Ferme le document ouvert en surbrillance ; la palette reste. |
+| `Esc` | Ferme la palette. |
 
-- **Entrée** ouvre le résultat en surbrillance.
-- **`⌘↵`** l'ouvre et garde la palette ouverte, pour que vous puissiez en ouvrir
-  plusieurs.
-- **`⌘W`** (ou le **×** sur la ligne) ferme le document ouvert en surbrillance,
-  et la palette reste.
-- **Échap** ferme la palette.
+## Lancer une commande : `⌘P` {#run-a-command-p}
 
-## Commandes : `⌘P` {#commands-p}
+`⌘P` (**Fichier → Palette de commandes…**) contient les commandes : nouveaux
+documents, exports, versions, coffres, défilement machine à écrire, recherche
+de mises à jour, et le reste. Avant que vous tapiez, elle montre ce que vous
+avez lancé **Dernièrement** ; tapez pour chercher dans toutes les commandes.
 
-`⌘P` (**Fichier → Palette de commandes…**) ne contient que des commandes — les
-verbes. Avant que vous tapiez, elle montre ce que vous avez lancé
-**Dernièrement** ; tapez pour chercher dans toutes les commandes : nouveaux
-documents, exports, versions, coffres, défilement machine à écrire, recherche de
-mises à jour, et le reste.
+## Aller et revenir {#go-back-and-forth}
 
-## Tous les raccourcis : `⌘/` {#all-the-shortcuts-}
+| Touches | Ce qu’elles font |
+| --- | --- |
+| `⌘[` / `⌘]` | Retour et suivant parmi les endroits où vous êtes passé, dans la liste comme sur la page. Les boutons latéraux de votre souris font de même. |
+| `⌥⌘←` / `⌥⌘→` | Le document au-dessus ou en dessous dans la liste : le chapitre précédent ou suivant, la note suivante, la veille. |
+| `⌘W` | Ferme le document et garde sa liste. Un document ouvert depuis ailleurs (le calendrier, un tableau, le graphe) se ferme en revenant là où vous l’avez ouvert. Sans document ouvert, `⌘W` vous mène à l’Accueil du mode. |
+| `⌘⇧H` | L’Accueil du mode. |
 
-`⌘/` affiche tous les raccourcis principaux sur une seule fiche. Appuyez de
-nouveau sur `⌘/` (ou sur Échap) pour la fermer. La liste complète se trouve dans
-[Raccourcis clavier](keyboard-shortcuts.md).
+:::tip Tous les raccourcis sur une seule fiche
 
-## Aller et revenir {#moving-back-and-forth}
+Appuyez sur `⌘/` pour voir les principaux raccourcis ensemble, et sur `⌘/` ou
+`Esc` pour les fermer. La liste complète se trouve dans
+[Raccourcis clavier](./keyboard-shortcuts).
 
-- **`⌘[` / `⌘]`** — retour et suivant parmi les endroits où vous êtes passé,
-  dans la liste comme dans la page. Les boutons latéraux de votre souris font de
-  même.
-- **`⌥⌘←` / `⌥⌘→`** — le document au-dessus ou en dessous dans la liste : le
-  chapitre précédent ou suivant, la note suivante, la veille.
-- **`⌘W`** — ferme le document ouvert et garde sa liste. Un document ouvert
-  depuis ailleurs — le calendrier, un tableau, le graphe — se ferme en revenant
-  là où vous l'avez ouvert. Sur un lieu sans document ouvert (le calendrier, le
-  graphe, les tableaux, la corbeille), `⌘W` vous mène à l'Accueil du mode.
-- **`⌘⇧H`** — l'Accueil du mode.
+:::
+
+## Voir aussi {#see-also}
+
+- [Votre premier coffre](./getting-started)
+- [Ce que φ montre](./setup)
+- [Documents côte à côte](./side-by-side)
+- [Raccourcis clavier](./keyboard-shortcuts)

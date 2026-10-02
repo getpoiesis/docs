@@ -1,65 +1,89 @@
 ---
 title: Recherche
+description: Des pages de matériau gardées pour une œuvre, chacune liée au chapitre, au projet ou au personnage qu’elle sert.
 ---
 
 # Recherche
 
-Les **pages de recherche** sont la matière que vous gardez pour une œuvre —
-sources, faits, lieux, chronologies — chacune liée à ce dont elle parle : un
-chapitre, un projet, un personnage. Elles se tiennent à côté de l’écriture sans
-jamais en faire partie.
+Les **pages de recherche** contiennent le matériau derrière une œuvre :
+sources, faits, lieux, chronologies. Chacune est liée à ce dont elle parle, un
+chapitre, un projet ou un personnage, si bien que la recherche est là quand
+vous écrivez cette partie et ne gêne jamais le livre lui-même.
 
-<img src="/img/app/research-light.png" alt="Des pages de recherche, chacune avec ce dont elle parle" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/research-dark.png" alt="Des pages de recherche, chacune avec ce dont elle parle" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/research-light.png" alt="La liste Recherche dans Écrire, et la page Recherche qui rassemble chaque page de recherche avec les chapitres et les personnages auxquels elle est liée" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/research-dark.png" alt="La liste Recherche dans Écrire, et la page Recherche qui rassemble chaque page de recherche avec les chapitres et les personnages auxquels elle est liée" width="1600" height="1000" loading="lazy" decoding="async" />
 
-La recherche appartient à **Écrire** : ouvrez **Écrire** → **Monde** →
-**Recherche**. La liste montre toutes les pages de recherche ; quand aucune
-n’est ouverte, la page les regroupe par mois, chacune avec les éléments auxquels
-elle est liée.
+## Commencer une page de recherche pour un chapitre {#start-a-research-page-for-a-chapter}
 
-## Créer une page de recherche {#making-a-research-page}
+1. Ouvrez le chapitre et son panneau Infos (`⇧⌘I`), puis choisissez
+   **Liens**.
+2. Sous **Recherche**, appuyez sur **Nouvelle page de recherche**. La nouvelle
+   page est déjà liée au chapitre.
+3. Donnez-lui un titre et écrivez. Une page de recherche s’écrit comme
+   n’importe quel document : titres, listes, citations, liens.
+4. La page indique à quoi elle sert sous son titre (**Recherches pour**).
+   Cliquez sur un nom à cet endroit pour y aller.
 
-- **+** en haut de la liste Recherche (**Nouvelle page de recherche**).
-- `⌘P` → **Nouvelle page de recherche**.
-- **Nouvelle page de recherche** sous **Notes à ce sujet** — dans l’Aperçu d’un
-  projet, sur la fiche d’un personnage ou dans Infos → **Liens** d’un document.
-  Une page créée là est déjà liée à ce que vous regardiez.
+## Où vit la recherche {#where-research-lives}
 
-Une page de recherche s’écrit comme une note — titres, listes, citations, listes
-de tâches, liens — et s’ouvre dans l’éditeur comme n’importe quel document.
+La recherche appartient à **Écrire**. Ouvrez **Monde** → **Recherche** dans la
+barre latérale pour voir toutes les pages de recherche. Quand aucune n’est
+ouverte, la page les regroupe par mois, chacune avec ce à quoi elle est liée.
 
-## La lier à ce dont elle parle {#linking-it-to-what-its-about}
+Dans un projet, la barre latérale affiche aussi **Recherche** sous le projet.
+Cette liste ne contient que la recherche liée au projet ou à l’un de ses
+chapitres.
 
-Ouvrez les **Détails…** de la page (depuis son **⋮**). Sous **Lié à**, cliquez
-sur **Lier à…** et choisissez un document, un projet ou un personnage. Une page
-peut être liée à autant d’éléments que vous voulez, et chacun s’affiche comme
-une pastille ; cliquez sur son **×** pour retirer le lien.
+L’**Accueil** d’Écrire affiche vos **Recherches récentes**, chacune avec ce
+dont elle parle. La recherche d’un projet dont tous les chapitres sont marqués
+**Final** en disparaît, puisqu’elle a fait son travail.
 
-Le même **Lié à** fonctionne pour toute note ou pièce hors d’un projet — une
-page de recherche est simplement le type conçu pour cela.
+## Créer une page de recherche {#make-a-research-page}
 
-## Voir la recherche liée à quelque chose {#seeing-the-research-for-something}
+- Le **+** en haut d’une liste Recherche (**Nouvelle page de recherche**).
+  Créée depuis la liste Recherche d’un projet, elle est liée à ce projet.
+- `⌘K` → **Nouvelle page de recherche**.
+- **Nouvelle page de recherche** sous **Recherche** dans l’onglet **Liens**
+  d’un document, sur la page d’un projet ou sur la page d’un personnage. Elle
+  est liée à ce que vous regardiez.
 
-Où que vous travailliez, la recherche suit ce dont elle parle. **Notes à ce
-sujet** liste chaque note et page de recherche liée ici :
+## La lier à ce dont elle parle {#link-it-to-what-its-about}
 
-- Sur un **document**, dans l’onglet **Liens** du panneau d’informations
-  (`⇧⌘I`).
-- Dans l’**Aperçu d’un projet**.
-- Sur la **fiche d’un personnage**.
+1. Ouvrez les **Détails…** de la page de recherche (le ⓘ en haut de la page).
+2. Sous **Recherches pour**, cliquez sur **Lier à…**.
+3. Choisissez un **Document**, un **Projet** ou un **Personnage**.
 
-De là, **Nouvelle note à ce sujet** crée une note déjà liée, **Lier une note…**
-lie une note existante, et **Nouvelle page de recherche** commence une page de
-recherche liée ici.
+Une page peut être liée à autant de choses que vous voulez. Chacune s’affiche
+sous forme de pastille ; son **×** retire le lien.
 
-## Recherches en cours {#research-in-progress}
+## Voir la recherche sur quelque chose {#see-the-research-for-something}
 
-L’**Accueil** d’Écrire affiche vos pages de recherche les plus récemment
-modifiées sous **Recherches en cours**, chacune avec ce dont elle parle, et un
-lien vers la liste complète.
+Où que vous travailliez, la recherche suit ce dont elle parle. Ces endroits
+listent la recherche et les notes qui y sont liées :
+
+- Le panneau Infos d’un document → **Liens**.
+- La page d’un projet.
+- La page d’un personnage.
+
+Chacun a deux sections. **Recherche** liste les pages de recherche, avec
+**Nouvelle page de recherche** et **Lier une recherche…**. **Notes** liste les
+notes ordinaires liées ici, avec **Nouvelle note à ce sujet** et **Lier une
+note…**. Le **×** à côté d’une entrée la délie.
+
+Les notes et les pièces peuvent aussi être liées, depuis **Lié à** dans leurs
+Détails, si bien qu’une note sur un chapitre apparaît à côté de lui sans être
+une page de recherche.
 
 :::note
-Les pages de recherche restent hors du [graphe](links-and-graph.md), pour que la
-carte de votre écriture ne soit pas encombrée par ses sources. Elles ne sont
-listées que dans Écrire ; Notes ne les affiche pas.
+
+Les pages de recherche restent hors du [graphe](./links-and-graph) et des
+listes de Notes, pour qu’aucun des deux ne soit encombré de sources.
+
 :::
+
+## Voir aussi {#see-also}
+
+- [Liens et graphe](./links-and-graph)
+- [Projets](./collections)
+- [Personnages et auteurs](./characters-and-authors)
+- [Notes et capture](./notes)

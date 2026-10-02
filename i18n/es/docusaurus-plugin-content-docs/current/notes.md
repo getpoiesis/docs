@@ -11,14 +11,14 @@ cuatro. Una nota no tiene estado, ni objetivo de palabras, ni recuento que
 vigilar, así que crear una no cuesta nada. Escribes una idea, pulsas Retorno y
 vuelves al trabajo.
 
-<img src="/img/app/notes-light.png" alt="El Inicio de Notas: el cuadro Apunta una idea, las notas editadas recientemente y las acciones pendientes, con el mes, las notas destacadas y las etiquetas a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/notes-dark.png" alt="El Inicio de Notas: el cuadro Apunta una idea, las notas editadas recientemente y las acciones pendientes, con el mes, las notas destacadas y las etiquetas a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/notes-light.png" alt="El Inicio de Notas: el cuadro Anota una idea, las notas editadas recientemente y las acciones pendientes, con el mes, las notas destacadas y las etiquetas a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/notes-dark.png" alt="El Inicio de Notas: el cuadro Anota una idea, las notas editadas recientemente y las acciones pendientes, con el mes, las notas destacadas y las etiquetas a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Apunta una idea {#capture-a-thought}
+## Anota una idea {#capture-a-thought}
 
 1. Elige **Notas** en el selector de modo, en lo alto de la barra lateral
    (`⌘2`). Llegas al **Inicio** de Notas.
-2. Haz clic en **Apunta una idea…** y escribe.
+2. Haz clic en **Anota una idea…** y escribe.
 3. Añade una `#word` para etiquetarla, o `[[` y un título para enlazarla a un
    documento.
 4. Pulsa Retorno. La nota se guarda y el cuadro queda vacío para la siguiente.
@@ -51,7 +51,7 @@ estás en una carpeta va a esa carpeta.
 
 Inicio es donde se abre Notas. A la izquierda:
 
-- **Apunta una idea…**, la forma más rápida de empezar.
+- **Anota una idea…**, la forma más rápida de empezar.
 - **Editado recientemente**: las últimas notas que tocaste, con cuánto hace y su
   primera línea. **Todas las notas** abre la lista completa.
 - **Acciones pendientes**: elementos de lista de tareas de tus notas que están
@@ -75,8 +75,7 @@ La barra lateral de Notas enumera los caminos de entrada:
 | **Etiquetas** | Todas las etiquetas de tus notas, con su recuento. |
 
 Cada lista tiene arriba un campo de búsqueda que la filtra por título, primeras
-líneas y etiquetas, y un orden: **Última edición**, **Fecha de creación** o
-**Título**. `⌘K` encuentra cualquier documento por su nombre desde cualquier
+líneas y etiquetas, y un orden: **Editado**, **Creado** o **Título**. `⌘K` encuentra cualquier documento por su nombre desde cualquier
 sitio. Consulta [Buscar y reemplazar](./search-and-replace).
 
 ## Destacar una nota {#star-a-note}
@@ -88,7 +87,10 @@ vez le quita el destacado:
 - Haz clic derecho en la nota en una lista, o en su **⋮** → **Destacar**.
 - La estrella en la página **Detalles…** de la nota.
 
-Las notas destacadas aparecen en **Destacados** en la barra lateral y en Inicio.
+Las notas destacadas aparecen en **Destacados** en la barra lateral y en Inicio,
+y muestran una pequeña estrella en cada lista en la que están. En **Todas las
+notas** y en las demás listas que no son las de una carpeta, una nota que está
+en una carpeta también muestra el nombre de la carpeta en su fila.
 
 ## Etiquetar una nota {#tag-a-note}
 
@@ -108,13 +110,13 @@ Una lista muestra la primera etiqueta de cada nota bajo su primera línea.
 Una nota puede convertirse en una pieza de escritura, y volver atrás. Haz clic
 derecho en ella (o usa su **⋮**) y elige **Mover a las piezas de Escribir**. Una
 pieza hace el camino inverso con **Mover a Notas**. Consulta
-[Organizar tu trabajo](./organizing).
+[Organizar](./organizing).
 
 :::
 
 ## Ver también {#see-also}
 
-- [Organizar tu trabajo](./organizing): carpetas, orden, mover y la papelera.
+- [Organizar](./organizing): carpetas, orden, mover y la papelera.
 - [Enlaces y el grafo](./links-and-graph)
 - [Tableros](./boards): convierte una lista de tareas de una nota en una tarjeta.
 - [Investigación](./research): notas guardadas para un libro concreto.

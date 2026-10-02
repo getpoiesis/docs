@@ -1,115 +1,104 @@
 ---
-title: Premiers pas
+title: Votre premier coffre
+description: Choisissez où vit votre écriture, et écrivez votre première page.
 ---
 
-# Premiers pas
+# Votre premier coffre
 
-Cette page vous mène d'une installation toute neuve à votre première page écrite.
+Un **coffre** est un dossier de votre ordinateur qui contient votre écriture :
+chaque document, les images qu’il renferme et son historique. φ vous en demande
+un la première fois qu’il s’ouvre. Ensuite, vous pouvez écrire tout de suite.
 
-## Installer {#install}
+<img src="/img/app/home-light.png" alt="L’Accueil d’Écrire, sur lequel s’ouvre un coffre : le chapitre à poursuivre, le projet en cours, les pièces et recherches récentes, et les chiffres du jour à côté du mois" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/home-dark.png" alt="L’Accueil d’Écrire, sur lequel s’ouvre un coffre : le chapitre à poursuivre, le projet en cours, les pièces et recherches récentes, et les chiffres du jour à côté du mois" width="1600" height="1000" loading="lazy" decoding="async" />
 
-φ fonctionne sous **macOS, Windows et Linux**.
-**[Téléchargez la dernière version](https://getpoiesis.com/download)** pour
-votre système, puis suivez [Installer φ](installing.md) — la page couvre chaque
-plateforme, y compris l'invite SmartScreen de Windows (une seule fois) et les
-formats AppImage et `.deb` de Linux.
+## Créer votre premier coffre {#create-your-first-vault}
 
-:::warning φ est en alpha
-Vous utilisez un logiciel à un stade précoce — attendez-vous à des aspérités.
-Votre écriture elle-même est toujours en sécurité : ce sont de simples fichiers
-sur votre ordinateur, enregistrés en continu et versionnés. Voir
-l'[introduction](intro.md) pour ce qui est solide et ce qui se stabilise encore.
-:::
+1. Ouvrez φ. L’écran de **Bienvenue** propose **Créer un coffre** et **Ouvrir un
+   dossier**.
+2. Choisissez **Créer un coffre**. Le sélecteur de dossiers de votre système
+   s’ouvre.
+3. Choisissez un dossier, ou créez-en un, par exemple `Documents/Écriture`.
+4. Si macOS demande si φ peut utiliser les fichiers de ce dossier, cliquez sur
+   **Autoriser**.
+5. φ ouvre le coffre sur l’Accueil d’**Écrire**.
 
-## Premier lancement {#first-launch}
+**Ouvrir un dossier** fonctionne de la même façon pour un dossier que vous avez
+déjà. Un dossier qui est déjà un coffre s’ouvre tel quel. Tout autre dossier en
+devient un : φ ajoute ce dont il a besoin à côté de vos fichiers et ne touche à
+rien de ce qui s’y trouve.
 
-La première fois que vous ouvrez φ, il affiche un court écran de **Bienvenue** et
-vous demande où votre écriture doit vivre. Un **coffre** est simplement un
-dossier qui contient vos documents. Choisissez **Créer un coffre** ou **Ouvrir un
-dossier** ; dans les deux cas, le sélecteur de dossiers de votre système s'ouvre,
-et vous choisissez un dossier existant ou en créez un nouveau (par exemple
-`~/Documents/Mon livre`).
+## Ce que contient un nouveau coffre {#whats-in-a-new-vault}
 
-Si le dossier n'est pas encore un coffre, φ le prépare et vous laisse deux
-choses pour commencer : une note intitulée **Welcome to φ**, et un court projet
-d'exemple, **The Grey Morning**, qui montre comment un livre se construit et
-s'exporte. Lisez-les, gardez-les ou supprimez-les quand vous voulez.
+Un nouveau coffre vous offre deux choses pour commencer :
 
-:::note macOS demandera l'accès au dossier
-Quand votre coffre se trouve dans un emplacement protégé — **Documents, Bureau,
-Téléchargements ou iCloud Drive** — macOS demande si φ peut accéder aux fichiers
-qui s'y trouvent. Cliquez sur **Autoriser** (ou **OK**). φ en a besoin pour lire
-et enregistrer vos documents ; c'est une invite de confidentialité standard de
-macOS, qui n'apparaît qu'une fois par emplacement. Vous pourrez la revoir plus
-tard dans **Réglages Système → Confidentialité et sécurité → Fichiers et
-dossiers**.
+- **Welcome to φ**, un court guide, sous **Pièces** dans Écrire.
+- **The Grey Morning**, un projet d’exemple de deux chapitres, avec une
+  couverture, une épigraphe, des notes de bas de page et un changement de scène.
+  Ouvrez-le depuis **Projets** dans la barre latérale et appuyez sur
+  **Exporter** juste en dessous pour voir comment φ compose un livre.
 
-Si l'accès a été refusé, φ le dit au lieu d'afficher un coffre vide : **φ ne peut
-pas lire ce dossier**, avec un bouton **Autoriser l'accès…**. Choisissez le
-dossier du coffre dans la fenêtre qui s'ouvre, et vos documents reviennent. Si
-le dossier a été déplacé, renommé, ou se trouve sur un disque qui n'est pas
-connecté, vous verrez plutôt **Ce dossier n'existe plus**.
-:::
+Lisez-les, gardez-les ou mettez-les à la **Corbeille** quand vous voulez.
 
-C'est la seule étape de configuration ; une fois votre choix fait, vous pouvez
-écrire.
+## Si φ ne voit pas votre dossier {#if-φ-cant-see-your-folder}
 
-## Ouvrir ou créer un autre coffre {#open-or-create-another-vault}
+Quand un coffre se trouve dans **Documents**, **Bureau**, **Téléchargements**
+ou **iCloud Drive**, macOS demande une fois si φ peut l’utiliser. Si l’accès a
+été refusé, φ affiche **φ ne peut pas lire ce dossier** au lieu d’un coffre
+vide. Cliquez sur **Autoriser l’accès…**, choisissez le dossier du coffre, et
+vos documents reviennent. Vous pouvez aussi l’autoriser dans **Réglages Système
+→ Confidentialité et sécurité → Fichiers et dossiers**.
 
-Vous pouvez avoir plusieurs coffres — un par projet, par exemple — et passer de
-l'un à l'autre à tout moment. Cliquez sur le **nom du coffre** en haut de la
-barre latérale : il liste vos coffres et propose **Ouvrir un autre coffre…** et
-**Nouveau coffre…**. **Fichier → Changer de coffre…** (`⌥⌘O`) fait la même chose
-depuis le clavier.
+Si le dossier a été déplacé ou renommé, ou s’il se trouve sur un disque qui
+n’est pas connecté, φ affiche **Ce dossier n’existe plus**.
 
-Voir [Coffres](vaults.md) pour les détails.
+## Écrire votre première page {#write-your-first-page}
 
-## Écrivez votre premier document {#write-your-first-document}
+1. Dans **Écrire**, choisissez **Pièces** dans la barre latérale.
+2. Appuyez sur le **+** en haut de la liste (**Nouvelle pièce**), ou sur `⌘N`.
+3. Tapez un titre, puis cliquez dans la page en dessous et écrivez.
 
-1. Appuyez sur `⌘N` (**Fichier → Nouveau document**), ou cliquez sur le **+** en
-   haut de la liste. φ crée l'élément suivant là où vous êtes : un nouveau
-   chapitre quand un projet est ouvert, une nouvelle pièce dans Écrire, une
-   nouvelle note dans Notes.
-2. Tapez un **titre** en haut, puis cliquez dans la page en dessous et commencez
-   à écrire.
-3. C'est tout — φ **enregistre automatiquement** pendant que vous tapez. Il n'y a
-   pas de bouton d'enregistrement à chercher (même si `⌘S` force un
-   enregistrement immédiat si vous le souhaitez).
+Pas de bouton d’enregistrement à chercher : φ enregistre pendant que vous tapez.
+`⌘S` enregistre immédiatement si vous voulez en être sûr.
 
-### Quelques choses à essayer {#a-few-things-to-try}
+`⌘N` (**Fichier → Nouveau document**) crée l’élément suivant là où vous êtes :
 
-- **Sélectionnez du texte** pour faire apparaître une petite barre d'outils —
-  gras, italique, souligné, un titre, un lien, une couleur de surlignage, et
-  **Commenter (sans surlignage)**. Le **›** à son extrémité (**Plus d'outils**)
-  ouvre le reste, dont **Rechercher le mot** pour le dictionnaire. Voir
-  [L'éditeur](the-editor.md).
-- **Tapez `/`** en début de ligne pour ouvrir le menu slash et insérer des
-  titres, des listes, des citations, des blocs de code, et plus.
-- **Tapez `[[`** pour lier un autre document par son nom. Les liens forment une
-  toile navigable que vous pouvez voir dans le [graphe](links-and-graph.md).
+| Où vous êtes | Ce que crée `⌘N` |
+| --- | --- |
+| Dans un projet | Un nouveau chapitre (ou poème, ou essai, selon le genre de projet), à la fin |
+| Ailleurs dans Écrire | Une nouvelle pièce |
+| Dans Notes | Une nouvelle note, dans le dossier que vous regardez |
+| Dans Journal | Une nouvelle note, dans Notes |
 
-## Se repérer {#find-your-way-around}
+## Essayer quelques gestes {#try-a-few-things}
 
-La fenêtre de φ a trois colonnes : la **barre latérale** (votre coffre, le
-sélecteur **Écrire · Notes · Journal**, et les lieux de chaque mode), la
-**liste** de ce que vous y avez choisi, et la **page** sur laquelle vous
-écrivez — avec un panneau **Infos** facultatif à droite (`⇧⌘I`). Chaque mode
-s'ouvre sur son propre **Accueil**, et `⌘K` trouve n'importe quel document par
-son nom.
+- **Sélectionnez du texte** pour afficher la barre de mise en forme : gras,
+  italique, souligné, titre, lien, **Surligner et commenter** et **Commenter
+  (sans surlignage)**. **Plus d’outils**, à son extrémité, ouvre le reste, dont
+  **Rechercher le mot**. Voir [L’éditeur](./the-editor).
+- **Tapez `/`** en début de ligne pour le menu des blocs : titres, listes,
+  citations, changements de scène, épigraphes et plus encore. Voir
+  [Mise en forme et blocs](./formatting-and-blocks).
+- **Tapez `[[`** pour lier un autre document par son nom. Voir
+  [Liens et graphe](./links-and-graph).
+- **Commencez un projet** avec **Nouveau projet** sous **Projets** dans la
+  barre latérale. Voir [Projets](./collections).
 
-[Se repérer dans φ](finding-your-way.md) vous fait faire le tour de tout cela.
+## Ouvrir un autre coffre {#open-another-vault}
 
-## Sauvegardez votre travail {#back-up-your-work}
+Vous pouvez avoir plusieurs coffres, un par livre si vous le souhaitez. Cliquez
+sur le nom du coffre en haut de la barre latérale : il liste vos coffres et
+propose **Ouvrir un autre coffre…** et **Nouveau coffre…**. **Fichier → Changer
+de coffre…** (`⌥⌘O`) permet d’en changer depuis le clavier. Voir
+[Coffres](./vaults).
 
-Comme un coffre est un simple dossier, n'importe quel outil de sauvegarde (Time
-Machine, un dossier synchronisé, une copie sur un disque externe) le protège.
-Pour l'historique par document et une sauvegarde facultative hors de la machine,
-voir [Versions et sauvegarde](versions-and-backup.md).
+Comme un coffre est un dossier ordinaire, toute sauvegarde que vous utilisez
+déjà (Time Machine, un dossier synchronisé, une copie sur un disque externe) le
+protège.
 
-## Étapes suivantes {#next-steps}
+## Voir aussi {#see-also}
 
-- [Se repérer dans φ](finding-your-way.md) — la barre latérale, la liste, la
-  page et les palettes.
-- [L'éditeur](the-editor.md) — gagnez en aisance pour écrire et mettre en forme.
-- [Projets](collections.md) — structurez un livre ou un manuscrit.
-- [Raccourcis clavier](keyboard-shortcuts.md) — travaillez plus vite.
+- [Le tour de la fenêtre](./finding-your-way)
+- [Coffres](./vaults)
+- [Versions et sauvegarde](./versions-and-backup)
+- [Raccourcis clavier](./keyboard-shortcuts)

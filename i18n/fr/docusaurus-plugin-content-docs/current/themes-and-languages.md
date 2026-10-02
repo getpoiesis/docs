@@ -1,139 +1,135 @@
 ---
 title: Thèmes et langues
+description: Clair ou sombre, la taille de l’interface, les thèmes de couleur, et les langues que φ parle et vérifie.
 ---
 
 # Thèmes et langues
 
-φ devrait ressembler à *votre* pièce d’écriture : à la lumière ou dans
-l’obscurité, teinté comme vous l’aimez, dans la langue dans laquelle vous
-pensez. Les thèmes se trouvent dans **Réglages → Apparence**, et les langues
-dans **Réglages → Langue**.
+Faites de φ votre propre pièce d’écriture : claire ou sombre, plus grande ou
+plus petite, teintée comme vous l’aimez, dans la langue dans laquelle vous
+pensez. Les thèmes et la taille se trouvent dans **Réglages → Apparence** ;
+les langues dans **Réglages → Langue**.
 
-## Clair, sombre ou système {#light-dark-or-system}
+<img src="/img/app/settings-light.png" alt="Réglages → Apparence : Apparence, Taille de l’interface, le thème de couleur Phi et les réglages de la barre latérale" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/settings-dark.png" alt="Réglages → Apparence : Apparence, Taille de l’interface, le thème de couleur Phi et les réglages de la barre latérale" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Sous **Thème**, réglez **Apparence** sur **Clair**, **Sombre** ou **Système**.
-Système suit l’apparence de votre ordinateur et bascule avec elle : clair le
-jour, sombre la nuit, automatiquement.
+## Choisir clair ou sombre {#choose-light-or-dark}
 
-Vous pouvez aussi changer le mode en cours sans ouvrir les Réglages : ouvrez la
-palette de commandes (`⌘P`) et choisissez **Changer de thème (système / clair /
-sombre)**, ou utilisez **Changer de thème** dans le menu Affichage.
+Réglez **Apparence** sur **Système**, **Clair** ou **Sombre**. **Système** suit
+votre ordinateur : φ passe en sombre quand votre ordinateur le fait.
 
-### La barre latérale {#the-sidebar}
+Pour changer sans ouvrir les Réglages, choisissez **Affichage → Changer de
+thème**, ou appuyez sur `⌘P` et choisissez **Changer de thème (système / clair
+/ sombre)**. Chacun avance d’un cran : système, clair, sombre.
 
-En thème clair, la barre latérale reste sombre par défaut, pour que la page soit
-l’élément le plus lumineux de l’écran. Si vous la voulez claire aussi, réglez
-**Réglages → Apparence → Barre latérale en thème clair** sur **Clair**. En thème
-sombre, la barre latérale est toujours sombre.
+## Tout agrandir {#make-everything-larger}
 
-## Thèmes de couleur {#color-themes}
+**Taille de l'interface** met à l’échelle toute la fenêtre, texte et icônes
+compris : **100%**, **115%**, **130%** ou **150%**. **Affichage → Taille
+réelle** la ramène à 100%.
 
-Un *thème de couleur* teinte l’interface : fonds, texte, accents, la couleur des
-liens wiki, les couleurs de syntaxe du code, etc. Le mode clair/sombre ci-dessus
-décide quel côté d’un thème s’applique ; le thème de couleur décide de la
-palette. Chaque thème de la liste affiche un petit aperçu (une mini maquette de
-la fenêtre de φ) construit à partir de ses propres couleurs, pour que vous
-voyiez son rendu avant de changer.
+La taille de votre texte est un réglage à part : réglez-la avec **Taille de
+police** dans **Réglages → Éditeur**.
 
-### Le thème φ intégré {#the-built-in-φ-theme}
+## Garder la barre latérale sombre ou claire {#keep-the-sidebar-dark-or-light}
 
-φ est livré avec un thème officiel, **Phi** : des gris neutres avec une page
-blanche ou noire pure. C’est le thème par défaut, marqué **Officiel** dans la
-liste. Il ne peut pas être retiré.
+En thème clair, la barre latérale est sombre par défaut, pour que la page soit
+l’élément le plus lumineux de l’écran. Pour une barre latérale claire, réglez
+**Barre latérale en thème clair** sur **Clair**. En thème sombre, la barre
+latérale est toujours sombre.
 
-### Installer des thèmes officiels {#installing-official-themes}
+Avec un thème de couleur autre que Phi, la barre latérale prend les couleurs de
+ce thème : sombre, elle utilise le côté sombre du thème ; claire, son côté
+clair.
 
-La façon la plus rapide d’ajouter un thème est de le faire depuis φ. Dans
-**Réglages → Apparence → Thème de couleur**, cliquez sur **Parcourir les thèmes
-officiels…**. φ affiche la galerie officielle (Nord, Dracula, Gruvbox et
-compagnie), chacun avec un petit aperçu dessiné à partir de ses propres
-couleurs. Cliquez sur **Installer** sur ceux qui vous plaisent.
+## Changer les couleurs {#change-the-colours}
 
-L’installation ajoute le thème à votre liste **Thème de couleur** ;
-sélectionnez-le là pour l’appliquer. (En prendre plusieurs ne pose aucun
-problème ; choisissez votre préféré ensuite.) Un thème déjà ajouté affiche
-**Installé**, et **Mettre à jour** récupère sa dernière version.
+Un thème de couleur définit la palette : fonds, texte, accents, couleurs des
+liens et du code. **Apparence** décide si vous voyez le côté clair ou le côté
+sombre d’un thème. Chaque thème de la liste **Thème de couleur** affiche un
+petit aperçu de la fenêtre de φ dans ses couleurs ; cliquez sur l’un d’eux pour
+l’utiliser.
 
-La galerie est mise en cache localement : elle s’ouvre instantanément et
-continue de fonctionner hors ligne une fois chargée ; elle se rafraîchit
-discrètement au démarrage de φ et quand vous recherchez des mises à jour.
+φ est livré avec un thème, **Phi**, marqué **Officiel** : des gris neutres avec
+une page blanche ou noire pure. C’est le thème par défaut, et il ne peut pas
+être retiré.
 
-### Installer un fichier de thème à la main {#installing-a-theme-file-by-hand}
+<img src="/img/app/themes-nord-light.png" alt="La fenêtre Accueil dans le thème Nord : la page gris bleuté pâle de Nord à côté de sa barre latérale ardoise sombre" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/themes-nord-dark.png" alt="La fenêtre Accueil dans le thème Nord, en sombre : la page et la barre latérale nuit polaire de Nord" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Vous pouvez aussi installer un thème depuis un fichier, pratique pour un thème
-que vous avez créé ou qu’on vous a envoyé. Tous les thèmes autres que Phi sont
-de petits fichiers JSON qui vivent en dehors de l’app, dans votre dossier de
-thèmes, donc en ajouter ou en retirer un ne touche jamais à l’application
-elle-même.
+### Installer un thème officiel {#install-an-official-theme}
 
-1. Dans **Réglages → Apparence → Thème de couleur**, cliquez sur **Installer un
-   thème…**.
-2. Sélectionnez le fichier `.json` du thème.
+1. Sous **Thème de couleur**, ouvrez **Parcourir les thèmes officiels…**.
+2. Chaque thème de la galerie affiche un aperçu. Appuyez sur **Installer** sur
+   ceux qui vous plaisent.
+3. Choisissez-le dans la liste **Thème de couleur** pour l’utiliser.
 
-Pour voir où les thèmes sont conservés (pour y déposer un fichier à la main ou
-les sauvegarder), cliquez sur **Ouvrir le dossier des thèmes**. Les fichiers que
-vous y placez sont pris en compte la prochaine fois que vous ouvrez les
-Réglages. Retirez n’importe quel thème de la communauté avec l’icône de
-corbeille à côté ; son fichier est supprimé du dossier des thèmes.
+Un thème que vous avez déjà affiche **Installé**, et son bouton devient
+**Mettre à jour**, qui récupère sa dernière version. Si la galerie ne se charge
+pas, vérifiez votre connexion et appuyez sur **Réessayer**. Une fois chargée, la
+galerie s’ouvre immédiatement et fonctionne hors ligne ; φ la rafraîchit en
+arrière-plan quelques secondes après son démarrage, puis toutes les six heures,
+et quand vous choisissez **Rechercher des mises à jour…**.
 
-### Comment fonctionnent les thèmes (et pourquoi ils sont sûrs) {#how-themes-work-and-why-theyre-safe}
+Les thèmes officiels se trouvent sur
+[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes), où vous
+pouvez aussi proposer le vôtre.
 
-Un thème fournit un ensemble de couleurs `light` et/ou `dark`. Toute couleur
-qu’un thème omet revient à la valeur intégrée de Phi, donc un thème partiel
-convient parfaitement. Les thèmes ne peuvent définir que des **couleurs** (les
-polices, les espacements et la mise en page ne sont pas personnalisables), et
-chaque valeur est validée comme couleur CSS sûre à l’installation du fichier ;
-un fichier de thème non fiable ne peut donc rien faire d’autre que changer une
-couleur.
+### Installer un thème depuis un fichier {#install-a-theme-from-a-file}
 
-### La galerie de thèmes {#the-themes-gallery}
+Un thème est un petit fichier `.json`. Pour en ajouter un que vous avez créé ou
+qu’on vous a envoyé :
 
-Les thèmes officiels proviennent de la **galerie de thèmes φ**, la même
-bibliothèque que celle depuis laquelle installe le navigateur intégré à l’app :
+1. Sous **Thème de couleur**, appuyez sur **Installer un thème…**.
+2. Choisissez le fichier `.json` du thème.
 
-> **[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes)**
+Les thèmes que vous installez sont conservés dans votre dossier de thèmes, pas
+dans l’app ; **Ouvrir le dossier des thèmes** vous le montre. Pour en retirer
+un, appuyez sur le bouton corbeille à côté ; φ vous demande d’abord, puis
+supprime son fichier du dossier de thèmes.
 
-**Les contributions sont les bienvenues.** Vous avez créé un thème dont vous
-êtes fier ? Ouvrez une pull request sur la galerie et partagez-le : les thèmes
-bien faits sont ajoutés pour tous, puis apparaissent dans le navigateur de l’app
-pour tout le monde. Le README du dépôt décrit le (petit) format de fichier de
-thème et les règles de contribution.
+Un thème peut changer les couleurs et rien d’autre. φ vérifie chaque couleur à
+l’installation d’un thème, et toute couleur qu’un thème omet vient de Phi.
 
-## Langues {#languages}
+## Changer la langue de φ {#change-φs-language}
 
-L’interface de φ peut fonctionner dans différentes langues.
+Réglez **Langue de l'interface**. **Réglage du système** suit votre ordinateur.
+Sinon, choisissez une langue : celles fournies avec φ sont listées sous **φ**,
+chacune sous son propre nom avec l’anglais à côté.
 
-### Changer de langue {#switching-language}
-
-Dans **Réglages → Langue**, réglez **Langue de l'interface**. **Réglage du
-système** suit votre ordinateur ; sinon, choisissez une langue dans la liste.
-
-Les langues fournies avec φ sont listées sous **φ**, chacune sous son propre nom
-avec le nom anglais à côté :
-
-- **English (English)**
-- **Español (Spanish)**
-- **Français (French)**
+| Langue | Affichée comme |
+| --- | --- |
+| Anglais | **English (English)** |
+| Espagnol | **Español (Spanish)** |
+| Français | **Français (French)** |
 
 Les langues que vous installez vous-même sont listées sous **Communauté**.
 
-### Packs de langue de la communauté {#community-language-packs}
+### Ajouter une langue {#add-a-language}
 
-Comme les thèmes, les langues supplémentaires sont des fichiers JSON
-installables conservés dans votre propre dossier de langues, en dehors de l’app.
+Sous le réglage :
 
-- **Installer une langue…** : sélectionnez un fichier `.json` de langue pour
-  l’ajouter. Elle apparaît sous **Communauté** dans la liste des langues.
-- **Exporter le modèle anglais…** : enregistre un fichier contenant tous les
-  textes de l’interface en anglais. Traduisez les valeurs et installez le
-  résultat pour utiliser φ dans votre langue, ou partagez-le pour qu’il puisse
-  être livré à tous.
-- **Ouvrir le dossier** : montre où se trouvent les langues installées.
+- **Installer une langue…** ajoute un fichier de langue. Elle apparaît sous
+  **Communauté**, et dans une liste en dessous avec un bouton corbeille pour la
+  retirer.
+- **Exporter le modèle anglais…** enregistre toutes les phrases de φ, en
+  anglais, dans un fichier. Traduisez les phrases, installez le fichier, et φ
+  parle votre langue ; partagez-le et il pourra être livré à tout le monde.
+- **Ouvrir le dossier** montre où sont conservées les langues installées.
 
-Retirez une langue de la communauté avec l’icône de corbeille à côté.
+Une traduction n’a pas besoin d’être terminée. Tout ce qu’une langue omet
+s’affiche en anglais.
 
-### Les traductions manquantes reviennent à l’anglais {#missing-translations-fall-back-to-english}
+## Vérifier l’orthographe dans vos langues {#check-spelling-in-your-languages}
 
-Une traduction n’a pas besoin d’être complète pour être utile. Tout texte qu’un
-pack de langue ne traduit pas revient à l’anglais, donc φ est toujours
-entièrement libellé, même avec une traduction partielle.
+Les langues dans lesquelles φ vérifie votre orthographe se règlent à part de la
+langue de l’interface, sous **Orthographe** sur la même page : activez
+**Vérifier l’orthographe**, choisissez le **Moteur**, et cochez les
+**Langues**. Un coffre peut utiliser son propre moteur, sous **Ce coffre**.
+[Orthographe](./spelling) donne les détails.
+
+## Voir aussi {#see-also}
+
+- [Réglages](./settings) : tous les réglages sur une seule page.
+- [Orthographe](./spelling)
+- [Dictionnaire et thésaurus](./dictionary)

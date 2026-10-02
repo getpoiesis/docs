@@ -7,9 +7,12 @@ description: The folders your writing lives in, how to move between them, and ho
 
 A **vault** is where your writing lives: an ordinary folder on your computer,
 holding your documents, the images you've added and their history. There's
-no database and no account. Because a vault is plain files, your work stays
-yours: you can back it up, move it, sync it to your other devices, or open it
-in twenty years.
+no database and no account. Because a vault is an ordinary folder, your work
+stays yours: you can back it up, move it, and sync it to your other devices.
+
+Your documents are `.poiesis` files, φ's own format, so other apps can't open
+them directly. To take your writing somewhere else, export it: Markdown, Word,
+PDF and EPUB are all a click away (see [Exporting](./exporting)).
 
 ## Make a vault
 
@@ -88,8 +91,8 @@ or choose **Remove "…"**. Its version history stays with its folder.
    Google Drive, Mega, OneDrive or a network drive. To move an existing
    vault, quit φ, move its folder there, then open it again with **Open
    another vault…**.
-2. On each computer, open that folder with **Open another vault…**. On
-   iPhone and iPad, open it in φ there.
+2. On each computer, open that folder with **Open another vault…**. φ for
+   iPhone and iPad is on its way and will open the same folder.
 3. Write anywhere. φ notices changes from your other devices within moments
    and updates the list and the open document on its own.
 
@@ -115,7 +118,7 @@ mark.
    separate document named "*title* (conflicted copy)".
 
 If several versions are waiting, they come one at a time, oldest first. Any
-of your devices can settle them, including φ on iPhone and iPad.
+of your devices can settle them.
 
 :::note Git history stays on each computer
 

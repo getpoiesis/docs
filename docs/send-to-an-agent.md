@@ -32,8 +32,8 @@ PDF, and some ask for only the first chapters.
   byline halfway down the page.
 - **The other pages:** 12 pt, double-spaced, one-inch margins, paragraphs
   indented half an inch, and "Surname / KEYWORD / page" at the top right. The
-  keyword is the title's first main word, in capitals ("The Salt Road" gives
-  SALT).
+  keyword is the title's first main word, in capitals ("The Weighing House" gives
+  WEIGHING).
 - **Chapters** start on a new page, a third of the way down.
 - **Scene breaks** are a centred `#`, and the manuscript closes with END.
 - **Italics stay italics.** The old rule of underlining them comes from

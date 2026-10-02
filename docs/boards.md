@@ -10,14 +10,15 @@ follow up, anything you want to keep moving. A card can carry a due date, a
 priority, a checklist and links to your documents. A checklist item in a note
 can live on a board too, and ticking it in one place moves it in the other.
 
-<img src="/img/app/boards-light.png" alt="A tasks board for The Salt Road, with To do, Drafting and Revising columns of cards showing due dates, priorities and linked chapters" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/boards-dark.png" alt="A tasks board for The Salt Road, with To do, Drafting and Revising columns of cards showing due dates, priorities and linked chapters" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/boards-light.png" alt="The Weighing House's Board: its boards listed beside it, and its production board with To do, Drafting, Revising and Done columns of cards showing due dates, priorities and linked chapters" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/boards-dark.png" alt="The Weighing House's Board: its boards listed beside it, and its production board with To do, Drafting, Revising and Done columns of cards showing due dates, priorities and linked chapters" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Make a board
 
-1. Open **Boards** under **Places** in the sidebar. In Write, open the project
-   the board is for first.
-2. Press **New tasks board** or **New custom board**.
+1. In Notes, open **Boards** under **Places** in the sidebar. In Write, open
+   the project the board is for and choose **Board** under it.
+2. Press **New tasks board** or **New custom board** (in a project, the
+   list's **+** → **New tasks board for this project**).
 3. Name the board.
 4. Press **Add card** at the foot of a column, and type what needs doing.
 
@@ -31,10 +32,14 @@ can live on a board too, and ticking it in one place moves it in the other.
 
 ## Which boards you see
 
-Each mode keeps its own boards:
+Boards live where their work is:
 
-- **Write** shows the boards that belong to a project.
-- **Notes** shows the boards that belong to none.
+- **In Write**, a board belongs to a project, and lives under it: open the
+  project and choose **Board**. There's no Boards place in Write's sidebar;
+  wherever you open one of a project's boards from (⌘K, a card link, Home's
+  **Due this week**), it opens in its project.
+- **In Notes**, **Boards** under **Places** holds the boards that belong to
+  no project.
 
 With no board open, the page shows each board as a tile: its columns and how
 many cards are open. Click one to open it.
@@ -114,11 +119,12 @@ card links to the document, and the document's **Details…** lists the card.
 ## A project's chapter board
 
 Every project has a board you never have to keep. Open the project and choose
-**Board** under it in the sidebar, or **Open project board** from its **⋮**.
-It shows the chapters as cards in status columns, **Todo**, **Draft**,
-**Revised** and **Final**. Drag a card and the chapter's status changes. The
-project's tasks boards are listed below it, with **New tasks board for this
-project**. See [Projects](./collections).
+**Board** under it in the sidebar. The list beside the page shows the
+project's boards: its chapters (or poems), **By status**, first, then each
+board made for the project. The chapter board shows the chapters as cards in
+status columns, **Todo**, **Draft**, **Revised** and **Final**; drag a card
+and the chapter's status changes. Pick another board in the list and it fills
+the page; its cards open right there.
 
 ## See also
 

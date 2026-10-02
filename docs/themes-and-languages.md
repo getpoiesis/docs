@@ -35,22 +35,28 @@ In the light theme the sidebar is dark by default, so the page is the
 brightest thing on screen. For a light sidebar, set **Sidebar in light theme**
 to **Light**. In the dark theme the sidebar is always dark.
 
+With a colour theme other than Phi, the sidebar takes that theme's colours: a
+dark sidebar uses the theme's own dark side, and a light one its light side.
+
 ## Change the colours
 
 A colour theme sets the palette: backgrounds, text, accents, link and code
 colours. **Appearance** decides whether you see a theme's light side or its
-dark side. Each theme in the **Color theme** list has a small preview of the φ
+dark side. Each theme in the **Colour theme** list has a small preview of the φ
 window in its colours; click one to use it.
 
 φ comes with one theme, **Phi**, marked **Official**: neutral greys with a
 pure white or black page. It's the default and can't be removed.
 
+<img src="/img/app/themes-nord-light.png" alt="The Home window in the Nord theme: Nord's pale blue-grey page beside its dark slate sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/themes-nord-dark.png" alt="The Home window in the Nord theme, dark: Nord's polar-night page and sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
+
 ### Install an official theme
 
-1. Under **Color theme**, open **Browse official themes…**.
+1. Under **Colour theme**, open **Browse official themes…**.
 2. Each theme in the gallery shows a preview. Press **Install** on the ones you
    like.
-3. Pick it in the **Color theme** list to use it.
+3. Pick it in the **Colour theme** list to use it.
 
 A theme you already have shows **Installed**, and its button becomes
 **Update**, which fetches its latest version. If the gallery can't load, check
@@ -67,7 +73,7 @@ can also offer one of your own.
 
 A theme is a small `.json` file. To add one you made or were sent:
 
-1. Under **Color theme**, press **Install theme…**.
+1. Under **Colour theme**, press **Install theme…**.
 2. Choose the theme's `.json` file.
 
 Themes you install are kept in your themes folder, not inside the app;
