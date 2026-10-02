@@ -40,7 +40,7 @@ folder:
 A `.poiesis` file made with **Save a Copy** or **Project copy** opens with
 its pictures:
 
-- choose **Import a φ document (.poiesis)…** in the command palette, or
+- choose **Import a φ document (`.poiesis`)…** in the command palette, or
   **File → Import φ Document…**; or
 - drag the file onto the φ window.
 

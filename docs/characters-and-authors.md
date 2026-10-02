@@ -10,8 +10,8 @@ typing `@` finds them wherever you write. **Authors** are the names you
 publish under. An author profile signs your books: the byline, "About the
 author", and the contact details on a manuscript you send out.
 
-<img src="/img/app/characters-light.png" alt="A character's sheet: name, username, aliases, scope, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/characters-dark.png" alt="A character's sheet: name, username, aliases, scope, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/characters-light.png" alt="A project's characters, with a shared one marked, and a character's sheet: name, username, aliases, the project it belongs to, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/characters-dark.png" alt="A project's characters, with a shared one marked, and a character's sheet: name, username, aliases, the project it belongs to, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Both live in **Write**, under **World** in the sidebar. `⌘K` finds a
 character by name from any mode, and goes to either list.
@@ -30,7 +30,7 @@ character by name from any mode, and goes to either list.
 | **Name** | Their full name. |
 | **Username** | The `@handle`. |
 | **Aliases** | Other names, comma-separated. Each one works with `@`, and all lead back to the same person. |
-| **Scope** | **Global (any document)**, or one project, so a character from one book doesn't crowd another. |
+| **Belongs to** | **Every project** (shared), or the projects the character is in: one book, or several for a series. |
 | **Real person** | Tick it for someone real; **Role & traits** becomes **Details**. |
 | **Role & traits** | A few lines on who they are. |
 | **Notes** | Background, appearance, arc, anything. |
@@ -40,10 +40,25 @@ character by name from any mode, and goes to either list.
 **Delete**, at the foot of the sheet, moves the character to the trash. The
 list's search field matches names, usernames and aliases.
 
+## Keep each book's world apart
+
+A character belongs to the project you make them in. Open a project and
+choose **Characters** under it in the sidebar: its own characters come first,
+then the shared ones, marked **Shared**. Making a character there, or with
+`@` while you write one of its chapters, puts them in that project.
+
+- **A series:** on a character's sheet, **Belongs to** can tick several
+  projects, and they're in each one.
+- **Everyone:** choose **Every project** for people who belong to all your
+  work, such as real people or a recurring narrator.
+- **World → Characters** in the sidebar is still everyone in the vault.
+- Moving a project to another vault takes its own characters with it; one
+  it shares with other projects stays.
+
 ## Mention a character
 
-Type `@` in a document and start a name. φ suggests the characters in scope,
-which means the global ones and those of the project you're in, once for
+Type `@` in a document and start a name. φ suggests the characters of the
+project you're writing in and the shared ones, once for
 their full name and once for each alias. It doesn't mind accents: "jose"
 finds José. Pick one and the mention goes in.
 

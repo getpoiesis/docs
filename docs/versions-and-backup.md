@@ -85,7 +85,8 @@ this vault to git?**. Your existing history comes across. To go back to
 If the vault is in a cloud folder such as iCloud Drive or Dropbox, φ keeps
 its git history on this computer, outside the vault. Sync services copy
 files one at a time in any order, which can break a git history; your
-documents are one file each and travel safely. φ on iPhone and iPad uses the
+documents are one file each and travel safely. φ on iPhone and iPad (coming
+soon) uses the
 same vault but never runs git: versions made there are kept in the vault's
 `.poiesis-history` folder, which both apps share.
 
@@ -126,7 +127,7 @@ under an identity you use only for this.
 
 :::
 
-## A vault is plain files
+## A vault is an ordinary folder
 
 A vault is an ordinary folder of `.poiesis` files, with an `assets` folder
 for images and its version history, so any backup you already trust works

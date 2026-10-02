@@ -37,7 +37,7 @@ of the PDF: Letter, A4, A5, Digest or Trade. The other formats reflow.
 
 A **Project copy** is a `.poiesis` file with the project, its documents and
 its pictures in it. To open it in another vault, use **Import a φ document
-(.poiesis)…** in the command palette ([Importing](./importing)).
+(`.poiesis`)…** in the command palette ([Importing](./importing)).
 
 ## See also
 

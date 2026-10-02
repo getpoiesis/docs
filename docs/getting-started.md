@@ -56,7 +56,7 @@ connected, φ says **This folder isn't there any more**.
 There's no save button to look for: φ saves as you type. `⌘S` saves straight
 away if you want to be sure.
 
-`⌘N` (**File → New Note**) makes the next thing where you are:
+`⌘N` (**File → New Document**) makes the next thing where you are:
 
 | Where you are | What `⌘N` makes |
 | --- | --- |

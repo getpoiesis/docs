@@ -10,8 +10,8 @@ description: The sidebar, the list, the page and the Info panel, and the keys th
 mode, Write, Notes and Journal, opens on a **Home** of its own. Once you know
 these four parts, you know where everything is.
 
-<img src="/img/app/editor-light.png" alt="The sidebar with Write chosen, The Salt Road's chapters listed beside it, and a chapter open on the page" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/editor-dark.png" alt="The sidebar with Write chosen, The Salt Road's chapters listed beside it, and a chapter open on the page" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/editor-light.png" alt="The sidebar with Write chosen, The Weighing House's chapters listed beside it, and a chapter open on the page" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/editor-dark.png" alt="The sidebar with Write chosen, The Weighing House's chapters listed beside it, and a chapter open on the page" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Get around
 
@@ -39,13 +39,13 @@ From top to bottom:
 
 | Mode | What the sidebar lists |
 | --- | --- |
-| **Write** | **Home**, **Pieces**, **Projects** (each project, and **New project**), **World** (**Characters**, **Authors**, **Research**), **Places** (**Boards**, **Graph**, **Calendar**) |
+| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **Authors**, **Research**), **Places** (**Graph**, **Calendar**) |
 | **Notes** | **Home**, **All notes**, **Starred**, **Unlinked**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Graph**, **Calendar**, **Templates**) |
 | **Journal** | **Home**, **Today**, **All entries**, **Morning pages**, **Sealed**, **Places** (**Calendar**) |
 
 Click a project and its own page opens, with its outline in the list. While
 you're in it, its parts sit under it in the sidebar: **Contents**,
-**Research**, **Board**, **Read** and **Export**.
+**Research**, **Characters**, **Board**, **Read** and **Export**.
 
 Right-click a project or a folder for its menu. Drag a note onto a folder in
 the sidebar to file it there. Which places each mode shows is yours to change

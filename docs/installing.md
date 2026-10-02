@@ -23,7 +23,7 @@ installed, φ tells you when there's a new version.
 
 | System | Version |
 | --- | --- |
-| **macOS** | 12 (Monterey) or later, on Apple Silicon or Intel |
+| **macOS** | 13 (Ventura) or later, on Apple Silicon or Intel |
 | **Windows** | 10 or 11, 64-bit |
 | **Linux** | A modern 64-bit distribution. The AppImage runs almost anywhere; the `.deb` is for Debian and Ubuntu. |
 

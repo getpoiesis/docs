@@ -55,7 +55,8 @@ Click a project in the sidebar to open it. Its pages appear under it:
 | *The project's name* | The project's page: cover, title, author, description, progress, settings and [Book details](./book-details). |
 | **Contents** | The whole work on one page, to arrange it. |
 | **Research** | The research pages linked to the project ([Research](./research)). |
-| **Board** | The chapters as cards by status, and the project's task boards. |
+| **Characters** | The project's characters, and the shared ones ([Characters & authors](./characters-and-authors)). |
+| **Board** | The chapters as cards by status, and the project's own boards, listed beside it ([Boards](./boards)). |
 | **Read** | The manuscript in order, read-only: as **Prose**, or as a **Book** with its contents. |
 | **Export** | The printed book, the ebook, the manuscript for an agent ([How exporting works](./exporting)). |
 
@@ -71,7 +72,7 @@ you have more than one vault) and **Delete project…**.
   (`⇧⌘N`), added at the end.
 - A chapter's **⋮** in the list: **Add chapter below**, **Add part below**,
   **Rename**, **Duplicate**, **Details…**, **Front / back matter**, **Move to
-  top**, **Move to bottom** and **Remove from collection**.
+  top**, **Move to bottom** and **Remove from project**.
 - A part's **⋮** also has **New chapter inside**.
 
 From the keyboard:
@@ -148,17 +149,33 @@ Click the project's name in the sidebar for its page:
 
 ## Add a piece you've already written
 
-- Right-click a piece in the list and choose **Add to collection** (or
-  **Move to collection**), then the project.
+- Right-click a piece in the list and choose **Add to project** (or
+  **Move to project**), then the project.
 - Or open its **Details** and choose the project from **Add it to a
   project…**.
 
 A note goes into a project once it's a piece: choose **Move to Write's
 pieces** from its ⋮ menu first.
 
+## Put a project away
+
+A finished book, or one you've set aside, doesn't need to sit in the sidebar.
+
+1. Right-click the project in the sidebar (or open its **⋮**).
+2. Choose **Put away**.
+
+<img src="/img/app/put-away-light.png" alt="The sidebar's Projects with the Put away line open, showing Low Water, and that project's page" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/put-away-dark.png" alt="The sidebar's Projects with the Put away line open, showing Low Water, and that project's page" width="1600" height="1000" loading="lazy" decoding="async" />
+
+It folds into a quiet **Put away** line at the foot of **Projects**. Click
+that line to see your put-away projects, and **Bring back** (same menu)
+returns one. Nothing in it changes, and ⌘K still finds it. When every
+chapter of a project is marked final, its page offers to put it away; φ
+never does it for you.
+
 ## Remove or delete
 
-**Remove from collection** takes a chapter out of the project after asking.
+**Remove from project** takes a chapter out of the project after asking.
 Removing a part takes out everything in it. Either way the documents stay
 in your vault, as pieces.
 

@@ -84,7 +84,10 @@ unstars it:
 - Right-click the note in a list, or its **⋮** → **Star**.
 - The star on the note's **Details…** page.
 
-Starred notes are listed under **Starred** in the sidebar and on Home.
+Starred notes are listed under **Starred** in the sidebar and on Home, and
+show a small star in every list they're in. In **All notes** and the other
+lists that aren't a folder's own, a note in a folder also shows the folder's
+name on its row.
 
 ## Tag a note
 
