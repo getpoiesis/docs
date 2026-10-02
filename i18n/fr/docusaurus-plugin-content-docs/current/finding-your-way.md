@@ -51,7 +51,7 @@ De haut en bas, la barre latérale comprend :
   la liste.
 - **Tout en bas :** ce que le coffre est en train de faire
   (**Enregistrement…**, **Indexation…**), la **Corbeille** et le badge
-  **Alpha**. Cliquez sur le badge pour nous envoyer vos remarques.
+  **Bêta**. Cliquez sur le badge pour nous envoyer vos remarques.
 
 | Mode | Ce qu’affiche la barre latérale |
 | --- | --- |

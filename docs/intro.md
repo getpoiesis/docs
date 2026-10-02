@@ -58,11 +58,11 @@ as structured content, so annotations, footnotes and citations are kept
 complete. φ does not store Markdown, but you can import it, paste it and
 export it.
 
-:::note φ is in alpha
+:::note φ is in beta
 
-People use φ every day to write, organise and keep versions, but you may
-still find problems. To tell us about one, click the **Alpha** badge at the
-bottom of the sidebar.
+The main parts of φ are in place, and people use it every day to write,
+organise and keep versions. Some rough edges are still being smoothed out. To
+tell us about one, click the **Beta** badge at the bottom of the sidebar.
 
 :::
 
