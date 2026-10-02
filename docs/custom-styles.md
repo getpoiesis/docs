@@ -5,47 +5,50 @@ description: Make a style of your own from one of φ's, and use it for a project
 
 # Custom styles
 
-When a design and **Adjust the design** don't go far enough, make a style of
-your own. Start from one of φ's designs or styles, change what you want, and
-use it for any project in the vault.
+A [design](./designs) and **Adjust the design** let you change a few things
+about how a book looks. If you need to change more, make your own style. You
+copy one of φ's designs or styles and change what you want. You can then use
+your style for any project in the [vault](./vaults).
 
 ## Make a style
 
-1. On the project's **Export** page, open **Adjust the design** (or
-   **Options** on **Share a copy**) and choose **Edit styles…**.
-2. In **Export styles**, pick the design or style closest to what you want
-   under **Built into φ**, and choose **Duplicate**. φ's own styles can't be
-   changed; the copy is yours.
-3. Change what you like. Every change saves as you make it, and the preview
-   beside the settings shows the first pages.
-4. Choose **Use for this project**.
+1. Open the project's **Export** page.
+2. Open **Adjust the design**. On **Share a copy**, open **Options**.
+3. Choose **Edit styles…**. **Export styles** opens.
+4. Under **Built into φ**, pick the design or style closest to what you want.
+5. Choose **Duplicate**. You cannot change φ's own styles, but you can change
+   the copy.
+6. Change what you want. φ saves each change at once. The preview beside the
+   settings shows the first pages.
+7. Choose **Use for this project**.
 
 ## What a style can change
 
 | Group | For example |
 | --- | --- |
-| **Type** | The text and title faces, size, line spacing, paragraph indent, justification and hyphenation. |
+| **Type** | The text and title typefaces, size, line spacing, paragraph indent, justification and hyphenation. |
 | **Sizes** | Book, part and chapter titles, chapter labels, headings and notes. |
-| **Colours** | Text, titles and headings, labels and running heads, rules. In black ink they print as greys. |
+| **Colours** | Text, titles and headings, labels and running heads, rules (lines). With black ink, they print as greys. |
 | **Page** | Two-sided (bound) pages and the four margins. |
 | **Chapter openings** | Where chapters start, the chapter label (Chapter One, Chapter 1, One, 1, I), and how the first paragraph opens. |
-| **Running heads and page numbers** | What the heads say and where the numbers sit. |
-| **Contents** | Whether there is one, and how deep. |
+| **Running heads and page numbers** | What the running heads say and where the page numbers sit. |
+| **Contents** | Whether there is a contents list, and how many levels it shows. |
 | **The book's own pages** | The title, copyright, dedication and other pages. |
-| **Notes** | Footnotes at the foot of the page or at the end, and how they're numbered. |
+| **Notes** | Footnotes at the foot of the page or at the end, and how they are numbered. |
 
-φ keeps every value within what prints and reads well: a margin too small for
-the binding or a colour too faint to read is brought back within range, and
-the export's check says so.
+φ keeps every value within limits that print and read well. For example, a
+margin may be too small for the binding, or a colour too faint to read. φ
+then corrects the value, and the check on the Export page tells you.
 
 ## Share, back up and remove styles
 
-- Your styles live in the vault (in a hidden `.poiesis-styles` folder), so they
-  travel with it and sync with it.
-- **Export…** saves a style as a file to give someone; **Import a style…**
-  adds one.
-- Deleting a style moves it to the vault's trash. Projects that used it go
-  back to φ's default style.
+- **Where they are kept.** Your styles are in the vault, in a hidden
+  `.poiesis-styles` folder. When you move or sync the vault, the styles go
+  with it.
+- **Share.** **Export…** saves a style as a file that you can give to
+  someone. **Import a style…** adds a style from a file.
+- **Remove.** When you delete a style, it moves to the vault's trash.
+  Projects that used it go back to φ's default style.
 
 ## See also
 

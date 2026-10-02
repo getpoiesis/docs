@@ -5,21 +5,25 @@ description: Spelling checked as you write, and one calm pass over a whole docum
 
 # Spelling
 
-φ checks your spelling as you write. A misspelled word gets a soft wavy
-underline that you can fix from the right-click menu, or you can leave them
-all for one deliberate pass when the draft is done. Nothing is ever
-corrected for you.
+φ checks your spelling as you write and puts a wavy underline under a
+misspelled word. You can fix each word when you see it, or check the whole
+document in one pass when the draft is done. φ never corrects a word for
+you.
 
 ## Check a whole document
 
 1. Open the document.
-2. Press `⌘;`, or choose **Edit → Check Spelling…**, **Check spelling…** in
-   the document's ⋮ menu, or **Check spelling…** in the command palette.
-3. For each word φ stops at, choose what to do (below).
-4. When φ says it's all done, there's nothing left to review.
+2. Press `⌘;`. You can also choose **Edit → Check Spelling…**, or **Check
+   spelling…** in the document's ⋮ menu or in the command palette.
+3. φ stops at the first misspelled word. Choose what to do with it (see the
+   table below).
+4. Repeat for each word, until φ says it's all done.
 
-The word under review is highlighted in the text, so you see it where it
-sits, and a counter shows how many are left.
+<img src="/img/app/spelling-check-light.png" alt="The Check spelling dialog stopped on a misspelled word, with suggestions and the Change, Ignore and Add to dictionary buttons" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/spelling-check-dark.png" alt="The Check spelling dialog stopped on a misspelled word, with suggestions and the Change, Ignore and Add to dictionary buttons" width="1600" height="1000" loading="lazy" decoding="async" />
+
+φ highlights the word in the text, so you can read it in its sentence. A
+counter shows how many words are left.
 
 | Choice | What it does |
 | --- | --- |
@@ -29,43 +33,45 @@ sits, and a counter shows how many are left.
 | **Ignore all** | Skips every occurrence, for the rest of this pass. |
 | **Add to dictionary** | Keeps the word, here and in every other document. |
 
-When φ has nothing to suggest it says **No suggestions**, and you can type
-the correction yourself.
+When φ has no suggestion, it says **No suggestions**. Type the correction
+yourself in **Correction**.
 
 The whole-document check uses φ's own dictionaries: English, Spanish,
-Spanish (Mexico) and French. If none of the languages you check has one, φ
-says so and offers **Open settings**, so you can choose a language it has.
+Spanish (Mexico) and French. If φ has no dictionary for any of the
+languages you check, it tells you and offers **Open settings**. There you
+can choose a language that φ has.
 
 ## Fix a word as you go
 
-Right-click an underlined word. φ's suggestions are at the top of the menu:
-pick one to replace the word, or choose **Add to Dictionary** to keep it
-and stop it being flagged.
+1. Right-click an underlined word. φ's suggestions are at the top of the
+   menu.
+2. Click a suggestion to replace the word. Or choose **Add to Dictionary**
+   to keep the word, so φ stops underlining it.
 
 ## Choose how φ checks
 
-Under **Settings → Language → Spelling**:
+Open **Settings → Language → Spelling**. There are three settings:
 
-- **Check spelling**: underlining on or off.
-- **Engine**: how φ checks as you type.
+- **Check spelling** turns the underlining on or off.
+- **Engine** sets how φ checks as you type.
   - **Native**, the default, uses your computer's own spell-checker.
-  - **Enhanced** uses φ's dictionaries, for the same results on every
+  - **Enhanced** uses φ's dictionaries. The results are the same on every
     computer.
-- **Languages**: which languages to check. Pick more than one and a word
-  that's right in any of them isn't flagged, so a document in two languages
-  reads clean. With **Native** on a Mac, the system works out the language
-  for itself.
+- **Languages** sets which languages to check. If you pick more than one, φ
+  accepts a word that is correct in any of them. This helps when a document
+  uses two languages. With **Native** on a Mac, the system detects the
+  language automatically.
 
-One vault can check differently from the rest: under **Settings → Language
-→ This vault**, set **Default for this vault** to **Use global**,
-**Native** or **Enhanced**. With **Enhanced**, you can choose that vault's
-languages too.
+A [vault](./vaults) (the folder that holds your writing) can have its own
+setting. Under **Settings → Language → This vault**, set **Default for this
+vault** to **Use global**, **Native** or **Enhanced**. With **Enhanced**,
+you can also choose the languages for that vault.
 
 ## Add a language φ doesn't bring
 
-The **Enhanced** engine can check any language with a Hunspell dictionary,
-the kind LibreOffice and Firefox use: a folder holding an `.aff` and a
-`.dic` file.
+The **Enhanced** engine can check any language that has a Hunspell
+dictionary. LibreOffice and Firefox use this kind of dictionary. It is a
+folder that holds an `.aff` file and a `.dic` file.
 
 1. Under **Settings → Language → This vault**, set **Default for this
    vault** to **Enhanced**.
@@ -75,14 +81,14 @@ the kind LibreOffice and Firefox use: a folder holding an `.aff` and a
 
 ## Your personal dictionary
 
-Where a kept word goes depends on the engine:
+When you keep a word, where it is saved depends on the engine:
 
-- With **Enhanced**, and from the whole-document check, **Add to
-  dictionary** keeps the word in φ's own list. Review it, and remove words,
-  under **Settings → Language → Personal dictionary**. A word you remove is
-  flagged again.
-- With **Native**, **Add to Dictionary** in the right-click menu gives the
-  word to your computer's spell-checker, so it isn't in φ's list.
+- **Enhanced**, and the whole-document check: **Add to dictionary** saves
+  the word in φ's own list. To see the list or remove a word, open
+  **Settings → Language → Personal dictionary**. φ underlines a removed
+  word again.
+- **Native**: **Add to Dictionary** in the right-click menu saves the word
+  in your computer's spell-checker. The word is not in φ's list.
 
 ## See also
 

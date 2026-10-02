@@ -1,155 +1,212 @@
 ---
 title: Bóvedas
-description: Las carpetas donde vive tu escritura, cómo moverte entre ellas y cómo usar una bóveda en varios dispositivos.
+description: Las carpetas donde se guarda lo que escribes, cómo pasar de una a otra y cómo usar una misma bóveda en varios dispositivos.
 ---
 
 # Bóvedas
 
-Una **bóveda** es donde vive tu escritura: una carpeta corriente de tu equipo,
-con tus documentos, las imágenes que has añadido y su historial. No hay base de
-datos ni cuenta. Como una bóveda es una carpeta corriente, tu trabajo sigue
-siendo tuyo: puedes respaldarlo, moverlo y sincronizarlo con tus otros
-dispositivos.
+Una **bóveda** es el lugar donde se guarda lo que escribes. Es una carpeta
+normal y corriente de tu ordenador. Contiene tus documentos, las imágenes que has
+añadido y el historial de tus cambios. No hay base de datos ni cuenta.
 
-Tus documentos son archivos `.poiesis`, el formato propio de φ, así que otras
-apps no pueden abrirlos directamente. Para llevar tu escritura a otra parte,
-expórtala: Markdown, Word, PDF y EPUB están a un clic (consulta
-[Exportar](./exporting)).
+Como una bóveda es una carpeta normal, puedes hacerle copias de seguridad,
+moverla y sincronizarla con tus otros dispositivos.
+
+Tus documentos son archivos `.poiesis`. Es el formato propio de φ, así que
+otras aplicaciones no pueden abrirlos directamente. Para usar tus textos en
+otra aplicación, expórtalos como Markdown, Word, PDF o EPUB. Consulta
+[Cómo funciona la exportación](./exporting).
 
 ## Crear una bóveda {#make-a-vault}
 
-1. La primera vez que abres φ, elige **Crear una bóveda** o **Abrir una
-   carpeta**. Más adelante, haz clic en el nombre de la bóveda en la parte
-   superior de la barra lateral y elige **Nueva bóveda…** u **Abrir otra
+1. La primera vez que abras φ, elige **Crear una bóveda** o **Abrir una
+   carpeta**. Más adelante, haz clic en el nombre de la bóveda, en la parte
+   superior de la barra lateral, y elige **Nueva bóveda…** o **Abrir otra
    bóveda…**.
 2. En la ventana que se abre, elige una carpeta o crea una nueva. Puede estar
-   en cualquier sitio: Documentos, una carpeta sincronizada, un disco externo.
-3. φ la abre. Una carpeta que ya es una bóveda se abre tal cual. Cualquier otra
-   carpeta se convierte en una, con una nota **Welcome to φ** y un pequeño
-   proyecto de ejemplo, **The Grey Morning**. No se cambia nada de lo que ya
-   había en la carpeta, y los archivos `.poiesis` que contenga aparecen en φ.
+   en cualquier sitio: en Documentos, en una carpeta sincronizada, en un disco
+   externo.
+3. φ abre la carpeta.
+
+Lo que ocurre después depende de la carpeta:
+
+- Si ya es una bóveda, φ la abre tal como está.
+- Si es cualquier otra carpeta, φ la convierte en bóveda. Añade una nota,
+  **Welcome to φ**, y un pequeño proyecto de ejemplo, **The Grey Morning**. No
+  modifica nada de lo que ya había en la carpeta. Si la carpeta contiene
+  archivos `.poiesis`, aparecen en φ.
 
 ## Qué hay en la carpeta de una bóveda {#whats-in-a-vault-folder}
 
 | En la carpeta | Qué es |
 | --- | --- |
-| Archivos `.poiesis` | Tus documentos, un archivo cada uno. |
-| `assets` | Las imágenes que añades se copian aquí, así que la bóveda está completa por sí sola. |
-| `.trash` | Los documentos que eliminas, hasta que los restauras desde la **Papelera**, al pie de la barra lateral. Lo que quede ahí se elimina para siempre pasados 30 días. |
+| Archivos `.poiesis` | Tus documentos, un archivo por cada uno. |
+| `assets` | Aquí se copian las imágenes que añades, para que a la bóveda no le falte nada. |
+| `.trash` | Los documentos que eliminas, hasta que los recuperas desde la **Papelera**, en la parte inferior de la barra lateral. Lo que siga ahí pasados 30 días se elimina definitivamente. |
 | `.poiesis-history` o `.git` | El historial de versiones (consulta [Versiones y copias de seguridad](./versions-and-backup)). |
-| `.poiesis-vault.json` | Un pequeño archivo que da nombre a la bóveda y recuerda sus ajustes. |
+| `.poiesis-vault.json` | Un archivo pequeño que da nombre a la bóveda y recuerda sus ajustes. |
 
-Los nombres que empiezan por punto están ocultos en la mayoría de los gestores
-de archivos. Nunca tienes que tocar nada de esto: φ se encarga.
+La mayoría de los gestores de archivos ocultan los nombres que empiezan por
+punto. Nunca tendrás que modificar tú ninguno de estos archivos: de ellos se
+encarga φ.
 
 ## Cambiar de bóveda {#switch-between-vaults}
 
-Puedes tener varias bóvedas, por ejemplo una para una novela y otra para las
-notas diarias. Solo hay una abierta a la vez, y cada una tiene sus propios
-documentos, historial y [ajustes de escritura](./setup).
+Puedes tener varias bóvedas; por ejemplo, una para una novela y otra para las
+notas del día a día. Solo puede haber una abierta a la vez. Cada bóveda tiene
+sus propios documentos, su historial y sus
+[ajustes de escritura](./setup).
 
-- **El menú de la bóveda.** Haz clic en el nombre de la bóveda en la parte
-  superior de la barra lateral. Lista tus bóvedas, cada una con dónde vive
-  (**Local**, iCloud, Dropbox, Google Drive u OneDrive), y después **Abrir otra
-  bóveda…**, **Nueva bóveda…**, **Mostrar en Finder** (**Mostrar en el
-  Explorador de archivos** en Windows) e **Importar…**.
-- **El selector de bóvedas.** **Archivo** → **Cambiar de bóveda…** (`⌥⌘O`) abre
-  una lista corta: escribe para acotarla y pulsa Intro. La bóveda en la que
-  estás lleva la marca **aquí ahora**.
-- **Archivo** → **Abrir bóveda…** (`⇧⌘O`) abre una carpeta como bóveda.
+<img src="/img/app/vault-menu-light.png" alt="El menú de la bóveda abierto en la parte superior de la barra lateral" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/vault-menu-dark.png" alt="El menú de la bóveda abierto en la parte superior de la barra lateral" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Para elegir qué modos tiene una bóveda, ve a **Ajustes** (`⌘,`) → **Bóveda** →
-**Espacios** y marca **Escribir**, **Notas** o **Diario**; al menos uno queda
-activado. Una bóveda con un solo modo no muestra selector de modo. **Se abre
-en** elige dónde empieza la bóveda: su **Inicio**, o uno de sus modos.
+Hay tres formas de cambiar:
+
+- **El menú de la bóveda.** Haz clic en el nombre de la bóveda, en la parte
+  superior de la barra lateral. El menú muestra tus bóvedas, y cada una indica
+  dónde está guardada: **Local**, iCloud, Dropbox, Google Drive u OneDrive.
+  Debajo están **Abrir otra bóveda…**, **Nueva bóveda…**, **Mostrar en
+  Finder** (**Mostrar en el Explorador de archivos** en Windows) e
+  **Importar…**.
+- **El selector de bóvedas.** Elige **Archivo** → **Cambiar de bóveda…**
+  (`⌥⌘O`). Se abre una lista breve. Escribe para acortarla y pulsa `Intro`. La
+  bóveda en la que estás lleva la marca **aquí ahora**.
+- **Abrir bóveda.** Elige **Archivo** → **Abrir bóveda…** (`⇧⌘O`) para abrir
+  una carpeta como bóveda.
+
+### Elegir los modos de una bóveda {#choose-a-vaults-modes}
+
+φ tiene tres modos: **Escribir**, **Notas** y **Diario**. Para elegir cuáles
+tiene una bóveda:
+
+1. Abre los **Ajustes** (`⌘,`).
+2. Ve a **Bóveda** → **Espacios**.
+3. Marca **Escribir**, **Notas** o **Diario**. Al menos uno tiene que quedar
+   activado.
+
+Una bóveda con un solo modo no muestra el selector de modo. En la misma
+pantalla, **Se abre en** decide qué muestra la bóveda al abrirse: su
+**Inicio** o uno de sus modos.
 
 ## Mover trabajo a otra bóveda {#move-work-to-another-vault}
 
-**Un documento.** Elige **Mover a otra bóveda…** en el menú **⋮** del
-documento, o haz clic derecho sobre él en una lista. Elige la bóveda; una que no
-tenga el modo del documento aparece, pero no se puede elegir. φ lista los
-documentos conectados con él (su investigación, lo que enlaza, lo que lo
-enlaza), marcados para moverse con él. Antes de moverlo, te dice lo que se
-queda: el proyecto que deja, sus tarjetas en tableros, los personajes que
-menciona (sus nombres quedan en el texto) y su historial de versiones.
+Puedes mover un documento, un proyecto entero o una bóveda entera.
 
-**Un proyecto.** Elige **Mover a otra bóveda…** en el menú **⋮** del proyecto.
-El proyecto va entero, con sus partes y capítulos en orden, su objetivo,
-portada e icono, y los personajes propios del proyecto. Marca si van también
-sus páginas de investigación, sus tableros y otros personajes que mencionan sus
-capítulos (como copias).
+### Un documento {#a-document}
 
-Después, un resumen lista lo que se movió. No se sobrescribe nada en la otra
-bóveda: un archivo con un nombre ya ocupado allí se renombra. Los originales van
-a la **Papelera** de esta bóveda, así que puedes cambiar de idea.
+1. Elige **Mover a otra bóveda…** en el menú **⋮** del documento. También
+   puedes hacer clic derecho en el documento en una lista.
+2. Elige la bóveda. Las bóvedas que no tienen el modo del documento aparecen,
+   pero no se pueden elegir.
+3. φ muestra los documentos relacionados con este: su investigación, los
+   documentos a los que enlaza y los que enlazan con él. Están marcados, lo
+   que significa que también se mueven. Desmarca los que deban quedarse.
+4. Lee qué se queda atrás y mueve el documento.
 
-**Una bóveda entera.** Para unir esta bóveda con otra, elige **Fusionar con
-otra bóveda…** en el menú de la bóveda. Va todo: cada documento, proyecto,
-tablero, personaje, autor y plantilla, con sus imágenes. Las carpetas conservan
-su sitio; una cuyo nombre ya existe allí recibe el nombre de esta bóveda detrás
-del suyo. No se quita nada de aquí. Al terminar, puedes conservar la bóveda
-antigua o elegir **Quitar «…»**. Su historial de versiones se queda con su
-carpeta.
+Se queda atrás lo siguiente: el proyecto al que pertenecía el documento, sus
+tarjetas en los tableros, los personajes que menciona (sus nombres siguen en
+el texto) y su historial de versiones.
+
+### Un proyecto {#a-project}
+
+1. Elige **Mover a otra bóveda…** en el menú **⋮** del proyecto.
+2. Marca qué más debe ir: sus páginas de investigación, sus tableros y otros
+   personajes que se mencionan en sus capítulos. Esos personajes van como
+   copias.
+
+Se mueve el proyecto entero: sus partes y capítulos en su orden, su meta, su cubierta y su icono, y los personajes que solo pertenecen a él.
+
+### Después de mover un documento o un proyecto {#after-a-document-or-project-moves}
+
+- Un resumen indica qué se ha movido.
+- En la otra bóveda no se sobrescribe nada. Si allí ya existe un archivo con
+  el mismo nombre, φ cambia el nombre del que llega.
+- Los originales van a la **Papelera** de esta bóveda, así que todavía puedes
+  recuperarlos.
+
+### Una bóveda entera {#a-whole-vault}
+
+Para pasar todo el contenido de esta bóveda a otra, elige **Fusionar con otra
+bóveda…** en el menú de la bóveda.
+
+- Van todos los documentos, proyectos, tableros, personajes, autores y
+  plantillas, con sus imágenes.
+- Las carpetas conservan su lugar. Si en la otra bóveda ya hay una carpeta con
+  el mismo nombre, φ le añade detrás el nombre de esta bóveda.
+- De esta bóveda no se quita nada.
+- El historial de versiones no se mueve. Se queda en la carpeta de esta
+  bóveda.
+
+Cuando termina la fusión, puedes conservar la bóveda antigua o elegir
+**Quitar «…»**.
 
 ## Usar una bóveda en varios dispositivos {#use-a-vault-on-several-devices}
 
 1. Pon la bóveda en una carpeta que compartan tus dispositivos: iCloud Drive,
-   Dropbox, Google Drive, Mega, OneDrive o una unidad de red. Para mover una
-   bóveda existente, sal de φ, mueve su carpeta allí y vuelve a abrirla con
-   **Abrir otra bóveda…**.
+   Dropbox, Google Drive, Mega, OneDrive o una unidad de red. Para trasladar
+   una bóveda que ya tienes, sal de φ, mueve su carpeta allí y vuelve a
+   abrirla con **Abrir otra bóveda…**.
 2. En cada ordenador, abre esa carpeta con **Abrir otra bóveda…**. φ para
-   iPhone y iPad está en camino y abrirá la misma carpeta.
-3. Escribe donde quieras. φ nota en un momento los cambios de tus otros
-   dispositivos y actualiza la lista y el documento abierto por sí solo.
+   iPhone y iPad todavía no ha salido; cuando salga, abrirá la misma carpeta.
+3. Escribe en cualquiera de tus dispositivos. Al cabo de un momento, φ detecta
+   los cambios hechos en los demás y actualiza por sí solo la lista y el
+   documento abierto.
 
-Si la carpeta de la bóveda desaparece, porque se desconecta un disco o una
-carpeta en la nube está sin conexión, φ dice **No se puede acceder a** la bóveda
-y conserva lo que escribes, y lo guarda en cuanto la carpeta vuelve. En un Mac,
-los documentos que iCloud guarda solo en la nube se descargan cuando φ los ve,
-así que pueden tardar un momento en aparecer.
+**Si φ no encuentra la carpeta.** Ocurre cuando se desconecta un disco o una
+carpeta en la nube se queda sin conexión. φ dice **No se puede acceder a** la
+bóveda. Conserva lo que escribes y lo guarda cuando la carpeta vuelve a estar
+disponible.
+
+**Si los documentos tardan en aparecer en un Mac.** iCloud guarda algunos
+documentos solo en la nube. φ los descarga cuando los ve, así que pueden
+tardar un poco en aparecer.
 
 ### Cuando dos dispositivos cambian el mismo documento {#when-two-devices-change-the-same-document}
 
-φ nunca sobrescribe los cambios de un dispositivo con los de otro. Si un
-documento cambió en dos dispositivos antes de que se pusieran al día, el
-documento conserva una versión y la otra se deja aparte. Una línea encima de la
-página dice **Hay una versión de** ese dispositivo **esperando**, y la fila del
-documento en la lista lleva una pequeña marca.
+φ nunca sustituye los cambios de un dispositivo por los de otro. A veces un
+documento cambia en dos dispositivos antes de que se sincronicen. En ese caso,
+el documento se queda con una versión y φ te guarda la otra para que la
+revises. Una línea encima de la página dice **Hay una versión de** ese
+dispositivo **esperando**. La fila del documento en la lista lleva una pequeña
+marca.
 
-1. Pulsa **Comparar**. La versión en espera se abre junto al documento tal como
-   está ahora, con las diferencias marcadas; alterna entre **Lado a lado** y
-   **En el contenido**.
-2. Elige **Quedarme con esta** para que la versión en espera pase a ser el
-   documento, **Quedarme con la actual** para descartarla, o **Conservar ambas**
-   para guardarla como un documento aparte llamado «*título* (conflicted
-   copy)».
+1. Haz clic en **Comparar**. La versión en espera se abre al lado del
+   documento actual, con las diferencias marcadas. Puedes alternar entre
+   **Lado a lado** y **En el contenido**.
+2. Elige una opción:
+   - **Quedarme con esta** convierte la versión en espera en el documento.
+   - **Quedarme con la actual** deja el documento como está y descarta la
+     versión en espera.
+   - **Conservar ambas** guarda la versión en espera como un documento aparte
+     llamado «*título* (conflicted copy)».
 
-Si hay varias versiones esperando, llegan de una en una, de la más antigua a la
-más reciente. Cualquiera de tus dispositivos puede resolverlas.
+Si hay varias versiones en espera, φ te las muestra de una en una, empezando
+por la más antigua. Puedes hacerlo desde cualquiera de tus dispositivos.
 
-:::note El historial git se queda en cada ordenador
+:::note El historial de git se queda en cada ordenador
 
-Si la bóveda usa git para su historial, φ guarda el historial git en cada
-ordenador, fuera de la carpeta sincronizada, porque un servicio de
-sincronización que lo copia archivo por archivo puede romperlo. Consulta
+Si la bóveda usa git para su historial, φ guarda el historial de git en cada
+ordenador, fuera de la carpeta sincronizada. Un servicio de sincronización
+copia el historial archivo por archivo, y eso puede estropearlo. Consulta
 [Versiones y copias de seguridad](./versions-and-backup).
 
 :::
 
 ## Quitar una bóveda {#remove-a-vault}
 
-Abre la bóveda, ve a **Ajustes** → **Bóveda** → **Gestionar** → **Quitar
-bóveda…** y elige:
-
-- **Desvincular (conservar carpeta)**: φ olvida la bóveda y deja la carpeta
-  exactamente donde está. Puedes volver a abrirla cuando quieras.
-- **Mover a la papelera**: φ olvida la bóveda y mueve toda la carpeta a la
-  papelera de tu ordenador, donde aún puedes recuperarla hasta que la vacíes.
+1. Abre la bóveda.
+2. Ve a **Ajustes** → **Bóveda** → **Gestionar** → **Quitar bóveda…**.
+3. Elige una opción:
+   - **Desvincular (conservar carpeta)**: φ quita la bóveda de su lista y deja
+     la carpeta donde está. Puedes volver a abrirla cuando quieras.
+   - **Mover a la papelera**: φ quita la bóveda de su lista y envía la carpeta
+     entera a la papelera de tu ordenador. Puedes recuperarla de ahí mientras no
+     vacíes la papelera.
 
 Si era tu última bóveda, φ vuelve a la pantalla de bienvenida.
 
 ## Ver también {#see-also}
 
 - [Versiones y copias de seguridad](./versions-and-backup)
-- [Importar](./importing): trae escritura de otras apps.
-- [Ajustes de escritura](./setup): qué muestra cada bóveda.
+- [Importar](./importing): trae textos de otras aplicaciones.
+- [Puesta a punto](./setup): qué muestra cada bóveda.

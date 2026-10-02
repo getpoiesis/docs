@@ -5,36 +5,51 @@ description: Read the pages you wrote by hand on the iPad, on the Mac, Windows o
 
 # Handwritten pages
 
-φ on the iPad (coming soon) lets you write a document by hand, with the
-Apple Pencil, on lined, dotted, grid or blank paper. Open that document on
-your computer and its pages are there as you wrote them, sharp at any size.
-The pages are only written on the iPad; on the computer you read them.
+With φ on the iPad (coming soon), you can write a document by hand with the
+Apple Pencil. You can write on lined, dotted, grid or blank paper.
+
+When you open that document on your computer, you see the pages as you
+wrote them. They stay sharp at any size.
+
+You can write by hand only on the iPad. On the computer, you can read the
+pages and edit their text.
 
 ## Read the pages or their text
 
-A handwritten document has two sides, chosen at the top of the page:
+A handwritten document has two views. Choose one at the top of the page:
 
-- **Ink**: the pages, one under another, on their paper. A pen or pencil
-  keeps the weight of your hand, and a highlighter sits under the words.
-- **Text**: the words taken from your handwriting, once you've asked the
-  iPad for them. You can edit them here like any document, and your changes
-  go back to the iPad.
+- **Ink** shows your handwritten pages on their paper, one below the other.
+  Pen and pencil lines keep the thickness you gave them. Highlighter shows
+  under the words.
+- **Text** shows the words that the iPad read from your handwriting. You
+  must first ask the iPad to do this. You can then edit the words here like
+  any other document, and your changes go back to the iPad.
 
-φ remembers which side you were on for each document while it's open.
+While a document is open, φ remembers which view you chose for it.
 
 ## Colours
 
-Black ink and φ's own slate follow your [colour theme](themes-and-languages),
-so a page written in black reads in white on a dark theme. Other colours
-keep their colour, lifted a little on a dark page so they still read.
+Black ink and φ's own slate colour change with your
+[colour theme](themes-and-languages). For example, a page written in black
+shows in white on a dark theme.
+
+Other colours stay the same colour. On a dark page, φ makes them a little
+lighter so that you can still read them.
 
 ## A page that only shows on the iPad
 
-A page saved by an older φ for iPad says *This page shows on the iPad for
-now*. Open the document on the iPad with the latest φ and it shows here too.
+A page saved by an older version of φ for iPad cannot be shown on the
+computer. In its place you see the message *This page shows on the iPad for
+now*.
+
+To fix this, open the document on the iPad with the latest φ. After that,
+the page shows on the computer too.
 
 ## Where the pages live
 
-The pages are kept in your vault with the document, so they sync with it.
-Moving the document to the trash, restoring it, or moving it to another
-[vault](vaults) takes its pages along.
+φ keeps the handwritten pages in your [vault](vaults), with the document. A
+vault is the folder where φ keeps your documents. The pages sync together
+with the document.
+
+The pages also go with the document when you move it to the trash, restore
+it, or move it to another vault.

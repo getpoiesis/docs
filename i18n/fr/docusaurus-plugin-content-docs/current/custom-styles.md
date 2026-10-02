@@ -1,52 +1,60 @@
 ---
 title: Styles personnalisés
-description: Créez votre propre style à partir d’un de ceux de φ, et utilisez-le pour un projet.
+description: Créez votre propre style à partir de l’un de ceux de φ, et utilisez-le pour un projet.
 ---
 
 # Styles personnalisés
 
-Quand une maquette et **Ajuster la maquette** ne vont pas assez loin, créez
-votre propre style. Partez d’une des maquettes ou d’un des styles de φ, changez
-ce que vous voulez, et utilisez-le pour n’importe quel projet du coffre.
+Une [maquette](./designs) et **Ajuster la maquette** permettent de changer
+quelques aspects de l’allure d’un livre. Pour aller plus loin, créez votre
+propre style : vous copiez une maquette ou un style de φ, puis vous modifiez ce
+que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
+[coffre](./vaults).
 
 ## Créer un style {#make-a-style}
 
-1. Sur la page **Exporter** du projet, ouvrez **Ajuster la maquette** (ou
-   **Options** sur **Partager une copie**) et choisissez **Modifier les
-   styles…**.
-2. Dans **Styles d’export**, choisissez la maquette ou le style le plus proche
-   de ce que vous voulez sous **Intégrés à φ**, puis **Dupliquer**. Les styles
-   propres à φ ne peuvent pas être modifiés ; la copie est à vous.
-3. Changez ce qui vous plaît. Chaque modification est enregistrée aussitôt, et
-   l’aperçu à côté des réglages montre les premières pages.
-4. Choisissez **Utiliser pour ce projet**.
+1. Ouvrez la page **Exporter** du projet.
+2. Ouvrez **Ajuster la maquette**. Dans **Partager une copie**, ouvrez
+   **Options**.
+3. Choisissez **Modifier les styles…**. La fenêtre **Styles d’export**
+   s’ouvre.
+4. Sous **Intégrés à φ**, choisissez la maquette ou le style le plus proche de
+   ce que vous cherchez.
+5. Choisissez **Dupliquer**. Les styles de φ ne sont pas modifiables, mais
+   leur copie l’est.
+6. Modifiez ce que vous voulez. φ enregistre chaque changement aussitôt.
+   L’aperçu, à côté des réglages, montre les premières pages.
+7. Choisissez **Utiliser pour ce projet**.
 
 ## Ce qu’un style peut changer {#what-a-style-can-change}
 
 | Groupe | Par exemple |
 | --- | --- |
-| **Typographie** | Les polices du texte et des titres, la taille, l’interlignage, le retrait de paragraphe, la justification et la césure. |
-| **Tailles** | Titres du livre, des parties et des chapitres, étiquettes de chapitre, intertitres et notes. |
-| **Couleurs** | Texte, titres et intertitres, étiquettes et titres courants, filets. En encre noire, elles s’impriment en gris. |
-| **Page** | Pages recto verso (reliées) et les quatre marges. |
-| **Débuts de chapitre** | Où commencent les chapitres, l’étiquette de chapitre (Chapitre un, Chapitre 1, Un, 1, I) et l’ouverture du premier paragraphe. |
-| **Titres courants et numéros de page** | Ce que disent les titres courants et où se placent les numéros. |
-| **Sommaire** | S’il y en a un, et sa profondeur. |
-| **Pages propres au livre** | La page de titre, la page de copyright, la dédicace et les autres pages. |
-| **Notes** | Notes en bas de page ou en fin d’ouvrage, et leur numérotation. |
+| **Typographie** | Les polices du texte et des titres, la taille, l’interligne, le retrait des paragraphes, la justification et la césure. |
+| **Tailles** | Les titres du livre, des parties et des chapitres, les étiquettes de chapitre, les intertitres et les notes. |
+| **Couleurs** | Le texte, les titres et intertitres, les étiquettes et titres courants, les filets (les traits). À l’encre noire, elles s’impriment en gris. |
+| **Page** | Les pages recto verso (livre relié) et les quatre marges. |
+| **Débuts de chapitre** | L’endroit où commencent les chapitres, l’étiquette de chapitre (Chapitre un, Chapitre 1, Un, 1, I) et la façon dont s’ouvre le premier paragraphe. |
+| **Titres courants et numéros de page** | Ce que disent les titres courants et la place des numéros de page. |
+| **Sommaire** | La présence ou non d’un sommaire, et le nombre de niveaux qu’il montre. |
+| **Pages propres au livre** | La page de titre, la page de copyright, la dédicace et les autres. |
+| **Notes** | Les notes en bas de page ou en fin d’ouvrage, et leur numérotation. |
 
-φ maintient chaque valeur dans ce qui s’imprime et se lit bien : une marge trop
-petite pour la reliure ou une couleur trop pâle pour être lue est ramenée dans
-les limites, et la vérification de l’export le signale.
+φ maintient chaque valeur dans des limites qui donnent un bon résultat à
+l’impression comme à la lecture. Une marge peut, par exemple, être trop petite
+pour la reliure, ou une couleur trop pâle pour être lisible. Dans ce cas, φ
+corrige la valeur, et la vérification de la page Exporter vous le signale.
 
 ## Partager, sauvegarder et supprimer des styles {#share-back-up-and-remove-styles}
 
-- Vos styles vivent dans le coffre (dans un dossier caché `.poiesis-styles`) :
-  ils voyagent avec lui et se synchronisent avec lui.
-- **Exporter…** enregistre un style dans un fichier à donner à quelqu’un ;
-  **Importer un style…** en ajoute un.
-- Supprimer un style le place dans la corbeille du coffre. Les projets qui
-  l’utilisaient reviennent au style par défaut de φ.
+- **Où ils sont rangés.** Vos styles se trouvent dans le coffre, dans un
+  dossier caché `.poiesis-styles`. Quand vous déplacez ou synchronisez le
+  coffre, ils le suivent.
+- **Partager.** **Exporter…** enregistre un style dans un fichier que vous
+  pouvez donner à quelqu’un. **Importer un style…** ajoute un style à partir
+  d’un fichier.
+- **Supprimer.** Un style supprimé va dans la corbeille du coffre. Les projets
+  qui l’utilisaient reprennent le style par défaut de φ.
 
 ## Voir aussi {#see-also}
 

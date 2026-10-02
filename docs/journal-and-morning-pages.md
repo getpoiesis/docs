@@ -5,135 +5,174 @@ description: A dated entry for each day, the three-page morning practice, and th
 
 # Journal & morning pages
 
-The **Journal** keeps one entry for each day, to come back to. **Morning
-pages** sit beside it: three pages written first thing, then sealed and let
-go. Both count towards your writing streak, so a daily habit is something you
-can see.
+The **Journal** keeps one entry for each day. You can come back to any entry
+later. **Morning pages** are different: you write three pages early in the
+day, close them, and do not read them again. Both count towards your writing
+streak, which is the number of days in a row that you have written.
 
 <img src="/img/app/journal-light.png" alt="The Journal: All entries listed by day with this week's strip on top, and today's entry open with its sealed morning pages chip" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/journal-dark.png" alt="The Journal: All entries listed by day with this week's strip on top, and today's entry open with its sealed morning pages chip" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Write today's entry
 
-1. Choose **Journal** in the sidebar's mode switch (`⌘3` when the vault has
-   all three modes).
-2. Click **Today**. φ opens today's entry, and makes it if there isn't one
-   yet.
-3. Write. The entry saves itself as you go.
-4. To start the day's morning pages as well, click **Start morning pages**
-   beside the date.
+1. Choose **Journal** in the mode switch at the top of the sidebar. The
+   shortcut is `⌘3` when the [vault](./vaults) has all three modes.
+2. Click **Today**. φ opens today's entry. If there is no entry yet, φ makes
+   one.
+3. Write. The entry saves itself as you write.
+4. To also start today's morning pages, click **Start morning pages** beside
+   the date.
 
-You can also start from the **Today** card on the Journal's **Home**, from
-**+** at the top of **All entries** (**Write today**), or from `⌘P` →
-**New journal entry**.
+There are three other ways to start today's entry:
+
+- Click the **Today** card on the Journal's **Home**.
+- Click **+** at the top of **All entries** (**Write today**).
+- Press `⌘P` and choose **New journal entry**.
 
 ## Find your way around the Journal
 
 | In the sidebar | What it shows |
 | --- | --- |
-| **Home** | Today's entry, this week, the last few days, today's morning page, the month, and **On this day**: what you wrote on this date in earlier years. |
+| **Home** | Today's entry, this week, the last few days, today's morning page and the month. It also shows **On this day**: what you wrote on this date in earlier years. |
 | **Today** | Today's entry. |
-| **All entries** | Every day you've written, newest first, with this week as a strip of days at the top. Open a day to read it, or stay on the list to scroll through every day as one page and write in any of them in place. |
-| **Morning pages** | Every session, with its pages and words. |
-| **Sealed** | The morning pages you've finished. |
-| **Calendar** | Your writing across the months (see [The calendar](./calendar)). |
+| **All entries** | Every day you have written, newest first. This week is a row of days at the top. Open a day to read it, or stay on the list: it shows every day as one long page, and you can write in any day there. |
+| **Morning pages** | Every morning pages session, with its pages and words. |
+| **Sealed** | The morning pages you have finished. |
+| **Calendar** | Your writing across the months. See [The calendar](./calendar). |
 
-An entry is headed by its weekday over the date. Beside it are the morning
-pages chip for that day, **Today** when you're on another day, and arrows to
-step to the previous or next day you wrote. Under the entry, **Mentioned in**
-lists the documents that carry this day's date or link to it.
+At the top of an entry you see the weekday and the date. Beside them are:
 
-A journal entry is a document like any other: searchable, linkable and
-exportable. The Journal only gathers it by its day.
+- the morning pages chip for that day;
+- **Today**, when you are on another day;
+- arrows that go to the previous or next day you wrote.
+
+Under the entry, **Mentioned in** lists the documents that contain this day's
+date or link to this day.
+
+A journal entry is a document like any other. You can search it, link to it
+and export it. The Journal only groups entries by day.
 
 ## Write on an earlier day
 
-You can write on today or any day before it, never ahead.
+You can write on today or on any earlier day. You cannot write on a future
+day.
 
-- Click a day in the week strip at the top of **All entries**.
-- On the page of all your days, press **Write on a day…** and pick a date.
+There are three ways to choose the day:
+
+- Click a day in the row of days at the top of **All entries**.
+- On the page that shows all your days, press **Write on a day…** and pick a
+  date.
 - In the [calendar](./calendar), select a day and press **Write this day**.
 
-A day you open and leave without writing a word goes to the trash, so empty
-days don't pile up.
+If you open a day and leave it without writing anything, φ moves that empty
+entry to the trash.
 
 ## Keep morning pages
 
-Morning pages are a longhand, first-thing practice: three pages, written
-freely and not reread. φ keeps their page bare on purpose. There's no
-toolbar, no slash menu, no `@` or `[[` suggestions and no tags: only the date
-and the page.
+Morning pages are a daily practice. You write three pages early in the day,
+freely, and you do not read them again. φ keeps this page empty on purpose.
+It has no toolbar, no slash menu, no `@` or `[[` suggestions and no tags. You
+see only the date and the page.
 
-To open today's pages, use **Start morning pages** beside an entry, the
-**Morning page** card on the Journal's Home, **+** at the top of **Morning
-pages**, or `⌘P` → **Today's morning page**.
+There are four ways to open today's morning pages:
+
+- Click **Start morning pages** beside a journal entry.
+- Click the **Morning page** card on the Journal's **Home**.
+- Click **+** at the top of **Morning pages**.
+- Press `⌘P` and choose **Today's morning page**.
 
 ### Three pages
 
-The goal is three pages, which φ counts as 750 words. A quiet line under the
-page shows where you are, such as "320 / 750 words · page 2 of 3", with a
-small ring and **Mark as done**. The button waits until you reach 750 words;
-hover over it to see how many are left.
+The goal is three pages. φ counts three pages as 750 words.
+
+<img src="/img/app/morning-pages-light.png" alt="Today's morning page partly written, with the progress line and Mark as done below it" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/morning-pages-dark.png" alt="Today's morning page partly written, with the progress line and Mark as done below it" width="1600" height="1000" loading="lazy" decoding="async" />
+
+A line under the page shows your progress, for example
+"320 / 750 words · page 2 of 3". Beside it are a small ring and the **Mark as
+done** button. You can use the button when you reach 750 words. Before that,
+hover over the button to see how many words are left.
 
 ### Seal the day
 
-**Mark as done** seals the day's pages. You can also seal them at any time
-from the document's **⋮** → **Seal day**.
+Sealing closes the day's pages so they open without showing your text.
 
-A sealed day opens on a short card instead of your text. From there, **Read
-these pages** shows them without letting you edit, and **Unseal to edit**
-lets you write in them again, after asking first. Pages opened from the
-calendar always open read-only.
+- Press **Mark as done** to seal the pages when you reach 750 words.
+- To seal them at any other time, open the document's **⋮** menu and choose
+  **Seal day**.
+
+When you open a sealed day, you see a short card, not your text. The card has
+two buttons:
+
+- **Read these pages** shows the pages. You cannot edit them.
+- **Unseal to edit** lets you write in them again. φ asks you to confirm
+  first.
+
+Morning pages that you open from the calendar are always read-only.
 
 ### The practice
 
-With a morning page open, the Info panel (`⇧⌘I`) has two tabs, **The
-practice** and **History**. The practice shows today's pages and words, how
-many days in a row you've kept it and your longest run, the days this month,
-and how many pages you've sealed.
+1. Open a morning page.
+2. Open the Info panel, the panel beside the page, with `⇧⌘I`.
+
+The panel has two tabs, **The practice** and **History**. **The practice**
+shows:
+
+- today's pages and words;
+- how many days in a row you have written morning pages;
+- your longest run of days;
+- the days this month;
+- how many pages you have sealed.
 
 ### Make a document into morning pages
 
-Right-click any document in a list and choose **Mark as morning pages**.
-**Unmark morning pages** turns it back.
+1. Right-click any document in a list.
+2. Choose **Mark as morning pages**.
+
+To undo this, right-click the document and choose **Unmark morning pages**.
 
 :::note Private by design
 
-Morning pages are kept out of `⌘K` and the graph. If you'd rather not keep
-them at all, turn **Morning pages** off under **Settings** (`⌘,`) →
+Morning pages do not appear in `⌘K` or in the graph. If you do not want
+morning pages at all, turn **Morning pages** off in **Settings** (`⌘,`) →
 **Setup** → **Modes** → **Journal**.
 
 :::
 
 ## Keep a writing streak
 
-A streak is the run of days in a row on which you've written at least a set
+A streak is the number of days in a row on which you wrote at least a minimum
 number of words.
 
 - **Any writing counts**: a journal entry, morning pages, a chapter, a note.
   Words count on the day you wrote them.
-- **The minimum is 50 words a day.** Raise it in **Settings** → **Editor** →
-  **Writing streak** → **Minimum words / day**.
-- **A day's grace.** A streak that ended yesterday isn't broken yet: you have
-  the rest of today to keep it going.
+- **The minimum is 50 words a day.** To raise it, go to **Settings** →
+  **Editor** → **Writing streak** → **Minimum words / day**.
+- **You have one extra day.** If your streak ended yesterday, it is not
+  broken yet. Write today and the streak continues.
 
-You'll see it on Write's Home (the **Today** card), on the Journal's Home, in
-the calendar, and in **The practice** beside a morning page.
+You see your streak in four places:
 
-To change how it shows, go to **Settings** → **Setup** → **Streak**:
+- the **Today** card on the Home of Write;
+- the Journal's **Home**;
+- the calendar;
+- **The practice**, beside a morning page.
+
+To change how the streak looks, go to **Settings** → **Setup** → **Streak**:
 
 | Choice | What you see |
 | --- | --- |
-| **Flame and count** | A flame on every day you wrote, with your current run tied together on the calendar. |
-| **Plain days** | The flames, without the run highlighted. |
-| **Off** | No flames, and no streak on Write's Home. |
+| **Flame and count** | A flame on every day you wrote. On the calendar, the days of your current streak are joined together. |
+| **Plain days** | The flames, but the current streak is not highlighted. |
+| **Off** | No flames, and no streak on the Home of Write. |
 
-**Weekly pace**, in the same place, is a gentler target: a number of days a
-week, counted over the last seven days, so one missed day never resets it.
+**Weekly pace** is in the same place. It is a softer goal: a number of days
+each week. φ counts it over the last seven days, so one missed day never
+sets it back to zero.
 
 ## See also
 
-- [The calendar](./calendar): every day you wrote, and what's tied to it.
+- [The calendar](./calendar): every day you wrote, and what belongs to it.
 - [Finding your way](./finding-your-way): the sidebar, the list and the Info
   panel.
 - [Versions & backup](./versions-and-backup): the History tab.

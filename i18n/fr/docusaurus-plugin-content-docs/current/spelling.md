@@ -1,92 +1,99 @@
 ---
 title: Orthographe
-description: L’orthographe vérifiée pendant que vous écrivez, et une passe sereine sur tout un document.
+description: L’orthographe vérifiée au fil de l’écriture, ou tout un document relu en une seule fois, sans hâte.
 ---
 
 # Orthographe
 
-φ vérifie votre orthographe pendant que vous écrivez. Un mot mal orthographié
-reçoit un discret soulignement ondulé, que vous pouvez corriger depuis le menu
-contextuel, ou vous pouvez tous les garder pour une seule passe délibérée une
-fois le brouillon terminé. Rien n’est jamais corrigé à votre place.
+φ vérifie l’orthographe pendant que vous écrivez et souligne d’un trait ondulé
+chaque mot mal orthographié. Corrigez les mots au fur et à mesure, ou attendez
+d’avoir fini votre premier jet pour relire tout le document d’une traite. φ ne
+corrige jamais un mot à votre place.
 
 ## Vérifier tout un document {#check-a-whole-document}
 
 1. Ouvrez le document.
-2. Appuyez sur `⌘;`, ou choisissez **Édition → Vérifier l’orthographe…**,
-   **Vérifier l’orthographe…** dans le menu ⋮ du document, ou **Vérifier
-   l’orthographe…** dans la palette de commandes.
-3. Pour chaque mot où φ s’arrête, choisissez quoi faire (ci-dessous).
-4. Quand φ indique que tout est fait, il ne reste rien à relire.
+2. Appuyez sur `⌘;`. Vous pouvez aussi choisir **Édition → Vérifier
+   l’orthographe…**, ou **Vérifier l’orthographe…** dans le menu ⋮ du document
+   ou dans la palette de commandes.
+3. φ s’arrête sur le premier mot mal orthographié. Choisissez ce que vous
+   voulez en faire (voir le tableau ci-dessous).
+4. Faites de même pour chaque mot, jusqu’à ce que φ annonce que tout est
+   terminé.
 
-Le mot en cours de relecture est surligné dans le texte, pour que vous le voyiez
-là où il se trouve, et un compteur indique combien il en reste.
+<img src="/img/app/spelling-check-light.png" alt="La fenêtre de vérification orthographique arrêtée sur un mot mal orthographié, avec des suggestions et les boutons pour le modifier, l’ignorer ou l’ajouter au dictionnaire" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/spelling-check-dark.png" alt="La fenêtre de vérification orthographique arrêtée sur un mot mal orthographié, avec des suggestions et les boutons pour le modifier, l’ignorer ou l’ajouter au dictionnaire" width="1600" height="1000" loading="lazy" decoding="async" />
+
+φ surligne le mot dans le texte : vous le lisez ainsi dans sa phrase. Un
+compteur indique combien de mots il reste.
 
 | Choix | Ce qu’il fait |
 | --- | --- |
 | **Remplacer** | Remplace ce mot par la suggestion, ou par ce que vous avez tapé dans **Correction**. |
-| **Tout remplacer** | Remplace toutes les occurrences dans le document. |
-| **Ignorer** | Passe celle-ci. |
-| **Tout ignorer** | Passe toutes les occurrences, pour le reste de cette passe. |
-| **Ajouter au dictionnaire** | Conserve le mot, ici et dans tous les autres documents. |
+| **Tout remplacer** | Remplace le mot partout où il apparaît dans le document. |
+| **Ignorer** | Laisse ce mot tel quel, cette fois-ci. |
+| **Tout ignorer** | Laisse le mot tel quel partout, jusqu’à la fin de cette vérification. |
+| **Ajouter au dictionnaire** | Accepte le mot, dans ce document et dans tous les autres. |
 
-Quand φ n’a rien à proposer, il affiche **Aucune suggestion**, et vous pouvez
-taper la correction vous-même.
+Quand φ n’a rien à proposer, il affiche **Aucune suggestion**. Tapez alors
+vous-même la correction dans **Correction**.
 
-La vérification de tout le document utilise les dictionnaires propres à φ :
-anglais, espagnol, espagnol (Mexique) et français. Si aucune des langues que
-vous vérifiez n’en a un, φ vous le dit et propose **Ouvrir les réglages**, pour
-que vous choisissiez une langue qu’il possède.
+Pour vérifier tout un document, φ se sert de ses propres dictionnaires :
+anglais, espagnol, espagnol (Mexique) et français. S’il n’a de dictionnaire
+pour aucune des langues que vous vérifiez, il vous le signale et propose
+**Ouvrir les réglages**. Vous pouvez y choisir une langue dont il dispose.
 
-## Corriger un mot au fil de l’écriture {#fix-a-word-as-you-go}
+## Corriger un mot au passage {#fix-a-word-as-you-go}
 
-Faites un clic droit sur un mot souligné. Les suggestions de φ sont en haut du
-menu : choisissez-en une pour remplacer le mot, ou choisissez **Ajouter au
-dictionnaire** pour le conserver et qu’il ne soit plus signalé.
+1. Faites un clic droit sur un mot souligné. Les suggestions de φ figurent en
+   haut du menu.
+2. Cliquez sur une suggestion pour remplacer le mot. Si le mot est correct,
+   choisissez plutôt **Ajouter au dictionnaire** : φ ne le soulignera plus.
 
 ## Choisir comment φ vérifie {#choose-how-φ-checks}
 
-Dans **Réglages → Langue → Orthographe** :
+Ouvrez **Réglages → Langue → Orthographe**. Vous y trouvez trois réglages :
 
-- **Vérifier l’orthographe** : active ou désactive le soulignement.
-- **Moteur** : la façon dont φ vérifie pendant que vous tapez.
-  - **Natif**, par défaut, utilise le correcteur orthographique de votre
-    ordinateur.
-  - **Amélioré** utilise les dictionnaires de φ, pour les mêmes résultats sur
-    chaque ordinateur.
-- **Langues** : les langues à vérifier. Choisissez-en plusieurs et un mot
-  correct dans n’importe laquelle d’entre elles n’est pas signalé : un document
-  en deux langues se lit donc sans faux signalements. Avec **Natif** sur un
-  Mac, le système détecte la langue tout seul.
+- **Vérifier l’orthographe** active ou désactive le soulignement.
+- **Moteur** détermine comment φ vérifie pendant la saisie.
+  - **Natif**, le choix par défaut, fait appel au correcteur orthographique de
+    votre ordinateur.
+  - **Amélioré** fait appel aux dictionnaires de φ. Les résultats sont alors
+    les mêmes sur tous les ordinateurs.
+- **Langues** indique les langues à vérifier. Si vous en cochez plusieurs, φ
+  accepte tout mot correct dans l’une d’elles, ce qui est pratique pour un
+  document écrit en deux langues. Avec **Natif** sur un Mac, le système
+  reconnaît la langue tout seul.
 
-Un coffre peut vérifier différemment des autres : dans **Réglages → Langue →
-Ce coffre**, réglez **Par défaut pour ce coffre** sur **Utiliser global**,
-**Natif** ou **Amélioré**. Avec **Amélioré**, vous pouvez aussi choisir les
-langues de ce coffre.
+Un [coffre](./vaults) (le dossier qui contient vos textes) peut avoir son
+propre réglage. Dans **Réglages → Langue → Ce coffre**, réglez **Par défaut
+pour ce coffre** sur **Utiliser global**, **Natif** ou **Amélioré**. Avec
+**Amélioré**, vous pouvez aussi choisir les langues de ce coffre.
 
-## Ajouter une langue que φ n’apporte pas {#add-a-language-φ-doesnt-bring}
+## Ajouter une langue que φ ne fournit pas {#add-a-language-φ-doesnt-bring}
 
-Le moteur **Amélioré** peut vérifier n’importe quelle langue disposant d’un
-dictionnaire Hunspell, celui qu’utilisent LibreOffice et Firefox : un dossier
-contenant un fichier `.aff` et un fichier `.dic`.
+Le moteur **Amélioré** sait vérifier toute langue pour laquelle il existe un
+dictionnaire Hunspell, le type de dictionnaire qu’utilisent LibreOffice et
+Firefox. Un tel dictionnaire est un dossier qui contient un fichier `.aff` et
+un fichier `.dic`.
 
-1. Dans **Réglages → Langue → Ce coffre**, réglez **Par défaut pour ce coffre**
-   sur **Amélioré**.
+1. Dans **Réglages → Langue → Ce coffre**, réglez **Par défaut pour ce
+   coffre** sur **Amélioré**.
 2. À côté de **Ajouter une langue**, appuyez sur **Ajouter…** et choisissez le
    dossier du dictionnaire.
 3. Cochez la nouvelle langue dans les **Langues** de ce coffre.
 
 ## Votre dictionnaire personnel {#your-personal-dictionary}
 
-L’endroit où va un mot conservé dépend du moteur :
+L’endroit où φ range un mot que vous acceptez dépend du moteur :
 
-- Avec **Amélioré**, et depuis la vérification de tout le document, **Ajouter
-  au dictionnaire** garde le mot dans la liste propre à φ. Consultez-la, et
-  retirez-en des mots, dans **Réglages → Langue → Dictionnaire personnel**. Un
-  mot que vous retirez est de nouveau signalé.
-- Avec **Natif**, **Ajouter au dictionnaire** dans le menu contextuel confie le
-  mot au correcteur orthographique de votre ordinateur : il n’est donc pas dans
-  la liste de φ.
+- **Amélioré**, et la vérification de tout un document : **Ajouter au
+  dictionnaire** enregistre le mot dans la liste de φ. Pour consulter cette
+  liste ou en retirer un mot, ouvrez **Réglages → Langue → Dictionnaire
+  personnel**. Un mot retiré est de nouveau souligné.
+- **Natif** : **Ajouter au dictionnaire**, dans le menu du clic droit,
+  enregistre le mot dans le correcteur orthographique de votre ordinateur. Il
+  ne figure pas dans la liste de φ.
 
 ## Voir aussi {#see-also}
 

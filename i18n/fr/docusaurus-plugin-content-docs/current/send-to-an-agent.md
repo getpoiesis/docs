@@ -5,48 +5,51 @@ description: Votre manuscrit au format standard de manuscrit, en Word ou en PDF.
 
 # Envoyer à un agent ou un éditeur
 
-Les agents et les éditeurs demandent un simple tapuscrit, pas un livre
-composé. L’onglet **Agent ou éditeur** crée exactement cela : le format
-standard de manuscrit, en double interligne, avec vos coordonnées et le nombre
-de mots en première page.
+Les agents et les éditeurs demandent un manuscrit sobre, pas un livre mis en
+pages. L’onglet **Agent ou éditeur** en produit un au format standard de
+manuscrit : le texte est en double interligne, et la première page porte vos
+coordonnées et le nombre de mots.
 
 ## Créer le manuscrit {#make-the-manuscript}
 
-1. Vérifiez que votre [profil d’auteur](./characters-and-authors) contient
-   votre **Nom** (votre nom légal ; **Nom de plume / signature** est ce que
-   voient les lecteurs), votre adresse postale, votre e-mail et votre
-   téléphone. La première page en a besoin, et l’onglet vous indique ce qui
-   manque (**Ouvrir le profil d’auteur** vous y mène).
-2. Ouvrez la page **Exporter** du projet et choisissez **Agent ou éditeur**.
-3. Choisissez la **Police du manuscrit**, **Times New Roman** ou **Courier**, et
-   le **Papier**, **Letter** ou **A4**.
-4. Appuyez sur **Exporter en Word**, ou sur **Exporter en PDF** pour les agents
-   qui le demandent.
+1. Ouvrez votre [profil d’auteur](./characters-and-authors). Vérifiez qu’il
+   contient votre **Nom**, votre adresse postale, votre e-mail et votre
+   téléphone : la première page en a besoin. **Nom** est votre nom à l’état civil ;
+   **Nom de plume / signature** est le nom que voient les lecteurs.
+2. Ouvrez la page **Exporter** du projet.
+3. Choisissez **Agent ou éditeur**. S’il manque une coordonnée, l’onglet vous
+   indique laquelle. **Ouvrir le profil d’auteur** vous conduit au profil.
+4. Choisissez la **Police du manuscrit** : **Times New Roman** ou **Courier**.
+5. Choisissez le **Papier** : **Letter** ou **A4**.
+6. Appuyez sur **Exporter en Word**. Si l’agent demande un PDF, appuyez sur
+   **Exporter en PDF**.
 
-Consultez les consignes de chaque agent avant d’envoyer : la plupart veulent du
-Word, quelques-uns du PDF, et certains ne demandent que les premiers chapitres.
+Avant d’envoyer, lisez les consignes de chaque agent. La plupart veulent un
+fichier Word, quelques-uns un PDF, et certains ne demandent que les premiers
+chapitres.
 
 ## À quoi ressemble le manuscrit {#what-the-manuscript-looks-like}
 
-- **Première page :** votre nom et vos coordonnées en haut à gauche, le nombre
-  de mots (arrondi, comme l’attendent les agents) en haut à droite, puis le
-  titre et votre signature à mi-hauteur de la page.
-- **Les autres pages :** 12 pt, double interligne, marges d’un pouce,
-  paragraphes en retrait d’un demi-pouce, et « Nom / MOT-CLÉ / page » en haut à
-  droite. Le mot-clé est le premier mot important du titre, en capitales
-  (« The Weighing House » donne WEIGHING).
-- **Les chapitres** commencent sur une nouvelle page, au premier tiers.
-- **Les changements de scène** sont un `#` centré, et le manuscrit se termine
-  par END.
-- **L’italique reste en italique.** L’ancienne règle qui voulait qu’on le
-  souligne vient des machines à écrire ; les éditeurs d’aujourd’hui lisent
-  l’italique.
-- **Pas de couverture, pas de page de titre propre, pas de pièces liminaires.**
-  Rien non plus de la maquette du livre : un manuscrit est fait pour être
-  annoté.
+- **Première page :** votre nom et vos coordonnées figurent en haut à gauche.
+  Le nombre de mots est en haut à droite ; il est arrondi, comme les agents s’y
+  attendent. Le titre et votre signature se trouvent à mi-hauteur de la page.
+- **Pages suivantes :** texte en corps 12, double interligne, marges d’un
+  pouce. Chaque paragraphe commence par un retrait d’un demi-pouce. En haut à
+  droite, on lit « Nom de famille / MOT-CLÉ / page ». Le mot-clé est le premier
+  mot important du titre, en capitales : « The Weighing House » donne
+  WEIGHING.
+- **Les chapitres** commencent sur une nouvelle page, au tiers de sa hauteur.
+- **Les sauts de scène** sont marqués par un `#` centré. Le manuscrit se
+  termine par le mot END.
+- **L’italique reste en italique.** Souligner ce qui doit être en italique est
+  une vieille règle du temps des machines à écrire. Aujourd’hui, les éditeurs
+  lisent l’italique tel quel.
+- **Ni couverture, ni page de titre séparée, ni pages liminaires.** Le
+  manuscrit n’utilise pas non plus la maquette du livre. Il est sobre pour que
+  l’éditeur puisse l’annoter.
 
 ## Voir aussi {#see-also}
 
 - [Personnages et auteurs](./characters-and-authors) : le profil d’auteur.
-- [Partager une copie](./share-a-copy) : un fichier Word pour continuer à
-  éditer.
+- [Partager une copie](./share-a-copy) : un fichier Word que l’on peut
+  continuer à modifier.

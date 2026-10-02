@@ -5,23 +5,25 @@ description: A sheet for each person in your work, found anywhere with @, and au
 
 # Characters & authors
 
-**Characters** are the people in your work, each kept on a sheet, so that
-typing `@` finds them wherever you write. **Authors** are the names you
-publish under. An author profile signs your books: the byline, "About the
-author", and the contact details on a manuscript you send out.
+**Characters** are the people in your work. Each one has a sheet, and you
+can mention them in any document by typing `@`. **Authors** are the names
+you publish under. An author profile gives a book its byline and its
+"About the author" page. It also gives the contact details on a manuscript
+you send out.
 
 <img src="/img/app/characters-light.png" alt="A project's characters, with a shared one marked, and a character's sheet: name, username, aliases, the project it belongs to, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/characters-dark.png" alt="A project's characters, with a shared one marked, and a character's sheet: name, username, aliases, the project it belongs to, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Both live in **Write**, under **World** in the sidebar. `⌘K` finds a
-character by name from any mode, and goes to either list.
+Both are in **Write**, under **World** in the sidebar. From any mode, `⌘K`
+finds a character by name and opens either list.
 
 ## Add a character
 
 1. In **Write**, click **Characters** under **World**.
 2. Click **+** (**New character**).
-3. Fill in their sheet. Each field saves as you leave it.
-4. In any document, type `@` and the start of their name to mention them.
+3. Fill in the character's sheet. φ saves each field when you leave it.
+4. To mention the character, type `@` and the start of the name in any
+   document.
 
 ## A character's sheet
 
@@ -29,78 +31,92 @@ character by name from any mode, and goes to either list.
 | --- | --- |
 | **Name** | Their full name. |
 | **Username** | The `@handle`. |
-| **Aliases** | Other names, comma-separated. Each one works with `@`, and all lead back to the same person. |
+| **Aliases** | Other names, separated by commas. Each one works with `@`, and each one leads to the same character. |
 | **Belongs to** | **Every project** (shared), or the projects the character is in: one book, or several for a series. |
-| **Real person** | Tick it for someone real; **Role & traits** becomes **Details**. |
+| **Real person** | Tick it for someone real. **Role & traits** then becomes **Details**. |
 | **Role & traits** | A few lines on who they are. |
-| **Notes** | Background, appearance, arc, anything. |
-| **Linked from** | Every document that mentions them, with a count. Click one to open it. |
+| **Notes** | Background, appearance, how they change in the story, or anything else. |
+| **Linked from** | Every document that mentions them, with the number of mentions. Click one to open it. |
 | **Research** and **Notes** | Research pages and notes about them: **New research page**, **Link research…**, **New note about this** and **Link a note…** (see [Research](./research)). |
 
-**Delete**, at the foot of the sheet, moves the character to the trash. The
-list's search field matches names, usernames and aliases.
+**Delete**, at the bottom of the sheet, moves the character to the trash.
+
+The search field above the list of characters finds names, usernames and
+aliases.
 
 ## Keep each book's world apart
 
-A character belongs to the project you make them in. Open a project and
-choose **Characters** under it in the sidebar: its own characters come first,
-then the shared ones, marked **Shared**. Making a character there, or with
-`@` while you write one of its chapters, puts them in that project.
+A character belongs to the [project](./collections) where you make them.
+To see a project's characters, open the project and choose **Characters**
+under it in the sidebar. The project's own characters come first. The
+shared ones come after, marked **Shared**.
 
-- **A series:** on a character's sheet, **Belongs to** can tick several
-  projects, and they're in each one.
-- **Everyone:** choose **Every project** for people who belong to all your
-  work, such as real people or a recurring narrator.
-- **World → Characters** in the sidebar is still everyone in the vault.
-- Moving a project to another vault takes its own characters with it; one
-  it shares with other projects stays.
+A new character goes into that project when you make them in this list, or
+with `@` while you write one of the project's chapters.
+
+- **A series:** on the character's sheet, tick several projects under
+  **Belongs to**. The character is then in each of them.
+- **All your work:** choose **Every project** for someone who appears
+  everywhere, such as a real person or a narrator you use again.
+- **The whole vault:** **World → Characters** in the sidebar still lists
+  every character in the [vault](./vaults), the folder that holds your
+  writing.
+- **Moving a project:** when you move a project to another vault, its own
+  characters move with it. A character it shares with other projects stays.
 
 ## Mention a character
 
-Type `@` in a document and start a name. φ suggests the characters of the
-project you're writing in and the shared ones, once for
-their full name and once for each alias. It doesn't mind accents: "jose"
-finds José. Pick one and the mention goes in.
+1. In a document, type `@` and start typing a name. φ suggests characters
+   from the project you're writing in, and the shared ones.
+2. Pick a suggestion. φ puts the mention in the text.
 
-- A mention by full name follows the character if you rename them later.
+<img src="/img/app/mention-suggestions-light.png" alt="A chapter with an at sign and a letter typed, and the list of matching characters open" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/mention-suggestions-dark.png" alt="A chapter with an at sign and a letter typed, and the list of matching characters open" width="1600" height="1000" loading="lazy" decoding="async" />
+
+Each character appears in the suggestions once for the full name and once
+for each alias. You don't need to type accents: "jose" finds José.
+
+- If you mention a character by full name and rename the character later,
+  the mention changes too.
 - Click a mention to open the character's sheet.
-- Type a name nobody has yet, and the last suggestion is **New character**.
-  Pick it and φ makes the character and mentions them in one go.
+- If you type a name that no character has, the last suggestion is **New
+  character**. Pick it, and φ makes the character and adds the mention.
 
 In an export, a mention becomes plain text: the name or alias you chose,
-without the `@`. Morning pages have no `@` suggestions, to keep their page
-bare.
+without the `@`.
+
+Morning pages have no `@` suggestions.
 
 ## Make an author profile
 
 <img src="/img/app/authors-light.png" alt="An author profile: photo, name, pen name, email, website, bio, short bio, photo credit, and the postal address and phone for submissions" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/authors-dark.png" alt="An author profile: photo, name, pen name, email, website, bio, short bio, photo credit, and the postal address and phone for submissions" width="1600" height="1000" loading="lazy" decoding="async" />
 
-1. In **Write**, click **Authors** under **World**, then **+** (**New
-   author**).
-2. Fill in the profile. Each field saves as you leave it.
-3. Put the profile on a project: on the project's page, choose it under
-   **Settings** → **Author profile**, or add it under **Book details** →
+1. In **Write**, click **Authors** under **World**.
+2. Click **+** (**New author**).
+3. Fill in the profile. φ saves each field when you leave it.
+4. Add the profile to a project. On the project's page, choose it under
+   **Settings** → **Author profile**. Or add it under **Book details** →
    **People** (see [Book details](./book-details)).
 
 ## What each part of the profile signs
 
 | Field | Where it appears |
 | --- | --- |
-| **Name** | Your legal name. It heads the contact block on a manuscript's first page, and gives the surname in its running head. |
+| **Name** | Your legal name. It is the first line of the contact block on a manuscript's first page. Its surname goes in the manuscript's running head. |
 | **Pen name / byline** | The name on the book: the cover, the title page, the byline. Leave it empty if it's the same as your name. |
-| **Photo** | Click the square beside the name to add one. It goes with "About the author". **Remove photo** takes it away. |
+| **Photo** | Click the square beside the name to add one. It appears with "About the author". **Remove photo** removes it. |
 | **Photo credit** | Printed under the photo. |
 | **Bio** | "About the author" at the end of the book, from the first author's profile. |
-| **Short bio** | A line or two for the back cover. Without one, φ uses the first paragraph of **Bio**. |
+| **Short bio** | A line or two for the back cover. If it's empty, φ uses the first paragraph of **Bio**. |
 | **Email** and **Website** | Your email also goes in a manuscript's contact block. |
 | **Postal address** and **Phone** | Under **For submissions**: the rest of the contact block on a manuscript's first page. |
 | **Agent** | If you have an agent, their name, agency, address, phone and email, one per line. It replaces your own details on the manuscript's first page. |
 | **Other titles (the "Also by" page)** | Your other books, each with a year if you like. They make the "Also by" page at the end of a book. |
-| **Bylined on** | The projects that carry this byline. Click one to open it. |
+| **Bylined on** | The projects that use this profile. Click one to open it. |
 
-When you make a manuscript for an agent, the export tells you what the first
-page is missing and offers **Open the author profile** (see
+When you make a manuscript for an agent, the export tells you what is
+missing from the first page. It offers **Open the author profile** (see
 [Send to an agent or publisher](./send-to-an-agent)).
 
 **Delete** moves the profile to the trash.

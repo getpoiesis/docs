@@ -5,114 +5,128 @@ description: Téléchargez φ pour macOS, Windows ou Linux, et gardez-le à jour
 
 # Installer φ
 
-φ fonctionne sous macOS, Windows et Linux. La
-[page de téléchargement](https://getpoiesis.com/download) propose le fichier
-adapté à l’ordinateur depuis lequel vous la consultez, avec toutes les autres
-options à un clic. Une fois installé, φ vous prévient quand une nouvelle version
-est disponible.
+φ fonctionne sur macOS, Windows et Linux. Une fois installé, il vous prévient
+dès qu’une nouvelle version est disponible.
 
 ## Installer φ {#install-φ}
 
-1. Ouvrez la [page de téléchargement](https://getpoiesis.com/download) et
-   téléchargez le fichier proposé.
-2. Installez-le comme votre système le prévoit (voir ci-dessous).
-3. Ouvrez φ. Votre système l’affiche sous le nom **φ Poiesis** : taper
-   «  poiesis  » dans Spotlight ou le menu Démarrer le trouve donc.
-4. [Créez votre premier coffre](./getting-started).
+1. Ouvrez la [page de téléchargement](https://getpoiesis.com/download). Elle
+   vous propose le fichier qui convient à l’ordinateur que vous utilisez. Les
+   fichiers destinés aux autres systèmes se trouvent sur la même page.
+2. Téléchargez le fichier.
+3. Installez-le. Les étapes propres à votre système sont décrites plus bas.
+4. Ouvrez φ. Votre système l’affiche sous le nom **φ Poiesis**. Pour le
+   trouver, tapez « poiesis » dans Spotlight ou dans le menu Démarrer.
+5. [Créez votre premier coffre](./getting-started).
 
-## Ce qu’il vous faut {#what-you-need}
+## Configuration requise {#what-you-need}
 
 | Système | Version |
 | --- | --- |
-| **macOS** | 13 (Ventura) ou ultérieur, sur Apple Silicon ou Intel |
+| **macOS** | 13 (Ventura) ou version ultérieure, sur Apple Silicon ou Intel |
 | **Windows** | 10 ou 11, 64 bits |
 | **Linux** | Une distribution 64 bits récente. L’AppImage fonctionne presque partout ; le `.deb` est destiné à Debian et Ubuntu. |
 
 ## Sur un Mac {#on-a-mac}
 
-1. Téléchargez le `.dmg` adapté à votre Mac : **Apple Silicon** ou **Intel**.
-   Vous ne savez pas lequel ? Menu Pomme → **À propos de ce Mac** : une puce
-   nommée «  Apple M…  » est une Apple Silicon.
-2. Ouvrez le `.dmg` et glissez φ dans **Applications**.
-3. Ouvrez-le depuis Applications ou Spotlight.
+1. Téléchargez le `.dmg` qui correspond à votre Mac : **Apple Silicon** ou
+   **Intel**. Pour savoir lequel vous avez, ouvrez le menu Pomme et choisissez
+   **À propos de ce Mac**. Une puce dont le nom commence par « Apple M… » est
+   une puce Apple Silicon.
+2. Ouvrez le `.dmg`.
+3. Faites glisser φ dans **Applications**.
+4. Ouvrez φ depuis Applications ou Spotlight.
 
-Les versions Mac sont signées et notarisées par Apple : elles s’ouvrent donc
-sans l’avertissement «  développeur non identifié  ».
+Les versions pour Mac sont signées et notarisées par Apple. Elles s’ouvrent
+sans l’avertissement « développeur non identifié ».
 
-## Sous Windows {#on-windows}
+## Sur Windows {#on-windows}
 
-1. Téléchargez le programme d’installation (`.exe`) et lancez-le. Vous pouvez
-   choisir où φ est installé.
-2. φ n’est pas encore signé, donc Windows SmartScreen peut indiquer qu’il
-   provient d’un éditeur non reconnu. Cliquez sur **Informations
-   complémentaires**, puis sur **Exécuter quand même**. Vous n’avez à le faire
-   qu’une fois, et le téléchargement provient directement des versions publiées
-   par φ.
-3. Ouvrez φ depuis le menu Démarrer.
+1. Téléchargez le programme d’installation (`.exe`).
+2. Lancez-le. Vous pouvez choisir l’emplacement où φ sera installé.
+3. Windows SmartScreen peut vous signaler que φ provient d’un éditeur inconnu.
+   C’est parce que le code de φ n’est pas encore signé. Cliquez sur
+   **Informations complémentaires**, puis sur **Exécuter quand même**. Vous
+   n’aurez à le faire qu’une seule fois. Le fichier téléchargé provient
+   directement des versions publiées par φ.
+4. Ouvrez φ depuis le menu Démarrer.
 
-## Sous Linux {#on-linux}
+## Sur Linux {#on-linux}
 
-L’**AppImage** est le choix le plus simple et se met à jour toute seule. Le
-**`.deb`** s’intègre à Debian et Ubuntu, mais vous le mettez à jour en
-installant le `.deb` plus récent.
+Vous avez le choix entre deux fichiers :
 
-Pour l’AppImage, rendez le fichier exécutable, puis double-cliquez dessus :
+- L’**AppImage** est la solution la plus simple, et elle se met à jour toute
+  seule.
+- Le **`.deb`** s’installe comme les autres paquets Debian et Ubuntu. Pour le
+  mettre à jour, vous installez vous-même le `.deb` plus récent.
+
+**AppImage.** Rendez le fichier exécutable, puis double-cliquez dessus :
 
 ```bash
 chmod +x poiesis-*.AppImage
 ./poiesis-*.AppImage
 ```
 
-Ou faites un clic droit sur le fichier → **Propriétés** → **Permissions** →
-**Autoriser l’exécution du fichier comme un programme**.
+Vous pouvez aussi vous passer du terminal : faites un clic droit sur le
+fichier → **Propriétés** → **Permissions** → **Autoriser l’exécution du
+fichier comme un programme**.
 
-Pour le `.deb` :
+**`.deb`.** Installez-le avec la commande suivante :
 
 ```bash
 sudo dpkg -i poiesis-*.deb
 ```
 
-Ouvrez ensuite **φ Poiesis** depuis votre menu d’applications.
+Ouvrez ensuite **φ Poiesis** depuis le menu de vos applications.
 
 ## Garder φ à jour {#keep-φ-up-to-date}
 
-φ cherche une nouvelle version quelques secondes après son ouverture, puis
-toutes les six heures. Il n’en télécharge jamais une sans vous le demander.
-Quand une mise à jour existe, un petit bandeau vous le signale :
+φ vérifie s’il existe une nouvelle version quelques secondes après son
+ouverture, puis toutes les six heures. Il ne télécharge jamais de mise à jour
+sans vous demander votre accord. Quand une mise à jour existe, un petit
+bandeau apparaît :
 
-1. **Une nouvelle version (…) est disponible.** Cliquez sur **Télécharger**
-   quand cela vous convient.
-2. **Téléchargement de la mise à jour… %** indique où il en est.
-3. **La mise à jour … est prête à être installée.** Cliquez sur **Redémarrer et
-   installer**, ou fermez le bandeau et continuez : une mise à jour téléchargée
-   est installée la prochaine fois que vous quittez φ.
+1. Le bandeau indique **Une nouvelle version (…) est disponible.** Cliquez
+   sur **Télécharger** quand vous êtes prêt.
+2. Pendant le téléchargement, le bandeau affiche **Téléchargement de la mise
+   à jour… %**.
+3. Le bandeau indique **La mise à jour … est prête à être installée.**
+   Cliquez sur **Redémarrer et installer**. Vous pouvez aussi fermer le
+   bandeau et continuer à écrire : φ installera la mise à jour la prochaine
+   fois que vous le quitterez.
 
-Cela fonctionne sous macOS, sous Windows et avec l’AppImage Linux. Pour le
-`.deb`, téléchargez et installez vous-même la version plus récente.
+Cela fonctionne sur macOS, sur Windows et avec l’AppImage sur Linux. Si vous
+utilisez le `.deb`, téléchargez et installez vous-même la nouvelle version.
 
-Pour vérifier maintenant :
+Pour vérifier tout de suite si une mise à jour existe :
 
-- **Sur un Mac :** menu **φ Poiesis** → **Rechercher des mises à jour…**.
-- **Sous Windows et Linux :** appuyez sur `Ctrl+P` et lancez **Rechercher des
+- **Sur un Mac :** ouvrez le menu **φ Poiesis** et choisissez **Rechercher
+  des mises à jour…**.
+- **Sur Windows et Linux :** appuyez sur `Ctrl+P` et lancez **Rechercher des
   mises à jour…**.
 
-φ affiche **Recherche de mises à jour…**, puis vous propose la mise à jour,
-indique **φ est à jour.**, ou affiche **Impossible de rechercher des mises à
-jour.** quand il ne parvient pas à joindre le serveur de téléchargement, par
-exemple quand vous êtes hors ligne.
+φ affiche **Recherche de mises à jour…**. Trois cas sont ensuite possibles :
 
-:::note Encore en 0.8.2 ou antérieure ? Téléchargez φ à nouveau
+- φ vous propose la mise à jour.
+- φ indique **φ est à jour.**
+- φ indique **Impossible de rechercher des mises à jour.** Cela signifie
+  qu’il n’arrive pas à joindre le serveur de téléchargement, par exemple
+  parce que vous êtes hors ligne.
 
-La version 0.9.0 a changé la façon dont votre système identifie φ, ce qui a
-cassé la mise à jour qu’une copie plus ancienne vous proposerait : elle
-continuera de dire qu’elle est à jour. Téléchargez la version actuelle depuis
-la [page de téléchargement](https://getpoiesis.com/download) et installez-la
-par-dessus celle que vous avez. Vous n’avez à le faire qu’une fois.
+:::note Encore en version 0.8.2 ou antérieure ? Téléchargez φ à nouveau
 
-Vos coffres, réglages, dictionnaires et historique ne sont pas touchés. Sur un
-Mac, macOS redemande une fois l’accès au dossier où se trouve votre coffre.
-Sous Windows, le nouveau φ apparaît comme un programme distinct : désinstallez
-donc l’ancien depuis **Ajouter ou supprimer des programmes**.
+La version 0.9.0 a modifié la façon dont votre système identifie φ. De ce
+fait, les versions 0.8.2 et antérieures ne peuvent plus se mettre à jour
+toutes seules : elles continuent d’indiquer que φ est à jour. Téléchargez la
+version actuelle depuis la [page de téléchargement](https://getpoiesis.com/download)
+et installez-la par-dessus celle que vous avez. Vous n’aurez à le faire
+qu’une seule fois.
+
+Vos coffres, vos réglages, vos dictionnaires et votre historique ne sont pas
+modifiés. Sur un Mac, macOS vous redemande une fois l’accès au dossier où se
+trouve votre coffre. Sur Windows, le nouveau φ apparaît comme un programme
+distinct : désinstallez donc l’ancien depuis **Ajouter ou supprimer des
+programmes**.
 
 :::
 

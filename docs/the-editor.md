@@ -5,124 +5,161 @@ description: The page you write on, the selection toolbar, the slash menu and th
 
 # The editor
 
-The page is where you write, and φ keeps it quiet: a title, your words, and
-a few controls that appear only when you reach for them. Everything else
-about a document waits in its menus and its Info panel until you need it.
+The editor is the page where you write. It shows a title, your text, and a
+few buttons. Everything else about a document is in its menus and in its
+Info panel.
 
 <img src="/img/app/editor-light.png" alt="A chapter open on the page, with the project's chapters in the list beside it and the page's buttons at the top right" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/editor-dark.png" alt="A chapter open on the page, with the project's chapters in the list beside it and the page's buttons at the top right" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Write something
 
-1. Press `⌘N` for a new document, or pick one in the list.
-2. Type a title at the top. It's the document's name everywhere: in the
-   list, in search and in links.
-3. Write below it. φ saves as you go.
-4. Type `/` on an empty line for a heading, a list, a quote or any other
+1. Press `⌘N` to make a new document, or click a document in the list.
+2. Type a title at the top. The title is the document's name in the list,
+   in search and in links.
+3. Write your text below the title. φ saves it for you.
+4. Type `/` on an empty line to add a heading, a list, a quote or another
    block.
-5. Select words for the toolbar: bold, italic, a link, a highlight, a
-   comment.
+5. Select some words to show the toolbar. It has bold, italic, link,
+   highlight and comment.
+
+As you type, φ corrects your punctuation. Straight quotes become curly
+quotes, two hyphens become a dash, and three dots become an ellipsis.
 
 ## The buttons above the page
 
-At the top right of the page sit a few buttons:
+These buttons are at the top right of the page:
 
 | Button | What it does |
 | --- | --- |
 | **Split view** (`⌘\`) | Opens a second pane beside the page. See [Side by side](./side-by-side). |
-| **⋮** | The document's menu, below. |
-| **Details…** (ⓘ) | The document's status, synopsis, word goal, tags, colour, star, and where it lives. |
-| **Info** (`⌘⇧I`) | The Info panel: **Outline**, **Links**, **Notes**, **Tasks** and **History**. |
-| **Sanctuary** (`⌘.`) | Everything but the page goes away. See [Focus & Sanctuary](./focus-and-writing-modes). |
+| **⋮** | Opens the document's menu, described below. |
+| **Details…** (ⓘ) | Shows the document's status, synopsis, word goal, tags, colour and star, and where the document is kept. |
+| **Info** (`⌘⇧I`) | Opens the Info panel. It has five parts: **Outline**, **Links**, **Notes**, **Tasks** and **History**. |
+| **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes). |
 
-The word count sits in the page's bottom-right corner, shown against the
-goal when the document has one. Click it to open the Info panel's
-**Outline**, with the words and the reading time; click it again for the
-document's full statistics. Notes don't show a count, since a note isn't
-written towards a length.
+The word count is in the bottom-right corner of the page. If the document
+has a word goal, the count is shown next to the goal.
+
+- Click the word count once to open **Outline** in the Info panel. It shows
+  the number of words and the reading time.
+- Click it again to see all the document's statistics.
+
+Notes do not show a word count.
 
 ## Saving
 
-You never have to save. φ saves a moment after you stop typing. Each save
-is written to a temporary file, read back to check it, and only then put in
-place, so a crash or a full disk can't leave a document half-written.
+You do not need to save. φ saves a moment after you stop typing.
 
-`⌘S` saves at once and also records a version you can go back to. To name
-a version, use **Save version…** (`⌘⇧S`). See
-[Versions & backup](./versions-and-backup).
+φ saves carefully. It writes each save to a temporary file, reads the file
+back to check it, and only then replaces the document. If the app crashes or
+the disk is full, your document is not left half-written.
+
+- Press `⌘S` to save immediately. This also records a version that you can
+  return to later.
+- Choose **Save version…** (`⌘⇧S`) to give the version a name.
+
+See [Versions & backup](./versions-and-backup).
 
 ## Format a selection
 
-Select some text and a small toolbar floats above it:
+Select some text. A small toolbar appears above it, with these buttons:
+
+<img src="/img/app/selection-toolbar-light.png" alt="A few words selected in a chapter, with the toolbar above them and its extra tools showing" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/selection-toolbar-dark.png" alt="A few words selected in a chapter, with the toolbar above them and its extra tools showing" width="1600" height="1000" loading="lazy" decoding="async" />
 
 - **Bold** (`⌘B`), **Italic** (`⌘I`) and **Underline** (`⌘U`).
-- **Heading**: makes the line a heading, or text again.
+- **Heading**: changes the line to a heading, or back to normal text.
 - **Link**: asks for a web address.
-- **Highlight & comment** (the colour swatch): a colour, a **Custom colour**,
-  or **Remove highlight**.
-- **Comment (no highlight)**: a comment on the words without colouring them.
+- **Highlight & comment** (the colour swatch): choose a colour, a **Custom
+  colour**, or **Remove highlight**.
+- **Comment (no highlight)**: adds a comment to the words without colouring
+  them.
 
-**More tools** (› at the end) opens the rest: **Strikethrough**, **Inline
-code**, **Align left**, **Align center**, **Align right**, **Justify**,
-**Look up word** (the [dictionary](./dictionary)) and **Save selection as
-template…**.
+Click **More tools** (› at the end of the toolbar) for the other tools:
+**Strikethrough**, **Inline code**, **Align left**, **Align center**,
+**Align right**, **Justify**, **Look up word** (opens the
+[dictionary](./dictionary)) and **Save selection as template…**.
 
-Highlights and comments are kept as [annotations](./annotations). `Esc`
-dismisses the toolbar. It stays away in read mode and on morning pages.
+φ keeps highlights and comments as [annotations](./annotations).
+
+Press `Esc` to hide the toolbar. The toolbar does not appear in read mode or
+on morning pages.
 
 ## Insert a block
 
-Type `/` and a word to narrow the menu, then press `Enter`. A space closes
-the menu, so type one word: `/heading`, `/quote`, `/table`, `/image`,
-`/date`, `/scene`, `/verse`, `/footnote`. Your own
-[templates](./templates) are in the menu too, by name.
+A block is a piece of the page that is not plain text, such as a heading, a
+quote, a table or a picture.
 
-You can also point at the left edge of a line and click the **+** that
-appears (**Insert block below (/)**).
+<img src="/img/app/slash-menu-light.png" alt="A chapter with a slash typed on an empty line and the block menu open" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/slash-menu-dark.png" alt="A chapter with a slash typed on an empty line and the block menu open" width="1600" height="1000" loading="lazy" decoding="async" />
 
-The menu offers what fits where you are:
+1. Type `/`. A menu of blocks opens.
+2. Type one word to shorten the menu, for example `/heading`, `/quote`,
+   `/table`, `/image`, `/date`, `/scene`, `/verse` or `/footnote`. Do not
+   type a space, because a space closes the menu.
+3. Press `Enter`.
+
+Your own [templates](./templates) are also in the menu, under their names.
+
+You can also use the mouse. Point at the left edge of a line and click the
+**+** that appears (**Insert block below (/)**).
+
+The menu changes with the kind of document you are in:
 
 | Where | What the menu offers |
 | --- | --- |
 | **A chapter, poem or essay in a project** | Everything, including **Verse**, **Scene break**, **Epigraph**, **Pull-quote**, **Drop cap**, **Footnote**, **Citation**, **Bibliography** and **Table of contents**. |
 | **A note, or a piece outside a project** | Everything except those manuscript blocks. |
-| **A journal entry** | Headings, lists, quotes, pictures and dates; no callouts, tables or code. |
-| **Morning pages** | No menu: the text alone. |
+| **A journal entry** | Headings, lists, quotes, pictures and dates. No callouts, tables or code. |
+| **Morning pages** | No menu. Morning pages are text only. |
 
-Checklists (**Task List**) are offered in Notes and on research pages. To
-offer them in another mode, open **Settings → Setup → Modes** and turn on
-**Checklists** for it. A block already in a document always shows,
-wherever the document lives.
+A [project](./collections) is a book or other long work made of several
+documents.
 
-Every block, and how to insert it, is in
-[Formatting & blocks](./formatting-and-blocks).
+The menu offers checklists (**Task List**) in Notes and on research pages.
+To have checklists in another mode, open **Settings → Setup → Modes** and
+turn on **Checklists** for that mode.
+
+A block that is already in a document always shows, even if the menu in
+that document does not offer it.
+
+[Formatting & blocks](./formatting-and-blocks) lists every block and how to
+insert it.
 
 ## The document's ⋮ menu
 
-The **⋮** above the page holds what you do to the document as a whole:
+Click **⋮** above the page. This menu has the commands for the whole
+document:
 
 - **Star**, **Add to board…** and **Set word goal**.
-- **Move to Write's pieces** or **Move to Notes**, for a document outside a
-  project.
+- **Move to Write's pieces** or **Move to Notes**. These appear for a
+  document that is not in a project.
 - **Details…**, **Split view** and **Open beside…**.
-- The Info panel's parts: **Outline**, **Links and backlinks**, **Notes**
-  and **Version history**; **Save version…** and **Open dictionary**
-  (`⌘⇧D`).
+- **Outline**, **Links and backlinks**, **Notes** and **Version history**.
+  Each one opens that part of the Info panel.
+- **Save version…** and **Open dictionary** (`⌘⇧D`).
 - **Read mode**, **Typewriter scrolling**, **Sanctuary** and **Check
   spelling…**.
-- Every format the document can be exported as, **Save a Copy (`.poiesis`
-  with images)…** and **Move to vault…**.
+- Every format you can export the document to.
+- **Save a Copy (`.poiesis` with images)…** and **Move to vault…**. A
+  [vault](./vaults) is the folder where φ keeps your documents.
 - **Move to trash**.
 
-A morning page has **Seal day** in place of the star and the board.
+On a morning page, the menu has **Seal day** in place of **Star** and
+**Add to board…**.
 
-Right-click in the text for spelling suggestions, cut, copy and paste, and
-then **Outline**, **Wiki links**, **Annotations** and **Version history**.
+There is a second menu. Right-click in the text to see spelling
+suggestions, cut, copy and paste, followed by **Outline**, **Wiki links**,
+**Annotations** and **Version history**.
 
 ## Move between documents
 
-There are no tabs. Open a document from the list, from a link, or with
-`⌘K`, which lists the documents you have open under **Open now**.
+φ has no tabs. You can open a document in three ways:
+
+- Click it in the list.
+- Click a link to it.
+- Press `⌘K`. The documents you have open are listed under **Open now**.
 
 | To | Do this |
 | --- | --- |
@@ -133,13 +170,14 @@ There are no tabs. Open a document from the list, from a link, or with
 
 ## Read without editing
 
-**Read mode** (`⌘E`, or **View → Reading Mode**) makes the page read-only,
-so you can go through a draft without stray keystrokes. A plain click
-follows a link; while you're editing, hold `⌘` and click. Press `⌘E` again
-to write.
+In **Read mode** you can read the document but not change it. Use it to
+read a draft without typing in it by accident.
 
-As you type, φ sets your punctuation for you: straight quotes become curly,
-two hyphens a dash, three dots an ellipsis.
+- Press `⌘E`, or choose **View → Reading Mode**, to turn read mode on.
+- Press `⌘E` again to go back to writing.
+
+In read mode, click a link to follow it. While you are editing, hold `⌘`
+and click the link.
 
 ## See also
 

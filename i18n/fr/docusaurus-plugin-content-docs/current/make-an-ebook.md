@@ -5,54 +5,64 @@ description: Un EPUB pour Apple Books, Kindle, Kobo et Google Play.
 
 # Créer un livre numérique
 
-L’onglet **Livre numérique** crée un EPUB, le fichier qu’accepte chaque
-librairie numérique : Apple Books, Kindle (KDP), Kobo et Google Play. Il
-contient votre couverture, les pages propres au livre et une table des matières
-que les applications de lecture savent utiliser, le tout composé dans la même
-maquette que le livre imprimé.
+Pour vendre ou partager votre livre en version numérique, il vous faut un
+fichier EPUB. Toutes les librairies en ligne l’acceptent : Apple Books, Kindle
+(KDP), Kobo et Google Play. Vous le créez dans l’onglet **Livre numérique** de
+la page **Exporter** du projet.
+
+L’EPUB contient votre couverture, les pages propres au livre et une table des
+matières dont se servent les applications de lecture. Il reprend la maquette du
+livre imprimé.
 
 ## Créer le fichier {#make-the-file}
 
-1. Ouvrez la page **Exporter** du projet et choisissez **Livre numérique**.
-2. Choisissez la **Maquette**. C’est la même que celle du livre imprimé : les
-   deux concordent.
-3. Lisez la vérification, et corrigez ce qu’elle signale.
-4. Choisissez **Aperçu**, puis **Livre numérique**, pour le feuilleter comme le
-   ferait une application de lecture.
-5. Appuyez sur **Exporter l’EPUB** et choisissez où l’enregistrer.
+1. Ouvrez la page **Exporter** du projet.
+2. Choisissez **Livre numérique**.
+3. Choisissez la **Maquette**. Le livre imprimé utilise la même : les deux
+   versions sont donc assorties.
+4. Lisez la vérification. Elle dresse la liste de ce qu’il faut corriger avant
+   d’exporter. Corrigez chaque point.
+5. Choisissez **Aperçu**, puis **Livre numérique**. Le livre s’affiche comme
+   dans une application de lecture.
+6. Appuyez sur **Exporter l’EPUB**.
+7. Choisissez où enregistrer le fichier.
 
-## En quoi un livre numérique diffère de l’imprimé {#how-an-ebook-differs-from-print}
+## Ce qui distingue un livre numérique d’un livre imprimé {#how-an-ebook-differs-from-print}
 
-Les lecteurs choisissent leur taille de texte, leur police et leur écran : un
-livre numérique **se recompose**. Il n’y a ni pages fixes, ni numéros de page,
-ni titres courants. Ce que la maquette transmet, c’est tout ce qui n’est pas la
-page :
+Dans un livre numérique, c’est le lecteur qui choisit la taille du texte, la
+police et l’écran. Le texte **se recompose** donc : il s’adapte à l’écran,
+quel qu’il soit. Un livre numérique n’a ni pages fixes, ni numéros de page, ni
+titres courants.
+
+Voici ce qui est conservé de la maquette :
 
 - les polices, que φ intègre au fichier ;
-- l’ouverture des chapitres : le numéro et le titre du chapitre ensemble, puis
-  une lettrine ou les premiers mots en petites capitales ;
+- l’ouverture des chapitres : le numéro et le titre ensemble, puis une
+  lettrine ou les premiers mots en petites capitales ;
 - l’ornement entre les scènes ;
-- la page de titre, la page de copyright, la dédicace, l’épigraphe et « À
-  propos de l’auteur ».
+- la page de titre, la page de copyright, la dédicace, l’épigraphe et la page
+  « À propos de l’auteur ».
 
-## Ce que regardent les librairies {#what-the-stores-look-for}
+## Ce que vérifient les librairies {#what-the-stores-look-for}
 
-La vérification couvre ce pour quoi les librairies refusent un livre :
+Une librairie peut refuser un livre s’il lui manque quelque chose. La
+vérification contrôle les points suivants :
 
-- **Une couverture.** Les librairies présentent le livre avec elle. Elle doit
-  mesurer au moins 1600 pixels sur son grand côté ; 2560, c’est l’idéal.
-  Définissez-la en haut de la page du projet.
-- **Des descriptions pour les images** (texte alternatif), pour les lecteurs
-  qui ne peuvent pas les voir.
-- **Un ISBN**, si vous en avez un pour le livre numérique : ajoutez-le dans
-  **ISBN (numérique)** dans les [Détails du livre](./book-details). KDP et
-  Google Play n’en ont pas besoin.
+- **Une couverture.** Les librairies l’affichent dans leur catalogue. Son grand
+  côté doit mesurer au moins 1600 pixels ; l’idéal est 2560. Vous la
+  définissez en haut de la page du projet.
+- **Une description pour chaque image** (texte alternatif). Elle est destinée
+  aux lecteurs qui ne peuvent pas voir les images.
+- **Un ISBN**, si vous en avez un pour le livre numérique. Saisissez-le dans
+  **ISBN (numérique)**, dans les [Détails du livre](./book-details). KDP et
+  Google Play n’en exigent pas.
 
-L’EPUB est vérifié selon la norme EPUB au moment où il est créé.
+Pendant qu’il crée le fichier, φ vérifie aussi que l’EPUB respecte la norme
+EPUB.
 
 ## Voir aussi {#see-also}
 
-- [Aperçu](./preview) : feuilletez le livre numérique sur un téléphone, une
+- [Aperçu](./preview) : pour voir le livre numérique sur un téléphone, une
   tablette ou un écran.
 - [Maquettes et ajustements](./designs)
 - [Imprimer un livre](./print-a-book)

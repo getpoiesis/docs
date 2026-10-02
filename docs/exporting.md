@@ -5,26 +5,33 @@ description: Where your work can go from φ, and how to get it there.
 
 # How exporting works
 
-φ turns a project into the files the world takes: a print-ready book and its
-cover, an ebook, a manuscript for an agent, or a copy to share. Start with
-where the book is going, and φ shows only what that destination needs.
+Exporting makes a file from your writing that you can use outside φ. From a
+project, such as a book, φ can make:
+
+- a print-ready book and its cover;
+- an ebook;
+- a manuscript for an agent or publisher;
+- a copy to share.
+
+First you say where the book is going. Then φ shows only the choices that
+destination needs.
 
 <img src="/img/app/export-light.png" alt="The Export tab of a book: the four destinations, the design and trim size, the check, and the export buttons" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/export-dark.png" alt="The Export tab of a book: the four destinations, the design and trim size, the check, and the export buttons" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Export a project
 
-1. Open the project in **Write**, then choose **Export** under it in the
-   sidebar.
-2. Pick where it's going: **Print book**, **Ebook**, **Agent or publisher** or
+1. Open the project in **Write**.
+2. Choose **Export** under the project in the sidebar.
+3. Pick the destination: **Print book**, **Ebook**, **Agent or publisher** or
    **Share a copy**.
-3. Make the few choices that tab asks for. φ checks the book as you go and
-   lists anything to fix.
-4. Choose **Preview** to see every page before you export, if you like.
-5. Press the export button and choose where to save the file.
+4. Make the choices that the tab asks for. φ checks the book while you choose
+   and lists anything you need to fix.
+5. If you want to see every page first, choose **Preview**.
+6. Press the export button and choose where to save the file.
 
-Everything is made on your computer, and exporting never changes your
-documents, so you can export as often as you like.
+φ makes every file on your computer. Exporting never changes your documents,
+so you can export as often as you like.
 
 ## The four destinations
 
@@ -39,46 +46,63 @@ documents, so you can export as often as you like.
 
 ## Check before you export
 
-While you set things up, φ builds the book in the background without saving
-anything, and the tab says what it found:
+While you make your choices, φ builds the book in the background. It does not
+save anything. The tab then shows what φ found:
 
 - the page count and spine width, for a printed book;
-- anything to fix, such as a missing cover, cover art too small to print
+- anything to fix. Examples: a missing cover, cover art too small to print
   sharply, a picture with no description, or contact details missing from
   your author profile;
 - or **Nothing to fix: it's ready.**
 
-Some notes are only for your information, like a spine too narrow for its
-title. Things that would spoil a published file (a missing picture, say) stop
-the export until they're fixed.
+There are two kinds of notes:
+
+- Some notes are only for your information. Example: the spine is too narrow
+  to show the title. You can still export.
+- Some problems would spoil a published file. Example: a missing picture.
+  You cannot export until you fix these.
 
 ## The book's own pages
 
-The title page, copyright page, dedication, epigraph, "Also by" page and
-"About the author" come from your project, not from typing them into a
-document:
+These pages are the title page, the copyright page, the dedication, the
+epigraph, the "Also by" page and "About the author". You do not type them in
+a document. φ makes them from what you enter in the project:
 
-- the cover and description are set at the top of the project's page;
-- everything else is in [Book details](./book-details) on the same page;
-- "About the author" comes from the first author's [profile](./characters-and-authors).
+- You set the cover and the description at the top of the project's page.
+- Everything else is in [Book details](./book-details), on the same page.
+- "About the author" comes from the first author's
+  [profile](./characters-and-authors).
 
 ## Export a single document
 
-To export one document rather than a whole project, open it and use the
-command palette (`⌘P`, **Export document as…**) or the document's **⋮** menu.
-The formats are PDF, Word, Markdown, an HTML page, an HTML fragment (just the
-body, for pasting into a site), Rich Text, plain text and TextPack.
+To export one document and not a whole project:
 
-**Copy as Markdown** (in the command palette and the document's menu) puts the
-document's text, or your selection, on the clipboard as Markdown, without a
-title or front matter.
+1. Open the document.
+2. Press `⌘P` and choose **Export document as…**, or open the document's
+   **⋮** menu.
+3. Choose a format.
 
-Links between your own documents (`[[wiki links]]`) leave as plain text in
-every format: a reader without your vault has nothing to follow.
+The formats are:
+
+- PDF
+- Word
+- Markdown
+- an HTML page
+- an HTML fragment (only the body, for pasting into a website)
+- Rich Text
+- plain text
+- TextPack
+
+**Copy as Markdown** copies the document's text, or your selection, to the
+clipboard as Markdown. The copy has no title and no front matter. You find
+this command in the command palette (`⌘P`) and in the document's **⋮** menu.
+
+Links between your own documents (`[[wiki links]]`) become plain text in
+every format. A reader outside your vault could not follow them.
 
 ## See also
 
 - [Preview](./preview): every page before you export.
-- [Designs & adjusting them](./designs): how the book is set.
-- [Book details](./book-details): what the title and copyright pages carry.
+- [Designs & adjusting them](./designs): how the book looks.
+- [Book details](./book-details): what the title and copyright pages show.
 - [Importing](./importing): bringing work into φ.

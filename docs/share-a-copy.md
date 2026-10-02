@@ -5,39 +5,53 @@ description: A PDF to read, Word to keep editing, a web page, Markdown, Rich Tex
 
 # Share a copy
 
-Not every export is for a store. **Share a copy** makes a file to read, send
-to a friend, keep editing elsewhere, or put away: the whole project in the
-format that suits.
+**Share a copy** makes one file that holds the whole project. Use it when the
+file is not for a store: to read it, to send it to a friend, to edit it in
+another app, or to keep a copy.
 
 ## Make a copy
 
-1. Open the project's **Export** page and choose **Share a copy**.
-2. Under **Options**, choose the **Style** and the **Paper**, if the defaults
-   don't suit.
-3. Press the format you want and choose where to save it.
+1. Open the project's **Export** page.
+2. Choose **Share a copy**.
+3. Under **Options**, choose a **Style** and a **Paper**. You can skip this
+   step and keep the defaults.
+4. Press the format you want.
+5. Choose where to save the file.
 
 | Format | Good for |
 | --- | --- |
-| **PDF** | Reading on screen or printing at home: the cover, the book's own pages, contents, footnotes at the foot of their page, and no blank pages. |
-| **Word** | Sending to an editor or a reader who comments in Word, still editable. |
-| **Web page** | One HTML file with the whole work in it, styles and pictures included, to open in a browser or put on a site. |
-| **Markdown** | Anywhere that takes plain text, with chapters and numbering kept. |
-| **Rich Text** | Opens formatted in TextEdit, Pages and every version of Word, and in submission portals that refuse `.docx`. |
-| **Project copy** | Everything as φ keeps it, to move this work to another vault or to put it away. |
+| **PDF** | Reading on screen or printing at home. It has the cover, the book's own pages, a contents list, and footnotes at the foot of their page. It has no blank pages. |
+| **Word** | Sending to an editor or a reader who comments in Word. The text can still be edited. |
+| **Web page** | One HTML file with the whole work in it, styles and pictures included. Open it in a browser or put it on a site. |
+| **Markdown** | Any app that takes plain text. Chapters and numbering are kept. |
+| **Rich Text** | TextEdit, Pages and every version of Word open it with its formatting. Use it for submission websites that refuse `.docx`. |
+| **Project copy** | Everything as φ keeps it. Use it to move the project to another [vault](./vaults) or to store it. |
 
 ## Styles and paper
 
-A shared copy uses a **style** rather than a book design: **As it looks in
-φ** (the default: your editor's font, with book margins), **Standard
-manuscript**, **Paperback**, **Poetry** or **Academic paper**, or one of your
-own ([Custom styles](./custom-styles)). The **Paper** sets the page size
-of the PDF: Letter, A4, A5, Digest or Trade. The other formats reflow.
+A shared copy uses a **style**, not a book design. The styles are:
+
+- **As it looks in φ** (the default): your editor's font, with book margins;
+- **Standard manuscript**;
+- **Paperback**;
+- **Poetry**;
+- **Academic paper**;
+- any style you made yourself ([Custom styles](./custom-styles)).
+
+**Paper** sets the page size of the PDF: Letter, A4, A5, Digest or Trade. The
+other formats have no fixed pages, so **Paper** does not change them.
 
 ## Bringing a copy back
 
-A **Project copy** is a `.poiesis` file with the project, its documents and
-its pictures in it. To open it in another vault, use **Import a φ document
-(`.poiesis`)…** in the command palette ([Importing](./importing)).
+A **Project copy** is a `.poiesis` file. It holds the project, its documents
+and its pictures.
+
+To open it in another vault:
+
+1. Open the command palette (`⌘P`).
+2. Choose **Import a φ document (`.poiesis`)…**.
+
+[Importing](./importing) has more.
 
 ## See also
 

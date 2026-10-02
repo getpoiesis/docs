@@ -6,8 +6,9 @@ description: Choose where your writing lives, and write your first page.
 # Your first vault
 
 A **vault** is a folder on your computer that holds your writing: every
-document, the pictures in them, and their history. φ asks for one the first
-time it opens. After that you can start writing straight away.
+document, the pictures in your documents, and the history of your changes.
+φ asks you for a vault the first time it opens. After that, you can start
+writing.
 
 <img src="/img/app/home-light.png" alt="Write's Home, where a vault opens: the chapter to continue, the project in progress, recent pieces and research, and today's figures beside the month" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/home-dark.png" alt="Write's Home, where a vault opens: the chapter to continue, the project in progress, recent pieces and research, and today's figures beside the month" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -19,44 +20,56 @@ time it opens. After that you can start writing straight away.
 2. Choose **Create a vault**. Your system's folder picker opens.
 3. Pick a folder, or make a new one, such as `Documents/Writing`.
 4. If macOS asks whether φ may use files in that folder, click **Allow**.
-5. φ opens the vault on **Write**'s Home.
 
-**Open a folder** works the same way for a folder you already have. A folder
-that's already a vault opens as it is. Any other folder becomes one: φ adds
-what it needs beside your files and changes nothing that's there.
+φ opens the vault on the Home screen of **Write**, the mode for your
+manuscripts.
+
+To use a folder you already have, choose **Open a folder** instead. The
+steps are the same.
+
+- If the folder is already a vault, φ opens it as it is.
+- If it is any other folder, φ makes it a vault. φ adds the files it needs
+  and does not change the files that are already there.
 
 ## What's in a new vault
 
-A new vault comes with two things to start from:
+A new vault has two documents to start from:
 
-- **Welcome to φ**, a short guide, under **Pieces** in Write.
-- **The Grey Morning**, a sample project of two chapters with a cover, an
+- **Welcome to φ** is a short guide. It is under **Pieces** in Write.
+- **The Grey Morning** is a sample project. It has two chapters, a cover, an
   epigraph, footnotes and a scene break. Open it from **Projects** in the
-  sidebar and press **Export** under it to see how φ sets a book.
+  sidebar. Then click **Export** under it to see how φ lays out a book.
 
-Read them, keep them, or move them to the **Trash** whenever you like.
+You can read them, keep them, or move them to the **Trash** at any time.
 
 ## If φ can't see your folder
 
-When a vault is in **Documents**, **Desktop**, **Downloads** or **iCloud
-Drive**, macOS asks once whether φ may use it. If access was refused, φ says
-**φ can't read this folder** instead of showing an empty vault. Click **Allow
-access…**, choose the vault's folder, and your documents come back. You can
-also allow it in **System Settings → Privacy & Security → Files and Folders**.
+**φ can't read this folder.** macOS asks once whether φ may use a vault that
+is in **Documents**, **Desktop**, **Downloads** or **iCloud Drive**. If the
+answer was no, φ shows this message. It does not show an empty vault. To fix
+it:
 
-If the folder has been moved or renamed, or is on a drive that isn't
-connected, φ says **This folder isn't there any more**.
+1. Click **Allow access…**.
+2. Choose the vault's folder.
+
+Your documents appear again. You can also give access in **System Settings →
+Privacy & Security → Files and Folders**.
+
+**This folder isn't there any more.** φ shows this message when the folder
+was moved or renamed, or when it is on a drive that isn't connected.
 
 ## Write your first page
 
-1. In **Write**, choose **Pieces** in the sidebar.
-2. Press the **+** at the top of the list (**New piece**), or `⌘N`.
-3. Type a title, then click into the page below it and write.
+1. In **Write**, choose **Pieces** in the sidebar. A piece is writing that
+   is not in a project.
+2. Click the **+** at the top of the list (**New piece**), or press `⌘N`.
+3. Type a title.
+4. Click the page below the title and write.
 
-There's no save button to look for: φ saves as you type. `⌘S` saves straight
-away if you want to be sure.
+There is no save button. φ saves as you type. To save at once, press `⌘S`.
 
-`⌘N` (**File → New Document**) makes the next thing where you are:
+`⌘N` (**File → New Document**) makes a different kind of document in each
+part of φ:
 
 | Where you are | What `⌘N` makes |
 | --- | --- |
@@ -67,27 +80,31 @@ away if you want to be sure.
 
 ## Try a few things
 
-- **Select some text** for the formatting toolbar: bold, italic, underline,
-  heading, link, **Highlight & comment** and **Comment (no highlight)**.
-  **More tools** at its end opens the rest, including **Look up word**. See
-  [The editor](./the-editor).
-- **Type `/`** at the start of a line for the block menu: headings, lists,
-  quotes, scene breaks, epigraphs and more. See
+- **Select some text.** The formatting toolbar appears: bold, italic,
+  underline, heading, link, **Highlight & comment** and **Comment (no
+  highlight)**. **More tools**, at the end of the toolbar, opens the other
+  tools, including **Look up word**. See [The editor](./the-editor).
+- **Type `/`** at the start of a line. The block menu opens: headings,
+  lists, quotes, scene breaks, epigraphs and more. See
   [Formatting & blocks](./formatting-and-blocks).
-- **Type `[[`** to link to another document by name. See
+- **Type `[[`** to link to another document by its name. See
   [Links & the graph](./links-and-graph).
-- **Start a project** with **New project** under **Projects** in the
+- **Start a project.** Click **New project** under **Projects** in the
   sidebar. See [Projects](./collections).
 
 ## Open another vault
 
-You can keep several vaults, one per book if you like. Click the vault's name
-at the top of the sidebar: it lists your vaults and offers **Open another
-vault…** and **New vault…**. **File → Switch Vault…** (`⌥⌘O`) switches from
-the keyboard. See [Vaults](./vaults).
+You can have several vaults, for example one for each book.
 
-Because a vault is an ordinary folder, any backup you already use (Time
-Machine, a synced folder, a copy on an external drive) protects it.
+1. Click the vault's name at the top of the sidebar. A menu lists your
+   vaults.
+2. Choose a vault, **Open another vault…** or **New vault…**.
+
+From the keyboard, press `⌥⌘O` (**File → Switch Vault…**). See
+[Vaults](./vaults).
+
+A vault is an ordinary folder. Any backup you already use protects it: Time
+Machine, a synced folder, or a copy on an external drive.
 
 ## See also
 

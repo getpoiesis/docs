@@ -5,32 +5,34 @@ description: Books, parts and chapters, front and end matter, word goals, and th
 
 # Projects
 
-A **project** gathers your pieces into one ordered work: a novel, a book of
-poems, a set of essays. It keeps the order, the parts, the numbering, the
-cover and the word goal, and it's what φ exports as a book.
+A **project** is one work made of several documents in a fixed order: a
+novel, a book of poems, a set of essays. The project keeps the order, the
+parts, the numbering, the cover and the word goal. A project is also what
+φ exports as a book.
 
 <img src="/img/app/manuscript-light.png" alt="A project open in Write: its parts and chapters in the list, and its page with the cover, title, author, progress and settings" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/manuscript-dark.png" alt="A project open in Write: its parts and chapters in the list, and its page with the cover, title, author, progress and settings" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Start a project
 
-1. In **Write**, click **New project** at the foot of **Projects** in the
+1. In **Write**, click **New project** at the bottom of **Projects** in the
    sidebar.
-2. Give it a title. The project opens on its own page, with its outline in
-   the list beside it.
+2. Type a title. The project's page opens, and the list beside it shows
+   the project's outline.
 3. Click **+** at the top of the list and choose **New chapter** (`⌘N`).
-4. On the project's page, under **Settings**, set its **Type**, its
-   **Author profile** and its **Word goal**.
+4. On the project's page, under **Settings**, set the **Type**, the
+   **Author profile** and the **Word goal**.
 
-On a vault with nothing in it yet, Write's Home offers **Start a project**
-instead: pick **Novel**, **Poetry**, **Essays** or **Other**, then press the
-**Create** button.
+If your [vault](./vaults) (the folder that holds your writing) is still
+empty, Write's Home shows **Start a project** instead. Pick **Novel**,
+**Poetry**, **Essays** or **Other**, then press **Create**.
 
 ## Choose what kind of work it is
 
-A project's **Type** sets what φ calls the things inside it, and how it
-exports. Change it any time on the project's page; nothing you've written
-changes, only the names.
+A project's **Type** sets the names φ uses for the documents and groups in
+the project. It also sets how the project exports. You can change the type
+at any time on the project's page. Only the names change. Your writing
+stays the same.
 
 | Type | Made of | Grouped into |
 | --- | --- | --- |
@@ -42,13 +44,13 @@ changes, only the names.
 | **Journal** | Entries | Groups |
 | **Custom** | Sections | Groups |
 
-On this page, *chapter* and *part* stand for whatever your project's type
-calls them. A collection of poems has a page of its own:
+This page says *chapter* and *part* for all types. Read them as the names
+your project's type uses. For a project of poems, see also
 [Poetry & verse](./poetry).
 
 ## Find your way around a project
 
-Click a project in the sidebar to open it. Its pages appear under it:
+Click a project in the sidebar to open it. These pages appear under it:
 
 | Page | What's there |
 | --- | --- |
@@ -60,106 +62,123 @@ Click a project in the sidebar to open it. Its pages appear under it:
 | **Read** | The manuscript in order, read-only: as **Prose**, or as a **Book** with its contents. |
 | **Export** | The printed book, the ebook, the manuscript for an agent ([How exporting works](./exporting)). |
 
-While a project is open, the list beside the page shows its outline: every
-chapter with its number and synopsis, grouped under its parts, with the
-words written against the goal at the top. Right-click the project in the
-sidebar for the same pages, **Icon…**, **Colour**, **Move to vault…** (when
-you have more than one vault) and **Delete project…**.
+While a project is open, the list beside the page shows its outline. The
+outline has every chapter under its part, with the chapter's number and
+synopsis. At the top, it shows the words you have written and the word
+goal.
+
+Right-click the project in the sidebar to get the same pages in a menu.
+The menu also has **Icon…**, **Colour**, **Delete project…** and, when you
+have more than one vault, **Move to vault…**.
 
 ## Add chapters and parts
 
-- **+** at the top of the list: **New chapter** (`⌘N`) or **New part**
-  (`⇧⌘N`), added at the end.
-- A chapter's **⋮** in the list: **Add chapter below**, **Add part below**,
-  **Rename**, **Duplicate**, **Details…**, **Front / back matter**, **Move to
-  top**, **Move to bottom** and **Remove from project**.
+- Click **+** at the top of the list and choose **New chapter** (`⌘N`) or
+  **New part** (`⇧⌘N`). φ adds it at the end.
+- Click a chapter's **⋮** in the list for more commands: **Add chapter
+  below**, **Add part below**, **Rename**, **Duplicate**, **Details…**,
+  **Front / back matter**, **Move to top**, **Move to bottom** and
+  **Remove from project**.
 - A part's **⋮** also has **New chapter inside**.
 
 From the keyboard:
 
 | To | Press |
 | --- | --- |
-| Rename the open chapter | `↵` (`↵` keeps, `Esc` cancels) |
+| Rename the open chapter | `↵`, then `↵` again to save the new name or `Esc` to cancel |
 | Move a chapter up or down | `⌥↑` / `⌥↓` |
 | Open the chapter before or after | `⌥⌘←` / `⌥⌘→` |
 | Rename a part | Double-click its name |
 
-Drag rows in the list to reorder them, or into and out of a part.
+To change the order, drag a row in the list. You can also drag a chapter
+into a part or out of it.
 
 ## Arrange the contents
 
 **Contents** shows the work in three regions: **Front matter**, **The
-work** and **End matter**. Each row has its number, title, synopsis,
-status, words, and a ring for how far along it is: its word goal, or its
-status when it has no goal.
+work** and **End matter**. Each row shows the chapter's number, title,
+synopsis, status and words. A ring shows the chapter's progress toward its
+word goal. If the chapter has no goal, the ring shows its status.
 
-- **Drag a row** to move it, into a part or between regions.
-- **Collapse a part** with its caret, and rename it by typing in its name.
-- A row's **⋯** moves it into a part, counts it as a chapter or not,
-  duplicates it, or removes it from the project.
-- **Add chapter** and **Add a part** are at the foot.
+<img src="/img/app/project-contents-light.png" alt="A project's Contents page: front matter, then the parts and chapters with their word counts and progress" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/project-contents-dark.png" alt="A project's Contents page: front matter, then the parts and chapters with their word counts and progress" width="1600" height="1000" loading="lazy" decoding="async" />
 
-You never type a chapter number. φ works out "Part II" and "Chapter 7" from
-where each one sits, so moving anything renumbers everything at once.
+- Drag a row to move it, into a part or to another region.
+- Click a part's caret to collapse the part.
+- Type in a part's name to rename it.
+- Open a row's **⋯** to move the row into a part, count it as a chapter or
+  not, duplicate it, or remove it from the project.
+- Use **Add chapter** and **Add a part** at the bottom to add new ones.
+
+You never type a chapter number. φ gives each one its number, such as
+"Part II" or "Chapter 7", from its place in the order. When you move a
+chapter or a part, φ renumbers all of them.
 
 ## Front and end matter
 
-A dedication, a prologue, an appendix: some pages of a book aren't
-chapters. Drag one into **Front matter** or **End matter** on Contents, or
-choose **Front / back matter** from its **⋮** in the list, or tick **Leave
-out of the numbering** in its **Details**. It takes no number, so your
-first real chapter is still Chapter 1, in the outline, the reading view and
-every export.
+Some pages of a book are not chapters: a dedication, a prologue, an
+appendix. There are three ways to mark a document as one of these:
 
-The book's title page, copyright page and "Also by" page aren't documents
-at all: φ makes them from the project's [Book details](./book-details).
+- On **Contents**, drag it into **Front matter** or **End matter**.
+- In the list, open its **⋮** and choose **Front / back matter**.
+- In its **Details**, tick **Leave out of the numbering**.
+
+The document then has no number. Your first real chapter is still
+Chapter 1 in the outline, in the reading view and in every export.
+
+The book's title page, copyright page and "Also by" page are not
+documents. φ makes them from the project's [Book details](./book-details).
 
 ## Set word goals
 
-- **For the whole project**: **Word goal** under **Settings** on the
-  project's page. The sidebar, the top of the list and Write's Home show how
-  far you've come.
-- **For one chapter**: **Word goal** in its **Details**, or **Set word
-  goal** in the document's ⋮ menu. Its ring on Contents and its count in the
-  corner of the page follow it.
+- **For the whole project:** on the project's page, set **Word goal**
+  under **Settings**. The sidebar, the top of the list and Write's Home
+  show your progress.
+- **For one chapter:** set **Word goal** in its **Details**, or choose
+  **Set word goal** in the document's ⋮ menu. The chapter's ring on
+  Contents and the word count in the corner of the page show its progress.
 
-You can follow a chapter's goal and the book's at the same time.
+A chapter can have its own goal while the project has one too.
 
 ## The project's page
 
-Click the project's name in the sidebar for its page:
+Click the project's name in the sidebar to open its page. It has:
 
-- **The cover**: click it to add or change it (**Add a cover**, **Change
-  cover**). **Remove cover** is the small bin beside it.
-- **The title**: click it to rename the project.
-- **The byline**: opens the author profile, or offers **New author
-  profile** when there's none.
-- **The description**: a few lines about the work.
-- **Progress**: words against the goal, and how many chapters, parts and
-  statuses there are.
-- **Settings**: **Type**, **Author profile** and **Word goal**. Click one
+- **The cover.** Click it to add or change it (**Add a cover**, **Change
+  cover**). The small bin beside it is **Remove cover**.
+- **The title.** Click it to rename the project.
+- **The byline.** Click it to open the author profile. If the project has
+  no author profile, it offers **New author profile**.
+- **The description.** A few lines about the work.
+- **Progress.** The words written and the goal, the number of chapters and
+  parts, and how many chapters have each status.
+- **Settings.** **Type**, **Author profile** and **Word goal**. Click one
   to change it.
-- **Book details**: what the book's own pages carry
-  ([Book details](./book-details)).
-- **Research** and **Notes**: what's linked to the project, with **New
-  research page**, **Link research…**, **New note about this** and **Link a
-  note…**.
-- **Go to**: **Contents**, the chapters board, and **Export**.
+- **Book details.** The information for the title page, the copyright page
+  and similar pages ([Book details](./book-details)).
+- **Research** and **Notes.** The research pages and notes linked to the
+  project, with **New research page**, **Link research…**, **New note
+  about this** and **Link a note…**.
+- **Go to.** Links to **Contents**, the chapters board, and **Export**.
 - **Delete this project…**
 
 ## Add a piece you've already written
 
-- Right-click a piece in the list and choose **Add to project** (or
-  **Move to project**), then the project.
-- Or open its **Details** and choose the project from **Add it to a
+A piece is a document in Write that is not in any project (see
+[Organizing your work](./organizing)). There are two ways to add one:
+
+- Right-click the piece in the list, choose **Add to project** (or **Move
+  to project**), then choose the project.
+- Open the piece's **Details** and choose the project from **Add it to a
   project…**.
 
-A note goes into a project once it's a piece: choose **Move to Write's
-pieces** from its ⋮ menu first.
+A note must become a piece before you can add it to a project. Choose
+**Move to Write's pieces** from the note's ⋮ menu first.
 
 ## Put a project away
 
-A finished book, or one you've set aside, doesn't need to sit in the sidebar.
+You can hide a project from the sidebar without deleting it, for example
+when the book is finished or you have stopped working on it.
 
 1. Right-click the project in the sidebar (or open its **⋮**).
 2. Choose **Put away**.
@@ -167,23 +186,26 @@ A finished book, or one you've set aside, doesn't need to sit in the sidebar.
 <img src="/img/app/put-away-light.png" alt="The sidebar's Projects with the Put away line open, showing Low Water, and that project's page" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/put-away-dark.png" alt="The sidebar's Projects with the Put away line open, showing Low Water, and that project's page" width="1600" height="1000" loading="lazy" decoding="async" />
 
-It folds into a quiet **Put away** line at the foot of **Projects**. Click
-that line to see your put-away projects, and **Bring back** (same menu)
-returns one. Nothing in it changes, and ⌘K still finds it. When every
-chapter of a project is marked final, its page offers to put it away; φ
-never does it for you.
+The project moves to the **Put away** line at the bottom of **Projects**.
+Click that line to see the projects you have put away. To return one to
+the sidebar, open the same menu and choose **Bring back**.
+
+Putting a project away changes nothing inside it, and `⌘K` still finds it.
+
+When every chapter of a project has the status Final, the project's page
+offers to put it away. φ never puts a project away without you.
 
 ## Remove or delete
 
-**Remove from project** takes a chapter out of the project after asking.
-Removing a part takes out everything in it. Either way the documents stay
-in your vault, as pieces.
+**Remove from project** takes a chapter out of the project. φ asks you
+first. If you remove a part, φ also removes everything in the part. In
+both cases the documents stay in your vault, as pieces.
 
 :::note Deleting a project keeps its documents
-**Delete project…** (from the right-click menu) or **Delete this
-project…** (on its page) asks first, then removes the project and nothing
-else. Every chapter stays in your vault, and the project goes to the
-trash, where you can restore it.
+**Delete project…** (in the right-click menu) and **Delete this project…**
+(on the project's page) ask you first. Then φ deletes only the project.
+Every chapter stays in your vault. The project goes to the trash, and you
+can restore it from there.
 :::
 
 ## See also

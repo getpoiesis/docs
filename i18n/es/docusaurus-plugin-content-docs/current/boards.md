@@ -1,146 +1,180 @@
 ---
 title: Tableros
-description: Columnas de tarjetas para lo que hay que hacer, con listas de tareas en tus notas que van al paso con ellas.
+description: Columnas de tarjetas para lo que tienes pendiente, sincronizadas con las listas de tareas de tus notas.
 ---
 
 # Tableros
 
-Un **tablero** son columnas de tarjetas: los trabajos que le quedan a un libro,
-los hilos que retomar, cualquier cosa que quieras mantener en movimiento. Una
-tarjeta puede llevar una fecha de vencimiento, una prioridad, una lista de
-comprobación y enlaces a tus documentos. Un elemento de una lista de tareas en
-una nota también puede vivir en un tablero, y al marcarlo en un sitio se mueve
-en el otro.
+Un **tablero** es un conjunto de columnas con tarjetas. Cada tarjeta es una
+cosa por hacer. Usa un tablero para el trabajo que le queda a un libro, o
+para cualquier otra cosa que quieras seguir de cerca.
 
-<img src="/img/app/boards-light.png" alt="El Tablero de The Weighing House: sus tableros listados al lado, y su tablero de producción con columnas To do, Drafting, Revising y Done llenas de tarjetas con fechas de vencimiento, prioridades y capítulos enlazados" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/boards-dark.png" alt="El Tablero de The Weighing House: sus tableros listados al lado, y su tablero de producción con columnas To do, Drafting, Revising y Done llenas de tarjetas con fechas de vencimiento, prioridades y capítulos enlazados" width="1600" height="1000" loading="lazy" decoding="async" />
+Una tarjeta puede tener fecha de vencimiento, prioridad, una lista de
+comprobación y enlaces a tus documentos. También puedes llevar a un tablero
+una tarea de la lista de una nota. A partir de ahí, la tarea y su tarjeta
+cambian a la vez: marcas la tarea y la tarjeta se mueve.
+
+<img src="/img/app/boards-light.png" alt="El Tablero de The Weighing House: a un lado, la lista de sus tableros; en la página, su tablero de producción, con las columnas To do, Drafting, Revising y Done y tarjetas con fechas de vencimiento, prioridades y capítulos enlazados" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/boards-dark.png" alt="El Tablero de The Weighing House: a un lado, la lista de sus tableros; en la página, su tablero de producción, con las columnas To do, Drafting, Revising y Done y tarjetas con fechas de vencimiento, prioridades y capítulos enlazados" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Crear un tablero {#make-a-board}
 
-1. En Notas, abre **Tableros** en **Lugares** de la barra lateral. En Escribir,
-   abre el proyecto para el que es el tablero y elige **Tablero** debajo de él.
-2. Pulsa **Nuevo tablero de tareas** o **Nuevo tablero personalizado** (en un
-   proyecto, el **+** de la lista → **Nuevo tablero de tareas para este
-   proyecto**).
+1. Ve al lugar de los tableros:
+   - En Notas, abre **Tableros**, en **Lugares** de la barra lateral.
+   - En Escribir, abre el [proyecto](./collections) al que va destinado el
+     tablero y elige **Tablero** debajo de él.
+2. Pulsa **Nuevo tablero de tareas** o **Nuevo tablero personalizado**. En
+   un proyecto, haz clic en el **+** de la lista y luego en **Nuevo tablero
+   de tareas para este proyecto**.
 3. Ponle nombre al tablero.
-4. Pulsa **Añadir tarjeta** al pie de una columna y escribe lo que hay que
-   hacer.
+4. Pulsa **Añadir tarjeta**, al final de una columna, y escribe lo que
+   tienes que hacer.
 
-| Tipo | Columnas | Úsalo para |
+Hay dos tipos de tablero:
+
+| Tipo | Columnas | Para qué sirve |
 | --- | --- | --- |
-| **Tablero de tareas** | **Por hacer**, **En curso**, **Hecho** | Cosas por terminar. La primera columna significa por hacer, la última hecho, y todo lo que queda en medio está en curso. Solo un tablero de tareas puede seguir elementos de listas de tareas. |
-| **Tablero personalizado** | **Columna 1**, **Columna 2**, **Columna 3** | Cualquier otra cosa. Las columnas significan lo que tú las llames. |
+| **Tablero de tareas** | **Por hacer**, **En curso**, **Hecho** | Para cosas que hay que terminar. La primera columna significa «por hacer» y la última, «hecho». Todas las columnas intermedias significan «en curso». Solo un tablero de tareas puede seguir las tareas de una lista. |
+| **Tablero personalizado** | **Columna 1**, **Columna 2**, **Columna 3** | Para todo lo demás. Tú pones nombre a las columnas y decides qué significan. |
 
-El **+** en lo alto de la lista de Tableros también crea un tablero de tareas,
-y el **⋮** de la lista tiene **Nuevo tablero personalizado**.
+El **+** que hay al principio de la lista Tableros también crea un tablero
+de tareas. En el **⋮** de la lista está **Nuevo tablero personalizado**.
 
 ## Qué tableros ves {#which-boards-you-see}
 
-Los tableros viven donde está su trabajo:
-
-- **En Escribir**, un tablero pertenece a un proyecto y vive bajo él: abre el
-  proyecto y elige **Tablero**. No hay un lugar Tableros en la barra lateral de
-  Escribir; lo abras desde donde lo abras (⌘K, el enlace de una tarjeta,
-  **Vence esta semana** en Inicio), un tablero de un proyecto se abre en su
-  proyecto.
-- **En Notas**, **Tableros** en **Lugares** guarda los tableros que no
+- **En Escribir**, cada tablero pertenece a un proyecto. Abre el proyecto y
+  elige **Tablero**. La barra lateral de Escribir no tiene un lugar
+  Tableros. El tablero de un proyecto se abre siempre dentro de su proyecto,
+  aunque lo abras desde `⌘K`, desde el enlace de una tarjeta o desde **Vence
+  esta semana**, en Inicio.
+- **En Notas**, **Tableros**, en **Lugares**, reúne los tableros que no
   pertenecen a ningún proyecto.
 
-Sin ningún tablero abierto, la página muestra cada tablero como un mosaico: sus
-columnas y cuántas tarjetas hay abiertas. Haz clic en uno para abrirlo.
+Si no hay ningún tablero abierto, la página muestra cada tablero como una
+ficha, con sus columnas y su número de tarjetas abiertas. Haz clic en una
+ficha para abrir el tablero.
 
-## Trabajar con tarjetas {#work-with-cards}
+## Trabajar con las tarjetas {#work-with-cards}
 
-Arrastra las tarjetas entre columnas, y hacia arriba y abajo. Haz clic en una
-tarjeta para abrirla:
+Arrastra una tarjeta para pasarla a otra columna, o para subirla o bajarla
+dentro de la suya. Haz clic en una tarjeta para abrirla. Una tarjeta abierta
+tiene estos campos:
 
-| Campo | Qué guarda |
+<img src="/img/app/board-card-light.png" alt="Una tarjeta de tablero abierta, con sus notas, lista de comprobación, capítulo enlazado, fecha límite, prioridad y etiqueta" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/board-card-dark.png" alt="Una tarjeta de tablero abierta, con sus notas, lista de comprobación, capítulo enlazado, fecha límite, prioridad y etiqueta" width="1600" height="1000" loading="lazy" decoding="async" />
+
+| Campo | Qué contiene |
 | --- | --- |
-| **Título** y **Notas** | Lo que hay que hacer, y una descripción. |
-| **Lista de comprobación** | Pasos: escribe uno y pulsa Retorno. |
+| **Título** y **Notas** | Lo que tienes que hacer y una descripción. |
+| **Lista de comprobación** | Los pasos. Escribe un paso y pulsa `Intro`. |
 | **Enlazado a** | Documentos, personajes y proyectos. Haz clic en un enlace para abrirlo. |
-| **Columna** | Dónde está la tarjeta. |
-| **Vence** | Una fecha. La tarjeta aparece ese día en el [calendario](./calendar), y en **Vence esta semana** en el Inicio de Escribir. |
+| **Columna** | La columna en la que está la tarjeta. |
+| **Vence** | Una fecha. Ese día, la tarjeta aparece en el [calendario](./calendar) y, en el Inicio de Escribir, en **Vence esta semana**. |
 | **Recordar** | Una fecha y una hora. |
 | **Prioridad** | **Baja**, **Normal**, **Alta** o **Urgente**. |
 | **Etiqueta** | Un color, o **Sin etiqueta**. |
 
-**Archivar tarjeta** la guarda sin eliminarla. **Eliminar tarjeta** la mueve a
-la papelera; **Restaurar**, allí, la devuelve a su columna.
+Hay dos formas de retirar una tarjeta del tablero:
 
-## Ordenar las columnas {#arrange-the-columns}
+- **Archivar tarjeta** la oculta, pero no la elimina.
+- **Eliminar tarjeta** la envía a la papelera. Con **Restaurar**, en la
+  papelera, vuelve a su columna.
 
-- **Renombrar**: haz clic en el nombre de una columna y escribe.
-- **Color**: haz clic en el punto junto al nombre, o **Sin color**.
-- **Mover**: arrastra una columna por su asa. En un tablero de tareas el orden
-  es el significado: primero lo pendiente y al final lo hecho.
-- **Añadir**: **Añadir columna**, al final de las columnas o en el **⋮** del
-  tablero.
-- **Quitar**: la **×** de una columna vacía. Mueve antes sus tarjetas. Un
-  tablero de tareas conserva al menos dos columnas.
+## Organizar las columnas {#arrange-the-columns}
 
-## Mantener ordenado un tablero {#keep-a-board-tidy}
+- **Cambiar el nombre**: haz clic en el nombre de la columna y escribe.
+- **Color**: haz clic en el punto que hay junto al nombre y elige un color,
+  o **Sin color**.
+- **Mover**: arrastra la columna por su asa. En un tablero de tareas el
+  orden importa: la primera columna es «por hacer» y la última, «hecho».
+- **Añadir**: elige **Añadir columna**, al final de las columnas o en el
+  **⋮** del tablero.
+- **Quitar**: haz clic en la **×** de una columna vacía. Si la columna tiene
+  tarjetas, muévelas antes. Un tablero de tareas conserva siempre dos
+  columnas como mínimo.
 
-La cabecera del tablero muestra cuántas tarjetas hay abiertas, un campo
-**Buscar una palabra…** y **Mostrar archivadas**. Su **⋮** tiene:
+## Mantener el tablero despejado {#keep-a-board-tidy}
 
-- **Ocultar lo hecho**: mantiene fuera de la vista las tarjetas de la última
-  columna.
-- **Archivar lo terminado**: guarda de una vez todas las tarjetas de la última
-  columna. Las tarjetas archivadas dejan de mostrarse y de contar, pero siguen
-  en el archivo del tablero. **Mostrar archivadas** las trae de vuelta,
-  tachadas, y **Devolver al tablero** en una tarjeta la recupera.
+La cabecera del tablero muestra el número de tarjetas abiertas, el campo
+**Buscar una palabra…** y **Mostrar archivadas**.
+
+El **⋮** del tablero contiene:
+
+- **Ocultar lo hecho**: oculta las tarjetas de la última columna.
+- **Archivar lo terminado**: archiva de una vez todas las tarjetas de la
+  última columna.
 - **Añadir columna**.
-- **Ajustes del tablero**: el **Nombre** del tablero; su **Proyecto**, o
-  **Independiente** para mostrarlo en Notas; sus columnas; y **Eliminar
-  tablero**, que lo mueve a la papelera.
+- **Ajustes del tablero**: aquí puedes cambiar el **Nombre** del tablero, su
+  **Proyecto** (elige **Independiente** para que el tablero se muestre en
+  Notas) y sus columnas. **Eliminar tablero** envía el tablero a la
+  papelera.
 
-## Seguir en un tablero un elemento de una lista de tareas {#track-a-checklist-item-on-a-board}
+Las tarjetas archivadas no se muestran ni se cuentan, pero siguen en el
+archivo del tablero. **Mostrar archivadas** las vuelve a mostrar, tachadas.
+Para devolver al tablero una tarjeta archivada, ábrela y elige **Devolver al
+tablero**.
 
-1. En una nota, escribe un elemento de lista de tareas: teclea `[]` o usa
-   `/checklist`.
-2. Abre el panel de información (`⇧⌘I`) y elige **Tareas**. Aparece cada
-   elemento de lista de tareas de la nota.
-3. Pulsa **Seguir** junto a uno y elige un tablero de tareas, o crea uno.
+## Seguir en un tablero una tarea de una lista {#track-a-checklist-item-on-a-board}
 
-La tarjeta enlaza de vuelta a la nota, y las dos van a la par: marca el
-elemento y la tarjeta pasa a la última columna; mueve la tarjeta y el elemento
-la sigue. Un elemento con una lista anidada se la lleva consigo, como la lista
-de comprobación de la tarjeta.
+1. En una nota, empieza una lista de tareas: escribe `[]` o usa `/checklist`.
+2. Abre el [panel de Información](./finding-your-way#the-info-panel)
+   (`⇧⌘I`) y elige **Tareas**. Ahí están todas las tareas de la nota.
+3. Pulsa **Seguir** junto a una tarea. Elige un tablero de tareas o crea
+   uno nuevo.
 
-El Inicio de Notas lista las **Acciones pendientes** de tus tableros de Notas,
-con un enlace a **Todos los tableros**.
+φ crea una tarjeta que enlaza con la nota. Desde ese momento, la tarea y la
+tarjeta cambian a la vez:
+
+- Si marcas la tarea, la tarjeta pasa a la última columna.
+- Si mueves la tarjeta, la tarea cambia en consecuencia.
+
+Si la tarea tiene debajo una lista anidada, esa lista se convierte en la
+lista de comprobación de la tarjeta.
+
+El Inicio de Notas muestra las **Acciones pendientes** de los tableros de
+Notas, con un enlace a **Todos los tableros**.
 
 :::note
 
-Las listas de tareas nuevas se pueden empezar en notas y páginas de
-investigación. Para empezarlas también en Escribir o en Diario, abre **Ajustes →
-Ajustes de escritura**, busca el modo en **Modos** y activa **Listas de
-tareas**. Un documento que ya tiene una lista de tareas siempre la conserva.
+Puedes empezar listas de tareas nuevas en las notas y en las páginas de
+investigación. Para empezarlas también en Escribir o en Diario, abre
+**Ajustes → Ajustes de escritura**, busca el modo en **Modos** y activa
+**Listas de tareas**. Un documento que ya tiene una lista de tareas la
+conserva siempre.
 
 :::
 
-## Poner un documento entero en un tablero {#put-a-whole-document-on-a-board}
+## Llevar un documento entero a un tablero {#put-a-whole-document-on-a-board}
 
-Abre el **⋮** del documento → **Añadir al tablero…** (también al pie de la
-pestaña **Esquema** del panel de información). Dale un título a la tarjeta y
-elige un tablero de tareas. La tarjeta enlaza al documento, y los
-**Detalles…** del documento listan la tarjeta.
+1. Haz clic en el **⋮** del documento y luego en **Añadir al tablero…**. El mismo comando está al final de la pestaña **Esquema** del panel de Información.
+2. Ponle título a la tarjeta.
+3. Elige un tablero de tareas.
+
+La tarjeta enlaza con el documento, y la página **Detalles…** del documento
+muestra la tarjeta.
 
 ## El tablero de capítulos de un proyecto {#a-projects-chapter-board}
 
-Cada proyecto tiene un tablero que nunca tienes que mantener. Abre el proyecto y
-elige **Tablero** debajo de él en la barra lateral. La lista junto a la página
-muestra los tableros del proyecto: primero sus capítulos (o poemas), **Por
-estado**, y luego cada tablero creado para el proyecto. El tablero de capítulos
-muestra los capítulos como tarjetas en columnas de estado, **Pendiente**,
-**Borrador**, **Revisado** y **Final**; arrastra una tarjeta y el estado del
-capítulo cambia. Elige otro tablero en la lista y ocupa la página; sus tarjetas
-se abren ahí mismo.
+Cada proyecto tiene un tablero que φ crea por ti. Muestra los capítulos del
+proyecto como tarjetas, en cuatro columnas de estado: **Pendiente**,
+**Borrador**, **Revisado** y **Final**. Si arrastras una tarjeta a otra
+columna, cambia el estado del capítulo.
+
+<img src="/img/app/chapter-board-light.png" alt="El tablero de capítulos de un proyecto, con los capítulos como tarjetas en una columna por estado" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/chapter-board-dark.png" alt="El tablero de capítulos de un proyecto, con los capítulos como tarjetas en una columna por estado" width="1600" height="1000" loading="lazy" decoding="async" />
+
+Para abrirlo, abre el proyecto y elige **Tablero** debajo de él, en la barra
+lateral.
+
+La lista que hay junto a la página muestra los tableros del proyecto.
+Primero va el tablero de capítulos (o de poemas), **Por estado**. Después
+van los tableros que hayas creado para el proyecto. Haz clic en un tablero
+de la lista para verlo en la página. Sus tarjetas se abren en esa misma
+página.
 
 ## Ver también {#see-also}
 
-- [Notas y captura](./notes)
-- [El calendario](./calendar): las fechas de vencimiento, por día.
+- [Notas e ideas al vuelo](./notes)
+- [El calendario](./calendar): las fechas de vencimiento, día a día.
 - [Proyectos](./collections)
-- [Organizar](./organizing): restaurar desde la papelera.
+- [Organizar](./organizing): cómo restaurar desde la papelera.

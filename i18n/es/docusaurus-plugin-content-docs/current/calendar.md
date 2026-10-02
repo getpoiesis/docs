@@ -1,96 +1,118 @@
 ---
 title: El calendario
-description: Tu escritura ordenada por días, con tu racha, el año de un vistazo y lo que hiciste en esta fecha en años anteriores.
+description: Lo que has escrito, día por día, con tu racha, el año de un vistazo y lo que hiciste en esta misma fecha otros años.
 ---
 
 # El calendario
 
-El calendario muestra tu escritura a lo largo del tiempo. Cada día lleva lo que
-escribiste, empezaste o enlazaste a él, los días en que escribiste quedan
-marcados, y desde cualquier día pasado puedes abrir su trabajo o empezar a
-escribir en él. También te devuelve lo que hiciste en esta misma fecha en años
-anteriores.
+El calendario muestra lo que has escrito, día por día. Te sirve para ver qué
+días escribiste, para abrir lo que escribiste un día pasado o para escribir la
+entrada del diario de ese día. También te enseña lo que hiciste en esa misma
+fecha otros años.
 
-<img src="/img/app/calendar-light.png" alt="El calendario: las cifras del mes, la racha y las marcas en la lista, un mapa de calor de los meses pasados sobre la cuadrícula del mes, y el día seleccionado con Escribir este día" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/calendar-dark.png" alt="El calendario: las cifras del mes, la racha y las marcas en la lista, un mapa de calor de los meses pasados sobre la cuadrícula del mes, y el día seleccionado con Escribir este día" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-light.png" alt="El calendario: las cifras del mes, la racha y las marcas en la lista; un mapa de calor de los últimos meses sobre la cuadrícula del mes, y el día seleccionado con Escribir este día" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/calendar-dark.png" alt="El calendario: las cifras del mes, la racha y las marcas en la lista; un mapa de calor de los últimos meses sobre la cuadrícula del mes, y el día seleccionado con Escribir este día" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Vuelve a un día {#look-back-at-a-day}
 
 1. Haz clic en **Calendario**, bajo **Lugares**, en la barra lateral.
-2. Muévete entre meses con las flechas junto al nombre del mes; **Hoy** te
-   devuelve al actual.
-3. Haz clic en un día. Todo lo que está ligado a él aparece bajo la cuadrícula.
-4. Haz clic en un elemento para abrirlo, o pulsa **Escribir este día** para
-   escribir la entrada de diario de ese día.
+2. Cambia de mes con las flechas que hay junto al nombre del mes. **Hoy** te
+   devuelve al mes actual.
+3. Haz clic en un día. Debajo de la cuadrícula del mes aparece todo lo que
+   corresponde a ese día.
+4. Haz clic en un elemento para abrirlo. O pulsa **Escribir este día** para
+   escribir la entrada del diario de ese día.
 
-El calendario también está en `⌘K` (escribe «Calendario»), en el menú **⋮** de
-la lista del Diario y detrás de la tarjeta del mes en el Inicio de cada modo:
-haz clic en un día ahí para abrirlo aquí. `⌘[` te devuelve a donde estabas.
+También puedes abrir el calendario de estas maneras:
 
-## Qué muestra la lista a su lado {#what-the-list-beside-it-shows}
+- Pulsa `⌘K` y escribe «Calendario».
+- Abre el menú **⋮** de la lista del Diario.
+- Haz clic en un día de la tarjeta del mes, en el Inicio de cualquier modo. El
+  calendario se abre en ese día.
+
+Pulsa `⌘[` para volver adonde estabas.
+
+## Qué muestra la lista de al lado {#what-the-list-beside-it-shows}
+
+Es la lista que queda junto al calendario (consulta
+[Un recorrido por la ventana](./finding-your-way)).
 
 | Sección | Qué contiene |
 | --- | --- |
-| **Mostrar** | **Todo**, **Escribir**, **Notas**, **Diario** o **Vence**. Limita el calendario a los documentos de un modo, o a las tarjetas de tablero que vencen. |
-| El nombre del mes | Las palabras que has escrito este mes, cuántos días de escritura y cuántos días de esta semana escribiste. Debajo, tu racha y cuántas mañanas de páginas matinales llevas, si hay alguna. |
-| **Mapa de calor** | La clave de los tonos del mapa de calor, de **Menos** a **Más**. |
-| **Marcas** | Qué significa cada marca de la cuadrícula. |
+| **Mostrar** | **Todo**, **Escribir**, **Notas**, **Diario** o **Vence**. Elige una opción para ver solo los documentos de ese modo, o solo las tarjetas de [tablero](./boards) que vencen. |
+| El nombre del mes | Las palabras que has escrito este mes, cuántos días has escrito y cuántos de ellos son de esta semana. Debajo están tu racha y, si las hay, el número de mañanas con páginas matinales. |
+| **Mapa de calor** | Qué significan los tonos del mapa de calor, de **Menos** a **Más**. |
+| **Marcas** | Qué significa cada marca de la cuadrícula del mes. |
 
 ## Lee el mes {#read-the-month}
 
-Cada día de la cuadrícula muestra un recuento de lo que contiene, y estas
-marcas:
+En la cuadrícula del mes, cada día indica cuántos elementos tiene. Además,
+puede llevar estas marcas:
 
 | Marca | Significa |
 | --- | --- |
-| Llama | **Escribiste ese día**: alcanzaste tu mínimo diario de palabras. Los días de tu racha actual brillan más y van unidos. |
+| Llama | **Escribiste ese día**: llegaste a tu mínimo diario de palabras. Los días de tu racha actual brillan más y aparecen unidos. |
 | Amanecer | **Páginas matinales** |
 | Cuaderno y pluma | **Entrada del diario** |
 | Libro | **Proyecto empezado** |
 | Reloj | **Algo de un año anterior** en esta fecha. |
 
-Sobre la cuadrícula, el **mapa de calor** muestra el último año como pequeños
-cuadrados, uno por día; cuanto más escribiste, más intenso el color. Hoy lleva
-un contorno, el día seleccionado aparece más grande y el mes de la cuadrícula
-va marcado para que las dos vistas vayan a la par. En una ventana estrecha
-muestra menos meses en lugar de cuadrados diminutos. Haz clic en un cuadrado
-para abrir ese día. Cuando retrocedes a un año anterior, **Volver a hoy** te
-trae de vuelta.
+El **mapa de calor** está encima de la cuadrícula del mes. Muestra el último
+año en cuadraditos, uno por día. Cuanto más escribiste un día, más oscuro es
+su cuadradito.
 
-## Qué lista un día seleccionado {#what-a-selected-day-lists}
+- El día de hoy lleva un contorno.
+- El día seleccionado se dibuja más grande.
+- El mes que ves en la cuadrícula aparece señalado en el mapa de calor.
+- Si la ventana es estrecha, el mapa de calor muestra menos meses para que los
+  cuadraditos no cambien de tamaño.
+- Haz clic en un cuadradito para abrir ese día.
+- Cuando estás en un año anterior, **Volver a hoy** te devuelve al día de hoy.
 
-- Los **proyectos** empezados ese día.
-- Las **tarjetas de tablero** que vencen ese día, marcadas con **Vence** y el
-  nombre del tablero. Haz clic en una para abrir su tablero.
-- Las **entradas de diario**, las **páginas matinales** y los **documentos**.
-  Cada documento va marcado según su relación con el día: **creado**,
-  **editado** o **enlazado**, cuando una fecha en su texto apunta al día.
+## Qué aparece en un día seleccionado {#what-a-selected-day-lists}
 
-Los documentos y las entradas se abren para editarlos. Las páginas matinales se
-abren en modo de solo lectura, porque no están pensadas para releerse.
+- Los **proyectos** que empezaste ese día.
+- Las **tarjetas de tablero** que vencen ese día. Cada una lleva la marca
+  **Vence** y el nombre de su tablero. Haz clic en una tarjeta para abrir su
+  tablero.
+- Las **entradas del diario**, las **páginas matinales** y los **documentos**.
+  Cada documento lleva una etiqueta que explica por qué está ahí: **creado**
+  ese día, **editado** ese día o **enlazado**, cuando una fecha de su texto
+  apunta a ese día.
 
-Un día sin nada lo dice: *Nada aún — empieza tus páginas para este día.*
+Los documentos y las entradas del diario se abren listos para editar. Las
+páginas matinales se abren en solo lectura, porque no están pensadas para
+releerse.
+
+En un día sin nada se lee *Nada aún — empieza tus páginas para este día.*
 
 ## Escribe en un día {#write-on-a-day}
 
-**Escribir este día** abre la entrada de diario de ese día, y la crea si no
-existe. Está ahí para hoy y para cada día anterior. Un día futuro se puede
-mencionar en lo que escribes, pero todavía no puede tener una entrada propia.
+1. Haz clic en el día de hoy o en cualquier día anterior.
+2. Pulsa **Escribir este día**.
 
-## Reencuéntrate con tu escritura pasada {#meet-your-past-writing}
+φ abre la entrada del diario de ese día y, si todavía no existe, la crea.
 
-Cuando el día seleccionado contiene algo de años anteriores, **Un día como hoy**
-aparece sobre su lista, con un recuento *de años anteriores*. Haz clic para ver
-cada pieza con cuánto hace, por ejemplo *hace 3 a*, y haz clic en una para
-abrirla.
+Un día futuro aún no puede tener entrada en el diario. Aun así, puedes
+mencionar una fecha futura en lo que escribes.
+
+## Reencuéntrate con lo que escribiste {#meet-your-past-writing}
+
+Cuando el día seleccionado tiene algo de otros años, encima de la lista del
+día aparece **Un día como hoy**, que indica cuántos elementos hay *de años
+anteriores*.
+
+1. Haz clic en **Un día como hoy**. Cada elemento indica cuánto tiempo hace
+   que lo creaste; por ejemplo, *hace 3 a*.
+2. Haz clic en un elemento para abrirlo.
 
 :::tip Cambia cómo se muestra la racha
 
-**Ajustes** (`⌘,`) → **Ajustes de escritura** → **Racha** elige entre **Llama y
-número**, **Días a secas** o **Apagada**. Con **Apagada**, las llamas
-desaparecen y el mapa de calor se queda, como registro más que como marcador.
-**La semana empieza en**, en el mismo sitio, fija la primera columna de la
-cuadrícula y del mapa de calor.
+Ve a **Ajustes** (`⌘,`) → **Ajustes de escritura** → **Racha** y elige **Llama
+y número**, **Días a secas** o **Apagada**. Con **Apagada**, las llamas se
+ocultan, pero el mapa de calor se queda. En ese mismo sitio está **La semana
+empieza en**, que decide cuál es la primera columna de la cuadrícula del mes y
+del mapa de calor.
 
 :::
 
@@ -99,4 +121,4 @@ cuadrícula y del mapa de calor.
 - [Diario y páginas matinales](./journal-and-morning-pages): las entradas, las
   páginas matinales y cómo se cuenta la racha.
 - [Tableros](./boards): tarjetas con fecha de vencimiento.
-- [Cómo moverte por φ](./finding-your-way)
+- [Un recorrido por la ventana](./finding-your-way)

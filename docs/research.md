@@ -5,76 +5,88 @@ description: Pages of material kept for a work, each linked to the chapter, proj
 
 # Research
 
-**Research pages** hold the material behind a work: sources, facts, places,
-timelines. Each is linked to what it's about, a chapter, a project or a
-character, so the research is there when you're writing that part and never
-gets in the way of the book itself.
+A **research page** holds the material behind your writing: sources, facts,
+places, timelines. You link each research page to the thing it is about: a
+chapter, a [project](./collections) or a character. The research then
+appears beside that chapter, project or character, and stays separate from
+the text of the book.
 
 <img src="/img/app/research-light.png" alt="The Research list in Write, and the Research page gathering each research page with the chapters and characters it is linked to" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/research-dark.png" alt="The Research list in Write, and the Research page gathering each research page with the chapters and characters it is linked to" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Start a research page for a chapter
 
-1. Open the chapter and its Info panel (`⇧⌘I`), then choose **Links**.
-2. Under **Research**, press **New research page**. The new page is already
+1. Open the chapter.
+2. Open the [Info panel](./finding-your-way#the-info-panel) (`⇧⌘I`) and
+   choose **Links**.
+3. Under **Research**, press **New research page**. The new page is already
    linked to the chapter.
-3. Give it a title and write. A research page is written like any document:
-   headings, lists, quotes, links.
-4. The page shows what it's for under its title (**Research for**). Click a
-   name there to go to it.
+4. Give the page a title and write. You write a research page like any other
+   document, with headings, lists, quotes and links.
+
+Under its title, the page shows what it is linked to (**Research for**).
+Click a name there to open it.
 
 ## Where research lives
 
-Research belongs to **Write**. Open **World** → **Research** in the sidebar
-to see every research page. With none open, the page gathers them by month,
-each with the things it's linked to.
+Research pages belong to **Write**.
 
-Inside a project, the sidebar shows **Research** under the project too. That
-list holds only the research linked to the project or to one of its chapters.
-
-Write's **Home** shows your **Recent research**, each with what it's about.
-Research for a project whose chapters are all marked **Final** drops off
-there, since it has done its job.
+- **All research.** Open **World** → **Research** in the sidebar to see every
+  research page. When no research page is open, the page lists them all by
+  month. Each one shows what it is linked to.
+- **A project's research.** Inside a project, the sidebar also shows
+  **Research** under the project. That list holds only the research linked to
+  the project or to one of its chapters.
+- **Recent research.** Write's **Home** shows your **Recent research**, with
+  what each page is about. When all chapters of a project are marked
+  **Final**, research for that project is no longer shown there.
 
 ## Make a research page
 
-- **+** at the top of a Research list (**New research page**). Made from a
-  project's own Research list, it's linked to that project.
-- `⌘K` → **New research page**.
-- **New research page** under **Research** on a document's **Links** tab, a
-  project's page, or a character's page. It's linked to what you were
-  looking at.
+There are three ways:
+
+- Click **+** at the top of a Research list (**New research page**). If you
+  do this in a project's own Research list, the page is linked to that
+  project.
+- Press `⌘K` and choose **New research page**.
+- Click **New research page** under **Research** on a document's **Links**
+  tab, on a project's page, or on a character's page. The page is linked to
+  the document, project or character you were looking at.
 
 ## Link it to what it's about
 
 1. Open the research page's **Details…** (the ⓘ at the top of the page).
 2. Under **Research for**, click **Link to…**.
-3. Pick a **Document**, a **Project** or a **Character**.
+3. Choose a **Document**, a **Project** or a **Character**.
 
-A page can be linked to as many things as you like. Each shows as a chip;
-its **×** removes the link.
+You can link a page to as many things as you like. Each link is shown as a
+small label. Click its **×** to remove the link.
 
 ## See the research for something
 
-Wherever you're working, research follows the thing it's about. These places
-list the research and notes linked there:
+Three places list the research and notes linked to what you are working on:
 
 - A document's Info panel → **Links**.
 - A project's page.
 - A character's page.
 
-Each has two sections. **Research** lists research pages, with **New research
-page** and **Link research…**. **Notes** lists ordinary notes linked here,
-with **New note about this** and **Link a note…**. The **×** beside an entry
-unlinks it.
+Each place has two sections:
 
-Notes and pieces can be linked too, from **Linked to** on their Details, so a
-note about a chapter shows up beside it without being a research page.
+- **Research** lists the linked research pages. Use **New research page** or
+  **Link research…** to add one.
+- **Notes** lists the ordinary notes linked here. Use **New note about this**
+  or **Link a note…** to add one.
+
+The **×** beside an entry removes the link.
+
+You can also link a note or a piece to a chapter, project or character. Use
+**Linked to** on its Details page. The note then appears beside the chapter,
+and it does not need to be a research page.
 
 :::note
 
-Research pages stay out of the [graph](./links-and-graph) and out of Notes'
-lists, so neither is crowded with sources.
+Research pages do not appear in the [graph](./links-and-graph) or in the
+lists in Notes.
 
 :::
 

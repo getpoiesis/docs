@@ -1,56 +1,71 @@
 ---
 title: Puesta a punto
-description: Elige lo que φ te dice sobre tu escritura y qué lugares ofrece cada modo.
+description: Elige qué te cuenta φ sobre tu escritura y qué lugares ofrece cada modo.
 ---
 
 # Puesta a punto
 
-**Ajustes → Ajustes de escritura** decide lo que φ te devuelve sobre tu
-escritura (tu racha, un ritmo semanal, la legibilidad) y qué lugares muestra
-cada modo en su barra lateral. Cada bóveda tiene sus propios ajustes de
-escritura, así que una novela y un diario pueden mostrar cada uno solo lo que
-necesitan.
+En **Ajustes → Ajustes de escritura** decides dos cosas:
 
-## Ajusta una bóveda {#set-up-a-vault}
+- Qué te cuenta φ sobre tu escritura: tu racha, un ritmo semanal, la
+  legibilidad… φ las llama **señales**.
+- Qué lugares aparecen en la barra lateral de cada modo (**Escribir**,
+  **Notas**, **Diario**).
 
-1. Abre los **Ajustes** (`⌘,`, o los controles deslizantes junto al nombre de
-   la bóveda) y elige **Ajustes de escritura**.
-2. En **Señales**, elige lo que φ te dice sobre tu escritura.
-3. En **Modos**, haz clic en **Escribir**, **Notas** o **Diario** para elegir
+Cada bóveda tiene su propia configuración. Una bóveda es la carpeta donde se
+guarda lo que escribes (consulta [Bóvedas](./vaults)). Así, una bóveda para
+una novela y otra para un diario pueden mostrar cada una solo lo que necesita.
+
+## Configura una bóveda {#set-up-a-vault}
+
+1. Abre los **Ajustes**: pulsa `⌘,` o haz clic en los controles deslizantes
+   que hay junto al nombre de la bóveda.
+2. Elige **Ajustes de escritura**.
+3. En **Señales**, elige qué te cuenta φ sobre tu escritura.
+4. En **Modos**, haz clic en **Escribir**, **Notas** o **Diario** para elegir
    los lugares que ofrece ese modo.
-4. Para usar los mismos ajustes en otra bóveda, pulsa **Guardar como…** en
-   **Ajustes guardados**.
+5. Para usar la misma configuración en otra bóveda, haz clic en **Guardar
+   como…**, en **Ajustes guardados**.
 
-Lo que cambies se aplica a la bóveda en la que estás. Una bóveda nueva empieza
-con los valores predeterminados de abajo.
+<img src="/img/app/setup-settings-light.png" alt="Los ajustes abiertos en la sección de configuración de la bóveda: las señales, los tres modos y las configuraciones guardadas" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/setup-settings-dark.png" alt="Los ajustes abiertos en la sección de configuración de la bóveda: las señales, los tres modos y las configuraciones guardadas" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Elige lo que φ te dice {#choose-what-φ-tells-you}
+Los cambios se aplican a la bóveda en la que estás. Una bóveda nueva empieza
+con los valores predeterminados que se indican más abajo.
+
+## Elige qué te cuenta φ {#choose-what-φ-tells-you}
 
 | Señal | Qué hace | Valor inicial |
 | --- | --- | --- |
-| **Iniciar sesiones automáticamente** | Empieza a cronometrar una sesión de escritura con tu primera pulsación. Desactívalo y una sesión solo empieza cuando tú lo pides: `⌘P` → **Iniciar sesión de escritura** (y **Terminar sesión de escritura**). | Activado |
-| **Estadísticas de legibilidad** | Añade el nivel de lectura y la longitud de frase a las **Estadísticas del documento**. Haz clic en el recuento de palabras de la esquina de la página, y luego haz clic otra vez. | Desactivado |
+| **Iniciar sesiones automáticamente** | Empieza a cronometrar una sesión de escritura en cuanto tecleas la primera letra. Si la desactivas, la sesión solo empieza cuando tú lo pides: `⌘P` → **Iniciar sesión de escritura** (y **Terminar sesión de escritura**). | Activada |
+| **Estadísticas de legibilidad** | Añade el nivel de lectura y la longitud de las frases a las **Estadísticas del documento**. Para abrirlas, haz clic en el recuento de palabras, en la esquina de la página, y luego haz clic otra vez. | Desactivada |
 | **Racha** | Cómo se muestra tu racha de escritura en el Inicio y en el calendario: **Llama y número**, **Días a secas** o **Apagada**. | **Llama y número** |
-| **La semana empieza en** | El primer día de la semana, para el calendario y para la semana en la que se cuenta tu ritmo. Este se aplica a todas las bóvedas. | Lunes |
-| **Ritmo semanal** | Un objetivo amable de días de escritura a la semana: **Ninguno**, o de **1/semana** a **7/semana**. Es una ventana móvil de siete días, así que un día perdido nunca lo reinicia. | **Ninguno** |
+| **La semana empieza en** | El primer día de la semana. Lo usan el calendario y tu ritmo semanal. Este ajuste vale para todas las bóvedas. | Lunes |
+| **Ritmo semanal** | Cuántos días te propones escribir a la semana: **Ninguno**, o de **1/semana** a **7/semana**. φ cuenta los últimos siete días, así que un día sin escribir no lo pone a cero. | **Ninguno** |
 
-Cuántas palabras hacen que un día cuente para tu racha se define en **Ajustes →
-Editor → Racha de escritura → Mínimo de palabras / día** (50 o más).
+Un día cuenta para tu racha cuando escribes un mínimo de palabras. Ese número
+se fija en **Ajustes → Editor → Racha de escritura → Mínimo de palabras /
+día** (50 o más).
 
 ## Elige los lugares de cada modo {#choose-each-modes-places}
 
-En **Modos**, cada modo que usa la bóveda tiene una fila. Dice **Sigue a la
-bóveda** hasta que cambias algo en ella, y entonces **Difiere**. Haz clic en
-una fila para abrirla:
+En **Modos** hay una fila por cada modo que usa la bóveda. La fila dice
+**Sigue a la bóveda** hasta que cambias algo en ella. A partir de entonces
+dice **Difiere**.
 
-- **Los lugares** que ofrece la barra lateral de este modo, cada uno con un
+Haz clic en una fila para abrirla. Contiene:
+
+- **Los lugares** que ofrece la barra lateral de ese modo, cada uno con su
   interruptor.
-- **Los interruptores de las señales**, solo para este modo.
-- **Listas de tareas**: si aquí se puede empezar una lista de tareas nueva. Un
-  documento que ya tiene una la conserva, y sus casillas se siguen marcando.
+- **Los interruptores de las señales**, solo para ese modo.
+- **Listas de tareas**: si en ese modo se puede empezar una lista de tareas
+  nueva. Un documento que ya tiene una la conserva, y puedes seguir marcando
+  sus casillas.
 
-**Volver a seguir a la bóveda** devuelve un modo que difiere a los ajustes de
-la propia bóveda.
+Para que un modo vuelva a usar los ajustes de la bóveda, haz clic en **Volver
+a seguir a la bóveda**.
+
+Esta tabla muestra con qué lugares empieza cada modo:
 
 | Lugar | Escribir | Notas | Diario |
 | --- | :---: | :---: | :---: |
@@ -62,46 +77,51 @@ la propia bóveda.
 | **Calendario** | ✓ | ✓ | ✓ |
 | **Empezar las páginas matinales de hoy** | | | ✓ |
 
-En Escribir y en Notas puedes activar cualquiera de los otros lugares salvo las
-páginas matinales, como **Personajes** en Notas. **Investigación** pertenece
-solo a Escribir. Diario se mantiene despojado a propósito: ofrece el calendario
-y las páginas matinales. Desactiva **Empezar las páginas matinales de hoy** y
-**Páginas matinales** y **Selladas** salen de la barra lateral de Diario.
+- **Escribir y Notas.** Puedes activar cualquiera de los demás lugares, menos
+  las páginas matinales. Por ejemplo, puedes activar **Personajes** en Notas.
+  **Investigación** es exclusiva de Escribir.
+- **Diario.** Solo ofrece el calendario y las páginas matinales. Es así a
+  propósito, para que el Diario siga siendo sencillo. Si desactivas **Empezar
+  las páginas matinales de hoy**, **Páginas matinales** y **Selladas**
+  desaparecen de la barra lateral del Diario.
+- **Listas de tareas.** Están activadas en Notas y desactivadas en Escribir y
+  en Diario, porque donde más se usan es en las notas. Si llevas listas de
+  tareas en un manuscrito, actívalas aquí para Escribir.
 
-Las **Listas de tareas** están activadas en Notas y desactivadas en Escribir y
-en Diario, porque una lista de tareas es asunto de una nota. Si tienes listas
-de tareas en un manuscrito, actívalas aquí para Escribir.
+## Usa una configuración en otra bóveda {#use-a-setup-in-another-vault}
 
-## Usa unos ajustes en otra bóveda {#use-a-setup-in-another-vault}
+**Ajustes guardados** conserva copias de una configuración, cada una con su
+nombre.
 
-**Ajustes guardados** conserva copias de unos ajustes con un nombre.
+- **Guardar como…** pone nombre a la configuración actual y guarda una copia.
+  Si después cambias esta bóveda, la copia no cambia.
+- **Usar en esta bóveda** sustituye la configuración de esta bóveda por la
+  guardada.
+- **Usar en otra bóveda…** aplica la configuración guardada a otra bóveda.
+- **Renombrar** y **Eliminar** modifican la lista. Si eliminas una
+  configuración guardada, las bóvedas que la usan no cambian.
 
-- **Guardar como…** pone nombre a los ajustes actuales y guarda una copia. Los
-  cambios que hagas después en esta bóveda dejan la copia como estaba.
-- **Usar en esta bóveda** sustituye los ajustes de esta bóveda por los
-  guardados.
-- **Usar en otra bóveda…** se los da a otra bóveda.
-- **Renombrar** y **Eliminar** ordenan la lista. Eliminar unos ajustes
-  guardados no cambia las bóvedas en las que los pusiste.
+:::note Ocultar nunca borra
 
-:::note Ocultar nunca elimina
-
-Desactivar algo solo lo guarda a un lado. Desactiva las páginas matinales y tus
-páginas siguen en la bóveda, intactas; vuelve a activarlas y reaparecen.
+Desactivar algo solo lo oculta. Si desactivas las páginas matinales, tus
+páginas siguen en la bóveda, intactas. Vuelve a activarlas y tus páginas
+aparecen de nuevo.
 
 :::
 
 ## Lo que Ajustes de escritura no cambia {#what-setup-doesnt-change}
 
-- **Qué modos tiene una bóveda.** Eso está en **Ajustes → Bóveda → Espacios**.
-  Consulta [Bóvedas](./vaults).
-- **Las herramientas del editor.** Las citas, el índice y las plantillas no son
-  interruptores; están ahí donde el tipo de documento que escribes los ofrece.
-- **Tu trabajo.** Nada de esta página mueve ni elimina un documento.
+- **Los modos que tiene una bóveda.** Se eligen en **Ajustes → Bóveda →
+  Espacios**. Consulta [Bóvedas](./vaults).
+- **Las herramientas del editor.** Las citas, el índice y las plantillas no
+  tienen interruptor. Están disponibles en todos los tipos de documento que
+  pueden usarlas.
+- **Tu trabajo.** Nada de lo que hay en esta página mueve ni elimina
+  documentos.
 
-## Consulta también {#see-also}
+## Ver también {#see-also}
 
 - [Un recorrido por la ventana](./finding-your-way)
 - [Ajustes](./settings)
-- [Santuario y sesiones de escritura](./focus-and-writing-modes)
+- [Concentración y Santuario](./focus-and-writing-modes)
 - [El calendario](./calendar)

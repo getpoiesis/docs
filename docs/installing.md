@@ -5,19 +5,19 @@ description: Download φ for macOS, Windows or Linux, and keep it up to date.
 
 # Install φ
 
-φ runs on macOS, Windows and Linux. The
-[download page](https://getpoiesis.com/download) offers the right file for the
-computer you're visiting from, with every other option a click away. Once it's
-installed, φ tells you when there's a new version.
+φ runs on macOS, Windows and Linux. After you install it, φ tells you when
+there is a new version.
 
 ## Install φ
 
-1. Open the [download page](https://getpoiesis.com/download) and download the
-   file it offers.
-2. Install it the way your system expects (see below).
-3. Open φ. Your system lists it as **φ Poiesis**, so typing "poiesis" in
-   Spotlight or the Start menu finds it.
-4. [Create your first vault](./getting-started).
+1. Open the [download page](https://getpoiesis.com/download). It offers the
+   right file for the computer you are using. The files for other systems
+   are on the same page.
+2. Download the file.
+3. Install it. The steps for your system are below.
+4. Open φ. Your system lists it as **φ Poiesis**. To find it, type "poiesis"
+   in Spotlight or the Start menu.
+5. [Create your first vault](./getting-started).
 
 ## What you need
 
@@ -29,41 +29,45 @@ installed, φ tells you when there's a new version.
 
 ## On a Mac
 
-1. Download the `.dmg` for your Mac: **Apple Silicon** or **Intel**. Not sure
-   which? Apple menu → **About This Mac**: a chip named "Apple M…" is Apple
-   Silicon.
-2. Open the `.dmg` and drag φ into **Applications**.
-3. Open it from Applications or Spotlight.
+1. Download the `.dmg` for your Mac: **Apple Silicon** or **Intel**. To
+   check which one you have, open the Apple menu and choose **About This
+   Mac**. A chip named "Apple M…" is Apple Silicon.
+2. Open the `.dmg`.
+3. Drag φ into **Applications**.
+4. Open φ from Applications or Spotlight.
 
-The Mac builds are signed and notarised by Apple, so they open without an
+The Mac versions are signed and notarised by Apple. They open without an
 "unidentified developer" warning.
 
 ## On Windows
 
-1. Download the installer (`.exe`) and run it. You can choose where φ is
-   installed.
-2. φ isn't code-signed yet, so Windows SmartScreen may say it's from an
-   unrecognised publisher. Click **More info**, then **Run anyway**. You only
-   need to do this once, and the download comes straight from φ's own
-   releases.
-3. Open φ from the Start menu.
+1. Download the installer (`.exe`).
+2. Run it. You can choose where φ is installed.
+3. Windows SmartScreen may say that φ is from an unrecognised publisher.
+   This is because φ isn't code-signed yet. Click **More info**, then **Run
+   anyway**. You only need to do this once. The download comes directly from
+   φ's own releases.
+4. Open φ from the Start menu.
 
 ## On Linux
 
-The **AppImage** is the simpler choice and updates itself. The **`.deb`** fits
-in with Debian and Ubuntu, but you update it by installing the newer `.deb`.
+There are two files to choose from:
 
-For the AppImage, make the file executable, then double-click it:
+- The **AppImage** is simpler, and it updates itself.
+- The **`.deb`** installs like other Debian and Ubuntu packages. To update
+  it, you install the newer `.deb` yourself.
+
+**AppImage.** Make the file executable, then double-click it:
 
 ```bash
 chmod +x poiesis-*.AppImage
 ./poiesis-*.AppImage
 ```
 
-Or right-click the file → **Properties** → **Permissions** → **Allow executing
-file as program**.
+You can also do this without a terminal: right-click the file →
+**Properties** → **Permissions** → **Allow executing file as program**.
 
-For the `.deb`:
+**`.deb`.** Install it with:
 
 ```bash
 sudo dpkg -i poiesis-*.deb
@@ -73,39 +77,45 @@ Then open **φ Poiesis** from your applications menu.
 
 ## Keep φ up to date
 
-φ looks for a new version a few seconds after it opens, and every six hours
-after that. It never downloads one without asking. When there's an update, a
-small banner says so:
+φ checks for a new version a few seconds after it opens, and every six hours
+after that. It never downloads an update without asking you. When there is
+an update, a small banner appears:
 
-1. **A new version (…) is available.** Click **Download** when it suits you.
-2. **Downloading update… %** shows how far it has got.
-3. **Update … ready to install.** Click **Restart & install**, or close the
-   banner and carry on: a downloaded update is installed the next time you
-   quit φ.
+1. The banner says **A new version (…) is available.** Click **Download**
+   when you are ready.
+2. The banner shows **Downloading update… %** while the download runs.
+3. The banner says **Update … ready to install.** Click **Restart &
+   install**. Or close the banner and keep writing: φ installs the update
+   the next time you quit.
 
-This works on macOS, Windows and the Linux AppImage. For the `.deb`, download
-and install the newer version yourself.
+This works on macOS, on Windows and with the Linux AppImage. If you use the
+`.deb`, download and install the newer version yourself.
 
-To check now:
+To check for an update now:
 
-- **On a Mac:** the **φ Poiesis** menu → **Check for Updates…**.
+- **On a Mac:** open the **φ Poiesis** menu and choose **Check for
+  Updates…**.
 - **On Windows and Linux:** press `Ctrl+P` and run **Check for updates…**.
 
-φ shows **Checking for updates…**, then offers the update, says **φ is up to
-date.**, or says **Couldn't check for updates.** when it can't reach the
-download server, for example when you're offline.
+φ shows **Checking for updates…**. Then one of three things happens:
+
+- φ offers the update.
+- φ says **φ is up to date.**
+- φ says **Couldn't check for updates.** This means it can't reach the
+  download server, for example because you're offline.
 
 :::note Still on 0.8.2 or older? Download φ again
 
-Version 0.9.0 changed how your system identifies φ, and that broke the update
-an older copy would offer: it will keep saying it's up to date. Download the
-current version from the [download page](https://getpoiesis.com/download) and
-install it over the one you have. You only need to do this once.
+Version 0.9.0 changed how your system identifies φ. Because of this, version
+0.8.2 and older can't update themselves. They keep saying that φ is up to
+date. Download the current version from the
+[download page](https://getpoiesis.com/download) and install it over the one
+you have. You only need to do this once.
 
-Your vaults, settings, dictionaries and history are untouched. On a Mac,
-macOS asks once more for access to the folder your vault is in. On Windows,
-the new φ is listed as a separate program, so uninstall the old one from
-**Add or remove programs**.
+Your vaults, settings, dictionaries and history are not changed. On a Mac,
+macOS asks one more time for access to the folder your vault is in. On
+Windows, the new φ is listed as a separate program, so uninstall the old one
+from **Add or remove programs**.
 
 :::
 

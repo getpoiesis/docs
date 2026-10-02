@@ -5,22 +5,24 @@ description: What a book's title page, copyright page and opening and closing pa
 
 # Book details
 
-A finished book has pages nobody writes as chapters: the title page, the
-copyright page, a dedication, an "Also by" page. φ makes them for you from
-the project's **Book details**, so they're right in every format and never
-drift out of step.
+Some pages of a finished book are not chapters: the title page, the
+copyright page, a dedication, an "Also by" page. You don't write these
+pages. φ makes them from the project's **Book details**, so they say the
+same thing in every format you export.
 
 <img src="/img/app/manuscript-light.png" alt="A book's page: its cover, title and author, description, settings and Book details" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/manuscript-dark.png" alt="A book's page: its cover, title and author, description, settings and Book details" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Fill in the details
 
-1. Open the project in **Write**. Its page shows the cover, the title, the
-   author and the description.
-2. Click the cover to add or change it, and write the description beside it.
-   The description goes on the back cover of a printed book.
-3. Open **Book details**, further down the page, and fill in what applies.
-   Everything is optional; a page with nothing to say is left out.
+1. Open the [project](./collections) in **Write**. Its page shows the
+   cover, the title, the author and the description.
+2. Click the cover to add or change it.
+3. Write the description beside the cover. On a printed book, the
+   description goes on the back cover.
+4. Open **Book details**, further down the page.
+5. Fill in the fields you need. Every field is optional. φ leaves out a
+   page that has nothing on it.
 
 ## What goes where
 
@@ -32,14 +34,16 @@ drift out of step.
 | **Opening pages** | Dedication; epigraph and its source. | Their own pages before the first chapter. |
 | **Closing pages** | An "Also by" page, from the authors' other titles. | The end of the book. |
 
+<img src="/img/app/book-details-light.png" alt="The Book details form on a project's page: people, title page and copyright page" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/book-details-dark.png" alt="The Book details form on a project's page: people, title page and copyright page" width="1600" height="1000" loading="lazy" decoding="async" />
+
 "About the author" comes from the first author's profile: their bio and
 photo.
 
-You can also write the dedication or epigraph as documents in the project's
-front matter, if you'd rather. φ sets them on their own pages either way.
+If you prefer, write the dedication or the epigraph as a document in the
+project's front matter instead. In both cases φ puts it on its own page.
 
-An ISBN is checked as you type it, and φ tells you when a digit looks
-mistyped.
+φ checks an ISBN as you type it, and tells you when a digit looks wrong.
 
 ## See also
 
