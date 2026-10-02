@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
       'poetry',
       'focus-and-writing-modes',
       'side-by-side',
+      'handwritten-pages',
       'spelling',
       'dictionary',
       'search-and-replace',
