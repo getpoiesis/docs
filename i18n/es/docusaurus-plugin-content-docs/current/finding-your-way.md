@@ -47,7 +47,7 @@ De arriba abajo, la barra lateral tiene:
   el Inicio de cada modo. Si la bóveda usa un solo modo, no hay selector.
 - **Los lugares del modo**, por grupos. Están en la tabla de más abajo.
 - **En la parte inferior:** lo que la bóveda está haciendo en ese momento
-  (**Guardando…**, **Indexando…**), la **Papelera** y la insignia **Alfa**.
+  (**Guardando…**, **Indexando…**), la **Papelera** y la insignia **Beta**.
   Haz clic en la insignia para enviarnos tus comentarios.
 
 | Modo | Qué aparece en la barra lateral |

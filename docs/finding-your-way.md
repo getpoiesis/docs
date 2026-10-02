@@ -45,7 +45,7 @@ From top to bottom, the sidebar has:
   the Home of each mode. A vault that uses only one mode has no switch.
 - **The mode's places**, in groups. The table below lists them.
 - **At the bottom:** what the vault is doing now (**Saving…**,
-  **Indexing…**), the **Trash**, and the **Alpha** badge. Click the badge to
+  **Indexing…**), the **Trash**, and the **Beta** badge. Click the badge to
   send feedback.
 
 | Mode | What the sidebar lists |

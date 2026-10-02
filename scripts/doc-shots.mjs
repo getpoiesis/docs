@@ -103,10 +103,10 @@ const SHOTS = {
   outline: { steps: [...open('shot-note-0001'), ...panel('outline'), ...blur], after: noPanel },
   footnotes: { steps: [...open('shot-doc-ch03'), ...panel('outline'), ...blur], after: noPanel },
   links: { steps: [...open('shot-note-0002'), ...panel('links'), ...blur], after: noPanel },
-  // Only when asked for by name: a fresh settings folder has no dictionary
-  // installed (Settings → Language), so the panel would say so.
+  // Needs a dictionary pack, which a fresh settings folder doesn't have: the
+  // capture script links one in and sets DOC_SHOTS_DICTIONARY when it finds one.
   dictionary: {
-    onlyByName: true,
+    onlyByName: !process.env.DOC_SHOTS_DICTIONARY,
     steps: [
       ...open('shot-doc-ch03'),
       ...noPanel,

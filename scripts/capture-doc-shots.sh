@@ -7,6 +7,7 @@
 #   scripts/capture-doc-shots.sh --list                  # the names it knows
 #   APP=/path/to/poiesis scripts/capture-doc-shots.sh    # app repo elsewhere (default ../poiesis)
 #   OUT=/some/folder scripts/capture-doc-shots.sh        # write somewhere else
+#   DICTIONARY=/path/to/pack scripts/capture-doc-shots.sh # dictionary pack for the `dictionary` shot
 #
 # It runs the app's dev build against a screenshot vault and a settings folder
 # of its own, made fresh in a temporary folder and deleted afterwards: your
@@ -17,7 +18,9 @@
 # Needs: macOS (for `sips`); Node; the app's dev setup (`npm install` in the
 # app repo); and no other `npm run dev` of the app running (it needs the dev
 # port). The page is captured from inside the app, so no Screen Recording
-# permission is needed. On a Retina display the capture is 2560×1600 and is
+# permission is needed. The `dictionary` shot needs an installed dictionary
+# pack: by default the WordNet pack of the app's dev copy is borrowed (linked,
+# read only) if it is there; without one that shot is skipped. On a Retina display the capture is 2560×1600 and is
 # scaled down; on a 1× display it is 1280×800 and is scaled up, and looks soft.
 set -euo pipefail
 here="$(cd "$(dirname "$0")/.." && pwd)"
@@ -67,9 +70,11 @@ trap cleanup EXIT
 # The steps first: an unknown name stops here, before anything is started.
 mkdir -p "$raw"
 steps="$work/steps.json"
+dict="${DICTIONARY:-$HOME/Library/Application Support/Poiesis (Dev)/dictionaries/wordnet-3-1-stardict}"
+[ -d "$dict" ] && export DOC_SHOTS_DICTIONARY=1 || dict=""
 node "$here/scripts/doc-shots.mjs" "$raw" "$@" >"$steps"
 
-# The vault and a settings folder that opens it, with the alpha's feedback
+# The vault and a settings folder that opens it, with the beta's feedback
 # line turned off. One fixed afternoon late in a month, for the vault and the
 # app's clock alike, so the month is full and every capture reads the same.
 shot_now="2026-10-22T15:30:00"
@@ -82,6 +87,10 @@ cat >"$work/settings/poiesis-prefs.json" <<EOF
   "activeVaultId": "shotvault"
 }
 EOF
+if [ -n "$dict" ]; then
+  mkdir -p "$work/settings/dictionaries"
+  ln -s "$dict" "$work/settings/dictionaries/$(basename "$dict")"
+fi
 
 echo "Capturing into ${out}…"
 (cd "$app" && POIESIS_USER_DATA="$work/settings" POIESIS_DEV_NOW="$shot_now" POIESIS_DEV_SCRIPT="$steps" npm run dev >"$log" 2>&1) &

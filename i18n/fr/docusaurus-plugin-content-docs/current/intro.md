@@ -64,12 +64,12 @@ bas de page et les citations y sont donc conservées intégralement. φ ne stock
 pas vos textes en Markdown, mais vous pouvez en importer, en coller et en
 exporter.
 
-:::note φ est en version alpha
+:::note φ est en version bêta
 
-Des gens se servent de φ tous les jours pour écrire, organiser leur travail et
-en conserver les versions, mais vous pouvez encore rencontrer des problèmes.
-Pour nous en signaler un, cliquez sur le badge **Alpha**, en bas de la barre
-latérale.
+L’essentiel de φ est en place, et des gens s’en servent tous les jours pour
+écrire, organiser leur travail et en conserver les versions. Il reste encore
+quelques aspérités à polir. Pour nous en signaler une, cliquez sur le badge
+**Bêta**, en bas de la barre latérale.
 
 :::
 
