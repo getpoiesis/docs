@@ -5,26 +5,33 @@ description: The folders your writing lives in, how to move between them, and ho
 
 # Vaults
 
-A **vault** is where your writing lives: an ordinary folder on your computer,
-holding your documents, the images you've added and their history. There's
-no database and no account. Because a vault is an ordinary folder, your work
-stays yours: you can back it up, move it, and sync it to your other devices.
+A **vault** is the place that holds your writing. It is an ordinary folder
+on your computer. It holds your documents, the images you added, and the
+history of your changes. There is no database and no account.
 
-Your documents are `.poiesis` files, φ's own format, so other apps can't open
-them directly. To take your writing somewhere else, export it: Markdown, Word,
-PDF and EPUB are all a click away (see [Exporting](./exporting)).
+Because a vault is an ordinary folder, you can back it up, move it, and sync
+it to your other devices.
+
+Your documents are `.poiesis` files. This is φ's own format, so other apps
+can't open them directly. To use your writing in another app, export it as
+Markdown, Word, PDF or EPUB. See [Exporting](./exporting).
 
 ## Make a vault
 
-1. The first time you open φ, choose **Create a vault** or **Open a folder**.
-   Later, click the vault's name at the top of the sidebar and choose **New
-   vault…** or **Open another vault…**.
-2. Pick a folder, or make a new one, in the window that opens. It can be
+1. The first time you open φ, choose **Create a vault** or **Open a
+   folder**. Later, click the vault's name at the top of the sidebar and
+   choose **New vault…** or **Open another vault…**.
+2. In the window that opens, pick a folder or make a new one. It can be
    anywhere: Documents, a synced folder, an external drive.
-3. φ opens it. A folder that's already a vault opens as it is. Any other
-   folder becomes one, with a **Welcome to φ** note and a small sample
-   project, **The Grey Morning**. Nothing already in the folder is changed,
-   and any `.poiesis` files in it appear in φ.
+3. φ opens the folder.
+
+What happens next depends on the folder:
+
+- If the folder is already a vault, φ opens it as it is.
+- If it is any other folder, φ makes it a vault. φ adds a **Welcome to φ**
+  note and a small sample project, **The Grey Morning**. It does not change
+  anything already in the folder. Any `.poiesis` files in the folder appear
+  in φ.
 
 ## What's in a vault folder
 
@@ -36,107 +43,155 @@ PDF and EPUB are all a click away (see [Exporting](./exporting)).
 | `.poiesis-history` or `.git` | The version history (see [Versions & backup](./versions-and-backup)). |
 | `.poiesis-vault.json` | A small file that names the vault and remembers its settings. |
 
-Names starting with a dot are hidden in most file managers. You never have to
-touch any of this: φ looks after it.
+Most file managers hide names that start with a dot. You never need to
+change any of these files yourself. φ manages them.
 
 ## Switch between vaults
 
-You can keep several vaults, say one for a novel and one for daily notes.
-One is open at a time, and each has its own documents, history and
-[setup](./setup).
+You can have several vaults, for example one for a novel and one for daily
+notes. Only one vault is open at a time. Each vault has its own documents,
+history and [setup](./setup).
 
-- **The vault menu.** Click the vault's name at the top of the sidebar. It
-  lists your vaults, each with where it lives (**Local**, iCloud, Dropbox,
-  Google Drive or OneDrive), then **Open another vault…**, **New vault…**,
-  **Show in Finder** (**Show in File Explorer** on Windows) and **Import…**.
-- **The vault switcher.** **File** → **Switch Vault…** (`⌥⌘O`) opens a short
-  list: type to narrow it and press Return. The vault you're in is marked
-  **here now**.
-- **File** → **Open Vault…** (`⇧⌘O`) opens a folder as a vault.
+<img src="/img/app/vault-menu-light.png" alt="The vault menu open at the top of the sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/vault-menu-dark.png" alt="The vault menu open at the top of the sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
 
-To choose which modes a vault has, go to **Settings** (`⌘,`) → **Vault** →
-**Spaces** and tick **Write**, **Notes** or **Journal**; at least one stays
-on. A vault with one mode shows no mode switch. **Opens on** chooses where
-the vault starts: its **Home**, or one of its modes.
+There are three ways to switch:
+
+- **The vault menu.** Click the vault's name at the top of the sidebar. The
+  menu lists your vaults. Each one shows where it is kept: **Local**,
+  iCloud, Dropbox, Google Drive or OneDrive. Below the vaults are **Open
+  another vault…**, **New vault…**, **Show in Finder** (**Show in File
+  Explorer** on Windows) and **Import…**.
+- **The vault switcher.** Choose **File** → **Switch Vault…** (`⌥⌘O`). A
+  short list opens. Type to make it shorter, then press Return. The vault
+  you are in is marked **here now**.
+- **Open Vault.** Choose **File** → **Open Vault…** (`⇧⌘O`) to open a
+  folder as a vault.
+
+### Choose a vault's modes
+
+φ has three modes: **Write**, **Notes** and **Journal**. To choose which
+ones a vault has:
+
+1. Open **Settings** (`⌘,`).
+2. Go to **Vault** → **Spaces**.
+3. Tick **Write**, **Notes** or **Journal**. At least one must stay on.
+
+A vault with one mode shows no mode switch. On the same screen, **Opens on**
+chooses what the vault shows when it opens: its **Home**, or one of its
+modes.
 
 ## Move work to another vault
 
-**A document.** Choose **Move to vault…** in the document's **⋮** menu, or
-right-click it in a list. Pick the vault; one that lacks the document's mode
-is shown but can't be chosen. φ lists the documents connected to it (its
-research, what it links to, what links to it), ticked to move along. Before
-you move, it tells you what stays behind: the project it leaves, its cards on
+You can move one document, a whole project, or a whole vault.
+
+### A document
+
+1. Choose **Move to vault…** in the document's **⋮** menu. You can also
+   right-click the document in a list.
+2. Pick the vault. A vault that does not have the document's mode is shown,
+   but you can't choose it.
+3. φ lists the documents connected to this one: its research, what it links
+   to, and what links to it. They are ticked, which means they move too.
+   Untick any that should stay.
+4. Read what stays behind, then move the document.
+
+These things stay behind: the project the document was in, its cards on
 boards, the characters it mentions (their names stay in the text) and its
 version history.
 
-**A project.** Choose **Move to vault…** in the project's **⋮** menu. The
-project goes whole, with its parts and chapters in order, its goal, cover and
-icon, and the characters kept for it alone. Tick whether its research pages,
-its boards, and other characters its chapters mention (as copies) go too.
+### A project
 
-Afterwards a summary lists what moved. Nothing in the other vault is written
-over: a file with a name already taken there is renamed. The originals go to
-this vault's **Trash**, so you can change your mind.
+1. Choose **Move to vault…** in the project's **⋮** menu.
+2. Tick what else should go: its research pages, its boards, and other
+   characters that its chapters mention. Those characters go as copies.
 
-**A whole vault.** To fold this vault into another, choose **Merge into
-another vault…** in the vault menu. Every document, project, board,
-character, author and template goes, with their images. Folders keep their
-place; one whose name is already taken there gets this vault's name after
-its own. Nothing here is removed. When it's done, you can keep the old vault
-or choose **Remove "…"**. Its version history stays with its folder.
+The whole project moves: its parts and chapters in order, its goal, cover
+and icon, and the characters that belong only to it.
+
+### After a document or project moves
+
+- A summary lists what moved.
+- Nothing in the other vault is overwritten. If a file name is already used
+  there, φ renames the file that arrives.
+- The originals go to this vault's **Trash**, so you can still get them
+  back.
+
+### A whole vault
+
+To put everything from this vault into another one, choose **Merge into
+another vault…** in the vault menu.
+
+- Every document, project, board, character, author and template goes, with
+  their images.
+- Folders keep their place. If a folder name is already used in the other
+  vault, φ adds this vault's name after it.
+- Nothing is removed from this vault.
+- The version history does not move. It stays with this vault's folder.
+
+When the merge is done, you can keep the old vault or choose **Remove
+"…"**.
 
 ## Use a vault on several devices
 
-1. Put the vault in a folder your devices share: iCloud Drive, Dropbox,
-   Google Drive, Mega, OneDrive or a network drive. To move an existing
-   vault, quit φ, move its folder there, then open it again with **Open
-   another vault…**.
+1. Put the vault in a folder that your devices share: iCloud Drive, Dropbox,
+   Google Drive, Mega, OneDrive or a network drive. To move a vault you
+   already have, quit φ, move its folder there, then open it again with
+   **Open another vault…**.
 2. On each computer, open that folder with **Open another vault…**. φ for
-   iPhone and iPad is on its way and will open the same folder.
-3. Write anywhere. φ notices changes from your other devices within moments
-   and updates the list and the open document on its own.
+   iPhone and iPad is not out yet. When it is, it will open the same
+   folder.
+3. Write on any device. φ sees changes from your other devices after a
+   short time. It updates the list and the open document by itself.
 
-If the vault's folder goes away, because a drive is unplugged or a cloud
-folder is offline, φ says **Can't reach** the vault and keeps what you type,
-saving it as soon as the folder is back. On a Mac, documents iCloud keeps
-only in the cloud are downloaded when φ sees them, so they may take a moment
-to appear.
+**If φ can't find the folder.** This happens when a drive is unplugged or a
+cloud folder is offline. φ says **Can't reach** the vault. It keeps what you
+type and saves it when the folder is back.
+
+**If documents are slow to appear on a Mac.** iCloud keeps some documents
+only in the cloud. φ downloads them when it sees them, so they can take a
+short time to appear.
 
 ### When two devices change the same document
 
-φ never writes one device's changes over another's. If a document changed on
-two devices before they caught up, the document keeps one version and the
-other is set aside. A line above the page says **A version from** that
-device **is waiting**, and the document's row in the list carries a small
-mark.
+φ never replaces one device's changes with another's. Sometimes a document
+changes on two devices before they sync. Then the document keeps one
+version, and φ keeps the other version for you to check. A line above the
+page says **A version from** that device **is waiting**. The document's row
+in the list has a small mark.
 
-1. Press **Compare**. The waiting version opens beside the document as it is
-   now, with the differences marked; switch between **Side by side** and
-   **In content**.
-2. Choose **Keep this one** to make the waiting version the document,
-   **Keep the current** to let it go, or **Keep both** to keep it as a
-   separate document named "*title* (conflicted copy)".
+1. Click **Compare**. The waiting version opens beside the current
+   document, with the differences marked. You can switch between **Side by
+   side** and **In content**.
+2. Choose one:
+   - **Keep this one** makes the waiting version the document.
+   - **Keep the current** keeps the document as it is and discards the
+     waiting version.
+   - **Keep both** keeps the waiting version as a separate document named
+     "*title* (conflicted copy)".
 
-If several versions are waiting, they come one at a time, oldest first. Any
-of your devices can settle them.
+If several versions are waiting, φ shows them one at a time, oldest first.
+You can do this on any of your devices.
 
 :::note Git history stays on each computer
 
 If the vault uses git for its history, φ keeps the git history on each
-computer, outside the synced folder, because a sync service copying it file
-by file can break it. See [Versions & backup](./versions-and-backup).
+computer, outside the synced folder. A sync service copies the history one
+file at a time, and that can break it. See
+[Versions & backup](./versions-and-backup).
 
 :::
 
 ## Remove a vault
 
-Open the vault, then go to **Settings** → **Vault** → **Manage** → **Remove
-vault…** and choose:
-
-- **Unlink (keep folder)**: φ forgets the vault and leaves the folder exactly
-  where it is. You can open it again any time.
-- **Move to Trash**: φ forgets the vault and moves the whole folder to your
-  computer's trash, where you can still recover it until you empty it.
+1. Open the vault.
+2. Go to **Settings** → **Vault** → **Manage** → **Remove vault…**.
+3. Choose one:
+   - **Unlink (keep folder)**: φ removes the vault from its list and leaves
+     the folder where it is. You can open it again at any time.
+   - **Move to Trash**: φ removes the vault from its list and moves the
+     whole folder to your computer's trash. You can recover it from there
+     until you empty the trash.
 
 If it was your last vault, φ goes back to the welcome screen.
 

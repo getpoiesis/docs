@@ -1,98 +1,121 @@
 ---
 title: Le calendrier
-description: Votre écriture disposée jour par jour, avec votre série, l’année d’un coup d’œil, et ce que vous avez créé à la même date les années précédentes.
+description: Votre écriture jour après jour, avec votre série, l’année d’un seul coup d’œil et ce que vous avez créé à la même date les années précédentes.
 ---
 
 # Le calendrier
 
-Le calendrier montre votre écriture au fil du temps. Chaque jour porte ce que
-vous y avez écrit, commencé ou lié, les jours où vous avez écrit sont
-marqués, et depuis n’importe quel jour passé vous pouvez ouvrir son travail ou
-commencer à y écrire. Il vous ramène aussi ce que vous avez créé à la même
-date les années précédentes.
+Le calendrier présente votre écriture jour par jour. Il vous sert à voir quels
+jours vous avez écrit, à rouvrir ce que vous avez écrit un jour passé ou à
+écrire l’entrée de journal de ce jour-là. Il vous montre aussi ce que vous
+avez créé à la même date les années précédentes.
 
 <img src="/img/app/calendar-light.png" alt="Le calendrier : les chiffres du mois, la série et les repères dans la liste, une carte de chaleur des derniers mois au-dessus de la grille du mois, et le jour sélectionné avec Écrire ce jour" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/calendar-dark.png" alt="Le calendrier : les chiffres du mois, la série et les repères dans la liste, une carte de chaleur des derniers mois au-dessus de la grille du mois, et le jour sélectionné avec Écrire ce jour" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Revenir sur un jour {#look-back-at-a-day}
 
-1. Cliquez sur **Calendrier** sous **Lieux** dans la barre latérale.
-2. Passez d’un mois à l’autre avec les flèches à côté du nom du mois ;
-   **Aujourd’hui** vous ramène.
-3. Cliquez sur un jour. Tout ce qui s’y rattache est listé sous la grille.
-4. Cliquez sur un élément pour l’ouvrir, ou appuyez sur **Écrire ce jour**
+1. Cliquez sur **Calendrier**, sous **Lieux**, dans la barre latérale.
+2. Changez de mois avec les flèches placées à côté du nom du mois.
+   **Aujourd’hui** vous ramène au mois en cours.
+3. Cliquez sur un jour. Tout ce qui se rattache à ce jour s’affiche sous la
+   grille du mois.
+4. Cliquez sur un élément pour l’ouvrir. Ou appuyez sur **Écrire ce jour**
    pour écrire l’entrée de journal de ce jour-là.
 
-Le calendrier se trouve aussi dans `⌘K` (tapez «  Calendrier  »), dans le menu
-**⋮** de la liste Journal, et derrière la carte du mois dans l’Accueil de
-chaque mode : cliquez sur un jour là-bas pour l’ouvrir ici. `⌘[` vous ramène
-là où vous étiez.
+Vous pouvez aussi ouvrir le calendrier de ces façons :
 
-## Ce que montre la liste à côté {#what-the-list-beside-it-shows}
+- Appuyez sur `⌘K` et tapez « Calendrier ».
+- Ouvrez le menu **⋮** de la liste du Journal.
+- Cliquez sur un jour dans la carte du mois, sur l’Accueil de n’importe quel
+  mode. Le calendrier s’ouvre sur ce jour.
+
+Appuyez sur `⌘[` pour revenir là où vous étiez.
+
+## Ce que montre la liste d’à côté {#what-the-list-beside-it-shows}
+
+Il s’agit de la liste située à côté du calendrier (voir
+[Visite de la fenêtre](./finding-your-way)).
 
 | Section | Ce qu’elle contient |
 | --- | --- |
-| **Afficher** | **Tout**, **Écrire**, **Notes**, **Journal** ou **Échéance**. Restreint le calendrier aux documents d’un seul mode, ou aux cartes de tableau qui arrivent à échéance. |
-| Le nom du mois | Les mots écrits ce mois-ci, le nombre de jours d’écriture, et le nombre de jours de cette semaine où vous avez écrit. En dessous, votre série et le nombre de matins de pages du matin, s’il y en a. |
-| **Carte de chaleur** | La légende des nuances de la carte de chaleur, de **Moins** à **Plus**. |
-| **Repères** | Ce que veut dire chaque repère de la grille. |
+| **Afficher** | **Tout**, **Écrire**, **Notes**, **Journal** ou **Échéance**. Choisissez-en un pour ne voir que les documents de ce mode, ou que les cartes de [tableau](./boards) arrivées à échéance. |
+| Le nom du mois | Les mots écrits ce mois-ci, le nombre de jours où vous avez écrit et le nombre de jours où vous avez écrit cette semaine. En dessous viennent votre série et, s’il y en a, le nombre de matins avec des pages du matin. |
+| **Carte de chaleur** | Ce que signifient les nuances de la carte de chaleur, de **Moins** à **Plus**. |
+| **Repères** | Ce que signifie chaque repère de la grille du mois. |
 
 ## Lire le mois {#read-the-month}
 
-Chaque jour de la grille affiche le nombre de choses qu’il contient, et ces
-repères :
+Dans la grille du mois, chaque jour indique combien d’éléments il contient. Il
+peut aussi porter ces repères :
 
-| Repère | Signifie |
+| Repère | Signification |
 | --- | --- |
 | Flamme | **Vous avez écrit ce jour-là** : vous avez atteint votre minimum de mots quotidien. Les jours de votre série en cours sont plus vifs et reliés entre eux. |
 | Lever de soleil | **Pages du matin** |
 | Carnet et stylo | **Entrée du journal** |
 | Livre | **Projet commencé** |
-| Horloge | **Un souvenir d’une année passée** à cette date. |
+| Horloge | **Un souvenir d’une année passée**, à cette date. |
 
-Au-dessus de la grille, la **carte de chaleur** montre l’année écoulée en
-petits carrés, un par jour ; plus vous avez écrit, plus la couleur est
-profonde. Aujourd’hui est entouré, le jour sélectionné est dessiné plus grand,
-et le mois de la grille est marqué pour que les deux restent en phase. Dans
-une fenêtre étroite, elle affiche moins de mois plutôt que des carrés
-minuscules. Cliquez sur un carré pour ouvrir ce jour. Quand vous remontez dans
-une année antérieure, **Revenir à aujourd’hui** vous ramène.
+La **carte de chaleur** se trouve au-dessus de la grille du mois. Elle
+représente l’année écoulée par de petits carrés, un par jour. Plus vous avez
+écrit un jour, plus son carré est foncé.
 
-## Ce que liste un jour sélectionné {#what-a-selected-day-lists}
+- La date du jour est entourée.
+- Le jour sélectionné est dessiné en plus grand.
+- Le mois affiché dans la grille est signalé sur la carte de chaleur.
+- Dans une fenêtre étroite, la carte de chaleur affiche moins de mois : les
+  carrés gardent ainsi la même taille.
+- Cliquez sur un carré pour ouvrir ce jour.
+- Quand vous êtes dans une année passée, **Revenir à aujourd’hui** vous ramène
+  à aujourd’hui.
+
+## Ce que contient un jour sélectionné {#what-a-selected-day-lists}
 
 - Les **projets** commencés ce jour-là.
-- Les **cartes de tableau** à échéance ce jour-là, marquées **Échéance** avec
-  le nom du tableau. Cliquez sur l’une d’elles pour ouvrir son tableau.
+- Les **cartes de tableau** qui arrivent à échéance ce jour-là. Chacune porte
+  la mention **Échéance** et le nom de son tableau. Cliquez sur une carte pour
+  ouvrir son tableau.
 - Les **entrées de journal**, les **pages du matin** et les **documents**.
-  Chaque document est marqué selon son rapport au jour : **créé**,
-  **modifié**, ou **lié**, quand une date dans son texte renvoie à ce jour.
+  Chaque document porte une mention qui dit pourquoi il figure là : **créé** ce
+  jour-là, **modifié** ce jour-là, ou **lié**, quand une date dans son texte
+  renvoie à ce jour.
 
-Les documents et les entrées s’ouvrent pour être modifiés. Les pages du matin
-s’ouvrent en lecture seule, puisqu’elles ne sont pas faites pour être relues.
+Les documents et les entrées de journal s’ouvrent prêts à être modifiés. Les
+pages du matin s’ouvrent en lecture seule, puisqu’elles ne sont pas faites
+pour être relues.
 
-Un jour vide affiche *Rien pour l’instant — commencez vos pages pour ce jour.*
+Un jour où il n’y a rien affiche *Rien pour l’instant — commencez vos pages
+pour ce jour.*
 
-## Écrire un jour donné {#write-on-a-day}
+## Écrire à une date {#write-on-a-day}
 
-**Écrire ce jour** ouvre l’entrée de journal de ce jour-là, et la crée s’il
-n’y en a pas. Le bouton est là pour aujourd’hui et pour chaque jour passé. Un
-jour à venir peut être mentionné dans votre écriture, mais ne peut pas encore
-avoir sa propre entrée.
+1. Cliquez sur aujourd’hui ou sur n’importe quel jour passé.
+2. Appuyez sur **Écrire ce jour**.
 
-## Retrouver votre écriture passée {#meet-your-past-writing}
+φ ouvre l’entrée de journal de ce jour-là. Si elle n’existe pas encore, il la
+crée.
+
+Un jour à venir ne peut pas encore avoir d’entrée de journal. Rien ne vous
+empêche, en revanche, de mentionner une date future dans vos textes.
+
+## Retrouver vos écrits passés {#meet-your-past-writing}
 
 Quand le jour sélectionné contient quelque chose des années précédentes, **Ce
-jour-là** apparaît au-dessus de sa liste, avec un nombre *des années
-précédentes*. Cliquez dessus pour voir chaque texte avec son ancienneté,
-comme *il y a 3 a*, et cliquez sur l’un d’eux pour l’ouvrir.
+jour-là** apparaît au-dessus de la liste du jour, avec le nombre d’éléments
+*des années précédentes*.
+
+1. Cliquez sur **Ce jour-là**. Chaque élément indique de quand il date, par
+   exemple *il y a 3 a*.
+2. Cliquez sur un élément pour l’ouvrir.
 
 :::tip Changer l’affichage de la série
 
-**Réglages** (`⌘,`) → **Réglages d’écriture** → **Série** propose **Flamme et
-compte**, **Jours simples** ou **Désactivée**. Avec **Désactivée**, les
-flammes disparaissent et la carte de chaleur reste, comme une trace plutôt
-qu’un tableau des scores. **La semaine commence le**, au même endroit, fixe la
-première colonne de la grille et de la carte de chaleur.
+Allez dans **Réglages** (`⌘,`) → **Réglages d’écriture** → **Série** et
+choisissez **Flamme et compte**, **Jours simples** ou **Désactivée**. Avec
+**Désactivée**, les flammes disparaissent mais la carte de chaleur reste. **La
+semaine commence le** se trouve au même endroit : ce réglage fixe la première
+colonne de la grille du mois et de la carte de chaleur.
 
 :::
 
@@ -101,4 +124,4 @@ première colonne de la grille et de la carte de chaleur.
 - [Journal et pages du matin](./journal-and-morning-pages) : les entrées, les
   pages du matin et la façon dont la série est comptée.
 - [Tableaux](./boards) : les cartes avec une échéance.
-- [Se repérer dans φ](./finding-your-way)
+- [Visite de la fenêtre](./finding-your-way)

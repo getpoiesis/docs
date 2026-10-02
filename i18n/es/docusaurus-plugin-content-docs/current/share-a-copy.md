@@ -1,43 +1,59 @@
 ---
 title: Compartir una copia
-description: Un PDF para leer, Word para seguir editando, una página web, Markdown, texto enriquecido o el proyecto entero.
+description: Un PDF para leer, un Word para seguir editando, una página web, Markdown, texto enriquecido o el proyecto entero.
 ---
 
 # Compartir una copia
 
-No toda exportación es para una tienda. **Compartir una copia** crea un archivo
-para leer, enviar a un amigo, seguir editando en otro sitio o guardar: el
-proyecto entero en el formato que convenga.
+**Compartir una copia** crea un solo archivo con el proyecto entero. Úsalo
+cuando el archivo no vaya a una tienda: para leerlo, enviárselo a un amigo,
+editarlo en otra aplicación o guardar una copia.
 
 ## Crear una copia {#make-a-copy}
 
-1. Abre la página **Exportar** del proyecto y elige **Compartir una copia**.
-2. En **Opciones**, elige el **Estilo** y el **Papel**, si los predeterminados no
-   te sirven.
-3. Pulsa el formato que quieras y elige dónde guardarlo.
+1. Abre la página **Exportar** del proyecto.
+2. Elige **Compartir una copia**.
+3. En **Opciones**, elige un **Estilo** y un **Papel**. Si te sirven los
+   valores predeterminados, sáltate este paso.
+4. Pulsa el formato que quieras.
+5. Elige dónde guardar el archivo.
 
-| Formato | Ideal para |
+| Formato | Para qué sirve |
 | --- | --- |
-| **PDF** | Leer en pantalla o imprimir en casa: la cubierta, las páginas propias del libro, el índice, las notas al pie de su página y ninguna página en blanco. |
-| **Word** | Enviar a un editor o a un lector que comenta en Word, y todavía editable. |
-| **Página web** | Un solo archivo HTML con toda la obra, estilos e imágenes incluidos, para abrir en un navegador o publicar en un sitio. |
-| **Markdown** | Cualquier sitio que acepte texto plano, con los capítulos y su numeración. |
-| **Texto enriquecido** | Se abre con formato en TextEdit, Pages y cualquier versión de Word, y en los portales de envío que rechazan `.docx`. |
-| **Copia del proyecto** | Todo tal como lo guarda φ, para llevar la obra a otra bóveda o guardarla. |
+| **PDF** | Para leer en pantalla o imprimir en casa. Incluye la cubierta, las páginas propias del libro, un índice y las notas al pie en su página. No lleva páginas en blanco. |
+| **Word** | Para enviarlo a un editor o a un lector que comenta en Word. El texto se puede seguir editando. |
+| **Página web** | Un único archivo HTML con la obra completa, estilos e imágenes incluidos. Ábrelo en un navegador o súbelo a un sitio web. |
+| **Markdown** | Para cualquier aplicación que acepte texto sin formato. Se conservan los capítulos y la numeración. |
+| **Texto enriquecido** | TextEdit, Pages y todas las versiones de Word lo abren con su formato. Úsalo en los portales de envío que no aceptan `.docx`. |
+| **Copia del proyecto** | Todo, tal como lo guarda φ. Úsala para llevar el proyecto a otra [bóveda](./vaults) o para archivarlo. |
 
 ## Estilos y papel {#styles-and-paper}
 
-Una copia compartida usa un **estilo** en lugar de un diseño de libro: **As it
-looks in φ** (el predeterminado: la fuente de tu editor, con márgenes de libro),
-**Standard manuscript**, **Paperback**, **Poetry** o **Academic paper**, o uno
-de los tuyos ([Estilos propios](./custom-styles)). El **Papel** fija el tamaño
-de página del PDF: Carta, A4, A5, Digest o Trade. Los demás formatos se adaptan.
+Una copia compartida no usa un diseño de libro, sino un **estilo**. Los estilos
+son:
+
+- **As it looks in φ** (el predeterminado): la fuente de tu editor, con
+  márgenes de libro;
+- **Standard manuscript**;
+- **Paperback**;
+- **Poetry**;
+- **Academic paper**;
+- cualquier estilo que hayas creado tú ([Estilos propios](./custom-styles)).
+
+**Papel** define el tamaño de página del PDF: Carta, A4, A5, Digest o Trade.
+Los demás formatos no tienen páginas fijas, así que **Papel** no les afecta.
 
 ## Recuperar una copia {#bringing-a-copy-back}
 
-Una **Copia del proyecto** es un archivo `.poiesis` que contiene el proyecto,
-sus documentos y sus imágenes. Para abrirlo en otra bóveda, usa **Importar un
-documento φ (`.poiesis`)…** en la paleta de comandos ([Importar](./importing)).
+Una **Copia del proyecto** es un archivo `.poiesis`. Contiene el proyecto, sus
+documentos y sus imágenes.
+
+Para abrirla en otra bóveda:
+
+1. Abre la paleta de comandos (`⌘P`).
+2. Elige **Importar un documento φ (`.poiesis`)…**.
+
+En [Importar](./importing) lo tienes con más detalle.
 
 ## Ver también {#see-also}
 

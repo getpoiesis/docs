@@ -1,106 +1,150 @@
 ---
 title: Documentos lado a lado
-description: Hasta tres documentos abiertos a la vez, como un capítulo junto a su investigación, o la entrada de hoy junto a la del año pasado.
+description: Hasta tres documentos abiertos a la vez, como un capítulo junto a su investigación o la entrada de hoy junto a la del año pasado.
 ---
 
 # Documentos lado a lado
 
-A veces la página que escribes necesita otra abierta al lado: la investigación
-de este capítulo, el capítulo anterior, lo que escribiste este mismo día el año
-pasado. φ abre hasta **tres documentos lado a lado**, y en todos puedes
-escribir.
+Puedes abrir hasta **tres documentos lado a lado** y escribir en cualquiera
+de ellos. Por ejemplo, un capítulo junto a su investigación, o la entrada de
+hoy del diario junto a la del año pasado.
+
+<img src="/img/app/split-view-light.png" alt="Un capítulo a la izquierda y su página de investigación a la derecha, lado a lado" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/split-view-dark.png" alt="Un capítulo a la izquierda y su página de investigación a la derecha, lado a lado" width="1600" height="1000" loading="lazy" decoding="async" />
+
+Cada documento se muestra en su propio panel. Un panel es una de las
+columnas en que se divide la ventana.
 
 ## Abrir un documento al lado de este {#open-a-document-beside-this-one}
 
-1. Con un documento abierto, haz clic en **Vista dividida** en la barra de
-   encima de la página, o pulsa `⌘\`. Se abre un panel vacío al lado y la barra
-   lateral se desliza.
-2. Busca el segundo documento en cualquier sitio, en cualquier modo. Nada
-   cambia en la página hasta que elijas.
-3. Haz clic en él y llenará el panel vacío.
+1. Abre un documento.
+2. Haz clic en **Vista dividida**, en la barra que hay sobre la página, o
+   pulsa `⌘\`. Se abre un panel vacío al lado del documento y aparece la
+   barra lateral.
+3. Busca el segundo documento en la barra lateral y en la lista. Puedes
+   mirar en cualquier modo: la página no cambia mientras buscas.
+4. Haz clic en el segundo documento. Se abre en el panel vacío.
 
-Para buscar por nombre, usa **Buscar por nombre** en el panel vacío. ¿Cambiaste
-de idea? Cierra el panel vacío con su **×**, o con `⌘W`.
+Para buscar un documento por su nombre, usa **Buscar por nombre** en el
+panel vacío.
+
+Para cerrar el panel vacío sin elegir ningún documento, haz clic en su **×**
+o pulsa `⌘W`.
 
 ## Otras formas de abrirlo {#other-ways-in}
 
-Cualquiera de estas opciones abre un documento junto al tuyo al instante:
+Con cualquiera de estas, el documento se abre al lado del tuyo
+directamente:
 
-- **⌥-clic** en un documento de la lista, un capítulo del esquema de un
-  proyecto, un enlace de investigación o un documento enlazado en
+- Haz clic con **⌥** pulsada en un documento de la lista, en un capítulo del esquema de
+  un proyecto, en un enlace de investigación o en un documento enlazado de
   **Información → Enlaces**.
-- **⌘⌥-clic** en un `[[wiki link]]` del texto (en modo lectura, ⌥-clic).
-- **Abrir al lado**, en el menú contextual de un documento en la lista.
-- **Abrir al lado…**, en el menú ⋮ del documento o en la paleta de comandos
-  (`⌘P`). Empieza por lo que es útil aquí: la investigación de un capítulo y
-  los documentos enlazados con él, el mismo día en años anteriores para una
-  entrada del diario, y después lo que abriste hace poco. Al escribir busca en
-  todo.
-- En `⌘K`, **⌥↵** abre el documento resaltado al lado en vez de en lugar del
-  que tienes abierto.
+- Haz clic con **⌘⌥** pulsadas en un `[[enlace wiki]]` del texto. En el modo lectura, basta con **⌥**.
+- Haz clic derecho en un documento de la lista y elige **Abrir
+  al lado**.
+- Elige **Abrir al lado…** en el menú ⋮ del documento o en la paleta de
+  comandos (`⌘P`). Se abre una lista de documentos para que elijas uno.
+- En `⌘K`, pulsa **⌥↵**. El documento resaltado se abre al lado del que
+  tienes delante, sin sustituirlo.
 
-Un documento que ya está abierto al lado no se abre dos veces: pasa a ser en el
-que estás. Con tres abiertos, uno nuevo ocupa el lugar del panel más a la
-derecha en el que no estás escribiendo.
+La lista de **Abrir al lado…** empieza por los documentos que más
+probablemente te sirvan:
+
+- Si estás en un capítulo: su investigación y los documentos enlazados con
+  él.
+- Si estás en una entrada del diario: el mismo día de años anteriores.
+- Después, los documentos que has abierto hace poco.
+
+Escribe en la lista para buscar entre todos tus documentos.
+
+Dos reglas:
+
+- φ no abre dos veces el mismo documento. Si ya está abierto en un panel, φ
+  te lleva a ese panel.
+- Si ya hay tres paneles abiertos, el documento nuevo sustituye a uno de
+  ellos: el que esté más a la derecha de los que no estás usando para
+  escribir.
 
 ## Escribe en uno, lee en otro {#write-in-one-read-in-another}
 
-Haz clic en un panel para escribir en él. Ese panel, marcado con una línea fina
-del color de su modo en la parte superior, es sobre el que actúa todo: el panel
-de **Información**, **Buscar** (`⌘F`), **Detalles…**, el menú ⋮ del documento y
-`⌘W`. Cada panel muestra su propio recuento de palabras.
+Haz clic en un panel para escribir en él. Ese pasa a ser el panel activo, y
+se distingue por una línea fina en la parte superior, del color de su modo.
 
-Un panel puede contener un documento de cualquier modo, y abrir uno al lado
-nunca cambia el modo en el que estás. Una nota junto a un capítulo sigue siendo
-Escribir: la barra lateral es la de Escribir, y al cerrar la nota sigues ahí.
+Estas herramientas actúan siempre sobre el panel activo: el panel de
+**Información**, **Buscar** (`⌘F`), **Detalles…**, el menú ⋮ del documento
+y `⌘W`.
 
-Cada panel tiene una pequeña cabecera con su título y:
+Cada panel muestra su propio recuento de palabras.
 
-- **Añadir un panel** (+, en el último): otro panel vacío.
+En un panel cabe un documento de cualquier modo, y abrir un documento al
+lado del tuyo nunca cambia el modo en el que estás. Por ejemplo, si abres
+una nota junto a un capítulo, sigues en Escribir: la barra lateral sigue
+siendo la de Escribir y, cuando cierres la nota, seguirás en Escribir.
+
+Cada panel tiene una pequeña cabecera con el título del documento y estos
+botones:
+
+- **Añadir un panel** (+): abre otro panel vacío. Solo el último panel tiene
+  este botón.
 - **Opciones del panel** (⋮): **Abrir solo**, **Mover a la izquierda**,
-  **Mover a la derecha**, **Cerrar panel**.
+  **Mover a la derecha** y **Cerrar panel**.
 - **Cerrar panel** (×).
 
-Un clic normal en la lista abre un documento en lugar del panel en el que
-estás.
+Si haces clic en un documento de la lista sin mantener pulsada ninguna
+tecla, ese documento sustituye al del panel activo.
 
 ## La barra lateral en vista dividida {#the-sidebar-while-split}
 
-Con más de un panel abierto, la barra lateral y la lista se apartan para dejar
-sitio a las páginas. Haz clic en **Barra lateral** (☰, a la izquierda de la
-barra de encima de los paneles) o pulsa `⌘0`, y se deslizan sobre los paneles.
-Elige un documento, pulsa `Esc` o haz clic fuera para que se vayan.
+Cuando hay más de un panel abierto, φ oculta la barra lateral y la lista
+para dejar más sitio a los paneles.
 
-Ir a algo que no es un documento, como un tablero o el calendario, lo muestra
-con la disposición habitual. **Atrás** (`⌘[`) vuelve a tus paneles, y en
-Inicio, **Continuar** recupera la vista dividida en la que escribías por última
-vez.
+- Para mostrarlas, haz clic en **Barra lateral** (☰, a la izquierda de la
+  barra que hay sobre los paneles) o pulsa `⌘0`. Aparecen por encima de los
+  paneles.
+- Para ocultarlas de nuevo, elige un documento, pulsa `Esc` o haz clic
+  fuera de ellas.
+
+Cuando abres algo que no es un documento, como un tablero o el calendario,
+φ lo muestra con la disposición habitual. Para volver a tus paneles, usa
+**Atrás** (`⌘[`). En Inicio, **Continuar** abre la vista dividida en la que
+escribiste por última vez.
 
 ## El tamaño de los paneles {#size-the-panes}
 
-Arrastra la línea entre dos paneles, o haz clic en ella y usa `←` `→`. φ
-recuerda los anchos de cada bóveda en este ordenador. Cuando la ventana es
-demasiado estrecha para todos los paneles, los que no caben se pliegan en
-pestañas finas en el borde derecho; haz clic en una para traerla de vuelta.
+Para cambiar el ancho de dos paneles, arrastra la línea que los separa.
+También puedes hacer clic en la línea y pulsar `←` o `→`.
+
+φ recuerda los anchos de cada bóveda en este ordenador. (Una
+[bóveda](./vaults) es la carpeta donde φ guarda tus documentos).
+
+Si la ventana es demasiado estrecha para mostrar todos los paneles, los que
+no caben se convierten en pestañas estrechas en el borde derecho. Haz clic
+en una pestaña para volver a ver ese panel.
 
 :::tip El Santuario conserva tus paneles
-Pulsa `⌘.` y los paneles se quedan mientras todo lo que los rodea desaparece.
-Los botones de cada panel aparecen cuando apuntas a su cabecera, y el atenuado
-y el desplazamiento de máquina de escribir solo se aplican al panel en el que
-escribes.
+El Santuario oculta todo menos lo que estás escribiendo. Pulsa `⌘.` y los
+paneles se quedan, mientras desaparece todo lo que los rodea. Pasa el
+puntero por la cabecera de un panel para ver sus botones. La atenuación y el
+desplazamiento de máquina de escribir solo se aplican al panel en el que
+escribes. Consulta [Concentración y Santuario](./focus-and-writing-modes).
 :::
 
 ## Volver a una sola página {#back-to-one-page}
 
-Cierra paneles con **×**, con `⌘W` en el que estás, o con `⌥⌘W` para cerrar
-todos los demás. Cuando queda uno, vuelve la disposición habitual con ese
-documento abierto.
+Los paneles se cierran de tres maneras:
+
+- Haz clic en la **×** de un panel.
+- Pulsa `⌘W` para cerrar el panel en el que estás.
+- Pulsa `⌥⌘W` para cerrar todos los demás.
+
+Cuando solo queda un panel, vuelve la disposición habitual con ese documento
+abierto.
 
 | Para | Pulsa |
 | --- | --- |
 | Abrir un panel vacío al lado | `⌘\` |
 | Mostrar la barra lateral sobre los paneles | `⌘0` |
-| Ir al panel anterior o siguiente | `⌃⌘←` · `⌃⌘→` |
+| Ir al panel anterior o al siguiente | `⌃⌘←` · `⌃⌘→` |
 | Cerrar el panel en el que estás | `⌘W` |
 | Cerrar los demás paneles | `⌥⌘W` |
 

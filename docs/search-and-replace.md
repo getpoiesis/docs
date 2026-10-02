@@ -5,9 +5,10 @@ description: Find words in the page you're on or across every document, and chan
 
 # Search & replace
 
-φ answers two questions. `⌘F` looks through the page in front of you, and
-`⇧⌘F` looks through every document in the vault. Both can replace what they
-find, so renaming a character or fixing a spelling everywhere is one step.
+φ has two searches. `⌘F` searches the document you have open. `⇧⌘F`
+searches every document in the [vault](./vaults), the folder that holds
+your writing. Both can replace what they find, so you can rename a
+character or correct a word everywhere at once.
 
 <img src="/img/app/search-light.png" alt="The Search page in the list column: a query and a replacement field, then matches grouped by document with the words in context" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/search-dark.png" alt="The Search page in the list column: a query and a replacement field, then matches grouped by document with the words in context" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -16,62 +17,71 @@ find, so renaming a character or fixing a spelling everywhere is one step.
 
 1. Press `⇧⌘F` to open **Search**.
 2. Type the old name in **Find in every document…**.
-3. Look over the matches, grouped by document.
-4. Type the new name in **Replace**, then press **Replace in all
-   documents…**.
-5. φ tells you how many it will change in how many documents. Press
-   **Replace everywhere** to go ahead.
+3. Check the matches. They are grouped by document.
+4. Type the new name in **Replace**.
+5. Press **Replace in all documents…**. φ tells you how many matches it
+   will change, and in how many documents.
+6. Press **Replace everywhere** to confirm.
 
-If versioning is on, φ saves a version of the whole vault first, named after
-what you replaced, so you can go back. If it's off, φ says so before you
-confirm, because the change can't be undone. See
-[Versions & backup](./versions-and-backup).
+If versioning is on, φ first saves a version of the whole vault, named
+after what you replaced. You can go back to that version later. If
+versioning is off, the change can't be undone, and φ tells you so before
+you confirm. See [Versions & backup](./versions-and-backup).
 
 ## Find in this document
 
-Press `⌘F` (**Edit → Find in Document**). A bar opens above your text,
-starting with any words you had selected. φ highlights every match as you
-type.
+1. Press `⌘F` (**Edit → Find in Document**). A bar opens above your text.
+   If you had words selected, they are already in the bar.
+2. Type what you want to find. φ highlights every match as you type.
 
-- The counter shows where you are: **3 of 12**, or **No results**.
-- Return goes to the next match and `⇧`Return to the one before; the arrow
-  buttons do the same.
-- **Match case** (the Aa button) makes capitals count.
+<img src="/img/app/find-bar-light.png" alt="The find bar above a chapter, with the matches highlighted, the match counter and the replace field" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/find-bar-dark.png" alt="The find bar above a chapter, with the matches highlighted, the match counter and the replace field" width="1600" height="1000" loading="lazy" decoding="async" />
+
+On the bar:
+
+- The counter shows which match you are on, such as **3 of 12**, or **No
+  results**.
+- Return goes to the next match, and `⇧`Return goes to the previous one.
+  The arrow buttons do the same.
+- **Match case** (the Aa button) finds only words with the same capital
+  and small letters as you typed.
 - **Regular expression** lets you search with a pattern.
-- `Esc` closes the bar and clears the highlights.
+- `Esc` closes the bar and removes the highlights.
 
-With no document open, `⌘F` opens the Search page instead.
+When no document is open, `⌘F` opens the Search page instead.
 
 ### Replace in this document
 
-Press **Replace** on the bar, or `⌥⌘F` (**Edit → Find & Replace in
-Document**) to open the bar with it showing. Type the replacement, then:
+1. Press **Replace** on the bar. Or press `⌥⌘F` (**Edit → Find & Replace
+   in Document**), which opens the bar with the replacement field showing.
+2. Type the replacement.
+3. Press **Replace** to change the current match and move to the next one.
+   Or press **All in document** to change every match in this document.
 
-- **Replace** changes the current match and moves to the next.
-- **All in document** changes every match here at once.
-
-A replacement here is an ordinary edit, so `⌘Z` undoes it.
+`⌘Z` undoes a replacement here, like any other edit.
 
 ## Search every document
 
-`⇧⌘F` (**Edit → Find in All Documents…**) opens **Search** in the list
-column. A result opens on the page beside it, and the search stays put for
-the next one.
+1. Press `⇧⌘F` (**Edit → Find in All Documents…**). **Search** opens in
+   the list column.
+2. Type at least two characters.
+3. Click a document, or one of its matches. The document opens beside the
+   list with that match selected.
 
-Type at least two characters. φ reads every document in the vault, morning
-pages included, and lists those that match, the busiest first, each with its
-matches in context. A document found by its title is marked **in the name**.
-**Match case** and **Regular expression** work as they do on the bar.
+The search stays open in the list, so you can open the next result.
 
-Click a document, or one of its matches, to open it with that very match
-selected.
+φ searches every document in the vault, including morning pages. It lists
+the documents that match, starting with the one that has the most matches.
+Under each document you see its matches with the words around them. If the
+match is in a document's title, the document is marked **in the name**.
+**Match case** and **Regular expression** work the same way as on the bar.
 
 ## Other ways to find things
 
 | To find | Use |
 | --- | --- |
 | A document, project or character by name | `⌘K`. See [Finding your way](./finding-your-way). |
-| Something in the list you're looking at | The search field under the list's title. It narrows by title, opening text and tags. |
+| Something in the list you're looking at | The search field under the list's title. It filters by title, opening text and tags. |
 | A command | `⌘P`. |
 
 ## See also

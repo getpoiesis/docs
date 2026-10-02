@@ -1,106 +1,140 @@
 ---
 title: Concentration et Sanctuaire
-description: Le Sanctuaire, le défilement machine à écrire, l’écriture focalisée et le mode lecture, pour les moments où la page doit être tout ce qui existe.
+description: Le Sanctuaire, le défilement machine à écrire, l’écriture focalisée et le mode lecture, pour les moments où seule la page compte.
 ---
 
 # Concentration et Sanctuaire
 
-Quand vient le moment d’écrire, le reste de φ devrait s’effacer. Le
-**Sanctuaire** dégage tout sauf la page, et quelques réglages plus discrets
-gardent vos yeux sur la ligne que vous écrivez.
+Le **Sanctuaire** masque tout dans φ sauf la page, pour que rien ne vous
+distraie pendant que vous écrivez. Cette page présente aussi trois outils plus
+modestes : le défilement machine à écrire, l’écriture focalisée et le mode
+lecture.
 
-<img src="/img/app/focus-light.png" alt="Sanctuaire : un chapitre seul sur la page, la phrase en cours d’écriture pleinement visible et le reste atténué, avec l’emplacement du chapitre sur une ligne discrète au-dessus" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/focus-dark.png" alt="Sanctuaire : un chapitre seul sur la page, la phrase en cours d’écriture pleinement visible et le reste atténué, avec l’emplacement du chapitre sur une ligne discrète au-dessus" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-light.png" alt="Le Sanctuaire : un chapitre seul sur la page, la phrase en cours bien nette et le reste atténué, avec l’emplacement du chapitre sur une ligne discrète en haut" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Le Sanctuaire : un chapitre seul sur la page, la phrase en cours bien nette et le reste atténué, avec l’emplacement du chapitre sur une ligne discrète en haut" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Entrer dans le Sanctuaire {#go-into-sanctuary}
 
-1. Ouvrez le document que vous voulez écrire.
-2. Appuyez sur `⌘.`, ou cliquez sur **Sanctuaire** en haut à droite de la page.
+1. Ouvrez le document dans lequel vous voulez écrire.
+2. Appuyez sur `⌘.`, ou cliquez sur **Sanctuaire** en haut à droite de la
+   page.
 3. Écrivez.
-4. Appuyez sur `Esc` ou `⌘.` pour revenir.
+4. Appuyez sur `Esc` ou sur `⌘.` pour quitter le Sanctuaire.
 
-Le Sanctuaire se trouve aussi dans le menu **Affichage**, dans le menu ⋮ du
-document et dans la palette de commandes (`⌘P`). Il est proposé pour un
-document et pour le [graphe](./links-and-graph).
+**Sanctuaire** se trouve aussi dans le menu **Affichage**, dans le menu ⋮ du
+document et dans la palette de commandes (`⌘P`).
 
-## Pendant que vous êtes dans le Sanctuaire {#while-youre-in-sanctuary}
+Le Sanctuaire fonctionne pour un document et pour le
+[graphe](./links-and-graph).
 
-La barre latérale, la liste, le panneau Infos et les boutons disparaissent. Ce
-qui reste :
+## Dans le Sanctuaire {#while-youre-in-sanctuary}
 
-- **La phrase où vous êtes reste pleinement visible**, et le reste du texte est
+Le Sanctuaire masque la barre latérale, la liste, le panneau Infos et les
+boutons. Voici ce qui reste à l’écran :
+
+- **La phrase que vous écrivez reste bien nette.** Le reste du texte est
   atténué. Si **Écriture focalisée** est réglée sur **Paragraphe**, c’est tout
-  le paragraphe qui reste éclairé. Pour tout garder pleinement visible,
-  désactivez **Réglages → Apparence → Le sanctuaire atténue le reste**.
-- **Une ligne discrète en haut indique où vit le document** : son mode, son
-  projet, sa partie et son chapitre, ou son dossier. Cliquez sur une étape pour
-  y aller ; cela quitte le Sanctuaire en gardant le document ouvert.
-- **Le nombre de mots passe en bas au centre**, face à l’objectif quand il y en
-  a un.
-- **Le défilement machine à écrire** a son propre bouton en haut à droite.
+  le paragraphe qui reste net. Pour supprimer cette atténuation, désactivez
+  **Réglages → Apparence → Le sanctuaire atténue le reste**.
+- **Une ligne en haut indique où le document est rangé.** Elle donne le mode,
+  puis le projet, la partie et le chapitre, ou bien le dossier. Cliquez sur
+  l’un de ces éléments pour vous y rendre : vous quittez le Sanctuaire, et le
+  document reste ouvert.
+- **Le nombre de mots s’affiche en bas, au centre.** Si le document a un
+  objectif de mots, il apparaît à côté de l’objectif.
+- **Le défilement machine à écrire** a son bouton en haut à droite.
 
-Le ☰ en haut à gauche (**Afficher les outils**) fait tout revenir. Le
-Sanctuaire reste dans la fenêtre au lieu de passer en plein écran ; utilisez
-l’élément plein écran du menu **Affichage** si vous voulez les deux. Ouvrir une
-page qui n’est pas un document, comme le calendrier ou un tableau, y met fin de
-lui-même.
+Pour tout réafficher, cliquez sur ☰ en haut à gauche (**Afficher les
+outils**).
 
-Avec des documents [côte à côte](./side-by-side), le Sanctuaire garde les
-volets, et l’atténuation comme le défilement machine à écrire ne s’appliquent
-qu’au volet où vous écrivez.
+Le Sanctuaire ne met pas la fenêtre en plein écran. Si vous voulez aussi le
+plein écran, choisissez la commande de plein écran dans le menu **Affichage**.
+
+Le Sanctuaire se referme tout seul quand vous ouvrez une page qui n’est pas un
+document, comme le calendrier ou un tableau.
+
+Quand des documents sont ouverts [côte à côte](./side-by-side), le Sanctuaire
+conserve les volets. L’atténuation et le défilement machine à écrire ne
+s’appliquent qu’au volet dans lequel vous écrivez.
 
 ## Garder votre ligne au milieu {#keep-your-line-in-the-middle}
 
-Le **Défilement machine à écrire** garde la ligne que vous écrivez au milieu de
-la fenêtre, pour que vos yeux restent en place et que le texte monte à leur
-rencontre. Activez-le ou désactivez-le avec `⇧⌘T`, **Affichage → Défilement
-machine à écrire**, le menu ⋮ du document, le bouton dans le Sanctuaire, ou
-**Réglages → Éditeur → Défilement machine à écrire**.
+Le **Défilement machine à écrire** maintient la ligne que vous écrivez au
+milieu de la fenêtre. Le texte remonte à mesure que vous écrivez : vos yeux
+n’ont plus à descendre le long de la page.
+
+Vous pouvez l’activer ou le désactiver à cinq endroits :
+
+- Appuyez sur `⇧⌘T`.
+- Choisissez **Affichage → Défilement machine à écrire**.
+- Choisissez **Défilement machine à écrire** dans le menu ⋮ du document.
+- Cliquez sur son bouton dans le Sanctuaire.
+- Ouvrez **Réglages → Éditeur → Défilement machine à écrire**.
 
 ## Atténuer ce que vous n’écrivez pas {#dim-what-youre-not-writing}
 
-L’**Écriture focalisée** atténue tout sauf l’endroit où vous êtes, dans le
-Sanctuaire ou en dehors :
+L’**Écriture focalisée** atténue tout le texte, sauf la partie que vous êtes
+en train d’écrire. Elle fonctionne dans le Sanctuaire comme en dehors.
 
-| Réglage | Ce qui reste éclairé |
+<img src="/img/app/focus-typing-light.png" alt="L’écriture focalisée par paragraphe : le paragraphe en cours est net et le reste est atténué" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-typing-dark.png" alt="L’écriture focalisée par paragraphe : le paragraphe en cours est net et le reste est atténué" width="1600" height="1000" loading="lazy" decoding="async" />
+
+| Réglage | Ce qui reste net |
 | --- | --- |
-| **Phrase** | La phrase où vous êtes. |
-| **Paragraphe** | Le paragraphe où vous êtes. |
-| **Désactivé** | Tout. (Le Sanctuaire atténue quand même jusqu’à la phrase, sauf si vous l’avez désactivé.) |
+| **Phrase** | La phrase où vous vous trouvez. |
+| **Paragraphe** | Le paragraphe où vous vous trouvez. |
+| **Désactivé** | Tout. (Le Sanctuaire continue d’atténuer tout sauf la phrase, à moins que vous n’ayez désactivé cette option.) |
 
-Réglez-la dans **Affichage → Écriture focalisée**, dans **Réglages → Éditeur →
-Écriture focalisée**, ou passez d’un réglage à l’autre avec **Basculer
-l'écriture focalisée** dans la palette de commandes.
+Vous pouvez la régler à trois endroits :
+
+- Choisissez **Affichage → Écriture focalisée**.
+- Ouvrez **Réglages → Éditeur → Écriture focalisée**.
+- Choisissez **Basculer l’écriture focalisée** dans la palette de commandes.
+  Chaque fois, la commande passe au réglage suivant parmi les trois.
 
 ## Lire sans modifier {#read-without-editing}
 
-Le **Mode lecture** affiche le document en lecture seule, pour que vous
-puissiez parcourir un brouillon sans frappe malencontreuse. Basculez-le avec
-`⌘E`, **Affichage → Mode lecture**, **Mode lecture** dans le menu ⋮ du
-document, ou **Mode lecture** dans la palette de commandes.
+En **Mode lecture**, vous pouvez lire le document, mais pas le modifier. C’est
+pratique pour relire un brouillon sans risquer d’y taper par mégarde.
 
-## Vos séances d’écriture {#your-writing-sessions}
+Vous pouvez l’activer ou le désactiver à quatre endroits :
 
-Une session d’écriture, ou séance, est une plage de travail. Elle commence à
-votre première frappe et compte les mots que vous ajoutez ; supprimer ne
-retranche rien, si bien qu’une séance passée à réviser montre quand même le
-travail accompli.
+- Appuyez sur `⌘E`.
+- Choisissez **Affichage → Mode lecture**.
+- Choisissez **Mode lecture** dans le menu ⋮ du document.
+- Choisissez **Mode lecture** dans la palette de commandes.
 
-Une séance ne compte que le temps où vous écrivez. Elle se met en pause après
-une minute sans frappe, quand vous passez à une autre app, quand vous quittez
-la page, et en mode lecture ; la frappe suivante la reprend. Après vingt
-minutes sans un mot, elle se termine.
+## Vos sessions d’écriture {#your-writing-sessions}
 
-- L’Accueil d’**Écrire** affiche les minutes de la séance en cours sur sa carte
-  **Aujourd’hui**.
-- Les statistiques du document (cliquez sur le nombre de mots, puis cliquez de
-  nouveau) gardent votre **Session la plus longue** et votre **Meilleure
-  session (mots)**.
+Une session d’écriture est une période passée à écrire. φ mesure vos sessions
+pour vous.
 
-Pour décider vous-même quand une séance commence, désactivez **Démarrer les
-sessions automatiquement** dans **Réglages → Réglages d’écriture**, et utilisez
-**Démarrer la session d’écriture** et **Terminer la session d’écriture** dans la
-palette de commandes.
+- Une session commence à la première touche que vous frappez.
+- Elle compte les mots que vous ajoutez. Supprimer des mots ne fait pas
+  baisser le compte : une session de révision témoigne donc elle aussi de
+  votre travail.
+- Elle ne compte que le temps où vous écrivez. Elle se met en pause au bout
+  d’une minute sans frappe, quand vous passez à une autre application, quand
+  vous quittez la page, et en mode lecture. Elle reprend dès que vous tapez de
+  nouveau.
+- Elle se termine au bout de vingt minutes sans nouveau mot.
+
+Vous retrouvez vos sessions à deux endroits :
+
+- L’Accueil d’**Écrire** affiche les minutes de la session en cours sur sa
+  carte **Aujourd’hui**.
+- Les statistiques du document indiquent votre **Session la plus longue** et
+  votre **Meilleure session (mots)**. Pour les ouvrir, cliquez sur le nombre
+  de mots, puis cliquez de nouveau dessus.
+
+Pour démarrer et terminer vous-même les sessions :
+
+1. Ouvrez **Réglages → Réglages d’écriture** et désactivez **Démarrer les
+   sessions automatiquement**.
+2. Ouvrez la palette de commandes et choisissez **Démarrer la session
+   d’écriture**.
+3. Quand vous avez fini, choisissez **Terminer la session d’écriture** dans la
+   palette de commandes.
 
 ## Voir aussi {#see-also}
 

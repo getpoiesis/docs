@@ -5,46 +5,54 @@ description: Bring work into φ from Markdown, other apps and your own copies.
 
 # Importing
 
-φ reads work from other writing tools and from copies you've made yourself.
-Imported writing becomes ordinary φ documents, with their dates, links and
-pictures kept.
+You can bring writing into φ from other writing apps, and from copies you
+made in φ. Imported writing becomes ordinary φ documents. Their dates, links
+and pictures are kept.
+
+Imported documents go into a [vault](./vaults), the folder where φ keeps your
+work.
 
 ## Import Markdown files
 
-1. Open the command palette (`⌘P`) and choose **Import Markdown file(s)…**.
-   It's also under **Import…** in the vault menu at the top of the sidebar.
-2. Pick the `.md` or `.txt` files.
+1. Open the command palette (`⌘P`).
+2. Choose **Import Markdown file(s)…**.
+3. Pick the `.md` or `.txt` files.
+
+You can also start from the vault menu at the top of the sidebar: choose
+**Import…**.
 
 φ reads front matter, headings, lists and tasks, callouts, highlights,
 footnotes and wiki links.
 
 ## Import a folder of notes
 
-Moving from another notes app, like Obsidian or Logseq? Bring the whole
-folder:
+If you are moving from another notes app, such as Obsidian or Logseq, you can
+import the whole folder.
 
-1. In the command palette, choose **Import Markdown folder → into current
-   vault…** or **Import Markdown folder → as a new vault…**.
-2. Pick the folder.
+1. Open the command palette (`⌘P`).
+2. Choose **Import Markdown folder → into current vault…** or **Import
+   Markdown folder → as a new vault…**.
+3. Pick the folder.
 
-φ keeps the folder's structure, and:
+φ keeps the structure of the folder. It also keeps:
 
-- **each note's original creation date**, from a date in the file, a
-  daily-note file name (like `2022_11_11`), or the folder's git history;
-- **the links between notes**: it decodes encoded file names, honours
-  `title::` and `alias::` properties, and treats `#tags` as page links, so
-  backlinks and the graph work straight away.
+- **The date each note was first created.** φ takes it from a date in the
+  file, from a daily-note file name (like `2022_11_11`), or from the folder's
+  git history.
+- **The links between notes.** φ decodes encoded file names, reads `title::`
+  and `alias::` properties, and treats `#tags` as links to pages. Backlinks
+  and the graph work as soon as the import ends.
 
 ## Import a φ document or project
 
-A `.poiesis` file made with **Save a Copy** or **Project copy** opens with
-its pictures:
+A `.poiesis` file made with **Save a Copy** or **Project copy** opens with its
+pictures. There are three ways to import it:
 
-- choose **Import a φ document (`.poiesis`)…** in the command palette, or
-  **File → Import φ Document…**; or
-- drag the file onto the φ window.
+- In the command palette, choose **Import a φ document (`.poiesis`)…**.
+- Choose **File → Import φ Document…**.
+- Drag the file onto the φ window.
 
 ## See also
 
-- [Vaults](./vaults): where imported work lands.
+- [Vaults](./vaults): where imported work goes.
 - [Share a copy](./share-a-copy): making a project copy.

@@ -5,23 +5,31 @@ description: Every keyboard shortcut in φ, for writing, formatting, finding you
 
 # Keyboard shortcuts
 
-Every shortcut in φ, written the Mac way. On Windows and Linux most of them
-work with **Ctrl** in place of ⌘; the few that differ are listed at the end.
-
-Press `⌘/` for a card of the main shortcuts, and `⌘/` or `Esc` to close it.
-The same list, with a search field, is in **Settings → Shortcuts**, and the
-command palette (`⌘P`) shows each command's shortcut beside it.
+This page lists every shortcut in φ, with the Mac keys. On Windows and Linux,
+most shortcuts work with **Ctrl** in place of ⌘. The few that are different
+are [listed at the end](#on-windows-and-linux).
 
 The keys are ⌘ Command, ⇧ Shift, ⌥ Option, ⌃ Control, ↵ Return and ⌫ Delete.
+
+You can also see shortcuts inside φ:
+
+- Press `⌘/` to see a list of the main shortcuts. Press `⌘/` or `Esc` to
+  close it.
+- **Settings → Shortcuts** has the same list, with a search field.
+- The command palette (`⌘P`) shows each command's shortcut beside the
+  command.
+
+<img src="/img/app/shortcuts-card-light.png" alt="The shortcuts card, listing the main shortcuts in four groups" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/shortcuts-card-dark.png" alt="The shortcuts card, listing the main shortcuts in four groups" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Writing
 
 | To | Press |
 | --- | --- |
-| Make a new document where you are (in a project's outline, a new chapter) | `⌘N` |
+| Make a new document in the place you are in (in a project's outline, a new chapter) | `⌘N` |
 | Make a new part, in a project's outline | `⇧⌘N` |
-| Save now, with a checkpoint | `⌘S` |
-| Save a named version | `⇧⌘S` |
+| Save now and make a checkpoint (an automatic version) | `⌘S` |
+| Save a version with a name | `⇧⌘S` |
 | Undo · redo | `⌘Z` · `⇧⌘Z` |
 | Cut · copy · paste | `⌘X` · `⌘C` · `⌘V` |
 | Paste as plain text | `⇧⌘V` or `⌥⇧⌘V` |
@@ -35,8 +43,10 @@ The keys are ⌘ Command, ⇧ Shift, ⌥ Option, ⌃ Control, ↵ Return and ⌫
 | Stop writing in bold or italic | Two spaces |
 | Move the document to the trash (φ asks first) | `⌘⌫` |
 
-A normal paste reads pasted Markdown as formatting; **Paste as plain text**
-keeps the text exactly as it is. Outside lists and tables, `Tab` types a tab.
+A normal paste turns Markdown marks in the pasted text into formatting.
+**Paste as plain text** keeps the text exactly as it is.
+
+Outside lists and tables, `Tab` types a tab.
 
 ### As you type
 
@@ -52,7 +62,7 @@ keeps the text exactly as it is. Outside lists and tables, `Tab` types a tab.
 | --- | --- |
 | Turn a paragraph into a verse, or back | `⌥⌘V` |
 | Start a new line of the verse | `↵` |
-| Step out of the verse into a new paragraph | `⌘↵` |
+| Leave the verse and start a new paragraph | `⌘↵` |
 
 ### Links
 
@@ -79,8 +89,8 @@ keeps the text exactly as it is. Outside lists and tables, `Tab` types a tab.
 | Align left · centre · right | `⇧⌘L` · `⇧⌘E` · `⇧⌘R` |
 | Justify | `⇧⌘J` |
 
-**Strikethrough** and **Inline Code** are in the **Format** menu, and in the
-toolbar that appears when you select text.
+**Strikethrough** and **Inline Code** have no shortcut. They are in the
+**Format** menu, and in the toolbar that appears when you select text.
 
 ## Navigating
 
@@ -96,11 +106,11 @@ toolbar that appears when you select text.
 | Switch vault | `⌥⌘O` |
 | Open a vault | `⇧⌘O` |
 
-Your mouse's side buttons go back and forward too.
+The side buttons of your mouse also go back and forward.
 
 ### Go to
 
-Press `⌘G`, let go, then press the second key within a couple of seconds.
+Press `⌘G`, release the keys, then press the second key within about two seconds.
 
 | Go to | Press |
 | --- | --- |
@@ -116,7 +126,7 @@ Press `⌘G`, let go, then press the second key within a couple of seconds.
 | --- | --- |
 | Move through the results | `↑` · `↓` |
 | Open the highlighted result | `↵` |
-| Open it and keep the palette open, to open several | `⌘↵` |
+| Open it and keep the palette open, so you can open more | `⌘↵` |
 | Open it beside the document you're in | `⌥↵` |
 | Close the highlighted open document | `⌘W` |
 | Close the palette | `Esc` |
@@ -152,14 +162,17 @@ In the list of a project's chapters:
 | Hide φ · hide the other apps | `⌘H` · `⌥⌘H` |
 | Quit | `⌘Q` |
 
-On the graph, `⇧⌘I` shows the graph's settings instead of the Info panel.
-`⌘W` on a place with no document open, such as the calendar or a board, takes
+On the graph, `⇧⌘I` shows the graph's settings, not the Info panel.
+
+In a place with no document open, such as the calendar or a board, `⌘W` takes
 you back to the mode's Home.
 
 ## On Windows and Linux
 
-Read ⌘ as **Ctrl**, ⌥ as **Alt** and ⇧ as **Shift**: `⇧⌘F` is
-**Ctrl + Shift + F**, and `⌥⌘F` is **Ctrl + Alt + F**. These differ:
+Read ⌘ as **Ctrl**, ⌥ as **Alt** and ⇧ as **Shift**. For example, `⇧⌘F` is
+**Ctrl + Shift + F**, and `⌥⌘F` is **Ctrl + Alt + F**.
+
+These shortcuts are different:
 
 | To | Press |
 | --- | --- |
@@ -169,7 +182,7 @@ Read ⌘ as **Ctrl**, ⌥ as **Alt** and ⇧ as **Shift**: `⇧⌘F` is
 | Full screen | **F11** |
 | Open Settings | The sliders button at the top of the sidebar (no shortcut) |
 
-Hiding φ and the other apps is Mac-only.
+Hiding φ and hiding the other apps work only on a Mac.
 
 ## See also
 

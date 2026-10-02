@@ -5,94 +5,117 @@ description: Claro u oscuro, el tamaño de la interfaz, los temas de color y los
 
 # Temas e idiomas
 
-Haz de φ tu propia sala de escritura: clara u oscura, más grande o más pequeña,
-con el tono que te guste, en el idioma en el que piensas. Los temas y el tamaño
-están en **Ajustes → Apariencia**; los idiomas, en **Ajustes → Idioma**.
+Puedes cambiar el aspecto de φ y el idioma que usa:
+
+- el modo claro u oscuro, el tamaño y los colores están en **Ajustes →
+  Apariencia**;
+- los idiomas están en **Ajustes → Idioma**.
+
+Para abrir los Ajustes, pulsa `⌘,` en un Mac o haz clic en el botón de los
+controles deslizantes, en lo alto de la barra lateral.
 
 <img src="/img/app/settings-light.png" alt="Ajustes → Apariencia: Apariencia, Tamaño de la interfaz, el tema de color Phi y los ajustes de la barra lateral" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-dark.png" alt="Ajustes → Apariencia: Apariencia, Tamaño de la interfaz, el tema de color Phi y los ajustes de la barra lateral" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Elegir claro u oscuro {#choose-light-or-dark}
 
-Ajusta **Apariencia** a **Sistema**, **Claro** u **Oscuro**. **Sistema** sigue
-a tu ordenador, así que φ se oscurece cuando lo hace tu ordenador.
+En **Apariencia**, elige **Sistema**, **Claro** u **Oscuro**. **Sistema** sigue
+a tu ordenador: cuando este pasa al modo oscuro, φ también.
 
-Para cambiar sin abrir los Ajustes, elige **Ver → Cambiar tema**, o pulsa `⌘P`
-y elige **Cambiar tema (sistema / claro / oscuro)**. Cada uno avanza un paso en
-el ciclo: sistema, claro, oscuro.
+También puedes cambiar sin abrir los Ajustes:
 
-## Agrandar todo {#make-everything-larger}
+- elige **Ver → Cambiar tema**; o
+- pulsa `⌘P` y elige **Cambiar tema (sistema / claro / oscuro)**.
 
-**Tamaño de la interfaz** escala toda la ventana, texto e iconos por igual:
-**100%**, **115%**, **130%** o **150%**. **Ver → Tamaño real** la devuelve al
-100%.
+Cada vez, φ avanza un paso en este orden: sistema, claro, oscuro.
 
-El tamaño de tu escritura va aparte: ajústalo con **Tamaño de fuente** en
-**Ajustes → Editor**.
+## Agrandarlo todo {#make-everything-larger}
 
-## Mantener la barra lateral oscura o clara {#keep-the-sidebar-dark-or-light}
+**Tamaño de la interfaz** agranda la ventana entera, el texto y los iconos a la
+vez. Elige **100%**, **115%**, **130%** o **150%**. **Ver → Tamaño real** la
+devuelve al 100%.
 
-En el tema claro, la barra lateral es oscura por defecto, para que la página sea
-lo más luminoso de la pantalla. Para una barra lateral clara, ajusta **Barra
-lateral en tema claro** a **Claro**. En el tema oscuro, la barra lateral
-siempre es oscura.
+El tamaño de la letra con la que escribes es otro ajuste: **Tamaño de fuente**,
+en **Ajustes → Editor**.
 
-Con un tema de color distinto de Phi, la barra lateral toma los colores de ese
-tema: una barra lateral oscura usa el lado oscuro del tema, y una clara, su
-lado claro.
+## Dejar la barra lateral oscura o clara {#keep-the-sidebar-dark-or-light}
+
+En el tema claro, la barra lateral es oscura de forma predeterminada. Así, la
+página es lo más luminoso de la pantalla. Si la prefieres clara, pon **Barra
+lateral en tema claro** en **Claro**.
+
+En el tema oscuro, la barra lateral siempre es oscura.
+
+Si usas un tema de color que no sea Phi, la barra lateral toma los colores de
+ese tema. Una barra oscura usa los colores oscuros del tema, y una clara, los
+claros.
 
 ## Cambiar los colores {#change-the-colours}
 
-Un tema de color define la paleta: fondos, texto, acentos, colores de enlaces y
-de código. **Apariencia** decide si ves el lado claro o el lado oscuro de un
-tema. Cada tema de la lista **Tema de color** tiene una pequeña vista previa de
-la ventana de φ con sus colores; haz clic en uno para usarlo.
+Un tema de color define los colores de φ: los fondos, el texto, los acentos,
+los enlaces y el código. Todos los temas tienen un lado claro y un lado oscuro.
+**Apariencia** decide cuál de los dos ves.
 
-φ incluye un tema, **Phi**, marcado como **Oficial**: grises neutros con una
-página blanca o negra pura. Es el predeterminado y no se puede quitar.
+Para usar un tema, haz clic en él en la lista **Tema de color**. Cada tema de
+la lista lleva una pequeña vista previa de la ventana de φ con sus colores.
 
-<img src="/img/app/themes-nord-light.png" alt="La ventana de Inicio con el tema Nord: la página gris azulada clara de Nord junto a su barra lateral pizarra oscura" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/themes-nord-dark.png" alt="La ventana de Inicio con el tema Nord, en oscuro: la página y la barra lateral de noche polar de Nord" width="1600" height="1000" loading="lazy" decoding="async" />
+φ trae un tema, **Phi**, marcado como **Oficial**. Es de grises neutros, con la
+página en blanco puro o en negro puro. Es el predeterminado y no se puede
+quitar.
+
+<img src="/img/app/themes-nord-light.png" alt="La ventana de Inicio con el tema Nord: la página gris azulada clara de Nord junto a su barra lateral de color pizarra oscuro" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/themes-nord-dark.png" alt="La ventana de Inicio con el tema Nord, en oscuro: la página y la barra lateral en el tono «noche polar» de Nord" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ### Instalar un tema oficial {#install-an-official-theme}
 
-1. En **Tema de color**, abre **Explorar temas oficiales…**.
-2. Cada tema de la galería muestra una vista previa. Pulsa **Instalar** en los
-   que te gusten.
-3. Elígelo en la lista **Tema de color** para usarlo.
+1. En **Tema de color**, haz clic en **Explorar temas oficiales…**. Se abre una
+   galería con una vista previa de cada tema.
+2. Pulsa **Instalar** en cada tema que te guste.
+3. Haz clic en el tema en la lista **Tema de color** para usarlo.
 
-Un tema que ya tienes muestra **Instalado**, y su botón pasa a ser
-**Actualizar**, que descarga su última versión. Si la galería no carga,
-comprueba tu conexión y pulsa **Reintentar**. Una vez cargada, la galería se
-abre al instante y funciona sin conexión; φ la actualiza en segundo plano unos
-segundos después de arrancar, cada seis horas a partir de entonces y cuando
-eliges **Buscar actualizaciones…**.
+Un tema que ya tienes muestra **Instalado**. Su botón pasa a ser
+**Actualizar**, que descarga la última versión del tema.
 
-Los temas oficiales viven en
-[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes), donde
-también puedes ofrecer uno tuyo.
+Si la galería no se carga, revisa tu conexión a internet y pulsa
+**Reintentar**. Una vez que se ha cargado por primera vez, la galería se abre
+al instante y funciona sin conexión. φ la actualiza en segundo plano:
+
+- unos segundos después de arrancar;
+- cada seis horas a partir de entonces;
+- cuando eliges **Buscar actualizaciones…**.
+
+Los temas oficiales están en
+[github.com/getpoiesis/themes](https://github.com/getpoiesis/themes). Allí
+también puedes proponer un tema tuyo.
 
 ### Instalar un tema desde un archivo {#install-a-theme-from-a-file}
 
-Un tema es un pequeño archivo `.json`. Para añadir uno que hayas hecho o que te
-hayan enviado:
+Un tema es un pequeño archivo `.json`. Para añadir uno que hayas hecho tú o que
+te hayan enviado:
 
 1. En **Tema de color**, pulsa **Instalar tema…**.
 2. Elige el archivo `.json` del tema.
 
-Los temas que instalas se guardan en tu carpeta de temas, no dentro de la app;
-**Abrir carpeta de temas** te la muestra. Para quitar uno, pulsa el botón de la
-papelera que tiene al lado; φ te pregunta primero y luego elimina su archivo de
-la carpeta de temas.
+φ guarda los temas que instalas en tu carpeta de temas, no dentro de la
+aplicación. **Abrir carpeta de temas** te muestra esa carpeta.
 
-Un tema puede cambiar los colores y nada más. φ comprueba cada color al instalar
-un tema, y cualquier color que un tema omita se toma de Phi.
+Para quitar un tema, pulsa el botón de la papelera que tiene al lado. φ te
+pide confirmación y después borra el archivo del tema de la carpeta de temas.
+
+Un tema puede cambiar los colores y nada más. Al instalarlo, φ comprueba cada
+color. Si al tema le falta alguno, φ usa el de Phi.
 
 ## Cambiar el idioma de φ {#change-φs-language}
 
-Ajusta **Idioma de la interfaz**. **Predeterminado del sistema** sigue a tu
-ordenador. Si no, elige un idioma: los que vienen con φ aparecen bajo **φ**,
-cada uno con su propio nombre y el nombre en inglés al lado.
+Elige un valor en **Idioma de la interfaz**. Es el idioma de los menús y los textos de φ.
+
+<img src="/img/app/settings-language-light.png" alt="Los ajustes abiertos en Idioma: el idioma de la interfaz, la ortografía y el diccionario personal" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/settings-language-dark.png" alt="Los ajustes abiertos en Idioma: el idioma de la interfaz, la ortografía y el diccionario personal" width="1600" height="1000" loading="lazy" decoding="async" />
+
+- **Predeterminado del sistema** sigue a tu ordenador.
+- Los idiomas que vienen con φ aparecen bajo **φ**. Cada uno figura con su
+  propio nombre y, al lado, su nombre en inglés.
+- Los idiomas que instalas tú aparecen bajo **Comunidad**.
 
 | Idioma | Se muestra como |
 | --- | --- |
@@ -100,31 +123,37 @@ cada uno con su propio nombre y el nombre en inglés al lado.
 | Español | **Español (Spanish)** |
 | Francés | **Français (French)** |
 
-Los idiomas que instalas tú aparecen bajo **Comunidad**.
-
 ### Añadir un idioma {#add-a-language}
 
-Debajo del ajuste:
+Debajo del ajuste **Idioma de la interfaz** hay tres botones:
 
-- **Instalar un idioma…** añade un archivo de idioma. Aparece bajo
-  **Comunidad**, y en una lista debajo con un botón de papelera para quitarlo.
+- **Instalar un idioma…** añade un archivo de idioma. El idioma aparece bajo
+  **Comunidad**. También aparece en una lista, más abajo, con un botón de
+  papelera para quitarlo.
 - **Exportar plantilla en inglés…** guarda en un archivo todas las frases de φ,
-  en inglés. Traduce las frases, instala el archivo y φ hablará tu idioma;
-  compártelo y podrá incluirse para todos.
+  en inglés. Sirve para hacer tu propia traducción: traduce las frases y luego
+  instala el archivo. Si compartes tu traducción, se puede incluir en φ para
+  todo el mundo.
 - **Abrir carpeta** muestra dónde se guardan los idiomas instalados.
 
-Una traducción no tiene que estar terminada. Todo lo que un idioma omita se
+Una traducción no tiene por qué estar completa. Si falta una frase, φ la
 muestra en inglés.
 
 ## Revisar la ortografía en tus idiomas {#check-spelling-in-your-languages}
 
-Los idiomas en los que φ revisa tu ortografía se ajustan aparte del idioma de la
-interfaz, en **Ortografía**, en la misma página: activa **Revisar ortografía**,
-elige el **Motor** y marca los **Idiomas**. Una bóveda puede usar su propio
-motor, en **Esta bóveda**. En [Ortografía](./spelling) tienes los detalles.
+Los idiomas de la ortografía no dependen del idioma de la interfaz. Están en
+**Ortografía**, en la misma página de los Ajustes:
+
+1. Activa **Revisar ortografía**.
+2. Elige el **Motor**.
+3. Marca los **Idiomas**.
+
+Una [bóveda](./vaults) (la carpeta que contiene tu trabajo) puede usar su
+propio motor. Se elige en **Esta bóveda**. Los detalles están en
+[Ortografía](./spelling).
 
 ## Ver también {#see-also}
 
-- [Ajustes](./settings): todos los ajustes en una página.
+- [Ajustes](./settings): todos los ajustes en una sola página.
 - [Ortografía](./spelling)
 - [Diccionario y tesauro](./dictionary)

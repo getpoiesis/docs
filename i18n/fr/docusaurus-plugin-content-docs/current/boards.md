@@ -1,152 +1,184 @@
 ---
 title: Tableaux
-description: Des colonnes de cartes pour les choses à faire, avec des listes de tâches dans vos notes qui restent synchronisées avec elles.
+description: Des colonnes de cartes pour ce qui reste à faire, et des listes de tâches dans vos notes qui évoluent en même temps qu’elles.
 ---
 
 # Tableaux
 
-Un **tableau**, ce sont des colonnes de cartes : le travail qui reste sur un
-livre, les pistes à suivre, tout ce que vous voulez faire avancer. Une carte
-peut porter une échéance, une priorité, une liste de contrôle et des liens
-vers vos documents. Un élément de liste de tâches dans une note peut aussi
-vivre sur un tableau, et le cocher d’un côté le fait avancer de l’autre.
+Un **tableau** est une série de colonnes qui contiennent des cartes. Chaque
+carte représente une chose à faire. Servez-vous d’un tableau pour le travail
+qui reste sur un livre, ou pour tout ce que vous voulez suivre.
 
-<img src="/img/app/boards-light.png" alt="Le tableau de The Weighing House : ses tableaux listés à côté, et son tableau de production avec les colonnes À faire, Rédaction, Révision et Terminé, dont les cartes affichent échéances, priorités et chapitres liés" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/boards-dark.png" alt="Le tableau de The Weighing House : ses tableaux listés à côté, et son tableau de production avec les colonnes À faire, Rédaction, Révision et Terminé, dont les cartes affichent échéances, priorités et chapitres liés" width="1600" height="1000" loading="lazy" decoding="async" />
+Une carte peut avoir une échéance, une priorité, une liste de contrôle et des
+liens vers vos documents. Vous pouvez aussi placer sur un tableau un élément
+d’une liste de tâches écrite dans une note. L’élément et sa carte évoluent
+alors ensemble : cochez l’élément, et la carte change de colonne.
+
+<img src="/img/app/boards-light.png" alt="Le Tableau de The Weighing House : la liste de ses tableaux à côté, et son tableau de production, dont les colonnes À faire, Rédaction, Révision et Terminé contiennent des cartes avec leurs échéances, leurs priorités et leurs chapitres liés" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/boards-dark.png" alt="Le Tableau de The Weighing House : la liste de ses tableaux à côté, et son tableau de production, dont les colonnes À faire, Rédaction, Révision et Terminé contiennent des cartes avec leurs échéances, leurs priorités et leurs chapitres liés" width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Créer un tableau {#make-a-board}
 
-1. Dans Notes, ouvrez **Tableaux** sous **Lieux** dans la barre latérale.
-   Dans Écrire, ouvrez le projet auquel le tableau est destiné et choisissez
-   **Tableau** en dessous.
-2. Appuyez sur **Nouveau tableau de tâches** ou **Nouveau tableau
-   personnalisé** (dans un projet, le **+** de la liste → **Nouveau tableau de
-   tâches pour ce projet**).
-3. Nommez le tableau.
-4. Appuyez sur **Ajouter une carte** au pied d’une colonne, et tapez ce qu’il
-   y a à faire.
+1. Allez là où se trouvent les tableaux :
+   - Dans Notes, ouvrez **Tableaux** sous **Lieux**, dans la barre latérale.
+   - Dans Écrire, ouvrez le [projet](./collections) auquel le tableau est
+     destiné, puis choisissez **Tableau** sous ce projet.
+2. Cliquez sur **Nouveau tableau de tâches** ou sur **Nouveau tableau
+   personnalisé**. Dans un projet, cliquez sur le **+** de la liste, puis sur
+   **Nouveau tableau de tâches pour ce projet**.
+3. Donnez un nom au tableau.
+4. Cliquez sur **Ajouter une carte** en bas d’une colonne, puis tapez ce que
+   vous avez à faire.
 
-| Sorte | Colonnes | À utiliser pour |
+Il existe deux types de tableau :
+
+| Type | Colonnes | À quoi il sert |
 | --- | --- | --- |
-| **Tableau de tâches** | **À faire**, **En cours**, **Terminé** | Les choses à terminer. La première colonne veut dire à faire, la dernière veut dire terminé, et tout ce qui se trouve entre les deux est en cours. Seul un tableau de tâches peut suivre des éléments de liste de tâches. |
-| **Tableau personnalisé** | **Colonne 1**, **Colonne 2**, **Colonne 3** | Tout le reste. Les colonnes veulent dire ce que vous leur faites dire en les nommant. |
+| **Tableau de tâches** | **À faire**, **En cours**, **Terminé** | Ce qu’il faut mener à bien. La première colonne veut dire « à faire ». La dernière veut dire « terminé ». Toutes les colonnes situées entre les deux veulent dire « en cours ». Seul un tableau de tâches peut suivre les éléments d’une liste de tâches. |
+| **Tableau personnalisé** | **Colonne 1**, **Colonne 2**, **Colonne 3** | Tout le reste. Vous nommez les colonnes et décidez de ce qu’elles signifient. |
 
-Le **+** en haut de la liste Tableaux crée aussi un tableau de tâches, et le
-**⋮** de la liste propose **Nouveau tableau personnalisé**.
+Le **+** en haut de la liste Tableaux crée lui aussi un tableau de tâches. Le
+**⋮** de la liste contient **Nouveau tableau personnalisé**.
 
 ## Quels tableaux vous voyez {#which-boards-you-see}
 
-Les tableaux vivent là où se trouve leur travail :
-
-- **Dans Écrire**, un tableau appartient à un projet et vit sous lui :
-  ouvrez le projet et choisissez **Tableau**. Il n’y a pas de lieu Tableaux
-  dans la barre latérale d’Écrire ; d’où que vous ouvriez l’un des tableaux
-  d’un projet (⌘K, le lien d’une carte, **À rendre cette semaine** dans
-  l’Accueil), il s’ouvre dans son projet.
-- **Dans Notes**, **Tableaux** sous **Lieux** regroupe les tableaux qui
+- **Dans Écrire**, un tableau appartient à un projet. Ouvrez le projet et
+  choisissez **Tableau**. La barre latérale d’Écrire n’a pas de lieu
+  Tableaux. Le tableau d’un projet s’ouvre toujours dans son projet, même
+  quand vous l’ouvrez depuis `⌘K`, depuis le lien d’une carte ou depuis **À
+  rendre cette semaine** sur l’Accueil.
+- **Dans Notes**, **Tableaux**, sous **Lieux**, réunit les tableaux qui
   n’appartiennent à aucun projet.
 
-Quand aucun tableau n’est ouvert, la page affiche chaque tableau sous forme de
-vignette : ses colonnes et le nombre de cartes ouvertes. Cliquez sur l’une
-d’elles pour l’ouvrir.
+Quand aucun tableau n’est ouvert, la page présente chaque tableau sous la
+forme d’une vignette. Une vignette montre les colonnes du tableau et le
+nombre de cartes en cours. Cliquez sur une vignette pour ouvrir le tableau.
 
 ## Travailler avec les cartes {#work-with-cards}
 
-Glissez les cartes d’une colonne à l’autre, et vers le haut ou le bas. Cliquez
-sur une carte pour l’ouvrir :
+Faites glisser une carte pour la changer de colonne, ou pour la monter ou la
+descendre dans sa colonne. Cliquez sur une carte pour l’ouvrir. Une carte
+ouverte comporte ces champs :
+
+<img src="/img/app/board-card-light.png" alt="Une carte de tableau ouverte, avec ses notes, sa liste de contrôle, le chapitre lié, l’échéance, la priorité et l’étiquette" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/board-card-dark.png" alt="Une carte de tableau ouverte, avec ses notes, sa liste de contrôle, le chapitre lié, l’échéance, la priorité et l’étiquette" width="1600" height="1000" loading="lazy" decoding="async" />
 
 | Champ | Ce qu’il contient |
 | --- | --- |
-| **Titre** et **Notes** | Ce qu’il y a à faire, et une description. |
-| **Liste de contrôle** | Des étapes : tapez-en une et appuyez sur Entrée. |
-| **Lié à** | Documents, personnages et projets. Cliquez sur un lien pour l’ouvrir. |
-| **Colonne** | Là où se trouve la carte. |
-| **Échéance** | Une date. La carte apparaît ce jour-là dans le [calendrier](./calendar), et sous **À rendre cette semaine** dans l’Accueil d’Écrire. |
+| **Titre** et **Notes** | Ce que vous avez à faire, et une description. |
+| **Liste de contrôle** | Des étapes. Tapez une étape et appuyez sur Entrée. |
+| **Lié à** | Des documents, des personnages et des projets. Cliquez sur un lien pour l’ouvrir. |
+| **Colonne** | La colonne où se trouve la carte. |
+| **Échéance** | Une date. La carte apparaît ce jour-là dans le [calendrier](./calendar), et sous **À rendre cette semaine** sur l’Accueil d’Écrire. |
 | **Rappel** | Une date et une heure. |
 | **Priorité** | **Basse**, **Normale**, **Haute** ou **Urgente**. |
 | **Étiquette** | Une couleur, ou **Sans étiquette**. |
 
-**Archiver la carte** la range sans la supprimer. **Supprimer la carte**
-l’envoie à la corbeille ; **Restaurer**, depuis la corbeille, la remet dans sa
-colonne.
+Il y a deux façons de retirer une carte du tableau :
+
+- **Archiver la carte** masque la carte sans la supprimer.
+- **Supprimer la carte** met la carte à la corbeille. Dans la corbeille,
+  **Restaurer** la remet dans sa colonne.
 
 ## Organiser les colonnes {#arrange-the-columns}
 
 - **Renommer** : cliquez sur le nom d’une colonne et tapez.
-- **Couleur** : cliquez sur la pastille à côté du nom, ou choisissez **Sans
-  couleur**.
-- **Déplacer** : glissez une colonne par sa poignée. Sur un tableau de tâches,
-  l’ordre fait le sens : la première est à faire, la dernière terminée.
-- **Ajouter** : **Ajouter une colonne**, au bout des colonnes ou dans le **⋮**
-  du tableau.
-- **Retirer** : le **×** d’une colonne vide. Déplacez d’abord ses cartes. Un
-  tableau de tâches garde au moins deux colonnes.
+- **Colorer** : cliquez sur le point à côté du nom et choisissez une couleur,
+  ou **Sans couleur**.
+- **Déplacer** : faites glisser une colonne par sa poignée. Dans un tableau
+  de tâches, l’ordre compte : la première colonne veut dire « à faire » et la
+  dernière « terminé ».
+- **Ajouter** : choisissez **Ajouter une colonne**, au bout des colonnes ou
+  dans le **⋮** du tableau.
+- **Supprimer** : cliquez sur le **×** d’une colonne vide. Si la colonne
+  contient des cartes, déplacez-les d’abord. Un tableau de tâches garde
+  toujours au moins deux colonnes.
 
 ## Garder un tableau en ordre {#keep-a-board-tidy}
 
-L’en-tête du tableau affiche le nombre de cartes ouvertes, un champ **Chercher
-un mot…** et **Afficher les archivées**. Son **⋮** propose :
+L’en-tête du tableau affiche le nombre de cartes en cours, un champ
+**Chercher un mot…** et **Afficher les archivées**.
 
-- **Masquer ce qui est fait** : garde hors de vue les cartes de la dernière
-  colonne.
-- **Archiver ce qui est terminé** : range d’un coup toutes les cartes de la
-  dernière colonne. Les cartes archivées ne s’affichent plus et ne comptent
-  plus, mais restent dans le fichier du tableau. **Afficher les archivées**
-  les fait revenir, barrées, et **Remettre sur le tableau**, sur une carte, la
-  réintègre.
+Le **⋮** du tableau contient :
+
+- **Masquer ce qui est fait** : masque les cartes de la dernière colonne.
+- **Archiver ce qui est terminé** : archive d’un coup toutes les cartes de la
+  dernière colonne.
 - **Ajouter une colonne**.
-- **Réglages du tableau** : le **Nom** du tableau ; son **Projet**, ou
-  **Autonome** pour l’afficher dans Notes ; ses colonnes ; et **Supprimer le
-  tableau**, qui l’envoie à la corbeille.
+- **Réglages du tableau** : vous pouvez y modifier le **Nom** du tableau, son
+  **Projet** (choisissez **Autonome** pour que le tableau apparaisse dans
+  Notes) et ses colonnes. **Supprimer le tableau** met le tableau à la
+  corbeille.
+
+Les cartes archivées ne sont ni affichées ni comptées, mais elles restent
+dans le fichier du tableau. **Afficher les archivées** les fait réapparaître,
+barrées. Pour remettre une carte archivée sur le tableau, ouvrez-la et
+choisissez **Remettre sur le tableau**.
 
 ## Suivre un élément de liste de tâches sur un tableau {#track-a-checklist-item-on-a-board}
 
 1. Dans une note, écrivez un élément de liste de tâches : tapez `[]` ou
    utilisez `/checklist`.
-2. Ouvrez le panneau Infos (`⇧⌘I`) et choisissez **Tâches**. Chaque élément
-   de liste de tâches de la note y est listé.
-3. Appuyez sur **Suivre** à côté de l’un d’eux, et choisissez un tableau de
+2. Ouvrez le [panneau Infos](./finding-your-way#the-info-panel) (`⇧⌘I`) et
+   choisissez **Tâches**. Tous les éléments de liste de tâches de la note y
+   figurent.
+3. Cliquez sur **Suivre** à côté d’un élément. Choisissez un tableau de
    tâches, ou créez-en un.
 
-La carte renvoie à la note, et les deux restent synchronisées : cochez
-l’élément et la carte passe dans la dernière colonne ; déplacez la carte et
-l’élément suit. Un élément qui porte une liste imbriquée l’emmène avec lui,
-comme liste de contrôle de la carte.
+φ crée une carte qui renvoie à la note. L’élément et la carte évoluent
+désormais ensemble :
 
-L’Accueil de Notes liste les **Actions en cours** de vos tableaux de Notes,
+- Cochez l’élément, et la carte passe dans la dernière colonne.
+- Déplacez la carte, et l’élément change en conséquence.
+
+Si l’élément a une liste imbriquée au-dessous de lui, cette liste devient la
+liste de contrôle de la carte.
+
+L’Accueil de Notes affiche les **Actions en cours** de vos tableaux de Notes,
 avec un lien vers **Tous les tableaux**.
 
 :::note
 
-Les nouvelles listes de tâches peuvent être commencées dans les notes et les
-pages de recherche. Pour pouvoir les commencer aussi dans Écrire ou Journal,
-ouvrez **Réglages → Réglages d’écriture**, trouvez le mode sous **Modes**, et
-activez **Listes de tâches**. Un document qui a déjà une liste de tâches la
-garde toujours.
+Vous pouvez commencer de nouvelles listes de tâches dans les notes et dans
+les pages de recherche. Pour en commencer aussi dans Écrire ou dans Journal,
+ouvrez **Réglages → Réglages d’écriture**, repérez le mode sous **Modes** et
+activez **Listes de tâches**. Un document qui contient déjà une liste de
+tâches la conserve toujours.
 
 :::
 
 ## Mettre un document entier sur un tableau {#put-a-whole-document-on-a-board}
 
-Ouvrez le **⋮** du document → **Ajouter au tableau…** (aussi au pied de
-l’onglet **Plan** du panneau Infos). Donnez un titre à la carte et choisissez
-un tableau de tâches. La carte renvoie au document, et les **Détails…** du
-document listent la carte.
+1. Cliquez sur le **⋮** du document, puis sur **Ajouter au tableau…**. La
+   même commande se trouve en bas de l’onglet **Plan** du panneau Infos.
+2. Donnez un titre à la carte.
+3. Choisissez un tableau de tâches.
+
+La carte renvoie au document. La page **Détails…** du document mentionne la
+carte.
 
 ## Le tableau des chapitres d’un projet {#a-projects-chapter-board}
 
-Chaque projet a un tableau que vous n’avez jamais à tenir. Ouvrez le projet et
-choisissez **Tableau** en dessous, dans la barre latérale. La liste à côté de
-la page affiche les tableaux du projet : celui de ses chapitres (ou poèmes),
-**Par statut**, d’abord, puis chaque tableau créé pour le projet. Le tableau
-des chapitres affiche les chapitres comme des cartes dans des colonnes de
-statut, **À faire**, **Brouillon**, **Révisé** et **Final** ; glissez une
-carte et le statut du chapitre change. Choisissez un autre tableau dans la
-liste et il remplit la page ; ses cartes s’ouvrent sur place.
+Chaque projet a un tableau que φ crée pour vous. Il présente les chapitres du
+projet sous forme de cartes, dans quatre colonnes de statut : **À faire**,
+**Brouillon**, **Révisé** et **Final**. Faites glisser une carte dans une
+autre colonne, et le statut du chapitre change.
+
+<img src="/img/app/chapter-board-light.png" alt="Le tableau des chapitres d’un projet, avec les chapitres en cartes dans une colonne par statut" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/chapter-board-dark.png" alt="Le tableau des chapitres d’un projet, avec les chapitres en cartes dans une colonne par statut" width="1600" height="1000" loading="lazy" decoding="async" />
+
+Pour l’ouvrir, ouvrez le projet et choisissez **Tableau** sous ce projet,
+dans la barre latérale.
+
+La liste située à côté de la page contient les tableaux du projet. Le tableau
+des chapitres (ou des poèmes), **Par statut**, vient en premier. Les tableaux
+que vous avez créés pour le projet viennent ensuite. Cliquez sur un tableau
+dans la liste pour l’afficher dans la page. Ses cartes s’ouvrent dans cette
+même page.
 
 ## Voir aussi {#see-also}
 
-- [Notes et capture](./notes)
-- [Calendrier](./calendar) : les échéances, jour par jour.
+- [Notes et capture rapide](./notes)
+- [Le calendrier](./calendar) : les échéances, jour par jour.
 - [Projets](./collections)
 - [Organiser](./organizing) : restaurer depuis la corbeille.

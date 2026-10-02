@@ -1,43 +1,56 @@
 ---
 title: Páginas escritas a mano
-description: Lee en Mac, Windows o Linux las páginas que escribiste a mano en el iPad, y edita el texto sacado de ellas.
+description: Lee en Mac, Windows o Linux las páginas que escribiste a mano en el iPad y edita el texto extraído de ellas.
 ---
 
 # Páginas escritas a mano
 
-φ en el iPad (muy pronto) te deja escribir un documento a mano, con el
-Apple Pencil, en papel rayado, de puntos, cuadriculado o en blanco. Abre ese
-documento en tu ordenador y sus páginas están ahí tal como las escribiste,
-nítidas a cualquier tamaño. Las páginas solo se escriben en el iPad; en el
-ordenador las lees.
+Con φ en el iPad (próximamente) puedes escribir un documento a mano con el
+Apple Pencil, en papel rayado, de puntos, cuadriculado o en blanco.
 
-## Lee las páginas o su texto
+Cuando abres ese documento en tu ordenador, ves las páginas tal como las
+escribiste, nítidas a cualquier tamaño.
 
-Un documento escrito a mano tiene dos caras, que eliges arriba de la página:
+Solo se puede escribir a mano en el iPad. En el ordenador puedes leer las
+páginas y editar su texto.
 
-- **Tinta**: las páginas, una debajo de otra, en su papel. El bolígrafo y el
-  lápiz conservan el peso de tu mano, y el marcador queda bajo las palabras.
-- **Texto**: las palabras sacadas de tu letra, cuando se las hayas pedido al
-  iPad. Puedes editarlas aquí como cualquier documento, y tus cambios vuelven
-  al iPad.
+## Leer las páginas o su texto {#read-the-pages-or-their-text}
 
-φ recuerda en qué cara estabas en cada documento mientras sigue abierto.
+Un documento escrito a mano tiene dos vistas. Elige una en la parte superior
+de la página:
 
-## Colores
+- **Tinta** muestra tus páginas manuscritas sobre su papel, una debajo de
+  otra. Los trazos de bolígrafo y de lápiz conservan el grosor que les
+  diste, y el marcador queda por debajo de las palabras.
+- **Texto** muestra las palabras que el iPad ha leído en tu letra. Antes
+  tienes que pedirle al iPad que lo haga. Después puedes editarlas aquí como
+  en cualquier otro documento, y tus cambios vuelven al iPad.
 
-La tinta negra y el color pizarra de φ siguen tu [tema de color](themes-and-languages),
-así que una página escrita en negro se lee en blanco con un tema oscuro. Los
-demás colores se mantienen, un poco más claros en una página oscura para que
-se sigan leyendo.
+Mientras el documento está abierto, φ recuerda qué vista elegiste para él.
 
-## Una página que solo se ve en el iPad
+## Colores {#colours}
 
-Una página guardada por una versión anterior de φ para iPad dice *Por ahora
-esta página se ve en el iPad*. Abre el documento en el iPad con la última
-versión de φ y se verá también aquí.
+La tinta negra y el color pizarra propio de φ cambian con tu
+[tema de color](themes-and-languages). Por ejemplo, una página escrita en
+negro se ve en blanco con un tema oscuro.
 
-## Dónde viven las páginas
+Los demás colores no cambian. En una página oscura, φ los aclara un poco
+para que se sigan leyendo bien.
 
-Las páginas se guardan en tu bóveda junto al documento, así que se
-sincronizan con él. Mover el documento a la papelera, restaurarlo o moverlo
-a otra [bóveda](vaults) se lleva sus páginas.
+## Una página que solo se ve en el iPad {#a-page-that-only-shows-on-the-ipad}
+
+Una página guardada con una versión anterior de φ para iPad no se puede
+mostrar en el ordenador. En su lugar aparece el mensaje *Por ahora esta
+página se ve en el iPad*.
+
+Para solucionarlo, abre el documento en el iPad con la última versión de φ.
+A partir de entonces, la página se verá también en el ordenador.
+
+## Dónde se guardan las páginas {#where-the-pages-live}
+
+φ guarda las páginas manuscritas en tu [bóveda](vaults), junto al documento.
+Una bóveda es la carpeta donde φ guarda tus documentos. Las páginas se
+sincronizan a la vez que el documento.
+
+También lo acompañan cuando lo mueves a la papelera, lo restauras o lo
+pasas a otra bóveda.

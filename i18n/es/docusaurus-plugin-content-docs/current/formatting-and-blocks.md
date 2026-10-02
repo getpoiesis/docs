@@ -1,154 +1,191 @@
 ---
 title: Formato y bloques
-description: Todos los tipos de formato y de bloque que tiene φ, y las formas de insertar cada uno.
+description: Todos los tipos de formato y de bloque que tiene φ, y las maneras de insertar cada uno.
 ---
 
 # Formato y bloques
 
-φ tiene el formato que esperarías (encabezados, listas, citas, enlaces) y un
-conjunto de bloques pensados para libros y poemas: verso, saltos de escena,
-epígrafes, notas al pie. Esta página es la referencia: para qué sirve cada uno
-y todas las formas de crearlo.
+En esta página están todos los tipos de formato y todos los bloques de φ. De
+cada uno se explica para qué sirve y cómo se añade.
+
+Un bloque es cualquier parte de la página que no es texto corriente: un
+encabezado, una lista, una cita o una tabla, por ejemplo. φ tiene además
+bloques pensados para libros y poemas: versos, saltos de escena, epígrafes y
+notas al pie.
 
 ## Da formato mientras escribes {#format-as-you-write}
 
-1. Selecciona palabras y elige en la barra de herramientas que aparece encima, o
-   usa un atajo como `⌘B`.
-2. Para un bloque, escribe `/` en una línea vacía y luego una palabra:
-   `/quote`, `/scene`, `/verse`.
-3. O escribe el Markdown al que estás acostumbrado: `## ` crea un encabezado,
-   `**word**` la pone en negrita.
-4. Los mismos comandos están en el menú **Formato** de la barra de menús.
+Hay cuatro maneras de dar formato. Usa la que más te guste.
+
+- **La barra de herramientas.** Selecciona unas palabras y haz clic en un
+  botón de la barra que aparece encima.
+- **Un atajo.** Selecciona unas palabras y pulsa un atajo, como `⌘B`.
+- **El menú de bloques (`/`).** Escribe `/` en una línea vacía y, a
+  continuación, una palabra: por ejemplo `/quote`, `/scene` o `/verse`.
+  Pulsa `Intro`.
+- **Markdown.** Escribe el Markdown que ya conoces: `## ` crea un encabezado
+  y `**palabra**` pone una palabra en negrita.
+
+Los mismos comandos están en el menú **Formato** de la barra de menús.
 
 ## Palabras y frases {#words-and-phrases}
 
 | Formato | Atajo | Barra de herramientas | Markdown |
 | --- | --- | --- | --- |
-| **Negrita** | `⌘B` | **Negrita** | `**bold**` |
-| **Cursiva** | `⌘I` | **Cursiva** | `*italic*` |
-| **Subrayado** | `⌘U` | **Subrayado** | `~underline~` |
-| **Tachado** | **Formato → Tachado** | **Más herramientas** › **Tachado** | `~~strike~~` |
-| **Código en línea** | **Formato → Código en línea** | **Más herramientas** › **Código en línea** | `` `code` `` |
-| **Resaltado** | | **Resaltar y comentar** | `==highlight==` |
-| **Enlace** | `⌘⇧K` | **Enlace** | `[text](https://…)` |
+| **Negrita** | `⌘B` | **Negrita** | `**negrita**` |
+| **Cursiva** | `⌘I` | **Cursiva** | `*cursiva*` |
+| **Subrayado** | `⌘U` | **Subrayado** | `~subrayado~` |
+| **Tachado** | **Formato → Tachado** | **Más herramientas** › **Tachado** | `~~tachado~~` |
+| **Código en línea** | **Formato → Código en línea** | **Más herramientas** › **Código en línea** | `` `código` `` |
+| **Resaltado** | | **Resaltar y comentar** | `==resaltado==` |
+| **Enlace** | `⌘⇧K` | **Enlace** | `[texto](https://…)` |
 
-**Salir de la negrita o la cursiva.** Termina la palabra y pulsa la barra
-espaciadora dos veces. El primer espacio se queda con la palabra con formato; el
-segundo termina el formato, así que la palabra siguiente queda en texto normal.
+**Para dejar de escribir en negrita o en cursiva.** Termina la palabra y
+pulsa dos veces la barra espaciadora. El primer espacio todavía lleva el
+formato; el segundo lo corta, y la palabra siguiente sale ya sin él.
 
-**Enlaces.** Escribir o pegar una dirección web la convierte en enlace por sí
-sola. Para cambiar o quitar uno, selecciona las palabras enlazadas y vuelve a
-elegir **Enlace**: escribe una dirección nueva, o vacía el campo. Los enlaces se
-abren en tu navegador; mientras editas, mantén pulsado `⌘` y haz clic. Para
-enlazar a otro documento de la bóveda, usa en su lugar un enlace wiki
-([Enlaces y el grafo](./links-and-graph)).
+**Enlaces.**
+
+- Cuando escribes o pegas una dirección web, φ la convierte en un enlace.
+- Para cambiar un enlace, selecciona las palabras enlazadas y elige otra vez
+  **Enlace**. Escribe la nueva dirección.
+- Para quitar un enlace, selecciona las palabras enlazadas, elige **Enlace**
+  y borra el contenido del campo.
+- Los enlaces se abren en tu navegador. Mientras editas, mantén pulsada `⌘`
+  y haz clic en el enlace.
+- Para enlazar con otro documento de tu [bóveda](./vaults) (la carpeta donde
+  φ guarda tus documentos), usa un enlace wiki. Consulta
+  [Enlaces y el grafo](./links-and-graph).
 
 ## Encabezados, listas y citas {#headings-lists-and-quotes}
 
-| Bloque | Comando de barra | Atajo | Markdown |
+| Bloque | Menú de bloques | Atajo | Markdown |
 | --- | --- | --- | --- |
-| **Texto** (un párrafo simple) | `/text` | `⌘⌥0` | |
+| **Texto** (un párrafo normal) | `/text` | `⌘⌥0` | |
 | **Encabezado 1** | `/h1` | `⌘⌥1` | `# ` |
 | **Encabezado 2** | `/h2` | `⌘⌥2` | `## ` |
 | **Encabezado 3** | `/h3` | `⌘⌥3` | `### ` (también `####` y niveles más profundos) |
 | **Lista con viñetas** | `/bullet` | `⌘⇧8` | `- ` o `* ` |
 | **Lista ordenada** | `/numbered` | `⌘⇧7` | `1. ` |
-| **Lista de tareas** | `/task` o `/checklist` | | `[] ` o `- [ ] ` (`- [x] ` la empieza marcada) |
+| **Lista de tareas** | `/task` o `/checklist` | | `[] ` o `- [ ] ` (con `- [x] ` empieza ya marcada) |
 | **Cita** | `/quote` | `⇧⌘B` | `> ` |
 | **Separador** | `/divider` | | `---` |
 | **Bloque de código** | `/code` | | ` ``` ` |
 | **Tabla** | `/table` | | |
 
-Los encabezados construyen el esquema del documento en el panel de Información
-y alimentan el bloque **Índice**.
+**Encabezados.** Con los encabezados se forma el esquema del documento, que
+puedes ver en el panel de Información (`⌘⇧I`). El bloque **Índice** también
+los recoge en una lista.
 
-**Alineación.** **Alinear a la izquierda**, **Centrar** (`⌘⇧E`), **Alinear a la
-derecha** (`⌘⇧R`) y **Justificar** (`⌘⇧J`) están en el menú **Formato** y en
-**Más herramientas** de la barra de herramientas.
+**Alineación.** **Alinear a la izquierda**, **Centrar** (`⌘⇧E`), **Alinear a
+la derecha** (`⌘⇧R`) y **Justificar** (`⌘⇧J`) están en el menú **Formato**.
+También están en **Más herramientas**, en la barra de herramientas.
 
-**Las listas de tareas** tienen tres estados, pendiente, en curso y hecho; haz
-clic en la casilla para hacer avanzar un elemento. Se ofrecen en Notas y en las
-páginas de investigación. Para ofrecerlas en otro sitio, activa **Listas de
-tareas** para ese modo en **Ajustes → Ajustes de escritura → Modos**.
+**Listas de tareas.** Cada elemento tiene tres estados: pendiente, en curso
+y hecho. Haz clic en la casilla para pasar al estado siguiente. El menú de bloques ofrece las listas de tareas en Notas y en las páginas de
+investigación. Si las quieres en otro modo, abre **Ajustes → Ajustes de
+escritura → Modos** y activa **Listas de tareas** para ese modo.
 
-**Las tablas** empiezan con tres columnas y tres filas con encabezado. Arrastra
-el borde de una columna para ensancharla. `Tab` pasa a la celda siguiente.
+**Tablas.** Una tabla nueva tiene tres columnas y tres filas, y la primera
+fila es la cabecera. Arrastra el borde de una columna para ensancharla.
+Pulsa `Tab` para pasar a la celda siguiente.
 
-**Los bloques de código** resaltan el lenguaje que reconocen, o el que indiques
-tras la valla de apertura (` ```python `). `Tab` aumenta la sangría y `⇧Tab` la
-reduce; elige **Sangrar con** (**Espacios** o **Tabulaciones**) y **Ancho de
-sangría** en **Ajustes → Editor → Código**.
+**Bloques de código.** φ colorea el código según el lenguaje que reconoce.
+Si prefieres elegir tú el lenguaje, escribe su nombre justo después de los
+tres acentos graves que abren el bloque, por ejemplo ` ```python `. Pulsa `Tab` para aumentar
+la sangría y `⇧Tab` para reducirla. Para cambiar la sangría, abre **Ajustes
+→ Editor → Código** y ajusta **Sangrar con** (**Espacios** o
+**Tabulaciones**) y **Ancho de sangría**.
 
 ## Bloques para libros y poemas {#blocks-for-books-and-poems}
 
-Se ofrecen en los documentos que pertenecen a un [proyecto](./collections):
-capítulos, poemas, ensayos. Un documento que ya tiene uno lo muestra esté donde
-esté.
+El menú de bloques ofrece estos bloques en los documentos que
+pertenecen a un [proyecto](./collections): capítulos, poemas y ensayos. Un
+proyecto es un libro u otra obra larga formada por varios documentos.
 
-| Bloque | Para qué sirve | Se inserta con |
+Si un documento ya tiene alguno de estos bloques, el bloque se sigue viendo
+aunque el documento esté fuera de un proyecto.
+
+| Bloque | Para qué sirve | Cómo se inserta |
 | --- | --- | --- |
-| **Verso** | Las líneas de un poema, tal como las escribes, en el propio margen del texto. | `/verse` o `⌥⌘V` |
-| **Salto de escena** | Un ornamento centrado entre escenas: **Asterismo** ⁂, **Estrellas** \* \* \*, **Floral** ❧ o **Espacio en blanco**. Señálalo para cambiarlo. | `/scene` |
-| **Epígrafe** | Una cita de apertura, con su fuente en una línea debajo. | `/epigraph` |
-| **Cita destacada** | Una línea en tamaño grande, para dar énfasis. | `/pull-quote` |
-| **Capitular** | Una primera letra ampliada para el párrafo. Vuelve a elegirla para quitarla. | `/drop` |
-| **Índice** | Una lista viva de los encabezados del documento; haz clic en uno para ir allí. | `/toc` |
+| **Verso** | Los versos de un poema. φ respeta las líneas tal como las escribes, en el mismo margen que el resto del texto. | `/verse` o `⌥⌘V` |
+| **Salto de escena** | Un adorno centrado entre escenas: **Asterismo** ⁂, **Estrellas** \* \* \*, **Floral** ❧ o **Espacio en blanco**. Pasa el puntero por encima para elegir otro. | `/scene` |
+| **Epígrafe** | Una cita al comienzo, con su fuente en la línea de abajo. | `/epigraph` |
+| **Cita destacada** | Una línea en letra grande, para darle énfasis. | `/pull-quote` |
+| **Capitular** | Una primera letra grande para el párrafo. Elígela otra vez para quitarla. | `/drop` |
+| **Índice** | Una lista de los encabezados del documento que se actualiza sola. Haz clic en un encabezado para ir a él. | `/toc` |
 | **Nota al pie** | Una nota numerada. | `/footnote` |
-| **Cita bibliográfica** | Una referencia autor–año a una fuente. | `/citation` |
-| **Bibliografía** | Las fuentes que has citado, en una lista. | `/bibliography` |
+| **Cita bibliográfica** | Una referencia a una fuente, que se muestra como autor y año. | `/citation` |
+| **Bibliografía** | Una lista de las fuentes que has citado. | `/bibliography` |
 
-El verso, los epígrafes y los saltos de escena se explican en
-[Poesía y verso](./poetry); las notas al pie, las citas bibliográficas y la
-bibliografía en [Notas al pie y citas](./footnotes-and-citations).
+Para saber más:
+
+- [Poesía y verso](./poetry) explica los versos, los epígrafes y los saltos
+  de escena.
+- [Notas al pie y citas](./footnotes-and-citations) explica las notas al
+  pie, las citas bibliográficas y la bibliografía.
 
 ## Imágenes, avisos y fechas {#pictures-callouts-and-dates}
 
-| Bloque | Para qué sirve | Se inserta con |
+| Bloque | Para qué sirve | Cómo se inserta |
 | --- | --- | --- |
-| **Imagen** | Una imagen con un pie. Elige izquierda, centro, derecha o ancho completo desde su barra de herramientas, y arrastra su borde para cambiar su tamaño. El archivo se copia en tu bóveda. | `/image`, o `![alt](https://…)` |
-| **Aviso** | Un recuadro para un comentario al margen: información, consejo, advertencia o peligro. Señálalo para cambiarlo. | `/callout`, o `> [!tip] ` |
-| **Fecha** | La fecha de hoy como una ficha que enlaza el documento con ese día en el [calendario](./calendar). | `/date` |
-| **Fecha y hora** | Lo mismo, con la hora. | `/datetime` |
-| **Hora** | La hora actual, como texto simple. | `/time` |
+| **Imagen** | Una imagen con su pie. Con su barra de herramientas la colocas a la izquierda, en el centro, a la derecha o a todo el ancho. Arrastra su borde para cambiarle el tamaño. φ copia el archivo a tu bóveda. | `/image`, o `![alt](https://…)` |
+| **Aviso** | Un recuadro para un comentario aparte: información, consejo, advertencia o peligro. Pasa el puntero por encima para elegir otro tipo. | `/callout`, o `> [!tip] ` |
+| **Fecha** | La fecha de hoy, en una etiqueta de fecha. La etiqueta enlaza el documento con ese día del [calendario](./calendar). | `/date` |
+| **Fecha y hora** | Igual que **Fecha**, pero con la hora. | `/datetime` |
+| **Hora** | La hora actual, como texto normal. | `/time` |
 
-Haz clic en una ficha de fecha para abrir su día en el calendario; el lápiz que
-tiene al lado (**Editar fecha y hora**) cambia la fecha o la hora. Los avisos no
-se ofrecen en las entradas del diario.
+Haz clic en una etiqueta de fecha para abrir ese día en el calendario.
+Para cambiar la fecha o la hora, haz clic en el lápiz que hay junto a la
+etiqueta (**Editar fecha y hora**).
 
-Dos cosas más se sitúan dentro de una línea:
+En las entradas del diario, el menú de bloques no ofrece avisos.
 
-- **Menciones con @**: escribe `@` y elige un
-  [personaje](./characters-and-authors), o elige **Crear @nombre** para crear
-  uno a partir de lo que escribiste.
-- **Enlaces wiki**: escribe `[[` y elige un documento
-  ([Enlaces y el grafo](./links-and-graph)).
+Dentro de una línea de texto también puedes añadir dos cosas:
+
+- **Menciones con @.** Escribe `@` y elige un
+  [personaje](./characters-and-authors). Para crear un personaje nuevo con
+  el nombre que has escrito, elige **Crear @nombre**.
+- **Enlaces wiki.** Escribe `[[` y elige un documento. Consulta
+  [Enlaces y el grafo](./links-and-graph).
 
 ## Escribir en Markdown {#writing-in-markdown}
 
-φ convierte el Markdown en formato mientras escribes, con los patrones de las
-tablas de arriba. También puedes verlo mientras escribes: activa **Ajustes →
-Editor → Mostrar Markdown**, y las marcas (`**`, `#`, `[ ]( )`) aparecen tenues
-alrededor del formato en la línea en la que estás. Nunca forman parte de tu
-texto.
+Cuando escribes Markdown, φ lo convierte en formato. En las tablas de más
+arriba tienes el Markdown de cada tipo de formato.
 
-**Pegar Markdown.** El texto copiado de un editor de Markdown o de una
-aplicación de notas llega con formato: encabezados, listas de tareas, tablas,
-citas, avisos, código, enlaces, imágenes y notas al pie (`^[the note]`, o `[^1]`
-con su línea `[^1]: the note`). También entiende las variantes que escriben otras
-aplicaciones de notas: `~text~` subraya, `==🟢text==` es un resaltado verde,
-`[[Note|shown text]]` es un enlace wiki y los `#tags` pasan a ser las
-etiquetas del documento. Para pegar el texto exactamente como está, usa `⇧⌘V`.
+**Ver el Markdown.** Activa **Ajustes → Editor → Mostrar Markdown**. A
+partir de entonces, las marcas (`**`, `#`, `[ ]( )`) se ven atenuadas
+alrededor del formato en la línea en la que estás. Las marcas nunca forman
+parte de tu texto.
 
-Al pegar solo llega lo que el documento ofrece: una lista de tareas pegada en un
-capítulo llega como lista, conservando sus `[ ]`.
+**Pegar Markdown.** Cuando pegas un texto copiado de un editor de Markdown o
+de una aplicación de notas, φ le da formato: reconoce encabezados, listas de
+tareas, tablas, citas, avisos, código, enlaces, imágenes y notas al pie. Las
+notas al pie pueden ir escritas como `^[la nota]`, o como `[^1]` con una
+línea `[^1]: la nota`.
 
-**Copiar como Markdown.** **Copiar como Markdown**, en la paleta de comandos
-(`⌘P`), copia la selección, o el documento entero si no hay nada seleccionado.
-También está en el menú contextual de un documento en la lista.
+φ entiende también el Markdown que escriben otras aplicaciones de notas:
+
+- `~texto~` pasa a ser texto subrayado.
+- `==🟢texto==` pasa a ser un resaltado verde.
+- `[[Nota|texto visible]]` pasa a ser un enlace wiki.
+- Las `#etiquetas` pasan a ser las etiquetas del documento.
+
+Para pegar el texto tal cual, sin formato, pulsa `⇧⌘V`.
+
+Al pegar solo se conservan los bloques que ofrece el documento. Por ejemplo,
+una lista de tareas pegada en un capítulo se convierte en una lista normal,
+y cada elemento conserva su `[ ]`.
+
+**Copiar como Markdown.** Abre la paleta de comandos (`⌘P`) y elige **Copiar
+como Markdown**. Se copia la selección o, si no hay nada seleccionado, el
+documento entero. También puedes hacer clic derecho en un
+documento de la lista y elegir **Copiar como Markdown**.
 
 ## Ver también {#see-also}
 
-- [El editor](./the-editor): la barra de herramientas y el menú de barra.
+- [El editor](./the-editor): la barra de herramientas y el menú de bloques.
 - [Poesía y verso](./poetry)
 - [Notas al pie y citas](./footnotes-and-citations)
 - [Plantillas](./templates)

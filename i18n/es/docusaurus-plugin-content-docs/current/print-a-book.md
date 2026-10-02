@@ -5,98 +5,108 @@ description: El PDF del interior y la cubierta completa para KDP, IngramSpark y 
 
 # Imprimir un libro
 
-La pestaña **Libro impreso** crea los dos archivos que pide un servicio de
-impresión bajo demanda: el interior, como PDF listo para imprenta, y la
-cubierta, con portada, lomo y contracubierta en una sola página. φ calcula los
-márgenes, las páginas en blanco antes de los capítulos y el lomo a partir del
-número de páginas.
+Un servicio de impresión bajo demanda pide dos archivos. La pestaña **Libro
+impreso** crea los dos:
 
-<img src="/img/app/export-light.png" alt="La pestaña Libro impreso: diseño, formato, papel y tinta, la comprobación, y Exportar cubierta y Exportar PDF para imprenta" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/export-dark.png" alt="La pestaña Libro impreso: diseño, formato, papel y tinta, la comprobación, y Exportar cubierta y Exportar PDF para imprenta" width="1600" height="1000" loading="lazy" decoding="async" />
+- el **interior**: las páginas del libro, en un PDF listo para imprenta;
+- la **cubierta**: la cubierta delantera, el lomo y la contracubierta en una
+  sola página.
 
-## Crear los archivos {#make-the-files}
+φ calcula los márgenes y las páginas en blanco que van antes de los capítulos.
+También calcula el ancho del lomo a partir del número de páginas.
 
-1. Abre la página **Exportar** del proyecto y elige **Libro impreso**.
+<img src="/img/app/print-book-light.png" alt="La pestaña de libro impreso: diseño, formato, papel y tinta, la comprobación y los dos botones de exportación" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/print-book-dark.png" alt="La pestaña de libro impreso: diseño, formato, papel y tinta, la comprobación y los dos botones de exportación" width="1600" height="1000" loading="lazy" decoding="async" />
+
+## Crea los archivos {#make-the-files}
+
+1. Abre la página **Exportar** del proyecto (consulta
+   [Cómo funciona la exportación](./exporting)) y elige **Libro impreso**.
 2. Elige las cuatro cosas que pide un servicio de impresión:
-   - **Diseño**: cómo se compone el libro (consulta [Diseños](./designs)).
+   - **Diseño**: el aspecto del libro (consulta [Diseños y cómo ajustarlos](./designs)).
    - **Formato**: el tamaño de la página impresa.
    - **Papel**: **Blanco** o **Crema**.
-   - **Tinta**: **Negra**, o mantener el color de φ.
+   - **Tinta**: **Negra** o **Mantener el color de φ**.
 3. Lee la comprobación que aparece debajo de las opciones y corrige lo que
-   señale.
-4. Pulsa **Exportar PDF para imprenta** para el interior.
-5. Pulsa **Exportar cubierta** para la cubierta completa.
-6. Sube los dos archivos a tu servicio de impresión por separado.
+   indique.
+4. Pulsa **Exportar PDF para imprenta** para crear el interior.
+5. Pulsa **Exportar cubierta** para crear la cubierta.
+6. Sube los dos archivos a tu servicio de impresión. Se suben por separado.
 
-## Elegir el formato {#choosing-the-trim-size}
+## Elige el formato {#choosing-the-trim-size}
 
-| Formato | Habitual para |
+| Formato | Habitual en |
 | --- | --- |
-| **5 × 8 in (12,7 × 20,3 cm)** | Libros de bolsillo de gran tirada |
-| **5,25 × 8 in (13,3 × 20,3 cm)** | Novelas más cortas |
+| **5 × 8 in (12,7 × 20,3 cm)** | Libros de bolsillo |
+| **5,25 × 8 in (13,3 × 20,3 cm)** | Novelas cortas |
 | **Digest: 5,5 × 8,5 in** | Novela, memorias, poesía |
-| **Trade: 6 × 9 in** | La mayoría de la ficción y la no ficción; la opción segura |
-| **6,14 × 9,21 in (15,6 × 23,4 cm)** | No ficción de mayor formato |
+| **Trade: 6 × 9 in** | Casi toda la ficción y la no ficción; la opción segura |
+| **6,14 × 9,21 in (15,6 × 23,4 cm)** | No ficción de mayor tamaño |
 | **7 × 10 in (17,8 × 25,4 cm)** | Cuadernos de ejercicios y libros ilustrados |
 | **Carta: 8,5 × 11 in** | Manuales y libros de gran formato |
 
-Son los tamaños que imprimen KDP e IngramSpark. Si un proyecto está configurado
-con un papel que no imprimen (A4, por ejemplo), la pestaña lo indica y te pide
-que elijas uno.
+Estos son los formatos que imprimen KDP e IngramSpark. Si un proyecto tiene un
+tamaño de papel que no imprimen, como A4, la pestaña te avisa y te pide que
+elijas uno de estos.
 
 ## Papel y tinta {#paper-and-ink}
 
-El **Crema** es habitual en ficción y el **Blanco** en no ficción. El crema es
-algo más grueso, así que el mismo libro tiene un lomo más ancho.
+El papel **Crema** es el habitual en ficción, y el **Blanco**, en no ficción.
+El papel crema es algo más grueso, así que con él el mismo libro tiene el lomo
+más ancho.
 
-Los enlaces y las citas se imprimen en negro de forma predeterminada, para que
-ningún color de pantalla llegue a una página impresa. Las imágenes conservan su
-color en ambos casos. Elige **Mantener el color de φ** solo si vas a pagar por
-impresión en color.
+De forma predeterminada, los enlaces y las citas se imprimen en negro. Así,
+ningún color de tu pantalla acaba en una página impresa. Las imágenes
+conservan siempre su color. Elige **Mantener el color de φ** solo si vas a
+pagar una impresión en color.
 
 ## De qué se encarga φ {#what-φ-takes-care-of}
 
-- **Los capítulos abren en página impar.** φ añade la página en blanco anterior
-  cuando un diseño lo pide. Puedes desactivarlo en **Ajustar el diseño**.
-- **Márgenes para la encuadernación.** El margen interior crece con el número de
-  páginas, como exigen los servicios de impresión, para que el texto no quede
-  pegado al lomo.
-- **Límites de páginas.** Un libro de bolsillo necesita al menos 24 páginas y
-  admite como máximo 828; la comprobación te avisa si el libro queda fuera de
-  ese rango.
-- **Sin cubierta dentro del interior.** La cubierta es un archivo aparte.
-- **Notas al pie al final de su página**, y cabeceras y números de página tal
-  como los fija el diseño, sin ninguno en las aperturas de capítulo.
+- **Los capítulos empiezan en página impar.** Cuando el diseño lo pide, φ
+  añade una página en blanco antes del capítulo allí donde hace falta. Puedes
+  desactivarlo en **Ajustar el diseño**.
+- **Márgenes para la encuadernación.** Cuantas más páginas tiene un libro, más
+  ancho es su margen interior, para que el texto no se pierda en el lomo. Los
+  servicios de impresión lo exigen.
+- **Límites de páginas.** Un libro en rústica necesita 24 páginas como mínimo
+  y puede tener 828 como máximo. La comprobación te avisa si tu libro tiene
+  menos o más.
+- **El interior no incluye la cubierta.** La cubierta es un archivo aparte.
+- **Las notas al pie** van al pie de su página.
+- **Las cabeceras y los números de página** siguen el diseño. La primera
+  página de un capítulo no los lleva.
 
 ## La cubierta {#the-cover}
 
-**Exportar cubierta** crea un solo PDF con la contracubierta, el lomo y la
-portada, más el octavo de pulgada de sangrado que los servicios de impresión
-recortan.
+**Exportar cubierta** crea un único PDF con la contracubierta, el lomo y la
+cubierta delantera. Le añade la sangre: un octavo de pulgada de más en todo el
+borde, que el servicio de impresión recorta.
 
-- **La portada** es tu imagen de cubierta, que se fija en la parte superior de
+- **La cubierta delantera** es tu imagen de cubierta. La pones en lo alto de
   la página del proyecto.
-- **La contracubierta y el lomo** toman su color de la imagen de cubierta. La
-  contracubierta lleva la descripción del libro y la biografía breve del primer
-  autor, y deja libre la esquina donde va el código de barras.
-- **El lomo** se dimensiona según el número de páginas y el papel. A partir de
-  80 páginas lleva el título y el autor; por debajo es demasiado estrecho y
-  queda liso.
+- **La contracubierta y el lomo** toman su color de la imagen de cubierta.
+- **La contracubierta** lleva la descripción del libro y la biografía breve
+  del primer autor. La esquina donde va el código de barras queda vacía.
+- **El lomo** se calcula a partir del número de páginas y del papel. A partir
+  de 80 páginas, lleva el título y el autor. Con menos de 80, el lomo es
+  demasiado estrecho para llevar texto y queda liso.
 
-La comprobación avisa cuando la imagen de cubierta es demasiado pequeña para
-imprimirse con nitidez: una cubierta impresa necesita unos 300 píxeles por
+La comprobación te avisa cuando la imagen de cubierta es demasiado pequeña
+para imprimirse nítida. Una cubierta impresa necesita unos 300 píxeles por
 pulgada.
 
-:::tip Pide una prueba impresa
+:::tip Pide un ejemplar de prueba
 
-Antes de publicar, pide una prueba impresa a tu servicio de impresión. Es la
-única forma de ver los colores, los márgenes y el lomo como los verá un lector.
+Antes de publicar, pide a tu servicio de impresión un ejemplar de prueba
+impreso. Es la única manera de ver los colores, los márgenes y el lomo como
+los verá un lector.
 
 :::
 
 ## Ver también {#see-also}
 
-- [Vista previa](./preview): todas las páginas del libro, en pliegos.
+- [Vista previa](./preview): todas las páginas del libro, en páginas
+  enfrentadas.
 - [Diseños y cómo ajustarlos](./designs)
 - [Datos del libro](./book-details): la portada, la página de créditos y el
   ISBN.

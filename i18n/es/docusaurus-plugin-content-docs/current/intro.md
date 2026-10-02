@@ -1,81 +1,82 @@
 ---
 title: Bienvenida
-description: Qué es φ, para quién es y cómo guarda tu escritura.
+description: Qué es φ, para quién está pensado y cómo cuida lo que escribes.
 slug: /
 ---
 
 # Te damos la bienvenida a φ
 
-φ es una app de escritura de escritorio para obras largas: novelas, poesía,
-ensayos, y las notas y los días de diario que los alimentan. Te da una página
-tranquila, guarda cada palabra en archivos de tu propio equipo y se mantiene al
-margen hasta que vas a buscar algo.
+φ es una aplicación de escritorio para escribir obras largas: novelas, poesía y
+ensayos, junto con las notas y el diario que las acompañan. Te ofrece una
+página tranquila y guarda cada palabra en archivos de tu propio ordenador.
 
-<img src="/img/app/focus-light.png" alt="Un capítulo en Santuario: solo la página, con todas las frases atenuadas salvo la actual" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/focus-dark.png" alt="Un capítulo en Santuario: solo la página, con todas las frases atenuadas salvo la actual" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-light.png" alt="Un capítulo en Santuario: solo la página, con todas las frases atenuadas menos la que se está escribiendo" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/focus-dark.png" alt="Un capítulo en Santuario: solo la página, con todas las frases atenuadas menos la que se está escribiendo" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Empieza {#get-started}
+## Primeros pasos {#get-started}
 
 1. [Instala φ](./installing) en macOS, Windows o Linux.
-2. [Crea tu primera bóveda](./getting-started): la carpeta donde vive tu
-   escritura.
+2. [Crea tu primera bóveda](./getting-started). Una bóveda es la carpeta donde
+   se guarda lo que escribes.
 3. Haz [un recorrido por la ventana](./finding-your-way).
 4. Haz clic en el proyecto de ejemplo, **The Grey Morning**, en la barra
-   lateral, y luego en **Exportar** debajo de él, para ver cómo compone φ un
-   libro.
+   lateral. Después haz clic en **Exportar**, justo debajo, para ver cómo
+   maqueta φ un libro.
 
-## Tres modos en una bóveda {#three-modes-in-one-vault}
+## Tres modos en una misma bóveda {#three-modes-in-one-vault}
 
-φ es ante todo un editor de manuscritos, con un cuaderno y un diario a su lado.
-Los tres comparten una bóveda, así que un capítulo puede enlazar a una nota y un
-día del diario puede mencionar a un personaje.
+φ tiene tres modos: **Escribir**, **Notas** y **Diario**. El principal es
+Escribir. Los tres comparten la misma bóveda, así que un capítulo puede enlazar
+con una nota y una entrada del diario puede mencionar a un personaje.
 
 | Modo | Qué contiene |
 | --- | --- |
-| **Escribir** | Tus proyectos (una novela, un poemario, un libro de ensayos) con sus partes y capítulos, y las **Piezas**: escritos que aún no pertenecen a ningún proyecto. Los personajes, los autores y la investigación están a su lado. |
-| **Notas** | Ideas, fuentes, frases que oíste al pasar. Carpetas, etiquetas, destacados, tableros y plantillas. |
-| **Diario** | Una página para cada día, y las páginas matinales: tres páginas, a primera hora. |
+| **Escribir** | Tus proyectos (una novela, un poemario, un libro de ensayos) con sus partes y capítulos. También las **Piezas**: textos que todavía no forman parte de ningún proyecto. Aquí están además los personajes, los autores y la investigación. |
+| **Notas** | Ideas, fuentes, frases oídas al pasar. Dispones de carpetas, etiquetas, destacados, tableros y plantillas. |
+| **Diario** | Una página para cada día. También las páginas matinales: tres páginas que se escriben al empezar el día. |
 
-Escribe `[[` para enlazar un documento con otro, y el
-[grafo](./links-and-graph) muestra cómo se conectan. Cuando llega la hora de
-escribir, **Santuario** (`⌘.`) lo oculta todo salvo la página.
+Hay dos cosas que funcionan en todos los modos:
 
-## Tu escritura sigue siendo tuya {#your-writing-stays-yours}
+- **Los enlaces.** Escribe `[[` para enlazar un documento con otro. El
+  [grafo](./links-and-graph) muestra cómo se conectan tus documentos.
+- **Santuario.** Pulsa `⌘.` para ocultarlo todo menos la página.
 
-- **Tus archivos, en una carpeta que tú eliges.** No hay cuenta ni nube.
-  Escribir, buscar y exportar funcionan sin conexión.
-- **Se guarda mientras escribes.** Cada documento se guarda de forma continua y
-  se verifica tras cada escritura. El historial de versiones te deja volver a
-  cualquier borrador anterior, y puedes respaldarlo en tu propio remoto de git
-  si quieres una copia en otro sitio. Consulta
+## Lo que escribes es tuyo {#your-writing-stays-yours}
+
+- **Tus archivos están en la carpeta que tú elijas.** No hace falta ninguna
+  cuenta y φ no usa la nube. Escribir, buscar y exportar funcionan sin
+  conexión.
+- **φ guarda mientras escribes.** Guarda todos los documentos continuamente y
+  comprueba cada guardado. Con el historial de versiones puedes volver a
+  cualquier borrador anterior. Si quieres tener una copia en otro lugar,
+  también puedes respaldarlo en tu propio repositorio remoto de git. Consulta
   [Versiones y copias de seguridad](./versions-and-backup).
-- **Fácil de mover y de conservar.** Copia la carpeta y lo habrás copiado todo.
-  Una bóveda puede estar en iCloud Drive, Dropbox u otra carpeta sincronizada, y
-  φ para iPhone y iPad, cuando llegue, abrirá la misma bóveda. Consulta
-  [Bóvedas](./vaults).
+- **Tu trabajo es fácil de mover y de conservar.** Al copiar la carpeta lo
+  copias todo. La bóveda puede estar en iCloud Drive, en Dropbox o en cualquier
+  otra carpeta sincronizada. φ para iPhone y iPad todavía no ha salido; cuando
+  salga, abrirá la misma bóveda. Consulta [Bóvedas](./vaults).
 
-Cada documento es un archivo `.poiesis` que guarda tu texto y sus datos como
-contenido estructurado, de modo que las anotaciones, las notas al pie y las
-citas se conservan intactas. φ no almacena Markdown, pero puedes importarlo,
-pegarlo y exportarlo con libertad.
+Cada documento es un archivo `.poiesis`. El archivo guarda el texto y sus datos
+como contenido estructurado, de modo que las anotaciones, las notas al pie y
+las citas se conservan íntegras. φ no almacena Markdown, pero puedes
+importarlo, pegarlo y exportarlo.
 
-:::note φ está en alfa
+:::note φ está en fase alfa
 
-Escribir, organizar y versionar se usan a diario, pero cuenta con asperezas. La
-insignia **Alfa** al pie de la barra lateral es la forma de contarnos qué tal
-va.
+Ya hay quien usa φ a diario para escribir, organizarse y guardar versiones,
+pero todavía puedes encontrarte con algún fallo. Para avisarnos, haz clic en la
+insignia **Alfa**, en la parte inferior de la barra lateral.
 
 :::
 
 ## Lo que φ no es {#what-φ-isnt}
 
-- **Un servicio en la nube.** Nada sale de tu equipo a menos que tú mismo
-  configures una copia de seguridad o pongas la bóveda en una carpeta
-  sincronizada.
-- **Una herramienta de colaboración en tiempo real.** φ es para una sola
-  persona escribiendo a la vez.
+- **Un servicio en la nube.** Nada sale de tu ordenador salvo que tú configures
+  una copia de seguridad o pongas la bóveda en una carpeta sincronizada.
+- **Una herramienta para colaborar en tiempo real.** En φ escribe una sola
+  persona cada vez.
 
-## Consulta también {#see-also}
+## Ver también {#see-also}
 
 - [Tu primera bóveda](./getting-started)
 - [Un recorrido por la ventana](./finding-your-way)

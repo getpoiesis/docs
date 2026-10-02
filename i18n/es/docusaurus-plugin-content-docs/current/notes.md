@@ -1,122 +1,141 @@
 ---
-title: Notas y captura
-description: El modo Notas, donde las ideas, las fuentes y las frases oídas al vuelo se atrapan rápido y se vuelven a encontrar después.
+title: Notas e ideas al vuelo
+description: El modo Notas, donde atrapas al vuelo ideas, fuentes y frases oídas por ahí, y las encuentras después sin esfuerzo.
 ---
 
-# Notas y captura
+# Notas e ideas al vuelo
 
-**Notas** es el modo para todo lo que no es la escritura en sí: una idea, una
-fuente, una frase que oíste al pasar, algo que se te ocurre sobre el capítulo
-cuatro. Una nota no tiene estado, ni objetivo de palabras, ni recuento que
-vigilar, así que crear una no cuesta nada. Escribes una idea, pulsas Retorno y
-vuelves al trabajo.
+**Notas** es el modo para todo lo que rodea a tu escritura: una idea, una
+fuente, una frase que oíste por ahí, algo que se te ocurrió sobre el capítulo
+cuatro. Las notas no tienen estado ni meta de palabras. Escribes lo que
+tienes en la cabeza, pulsas `Intro` y sigues con lo tuyo.
 
-<img src="/img/app/notes-light.png" alt="El Inicio de Notas: el cuadro Anota una idea, las notas editadas recientemente y las acciones pendientes, con el mes, las notas destacadas y las etiquetas a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/notes-dark.png" alt="El Inicio de Notas: el cuadro Anota una idea, las notas editadas recientemente y las acciones pendientes, con el mes, las notas destacadas y las etiquetas a la derecha" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/notes-light.png" alt="El Inicio de Notas: el cuadro «Anota una idea», las notas editadas hace poco y las acciones pendientes; a la derecha, el mes, las notas destacadas y las etiquetas" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/notes-dark.png" alt="El Inicio de Notas: el cuadro «Anota una idea», las notas editadas hace poco y las acciones pendientes; a la derecha, el mes, las notas destacadas y las etiquetas" width="1600" height="1000" loading="lazy" decoding="async" />
 
-## Anota una idea {#capture-a-thought}
+## Anotar una idea {#capture-a-thought}
 
-1. Elige **Notas** en el selector de modo, en lo alto de la barra lateral
-   (`⌘2`). Llegas al **Inicio** de Notas.
+1. Elige **Notas** en el selector de modo, arriba en la barra lateral (`⌘2`).
+   Notas se abre en su página de **Inicio**.
 2. Haz clic en **Anota una idea…** y escribe.
-3. Añade una `#word` para etiquetarla, o `[[` y un título para enlazarla a un
-   documento.
-4. Pulsa Retorno. La nota se guarda y el cuadro queda vacío para la siguiente.
+3. Para etiquetar la nota, añade una palabra con `#` delante, como `#idea`.
+   Para enlazarla con un documento, escribe `[[` y el título del documento.
+4. Pulsa `Intro`. La nota se guarda y el cuadro queda vacío, listo para la
+   siguiente.
 
-La nota no se abre; te quedas donde estabas. Aparece la primera en **Editado
-recientemente** y en **Todas las notas**.
+La nota no se abre: sigues donde estabas. La encontrarás la primera en
+**Editado recientemente** y en **Todas las notas**.
 
-Una idea corta se convierte en el título de la nota. Una larga se recorta para
-hacer el título, y se guarda entera como texto de la nota. Solo la primera
-`#word` se convierte en etiqueta; la palabra se queda en el texto tal como la
-escribiste.
+- Si la idea es corta, se convierte en el título de la nota.
+- Si es larga, el título es una versión recortada y la idea completa se
+  guarda como texto de la nota.
+- Solo la primera palabra con `#` se convierte en etiqueta. La palabra sigue
+  además en el texto, tal como la escribiste.
 
-## Capturar desde una lista {#capture-from-a-list}
+## Anotar desde una lista {#capture-from-a-list}
 
-El mismo cuadro está en lo alto de la lista cuando miras **Todas las notas**,
-una carpeta o una etiqueta. Una nota capturada ahí va a parar a lo que estás
-mirando:
+El mismo cuadro aparece al principio de la lista cuando ves **Todas las
+notas**, una carpeta o una etiqueta. El destino de la nota depende de la
+lista que tengas delante:
 
-| Estás mirando | La nota va |
+| Si estás viendo | La nota queda |
 | --- | --- |
-| **Todas las notas** | A ninguna carpeta, etiquetada con su primera `#word`. |
-| Una carpeta | A esa carpeta, etiquetada con su primera `#word`. |
+| **Todas las notas** | Sin carpeta, con su primera palabra con `#` como etiqueta. |
+| Una carpeta | En esa carpeta, con su primera palabra con `#` como etiqueta. |
 | Una etiqueta | Bajo esa etiqueta, escribas lo que escribas. |
 
-Para escribir algo más largo, pulsa **+** en lo alto de la lista (**Nueva
-nota**), o `⌘N` mientras estás en Notas. Una nota creada con **+** mientras
-estás en una carpeta va a esa carpeta.
+Para escribir una nota más larga, pulsa **+** al principio de la lista
+(**Nueva nota**) o pulsa `⌘N` desde Notas. Si pulsas **+** dentro de una
+carpeta, la nota nueva se guarda en esa carpeta.
 
 ## El Inicio de Notas {#notes-home}
 
-Inicio es donde se abre Notas. A la izquierda:
+Notas se abre siempre en Inicio. A la izquierda tienes:
 
-- **Anota una idea…**, la forma más rápida de empezar.
-- **Editado recientemente**: las últimas notas que tocaste, con cuánto hace y su
-  primera línea. **Todas las notas** abre la lista completa.
-- **Acciones pendientes**: elementos de lista de tareas de tus notas que están
-  en un tablero y aún no se han hecho. Solo aparece cuando tienes alguno.
+- **Anota una idea…**: la forma más rápida de crear una nota.
+- **Editado recientemente**: las últimas notas que cambiaste. De cada una ves
+  cuánto hace que la cambiaste y su primera línea. **Todas las notas** abre
+  la lista completa.
+- **Acciones pendientes**: las tareas de las listas de tus notas que están en
+  un tablero y siguen sin hacer. Esta sección solo aparece cuando hay alguna.
   Consulta [Tableros](./boards).
 
-A la derecha, el mes (los días más oscuros son días en que editaste más notas,
-y **Calendario** abre el calendario), tus notas **Destacadas** y tus
-**Etiquetas** más usadas. Haz clic en una etiqueta para ver sus notas.
+A la derecha tienes:
+
+- El mes. Cuantas más notas editaste un día, más oscuro se ve.
+  **Calendario** abre el calendario.
+- Tus notas de **Destacados**.
+- Las **Etiquetas** que más usas. Haz clic en una para ver sus notas.
 
 ## Volver a encontrar una nota {#find-a-note-again}
 
-La barra lateral de Notas enumera los caminos de entrada:
+En Notas, la barra lateral muestra estos lugares:
 
-| Lugar | Qué muestra |
+| Lugar | Qué contiene |
 | --- | --- |
 | **Todas las notas** | Todas las notas que no pertenecen a ningún proyecto. |
-| **Destacados** | Las notas que has destacado. |
-| **Sin enlazar** | Notas a las que nada enlaza y que no enlazan a nada. Buenas para encontrar cabos sueltos. |
-| **Carpetas** | Tus carpetas, cada una con cuántas notas contiene. El **+** junto al encabezado crea una nueva. |
-| **Etiquetas** | Todas las etiquetas de tus notas, con su recuento. |
+| **Destacados** | Las notas que destacaste. |
+| **Sin enlazar** | Las notas a las que no llega ningún enlace y de las que no sale ninguno. Te sirve para localizar las que aún no has conectado con nada. |
+| **Carpetas** | Tus carpetas, cada una con su número de notas. El **+** que hay junto al título crea una carpeta. |
+| **Etiquetas** | Todas las etiquetas de tus notas, cada una con su número de notas. |
 
-Cada lista tiene arriba un campo de búsqueda que la filtra por título, primeras
-líneas y etiquetas, y un orden: **Editado**, **Creado** o **Título**. `⌘K` encuentra cualquier documento por su nombre desde cualquier
-sitio. Consulta [Buscar y reemplazar](./search-and-replace).
+Cada lista tiene arriba un campo de búsqueda, que la filtra por título,
+primeras líneas y etiquetas. También puedes ordenarla por **Editado**,
+**Creado** o **Título**.
+
+Con `⌘K` encuentras cualquier documento por su nombre, estés donde estés en
+φ. Consulta [Buscar y reemplazar](./search-and-replace).
 
 ## Destacar una nota {#star-a-note}
 
-Destaca lo que más usas. Cualquiera de estas opciones sirve, y elegirla otra
-vez le quita el destacado:
+Destaca las notas que abres más a menudo. Hay tres formas de hacerlo:
 
-- El **⋮** en lo alto de la nota abierta → **Destacar**.
-- Haz clic derecho en la nota en una lista, o en su **⋮** → **Destacar**.
-- La estrella en la página **Detalles…** de la nota.
+- Haz clic en **⋮**, arriba en la nota abierta, y luego en **Destacar**.
+- Haz clic derecho en la nota dentro de una lista (o clic en su **⋮**) y
+  luego en **Destacar**.
+- Haz clic en la estrella de la página **Detalles…** de la nota.
 
-Las notas destacadas aparecen en **Destacados** en la barra lateral y en Inicio,
-y muestran una pequeña estrella en cada lista en la que están. En **Todas las
-notas** y en las demás listas que no son las de una carpeta, una nota que está
-en una carpeta también muestra el nombre de la carpeta en su fila.
+Para quitar la estrella, repite lo mismo.
+
+Las notas destacadas aparecen en **Destacados**, tanto en la barra lateral
+como en Inicio. Además, llevan una estrellita en todas las listas.
+
+Si una nota está en una carpeta, su fila muestra el nombre de la carpeta. Lo
+verás en **Todas las notas** y en las demás listas, salvo en la de la propia
+carpeta.
 
 ## Etiquetar una nota {#tag-a-note}
 
-Una etiqueta atraviesa las carpetas, y una nota puede llevar tantas como
-quieras.
+Una etiqueta agrupa notas de cualquier carpeta. Una nota puede llevar todas
+las etiquetas que quieras.
 
-- **Añadir una**: abre los **Detalles…** de la nota, escribe en **+ Etiqueta** y
-  pulsa Retorno. Capturar con una `#word` también añade una.
-- **Quitar una**: haz clic en su **×** en Detalles.
-- **Recorrer una**: haz clic en ella en **Etiquetas** en la barra lateral, en
-  Inicio o en Detalles.
+- **Añadir una etiqueta**: abre los **Detalles…** de la nota, escribe en
+  **+ Etiqueta** y pulsa `Intro`. Una palabra con `#` en una idea anotada
+  también añade una etiqueta.
+- **Quitar una etiqueta**: haz clic en la **×** de la etiqueta, en Detalles.
+- **Ver las notas de una etiqueta**: haz clic en la etiqueta en **Etiquetas**
+  de la barra lateral, en Inicio o en Detalles.
 
-Una lista muestra la primera etiqueta de cada nota bajo su primera línea.
+En las listas, cada nota muestra su primera etiqueta debajo de su primera
+línea.
 
 :::tip Las notas y las piezas son el mismo tipo de documento
 
-Una nota puede convertirse en una pieza de escritura, y volver atrás. Haz clic
-derecho en ella (o usa su **⋮**) y elige **Mover a las piezas de Escribir**. Una
-pieza hace el camino inverso con **Mover a Notas**. Consulta
-[Organizar](./organizing).
+Una pieza es un texto de Escribir que está fuera de cualquier proyecto. Una
+nota puede convertirse en pieza, y una pieza, en nota.
+
+- Para convertir una nota en pieza, haz clic derecho en ella (o usa su
+  **⋮**) y elige **Mover a las piezas de Escribir**.
+- Para convertir una pieza en nota, elige **Mover a Notas**.
+
+Consulta [Organizar](./organizing).
 
 :::
 
 ## Ver también {#see-also}
 
-- [Organizar](./organizing): carpetas, orden, mover y la papelera.
+- [Organizar](./organizing): carpetas, orden, cómo mover documentos y la
+  papelera.
 - [Enlaces y el grafo](./links-and-graph)
-- [Tableros](./boards): convierte una lista de tareas de una nota en una tarjeta.
+- [Tableros](./boards): convierte en tarjeta una lista de tareas de una nota.
 - [Investigación](./research): notas guardadas para un libro concreto.
