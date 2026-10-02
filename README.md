@@ -42,6 +42,23 @@ npm run dev -- --locale es   # live preview of a translation (or fr)
 reload as you edit. `npm run dev` reloads instantly but serves a single
 language: its language menu leads to "page not found", and search is off.
 
+## Screenshots
+
+The app screenshots in `static/img/app/` (each in light and dark) are taken by
+a script, from the app's dev build:
+
+```bash
+scripts/capture-doc-shots.sh                          # all of them
+scripts/capture-doc-shots.sh templates-page find-bar  # only these
+scripts/capture-doc-shots.sh --list                   # the names
+```
+
+It needs macOS, and the app's repository next to this one with `npm install`
+run in it (or `APP=/path/to/app`). It uses a vault and settings of its own,
+made fresh each time and removed afterwards, so nothing of yours is touched.
+What each screenshot shows is in `scripts/doc-shots.mjs`; what the vault holds
+beyond the app's own sample novel is in `scripts/seed-docs-vault.mjs`.
+
 ## How it's organized
 
 - `docs/` — the English pages (Markdown).
