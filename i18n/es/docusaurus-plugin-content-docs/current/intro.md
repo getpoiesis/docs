@@ -61,14 +61,10 @@ como contenido estructurado, de modo que las anotaciones, las notas al pie y
 las citas se conservan íntegras. φ no almacena Markdown, pero puedes
 importarlo, pegarlo y exportarlo.
 
-:::note φ está en fase beta
-
-Lo esencial de φ ya está en su sitio, y hay quien lo usa a diario para
-escribir, organizarse y guardar versiones. Todavía quedan detalles por pulir.
-Si encuentras alguno, avísanos: haz clic en la insignia **Beta**, en la parte
-inferior de la barra lateral.
-
-:::
+φ es estable y está listo para tu escritura. Mantiene la etiqueta **Beta**
+un poco más, mientras más personas lo prueban. Si algo no te parece bien, la
+insignia **Beta**, en la parte inferior de la barra lateral, es la forma más
+rápida de contarlo.
 
 ## Lo que φ no es {#what-φ-isnt}
 
