@@ -85,6 +85,11 @@ en train d’écrire. Elle fonctionne dans le Sanctuaire comme en dehors.
 | **Paragraphe** | Le paragraphe où vous vous trouvez. |
 | **Désactivé** | Tout. (Le Sanctuaire continue d’atténuer tout sauf la phrase, à moins que vous n’ayez désactivé cette option.) |
 
+Une réplique fait partie de la phrase qui l’entoure : dans `« Vous êtes
+sûr ? » demanda-t-il.` ou `Elle dit : « Je suis rentrée. Il était tard. »`
+toute la phrase reste éclairée, pas seulement les mots jusqu’au point
+d’interrogation.
+
 Vous pouvez la régler à trois endroits :
 
 - Choisissez **Affichage → Écriture focalisée**.

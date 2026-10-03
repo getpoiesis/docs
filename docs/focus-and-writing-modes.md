@@ -80,6 +80,12 @@ works in Sanctuary and outside it.
 | **Paragraph** | The paragraph you are in. |
 | **Off** | Everything. (Sanctuary still dims everything except the sentence, unless you turned that off.) |
 
+A line of dialogue belongs to the sentence around it: in `"Are you sure?"
+he said.` or `She said, "I went home. It was late."` the whole sentence
+stays lit, not just the words up to the question mark. In Spanish, a
+paragraph that opens with a dash is one turn of speech, the narrator's
+aside included.
+
 You can set it in three places:
 
 - Choose **View → Focus Typing**.

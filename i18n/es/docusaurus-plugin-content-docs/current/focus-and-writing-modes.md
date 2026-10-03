@@ -87,6 +87,11 @@ escribiendo. Funciona dentro y fuera del Santuario.
 | **Párrafo** | El párrafo en el que estás. |
 | **Desactivado** | Todo. (El Santuario sigue atenuando todo menos la oración, salvo que lo hayas desactivado). |
 
+Una línea de diálogo forma parte de la oración que la rodea: en `—¿Estás
+seguro? —dijo él.` o `Dijo: «Me fui a casa. Era tarde».` se queda iluminada
+la oración entera, no solo hasta el signo de interrogación. Un párrafo que
+empieza con raya es un turno de palabra, con el inciso del narrador incluido.
+
 Se configura desde tres sitios:
 
 - Elige **Ver → Escritura enfocada**.
