@@ -26,8 +26,11 @@ chaque export les imprime à l’identique.
    en dessous.
 
 Un projet est un livre, ou tout autre texte long composé de plusieurs
-documents. φ ne propose les vers, les épigraphes, les exergues et les sauts de
-scène que dans les documents qui font partie d’un projet.
+documents. Vous pouvez aussi écrire un poème à part, en brouillon dans
+Écrire, ou dans une note ou un jour du journal : les vers sont proposés dans
+tous les documents, sauf les pages du matin. Les épigraphes, les exergues et
+les sauts de scène sont réservés aux documents d’Écrire, dans un projet ou
+non.
 
 ## Comment les vers sont composés {#how-verse-is-set}
 

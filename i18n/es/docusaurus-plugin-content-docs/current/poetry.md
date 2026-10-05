@@ -22,9 +22,11 @@ las exportaciones los imprimen igual.
 4. Pulsa `Intro` dos veces para dejar una línea en blanco entre estrofas.
 5. Pulsa `⌘↩` para salir del verso y empezar debajo un párrafo normal.
 
-Un proyecto es un libro u otra obra larga formada por varios documentos. φ
-solo ofrece versos, epígrafes, citas destacadas y saltos de escena en los
-documentos que pertenecen a un proyecto.
+Un proyecto es un libro u otra obra larga formada por varios documentos.
+También puedes escribir un poema suelto, como borrador en Escribir, o en una
+nota o un día del diario: el verso está en todos los documentos salvo en las
+páginas matinales. Los epígrafes, las citas destacadas y los saltos de
+escena son para los documentos de Escribir, estén o no en un proyecto.
 
 ## Cómo se compone el verso {#how-verse-is-set}
 

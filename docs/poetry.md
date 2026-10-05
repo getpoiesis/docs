@@ -21,9 +21,11 @@ them the same way.
 4. Press `Enter` twice to leave a blank line between stanzas.
 5. Press `⌘↩` to leave the verse and start a normal paragraph below it.
 
-A project is a book or other long work made of several documents. φ offers
-verse, epigraphs, pull quotes and scene breaks only in documents that
-belong to a project.
+A project is a book or other long work made of several documents. You can
+also write a poem on its own, as a draft in Write, or in a note or a journal
+day: verse is offered in every document except morning pages. Epigraphs,
+pull quotes and scene breaks are for documents in Write, in a project or
+not.
 
 ## How verse is set
 
