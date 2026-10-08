@@ -84,14 +84,21 @@ siendo la de Escribir y, cuando cierres la nota, seguirás en Escribir.
 Cada panel tiene una pequeña cabecera con el título del documento y estos
 botones:
 
-- **Añadir un panel** (+): abre otro panel vacío. Solo el último panel tiene
-  este botón.
+- **Abrir un documento al lado de este** (+): abre un panel vacío a la
+  derecha de este. Todos los paneles lo tienen mientras haya menos de tres.
 - **Opciones del panel** (⋮): **Abrir solo**, **Mover a la izquierda**,
   **Mover a la derecha** y **Cerrar panel**.
 - **Cerrar panel** (×).
 
-Si haces clic en un documento de la lista sin mantener pulsada ninguna
-tecla, ese documento sustituye al del panel activo.
+Mientras estás en la vista dividida, cualquier otra forma de abrir un
+documento también lo abre en un panel nuevo, a la derecha del activo: hacer
+clic en él en la lista, elegirlo en la búsqueda o seguir un enlace. Cuando
+ya hay tres paneles abiertos, sustituye al documento del panel activo.
+
+**Vista dividida**, en la barra de encima de la página, se ve pulsado
+mientras estás en la vista dividida. Haz clic de nuevo para salir: solo queda
+abierto el documento en el que estás. Cerrar un panel deja los demás como
+están.
 
 ## La barra lateral en vista dividida {#the-sidebar-while-split}
 
