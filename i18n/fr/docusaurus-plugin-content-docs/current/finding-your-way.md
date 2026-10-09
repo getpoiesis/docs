@@ -192,8 +192,9 @@ cliquez sur **Accueil**, en haut de la barre latérale.
 
 ## Tout trouver : `⌘K` {#find-anything-k}
 
-Appuyez sur `⌘K` (**Fichier → Rechercher un document…**) pour trouver un
-document, un projet ou un personnage par son nom. Une petite fenêtre s’ouvre :
+Appuyez sur `⌘K` (**Fichier → Rechercher un document…**), ou cliquez sur
+**Rechercher…** dans la barre en haut de la page, pour trouver un document,
+un projet ou un personnage par son nom. Une petite fenêtre s’ouvre :
 la palette. Avant que vous ne tapiez quoi que ce soit, elle affiche :
 
 - **Ouvert maintenant** : les documents que vous avez ouverts et pas encore

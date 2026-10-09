@@ -186,7 +186,8 @@ Para abrir el Inicio del modo en el que estás, pulsa `⌘⇧H` o haz clic en
 
 ## Encuentra lo que sea: `⌘K` {#find-anything-k}
 
-Pulsa `⌘K` (**Archivo → Buscar un documento…**) para encontrar un documento,
+Pulsa `⌘K` (**Archivo → Buscar un documento…**), o haz clic en **Buscar…**
+en la barra de la parte superior de la página, para encontrar un documento,
 un proyecto o un personaje por su nombre. Se abre una ventana pequeña, la
 paleta. Antes de que escribas nada, muestra:
 

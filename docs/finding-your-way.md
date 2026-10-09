@@ -176,8 +176,8 @@ the top of the sidebar.
 
 ## Find anything: `⌘K`
 
-Press `⌘K` (**File → Find a Document…**) to find a document, a project or a
-character by name. A small window opens, called the palette. Before you
+Press `⌘K` (**File → Find a Document…**), or click **Search…** in the bar at
+the top of the page, to find a document, a project or a character by name. A small window opens, called the palette. Before you
 type, it shows:
 
 - **Open now**: the documents you have opened and not closed. The one on

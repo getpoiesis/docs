@@ -76,14 +76,20 @@ and when you close the note you are still in Write.
 
 Each pane has a small header with the document's title and these buttons:
 
-- **Add a pane** (+): opens another empty pane. Only the last pane has
-  this button.
+- **Open a document beside this one** (+): opens an empty pane right of
+  this one. Every pane has it while fewer than three are open.
 - **Pane options** (⋮): **Open alone**, **Move left**, **Move right** and
   **Close pane**.
 - **Close pane** (×).
 
-If you click a document in the list without holding a key, it replaces the
-document in the active pane.
+While you are in split view, any other way of opening a document also opens
+it in a new pane, right of the active one: clicking it in the list,
+choosing it in search, following a link. Once three panes are open, it
+replaces the document in the active pane.
+
+**Split view** in the bar above the page looks pressed while you are in
+split view. Click it again to leave split view: only the document you are
+in stays open. Closing a pane leaves the others as they are.
 
 ## The sidebar while split
 

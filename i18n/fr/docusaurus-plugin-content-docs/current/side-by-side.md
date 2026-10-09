@@ -83,14 +83,21 @@ quand vous fermez la note.
 
 Chaque volet a un petit en-tête, avec le titre du document et ces boutons :
 
-- **Ajouter un volet** (+) : ouvre un autre volet vide. Seul le dernier volet
-  a ce bouton.
+- **Ouvrir un document à côté de celui-ci** (+) : ouvre un volet vide à
+  droite de celui-ci. Chaque volet l’a tant qu’il y en a moins de trois.
 - **Options du volet** (⋮) : **Ouvrir seul**, **Déplacer à gauche**,
   **Déplacer à droite** et **Fermer le volet**.
 - **Fermer le volet** (×).
 
-Si vous cliquez sur un document dans la liste sans maintenir de touche, il
-remplace le document du volet actif.
+Tant que vous êtes en vue partagée, toute autre façon d’ouvrir un document
+l’ouvre aussi dans un nouveau volet, à droite du volet actif : cliquer
+dessus dans la liste, le choisir dans la recherche, suivre un lien. Une fois
+trois volets ouverts, il remplace le document du volet actif.
+
+**Vue partagée**, dans la barre au-dessus de la page, apparaît enfoncé tant
+que vous êtes en vue partagée. Cliquez de nouveau pour en sortir : seul le
+document où vous êtes reste ouvert. Fermer un volet laisse les autres tels
+qu’ils sont.
 
 ## La barre latérale en vue partagée {#the-sidebar-while-split}
 
