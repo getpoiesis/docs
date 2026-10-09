@@ -36,7 +36,7 @@ titres courants.
 
 Voici ce qui est conservé de la maquette :
 
-- les polices, que φ intègre au fichier ;
+- les polices, que φ Poiesis intègre au fichier ;
 - l’ouverture des chapitres : le numéro et le titre ensemble, puis une
   lettrine ou les premiers mots en petites capitales ;
 - l’ornement entre les scènes ;
@@ -57,7 +57,7 @@ vérification contrôle les points suivants :
   **ISBN (numérique)**, dans les [Détails du livre](./book-details). KDP et
   Google Play n’en exigent pas.
 
-Pendant qu’il crée le fichier, φ vérifie aussi que l’EPUB respecte la norme
+Pendant qu’il crée le fichier, Poiesis vérifie aussi que l’EPUB respecte la norme
 EPUB.
 
 ## Voir aussi {#see-also}

@@ -5,7 +5,7 @@ description: Sanctuary, typewriter scrolling, focus typing and read mode, for wh
 
 # Focus & Sanctuary
 
-**Sanctuary** hides everything in φ except the page, so nothing distracts
+**Sanctuary** hides everything in φ Poiesis except the page, so nothing distracts
 you while you write. This page also explains three smaller tools:
 typewriter scrolling, focus typing and read mode.
 
@@ -107,7 +107,7 @@ You can turn it on or off in four places:
 
 ## Your writing sessions
 
-A writing session is one period of writing. φ measures your sessions for
+A writing session is one period of writing. Poiesis measures your sessions for
 you.
 
 - A session starts when you press the first key.

@@ -1,13 +1,13 @@
 ---
 title: Styles personnalisés
-description: Créez votre propre style à partir de l’un de ceux de φ, et utilisez-le pour un projet.
+description: Créez votre propre style à partir de l’un de ceux de φ Poiesis, et utilisez-le pour un projet.
 ---
 
 # Styles personnalisés
 
 Une [maquette](./designs) et **Ajuster la maquette** permettent de changer
 quelques aspects de l’allure d’un livre. Pour aller plus loin, créez votre
-propre style : vous copiez une maquette ou un style de φ, puis vous modifiez ce
+propre style : vous copiez une maquette ou un style de φ Poiesis, puis vous modifiez ce
 que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
 [coffre](./vaults).
 
@@ -20,9 +20,9 @@ que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
    s’ouvre.
 4. Sous **Intégrés à φ**, choisissez la maquette ou le style le plus proche de
    ce que vous cherchez.
-5. Choisissez **Dupliquer**. Les styles de φ ne sont pas modifiables, mais
+5. Choisissez **Dupliquer**. Les styles de Poiesis ne sont pas modifiables, mais
    leur copie l’est.
-6. Modifiez ce que vous voulez. φ enregistre chaque changement aussitôt.
+6. Modifiez ce que vous voulez. Poiesis enregistre chaque changement aussitôt.
    L’aperçu, à côté des réglages, montre les premières pages.
 7. Choisissez **Utiliser pour ce projet**.
 
@@ -40,9 +40,9 @@ que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
 | **Pages propres au livre** | La page de titre, la page de copyright, la dédicace et les autres. |
 | **Notes** | Les notes en bas de page ou en fin d’ouvrage, et leur numérotation. |
 
-φ maintient chaque valeur dans des limites qui donnent un bon résultat à
+Poiesis maintient chaque valeur dans des limites qui donnent un bon résultat à
 l’impression comme à la lecture. Une marge peut, par exemple, être trop petite
-pour la reliure, ou une couleur trop pâle pour être lisible. Dans ce cas, φ
+pour la reliure, ou une couleur trop pâle pour être lisible. Dans ce cas, Poiesis
 corrige la valeur, et la vérification de la page Exporter vous le signale.
 
 ## Partager, sauvegarder et supprimer des styles {#share-back-up-and-remove-styles}
@@ -54,7 +54,7 @@ corrige la valeur, et la vérification de la page Exporter vous le signale.
   pouvez donner à quelqu’un. **Importer un style…** ajoute un style à partir
   d’un fichier.
 - **Supprimer.** Un style supprimé va dans la corbeille du coffre. Les projets
-  qui l’utilisaient reprennent le style par défaut de φ.
+  qui l’utilisaient reprennent le style par défaut de Poiesis.
 
 ## Voir aussi {#see-also}
 

@@ -17,7 +17,7 @@ streak, which is the number of days in a row that you have written.
 
 1. Choose **Journal** in the mode switch at the top of the sidebar. The
    shortcut is `⌘3` when the [vault](./vaults) has all three modes.
-2. Click **Today**. φ opens today's entry. If there is no entry yet, φ makes
+2. Click **Today**. φ Poiesis opens today's entry. If there is no entry yet, Poiesis makes
    one.
 3. Write. The entry saves itself as you write.
 4. To also start today's morning pages, click **Start morning pages** beside
@@ -64,13 +64,13 @@ There are three ways to choose the day:
   date.
 - In the [calendar](./calendar), select a day and press **Write this day**.
 
-If you open a day and leave it without writing anything, φ moves that empty
+If you open a day and leave it without writing anything, Poiesis moves that empty
 entry to the trash.
 
 ## Keep morning pages
 
 Morning pages are a daily practice. You write three pages early in the day,
-freely, and you do not read them again. φ keeps this page empty on purpose.
+freely, and you do not read them again. Poiesis keeps this page empty on purpose.
 It has no toolbar, no slash menu, no `@` or `[[` suggestions and no tags. You
 see only the date and the page.
 
@@ -83,7 +83,7 @@ There are four ways to open today's morning pages:
 
 ### Three pages
 
-The goal is three pages. φ counts three pages as 750 words.
+The goal is three pages. Poiesis counts three pages as 750 words.
 
 <img src="/img/app/morning-pages-light.png" alt="Today's morning page partly written, with the progress line and Mark as done below it" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/morning-pages-dark.png" alt="Today's morning page partly written, with the progress line and Mark as done below it" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -105,7 +105,7 @@ When you open a sealed day, you see a short card, not your text. The card has
 two buttons:
 
 - **Read these pages** shows the pages. You cannot edit them.
-- **Unseal to edit** lets you write in them again. φ asks you to confirm
+- **Unseal to edit** lets you write in them again. Poiesis asks you to confirm
   first.
 
 Morning pages that you open from the calendar are always read-only.
@@ -167,7 +167,7 @@ To change how the streak looks, go to **Settings** → **Setup** → **Streak**:
 | **Off** | No flames, and no streak on the Home of Write. |
 
 **Weekly pace** is in the same place. It is a softer goal: a number of days
-each week. φ counts it over the last seven days, so one missed day never
+each week. Poiesis counts it over the last seven days, so one missed day never
 sets it back to zero.
 
 ## See also

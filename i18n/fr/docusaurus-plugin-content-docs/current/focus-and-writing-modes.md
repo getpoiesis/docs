@@ -5,7 +5,7 @@ description: Le Sanctuaire, le défilement machine à écrire, l’écriture foc
 
 # Concentration et Sanctuaire
 
-Le **Sanctuaire** masque tout dans φ sauf la page, pour que rien ne vous
+Le **Sanctuaire** masque tout dans φ Poiesis sauf la page, pour que rien ne vous
 distraie pendant que vous écrivez. Cette page présente aussi trois outils plus
 modestes : le défilement machine à écrire, l’écriture focalisée et le mode
 lecture.
@@ -111,7 +111,7 @@ Vous pouvez l’activer ou le désactiver à quatre endroits :
 
 ## Vos sessions d’écriture {#your-writing-sessions}
 
-Une session d’écriture est une période passée à écrire. φ mesure vos sessions
+Une session d’écriture est une période passée à écrire. Poiesis mesure vos sessions
 pour vous.
 
 - Une session commence à la première touche que vous frappez.

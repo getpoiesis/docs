@@ -8,7 +8,7 @@ description: Livres, parties et chapitres, pages liminaires et finales, objectif
 Un **projet** est une œuvre faite de plusieurs documents rangés dans un ordre
 précis : un roman, un recueil de poèmes, une série d’essais. Le projet retient
 l’ordre, les parties, la numérotation, la couverture et l’objectif de mots.
-C’est aussi un projet que φ exporte sous forme de livre.
+C’est aussi un projet que φ Poiesis exporte sous forme de livre.
 
 <img src="/img/app/manuscript-light.png" alt="Un projet ouvert dans Écrire : ses parties et ses chapitres dans la liste, et sa page avec la couverture, le titre, l’auteur, la progression et les réglages" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/manuscript-dark.png" alt="Un projet ouvert dans Écrire : ses parties et ses chapitres dans la liste, et sa page avec la couverture, le titre, l’auteur, la progression et les réglages" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -31,7 +31,7 @@ Choisissez **Roman**, **Poésie**, **Essais** ou **Autre**, puis appuyez sur
 
 ## Choisir le genre d’œuvre {#choose-what-kind-of-work-it-is}
 
-Le **Type** d’un projet détermine les noms que φ donne aux documents et aux
+Le **Type** d’un projet détermine les noms que Poiesis donne aux documents et aux
 groupes du projet, ainsi que la façon dont le projet s’exporte. Vous pouvez
 changer de type à tout moment sur la page du projet. Seuls les noms changent :
 vos textes restent tels quels.
@@ -77,7 +77,7 @@ un coffre…**.
 ## Ajouter des chapitres et des parties {#add-chapters-and-parts}
 
 - Cliquez sur **+** en haut de la liste et choisissez **Ajouter chapitre**
-  (`⌘N`) ou **Ajouter partie** (`⇧⌘N`). φ l’ajoute à la fin.
+  (`⌘N`) ou **Ajouter partie** (`⇧⌘N`). Poiesis l’ajoute à la fin.
 - Cliquez sur le **⋮** d’un chapitre dans la liste pour accéder à d’autres
   commandes : **Ajouter chapitre en dessous**, **Ajouter partie en dessous**,
   **Renommer**, **Dupliquer**, **Détails…**, **Pages liminaires / finales**,
@@ -117,9 +117,9 @@ d’objectif, l’anneau indique son statut.
 - Pour ajouter un chapitre ou une partie, utilisez **Ajouter chapitre** et
   **Ajouter une partie**, tout en bas.
 
-Vous ne tapez jamais un numéro de chapitre. φ attribue à chacun son numéro,
+Vous ne tapez jamais un numéro de chapitre. Poiesis attribue à chacun son numéro,
 par exemple « Partie II » ou « Chapitre 7 », d’après sa place dans l’ordre.
-Quand vous déplacez un chapitre ou une partie, φ renumérote l’ensemble.
+Quand vous déplacez un chapitre ou une partie, Poiesis renumérote l’ensemble.
 
 ## Pages liminaires et finales {#front-and-end-matter}
 
@@ -137,7 +137,7 @@ Le document n’a alors plus de numéro. Votre premier vrai chapitre reste le
 Chapitre 1 dans le plan, dans la vue de lecture et dans tous les exports.
 
 La page de titre, la page de copyright et la page « Du même auteur » ne sont
-pas des documents. φ les compose à partir des
+pas des documents. Poiesis les compose à partir des
 [Détails du livre](./book-details) du projet.
 
 ## Fixer des objectifs de mots {#set-word-goals}
@@ -212,18 +212,18 @@ un dans la barre latérale, ouvrez le même menu et choisissez **Ressortir**.
 Ranger un projet ne change rien à son contenu, et `⌘K` le trouve toujours.
 
 Quand tous les chapitres d’un projet ont le statut Final, la page du projet
-vous propose de le ranger. φ ne range jamais un projet sans vous.
+vous propose de le ranger. Poiesis ne range jamais un projet sans vous.
 
 ## Retirer ou supprimer {#remove-or-delete}
 
-**Retirer du projet** sort un chapitre du projet. φ vous demande d’abord
-confirmation. Si vous retirez une partie, φ retire aussi tout ce qu’elle
+**Retirer du projet** sort un chapitre du projet. Poiesis vous demande d’abord
+confirmation. Si vous retirez une partie, Poiesis retire aussi tout ce qu’elle
 contient. Dans les deux cas, les documents restent dans votre coffre, comme
 pièces.
 
 :::note Supprimer un projet conserve ses documents
 **Supprimer le projet…** (dans le menu du clic droit) et **Supprimer ce
-projet…** (sur la page du projet) vous demandent d’abord confirmation. φ ne
+projet…** (sur la page du projet) vous demandent d’abord confirmation. Poiesis ne
 supprime ensuite que le projet. Tous les chapitres restent dans votre coffre.
 Le projet va dans la corbeille, d’où vous pouvez le restaurer.
 :::

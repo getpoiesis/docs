@@ -7,7 +7,7 @@ description: Elige dónde se guarda lo que escribes y escribe tu primera página
 
 Una **bóveda** es una carpeta de tu ordenador donde se guarda todo lo que
 escribes: cada documento, las imágenes que contienen y el historial de tus
-cambios. La primera vez que se abre, φ te pide una bóveda. Después ya puedes
+cambios. La primera vez que se abre, φ Poiesis te pide una bóveda. Después ya puedes
 ponerte a escribir.
 
 <img src="/img/app/home-light.png" alt="El Inicio de Escribir, la pantalla en la que se abre una bóveda: el capítulo por el que continuar, el proyecto en marcha, las piezas y la investigación recientes, y las cifras de hoy junto al mes" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -15,21 +15,21 @@ ponerte a escribir.
 
 ## Crea tu primera bóveda {#create-your-first-vault}
 
-1. Abre φ. La pantalla **Bienvenido** te ofrece **Crear una bóveda** y **Abrir
+1. Abre Poiesis. La pantalla **Bienvenido** te ofrece **Crear una bóveda** y **Abrir
    una carpeta**.
 2. Elige **Crear una bóveda**. Se abre el selector de carpetas de tu sistema.
 3. Elige una carpeta o crea una nueva, por ejemplo `Documentos/Escritura`.
-4. Si macOS te pregunta si φ puede usar los archivos de esa carpeta, haz clic
+4. Si macOS te pregunta si Poiesis puede usar los archivos de esa carpeta, haz clic
    en **Permitir**.
 
-φ abre la bóveda en la pantalla de Inicio de **Escribir**, el modo dedicado a
+Poiesis abre la bóveda en la pantalla de Inicio de **Escribir**, el modo dedicado a
 tus manuscritos.
 
 Si prefieres usar una carpeta que ya tienes, elige **Abrir una carpeta**. Los
 pasos son los mismos.
 
-- Si la carpeta ya es una bóveda, φ la abre tal como está.
-- Si es cualquier otra carpeta, φ la convierte en bóveda. Añade los archivos
+- Si la carpeta ya es una bóveda, Poiesis la abre tal como está.
+- Si es cualquier otra carpeta, Poiesis la convierte en bóveda. Añade los archivos
   que necesita y no modifica los que ya había.
 
 ## Qué hay en una bóveda nueva {#whats-in-a-new-vault}
@@ -40,15 +40,15 @@ Una bóveda nueva trae dos documentos para empezar:
 - **The Grey Morning** es un proyecto de ejemplo. Tiene dos capítulos, una
   portada, un epígrafe, notas al pie y un salto de escena. Ábrelo desde
   **Proyectos**, en la barra lateral. Después haz clic en **Exportar**, justo
-  debajo, para ver cómo maqueta φ un libro.
+  debajo, para ver cómo maqueta Poiesis un libro.
 
 Puedes leerlos, conservarlos o enviarlos a la **Papelera** cuando quieras.
 
-## Si φ no ve tu carpeta {#if-φ-cant-see-your-folder}
+## Si Poiesis no ve tu carpeta {#if-Poiesis-cant-see-your-folder}
 
 **φ no puede leer esta carpeta.** Cuando una bóveda está en **Documentos**,
 **Escritorio**, **Descargas** o **iCloud Drive**, macOS pregunta una sola vez
-si φ puede usarla. Si la respuesta fue que no, φ muestra este mensaje en lugar
+si Poiesis puede usarla. Si la respuesta fue que no, Poiesis muestra este mensaje en lugar
 de una bóveda vacía. Para solucionarlo:
 
 1. Haz clic en **Permitir el acceso…**.
@@ -57,7 +57,7 @@ de una bóveda vacía. Para solucionarlo:
 Tus documentos vuelven a aparecer. También puedes dar el permiso en **Ajustes
 del Sistema → Privacidad y seguridad → Archivos y carpetas**.
 
-**Esta carpeta ya no está.** φ muestra este mensaje cuando la carpeta se ha
+**Esta carpeta ya no está.** Poiesis muestra este mensaje cuando la carpeta se ha
 movido o ha cambiado de nombre, o cuando está en un disco que no está
 conectado.
 
@@ -70,11 +70,11 @@ conectado.
 3. Escribe un título.
 4. Haz clic en la página, debajo del título, y escribe.
 
-No hay botón de guardar: φ guarda mientras escribes. Si quieres guardar en el
+No hay botón de guardar: Poiesis guarda mientras escribes. Si quieres guardar en el
 momento, pulsa `⌘S`.
 
 `⌘N` (**Archivo → Nuevo documento**) crea un tipo de documento distinto según
-la parte de φ en la que estés:
+la parte de Poiesis en la que estés:
 
 | Dónde estás | Qué crea `⌘N` |
 | --- | --- |

@@ -18,7 +18,7 @@ has escrito.
 
 1. Elige **Diario** en el selector de modo, en lo alto de la barra lateral. Si
    la [bóveda](./vaults) tiene los tres modos, el atajo es `⌘3`.
-2. Haz clic en **Hoy**. φ abre la entrada de hoy y, si todavía no existe, la
+2. Haz clic en **Hoy**. φ Poiesis abre la entrada de hoy y, si todavía no existe, la
    crea.
 3. Escribe. La entrada se guarda sola a medida que escribes.
 4. Si además quieres empezar las páginas matinales de hoy, haz clic en
@@ -68,13 +68,13 @@ Hay tres maneras de elegir el día:
 - En el [calendario](./calendar), selecciona un día y pulsa **Escribir este
   día**.
 
-Si abres un día y sales sin haber escrito nada, φ manda esa entrada vacía a la
+Si abres un día y sales sin haber escrito nada, Poiesis manda esa entrada vacía a la
 papelera.
 
 ## Las páginas matinales {#keep-morning-pages}
 
 Las páginas matinales son una práctica diaria: a primera hora escribes tres
-páginas, sin pensarlo demasiado, y no vuelves a leerlas. Por eso φ deja esta
+páginas, sin pensarlo demasiado, y no vuelves a leerlas. Por eso Poiesis deja esta
 página vacía a propósito. No tiene barra de herramientas, ni menú de bloques (`/`), ni sugerencias de `@` o `[[`, ni etiquetas. Solo ves la fecha y la
 página.
 
@@ -88,7 +88,7 @@ Hay cuatro maneras de abrir las páginas matinales de hoy:
 
 ### Tres páginas {#three-pages}
 
-La meta son tres páginas. Para φ, tres páginas equivalen a 750 palabras.
+La meta son tres páginas. Para Poiesis, tres páginas equivalen a 750 palabras.
 
 <img src="/img/app/morning-pages-light.png" alt="La página matinal de hoy a medio escribir, con la línea de progreso y el botón para marcarla como hecha" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/morning-pages-dark.png" alt="La página matinal de hoy a medio escribir, con la línea de progreso y el botón para marcarla como hecha" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -114,7 +114,7 @@ botones:
 
 - **Leer estas páginas** muestra las páginas, pero no te deja editarlas.
 - **Quitar el sello para editar** te permite volver a escribir en ellas. Antes,
-  φ te pide que lo confirmes.
+  Poiesis te pide que lo confirmes.
 
 Las páginas matinales que abres desde el calendario son siempre de solo
 lectura.
@@ -179,7 +179,7 @@ escritura** → **Racha**:
 | **Apagada** | Ni llamas ni racha en el Inicio de Escribir. |
 
 En ese mismo sitio está **Ritmo semanal**, una meta más llevadera: un número
-de días por semana. φ lo calcula sobre los últimos siete días, así que por
+de días por semana. Poiesis lo calcula sobre los últimos siete días, así que por
 fallar un día nunca vuelves a cero.
 
 ## Ver también {#see-also}

@@ -5,7 +5,7 @@ description: Notas al pie de la página, fuentes citadas en el texto y una bibli
 
 # Notas al pie y citas
 
-φ puede añadir tres cosas que un libro a veces necesita: una nota al pie de
+φ Poiesis puede añadir tres cosas que un libro a veces necesita: una nota al pie de
 la página, una cita que nombra una fuente dentro del texto y una bibliografía
 con las fuentes que has citado. Las tres forman parte del documento, de modo
 que todas las exportaciones las incluyen, en el lugar donde el lector espera
@@ -24,8 +24,8 @@ notas, en las piezas que no forman parte de un proyecto ni en el diario.
 2. Escribe `/footnote` y pulsa `Intro`.
 3. Escribe la nota en el cuadro **Nota al pie** y confirma.
 
-En el texto aparece un número pequeño: la llamada. φ numera las notas al pie
-por orden. Si añades una nota más arriba en el documento, φ vuelve a numerar
+En el texto aparece un número pequeño: la llamada. Poiesis numera las notas al pie
+por orden. Si añades una nota más arriba en el documento, Poiesis vuelve a numerar
 las que vienen después.
 
 ## Leer y editar las notas al pie {#read-and-edit-your-footnotes}
@@ -43,7 +43,7 @@ al pie**:
   editarla.
 - Haz clic en su número (**Ir al marcador**) para ir a la llamada en el
   texto.
-- Haz clic en la papelera (**Eliminar nota al pie**) para quitar la nota. φ
+- Haz clic en la papelera (**Eliminar nota al pie**) para quitar la nota. Poiesis
   vuelve a numerar las demás.
 
 ## Citar una fuente {#cite-a-source}
@@ -73,7 +73,7 @@ Para cambiar una cita, haz clic en ella. El cuadro se abre con el título
 Si se ha eliminado la fuente de una cita, la cita se muestra como *(?)*, para
 que la localices fácilmente.
 
-Cada documento guarda su propia lista de fuentes. Al exportar el proyecto, φ
+Cada documento guarda su propia lista de fuentes. Al exportar el proyecto, Poiesis
 reúne las listas de todos sus documentos. Así, cada cita encuentra su fuente,
 aunque la hayas añadido en otro documento del libro.
 

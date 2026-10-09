@@ -1,11 +1,11 @@
 ---
 title: Temas e idiomas
-description: Claro u oscuro, el tamaño de la interfaz, los temas de color y los idiomas que φ habla y revisa.
+description: Claro u oscuro, el tamaño de la interfaz, los temas de color y los idiomas que φ Poiesis habla y revisa.
 ---
 
 # Temas e idiomas
 
-Puedes cambiar el aspecto de φ y el idioma que usa:
+Puedes cambiar el aspecto de φ Poiesis y el idioma que usa:
 
 - el modo claro u oscuro, el tamaño y los colores están en **Ajustes →
   Apariencia**;
@@ -20,14 +20,14 @@ controles deslizantes, en lo alto de la barra lateral.
 ## Elegir claro u oscuro {#choose-light-or-dark}
 
 En **Apariencia**, elige **Sistema**, **Claro** u **Oscuro**. **Sistema** sigue
-a tu ordenador: cuando este pasa al modo oscuro, φ también.
+a tu ordenador: cuando este pasa al modo oscuro, Poiesis también.
 
 También puedes cambiar sin abrir los Ajustes:
 
 - elige **Ver → Cambiar tema**; o
 - pulsa `⌘P` y elige **Cambiar tema (sistema / claro / oscuro)**.
 
-Cada vez, φ avanza un paso en este orden: sistema, claro, oscuro.
+Cada vez, Poiesis avanza un paso en este orden: sistema, claro, oscuro.
 
 ## Agrandarlo todo {#make-everything-larger}
 
@@ -52,14 +52,14 @@ claros.
 
 ## Cambiar los colores {#change-the-colours}
 
-Un tema de color define los colores de φ: los fondos, el texto, los acentos,
+Un tema de color define los colores de Poiesis: los fondos, el texto, los acentos,
 los enlaces y el código. Todos los temas tienen un lado claro y un lado oscuro.
 **Apariencia** decide cuál de los dos ves.
 
 Para usar un tema, haz clic en él en la lista **Tema de color**. Cada tema de
-la lista lleva una pequeña vista previa de la ventana de φ con sus colores.
+la lista lleva una pequeña vista previa de la ventana de Poiesis con sus colores.
 
-φ trae un tema, **Phi**, marcado como **Oficial**. Es de grises neutros, con la
+Poiesis trae un tema, **Phi**, marcado como **Oficial**. Es de grises neutros, con la
 página en blanco puro o en negro puro. Es el predeterminado y no se puede
 quitar.
 
@@ -78,7 +78,7 @@ Un tema que ya tienes muestra **Instalado**. Su botón pasa a ser
 
 Si la galería no se carga, revisa tu conexión a internet y pulsa
 **Reintentar**. Una vez que se ha cargado por primera vez, la galería se abre
-al instante y funciona sin conexión. φ la actualiza en segundo plano:
+al instante y funciona sin conexión. Poiesis la actualiza en segundo plano:
 
 - unos segundos después de arrancar;
 - cada seis horas a partir de entonces;
@@ -96,24 +96,24 @@ te hayan enviado:
 1. En **Tema de color**, pulsa **Instalar tema…**.
 2. Elige el archivo `.json` del tema.
 
-φ guarda los temas que instalas en tu carpeta de temas, no dentro de la
+Poiesis guarda los temas que instalas en tu carpeta de temas, no dentro de la
 aplicación. **Abrir carpeta de temas** te muestra esa carpeta.
 
-Para quitar un tema, pulsa el botón de la papelera que tiene al lado. φ te
+Para quitar un tema, pulsa el botón de la papelera que tiene al lado. Poiesis te
 pide confirmación y después borra el archivo del tema de la carpeta de temas.
 
-Un tema puede cambiar los colores y nada más. Al instalarlo, φ comprueba cada
-color. Si al tema le falta alguno, φ usa el de Phi.
+Un tema puede cambiar los colores y nada más. Al instalarlo, Poiesis comprueba cada
+color. Si al tema le falta alguno, Poiesis usa el de Phi.
 
-## Cambiar el idioma de φ {#change-φs-language}
+## Cambiar el idioma de Poiesis {#change-Poiesiss-language}
 
-Elige un valor en **Idioma de la interfaz**. Es el idioma de los menús y los textos de φ.
+Elige un valor en **Idioma de la interfaz**. Es el idioma de los menús y los textos de Poiesis.
 
 <img src="/img/app/settings-language-light.png" alt="Los ajustes abiertos en Idioma: el idioma de la interfaz, la ortografía y el diccionario personal" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-language-dark.png" alt="Los ajustes abiertos en Idioma: el idioma de la interfaz, la ortografía y el diccionario personal" width="1600" height="1000" loading="lazy" decoding="async" />
 
 - **Predeterminado del sistema** sigue a tu ordenador.
-- Los idiomas que vienen con φ aparecen bajo **φ**. Cada uno figura con su
+- Los idiomas que vienen con Poiesis aparecen bajo **φ**. Cada uno figura con su
   propio nombre y, al lado, su nombre en inglés.
 - Los idiomas que instalas tú aparecen bajo **Comunidad**.
 
@@ -130,13 +130,13 @@ Debajo del ajuste **Idioma de la interfaz** hay tres botones:
 - **Instalar un idioma…** añade un archivo de idioma. El idioma aparece bajo
   **Comunidad**. También aparece en una lista, más abajo, con un botón de
   papelera para quitarlo.
-- **Exportar plantilla en inglés…** guarda en un archivo todas las frases de φ,
+- **Exportar plantilla en inglés…** guarda en un archivo todas las frases de Poiesis,
   en inglés. Sirve para hacer tu propia traducción: traduce las frases y luego
-  instala el archivo. Si compartes tu traducción, se puede incluir en φ para
+  instala el archivo. Si compartes tu traducción, se puede incluir en Poiesis para
   todo el mundo.
 - **Abrir carpeta** muestra dónde se guardan los idiomas instalados.
 
-Una traducción no tiene por qué estar completa. Si falta una frase, φ la
+Una traducción no tiene por qué estar completa. Si falta una frase, Poiesis la
 muestra en inglés.
 
 ## Revisar la ortografía en tus idiomas {#check-spelling-in-your-languages}

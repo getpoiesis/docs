@@ -1,11 +1,11 @@
 ---
 title: Themes & languages
-description: Light or dark, the size of the interface, colour themes, and the languages φ speaks and checks.
+description: Light or dark, the size of the interface, colour themes, and the languages φ Poiesis speaks and checks.
 ---
 
 # Themes & languages
 
-You can change how φ looks and which language it uses:
+You can change how φ Poiesis looks and which language it uses:
 
 - light or dark, the size, and the colours are in **Settings → Appearance**;
 - languages are in **Settings → Language**.
@@ -19,14 +19,14 @@ of the sidebar.
 ## Choose light or dark
 
 Set **Appearance** to **System**, **Light** or **Dark**. **System** follows
-your computer: φ turns dark when your computer does.
+your computer: Poiesis turns dark when your computer does.
 
 You can also switch without opening Settings:
 
 - choose **View → Toggle Theme**; or
 - press `⌘P` and choose **Cycle theme (system / light / dark)**.
 
-Each time, φ moves one step in this order: system, light, dark.
+Each time, Poiesis moves one step in this order: system, light, dark.
 
 ## Make everything larger
 
@@ -51,14 +51,14 @@ uses its light colours.
 
 ## Change the colours
 
-A colour theme sets the colours of φ: backgrounds, text, accents, links and
+A colour theme sets the colours of Poiesis: backgrounds, text, accents, links and
 code. Every theme has a light side and a dark side. **Appearance** decides
 which side you see.
 
 To use a theme, click it in the **Colour theme** list. Each theme in the list
-has a small preview of the φ window in its colours.
+has a small preview of the Poiesis window in its colours.
 
-φ comes with one theme, **Phi**, marked **Official**. It has neutral greys and
+Poiesis comes with one theme, **Phi**, marked **Official**. It has neutral greys and
 a pure white or pure black page. It is the default, and you can't remove it.
 
 <img src="/img/app/themes-nord-light.png" alt="The Home window in the Nord theme: Nord's pale blue-grey page beside its dark slate sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -76,9 +76,9 @@ which gets the latest version of the theme.
 
 If the gallery can't load, check your internet connection and press
 **Retry**. After the gallery has loaded once, it opens at once and works
-without a connection. φ refreshes the gallery in the background:
+without a connection. Poiesis refreshes the gallery in the background:
 
-- a few seconds after φ starts;
+- a few seconds after Poiesis starts;
 - every six hours after that;
 - when you choose **Check for Updates…**.
 
@@ -94,24 +94,24 @@ sent you:
 1. Under **Colour theme**, press **Install theme…**.
 2. Choose the theme's `.json` file.
 
-φ keeps the themes you install in your themes folder, not inside the app.
+Poiesis keeps the themes you install in your themes folder, not inside the app.
 **Open themes folder** shows the folder.
 
-To remove a theme, press the trash button beside it. φ asks first, then
+To remove a theme, press the trash button beside it. Poiesis asks first, then
 deletes the theme's file from the themes folder.
 
-A theme can change colours and nothing else. φ checks every colour when you
-install a theme. If a theme leaves a colour out, φ uses the colour from Phi.
+A theme can change colours and nothing else. Poiesis checks every colour when you
+install a theme. If a theme leaves a colour out, Poiesis uses the colour from Phi.
 
-## Change φ's language
+## Change Poiesis's language
 
-Set **Interface language**. This is the language of φ's menus and labels.
+Set **Interface language**. This is the language of Poiesis's menus and labels.
 
 <img src="/img/app/settings-language-light.png" alt="Settings open on Language: the interface language, spelling and the personal dictionary" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-language-dark.png" alt="Settings open on Language: the interface language, spelling and the personal dictionary" width="1600" height="1000" loading="lazy" decoding="async" />
 
 - **System default** follows your computer.
-- The languages that come with φ are listed under **φ**. Each one is shown by
+- The languages that come with Poiesis are listed under **φ**. Each one is shown by
   its own name, with the English name beside it.
 - Languages you install yourself are listed under **Community**.
 
@@ -128,13 +128,13 @@ Three buttons are below the **Interface language** setting:
 - **Install a language…** adds a language file. The language appears under
   **Community**. It also appears in a list below, with a trash button to
   remove it.
-- **Export English template…** saves every phrase in φ, in English, to a file.
+- **Export English template…** saves every phrase in Poiesis, in English, to a file.
   Use it to make your own translation: translate the phrases, then install
-  the file. If you share your translation, it can be included in φ for
+  the file. If you share your translation, it can be included in Poiesis for
   everyone.
 - **Open folder** shows where installed languages are kept.
 
-A translation doesn't have to be finished. If a phrase is missing, φ shows it
+A translation doesn't have to be finished. If a phrase is missing, Poiesis shows it
 in English.
 
 ## Check spelling in your languages

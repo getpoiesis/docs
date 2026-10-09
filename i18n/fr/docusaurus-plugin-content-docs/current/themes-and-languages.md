@@ -1,11 +1,11 @@
 ---
 title: Thèmes et langues
-description: Clair ou sombre, la taille de l’interface, les thèmes de couleur, et les langues que φ parle et corrige.
+description: Clair ou sombre, la taille de l’interface, les thèmes de couleur, et les langues que φ Poiesis parle et corrige.
 ---
 
 # Thèmes et langues
 
-Vous pouvez changer l’aspect de φ et la langue qu’il utilise :
+Vous pouvez changer l’aspect de φ Poiesis et la langue qu’il utilise :
 
 - le mode clair ou sombre, la taille et les couleurs se règlent dans
   **Réglages → Apparence** ;
@@ -20,7 +20,7 @@ Pour ouvrir les Réglages, appuyez sur `⌘,` sur un Mac, ou cliquez sur le bout
 ## Choisir clair ou sombre {#choose-light-or-dark}
 
 Réglez **Apparence** sur **Système**, **Clair** ou **Sombre**. **Système** suit
-votre ordinateur : φ passe en sombre quand votre ordinateur le fait.
+votre ordinateur : Poiesis passe en sombre quand votre ordinateur le fait.
 
 Vous pouvez aussi changer de mode sans ouvrir les Réglages :
 
@@ -28,7 +28,7 @@ Vous pouvez aussi changer de mode sans ouvrir les Réglages :
 - appuyez sur `⌘P` et choisissez **Changer de thème (système / clair /
   sombre)**.
 
-À chaque fois, φ avance d’un cran dans cet ordre : système, clair, sombre.
+À chaque fois, Poiesis avance d’un cran dans cet ordre : système, clair, sombre.
 
 ## Tout agrandir {#make-everything-larger}
 
@@ -53,15 +53,15 @@ claires si elle est claire.
 
 ## Changer les couleurs {#change-the-colours}
 
-Un thème de couleur définit les couleurs de φ : fonds, texte, accents, liens et
+Un thème de couleur définit les couleurs de Poiesis : fonds, texte, accents, liens et
 code. Chaque thème a une version claire et une version sombre. C’est
 **Apparence** qui décide laquelle vous voyez.
 
 Pour utiliser un thème, cliquez dessus dans la liste **Thème de couleur**.
-Chaque thème y est accompagné d’un petit aperçu de la fenêtre de φ à ses
+Chaque thème y est accompagné d’un petit aperçu de la fenêtre de Poiesis à ses
 couleurs.
 
-φ est fourni avec un seul thème, **Phi**, marqué **Officiel**. Il associe des
+Poiesis est fourni avec un seul thème, **Phi**, marqué **Officiel**. Il associe des
 gris neutres à une page d’un blanc pur ou d’un noir pur. C’est le thème par
 défaut, et vous ne pouvez pas le supprimer.
 
@@ -80,7 +80,7 @@ Un thème que vous avez déjà porte la mention **Installé**. Son bouton devien
 
 Si la galerie ne se charge pas, vérifiez votre connexion à Internet et appuyez
 sur **Réessayer**. Une fois la galerie chargée une première fois, elle s’ouvre
-immédiatement et fonctionne sans connexion. φ l’actualise en arrière-plan :
+immédiatement et fonctionne sans connexion. Poiesis l’actualise en arrière-plan :
 
 - quelques secondes après son démarrage ;
 - toutes les six heures par la suite ;
@@ -98,26 +98,26 @@ qu’on vous a envoyé :
 1. Sous **Thème de couleur**, appuyez sur **Installer un thème…**.
 2. Choisissez le fichier `.json` du thème.
 
-φ range les thèmes que vous installez dans votre dossier de thèmes, et non
+Poiesis range les thèmes que vous installez dans votre dossier de thèmes, et non
 dans l’application. **Ouvrir le dossier des thèmes** affiche ce dossier.
 
-Pour supprimer un thème, appuyez sur le bouton corbeille à côté de lui. φ vous
+Pour supprimer un thème, appuyez sur le bouton corbeille à côté de lui. Poiesis vous
 demande confirmation, puis supprime le fichier du thème du dossier des thèmes.
 
-Un thème peut changer les couleurs, et rien d’autre. φ vérifie chaque couleur
-au moment de l’installation. Si un thème omet une couleur, φ prend celle de
+Un thème peut changer les couleurs, et rien d’autre. Poiesis vérifie chaque couleur
+au moment de l’installation. Si un thème omet une couleur, Poiesis prend celle de
 Phi.
 
-## Changer la langue de φ {#change-φs-language}
+## Changer la langue de Poiesis {#change-Poiesiss-language}
 
 Réglez **Langue de l’interface**. C’est la langue des menus et des libellés de
-φ.
+Poiesis.
 
 <img src="/img/app/settings-language-light.png" alt="Les réglages ouverts sur Langue : la langue de l’interface, l’orthographe et le dictionnaire personnel" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-language-dark.png" alt="Les réglages ouverts sur Langue : la langue de l’interface, l’orthographe et le dictionnaire personnel" width="1600" height="1000" loading="lazy" decoding="async" />
 
 - **Réglage du système** suit votre ordinateur.
-- Les langues fournies avec φ figurent sous **φ**. Chacune est affichée sous
+- Les langues fournies avec Poiesis figurent sous **φ**. Chacune est affichée sous
   son propre nom, suivi de son nom anglais.
 - Les langues que vous installez vous-même figurent sous **Communauté**.
 
@@ -135,12 +135,12 @@ Trois boutons se trouvent sous le réglage **Langue de l’interface** :
   sous **Communauté**. Elle apparaît aussi dans une liste, plus bas, avec un
   bouton corbeille pour la supprimer.
 - **Exporter le modèle anglais…** enregistre dans un fichier toutes les phrases
-  de φ, en anglais. Servez-vous-en pour faire votre propre traduction :
+  de Poiesis, en anglais. Servez-vous-en pour faire votre propre traduction :
   traduisez les phrases, puis installez le fichier. Si vous partagez votre
-  traduction, elle pourra être intégrée à φ pour tout le monde.
+  traduction, elle pourra être intégrée à Poiesis pour tout le monde.
 - **Ouvrir le dossier** montre où sont rangées les langues installées.
 
-Une traduction n’a pas besoin d’être complète. Quand une phrase manque, φ
+Une traduction n’a pas besoin d’être complète. Quand une phrase manque, Poiesis
 l’affiche en anglais.
 
 ## Vérifier l’orthographe dans vos langues {#check-spelling-in-your-languages}

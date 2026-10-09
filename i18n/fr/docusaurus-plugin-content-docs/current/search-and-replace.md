@@ -5,7 +5,7 @@ description: Retrouvez un mot dans la page ouverte ou dans tous vos documents, e
 
 # Rechercher et remplacer
 
-φ propose deux recherches. `⌘F` cherche dans le document ouvert. `⇧⌘F`
+φ Poiesis propose deux recherches. `⌘F` cherche dans le document ouvert. `⇧⌘F`
 cherche dans tous les documents du [coffre](./vaults), le dossier qui contient
 vos écrits. L’une comme l’autre peut remplacer ce qu’elle trouve : vous pouvez
 ainsi renommer un personnage ou corriger un mot partout à la fois.
@@ -19,13 +19,13 @@ ainsi renommer un personnage ou corriger un mot partout à la fois.
 2. Tapez l’ancien nom dans **Rechercher dans tous les documents…**.
 3. Vérifiez les résultats. Ils sont regroupés par document.
 4. Tapez le nouveau nom dans **Remplacer**.
-5. Appuyez sur **Remplacer dans tous les documents…**. φ vous indique combien
+5. Appuyez sur **Remplacer dans tous les documents…**. Poiesis vous indique combien
    d’occurrences il va modifier, et dans combien de documents.
 6. Appuyez sur **Tout remplacer** pour confirmer.
 
-Si le versionnage est activé, φ enregistre d’abord une version de tout le
+Si le versionnage est activé, Poiesis enregistre d’abord une version de tout le
 coffre, qui porte le nom de ce que vous avez remplacé. Vous pourrez y revenir
-plus tard. Si le versionnage est désactivé, le changement est définitif, et φ
+plus tard. Si le versionnage est désactivé, le changement est définitif, et Poiesis
 vous en avertit avant que vous ne confirmiez. Voir
 [Versions et sauvegarde](./versions-and-backup).
 
@@ -34,7 +34,7 @@ vous en avertit avant que vous ne confirmiez. Voir
 1. Appuyez sur `⌘F` (**Édition → Rechercher dans le document**). Une barre
    s’ouvre au-dessus de votre texte. Si des mots étaient sélectionnés, ils s’y
    trouvent déjà.
-2. Tapez ce que vous cherchez. φ surligne toutes les occurrences à mesure que
+2. Tapez ce que vous cherchez. Poiesis surligne toutes les occurrences à mesure que
    vous tapez.
 
 <img src="/img/app/find-bar-light.png" alt="La barre de recherche au-dessus d’un chapitre, avec les occurrences surlignées, le compteur et le champ de remplacement" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -76,7 +76,7 @@ Ici, `⌘Z` annule un remplacement, comme n’importe quelle autre modification.
 La recherche reste ouverte dans la liste : vous pouvez passer au résultat
 suivant.
 
-φ cherche dans tous les documents du coffre, pages du matin comprises. Il
+Poiesis cherche dans tous les documents du coffre, pages du matin comprises. Il
 dresse la liste des documents concernés, en commençant par celui qui compte le
 plus d’occurrences. Sous chaque document figurent ses occurrences, avec les
 mots qui les entourent. Si c’est le titre du document qui correspond, le

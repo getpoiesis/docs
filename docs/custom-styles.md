@@ -1,13 +1,13 @@
 ---
 title: Custom styles
-description: Make a style of your own from one of φ's, and use it for a project.
+description: Make a style of your own from one of φ Poiesis's, and use it for a project.
 ---
 
 # Custom styles
 
 A [design](./designs) and **Adjust the design** let you change a few things
 about how a book looks. If you need to change more, make your own style. You
-copy one of φ's designs or styles and change what you want. You can then use
+copy one of φ Poiesis's designs or styles and change what you want. You can then use
 your style for any project in the [vault](./vaults).
 
 ## Make a style
@@ -16,9 +16,9 @@ your style for any project in the [vault](./vaults).
 2. Open **Adjust the design**. On **Share a copy**, open **Options**.
 3. Choose **Edit styles…**. **Export styles** opens.
 4. Under **Built into φ**, pick the design or style closest to what you want.
-5. Choose **Duplicate**. You cannot change φ's own styles, but you can change
+5. Choose **Duplicate**. You cannot change Poiesis's own styles, but you can change
    the copy.
-6. Change what you want. φ saves each change at once. The preview beside the
+6. Change what you want. Poiesis saves each change at once. The preview beside the
    settings shows the first pages.
 7. Choose **Use for this project**.
 
@@ -36,8 +36,8 @@ your style for any project in the [vault](./vaults).
 | **The book's own pages** | The title, copyright, dedication and other pages. |
 | **Notes** | Footnotes at the foot of the page or at the end, and how they are numbered. |
 
-φ keeps every value within limits that print and read well. For example, a
-margin may be too small for the binding, or a colour too faint to read. φ
+Poiesis keeps every value within limits that print and read well. For example, a
+margin may be too small for the binding, or a colour too faint to read. Poiesis
 then corrects the value, and the check on the Export page tells you.
 
 ## Share, back up and remove styles
@@ -48,7 +48,7 @@ then corrects the value, and the check on the Export page tells you.
 - **Share.** **Export…** saves a style as a file that you can give to
   someone. **Import a style…** adds a style from a file.
 - **Remove.** When you delete a style, it moves to the vault's trash.
-  Projects that used it go back to φ's default style.
+  Projects that used it go back to Poiesis's default style.
 
 ## See also
 

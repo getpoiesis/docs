@@ -19,7 +19,7 @@ d’affilée où vous avez écrit.
 1. Choisissez **Journal** dans le sélecteur de mode, en haut de la barre
    latérale. Le raccourci est `⌘3` quand le [coffre](./vaults) a les trois
    modes.
-2. Cliquez sur **Aujourd’hui**. φ ouvre l’entrée du jour ; si elle n’existe
+2. Cliquez sur **Aujourd’hui**. φ Poiesis ouvre l’entrée du jour ; si elle n’existe
    pas encore, il la crée.
 3. Écrivez. L’entrée s’enregistre toute seule au fil de l’écriture.
 4. Pour commencer aussi les pages du matin du jour, cliquez sur **Commencer
@@ -71,13 +71,13 @@ Il y a trois façons de choisir le jour :
 - Dans le [calendrier](./calendar), sélectionnez un jour et appuyez sur
   **Écrire ce jour**.
 
-Si vous ouvrez un jour et le quittez sans rien écrire, φ met cette entrée vide
+Si vous ouvrez un jour et le quittez sans rien écrire, Poiesis met cette entrée vide
 à la corbeille.
 
 ## Tenir ses pages du matin {#keep-morning-pages}
 
 Les pages du matin sont une pratique quotidienne : trois pages écrites en
-début de journée, librement, et que l’on ne relit pas. φ laisse cette page nue,
+début de journée, librement, et que l’on ne relit pas. Poiesis laisse cette page nue,
 et c’est voulu. Pas de barre d’outils, pas de menu des blocs (`/`), pas de
 suggestions après `@` ou `[[`, pas d’étiquettes. Vous ne voyez que la date et
 la page.
@@ -91,7 +91,7 @@ Il y a quatre façons d’ouvrir les pages du matin du jour :
 
 ### Trois pages {#three-pages}
 
-L’objectif est de trois pages. Pour φ, trois pages font 750 mots.
+L’objectif est de trois pages. Pour Poiesis, trois pages font 750 mots.
 
 <img src="/img/app/morning-pages-light.png" alt="La page du matin du jour en cours d’écriture, avec la ligne de progression et le bouton pour la marquer comme terminée" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/morning-pages-dark.png" alt="La page du matin du jour en cours d’écriture, avec la ligne de progression et le bouton pour la marquer comme terminée" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -116,7 +116,7 @@ Quand vous ouvrez un jour scellé, vous voyez une petite carte à la place de
 votre texte. Elle porte deux boutons :
 
 - **Lire ces pages** affiche les pages, sans que vous puissiez les modifier.
-- **Desceller pour modifier** vous permet d’y écrire de nouveau. φ vous
+- **Desceller pour modifier** vous permet d’y écrire de nouveau. Poiesis vous
   demande d’abord de confirmer.
 
 Les pages du matin ouvertes depuis le calendrier sont toujours en lecture
@@ -183,7 +183,7 @@ Pour changer la façon dont la série s’affiche, allez dans **Réglages** →
 | **Désactivée** | Ni flammes, ni série sur l’Accueil d’Écrire. |
 
 Le **Rythme hebdomadaire** se règle au même endroit. C’est un objectif plus
-souple : un nombre de jours par semaine. φ le calcule sur les sept derniers
+souple : un nombre de jours par semaine. Poiesis le calcule sur les sept derniers
 jours ; un jour manqué ne le remet donc jamais à zéro.
 
 ## Voir aussi {#see-also}

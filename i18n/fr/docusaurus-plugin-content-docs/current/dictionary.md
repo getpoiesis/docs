@@ -5,7 +5,7 @@ description: Cherchez le sens d’un mot, ou un mot plus juste, sans quitter la 
 
 # Dictionnaire et thésaurus
 
-φ peut afficher, à côté de la page que vous écrivez, le sens d’un mot ou
+φ Poiesis peut afficher, à côté de la page que vous écrivez, le sens d’un mot ou
 d’autres mots de sens proche. Il faut d’abord installer un ou plusieurs packs
 de dictionnaire. Ensuite, toutes les recherches se font sur votre ordinateur.
 
@@ -45,8 +45,8 @@ vous vous en servez, et seulement si un document est ouvert.
 
 ## Installer un dictionnaire {#install-a-dictionary}
 
-φ est livré sans dictionnaire. La première fois que vous ouvrez l’onglet, il
-affiche **Aucun dictionnaire installé.** φ lit les packs de dictionnaire au
+Poiesis est livré sans dictionnaire. La première fois que vous ouvrez l’onglet, il
+affiche **Aucun dictionnaire installé.** Poiesis lit les packs de dictionnaire au
 format **StarDict**, très répandu. Pour en installer un :
 
 1. Téléchargez un pack. Vous en trouverez de bons, gratuits, sur
@@ -71,7 +71,7 @@ le nombre de mots de chacun. Pour retirer un pack, cliquez sur la corbeille à
 côté de lui et confirmez **Retirer le dictionnaire ?**
 
 :::note Rien ne quitte votre ordinateur
-φ conserve les packs installés dans son propre dossier d’application. Aucune
+Poiesis conserve les packs installés dans son propre dossier d’application. Aucune
 recherche ne passe par Internet.
 :::
 

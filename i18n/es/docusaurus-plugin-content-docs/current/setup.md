@@ -1,14 +1,14 @@
 ---
 title: Puesta a punto
-description: Elige qué te cuenta φ sobre tu escritura y qué lugares ofrece cada modo.
+description: Elige qué te cuenta φ Poiesis sobre tu escritura y qué lugares ofrece cada modo.
 ---
 
 # Puesta a punto
 
 En **Ajustes → Ajustes de escritura** decides dos cosas:
 
-- Qué te cuenta φ sobre tu escritura: tu racha, un ritmo semanal, la
-  legibilidad… φ las llama **señales**.
+- Qué te cuenta φ Poiesis sobre tu escritura: tu racha, un ritmo semanal, la
+  legibilidad… Poiesis las llama **señales**.
 - Qué lugares aparecen en la barra lateral de cada modo (**Escribir**,
   **Notas**, **Diario**).
 
@@ -21,7 +21,7 @@ una novela y otra para un diario pueden mostrar cada una solo lo que necesita.
 1. Abre los **Ajustes**: pulsa `⌘,` o haz clic en los controles deslizantes
    que hay junto al nombre de la bóveda.
 2. Elige **Ajustes de escritura**.
-3. En **Señales**, elige qué te cuenta φ sobre tu escritura.
+3. En **Señales**, elige qué te cuenta Poiesis sobre tu escritura.
 4. En **Modos**, haz clic en **Escribir**, **Notas** o **Diario** para elegir
    los lugares que ofrece ese modo.
 5. Para usar la misma configuración en otra bóveda, haz clic en **Guardar
@@ -33,7 +33,7 @@ una novela y otra para un diario pueden mostrar cada una solo lo que necesita.
 Los cambios se aplican a la bóveda en la que estás. Una bóveda nueva empieza
 con los valores predeterminados que se indican más abajo.
 
-## Elige qué te cuenta φ {#choose-what-φ-tells-you}
+## Elige qué te cuenta Poiesis {#choose-what-Poiesis-tells-you}
 
 | Señal | Qué hace | Valor inicial |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ con los valores predeterminados que se indican más abajo.
 | **Estadísticas de legibilidad** | Añade el nivel de lectura y la longitud de las frases a las **Estadísticas del documento**. Para abrirlas, haz clic en el recuento de palabras, en la esquina de la página, y luego haz clic otra vez. | Desactivada |
 | **Racha** | Cómo se muestra tu racha de escritura en el Inicio y en el calendario: **Llama y número**, **Días a secas** o **Apagada**. | **Llama y número** |
 | **La semana empieza en** | El primer día de la semana. Lo usan el calendario y tu ritmo semanal. Este ajuste vale para todas las bóvedas. | Lunes |
-| **Ritmo semanal** | Cuántos días te propones escribir a la semana: **Ninguno**, o de **1/semana** a **7/semana**. φ cuenta los últimos siete días, así que un día sin escribir no lo pone a cero. | **Ninguno** |
+| **Ritmo semanal** | Cuántos días te propones escribir a la semana: **Ninguno**, o de **1/semana** a **7/semana**. Poiesis cuenta los últimos siete días, así que un día sin escribir no lo pone a cero. | **Ninguno** |
 
 Un día cuenta para tu racha cuando escribes un mínimo de palabras. Ese número
 se fija en **Ajustes → Editor → Racha de escritura → Mínimo de palabras /

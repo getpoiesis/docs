@@ -1,14 +1,14 @@
 ---
 title: Versions & backup
-description: How φ saves as you write, keeps earlier versions you can compare and restore, and backs your history up to a place of your own.
+description: How φ Poiesis saves as you write, keeps earlier versions you can compare and restore, and backs your history up to a place of your own.
 ---
 
 # Versions & backup
 
-φ saves your work as you write. It also keeps a history of each document, so
+φ Poiesis saves your work as you write. It also keeps a history of each document, so
 you can go back to any earlier draft.
 
-If you want a copy away from your computer, φ can send that history to a
+If you want a copy away from your computer, Poiesis can send that history to a
 backup that you own. Nothing leaves your computer unless you set that up.
 
 <img src="/img/app/versions-light.png" alt="A chapter open with the History tab beside it: Auto-saved, Save version, and named snapshots and checkpoints grouped by day" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -25,20 +25,20 @@ end of a chapter, a finished draft, or the moment before a big cut.
 
 The snapshot appears in the document's **History** tab, marked **Snapshot**.
 
-## How φ keeps your work
+## How Poiesis keeps your work
 
-- **φ saves every edit.** It saves a moment after you stop typing. While it
+- **Poiesis saves every edit.** It saves a moment after you stop typing. While it
   saves, the bottom of the sidebar says **Saving…**. There is no Save button.
-- **φ makes checkpoints for you.** A checkpoint is a version that φ makes
+- **Poiesis makes checkpoints for you.** A checkpoint is a version that Poiesis makes
   without being asked. It makes one every five minutes while you work, when
   you close the window, and when it updates your documents to a new file
   format. To change how often, open **Settings** (`⌘,`) → **Versioning** →
   **Auto-checkpoint every**.
 - **`⌘S` saves at once and makes a checkpoint.** Use it when you want a
   version at a moment you choose.
-- **φ saves a version before a change to the whole vault.** A vault is the
+- **Poiesis saves a version before a change to the whole vault.** A vault is the
   folder that holds your work. When you replace a word in every document (see
-  [Search & replace](./search-and-replace)), φ first saves a version of the
+  [Search & replace](./search-and-replace)), Poiesis first saves a version of the
   whole vault. So you can undo the change.
 
 ## Find an old version
@@ -72,10 +72,10 @@ Click a version to open it. It takes the place of the document, under a
 | Button | What it does |
 | --- | --- |
 | **Show changes** | Marks what is different from the document as it is now. Switch between **Side by side** and **In content**. With **In content**, **Metadata changes** also lists changes to the title, tags, status and similar details. **Hide changes** removes the marks. |
-| **Restore** | Makes this version the document again. φ first saves the document as it is now as a new version, so nothing is lost. |
+| **Restore** | Makes this version the document again. Poiesis first saves the document as it is now as a new version, so nothing is lost. |
 | **Back to current** | Returns to the document as it is now. `Esc` does the same. |
 
-φ marks changes letter by letter. To mark whole words, choose **Word** under
+Poiesis marks changes letter by letter. To mark whole words, choose **Word** under
 **Settings** → **Editor** → **Version diff detail**.
 
 ## Choose where history is kept
@@ -88,40 +88,40 @@ Each vault keeps its history in one of two ways. Choose the way in
 | **Native** | The default. You don't need to install anything. It keeps up to 50 versions of each document and removes the oldest. Change the number in **Local history limit**. |
 | **Git** | History with no limit, and a backup to a place that you own. Git is a separate, free program for keeping history. You can choose this once git is installed on your computer; until then the choice reads **Git (needs git)**. |
 
-Think before you move a vault to git: φ can't move it back for you. φ explains
+Think before you move a vault to git: Poiesis can't move it back for you. Poiesis explains
 the change first, in **Convert this vault to git?**. Your existing history
 moves across. To go back to **Native** later, you must delete the vault's
 `.git` folder yourself.
 
 ### Vaults in a cloud folder
 
-If the vault is in a cloud folder, such as iCloud Drive or Dropbox, φ keeps
+If the vault is in a cloud folder, such as iCloud Drive or Dropbox, Poiesis keeps
 the git history on this computer, outside the vault. Sync services copy files
 one at a time, in any order, and this can break a git history. Your documents
 are safe: each document is one file.
 
 ### iPhone and iPad
 
-φ on iPhone and iPad (coming soon) uses the same vault but never runs git.
+Poiesis on iPhone and iPad (coming soon) uses the same vault but never runs git.
 Versions made there are kept in the vault's `.poiesis-history` folder. Both
 apps use that folder.
 
 ## Back up your history with git
 
-With git, φ can send your history to a private repository on a service such
+With git, Poiesis can send your history to a private repository on a service such
 as GitHub or GitLab. A repository is a storage place for a git history. Then
 a copy exists somewhere other than your computer.
 
 1. Make a private, empty repository on GitHub, GitLab or another git host.
 2. Copy its address. It looks like `git@github.com:you/novel.git`.
-3. In φ, open **Settings** → **Versioning** and switch the vault to **Git**.
+3. In Poiesis, open **Settings** → **Versioning** and switch the vault to **Git**.
 4. Under **Git backup**, paste the address into **Backup remote URL**.
 5. Turn on **Auto-push backups**.
 6. Choose **Push every**. It starts at 15 minutes.
 7. Press **Push now** to send the first copy.
 
-φ sends the history in the background. A slow service, or one that can't be
-reached, never stops your writing. If a send takes more than two minutes, φ
+Poiesis sends the history in the background. A slow service, or one that can't be
+reached, never stops your writing. If a send takes more than two minutes, Poiesis
 stops it and tries again next time.
 
 **Backup now** shows the state of the backup: **Up to date with the remote**,
@@ -134,9 +134,9 @@ work separate from their main git account:
 
 | Setting | What it's for |
 | --- | --- |
-| **Commit name** and **Commit email** | The name and email recorded in the history. If they are blank, φ uses your computer's git identity. |
-| **SSH key path** | The private key φ uses to send the history, such as `~/.ssh/id_ed25519`. With it, φ can send as a different account. Only you must be able to read the key file (`chmod 600`). |
-| **Backup remote URL** | If it is blank, φ uses the repository's existing `origin`. |
+| **Commit name** and **Commit email** | The name and email recorded in the history. If they are blank, Poiesis uses your computer's git identity. |
+| **SSH key path** | The private key Poiesis uses to send the history, such as `~/.ssh/id_ed25519`. With it, Poiesis can send as a different account. Only you must be able to read the key file (`chmod 600`). |
+| **Backup remote URL** | If it is blank, Poiesis uses the repository's existing `origin`. |
 | **Sign commits** | Signs each commit with an **SSH** or **GPG** key, so the host shows it as verified. |
 
 :::tip Use a private repository

@@ -2,14 +2,14 @@ import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 import type { PluginOptions as SearchOptions } from '@easyops-cn/docusaurus-search-local'
 
-// φ documentation site. Brand: PHI — neutral zinc greys + one restrained slate
+// φ Poiesis documentation site. Brand: PHI — neutral zinc greys + one restrained slate
 // accent, matching getpoiesis.com and the app. Theming lives in
 // src/css/custom.css; this file wires structure, navbar, footer and search.
 
 const RELEASES = 'https://github.com/getpoiesis/releases/releases'
 
 const config: Config = {
-  title: 'φ',
+  title: 'φ Poiesis',
   tagline: 'A calm, local-first writing app for manuscripts, poetry, and essays',
   favicon: 'img/favicon.svg',
 
@@ -91,7 +91,7 @@ const config: Config = {
     navbar: {
       title: 'Docs',
       logo: {
-        alt: 'φ',
+        alt: 'Poiesis',
         src: 'img/phi-dark.svg',
         srcDark: 'img/phi-light.svg',
         href: 'https://getpoiesis.com',
@@ -133,7 +133,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'φ',
+          title: 'Poiesis',
           items: [
             { label: 'Website', href: 'https://getpoiesis.com', target: '_self' },
             { label: 'Download', href: 'https://getpoiesis.com/download', target: '_self' },
@@ -141,7 +141,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<img class="footer__mark" src="/img/phi-dark.svg" alt="" aria-hidden="true" /><img class="footer__mark footer__mark--dark" src="/img/phi-light.svg" alt="" aria-hidden="true" /> © ${new Date().getFullYear()} φ. Written with care.`,
+      copyright: `<img class="footer__mark" src="/img/phi-dark.svg" alt="" aria-hidden="true" /><img class="footer__mark footer__mark--dark" src="/img/phi-light.svg" alt="" aria-hidden="true" /> © ${new Date().getFullYear()} φ Poiesis. Written with care.`,
     },
     prism: {
       // Token colours come from custom.css (keys in slate, literals in gold).

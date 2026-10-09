@@ -6,7 +6,7 @@ description: Enlaza un documento con otro mientras escribes, mira qué enlaza co
 # Enlaces y el grafo
 
 Un enlace conecta un documento con otro. Para crear uno, escribe `[[` y el
-nombre de un documento. φ registra cada enlace en los dos sentidos, de modo
+nombre de un documento. φ Poiesis registra cada enlace en los dos sentidos, de modo
 que cualquier documento puede mostrarte tanto los documentos a los que
 enlaza como los que enlazan con él. El **grafo** es un dibujo de todos los
 enlaces de tu [bóveda](./vaults), la carpeta que guarda lo que escribes.
@@ -41,12 +41,12 @@ que escribes entero o que pegas busca su documento por el título.
 2. Si ningún documento se llama así, la última opción del menú es
    **Crear «…»**. Elígela.
 
-φ escribe el enlace, pero el documento todavía no existe. Hasta que exista,
+Poiesis escribe el enlace, pero el documento todavía no existe. Hasta que exista,
 el enlace se muestra como enlace roto.
 
 El documento se crea cuando sigues el enlace: haz clic en él con `⌘`
 pulsada, o haz clic en él en **Enlaces salientes** (lo explicamos en la
-sección siguiente). φ crea un documento con ese título y lo abre.
+sección siguiente). Poiesis crea un documento con ese título y lo abre.
 
 ## Ver qué enlaza con qué {#see-what-links-where}
 

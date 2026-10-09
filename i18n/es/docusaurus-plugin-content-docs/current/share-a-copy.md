@@ -25,7 +25,7 @@ editarlo en otra aplicación o guardar una copia.
 | **Página web** | Un único archivo HTML con la obra completa, estilos e imágenes incluidos. Ábrelo en un navegador o súbelo a un sitio web. |
 | **Markdown** | Para cualquier aplicación que acepte texto sin formato. Se conservan los capítulos y la numeración. |
 | **Texto enriquecido** | TextEdit, Pages y todas las versiones de Word lo abren con su formato. Úsalo en los portales de envío que no aceptan `.docx`. |
-| **Copia del proyecto** | Todo, tal como lo guarda φ. Úsala para llevar el proyecto a otra [bóveda](./vaults) o para archivarlo. |
+| **Copia del proyecto** | Todo, tal como lo guarda φ Poiesis. Úsala para llevar el proyecto a otra [bóveda](./vaults) o para archivarlo. |
 
 ## Estilos y papel {#styles-and-paper}
 
@@ -51,7 +51,7 @@ documentos y sus imágenes.
 Para abrirla en otra bóveda:
 
 1. Abre la paleta de comandos (`⌘P`).
-2. Elige **Importar un documento φ (`.poiesis`)…**.
+2. Elige **Importar un documento Poiesis (`.poiesis`)…**.
 
 En [Importar](./importing) lo tienes con más detalle.
 

@@ -6,7 +6,7 @@ description: Link one document to another as you write, see what links where, an
 # Links & the graph
 
 A link connects one document to another. Type `[[` and the name of a
-document to make one. φ records each link in both directions, so every
+document to make one. φ Poiesis records each link in both directions, so every
 document can show the documents it links to and the documents that link to
 it. The **graph** is a picture of all the links in your
 [vault](./vaults), the folder that holds your writing.
@@ -39,11 +39,11 @@ paste finds its document by title instead.
 2. If no document has that title, the last entry in the menu is
    **Create "…"**. Choose it.
 
-φ writes the link, but the document does not exist yet. The link is shown as
+Poiesis writes the link, but the document does not exist yet. The link is shown as
 a broken link until it does.
 
 The document is made when you follow the link. `⌘`-click the link, or click
-it under **Outgoing links** (see the next section). φ creates a document with
+it under **Outgoing links** (see the next section). Poiesis creates a document with
 that title and opens it.
 
 ## See what links where

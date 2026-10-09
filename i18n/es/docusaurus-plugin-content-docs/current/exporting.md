@@ -1,19 +1,19 @@
 ---
 title: Cómo funciona la exportación
-description: Adónde puede ir tu obra desde φ y cómo llevarla hasta allí.
+description: Adónde puede ir tu obra desde φ Poiesis y cómo llevarla hasta allí.
 ---
 
 # Cómo funciona la exportación
 
 Exportar es crear, a partir de lo que has escrito, un archivo que puedes usar
-fuera de φ. A partir de un proyecto, por ejemplo un libro, φ puede crear:
+fuera de φ Poiesis. A partir de un proyecto, por ejemplo un libro, Poiesis puede crear:
 
 - un libro listo para imprenta, con su cubierta;
 - un libro electrónico;
 - un manuscrito para un agente o una editorial;
 - una copia para compartir.
 
-Primero dices adónde va el libro. Después, φ te muestra solo las opciones que
+Primero dices adónde va el libro. Después, Poiesis te muestra solo las opciones que
 ese destino necesita.
 
 <img src="/img/app/export-light.png" alt="La pestaña Exportar de un libro: los cuatro destinos, el diseño y el formato, la comprobación y los botones de exportación" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -25,12 +25,12 @@ ese destino necesita.
 2. Elige **Exportar**, debajo del proyecto, en la barra lateral.
 3. Elige el destino: **Libro impreso**, **Libro electrónico**, **Agente o
    editorial** o **Compartir una copia**.
-4. Elige las opciones que te pide la pestaña. Mientras tanto, φ revisa el
+4. Elige las opciones que te pide la pestaña. Mientras tanto, Poiesis revisa el
    libro y te indica lo que tengas que corregir.
 5. Si antes quieres ver todas las páginas, elige **Vista previa**.
 6. Pulsa el botón de exportar y elige dónde guardar el archivo.
 
-φ crea todos los archivos en tu ordenador. Exportar nunca modifica tus
+Poiesis crea todos los archivos en tu ordenador. Exportar nunca modifica tus
 documentos, así que puedes hacerlo tantas veces como quieras.
 
 ## Los cuatro destinos {#the-four-destinations}
@@ -42,11 +42,11 @@ documentos, así que puedes hacerlo tantas veces como quieras.
 | **Agente o editorial** | Tu manuscrito en el formato estándar de manuscrito, en Word o PDF. | [Enviar a un agente o editorial](./send-to-an-agent) |
 | **Compartir una copia** | Un PDF para leer, un Word para seguir editando, una página web, Markdown, texto enriquecido o una copia del proyecto entero. | [Compartir una copia](./share-a-copy) |
 
-φ recuerda el destino y las opciones de cada proyecto.
+Poiesis recuerda el destino y las opciones de cada proyecto.
 
 ## Comprueba antes de exportar {#check-before-you-export}
 
-Mientras eliges las opciones, φ va componiendo el libro en segundo plano, sin
+Mientras eliges las opciones, Poiesis va componiendo el libro en segundo plano, sin
 guardar nada. Después, la pestaña te muestra lo que ha encontrado:
 
 - el número de páginas y el ancho del lomo, si es un libro impreso;
@@ -65,7 +65,7 @@ Los avisos son de dos tipos:
 ## Las páginas propias del libro {#the-books-own-pages}
 
 Son la portada, la página de créditos, la dedicatoria, el epígrafe, la página
-«Otros títulos» y «Sobre el autor». No las escribes en un documento: φ las
+«Otros títulos» y «Sobre el autor». No las escribes en un documento: Poiesis las
 crea con los datos que introduces en el proyecto.
 
 - La cubierta y la descripción se ponen en lo alto de la página del proyecto.
@@ -109,4 +109,4 @@ podría seguirlos.
 - [Diseños y cómo ajustarlos](./designs): el aspecto del libro.
 - [Datos del libro](./book-details): lo que aparece en la portada y en la
   página de créditos.
-- [Importar](./importing): cómo traer tu obra a φ.
+- [Importar](./importing): cómo traer tu obra a Poiesis.

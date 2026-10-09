@@ -5,7 +5,7 @@ description: Lee en Mac, Windows o Linux las páginas que escribiste a mano en u
 
 # Páginas escritas a mano
 
-Con φ en el iPad o en una tableta Android (próximamente) puedes escribir un
+Con φ Poiesis en el iPad o en una tableta Android (próximamente) puedes escribir un
 documento a mano con un lápiz, en papel rayado, de puntos, cuadriculado o en
 blanco.
 
@@ -29,11 +29,11 @@ de la página:
 
 Un documento escrito a mano tiene un solo texto. Mientras no lo edites,
 sigue a tu letra: cuando una tableta lee palabras nuevas en las páginas, el
-texto se actualiza. Una vez que lo editas, φ no lo cambia por su cuenta. En
+texto se actualiza. Una vez que lo editas, Poiesis no lo cambia por su cuenta. En
 la tableta, **Actualizar desde la escritura a mano** lo vuelve a poner al
 día con las páginas.
 
-Mientras un documento está abierto, φ recuerda la vista que elegiste.
+Mientras un documento está abierto, Poiesis recuerda la vista que elegiste.
 
 ## Versiones anteriores {#earlier-versions}
 
@@ -46,16 +46,16 @@ su texto. Para ver una, abre el historial del documento y elige una versión:
   tenues.
 - **Restaurar** devuelve las páginas y el texto juntos.
 
-Las versiones guardadas antes de φ 0.19 solo guardaron el texto. Lo indican,
+Las versiones guardadas antes de Poiesis 0.19 solo guardaron el texto. Lo indican,
 y al restaurar una, las páginas quedan como están.
 
 ## Colores {#colours}
 
-La tinta negra y el color pizarra de φ cambian con tu
+La tinta negra y el color pizarra de Poiesis cambian con tu
 [tema de color](themes-and-languages). Por ejemplo, una página escrita en
 negro se ve en blanco con un tema oscuro.
 
-Los demás colores no cambian. En una página oscura, φ los aclara un poco
+Los demás colores no cambian. En una página oscura, Poiesis los aclara un poco
 para que se sigan leyendo.
 
 ## Una página que no se puede leer {#a-page-that-cant-be-read}
@@ -68,8 +68,8 @@ ordenador.
 
 ## Dónde se guardan las páginas {#where-the-pages-live}
 
-φ guarda las páginas escritas a mano en tu [bóveda](vaults), junto al
-documento. Una bóveda es la carpeta donde φ guarda tus documentos. Las
+Poiesis guarda las páginas escritas a mano en tu [bóveda](vaults), junto al
+documento. Una bóveda es la carpeta donde Poiesis guarda tus documentos. Las
 páginas se sincronizan junto con el documento.
 
 Las páginas también van con el documento cuando lo mueves a la papelera, lo

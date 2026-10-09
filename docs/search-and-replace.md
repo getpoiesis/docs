@@ -5,7 +5,7 @@ description: Find words in the page you're on or across every document, and chan
 
 # Search & replace
 
-φ has two searches. `⌘F` searches the document you have open. `⇧⌘F`
+φ Poiesis has two searches. `⌘F` searches the document you have open. `⇧⌘F`
 searches every document in the [vault](./vaults), the folder that holds
 your writing. Both can replace what they find, so you can rename a
 character or correct a word everywhere at once.
@@ -19,20 +19,20 @@ character or correct a word everywhere at once.
 2. Type the old name in **Find in every document…**.
 3. Check the matches. They are grouped by document.
 4. Type the new name in **Replace**.
-5. Press **Replace in all documents…**. φ tells you how many matches it
+5. Press **Replace in all documents…**. Poiesis tells you how many matches it
    will change, and in how many documents.
 6. Press **Replace everywhere** to confirm.
 
-If versioning is on, φ first saves a version of the whole vault, named
+If versioning is on, Poiesis first saves a version of the whole vault, named
 after what you replaced. You can go back to that version later. If
-versioning is off, the change can't be undone, and φ tells you so before
+versioning is off, the change can't be undone, and Poiesis tells you so before
 you confirm. See [Versions & backup](./versions-and-backup).
 
 ## Find in this document
 
 1. Press `⌘F` (**Edit → Find in Document**). A bar opens above your text.
    If you had words selected, they are already in the bar.
-2. Type what you want to find. φ highlights every match as you type.
+2. Type what you want to find. Poiesis highlights every match as you type.
 
 <img src="/img/app/find-bar-light.png" alt="The find bar above a chapter, with the matches highlighted, the match counter and the replace field" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/find-bar-dark.png" alt="The find bar above a chapter, with the matches highlighted, the match counter and the replace field" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -70,7 +70,7 @@ When no document is open, `⌘F` opens the Search page instead.
 
 The search stays open in the list, so you can open the next result.
 
-φ searches every document in the vault, including morning pages. It lists
+Poiesis searches every document in the vault, including morning pages. It lists
 the documents that match, starting with the one that has the most matches.
 Under each document you see its matches with the words around them. If the
 match is in a document's title, the document is marked **in the name**.

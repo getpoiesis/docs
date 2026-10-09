@@ -1,19 +1,19 @@
 ---
 title: Comment fonctionne l’export
-description: Où votre travail peut aller en sortant de φ, et comment l’y amener.
+description: Où votre travail peut aller en sortant de φ Poiesis, et comment l’y amener.
 ---
 
 # Comment fonctionne l’export
 
-Exporter, c’est tirer de votre texte un fichier utilisable en dehors de φ. À
-partir d’un projet, un livre par exemple, φ peut produire :
+Exporter, c’est tirer de votre texte un fichier utilisable en dehors de φ Poiesis. À
+partir d’un projet, un livre par exemple, Poiesis peut produire :
 
 - un livre prêt à imprimer et sa couverture ;
 - un livre numérique ;
 - un manuscrit pour un agent ou un éditeur ;
 - une copie à partager.
 
-Vous commencez par dire où va le livre. φ ne vous montre ensuite que les choix
+Vous commencez par dire où va le livre. Poiesis ne vous montre ensuite que les choix
 utiles pour cette destination.
 
 <img src="/img/app/export-light.png" alt="L’onglet Exporter d’un livre : les quatre destinations, la maquette et le format, la vérification et les boutons d’export" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -25,12 +25,12 @@ utiles pour cette destination.
 2. Choisissez **Exporter**, sous le projet, dans la barre latérale.
 3. Choisissez la destination : **Livre imprimé**, **Livre numérique**, **Agent
    ou éditeur** ou **Partager une copie**.
-4. Faites les choix que l’onglet vous propose. Pendant ce temps, φ vérifie le
+4. Faites les choix que l’onglet vous propose. Pendant ce temps, Poiesis vérifie le
    livre et vous signale tout ce qu’il faut corriger.
 5. Si vous voulez d’abord voir toutes les pages, choisissez **Aperçu**.
 6. Appuyez sur le bouton d’export et choisissez où enregistrer le fichier.
 
-φ fabrique tous les fichiers sur votre ordinateur. L’export ne modifie jamais
+Poiesis fabrique tous les fichiers sur votre ordinateur. L’export ne modifie jamais
 vos documents : vous pouvez donc exporter aussi souvent que vous le voulez.
 
 ## Les quatre destinations {#the-four-destinations}
@@ -42,11 +42,11 @@ vos documents : vous pouvez donc exporter aussi souvent que vous le voulez.
 | **Agent ou éditeur** | Votre manuscrit au format standard de manuscrit (Standard Manuscript Format), en Word ou en PDF. | [Envoyer à un agent ou un éditeur](./send-to-an-agent) |
 | **Partager une copie** | Un PDF à lire, un fichier Word pour continuer à modifier le texte, une page web, du Markdown, du texte enrichi, ou une copie du projet entier. | [Partager une copie](./share-a-copy) |
 
-φ retient la destination et vos choix pour chaque projet.
+Poiesis retient la destination et vos choix pour chaque projet.
 
 ## Vérifier avant d’exporter {#check-before-you-export}
 
-Pendant que vous faites vos choix, φ monte le livre en arrière-plan, sans rien
+Pendant que vous faites vos choix, Poiesis monte le livre en arrière-plan, sans rien
 enregistrer. L’onglet affiche ensuite ce qu’il a relevé :
 
 - le nombre de pages et la largeur du dos, pour un livre imprimé ;
@@ -67,7 +67,7 @@ Les remarques sont de deux sortes :
 
 Ce sont la page de titre, la page de copyright, la dédicace, l’épigraphe, la
 page « Du même auteur » et « À propos de l’auteur ». Vous ne les tapez pas dans
-un document : φ les compose à partir de ce que vous indiquez dans le projet.
+un document : Poiesis les compose à partir de ce que vous indiquez dans le projet.
 
 - La couverture et la description se règlent en haut de la page du projet.
 - Tout le reste se trouve dans [Détails du livre](./book-details), sur la même
@@ -110,4 +110,4 @@ pas les suivre.
 - [Maquettes et ajustements](./designs) : l’allure du livre.
 - [Détails du livre](./book-details) : ce qu’affichent la page de titre et la
   page de copyright.
-- [Importer](./importing) : faire entrer vos textes dans φ.
+- [Importer](./importing) : faire entrer vos textes dans Poiesis.

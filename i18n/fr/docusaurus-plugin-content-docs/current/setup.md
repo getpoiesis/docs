@@ -1,14 +1,14 @@
 ---
 title: Réglages d’écriture
-description: Choisissez ce que φ vous dit de votre écriture et les lieux que propose chaque mode.
+description: Choisissez ce que φ Poiesis vous dit de votre écriture et les lieux que propose chaque mode.
 ---
 
 # Réglages d’écriture
 
 Dans **Réglages → Réglages d’écriture**, vous choisissez deux choses :
 
-- Ce que φ vous dit de votre écriture : votre série, un rythme hebdomadaire,
-  la lisibilité, etc. φ appelle ces indications des **signaux**.
+- Ce que φ Poiesis vous dit de votre écriture : votre série, un rythme hebdomadaire,
+  la lisibilité, etc. Poiesis appelle ces indications des **signaux**.
 - Les lieux que chaque mode (**Écrire**, **Notes**, **Journal**) affiche dans
   sa barre latérale.
 
@@ -22,7 +22,7 @@ qui leur est utile.
 1. Ouvrez les **Réglages** : appuyez sur `⌘,`, ou cliquez sur les curseurs à
    côté du nom du coffre.
 2. Choisissez **Réglages d’écriture**.
-3. Sous **Signaux**, choisissez ce que φ vous dit de votre écriture.
+3. Sous **Signaux**, choisissez ce que Poiesis vous dit de votre écriture.
 4. Sous **Modes**, cliquez sur **Écrire**, **Notes** ou **Journal** pour
    choisir les lieux que ce mode propose.
 5. Pour reprendre les mêmes réglages dans un autre coffre, cliquez sur
@@ -34,7 +34,7 @@ qui leur est utile.
 Vos modifications s’appliquent au coffre où vous vous trouvez. Un nouveau
 coffre démarre avec les valeurs par défaut indiquées ci-dessous.
 
-## Choisir ce que φ vous dit {#choose-what-φ-tells-you}
+## Choisir ce que Poiesis vous dit {#choose-what-Poiesis-tells-you}
 
 | Signal | Ce qu’il fait | Au départ |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ coffre démarre avec les valeurs par défaut indiquées ci-dessous.
 | **Statistiques de lisibilité** | Ajoute le niveau de lecture et la longueur des phrases aux **Statistiques du document**. Pour les ouvrir, cliquez sur le nombre de mots dans le coin de la page, puis cliquez dessus une seconde fois. | Désactivé |
 | **Série** | La façon dont votre série d’écriture s’affiche sur l’Accueil et dans le calendrier : **Flamme et compte**, **Jours simples** ou **Désactivée**. | **Flamme et compte** |
 | **La semaine commence le** | Le premier jour de la semaine. Le calendrier et votre rythme hebdomadaire s’en servent. Ce réglage vaut pour tous les coffres. | Lundi |
-| **Rythme hebdomadaire** | Un nombre de jours d’écriture à atteindre par semaine : **Aucun**, ou de **1/semaine** à **7/semaine**. φ compte les sept derniers jours : un jour manqué ne remet donc pas le compteur à zéro. | **Aucun** |
+| **Rythme hebdomadaire** | Un nombre de jours d’écriture à atteindre par semaine : **Aucun**, ou de **1/semaine** à **7/semaine**. Poiesis compte les sept derniers jours : un jour manqué ne remet donc pas le compteur à zéro. | **Aucun** |
 
 Une journée compte dans votre série quand vous écrivez un nombre minimal de
 mots. Vous fixez ce nombre dans **Réglages → Éditeur → Série d’écriture →

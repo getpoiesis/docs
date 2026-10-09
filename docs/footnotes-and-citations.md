@@ -5,7 +5,7 @@ description: Notes at the foot of the page, sources credited in the text, and a 
 
 # Footnotes & citations
 
-φ can add three things a book may need: a footnote at the foot of the
+φ Poiesis can add three things a book may need: a footnote at the foot of the
 page, a citation that names a source in the text, and a bibliography that
 lists the sources you cited. They are part of the document, so every
 export includes them, in the place a reader expects.
@@ -23,8 +23,8 @@ notes, in pieces outside a project, or in the journal.
 2. Type `/footnote` and press `Enter`.
 3. Write the note in the **Footnote** box and confirm.
 
-A small number, the marker, appears in the text. φ numbers footnotes in
-order. If you add a footnote earlier in the document, φ renumbers the ones
+A small number, the marker, appears in the text. Poiesis numbers footnotes in
+order. If you add a footnote earlier in the document, Poiesis renumbers the ones
 after it.
 
 ## Read and edit your footnotes
@@ -39,7 +39,7 @@ footnote. Look on **Outline**, under **Footnotes**:
 
 - Type in a note's box (**Footnote text…**) to edit it.
 - Click its number (**Jump to marker**) to go to the marker in the text.
-- Click the bin (**Delete footnote**) to remove the footnote. φ renumbers
+- Click the bin (**Delete footnote**) to remove the footnote. Poiesis renumbers
   the others.
 
 ## Cite a source
@@ -69,7 +69,7 @@ If a citation's source has been removed, the citation shows as *(?)*, so
 you can find it easily.
 
 Each document keeps its own list of sources. When you export the project,
-φ combines the lists from all its documents. So a citation finds its
+Poiesis combines the lists from all its documents. So a citation finds its
 source, even if you added the source in another document of the book.
 
 ## Add a bibliography

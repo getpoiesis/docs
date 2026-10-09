@@ -13,29 +13,29 @@ données ni compte.
 Comme un coffre est un dossier ordinaire, vous pouvez le sauvegarder, le
 déplacer et le synchroniser avec vos autres appareils.
 
-Vos documents sont des fichiers `.poiesis`. C’est le format propre à φ : les
+Vos documents sont des fichiers `.poiesis`. C’est le format propre à φ Poiesis : les
 autres applications ne peuvent donc pas les ouvrir directement. Pour utiliser
 vos textes dans une autre application, exportez-les en Markdown, Word, PDF ou
 EPUB. Voir [Comment fonctionne l’export](./exporting).
 
 ## Créer un coffre {#make-a-vault}
 
-1. La première fois que vous ouvrez φ, choisissez **Créer un coffre** ou
+1. La première fois que vous ouvrez Poiesis, choisissez **Créer un coffre** ou
    **Ouvrir un dossier**. Par la suite, cliquez sur le nom du coffre, en haut
    de la barre latérale, et choisissez **Nouveau coffre…** ou **Ouvrir un
    autre coffre…**.
 2. Dans la fenêtre qui s’ouvre, choisissez un dossier ou créez-en un. Il peut
    se trouver n’importe où : dans Documents, dans un dossier synchronisé, sur
    un disque externe.
-3. φ ouvre le dossier.
+3. Poiesis ouvre le dossier.
 
 La suite dépend du dossier :
 
-- Si le dossier est déjà un coffre, φ l’ouvre tel quel.
-- S’il s’agit de n’importe quel autre dossier, φ en fait un coffre. Il y
+- Si le dossier est déjà un coffre, Poiesis l’ouvre tel quel.
+- S’il s’agit de n’importe quel autre dossier, Poiesis en fait un coffre. Il y
   ajoute une note **Welcome to φ** et un petit projet d’exemple, **The Grey
   Morning**. Il ne modifie rien de ce qui se trouve déjà dans le dossier. Si
-  le dossier contient des fichiers `.poiesis`, ils apparaissent dans φ.
+  le dossier contient des fichiers `.poiesis`, ils apparaissent dans Poiesis.
 
 ## Ce que contient le dossier d’un coffre {#whats-in-a-vault-folder}
 
@@ -48,7 +48,7 @@ La suite dépend du dossier :
 | `.poiesis-vault.json` | Un petit fichier qui donne son nom au coffre et retient ses réglages. |
 
 La plupart des gestionnaires de fichiers masquent les noms qui commencent par
-un point. Vous n’avez jamais besoin de modifier ces fichiers vous-même : φ
+un point. Vous n’avez jamais besoin de modifier ces fichiers vous-même : Poiesis
 s’en occupe.
 
 ## Passer d’un coffre à l’autre {#switch-between-vaults}
@@ -78,7 +78,7 @@ Il existe trois façons de changer de coffre :
 
 ### Choisir les modes d’un coffre {#choose-a-vaults-modes}
 
-φ compte trois modes : **Écrire**, **Notes** et **Journal**. Pour choisir
+Poiesis compte trois modes : **Écrire**, **Notes** et **Journal**. Pour choisir
 ceux dont dispose un coffre :
 
 1. Ouvrez les **Réglages** (`⌘,`).
@@ -100,7 +100,7 @@ Vous pouvez déplacer un seul document, un projet entier ou un coffre entier.
    Vous pouvez aussi faire un clic droit sur le document dans une liste.
 2. Choisissez le coffre. Un coffre qui n’a pas le mode du document apparaît,
    mais vous ne pouvez pas le choisir.
-3. φ affiche la liste des documents liés à celui-ci : ses recherches, les
+3. Poiesis affiche la liste des documents liés à celui-ci : ses recherches, les
    documents vers lesquels il renvoie et ceux qui renvoient vers lui. Ils
    sont cochés, ce qui signifie qu’ils partent avec lui. Décochez ceux qui
    doivent rester.
@@ -125,7 +125,7 @@ n’appartiennent qu’à lui.
 
 - Un récapitulatif indique ce qui a été déplacé.
 - Rien n’est écrasé dans l’autre coffre. Si un nom de fichier y est déjà
-  pris, φ renomme le fichier qui arrive.
+  pris, Poiesis renomme le fichier qui arrive.
 - Les originaux vont dans la **Corbeille** de ce coffre : vous pouvez donc
   encore les récupérer.
 
@@ -137,7 +137,7 @@ Pour verser tout le contenu de ce coffre dans un autre, choisissez
 - Tous les documents, projets, tableaux, personnages, auteurs et modèles
   partent, avec leurs images.
 - Les dossiers gardent leur place. Si un nom de dossier est déjà pris dans
-  l’autre coffre, φ y ajoute le nom de ce coffre-ci.
+  l’autre coffre, Poiesis y ajoute le nom de ce coffre-ci.
 - Rien n’est retiré de ce coffre.
 - L’historique des versions ne part pas. Il reste avec le dossier de ce
   coffre.
@@ -149,29 +149,29 @@ Une fois la fusion terminée, vous pouvez garder l’ancien coffre ou choisir
 
 1. Placez le coffre dans un dossier que vos appareils partagent : iCloud
    Drive, Dropbox, Google Drive, Mega, OneDrive ou un lecteur réseau. Pour
-   déplacer un coffre que vous avez déjà, quittez φ, déplacez son dossier à
+   déplacer un coffre que vous avez déjà, quittez Poiesis, déplacez son dossier à
    cet endroit, puis rouvrez-le avec **Ouvrir un autre coffre…**.
 2. Sur chaque ordinateur, ouvrez ce dossier avec **Ouvrir un autre
-   coffre…**. φ pour iPhone et iPad n’est pas encore sorti. Quand il le sera,
+   coffre…**. Poiesis pour iPhone et iPad n’est pas encore sorti. Quand il le sera,
    il ouvrira le même dossier.
-3. Écrivez sur l’appareil de votre choix. Au bout d’un court instant, φ
+3. Écrivez sur l’appareil de votre choix. Au bout d’un court instant, Poiesis
    détecte les modifications faites sur vos autres appareils. Il met à jour
    de lui-même la liste et le document ouvert.
 
-**Si φ ne trouve pas le dossier.** Cela arrive quand un disque est débranché
-ou qu’un dossier cloud est hors ligne. φ indique **Impossible d’accéder à**
+**Si Poiesis ne trouve pas le dossier.** Cela arrive quand un disque est débranché
+ou qu’un dossier cloud est hors ligne. Poiesis indique **Impossible d’accéder à**
 ce coffre. Il conserve ce que vous tapez et l’enregistre dès que le dossier
 est de nouveau accessible.
 
 **Si les documents tardent à apparaître sur un Mac.** iCloud ne garde
-certains documents que dans le cloud. φ les télécharge quand il les voit :
+certains documents que dans le cloud. Poiesis les télécharge quand il les voit :
 ils peuvent donc mettre un petit moment à apparaître.
 
 ### Quand deux appareils modifient le même document {#when-two-devices-change-the-same-document}
 
-φ ne remplace jamais les modifications d’un appareil par celles d’un autre.
+Poiesis ne remplace jamais les modifications d’un appareil par celles d’un autre.
 Il arrive qu’un document soit modifié sur deux appareils avant qu’ils ne se
-synchronisent. Dans ce cas, le document garde l’une des versions, et φ
+synchronisent. Dans ce cas, le document garde l’une des versions, et Poiesis
 conserve l’autre pour que vous puissiez l’examiner. Une ligne au-dessus de la
 page indique **Une version de** cet appareil **attend**. Dans la liste, la
 ligne du document porte une petite marque.
@@ -186,13 +186,13 @@ ligne du document porte une petite marque.
    - **Garder les deux** : la version en attente est conservée comme un
      document distinct, nommé « *titre* (conflicted copy) ».
 
-Si plusieurs versions sont en attente, φ vous les présente une par une, de
+Si plusieurs versions sont en attente, Poiesis vous les présente une par une, de
 la plus ancienne à la plus récente. Vous pouvez le faire sur n’importe lequel
 de vos appareils.
 
 :::note L’historique git reste sur chaque ordinateur
 
-Si le coffre utilise git pour son historique, φ conserve l’historique git
+Si le coffre utilise git pour son historique, Poiesis conserve l’historique git
 sur chaque ordinateur, en dehors du dossier synchronisé. Un service de
 synchronisation copie l’historique fichier par fichier, ce qui peut
 l’endommager. Voir [Versions et sauvegarde](./versions-and-backup).
@@ -205,13 +205,13 @@ l’endommager. Voir [Versions et sauvegarde](./versions-and-backup).
 2. Allez dans **Réglages** → **Coffre** → **Gérer** → **Retirer le
    coffre…**.
 3. Choisissez une option :
-   - **Dissocier (conserver le dossier)** : φ retire le coffre de sa liste
+   - **Dissocier (conserver le dossier)** : Poiesis retire le coffre de sa liste
      et laisse le dossier là où il est. Vous pouvez le rouvrir à tout moment.
-   - **Déplacer vers la corbeille** : φ retire le coffre de sa liste et
+   - **Déplacer vers la corbeille** : Poiesis retire le coffre de sa liste et
      déplace tout le dossier dans la corbeille de votre ordinateur. Vous
      pouvez le récupérer tant que vous n’avez pas vidé la corbeille.
 
-Si c’était votre dernier coffre, φ revient à l’écran de bienvenue.
+Si c’était votre dernier coffre, Poiesis revient à l’écran de bienvenue.
 
 ## Voir aussi {#see-also}
 

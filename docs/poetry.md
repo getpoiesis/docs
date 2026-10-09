@@ -5,7 +5,7 @@ description: Verse that keeps its lines, stanzas, epigraphs and pull quotes, a c
 
 # Poetry & verse
 
-Use a **Verse** block to write a poem. φ keeps your line breaks, your
+Use a **Verse** block to write a poem. φ Poiesis keeps your line breaks, your
 stanzas and your indents exactly as you write them. Every export prints
 them the same way.
 
@@ -34,7 +34,7 @@ rest of the text, with no indent. Each line ends where you ended it.
 
 - **Indents are kept.** If you start a line with spaces or `Tab`, the line
   keeps that indent on the page and in every export.
-- **Lines are not justified or hyphenated.** φ does not stretch a line or
+- **Lines are not justified or hyphenated.** Poiesis does not stretch a line or
   split a word.
 - **A line that is too long for the printed page** continues on the next
   line, indented. This is how publishers print verse.
@@ -65,7 +65,7 @@ An epigraph is a quotation at the start of a piece.
 4. Write the source there.
 
 To put an epigraph at the start of the whole book, add it in the project's
-[Book details](./book-details). φ then prints it on its own page.
+[Book details](./book-details). Poiesis then prints it on its own page.
 
 ## Set a line apart
 

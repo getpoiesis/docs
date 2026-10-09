@@ -1,13 +1,13 @@
 ---
 title: Estilos propios
-description: Crea un estilo tuyo a partir de uno de los de φ y úsalo en un proyecto.
+description: Crea un estilo tuyo a partir de uno de los de φ Poiesis y úsalo en un proyecto.
 ---
 
 # Estilos propios
 
 Con un [diseño](./designs) y **Ajustar el diseño** puedes cambiar algunos
 detalles del aspecto de un libro. Si necesitas cambiar más cosas, crea tu
-propio estilo: copias uno de los diseños o estilos de φ y cambias lo que
+propio estilo: copias uno de los diseños o estilos de φ Poiesis y cambias lo que
 quieras. Después puedes usar tu estilo en cualquier proyecto de la
 [bóveda](./vaults).
 
@@ -18,9 +18,9 @@ quieras. Después puedes usar tu estilo en cualquier proyecto de la
 3. Elige **Editar estilos…**. Se abre **Estilos de exportación**.
 4. En **Incluidos en φ**, elige el diseño o el estilo que más se parezca a lo
    que buscas.
-5. Elige **Duplicar**. Los estilos de φ no se pueden modificar, pero la copia
+5. Elige **Duplicar**. Los estilos de Poiesis no se pueden modificar, pero la copia
    sí.
-6. Cambia lo que quieras. φ guarda cada cambio al momento. La vista previa
+6. Cambia lo que quieras. Poiesis guarda cada cambio al momento. La vista previa
    que hay junto a los ajustes muestra las primeras páginas.
 7. Elige **Usar en este proyecto**.
 
@@ -38,10 +38,10 @@ quieras. Después puedes usar tu estilo en cualquier proyecto de la
 | **Páginas propias del libro** | La portada, la página de créditos, la dedicatoria y las demás. |
 | **Notas** | Las notas al pie de página o al final, y cómo se numeran. |
 
-φ mantiene todos los valores dentro de unos límites con los que el libro se
+Poiesis mantiene todos los valores dentro de unos límites con los que el libro se
 imprime y se lee bien. Por ejemplo, un margen puede ser demasiado pequeño
 para la encuadernación, o un color demasiado tenue para leerse. En ese caso,
-φ corrige el valor y la comprobación de la página Exportar te avisa.
+Poiesis corrige el valor y la comprobación de la página Exportar te avisa.
 
 ## Comparte, guarda y elimina estilos {#share-back-up-and-remove-styles}
 
@@ -52,7 +52,7 @@ para la encuadernación, o un color demasiado tenue para leerse. En ese caso,
   pasarle a otra persona. **Importar un estilo…** añade un estilo desde un
   archivo.
 - **Eliminar.** Cuando eliminas un estilo, va a la papelera de la bóveda. Los
-  proyectos que lo usaban vuelven al estilo predeterminado de φ.
+  proyectos que lo usaban vuelven al estilo predeterminado de Poiesis.
 
 ## Ver también {#see-also}
 

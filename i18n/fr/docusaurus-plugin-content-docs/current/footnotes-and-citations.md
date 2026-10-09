@@ -5,7 +5,7 @@ description: Des notes en bas de page, des sources citées dans le texte, et une
 
 # Notes de bas de page et citations
 
-φ sait ajouter trois choses dont un livre peut avoir besoin : une note en bas
+φ Poiesis sait ajouter trois choses dont un livre peut avoir besoin : une note en bas
 de page, une citation qui nomme une source dans le texte, et une bibliographie
 qui dresse la liste des sources citées. Elles font partie du document : chaque
 export les contient donc, à l’endroit où le lecteur les attend.
@@ -24,8 +24,8 @@ journal.
 2. Tapez `/footnote` et appuyez sur `Enter`.
 3. Écrivez la note dans la zone **Note de bas de page** et validez.
 
-Un petit numéro, l’appel de note, apparaît dans le texte. φ numérote les notes
-dans l’ordre. Si vous ajoutez une note plus haut dans le document, φ
+Un petit numéro, l’appel de note, apparaît dans le texte. Poiesis numérote les notes
+dans l’ordre. Si vous ajoutez une note plus haut dans le document, Poiesis
 renumérote celles qui suivent.
 
 ## Lire et modifier vos notes {#read-and-edit-your-footnotes}
@@ -42,7 +42,7 @@ bas de page** :
 - Tapez dans la zone d’une note (**Texte de la note…**) pour la modifier.
 - Cliquez sur son numéro (**Aller au repère**) pour aller à l’appel de note
   dans le texte.
-- Cliquez sur la corbeille (**Supprimer la note**) pour supprimer la note. φ
+- Cliquez sur la corbeille (**Supprimer la note**) pour supprimer la note. Poiesis
   renumérote les autres.
 
 ## Citer une source {#cite-a-source}
@@ -72,7 +72,7 @@ le nom **Modifier la source**. Vous pouvez alors :
 Quand la source d’une citation a été supprimée, la citation s’affiche sous la
 forme *(?)* : vous la repérez ainsi facilement.
 
-Chaque document a sa propre liste de sources. Quand vous exportez le projet, φ
+Chaque document a sa propre liste de sources. Quand vous exportez le projet, Poiesis
 réunit les listes de tous ses documents. Une citation retrouve donc sa source,
 même si vous avez ajouté celle-ci dans un autre document du livre.
 

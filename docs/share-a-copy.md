@@ -25,7 +25,7 @@ another app, or to keep a copy.
 | **Web page** | One HTML file with the whole work in it, styles and pictures included. Open it in a browser or put it on a site. |
 | **Markdown** | Any app that takes plain text. Chapters and numbering are kept. |
 | **Rich Text** | TextEdit, Pages and every version of Word open it with its formatting. Use it for submission websites that refuse `.docx`. |
-| **Project copy** | Everything as φ keeps it. Use it to move the project to another [vault](./vaults) or to store it. |
+| **Project copy** | Everything as φ Poiesis keeps it. Use it to move the project to another [vault](./vaults) or to store it. |
 
 ## Styles and paper
 
@@ -49,7 +49,7 @@ and its pictures.
 To open it in another vault:
 
 1. Open the command palette (`⌘P`).
-2. Choose **Import a φ document (`.poiesis`)…**.
+2. Choose **Import a Poiesis document (`.poiesis`)…**.
 
 [Importing](./importing) has more.
 

@@ -1,21 +1,21 @@
 ---
-title: Installer φ
-description: Téléchargez φ pour macOS, Windows ou Linux, et gardez-le à jour.
+title: Installer Poiesis
+description: Téléchargez φ Poiesis pour macOS, Windows ou Linux, et gardez-le à jour.
 ---
 
-# Installer φ
+# Installer φ Poiesis
 
-φ fonctionne sur macOS, Windows et Linux. Une fois installé, il vous prévient
+Poiesis fonctionne sur macOS, Windows et Linux. Une fois installé, il vous prévient
 dès qu’une nouvelle version est disponible.
 
-## Installer φ {#install-φ}
+## Installer Poiesis {#install-Poiesis}
 
 1. Ouvrez la [page de téléchargement](https://getpoiesis.com/download). Elle
    vous propose le fichier qui convient à l’ordinateur que vous utilisez. Les
    fichiers destinés aux autres systèmes se trouvent sur la même page.
 2. Téléchargez le fichier.
 3. Installez-le. Les étapes propres à votre système sont décrites plus bas.
-4. Ouvrez φ. Votre système l’affiche sous le nom **φ Poiesis**. Pour le
+4. Ouvrez Poiesis. Votre système l’affiche sous le nom **φ Poiesis**. Pour le
    trouver, tapez « poiesis » dans Spotlight ou dans le menu Démarrer.
 5. [Créez votre premier coffre](./getting-started).
 
@@ -34,8 +34,8 @@ dès qu’une nouvelle version est disponible.
    **À propos de ce Mac**. Une puce dont le nom commence par « Apple M… » est
    une puce Apple Silicon.
 2. Ouvrez le `.dmg`.
-3. Faites glisser φ dans **Applications**.
-4. Ouvrez φ depuis Applications ou Spotlight.
+3. Faites glisser Poiesis dans **Applications**.
+4. Ouvrez Poiesis depuis Applications ou Spotlight.
 
 Les versions pour Mac sont signées et notarisées par Apple. Elles s’ouvrent
 sans l’avertissement « développeur non identifié ».
@@ -43,13 +43,13 @@ sans l’avertissement « développeur non identifié ».
 ## Sur Windows {#on-windows}
 
 1. Téléchargez le programme d’installation (`.exe`).
-2. Lancez-le. Vous pouvez choisir l’emplacement où φ sera installé.
-3. Windows SmartScreen peut vous signaler que φ provient d’un éditeur inconnu.
-   C’est parce que le code de φ n’est pas encore signé. Cliquez sur
+2. Lancez-le. Vous pouvez choisir l’emplacement où Poiesis sera installé.
+3. Windows SmartScreen peut vous signaler que Poiesis provient d’un éditeur inconnu.
+   C’est parce que le code de Poiesis n’est pas encore signé. Cliquez sur
    **Informations complémentaires**, puis sur **Exécuter quand même**. Vous
    n’aurez à le faire qu’une seule fois. Le fichier téléchargé provient
-   directement des versions publiées par φ.
-4. Ouvrez φ depuis le menu Démarrer.
+   directement des versions publiées par Poiesis.
+4. Ouvrez Poiesis depuis le menu Démarrer.
 
 ## Sur Linux {#on-linux}
 
@@ -79,9 +79,9 @@ sudo dpkg -i poiesis-*.deb
 
 Ouvrez ensuite **φ Poiesis** depuis le menu de vos applications.
 
-## Garder φ à jour {#keep-φ-up-to-date}
+## Garder Poiesis à jour {#keep-Poiesis-up-to-date}
 
-φ vérifie s’il existe une nouvelle version quelques secondes après son
+Poiesis vérifie s’il existe une nouvelle version quelques secondes après son
 ouverture, puis toutes les six heures. Il ne télécharge jamais de mise à jour
 sans vous demander votre accord. Quand une mise à jour existe, un petit
 bandeau apparaît :
@@ -92,7 +92,7 @@ bandeau apparaît :
    à jour… %**.
 3. Le bandeau indique **La mise à jour … est prête à être installée.**
    Cliquez sur **Redémarrer et installer**. Vous pouvez aussi fermer le
-   bandeau et continuer à écrire : φ installera la mise à jour la prochaine
+   bandeau et continuer à écrire : Poiesis installera la mise à jour la prochaine
    fois que vous le quitterez.
 
 Cela fonctionne sur macOS, sur Windows et avec l’AppImage sur Linux. Si vous
@@ -105,26 +105,26 @@ Pour vérifier tout de suite si une mise à jour existe :
 - **Sur Windows et Linux :** appuyez sur `Ctrl+P` et lancez **Rechercher des
   mises à jour…**.
 
-φ affiche **Recherche de mises à jour…**. Trois cas sont ensuite possibles :
+Poiesis affiche **Recherche de mises à jour…**. Trois cas sont ensuite possibles :
 
-- φ vous propose la mise à jour.
-- φ indique **φ est à jour.**
-- φ indique **Impossible de rechercher des mises à jour.** Cela signifie
+- Poiesis vous propose la mise à jour.
+- Poiesis indique **φ est à jour.**
+- Poiesis indique **Impossible de rechercher des mises à jour.** Cela signifie
   qu’il n’arrive pas à joindre le serveur de téléchargement, par exemple
   parce que vous êtes hors ligne.
 
-:::note Encore en version 0.8.2 ou antérieure ? Téléchargez φ à nouveau
+:::note Encore en version 0.8.2 ou antérieure ? Téléchargez Poiesis à nouveau
 
-La version 0.9.0 a modifié la façon dont votre système identifie φ. De ce
+La version 0.9.0 a modifié la façon dont votre système identifie Poiesis. De ce
 fait, les versions 0.8.2 et antérieures ne peuvent plus se mettre à jour
-toutes seules : elles continuent d’indiquer que φ est à jour. Téléchargez la
+toutes seules : elles continuent d’indiquer que Poiesis est à jour. Téléchargez la
 version actuelle depuis la [page de téléchargement](https://getpoiesis.com/download)
 et installez-la par-dessus celle que vous avez. Vous n’aurez à le faire
 qu’une seule fois.
 
 Vos coffres, vos réglages, vos dictionnaires et votre historique ne sont pas
 modifiés. Sur un Mac, macOS vous redemande une fois l’accès au dossier où se
-trouve votre coffre. Sur Windows, le nouveau φ apparaît comme un programme
+trouve votre coffre. Sur Windows, le nouveau Poiesis apparaît comme un programme
 distinct : désinstallez donc l’ancien depuis **Ajouter ou supprimer des
 programmes**.
 

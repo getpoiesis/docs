@@ -7,7 +7,7 @@ description: Ce qui figure sur la page de titre, la page de copyright et les pag
 
 Certaines pages d’un livre terminé ne sont pas des chapitres : la page de
 titre, la page de copyright, une dédicace, une page « Du même auteur ». Ces
-pages, vous ne les écrivez pas. φ les compose à partir des **Détails du
+pages, vous ne les écrivez pas. φ Poiesis les compose à partir des **Détails du
 livre** du projet : elles disent ainsi la même chose dans tous les formats
 d’export.
 
@@ -22,7 +22,7 @@ d’export.
 3. Écrivez la description à côté de la couverture. Sur un livre imprimé, elle
    figure en quatrième de couverture.
 4. Ouvrez **Détails du livre**, plus bas sur la page.
-5. Remplissez les champs dont vous avez besoin. Aucun n’est obligatoire. φ
+5. Remplissez les champs dont vous avez besoin. Aucun n’est obligatoire. Poiesis
    laisse de côté toute page qui resterait vide.
 
 ## Ce qui va où {#what-goes-where}
@@ -42,10 +42,10 @@ d’export.
 sa photo.
 
 Si vous préférez, écrivez la dédicace ou l’épigraphe comme un document, dans
-les pages liminaires du projet. Dans un cas comme dans l’autre, φ lui réserve
+les pages liminaires du projet. Dans un cas comme dans l’autre, Poiesis lui réserve
 une page à part.
 
-φ vérifie l’ISBN à mesure que vous le tapez et vous prévient quand un chiffre
+Poiesis vérifie l’ISBN à mesure que vous le tapez et vous prévient quand un chiffre
 semble erroné.
 
 ## Voir aussi {#see-also}

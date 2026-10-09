@@ -87,7 +87,7 @@ A day with nothing in it says *Nothing yet — start your pages for this day.*
 1. Click today or any earlier day.
 2. Press **Write this day**.
 
-φ opens that day's journal entry. If there is no entry yet, φ makes one.
+φ Poiesis opens that day's journal entry. If there is no entry yet, Poiesis makes one.
 
 A future day cannot have a journal entry yet. You can still mention a future
 date in your writing.

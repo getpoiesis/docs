@@ -5,7 +5,7 @@ description: Versos que conservan sus líneas, estrofas, epígrafes y citas dest
 
 # Poesía y verso
 
-Para escribir un poema, usa un bloque **Verso**. φ respeta tus saltos de
+Para escribir un poema, usa un bloque **Verso**. φ Poiesis respeta tus saltos de
 línea, tus estrofas y tus sangrías exactamente como los escribes, y todas
 las exportaciones los imprimen igual.
 
@@ -35,7 +35,7 @@ el resto del texto, sin sangría, y cada verso termina donde tú lo terminaste.
 
 - **Las sangrías se conservan.** Si empiezas un verso con espacios o con
   `Tab`, esa sangría se mantiene en la página y en todas las exportaciones.
-- **Los versos no se justifican ni se parten con guiones.** φ no estira
+- **Los versos no se justifican ni se parten con guiones.** Poiesis no estira
   ningún verso ni divide ninguna palabra.
 - **Un verso que no cabe en la página impresa** continúa en la línea
   siguiente, con sangría. Así imprimen el verso las editoriales.
@@ -68,7 +68,7 @@ Un epígrafe es una cita que se pone al comienzo de una pieza.
 4. Escribe ahí la fuente.
 
 Para poner un epígrafe al comienzo de todo el libro, añádelo en los
-[Datos del libro](./book-details) del proyecto. φ lo imprimirá en una página
+[Datos del libro](./book-details) del proyecto. Poiesis lo imprimirá en una página
 aparte.
 
 ## Destacar una línea {#set-a-line-apart}

@@ -26,7 +26,7 @@ garder une copie.
 | **Page web** | Un seul fichier HTML qui contient toute l’œuvre, styles et images compris. Ouvrez-le dans un navigateur ou publiez-le sur un site. |
 | **Markdown** | Toute application qui accepte le texte brut. Les chapitres et la numérotation sont conservés. |
 | **Texte enrichi** | TextEdit, Pages et toutes les versions de Word l’ouvrent avec sa mise en forme. Utilisez-le pour les sites de soumission qui refusent le `.docx`. |
-| **Copie du projet** | Tout, tel que φ le conserve. Utilisez-la pour déplacer le projet vers un autre [coffre](./vaults) ou pour l’archiver. |
+| **Copie du projet** | Tout, tel que φ Poiesis le conserve. Utilisez-la pour déplacer le projet vers un autre [coffre](./vaults) ou pour l’archiver. |
 
 ## Styles et papier {#styles-and-paper}
 
@@ -45,7 +45,7 @@ les styles :
 **Papier** fixe le format de page du PDF : Letter, A4, A5, Digest ou Trade.
 Les autres formats n’ont pas de pages fixes : **Papier** n’y change donc rien.
 
-## Rouvrir une copie dans φ {#bringing-a-copy-back}
+## Rouvrir une copie dans Poiesis {#bringing-a-copy-back}
 
 Une **Copie du projet** est un fichier `.poiesis`. Elle contient le projet, ses
 documents et ses images.
@@ -53,7 +53,7 @@ documents et ses images.
 Pour l’ouvrir dans un autre coffre :
 
 1. Ouvrez la palette de commandes (`⌘P`).
-2. Choisissez **Importer un document φ (`.poiesis`)…**.
+2. Choisissez **Importer un document Poiesis (`.poiesis`)…**.
 
 Pour en savoir plus, voyez [Importer](./importing).
 

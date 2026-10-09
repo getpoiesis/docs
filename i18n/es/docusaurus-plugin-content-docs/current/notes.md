@@ -84,7 +84,7 @@ primeras líneas y etiquetas. También puedes ordenarla por **Editado**,
 **Creado** o **Título**.
 
 Con `⌘K` encuentras cualquier documento por su nombre, estés donde estés en
-φ. Consulta [Buscar y reemplazar](./search-and-replace).
+φ Poiesis. Consulta [Buscar y reemplazar](./search-and-replace).
 
 ## Destacar una nota {#star-a-note}
 

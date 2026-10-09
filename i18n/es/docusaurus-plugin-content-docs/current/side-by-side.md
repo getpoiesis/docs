@@ -59,7 +59,7 @@ Escribe en la lista para buscar entre todos tus documentos.
 
 Dos reglas:
 
-- φ no abre dos veces el mismo documento. Si ya está abierto en un panel, φ
+- φ Poiesis no abre dos veces el mismo documento. Si ya está abierto en un panel, Poiesis
   te lleva a ese panel.
 - Si ya hay tres paneles abiertos, el documento nuevo sustituye a uno de
   ellos: el que esté más a la derecha de los que no estás usando para
@@ -102,7 +102,7 @@ están.
 
 ## La barra lateral en vista dividida {#the-sidebar-while-split}
 
-Cuando hay más de un panel abierto, φ oculta la barra lateral y la lista
+Cuando hay más de un panel abierto, Poiesis oculta la barra lateral y la lista
 para dejar más sitio a los paneles.
 
 - Para mostrarlas, haz clic en **Barra lateral** (☰, a la izquierda de la
@@ -112,7 +112,7 @@ para dejar más sitio a los paneles.
   fuera de ellas.
 
 Cuando abres algo que no es un documento, como un tablero o el calendario,
-φ lo muestra con la disposición habitual. Para volver a tus paneles, usa
+Poiesis lo muestra con la disposición habitual. Para volver a tus paneles, usa
 **Atrás** (`⌘[`). En Inicio, **Continuar** abre la vista dividida en la que
 escribiste por última vez.
 
@@ -121,8 +121,8 @@ escribiste por última vez.
 Para cambiar el ancho de dos paneles, arrastra la línea que los separa.
 También puedes hacer clic en la línea y pulsar `←` o `→`.
 
-φ recuerda los anchos de cada bóveda en este ordenador. (Una
-[bóveda](./vaults) es la carpeta donde φ guarda tus documentos).
+Poiesis recuerda los anchos de cada bóveda en este ordenador. (Una
+[bóveda](./vaults) es la carpeta donde Poiesis guarda tus documentos).
 
 Si la ventana es demasiado estrecha para mostrar todos los paneles, los que
 no caben se convierten en pestañas estrechas en el borde derecho. Haz clic

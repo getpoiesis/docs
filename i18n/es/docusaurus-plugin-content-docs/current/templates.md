@@ -18,7 +18,7 @@ plantilla también puede rellenar la fecha de hoy y dejar el cursor de texto
    todas tus plantillas.
 3. Elige la plantilla en el menú.
 
-φ inserta la plantilla donde está el cursor y rellena sus variables
+φ Poiesis inserta la plantilla donde está el cursor y rellena sus variables
 (consulta [Rellenar fechas y colocar el cursor](#fill-in-dates-and-the-caret)).
 
 En el menú, cada plantilla lleva uno de estos dos rótulos:
@@ -36,7 +36,7 @@ En el menú, cada plantilla lleva uno de estos dos rótulos:
 | El documento entero | Pulsa `⌘P`, elige **Guardar documento como plantilla…** y ponle nombre. | En todas las bóvedas. |
 | Una parte del documento | Selecciona esa parte. En la barra de herramientas que aparece, pulsa **›** (**Más herramientas**) y luego **Guardar selección como plantilla…**. Ponle nombre y elige **Todas las bóvedas** o **Solo esta bóveda**. | Donde tú elijas. |
 
-Las plantillas para todas las bóvedas las guarda φ fuera de tus bóvedas.
+Las plantillas para todas las bóvedas las guarda Poiesis fuera de tus bóvedas.
 Añadir o quitar una no cambia los archivos de tu bóveda. Las plantillas de
 una sola bóveda se guardan dentro de la carpeta de esa bóveda. Si copias o
 mueves la bóveda, van con ella.
@@ -84,7 +84,7 @@ papelera para quitarla. Debajo de las listas:
 
 ## Rellenar fechas y colocar el cursor {#fill-in-dates-and-the-caret}
 
-Una variable es un código corto dentro de una plantilla. φ lo sustituye cada
+Una variable es un código corto dentro de una plantilla. Poiesis lo sustituye cada
 vez que insertas la plantilla. Por eso la misma plantilla pone hoy la fecha
 de hoy y mañana, la de mañana.
 

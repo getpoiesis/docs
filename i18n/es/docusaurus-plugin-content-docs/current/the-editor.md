@@ -17,13 +17,13 @@ está en sus menús y en el panel de Información.
 1. Pulsa `⌘N` para crear un documento, o haz clic en uno de la lista.
 2. Escribe un título arriba. Con ese nombre aparecerá el documento en la
    lista, en las búsquedas y en los enlaces.
-3. Escribe tu texto debajo del título. φ lo guarda por ti.
+3. Escribe tu texto debajo del título. φ Poiesis lo guarda por ti.
 4. Escribe `/` en una línea vacía para añadir un encabezado, una lista, una
    cita u otro bloque.
 5. Selecciona unas palabras para que aparezca la barra de herramientas. Desde
    ella puedes poner negrita o cursiva, crear un enlace, resaltar y comentar.
 
-Mientras escribes, φ corrige la puntuación: cambia las comillas rectas por
+Mientras escribes, Poiesis corrige la puntuación: cambia las comillas rectas por
 comillas tipográficas, dos guiones por una raya y tres puntos por puntos
 suspensivos.
 
@@ -50,7 +50,7 @@ Las notas no muestran recuento de palabras.
 
 ## Guardar {#saving}
 
-No hace falta que guardes: φ lo hace un momento después de que dejes de
+No hace falta que guardes: Poiesis lo hace un momento después de que dejes de
 escribir.
 
 Y lo hace con cuidado. Primero escribe los cambios en un archivo temporal,
@@ -87,7 +87,7 @@ barra): **Tachado**, **Código en línea**, **Alinear a la izquierda**,
 (abre el [diccionario](./dictionary)) y **Guardar selección como
 plantilla…**.
 
-φ guarda los resaltados y los comentarios como
+Poiesis guarda los resaltados y los comentarios como
 [anotaciones](./annotations).
 
 Pulsa `Esc` para ocultar la barra. La barra no aparece en el modo lectura ni
@@ -151,7 +151,7 @@ afectan al documento entero:
   y **Revisar ortografía…**.
 - Todos los formatos a los que puedes exportar el documento.
 - **Guardar una copia (`.poiesis` con imágenes)…** y **Mover a otra
-  bóveda…**. Una [bóveda](./vaults) es la carpeta donde φ guarda tus
+  bóveda…**. Una [bóveda](./vaults) es la carpeta donde Poiesis guarda tus
   documentos.
 - **Mover a la papelera**.
 
@@ -165,7 +165,7 @@ versiones**.
 
 ## Moverse entre documentos {#move-between-documents}
 
-φ no tiene pestañas. Un documento se abre de tres maneras:
+Poiesis no tiene pestañas. Un documento se abre de tres maneras:
 
 - Haz clic en él en la lista.
 - Haz clic en un enlace que lleve a él.

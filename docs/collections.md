@@ -8,7 +8,7 @@ description: Books, parts and chapters, front and end matter, word goals, and th
 A **project** is one work made of several documents in a fixed order: a
 novel, a book of poems, a set of essays. The project keeps the order, the
 parts, the numbering, the cover and the word goal. A project is also what
-φ exports as a book.
+φ Poiesis exports as a book.
 
 <img src="/img/app/manuscript-light.png" alt="A project open in Write: its parts and chapters in the list, and its page with the cover, title, author, progress and settings" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/manuscript-dark.png" alt="A project open in Write: its parts and chapters in the list, and its page with the cover, title, author, progress and settings" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -29,7 +29,7 @@ empty, Write's Home shows **Start a project** instead. Pick **Novel**,
 
 ## Choose what kind of work it is
 
-A project's **Type** sets the names φ uses for the documents and groups in
+A project's **Type** sets the names Poiesis uses for the documents and groups in
 the project. It also sets how the project exports. You can change the type
 at any time on the project's page. Only the names change. Your writing
 stays the same.
@@ -74,7 +74,7 @@ have more than one vault, **Move to vault…**.
 ## Add chapters and parts
 
 - Click **+** at the top of the list and choose **New chapter** (`⌘N`) or
-  **New part** (`⇧⌘N`). φ adds it at the end.
+  **New part** (`⇧⌘N`). Poiesis adds it at the end.
 - Click a chapter's **⋮** in the list for more commands: **Add chapter
   below**, **Add part below**, **Rename**, **Duplicate**, **Details…**,
   **Front / back matter**, **Move to top**, **Move to bottom** and
@@ -110,9 +110,9 @@ word goal. If the chapter has no goal, the ring shows its status.
   not, duplicate it, or remove it from the project.
 - Use **Add chapter** and **Add a part** at the bottom to add new ones.
 
-You never type a chapter number. φ gives each one its number, such as
+You never type a chapter number. Poiesis gives each one its number, such as
 "Part II" or "Chapter 7", from its place in the order. When you move a
-chapter or a part, φ renumbers all of them.
+chapter or a part, Poiesis renumbers all of them.
 
 ## Front and end matter
 
@@ -127,7 +127,7 @@ The document then has no number. Your first real chapter is still
 Chapter 1 in the outline, in the reading view and in every export.
 
 The book's title page, copyright page and "Also by" page are not
-documents. φ makes them from the project's [Book details](./book-details).
+documents. Poiesis makes them from the project's [Book details](./book-details).
 
 ## Set word goals
 
@@ -193,17 +193,17 @@ the sidebar, open the same menu and choose **Bring back**.
 Putting a project away changes nothing inside it, and `⌘K` still finds it.
 
 When every chapter of a project has the status Final, the project's page
-offers to put it away. φ never puts a project away without you.
+offers to put it away. Poiesis never puts a project away without you.
 
 ## Remove or delete
 
-**Remove from project** takes a chapter out of the project. φ asks you
-first. If you remove a part, φ also removes everything in the part. In
+**Remove from project** takes a chapter out of the project. Poiesis asks you
+first. If you remove a part, Poiesis also removes everything in the part. In
 both cases the documents stay in your vault, as pieces.
 
 :::note Deleting a project keeps its documents
 **Delete project…** (in the right-click menu) and **Delete this project…**
-(on the project's page) ask you first. Then φ deletes only the project.
+(on the project's page) ask you first. Then Poiesis deletes only the project.
 Every chapter stays in your vault. The project goes to the trash, and you
 can restore it from there.
 :::

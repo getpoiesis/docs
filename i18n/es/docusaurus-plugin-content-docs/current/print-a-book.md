@@ -12,7 +12,7 @@ impreso** crea los dos:
 - la **cubierta**: la cubierta delantera, el lomo y la contracubierta en una
   sola página.
 
-φ calcula los márgenes y las páginas en blanco que van antes de los capítulos.
+φ Poiesis calcula los márgenes y las páginas en blanco que van antes de los capítulos.
 También calcula el ancho del lomo a partir del número de páginas.
 
 <img src="/img/app/print-book-light.png" alt="La pestaña de libro impreso: diseño, formato, papel y tinta, la comprobación y los dos botones de exportación" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -60,9 +60,9 @@ ningún color de tu pantalla acaba en una página impresa. Las imágenes
 conservan siempre su color. Elige **Mantener el color de φ** solo si vas a
 pagar una impresión en color.
 
-## De qué se encarga φ {#what-φ-takes-care-of}
+## De qué se encarga Poiesis {#what-Poiesis-takes-care-of}
 
-- **Los capítulos empiezan en página impar.** Cuando el diseño lo pide, φ
+- **Los capítulos empiezan en página impar.** Cuando el diseño lo pide, Poiesis
   añade una página en blanco antes del capítulo allí donde hace falta. Puedes
   desactivarlo en **Ajustar el diseño**.
 - **Márgenes para la encuadernación.** Cuantas más páginas tiene un libro, más

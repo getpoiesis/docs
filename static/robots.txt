@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.getpoiesis.com/sitemap.xml
+Sitemap: https://docs.getpoiesis.com/es/sitemap.xml
+Sitemap: https://docs.getpoiesis.com/fr/sitemap.xml

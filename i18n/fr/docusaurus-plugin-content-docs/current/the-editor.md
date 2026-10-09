@@ -18,13 +18,13 @@ son panneau Infos.
    la liste.
 2. Saisissez un titre en haut de la page. C’est sous ce nom que le document
    apparaît dans la liste, dans la recherche et dans les liens.
-3. Écrivez votre texte sous le titre. φ l’enregistre pour vous.
+3. Écrivez votre texte sous le titre. φ Poiesis l’enregistre pour vous.
 4. Tapez `/` sur une ligne vide pour ajouter un titre, une liste, une citation
    ou un autre bloc.
 5. Sélectionnez quelques mots pour faire apparaître la barre d’outils. Elle
    propose le gras, l’italique, le lien, le surlignage et le commentaire.
 
-Pendant la saisie, φ corrige votre ponctuation : les guillemets droits
+Pendant la saisie, Poiesis corrige votre ponctuation : les guillemets droits
 deviennent des guillemets typographiques, deux traits d’union deviennent un
 tiret et trois points deviennent des points de suspension.
 
@@ -51,15 +51,15 @@ Les notes n’affichent pas de nombre de mots.
 
 ## Enregistrement {#saving}
 
-Vous n’avez pas besoin d’enregistrer : φ le fait un instant après que vous
+Vous n’avez pas besoin d’enregistrer : Poiesis le fait un instant après que vous
 avez cessé de taper.
 
-φ enregistre avec précaution. Chaque enregistrement est d’abord écrit dans un
-fichier temporaire, que φ relit pour le vérifier ; c’est seulement ensuite
+Poiesis enregistre avec précaution. Chaque enregistrement est d’abord écrit dans un
+fichier temporaire, que Poiesis relit pour le vérifier ; c’est seulement ensuite
 qu’il remplace le document. Si l’application plante ou si le disque est plein,
 votre document ne reste donc jamais à moitié écrit.
 
-- Appuyez sur `⌘S` pour enregistrer tout de suite. φ garde aussi une version,
+- Appuyez sur `⌘S` pour enregistrer tout de suite. Poiesis garde aussi une version,
   à laquelle vous pourrez revenir plus tard.
 - Choisissez **Enregistrer une version…** (`⌘⇧S`) pour donner un nom à la
   version.
@@ -87,7 +87,7 @@ outils : **Barré**, **Code en ligne**, **Aligner à gauche**, **Centrer**,
 **Aligner à droite**, **Justifier**, **Rechercher le mot** (qui ouvre le
 [dictionnaire](./dictionary)) et **Enregistrer la sélection comme modèle…**.
 
-φ conserve les surlignages et les commentaires sous forme
+Poiesis conserve les surlignages et les commentaires sous forme
 d’[annotations](./annotations).
 
 Appuyez sur `Esc` pour masquer la barre d’outils. Elle n’apparaît ni en mode
@@ -153,7 +153,7 @@ concernent le document entier :
   **Vérifier l’orthographe…**.
 - Tous les formats dans lesquels vous pouvez exporter le document.
 - **Enregistrer une copie (`.poiesis` avec images)…** et **Déplacer vers un
-  coffre…**. Un [coffre](./vaults) est le dossier où φ range vos documents.
+  coffre…**. Un [coffre](./vaults) est le dossier où Poiesis range vos documents.
 - **Déplacer vers la corbeille**.
 
 Sur une page du matin, **Sceller la journée** remplace **Mettre en favori** et
@@ -165,7 +165,7 @@ les suggestions d’orthographe, puis couper, copier et coller, et enfin
 
 ## Passer d’un document à l’autre {#move-between-documents}
 
-φ n’a pas d’onglets. Vous pouvez ouvrir un document de trois façons :
+Poiesis n’a pas d’onglets. Vous pouvez ouvrir un document de trois façons :
 
 - Cliquez dessus dans la liste.
 - Cliquez sur un lien qui y mène.

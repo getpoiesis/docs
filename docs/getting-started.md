@@ -7,7 +7,7 @@ description: Choose where your writing lives, and write your first page.
 
 A **vault** is a folder on your computer that holds your writing: every
 document, the pictures in your documents, and the history of your changes.
-φ asks you for a vault the first time it opens. After that, you can start
+φ Poiesis asks you for a vault the first time it opens. After that, you can start
 writing.
 
 <img src="/img/app/home-light.png" alt="Write's Home, where a vault opens: the chapter to continue, the project in progress, recent pieces and research, and today's figures beside the month" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -15,20 +15,20 @@ writing.
 
 ## Create your first vault
 
-1. Open φ. The **Welcome** screen offers **Create a vault** and **Open a
+1. Open Poiesis. The **Welcome** screen offers **Create a vault** and **Open a
    folder**.
 2. Choose **Create a vault**. Your system's folder picker opens.
 3. Pick a folder, or make a new one, such as `Documents/Writing`.
-4. If macOS asks whether φ may use files in that folder, click **Allow**.
+4. If macOS asks whether Poiesis may use files in that folder, click **Allow**.
 
-φ opens the vault on the Home screen of **Write**, the mode for your
+Poiesis opens the vault on the Home screen of **Write**, the mode for your
 manuscripts.
 
 To use a folder you already have, choose **Open a folder** instead. The
 steps are the same.
 
-- If the folder is already a vault, φ opens it as it is.
-- If it is any other folder, φ makes it a vault. φ adds the files it needs
+- If the folder is already a vault, Poiesis opens it as it is.
+- If it is any other folder, Poiesis makes it a vault. Poiesis adds the files it needs
   and does not change the files that are already there.
 
 ## What's in a new vault
@@ -38,15 +38,15 @@ A new vault has two documents to start from:
 - **Welcome to φ** is a short guide. It is under **Pieces** in Write.
 - **The Grey Morning** is a sample project. It has two chapters, a cover, an
   epigraph, footnotes and a scene break. Open it from **Projects** in the
-  sidebar. Then click **Export** under it to see how φ lays out a book.
+  sidebar. Then click **Export** under it to see how Poiesis lays out a book.
 
 You can read them, keep them, or move them to the **Trash** at any time.
 
-## If φ can't see your folder
+## If Poiesis can't see your folder
 
-**φ can't read this folder.** macOS asks once whether φ may use a vault that
+**φ can't read this folder.** macOS asks once whether Poiesis may use a vault that
 is in **Documents**, **Desktop**, **Downloads** or **iCloud Drive**. If the
-answer was no, φ shows this message. It does not show an empty vault. To fix
+answer was no, Poiesis shows this message. It does not show an empty vault. To fix
 it:
 
 1. Click **Allow access…**.
@@ -55,7 +55,7 @@ it:
 Your documents appear again. You can also give access in **System Settings →
 Privacy & Security → Files and Folders**.
 
-**This folder isn't there any more.** φ shows this message when the folder
+**This folder isn't there any more.** Poiesis shows this message when the folder
 was moved or renamed, or when it is on a drive that isn't connected.
 
 ## Write your first page
@@ -66,10 +66,10 @@ was moved or renamed, or when it is on a drive that isn't connected.
 3. Type a title.
 4. Click the page below the title and write.
 
-There is no save button. φ saves as you type. To save at once, press `⌘S`.
+There is no save button. Poiesis saves as you type. To save at once, press `⌘S`.
 
 `⌘N` (**File → New Document**) makes a different kind of document in each
-part of φ:
+part of Poiesis:
 
 | Where you are | What `⌘N` makes |
 | --- | --- |

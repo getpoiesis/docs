@@ -5,7 +5,7 @@ description: Look a word up, for its meaning or a better one, without leaving th
 
 # Dictionary & thesaurus
 
-φ can show you what a word means, or other words with a similar meaning,
+φ Poiesis can show you what a word means, or other words with a similar meaning,
 next to the page you're writing. First you install one or more dictionary
 packs. After that, every lookup happens on your computer.
 
@@ -42,8 +42,8 @@ only when a document is open.
 
 ## Install a dictionary
 
-φ doesn't come with a dictionary. The first time you open the tab, it says
-**No dictionaries installed.** φ reads dictionary packs in the common
+Poiesis doesn't come with a dictionary. The first time you open the tab, it says
+**No dictionaries installed.** Poiesis reads dictionary packs in the common
 **StarDict** format. To install one:
 
 1. Download a pack. Good free sources are
@@ -66,7 +66,7 @@ number of words in it. To remove a pack, click the bin beside it and
 confirm **Remove dictionary?**
 
 :::note Nothing leaves your computer
-φ keeps installed packs in its own application folder. A lookup never goes
+Poiesis keeps installed packs in its own application folder. A lookup never goes
 online.
 :::
 

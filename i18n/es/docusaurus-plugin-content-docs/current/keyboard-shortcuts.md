@@ -1,18 +1,18 @@
 ---
 title: Atajos de teclado
-description: Todos los atajos de teclado de φ, para escribir, dar formato, moverte por la aplicación y organizar la ventana.
+description: Todos los atajos de teclado de φ Poiesis, para escribir, dar formato, moverte por la aplicación y organizar la ventana.
 ---
 
 # Atajos de teclado
 
-Esta página reúne todos los atajos de φ, con las teclas del Mac. En Windows y
+Esta página reúne todos los atajos de φ Poiesis, con las teclas del Mac. En Windows y
 Linux, casi todos funcionan con **Ctrl** en lugar de ⌘. Los pocos que cambian
 están [al final](#on-windows-and-linux).
 
 Las teclas son ⌘ Comando, ⇧ Mayúsculas, ⌥ Opción, ⌃ Control, ↵ Intro y ⌫
 Borrar.
 
-También puedes consultar los atajos dentro de φ:
+También puedes consultar los atajos dentro de Poiesis:
 
 - Pulsa `⌘/` para ver una lista de los atajos principales. Pulsa `⌘/` o `Esc`
   para cerrarla.
@@ -41,7 +41,7 @@ También puedes consultar los atajos dentro de φ:
 | Empezar una línea nueva sin cambiar de párrafo | `⇧↵` |
 | Aumentar · reducir la sangría de un elemento de una lista | `Tab` · `⇧Tab` |
 | Dejar de escribir en negrita o en cursiva | Dos espacios |
-| Mover el documento a la papelera (φ pregunta antes) | `⌘⌫` |
+| Mover el documento a la papelera (Poiesis pregunta antes) | `⌘⌫` |
 
 Al pegar de la forma normal, las marcas de Markdown del texto pegado se
 convierten en formato. Al pegar como texto sin formato, el texto queda
@@ -93,7 +93,7 @@ Fuera de las listas y las tablas, `Tab` escribe una tabulación.
 **Tachado** y **Código en línea** no tienen atajo. Están en el menú
 **Formato** y en la barra de herramientas que aparece al seleccionar texto.
 
-## Moverte por φ {#navigating}
+## Moverte por Poiesis {#navigating}
 
 | Para | Pulsa |
 | --- | --- |
@@ -161,7 +161,7 @@ En la lista de capítulos de un proyecto:
 | Pantalla completa | `⌃⌘F` |
 | Abrir los Ajustes | `⌘,` |
 | Minimizar la ventana | `⌘M` |
-| Ocultar φ · ocultar las demás aplicaciones | `⌘H` · `⌥⌘H` |
+| Ocultar Poiesis · ocultar las demás aplicaciones | `⌘H` · `⌥⌘H` |
 | Salir | `⌘Q` |
 
 En el grafo, `⇧⌘I` no muestra el panel de Información, sino los ajustes del
@@ -185,7 +185,7 @@ Estos atajos son distintos:
 | Pantalla completa | **F11** |
 | Abrir los Ajustes | El botón de los controles deslizantes, en lo alto de la barra lateral (no hay atajo) |
 
-Ocultar φ y ocultar las demás aplicaciones solo funciona en un Mac.
+Ocultar Poiesis y ocultar las demás aplicaciones solo funciona en un Mac.
 
 ## Ver también {#see-also}
 
