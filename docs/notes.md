@@ -79,7 +79,7 @@ Each list has a search field at the top. It filters the list by title, first
 lines and tags. Each list also has a sort: **Edited**, **Created** or
 **Title**.
 
-`⌘K` finds any document by name, from anywhere in φ. See
+`⌘K` finds any document by name, from anywhere in φ Poiesis. See
 [Search & replace](./search-and-replace).
 
 ## Star a note

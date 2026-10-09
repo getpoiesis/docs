@@ -7,7 +7,7 @@ description: Choisissez où conserver vos textes, puis écrivez votre première 
 
 Un **coffre** est un dossier de votre ordinateur qui contient vos textes :
 tous vos documents, les images qu’ils renferment et l’historique de vos
-modifications. φ vous demande un coffre la première fois qu’il s’ouvre.
+modifications. φ Poiesis vous demande un coffre la première fois qu’il s’ouvre.
 Ensuite, vous pouvez commencer à écrire.
 
 <img src="/img/app/home-light.png" alt="L’Accueil du mode Écrire, sur lequel s’ouvre un coffre : le chapitre à reprendre, le projet en cours, les pièces et les recherches récentes, et les chiffres du jour à côté du mois" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -15,22 +15,22 @@ Ensuite, vous pouvez commencer à écrire.
 
 ## Créer votre premier coffre {#create-your-first-vault}
 
-1. Ouvrez φ. L’écran **Bienvenue** propose **Créer un coffre** et **Ouvrir un
+1. Ouvrez Poiesis. L’écran **Bienvenue** propose **Créer un coffre** et **Ouvrir un
    dossier**.
 2. Choisissez **Créer un coffre**. Le sélecteur de dossiers de votre système
    s’ouvre.
 3. Choisissez un dossier ou créez-en un, par exemple `Documents/Écriture`.
-4. Si macOS vous demande si φ peut accéder aux fichiers de ce dossier,
+4. Si macOS vous demande si Poiesis peut accéder aux fichiers de ce dossier,
    cliquez sur **Autoriser**.
 
-φ ouvre le coffre sur l’écran d’accueil d’**Écrire**, le mode consacré à vos
+Poiesis ouvre le coffre sur l’écran d’accueil d’**Écrire**, le mode consacré à vos
 manuscrits.
 
 Pour utiliser un dossier que vous avez déjà, choisissez plutôt **Ouvrir un
 dossier**. Les étapes sont les mêmes.
 
-- Si le dossier est déjà un coffre, φ l’ouvre tel quel.
-- S’il s’agit de n’importe quel autre dossier, φ en fait un coffre. Il y
+- Si le dossier est déjà un coffre, Poiesis l’ouvre tel quel.
+- S’il s’agit de n’importe quel autre dossier, Poiesis en fait un coffre. Il y
   ajoute les fichiers dont il a besoin, sans modifier ceux qui s’y trouvent
   déjà.
 
@@ -43,17 +43,17 @@ Un nouveau coffre contient deux documents pour vous lancer :
 - **The Grey Morning** est un projet d’exemple. Il comprend deux chapitres,
   une couverture, une épigraphe, des notes de bas de page et un saut de
   scène. Ouvrez-le depuis **Projets**, dans la barre latérale. Cliquez ensuite
-  sur **Exporter**, juste en dessous, pour voir comment φ met un livre en
+  sur **Exporter**, juste en dessous, pour voir comment Poiesis met un livre en
   pages.
 
 Vous pouvez les lire, les garder ou les mettre à la **Corbeille** quand vous
 le souhaitez.
 
-## Si φ ne voit pas votre dossier {#if-φ-cant-see-your-folder}
+## Si Poiesis ne voit pas votre dossier {#if-Poiesis-cant-see-your-folder}
 
 **φ ne peut pas lire ce dossier.** Quand un coffre se trouve dans
 **Documents**, **Bureau**, **Téléchargements** ou **iCloud Drive**, macOS
-demande une seule fois si φ peut y accéder. Si la réponse a été non, φ affiche
+demande une seule fois si Poiesis peut y accéder. Si la réponse a été non, Poiesis affiche
 ce message. Il n’affiche pas un coffre vide. Pour y remédier :
 
 1. Cliquez sur **Autoriser l’accès…**.
@@ -62,7 +62,7 @@ ce message. Il n’affiche pas un coffre vide. Pour y remédier :
 Vos documents réapparaissent. Vous pouvez aussi donner l’accès dans
 **Réglages Système → Confidentialité et sécurité → Fichiers et dossiers**.
 
-**Ce dossier n’existe plus.** φ affiche ce message quand le dossier a été
+**Ce dossier n’existe plus.** Poiesis affiche ce message quand le dossier a été
 déplacé ou renommé, ou quand il se trouve sur un disque qui n’est pas
 branché.
 
@@ -75,11 +75,11 @@ branché.
 3. Tapez un titre.
 4. Cliquez dans la page, sous le titre, et écrivez.
 
-Il n’y a pas de bouton pour enregistrer : φ enregistre pendant que vous
+Il n’y a pas de bouton pour enregistrer : Poiesis enregistre pendant que vous
 écrivez. Pour enregistrer immédiatement, appuyez sur `⌘S`.
 
 `⌘N` (**Fichier → Nouveau document**) ne crée pas le même type de document
-selon l’endroit de φ où vous vous trouvez :
+selon l’endroit de Poiesis où vous vous trouvez :
 
 | Où vous êtes | Ce que crée `⌘N` |
 | --- | --- |

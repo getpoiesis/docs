@@ -1,12 +1,12 @@
 ---
 title: Welcome
-description: What φ is, who it's for, and how it keeps your writing.
+description: What φ Poiesis is, who it's for, and how it keeps your writing.
 slug: /
 ---
 
-# Welcome to φ
+# Welcome to φ Poiesis
 
-φ is a desktop writing app for long work: novels, poetry and essays, and the
+Poiesis is a desktop writing app for long work: novels, poetry and essays, and the
 notes and journal entries that go with them. It gives you a quiet page. It
 keeps every word in files on your own computer.
 
@@ -15,16 +15,16 @@ keeps every word in files on your own computer.
 
 ## Get started
 
-1. [Install φ](./installing) on macOS, Windows or Linux.
+1. [Install Poiesis](./installing) on macOS, Windows or Linux.
 2. [Create your first vault](./getting-started). A vault is the folder that
    holds your writing.
 3. Take [a tour of the window](./finding-your-way).
 4. Click the sample project, **The Grey Morning**, in the sidebar. Then click
-   **Export** under it to see how φ lays out a book.
+   **Export** under it to see how Poiesis lays out a book.
 
 ## Three modes in one vault
 
-φ has three modes: **Write**, **Notes** and **Journal**. Write is the main
+Poiesis has three modes: **Write**, **Notes** and **Journal**. Write is the main
 one. All three share one vault, so a chapter can link to a note, and a
 journal entry can mention a character.
 
@@ -42,31 +42,31 @@ Two things work in every mode:
 
 ## Your writing stays yours
 
-- **Your files are in a folder you choose.** You need no account, and φ
+- **Your files are in a folder you choose.** You need no account, and Poiesis
   does not use the cloud. Writing, searching and exporting all work offline.
-- **φ saves as you type.** It saves every document all the time, and checks
+- **Poiesis saves as you type.** It saves every document all the time, and checks
   each save. Version history lets you go back to any earlier draft. You can
   also back it up to your own git remote if you want a copy somewhere else.
   See [Versions & backup](./versions-and-backup).
 - **Your work is easy to move and keep.** Copy the folder and you have
   copied everything. You can keep a vault in iCloud Drive, Dropbox or
-  another synced folder. φ for iPhone and iPad is not out yet. When it is,
+  another synced folder. Poiesis for iPhone and iPad is not out yet. When it is,
   it will open the same vault. See [Vaults](./vaults).
 
 Each document is a `.poiesis` file. The file holds your text and its details
 as structured content, so annotations, footnotes and citations are kept
-complete. φ does not store Markdown, but you can import it, paste it and
+complete. Poiesis does not store Markdown, but you can import it, paste it and
 export it.
 
-φ is stable and ready to hold your writing. It keeps the **Beta** label a
+Poiesis is stable and ready to hold your writing. It keeps the **Beta** label a
 little longer while more people try it out. If something seems off, the
 **Beta** badge at the bottom of the sidebar is the quickest way to say so.
 
-## What φ isn't
+## What Poiesis isn't
 
 - **A cloud service.** Nothing leaves your computer unless you set up a
   backup or put the vault in a synced folder yourself.
-- **A real-time collaboration tool.** φ is for one writer at a time.
+- **A real-time collaboration tool.** Poiesis is for one writer at a time.
 
 ## See also
 

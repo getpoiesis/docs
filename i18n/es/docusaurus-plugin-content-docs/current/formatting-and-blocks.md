@@ -1,15 +1,15 @@
 ---
 title: Formato y bloques
-description: Todos los tipos de formato y de bloque que tiene φ, y las maneras de insertar cada uno.
+description: Todos los tipos de formato y de bloque que tiene φ Poiesis, y las maneras de insertar cada uno.
 ---
 
 # Formato y bloques
 
-En esta página están todos los tipos de formato y todos los bloques de φ. De
+En esta página están todos los tipos de formato y todos los bloques de φ Poiesis. De
 cada uno se explica para qué sirve y cómo se añade.
 
 Un bloque es cualquier parte de la página que no es texto corriente: un
-encabezado, una lista, una cita o una tabla, por ejemplo. φ tiene además
+encabezado, una lista, una cita o una tabla, por ejemplo. Poiesis tiene además
 bloques pensados para libros y poemas: versos, saltos de escena, epígrafes y
 notas al pie.
 
@@ -46,7 +46,7 @@ formato; el segundo lo corta, y la palabra siguiente sale ya sin él.
 
 **Enlaces.**
 
-- Cuando escribes o pegas una dirección web, φ la convierte en un enlace.
+- Cuando escribes o pegas una dirección web, Poiesis la convierte en un enlace.
 - Para cambiar un enlace, selecciona las palabras enlazadas y elige otra vez
   **Enlace**. Escribe la nueva dirección.
 - Para quitar un enlace, selecciona las palabras enlazadas, elige **Enlace**
@@ -54,7 +54,7 @@ formato; el segundo lo corta, y la palabra siguiente sale ya sin él.
 - Los enlaces se abren en tu navegador. Mientras editas, mantén pulsada `⌘`
   y haz clic en el enlace.
 - Para enlazar con otro documento de tu [bóveda](./vaults) (la carpeta donde
-  φ guarda tus documentos), usa un enlace wiki. Consulta
+  Poiesis guarda tus documentos), usa un enlace wiki. Consulta
   [Enlaces y el grafo](./links-and-graph).
 
 ## Encabezados, listas y citas {#headings-lists-and-quotes}
@@ -90,7 +90,7 @@ escritura → Modos** y activa **Listas de tareas** para ese modo.
 fila es la cabecera. Arrastra el borde de una columna para ensancharla.
 Pulsa `Tab` para pasar a la celda siguiente.
 
-**Bloques de código.** φ colorea el código según el lenguaje que reconoce.
+**Bloques de código.** Poiesis colorea el código según el lenguaje que reconoce.
 Si prefieres elegir tú el lenguaje, escribe su nombre justo después de los
 tres acentos graves que abren el bloque, por ejemplo ` ```python `. Pulsa `Tab` para aumentar
 la sangría y `⇧Tab` para reducirla. Para cambiar la sangría, abre **Ajustes
@@ -108,7 +108,7 @@ aunque el documento esté fuera de un proyecto.
 
 | Bloque | Para qué sirve | Cómo se inserta |
 | --- | --- | --- |
-| **Verso** | Los versos de un poema. φ respeta las líneas tal como las escribes, en el mismo margen que el resto del texto. | `/verse` o `⌥⌘V` |
+| **Verso** | Los versos de un poema. Poiesis respeta las líneas tal como las escribes, en el mismo margen que el resto del texto. | `/verse` o `⌥⌘V` |
 | **Salto de escena** | Un adorno centrado entre escenas: **Asterismo** ⁂, **Estrellas** \* \* \*, **Floral** ❧ o **Espacio en blanco**. Pasa el puntero por encima para elegir otro. | `/scene` |
 | **Epígrafe** | Una cita al comienzo, con su fuente en la línea de abajo. | `/epigraph` |
 | **Cita destacada** | Una línea en letra grande, para darle énfasis. | `/pull-quote` |
@@ -129,7 +129,7 @@ Para saber más:
 
 | Bloque | Para qué sirve | Cómo se inserta |
 | --- | --- | --- |
-| **Imagen** | Una imagen con su pie. Con su barra de herramientas la colocas a la izquierda, en el centro, a la derecha o a todo el ancho. Arrastra su borde para cambiarle el tamaño. φ copia el archivo a tu bóveda. | `/image`, o `![alt](https://…)` |
+| **Imagen** | Una imagen con su pie. Con su barra de herramientas la colocas a la izquierda, en el centro, a la derecha o a todo el ancho. Arrastra su borde para cambiarle el tamaño. Poiesis copia el archivo a tu bóveda. | `/image`, o `![alt](https://…)` |
 | **Aviso** | Un recuadro para un comentario aparte: información, consejo, advertencia o peligro. Pasa el puntero por encima para elegir otro tipo. | `/callout`, o `> [!tip] ` |
 | **Fecha** | La fecha de hoy, en una etiqueta de fecha. La etiqueta enlaza el documento con ese día del [calendario](./calendar). | `/date` |
 | **Fecha y hora** | Igual que **Fecha**, pero con la hora. | `/datetime` |
@@ -151,7 +151,7 @@ Dentro de una línea de texto también puedes añadir dos cosas:
 
 ## Escribir en Markdown {#writing-in-markdown}
 
-Cuando escribes Markdown, φ lo convierte en formato. En las tablas de más
+Cuando escribes Markdown, Poiesis lo convierte en formato. En las tablas de más
 arriba tienes el Markdown de cada tipo de formato.
 
 **Ver el Markdown.** Activa **Ajustes → Editor → Mostrar Markdown**. A
@@ -160,12 +160,12 @@ alrededor del formato en la línea en la que estás. Las marcas nunca forman
 parte de tu texto.
 
 **Pegar Markdown.** Cuando pegas un texto copiado de un editor de Markdown o
-de una aplicación de notas, φ le da formato: reconoce encabezados, listas de
+de una aplicación de notas, Poiesis le da formato: reconoce encabezados, listas de
 tareas, tablas, citas, avisos, código, enlaces, imágenes y notas al pie. Las
 notas al pie pueden ir escritas como `^[la nota]`, o como `[^1]` con una
 línea `[^1]: la nota`.
 
-φ entiende también el Markdown que escriben otras aplicaciones de notas:
+Poiesis entiende también el Markdown que escriben otras aplicaciones de notas:
 
 - `~texto~` pasa a ser texto subrayado.
 - `==🟢texto==` pasa a ser un resaltado verde.

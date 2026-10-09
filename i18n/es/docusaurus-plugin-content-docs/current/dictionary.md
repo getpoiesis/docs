@@ -5,7 +5,7 @@ description: Consulta qué significa una palabra, o busca otra mejor, sin salir 
 
 # Diccionario y tesauro
 
-φ te muestra qué significa una palabra, o qué otras palabras tienen un
+φ Poiesis te muestra qué significa una palabra, o qué otras palabras tienen un
 significado parecido, al lado de la página que estás escribiendo. Primero
 tienes que instalar uno o varios paquetes de diccionario. A partir de ahí,
 todas las consultas se hacen en tu ordenador.
@@ -44,8 +44,8 @@ usas, y solo cuando hay un documento abierto.
 
 ## Instalar un diccionario {#install-a-dictionary}
 
-φ no trae ningún diccionario. La primera vez que abres la pestaña, dice **No
-hay diccionarios instalados.** φ lee paquetes de diccionario en **StarDict**,
+Poiesis no trae ningún diccionario. La primera vez que abres la pestaña, dice **No
+hay diccionarios instalados.** Poiesis lee paquetes de diccionario en **StarDict**,
 un formato muy extendido. Para instalar uno:
 
 1. Descarga un paquete. Dos buenas fuentes gratuitas son
@@ -69,7 +69,7 @@ cada uno con el número de palabras que contiene. Para quitar un paquete, haz
 clic en la papelera que tiene al lado y confirma en **¿Quitar diccionario?**
 
 :::note Nada sale de tu ordenador
-φ guarda los paquetes instalados en su propia carpeta de aplicación. Ninguna
+Poiesis guarda los paquetes instalados en su propia carpeta de aplicación. Ninguna
 consulta se conecta a internet.
 :::
 

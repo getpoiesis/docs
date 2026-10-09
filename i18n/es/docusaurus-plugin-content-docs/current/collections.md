@@ -8,7 +8,7 @@ description: Libros, partes y capítulos, páginas preliminares y finales, metas
 Un **proyecto** es una obra formada por varios documentos en un orden fijo:
 una novela, un libro de poemas, un conjunto de ensayos. El proyecto guarda el
 orden, las partes, la numeración, la cubierta y la meta de palabras. Además,
-un proyecto es lo que φ exporta como libro.
+un proyecto es lo que φ Poiesis exporta como libro.
 
 <img src="/img/app/manuscript-light.png" alt="Un proyecto abierto en Escribir: sus partes y capítulos en la lista, y su página con la cubierta, el título, el autor, el progreso y los ajustes" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/manuscript-dark.png" alt="Un proyecto abierto en Escribir: sus partes y capítulos en la lista, y su página con la cubierta, el título, el autor, el progreso y los ajustes" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -30,7 +30,7 @@ proyecto**. Elige **Novela**, **Poesía**, **Ensayos** u **Otro**, y pulsa
 
 ## Elegir qué tipo de obra es {#choose-what-kind-of-work-it-is}
 
-El **Tipo** de un proyecto decide qué nombres usa φ para los documentos y los
+El **Tipo** de un proyecto decide qué nombres usa Poiesis para los documentos y los
 grupos del proyecto. También decide cómo se exporta. Puedes cambiar el tipo
 cuando quieras en la página del proyecto. Solo cambian los nombres: lo que
 has escrito sigue igual.
@@ -76,7 +76,7 @@ proyecto…** y, si tienes más de una bóveda, **Mover a otra bóveda…**.
 ## Añadir capítulos y partes {#add-chapters-and-parts}
 
 - Haz clic en **+**, arriba de la lista, y elige **Añadir capítulo** (`⌘N`) o
-  **Añadir parte** (`⇧⌘N`). φ lo añade al final.
+  **Añadir parte** (`⇧⌘N`). Poiesis lo añade al final.
 - Haz clic en el **⋮** de un capítulo en la lista para ver más comandos:
   **Añadir capítulo debajo**, **Añadir parte debajo**, **Renombrar**,
   **Duplicar**, **Detalles…**, **Páginas preliminares / finales**, **Mover
@@ -114,9 +114,9 @@ estado.
 - Usa **Añadir capítulo** y **Añadir una parte**, al final, para crear
   nuevos.
 
-Nunca tienes que escribir el número de un capítulo. φ le da a cada uno el
+Nunca tienes que escribir el número de un capítulo. Poiesis le da a cada uno el
 suyo, como «Parte II» o «Capítulo 7», según el lugar que ocupa. Cuando mueves
-un capítulo o una parte, φ vuelve a numerarlos todos.
+un capítulo o una parte, Poiesis vuelve a numerarlos todos.
 
 ## Páginas preliminares y finales {#front-and-end-matter}
 
@@ -132,7 +132,7 @@ sigue siendo el Capítulo 1 en el esquema, en la vista de lectura y en todas
 las exportaciones.
 
 La portada del libro, la página de créditos y la página «Otros títulos» no
-son documentos. φ las compone con los [Datos del libro](./book-details) del
+son documentos. Poiesis las compone con los [Datos del libro](./book-details) del
 proyecto.
 
 ## Definir metas de palabras {#set-word-goals}
@@ -205,19 +205,19 @@ Guardar un proyecto no cambia nada de lo que contiene, y `⌘K` lo sigue
 encontrando.
 
 Cuando todos los capítulos de un proyecto tienen el estado Final, la página
-del proyecto te propone guardarlo. φ nunca guarda un proyecto sin contar
+del proyecto te propone guardarlo. Poiesis nunca guarda un proyecto sin contar
 contigo.
 
 ## Quitar o eliminar {#remove-or-delete}
 
-**Quitar del proyecto** saca un capítulo del proyecto. Antes, φ te pide
-confirmación. Si quitas una parte, φ quita también todo lo que contiene. En
+**Quitar del proyecto** saca un capítulo del proyecto. Antes, Poiesis te pide
+confirmación. Si quitas una parte, Poiesis quita también todo lo que contiene. En
 los dos casos, los documentos se quedan en tu bóveda, como piezas.
 
 :::note Eliminar un proyecto conserva sus documentos
 **Eliminar proyecto…** (en el menú del clic derecho) y **Eliminar este
 proyecto…** (en la página del proyecto) te piden confirmación antes. Después,
-φ elimina solo el proyecto. Todos los capítulos se quedan en tu bóveda. El
+Poiesis elimina solo el proyecto. Todos los capítulos se quedan en tu bóveda. El
 proyecto va a la papelera, y desde allí puedes restaurarlo.
 :::
 

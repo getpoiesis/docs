@@ -54,8 +54,8 @@ Type in the list to search all your documents.
 
 Two rules:
 
-- φ does not open the same document twice. If the document is already open
-  in a pane, φ moves you to that pane.
+- φ Poiesis does not open the same document twice. If the document is already open
+  in a pane, Poiesis moves you to that pane.
 - When three panes are open, a new document replaces one of them. It
   replaces the rightmost pane that you are not writing in.
 
@@ -93,7 +93,7 @@ in stays open. Closing a pane leaves the others as they are.
 
 ## The sidebar while split
 
-When more than one pane is open, φ hides the sidebar and the list to give
+When more than one pane is open, Poiesis hides the sidebar and the list to give
 the panes more room.
 
 - To show them, click **Sidebar** (☰, at the left of the bar above the
@@ -102,7 +102,7 @@ the panes more room.
   them.
 
 When you open something that is not a document, such as a board or the
-calendar, φ shows it in the usual layout. To return to your panes, use
+calendar, Poiesis shows it in the usual layout. To return to your panes, use
 **Back** (`⌘[`). On Home, **Continue** opens the split you last wrote in.
 
 ## Size the panes
@@ -110,8 +110,8 @@ calendar, φ shows it in the usual layout. To return to your panes, use
 To change the width of two panes, drag the line between them. You can also
 click the line and press `←` or `→`.
 
-φ remembers the widths for each vault on this computer. (A
-[vault](./vaults) is the folder where φ keeps your documents.)
+Poiesis remembers the widths for each vault on this computer. (A
+[vault](./vaults) is the folder where Poiesis keeps your documents.)
 
 If the window is too narrow to show every pane, the panes that do not fit
 become narrow tabs at the right edge. Click a tab to show that pane again.

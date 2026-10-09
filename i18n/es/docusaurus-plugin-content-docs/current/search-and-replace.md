@@ -5,7 +5,7 @@ description: Encuentra palabras en la página que tienes abierta o en todos tus 
 
 # Buscar y reemplazar
 
-φ tiene dos búsquedas. `⌘F` busca en el documento que tienes abierto. `⇧⌘F`
+φ Poiesis tiene dos búsquedas. `⌘F` busca en el documento que tienes abierto. `⇧⌘F`
 busca en todos los documentos de la [bóveda](./vaults), la carpeta donde se
 guarda lo que escribes. Las dos pueden reemplazar lo que encuentran, así que
 puedes cambiarle el nombre a un personaje o corregir una palabra en todas
@@ -20,14 +20,14 @@ partes a la vez.
 2. Escribe el nombre antiguo en **Buscar en todos los documentos…**.
 3. Revisa las coincidencias. Están agrupadas por documento.
 4. Escribe el nombre nuevo en **Reemplazar**.
-5. Pulsa **Reemplazar en todos los documentos…**. φ te dice cuántas
+5. Pulsa **Reemplazar en todos los documentos…**. Poiesis te dice cuántas
    coincidencias va a cambiar y en cuántos documentos.
 6. Pulsa **Reemplazar en todo** para confirmar.
 
-Si el historial de versiones está activado, φ guarda antes una versión de toda la bóveda
+Si el historial de versiones está activado, Poiesis guarda antes una versión de toda la bóveda
 y le pone el nombre de lo que has reemplazado. Más adelante puedes volver a
 esa versión. Si está desactivado, el cambio no se puede
-deshacer, y φ te lo advierte antes de que confirmes. Consulta
+deshacer, y Poiesis te lo advierte antes de que confirmes. Consulta
 [Versiones y copias de seguridad](./versions-and-backup).
 
 ## Buscar en este documento {#find-in-this-document}
@@ -35,7 +35,7 @@ deshacer, y φ te lo advierte antes de que confirmes. Consulta
 1. Pulsa `⌘F` (**Edición → Buscar en el documento**). Se abre una barra
    encima del texto. Si tenías palabras seleccionadas, ya aparecen en la
    barra.
-2. Escribe lo que quieres encontrar. φ resalta todas las coincidencias a
+2. Escribe lo que quieres encontrar. Poiesis resalta todas las coincidencias a
    medida que escribes.
 
 <img src="/img/app/find-bar-light.png" alt="La barra de búsqueda sobre un capítulo, con las coincidencias resaltadas, el contador y el campo de reemplazo" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -77,7 +77,7 @@ Aquí, `⌘Z` deshace un reemplazo, igual que cualquier otro cambio.
 La búsqueda sigue abierta en la lista, así que puedes abrir el resultado
 siguiente.
 
-φ busca en todos los documentos de la bóveda, incluidas las páginas
+Poiesis busca en todos los documentos de la bóveda, incluidas las páginas
 matinales. Muestra los documentos que coinciden, empezando por el que tiene
 más coincidencias. Debajo de cada documento ves sus coincidencias, con las
 palabras que las rodean. Si la coincidencia está en el título de un

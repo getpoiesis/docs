@@ -21,7 +21,7 @@ finds a character by name and opens either list.
 
 1. In **Write**, click **Characters** under **World**.
 2. Click **+** (**New character**).
-3. Fill in the character's sheet. φ saves each field when you leave it.
+3. Fill in the character's sheet. φ Poiesis saves each field when you leave it.
 4. To mention the character, type `@` and the start of the name in any
    document.
 
@@ -66,9 +66,9 @@ with `@` while you write one of the project's chapters.
 
 ## Mention a character
 
-1. In a document, type `@` and start typing a name. φ suggests characters
+1. In a document, type `@` and start typing a name. Poiesis suggests characters
    from the project you're writing in, and the shared ones.
-2. Pick a suggestion. φ puts the mention in the text.
+2. Pick a suggestion. Poiesis puts the mention in the text.
 
 <img src="/img/app/mention-suggestions-light.png" alt="A chapter with an at sign and a letter typed, and the list of matching characters open" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/mention-suggestions-dark.png" alt="A chapter with an at sign and a letter typed, and the list of matching characters open" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -80,7 +80,7 @@ for each alias. You don't need to type accents: "jose" finds José.
   the mention changes too.
 - Click a mention to open the character's sheet.
 - If you type a name that no character has, the last suggestion is **New
-  character**. Pick it, and φ makes the character and adds the mention.
+  character**. Pick it, and Poiesis makes the character and adds the mention.
 
 In an export, a mention becomes plain text: the name or alias you chose,
 without the `@`.
@@ -94,7 +94,7 @@ Morning pages have no `@` suggestions.
 
 1. In **Write**, click **Authors** under **World**.
 2. Click **+** (**New author**).
-3. Fill in the profile. φ saves each field when you leave it.
+3. Fill in the profile. Poiesis saves each field when you leave it.
 4. Add the profile to a project. On the project's page, choose it under
    **Settings** → **Author profile**. Or add it under **Book details** →
    **People** (see [Book details](./book-details)).
@@ -108,7 +108,7 @@ Morning pages have no `@` suggestions.
 | **Photo** | Click the square beside the name to add one. It appears with "About the author". **Remove photo** removes it. |
 | **Photo credit** | Printed under the photo. |
 | **Bio** | "About the author" at the end of the book, from the first author's profile. |
-| **Short bio** | A line or two for the back cover. If it's empty, φ uses the first paragraph of **Bio**. |
+| **Short bio** | A line or two for the back cover. If it's empty, Poiesis uses the first paragraph of **Bio**. |
 | **Email** and **Website** | Your email also goes in a manuscript's contact block. |
 | **Postal address** and **Phone** | Under **For submissions**: the rest of the contact block on a manuscript's first page. |
 | **Agent** | If you have an agent, their name, agency, address, phone and email, one per line. It replaces your own details on the manuscript's first page. |

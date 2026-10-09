@@ -60,8 +60,8 @@ Tapez dans la liste pour chercher parmi tous vos documents.
 
 Deux règles :
 
-- φ n’ouvre pas deux fois le même document. S’il est déjà ouvert dans un
-  volet, φ vous y amène.
+- φ Poiesis n’ouvre pas deux fois le même document. S’il est déjà ouvert dans un
+  volet, Poiesis vous y amène.
 - Quand trois volets sont ouverts, un nouveau document en remplace un : le
   volet le plus à droite parmi ceux où vous n’écrivez pas.
 
@@ -101,7 +101,7 @@ qu’ils sont.
 
 ## La barre latérale en vue partagée {#the-sidebar-while-split}
 
-Quand plusieurs volets sont ouverts, φ masque la barre latérale et la liste
+Quand plusieurs volets sont ouverts, Poiesis masque la barre latérale et la liste
 pour laisser plus de place aux volets.
 
 - Pour les afficher, cliquez sur **Barre latérale** (☰, à gauche de la barre
@@ -111,7 +111,7 @@ pour laisser plus de place aux volets.
   cliquez en dehors.
 
 Quand vous ouvrez autre chose qu’un document, par exemple un tableau ou le
-calendrier, φ l’affiche dans la disposition habituelle. Pour retrouver vos
+calendrier, Poiesis l’affiche dans la disposition habituelle. Pour retrouver vos
 volets, utilisez **Précédent** (`⌘[`). Sur l’Accueil, **Reprendre** rouvre la
 vue partagée dans laquelle vous avez écrit en dernier.
 
@@ -121,8 +121,8 @@ Pour changer la largeur de deux volets, faites glisser la ligne qui les
 sépare. Vous pouvez aussi cliquer sur cette ligne, puis appuyer sur `←` ou
 `→`.
 
-φ retient les largeurs pour chaque coffre, sur cet ordinateur. (Un
-[coffre](./vaults) est le dossier où φ range vos documents.)
+Poiesis retient les largeurs pour chaque coffre, sur cet ordinateur. (Un
+[coffre](./vaults) est le dossier où Poiesis range vos documents.)
 
 Si la fenêtre est trop étroite pour montrer tous les volets, ceux qui ne
 tiennent pas deviennent d’étroits onglets sur le bord droit. Cliquez sur un

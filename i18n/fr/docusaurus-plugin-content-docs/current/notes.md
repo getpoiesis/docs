@@ -85,7 +85,7 @@ Chaque liste commence par un champ de recherche, qui la filtre d’après le
 titre, les premières lignes et les étiquettes. Chaque liste peut aussi être
 triée : **Modifié**, **Créé** ou **Titre**.
 
-`⌘K` retrouve n’importe quel document par son nom, où que vous soyez dans φ.
+`⌘K` retrouve n’importe quel document par son nom, où que vous soyez dans φ Poiesis.
 Voir [Rechercher et remplacer](./search-and-replace).
 
 ## Mettre une note en favori {#star-a-note}

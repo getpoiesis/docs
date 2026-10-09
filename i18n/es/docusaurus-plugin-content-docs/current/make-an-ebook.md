@@ -34,7 +34,7 @@ sea cual sea. No hay páginas fijas, ni números de página, ni cabeceras.
 
 Del diseño se conserva lo siguiente:
 
-- las tipografías, que φ incluye dentro del archivo;
+- las tipografías, que φ Poiesis incluye dentro del archivo;
 - la apertura de los capítulos: el número y el título juntos, y después una
   capitular o las primeras palabras en versalitas;
 - el adorno entre escenas;
@@ -55,7 +55,7 @@ siguiente:
   (libro electrónico)** en [Datos del libro](./book-details). KDP y Google Play
   no lo exigen.
 
-Además, mientras crea el archivo, φ comprueba que el EPUB cumple el estándar
+Además, mientras crea el archivo, Poiesis comprueba que el EPUB cumple el estándar
 EPUB.
 
 ## Ver también {#see-also}

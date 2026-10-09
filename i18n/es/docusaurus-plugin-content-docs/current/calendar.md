@@ -91,7 +91,7 @@ En un día sin nada se lee *Nada aún — empieza tus páginas para este día.*
 1. Haz clic en el día de hoy o en cualquier día anterior.
 2. Pulsa **Escribir este día**.
 
-φ abre la entrada del diario de ese día y, si todavía no existe, la crea.
+φ Poiesis abre la entrada del diario de ese día y, si todavía no existe, la crea.
 
 Un día futuro aún no puede tener entrada en el diario. Aun así, puedes
 mencionar una fecha futura en lo que escribes.

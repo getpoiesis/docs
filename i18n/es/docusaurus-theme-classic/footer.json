@@ -7,9 +7,9 @@
     "message": "Comunidad",
     "description": "The title of the footer links column with title=Community in the footer"
   },
-  "link.title.φ": {
-    "message": "φ",
-    "description": "The title of the footer links column with title=φ in the footer"
+  "link.title.Poiesis": {
+    "message": "Poiesis",
+    "description": "The title of the footer links column with title=Poiesis in the footer"
   },
   "link.item.label.Getting started": {
     "message": "Primeros pasos",
@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=Privacy"
   },
   "copyright": {
-    "message": "<img class=\"footer__mark\" src=\"/img/phi-dark.svg\" alt=\"\" aria-hidden=\"true\" /><img class=\"footer__mark footer__mark--dark\" src=\"/img/phi-light.svg\" alt=\"\" aria-hidden=\"true\" /> © 2026 φ. Escrito con cuidado.",
+    "message": "<img class=\"footer__mark\" src=\"/img/phi-dark.svg\" alt=\"\" aria-hidden=\"true\" /><img class=\"footer__mark footer__mark--dark\" src=\"/img/phi-light.svg\" alt=\"\" aria-hidden=\"true\" /> © 2026 φ Poiesis. Escrito con cuidado.",
     "description": "The footer copyright"
   }
 }

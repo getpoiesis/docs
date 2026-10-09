@@ -5,7 +5,7 @@ description: Read the pages you wrote by hand on an iPad or Android tablet, on t
 
 # Handwritten pages
 
-With φ on the iPad or an Android tablet (coming soon), you can write a
+With φ Poiesis on the iPad or an Android tablet (coming soon), you can write a
 document by hand with a pen. You can write on lined, dotted, grid or blank
 paper.
 
@@ -27,10 +27,10 @@ A handwritten document has two views. Choose one at the top of the page:
 
 A handwritten document has one text. Until you edit it, it follows your
 handwriting: when a tablet reads new words from the pages, the text updates.
-Once you edit it, φ doesn't change it on its own. On the tablet,
+Once you edit it, Poiesis doesn't change it on its own. On the tablet,
 **Update from handwriting** brings it back in line with the pages.
 
-While a document is open, φ remembers which view you chose for it.
+While a document is open, Poiesis remembers which view you chose for it.
 
 ## Earlier versions
 
@@ -42,16 +42,16 @@ see one, open the document's history and choose a version:
   that version are in green, and lines you removed since show faintly.
 - **Restore** brings back the pages and the text together.
 
-Versions saved before φ 0.19 kept only the text. They say so, and restoring
+Versions saved before Poiesis 0.19 kept only the text. They say so, and restoring
 one leaves the pages as they are.
 
 ## Colours
 
-Black ink and φ's own slate colour change with your
+Black ink and Poiesis's own slate colour change with your
 [colour theme](themes-and-languages). For example, a page written in black
 shows in white on a dark theme.
 
-Other colours stay the same colour. On a dark page, φ makes them a little
+Other colours stay the same colour. On a dark page, Poiesis makes them a little
 lighter so that you can still read them.
 
 ## A page that can't be read
@@ -63,8 +63,8 @@ is saved again, the page shows on the computer too.
 
 ## Where the pages live
 
-φ keeps the handwritten pages in your [vault](vaults), with the document. A
-vault is the folder where φ keeps your documents. The pages sync together
+Poiesis keeps the handwritten pages in your [vault](vaults), with the document. A
+vault is the folder where Poiesis keeps your documents. The pages sync together
 with the document.
 
 The pages also go with the document when you move it to the trash, restore

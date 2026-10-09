@@ -5,7 +5,7 @@ description: La barre latérale, la liste, la page et le panneau Infos, ainsi qu
 
 # Visite de la fenêtre
 
-La fenêtre de φ comporte trois colonnes, de gauche à droite :
+La fenêtre de φ Poiesis comporte trois colonnes, de gauche à droite :
 
 - La **barre latérale**, où vous choisissez un mode, puis un lieu dans ce
   mode.
@@ -15,7 +15,7 @@ La fenêtre de φ comporte trois colonnes, de gauche à droite :
 Vous pouvez aussi ouvrir un panneau **Infos** à droite de la page. Il affiche
 des détails sur le document ouvert.
 
-φ compte trois modes : **Écrire**, **Notes** et **Journal**. Chaque mode a
+Poiesis compte trois modes : **Écrire**, **Notes** et **Journal**. Chaque mode a
 son propre écran de départ, appelé **Accueil**.
 
 <img src="/img/app/editor-light.png" alt="La barre latérale avec le mode Écrire sélectionné, les chapitres de The Weighing House dans la liste à côté, et un chapitre ouvert sur la page" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -79,7 +79,7 @@ les tableaux ou la corbeille.
 
 En haut de la liste :
 
-- **‹ ›** permettent de revenir en arrière et d’avancer. À côté, φ indique où
+- **‹ ›** permettent de revenir en arrière et d’avancer. À côté, Poiesis indique où
   vous êtes, par exemple **Écrire · Projets**.
 - **Le titre** indique ce que la liste affiche.
 - **Le tri** apparaît pour les pièces et les notes : **Modifié**, **Créé** ou
@@ -99,7 +99,7 @@ réduit à mesure que vous tapez. Appuyez sur `Esc` pour effacer la recherche.
 
 **Noter une idée.** **Toutes les notes**, un dossier et une étiquette
 comportent une zone **Notez une idée…**. Tapez une ligne et appuyez sur
-`Enter`. φ enregistre cette ligne comme une note, dans le dossier ou avec
+`Enter`. Poiesis enregistre cette ligne comme une note, dans le dossier ou avec
 l’étiquette que vous êtes en train de consulter. Dans **Toutes les notes** ou
 dans un dossier, un mot précédé d’un dièse dans la ligne, comme `#idée`,
 ajoute cette étiquette à la note.
@@ -153,13 +153,13 @@ Certains documents affichent d’autres onglets :
 
 **Ouvert ou fermé.** Le panneau reste ouvert tant que vous ne le fermez pas.
 Une fois fermé, il le reste pour tous les documents, même après avoir quitté
-φ, jusqu’à ce que vous le rouvriez. Si la fenêtre est trop étroite pour tout
-afficher, φ masque le panneau sans le fermer. Élargissez la fenêtre, et le
+Poiesis, jusqu’à ce que vous le rouvriez. Si la fenêtre est trop étroite pour tout
+afficher, Poiesis masque le panneau sans le fermer. Élargissez la fenêtre, et le
 panneau revient.
 
 **Modifier les largeurs.** Faites glisser le fin séparateur entre deux
 colonnes pour les élargir ou les rétrécir. Vous pouvez aussi atteindre le
-séparateur au clavier, puis utiliser les touches fléchées. φ retient les
+séparateur au clavier, puis utiliser les touches fléchées. Poiesis retient les
 largeurs de chaque coffre.
 
 **Fermer le panneau avec son séparateur.** Double-cliquez sur le séparateur
@@ -204,7 +204,7 @@ la palette. Avant que vous ne tapiez quoi que ce soit, elle affiche :
 - **Créer** : un nouveau document. D’autres choix apparaissent à mesure que
   vous tapez.
 
-Dès que vous tapez, φ cherche dans tous les documents des trois modes, dans
+Dès que vous tapez, Poiesis cherche dans tous les documents des trois modes, dans
 les titres comme dans le texte. Chaque résultat indique le mode où il se
 trouve.
 

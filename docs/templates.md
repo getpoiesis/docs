@@ -17,7 +17,7 @@ the caret (the blinking text cursor) where you want to start typing.
    templates.
 3. Choose the template from the menu.
 
-φ inserts the template at the caret and fills in its variables (see
+φ Poiesis inserts the template at the caret and fills in its variables (see
 [Fill in dates and the caret](#fill-in-dates-and-the-caret)).
 
 In the menu, each template has one of two labels:
@@ -33,7 +33,7 @@ In the menu, each template has one of two labels:
 | The whole document | Press `⌘P`, choose **Save document as template…**, then name it. | Every vault. |
 | Part of a document | Select the part. In the toolbar that appears, press **›** (**More tools**), then **Save selection as template…**. Name it, then choose **All vaults** or **This vault only**. | Your choice. |
 
-Templates for every vault are kept by φ, outside your vaults. Adding or
+Templates for every vault are kept by Poiesis, outside your vaults. Adding or
 removing one does not change the files in your vault. Templates for one vault
 are kept inside that vault's folder. If you copy or move the vault, they go
 with it.
@@ -78,7 +78,7 @@ Below the lists:
 
 ## Fill in dates and the caret
 
-A variable is a short code in a template. φ replaces it each time you insert
+A variable is a short code in a template. Poiesis replaces it each time you insert
 the template. So the same template gives today's date today, and tomorrow's
 date tomorrow.
 

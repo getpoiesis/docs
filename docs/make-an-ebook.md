@@ -33,7 +33,7 @@ pages, no page numbers and no running heads.
 
 These parts of the design are kept:
 
-- the typefaces, which φ puts inside the file;
+- the typefaces, which φ Poiesis puts inside the file;
 - the way a chapter opens: the chapter number and title together, then a drop
   cap or the first words in small capitals;
 - the ornament between scenes;
@@ -52,7 +52,7 @@ things:
 - **An ISBN**, if you have one for the ebook. Add it as **ISBN (ebook)** in
   [Book details](./book-details). KDP and Google Play don't need one.
 
-φ also checks the EPUB against the EPUB standard while it makes the file.
+Poiesis also checks the EPUB against the EPUB standard while it makes the file.
 
 ## See also
 

@@ -1,15 +1,15 @@
 ---
 title: Mise en forme et blocs
-description: Toutes les mises en forme et tous les blocs de φ, et les façons d’insérer chacun.
+description: Toutes les mises en forme et tous les blocs de φ Poiesis, et les façons d’insérer chacun.
 ---
 
 # Mise en forme et blocs
 
-Cette page recense toutes les mises en forme et tous les blocs de φ. Pour
+Cette page recense toutes les mises en forme et tous les blocs de φ Poiesis. Pour
 chacun, elle indique à quoi il sert et comment l’ajouter.
 
 Un bloc est un élément de la page qui n’est pas du texte courant : un titre,
-une liste, une citation ou un tableau, par exemple. φ a aussi des blocs pour
+une liste, une citation ou un tableau, par exemple. Poiesis a aussi des blocs pour
 les livres et les poèmes : les vers, les sauts de scène, les épigraphes et les
 notes de bas de page.
 
@@ -46,7 +46,7 @@ y met fin, et le mot suivant s’écrit en texte normal.
 
 **Liens.**
 
-- Quand vous tapez ou collez une adresse web, φ en fait un lien.
+- Quand vous tapez ou collez une adresse web, Poiesis en fait un lien.
 - Pour modifier un lien, sélectionnez les mots liés et choisissez de nouveau
   **Lien**. Saisissez la nouvelle adresse.
 - Pour supprimer un lien, sélectionnez les mots liés, choisissez **Lien** et
@@ -54,7 +54,7 @@ y met fin, et le mot suivant s’écrit en texte normal.
 - Les liens s’ouvrent dans votre navigateur. Pendant que vous écrivez,
   maintenez `⌘` enfoncée et cliquez sur le lien.
 - Pour créer un lien vers un autre document de votre [coffre](./vaults) (le
-  dossier où φ range vos documents), utilisez un lien wiki. Voir
+  dossier où Poiesis range vos documents), utilisez un lien wiki. Voir
   [Liens et graphe](./links-and-graph).
 
 ## Titres, listes et citations {#headings-lists-and-quotes}
@@ -91,7 +91,7 @@ d’écriture → Modes** et activez **Listes de tâches** pour ce mode.
 la première sert d’en-tête. Faites glisser le bord d’une colonne pour
 l’élargir. Appuyez sur `Tab` pour passer à la cellule suivante.
 
-**Blocs de code.** φ colore le code selon le langage qu’il reconnaît. Pour
+**Blocs de code.** Poiesis colore le code selon le langage qu’il reconnaît. Pour
 choisir vous-même le langage, tapez son nom après les accents graves
 d’ouverture, par exemple ` ```python `. Appuyez sur `Tab` pour augmenter le
 retrait et sur `⇧Tab` pour le réduire. Pour changer le retrait, ouvrez
@@ -109,7 +109,7 @@ quand le document se trouve hors d’un projet.
 
 | Bloc | À quoi il sert | Pour l’insérer |
 | --- | --- | --- |
-| **Vers** | Les vers d’un poème. φ garde les lignes telles que vous les écrivez, à la même marge que le reste du texte. | `/verse` ou `⌥⌘V` |
+| **Vers** | Les vers d’un poème. Poiesis garde les lignes telles que vous les écrivez, à la même marge que le reste du texte. | `/verse` ou `⌥⌘V` |
 | **Saut de scène** | Un ornement centré entre deux scènes : **Astérisme** ⁂, **Étoiles** \* \* \*, **Fleuron** ❧ ou **Espace vide**. Placez le pointeur dessus pour en choisir un autre. | `/scene` |
 | **Épigraphe** | Une citation placée en ouverture, avec sa source sur la ligne du dessous. | `/epigraph` |
 | **Exergue** | Une phrase en grands caractères, pour la mettre en valeur. | `/pull-quote` |
@@ -130,7 +130,7 @@ Pour en savoir plus :
 
 | Bloc | À quoi il sert | Pour l’insérer |
 | --- | --- | --- |
-| **Image** | Une image avec sa légende. Sa barre d’outils permet de la placer à gauche, au centre, à droite ou en pleine largeur. Faites glisser son bord pour la redimensionner. φ copie le fichier dans votre coffre. | `/image`, ou `![alt](https://…)` |
+| **Image** | Une image avec sa légende. Sa barre d’outils permet de la placer à gauche, au centre, à droite ou en pleine largeur. Faites glisser son bord pour la redimensionner. Poiesis copie le fichier dans votre coffre. | `/image`, ou `![alt](https://…)` |
 | **Encadré** | Un cadre pour une remarque en marge du texte : info, astuce, avertissement ou danger. Placez le pointeur dessus pour choisir un autre type. | `/callout`, ou `> [!tip] ` |
 | **Date** | La date du jour, sous forme de pastille. La pastille relie le document à ce jour dans le [calendrier](./calendar). | `/date` |
 | **Date et heure** | Comme **Date**, avec l’heure en plus. | `/datetime` |
@@ -152,7 +152,7 @@ Vous pouvez aussi ajouter deux éléments au fil d’une ligne de texte :
 
 ## Écrire en Markdown {#writing-in-markdown}
 
-Quand vous tapez du Markdown, φ le transforme en mise en forme. Les tableaux
+Quand vous tapez du Markdown, Poiesis le transforme en mise en forme. Les tableaux
 ci-dessus donnent le Markdown de chaque mise en forme.
 
 **Voir le Markdown.** Activez **Réglages → Éditeur → Afficher le Markdown**.
@@ -161,12 +161,12 @@ mise en forme, sur la ligne où vous vous trouvez. Ils ne font jamais partie
 de votre texte.
 
 **Coller du Markdown.** Quand vous collez un texte copié depuis un éditeur
-Markdown ou une application de notes, φ le met en forme : titres, listes de
+Markdown ou une application de notes, Poiesis le met en forme : titres, listes de
 tâches, tableaux, citations, encadrés, code, liens, images et notes de bas de
 page. Ces dernières peuvent s’écrire `^[la note]`, ou bien `[^1]` accompagné
 d’une ligne `[^1]: la note`.
 
-φ comprend aussi le Markdown propre à d’autres applications de notes :
+Poiesis comprend aussi le Markdown propre à d’autres applications de notes :
 
 - `~texte~` devient du texte souligné.
 - `==🟢texte==` devient un surlignage vert.

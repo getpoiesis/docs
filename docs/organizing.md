@@ -5,7 +5,7 @@ description: Folders, tags, sorting, moving documents about, and getting things 
 
 # Organizing
 
-φ gives you four simple tools to organize your documents: folders, tags,
+φ Poiesis gives you four simple tools to organize your documents: folders, tags,
 stars, and a sort for every list. They change only how you find a document,
 never how it is written. Use as many or as few as you like.
 
@@ -50,7 +50,7 @@ There are four ways:
 - Click the list's **⋮**, then **New folder** (in Write or Notes).
 - Right-click a folder, then choose **New folder inside**.
 
-φ asks you to **Name the new folder**.
+Poiesis asks you to **Name the new folder**.
 
 ### A folder's menu
 
@@ -99,7 +99,7 @@ tags.
   press Return.
 - **Remove a tag**: click the **×** on the tag.
 - **See a tag's notes**: click the tag in Details, or under **Tags** in the
-  Notes sidebar. φ lists every note with that tag.
+  Notes sidebar. Poiesis lists every note with that tag.
 
 ## Sort and search a list
 

@@ -112,7 +112,7 @@ archived card to the board, open it and choose **Put back on the board**.
    choose **Tasks**. It lists every checklist item in the note.
 3. Press **Track** beside an item. Choose a tasks board, or make a new one.
 
-φ makes a card that links back to the note. The item and the card now change
+φ Poiesis makes a card that links back to the note. The item and the card now change
 together:
 
 - Tick the item, and the card moves to the last column.
@@ -145,7 +145,7 @@ card.
 
 ## A project's chapter board
 
-Every project has one board that φ makes for you. It shows the project's
+Every project has one board that Poiesis makes for you. It shows the project's
 chapters as cards, in four status columns: **Todo**, **Draft**, **Revised**
 and **Final**. Drag a card to another column, and the chapter's status
 changes.

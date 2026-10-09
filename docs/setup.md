@@ -1,14 +1,14 @@
 ---
 title: Setting up
-description: Choose what φ tells you about your writing, and which places each mode offers.
+description: Choose what φ Poiesis tells you about your writing, and which places each mode offers.
 ---
 
 # Setting up
 
 In **Settings → Setup** you choose two things:
 
-- What φ tells you about your writing, such as your streak, a weekly pace
-  and readability. φ calls these **signals**.
+- What φ Poiesis tells you about your writing, such as your streak, a weekly pace
+  and readability. Poiesis calls these **signals**.
 - Which places each mode (**Write**, **Notes**, **Journal**) lists in its
   sidebar.
 
@@ -21,7 +21,7 @@ can each show only what they need.
 1. Open **Settings**: press `⌘,`, or click the sliders beside the vault's
    name.
 2. Choose **Setup**.
-3. Under **Signals**, choose what φ tells you about your writing.
+3. Under **Signals**, choose what Poiesis tells you about your writing.
 4. Under **Modes**, click **Write**, **Notes** or **Journal** to choose the
    places that mode offers.
 5. To use the same setup in another vault, click **Save as…** under **Saved
@@ -33,7 +33,7 @@ can each show only what they need.
 Your changes apply to the vault you are in. A new vault starts with the
 defaults shown below.
 
-## Choose what φ tells you
+## Choose what Poiesis tells you
 
 | Signal | What it does | Starts as |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ defaults shown below.
 | **Readability statistics** | Adds reading grade and sentence length to a document's **Document stats**. To open them, click the word count in the corner of the page, then click it again. | Off |
 | **Streak** | How your writing streak shows on Home and in the calendar: **Flame and count**, **Plain days**, or **Off**. | **Flame and count** |
 | **Week starts on** | The first day of the week. The calendar and your weekly pace use it. This setting applies to every vault. | Monday |
-| **Weekly pace** | A target number of writing days in a week: **None**, or **1/week** to **7/week**. φ counts the last seven days, so one missed day does not reset it. | **None** |
+| **Weekly pace** | A target number of writing days in a week: **None**, or **1/week** to **7/week**. Poiesis counts the last seven days, so one missed day does not reset it. | **None** |
 
 A day counts toward your streak when you write a minimum number of words.
 You set that number in **Settings → Editor → Writing streak → Minimum words

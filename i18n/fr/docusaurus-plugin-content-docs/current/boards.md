@@ -125,7 +125,7 @@ choisissez **Remettre sur le tableau**.
 3. Cliquez sur **Suivre** à côté d’un élément. Choisissez un tableau de
    tâches, ou créez-en un.
 
-φ crée une carte qui renvoie à la note. L’élément et la carte évoluent
+φ Poiesis crée une carte qui renvoie à la note. L’élément et la carte évoluent
 désormais ensemble :
 
 - Cochez l’élément, et la carte passe dans la dernière colonne.
@@ -159,7 +159,7 @@ carte.
 
 ## Le tableau des chapitres d’un projet {#a-projects-chapter-board}
 
-Chaque projet a un tableau que φ crée pour vous. Il présente les chapitres du
+Chaque projet a un tableau que Poiesis crée pour vous. Il présente les chapitres du
 projet sous forme de cartes, dans quatre colonnes de statut : **À faire**,
 **Brouillon**, **Révisé** et **Final**. Faites glisser une carte dans une
 autre colonne, et le statut du chapitre change.

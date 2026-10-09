@@ -1,14 +1,14 @@
 ---
 title: Versiones y copias de seguridad
-description: Cómo guarda φ mientras escribes, cómo conserva versiones anteriores que puedes comparar y restaurar, y cómo respalda tu historial en un lugar que es tuyo.
+description: Cómo guarda φ Poiesis mientras escribes, cómo conserva versiones anteriores que puedes comparar y restaurar, y cómo respalda tu historial en un lugar que es tuyo.
 ---
 
 # Versiones y copias de seguridad
 
-φ guarda tu trabajo mientras escribes. Además lleva un historial de cada
+φ Poiesis guarda tu trabajo mientras escribes. Además lleva un historial de cada
 documento, así que siempre puedes volver a un borrador anterior.
 
-Si quieres tener una copia fuera de tu ordenador, φ puede enviar ese historial
+Si quieres tener una copia fuera de tu ordenador, Poiesis puede enviar ese historial
 a una copia de seguridad que te pertenece. Nada sale de tu ordenador si tú no
 lo configuras.
 
@@ -28,20 +28,20 @@ instante antes de un gran recorte.
 La instantánea aparece en la pestaña **Historial** del documento, con la marca
 **Snapshot**.
 
-## Cómo conserva φ tu trabajo {#how-φ-keeps-your-work}
+## Cómo conserva Poiesis tu trabajo {#how-Poiesis-keeps-your-work}
 
-- **φ guarda cada cambio.** Lo hace un momento después de que dejes de escribir. Mientras guarda, al pie de la barra lateral se lee **Guardando…**.
+- **Poiesis guarda cada cambio.** Lo hace un momento después de que dejes de escribir. Mientras guarda, al pie de la barra lateral se lee **Guardando…**.
   No hay botón de guardar.
-- **φ crea puntos de control por ti.** Un punto de control es una versión que
-  φ crea sin que se lo pidas. Crea uno cada cinco minutos mientras trabajas, al
+- **Poiesis crea puntos de control por ti.** Un punto de control es una versión que
+  Poiesis crea sin que se lo pidas. Crea uno cada cinco minutos mientras trabajas, al
   cerrar la ventana y cuando actualiza tus documentos a un formato de archivo
   nuevo. Para cambiar la frecuencia, abre **Ajustes** (`⌘,`) → **Versiones** →
   **Punto de control automático cada**.
 - **`⌘S` guarda al instante y crea un punto de control.** Úsalo cuando quieras
   una versión de un momento que eliges tú.
-- **φ guarda una versión antes de un cambio en toda la bóveda.** La bóveda es
+- **Poiesis guarda una versión antes de un cambio en toda la bóveda.** La bóveda es
   la carpeta que contiene tu trabajo. Cuando reemplazas una palabra en todos
-  los documentos (consulta [Buscar y reemplazar](./search-and-replace)), φ
+  los documentos (consulta [Buscar y reemplazar](./search-and-replace)), Poiesis
   guarda primero una versión de la bóveda entera. Así puedes deshacer el
   cambio.
 
@@ -80,10 +80,10 @@ barra que dice **Previsualizando la versión**. Puedes leerla, pero no editarla.
 | Botón | Qué hace |
 | --- | --- |
 | **Mostrar cambios** | Marca las diferencias con el documento tal como está ahora. Puedes alternar entre **Lado a lado** y **En el contenido**. Con **En el contenido**, **Cambios de metadatos** enumera además los cambios en el título, las etiquetas, el estado y otros datos parecidos. **Ocultar cambios** quita las marcas. |
-| **Restaurar** | Convierte esta versión de nuevo en el documento. Antes, φ guarda el documento actual como una versión nueva, así que no se pierde nada. |
+| **Restaurar** | Convierte esta versión de nuevo en el documento. Antes, Poiesis guarda el documento actual como una versión nueva, así que no se pierde nada. |
 | **Volver al actual** | Vuelve al documento tal como está ahora. `Esc` hace lo mismo. |
 
-φ marca los cambios letra por letra. Si prefieres que marque palabras enteras,
+Poiesis marca los cambios letra por letra. Si prefieres que marque palabras enteras,
 elige **Palabra** en **Ajustes** → **Editor** → **Detalle de diferencias**.
 
 ## Elegir dónde se guarda el historial {#choose-where-history-is-kept}
@@ -96,15 +96,15 @@ Cada bóveda guarda su historial de una de estas dos maneras. Se elige en
 | **Nativo** | El predeterminado. No hay que instalar nada. Conserva hasta 50 versiones de cada documento y va eliminando las más antiguas. Ese número se cambia en **Límite de historial local**. |
 | **Git** | Historial sin límite y una copia de seguridad en un lugar que es tuyo. Git es un programa aparte, gratuito, que sirve para llevar historiales. Puedes elegir esta opción cuando git esté instalado en tu ordenador; hasta entonces, la opción dice **Git (requiere git)**. |
 
-Piénsalo antes de pasar una bóveda a git: φ no puede devolverla al sistema
-anterior por ti. Antes del cambio, φ te lo explica en **¿Convertir esta bóveda
+Piénsalo antes de pasar una bóveda a git: Poiesis no puede devolverla al sistema
+anterior por ti. Antes del cambio, Poiesis te lo explica en **¿Convertir esta bóveda
 a git?**. El historial que ya tienes pasa al nuevo sistema. Para volver más
 adelante a **Nativo**, tendrás que borrar tú la carpeta `.git` de la
 bóveda.
 
 ### Bóvedas en una carpeta en la nube {#vaults-in-a-cloud-folder}
 
-Si la bóveda está en una carpeta en la nube, como iCloud Drive o Dropbox, φ
+Si la bóveda está en una carpeta en la nube, como iCloud Drive o Dropbox, Poiesis
 guarda el historial de git en este ordenador, fuera de la bóveda. Los servicios
 de sincronización copian los archivos de uno en uno y en cualquier orden, y eso
 puede estropear un historial de git. Tus documentos no corren peligro: cada
@@ -112,27 +112,27 @@ documento es un solo archivo.
 
 ### iPhone y iPad {#iphone-and-ipad}
 
-φ para iPhone y iPad (próximamente) usa la misma bóveda, pero nunca ejecuta
+Poiesis para iPhone y iPad (próximamente) usa la misma bóveda, pero nunca ejecuta
 git. Las versiones que se crean allí se guardan en la carpeta
 `.poiesis-history` de la bóveda. Las dos aplicaciones usan esa carpeta.
 
 ## Respaldar tu historial con git {#back-up-your-history-with-git}
 
-Con git, φ puede enviar tu historial a un repositorio privado en un servicio
+Con git, Poiesis puede enviar tu historial a un repositorio privado en un servicio
 como GitHub o GitLab. Un repositorio es el lugar donde se almacena un historial
 de git. De este modo existe una copia en otro sitio, además de tu ordenador.
 
 1. Crea un repositorio privado y vacío en GitHub, en GitLab o en otro servicio
    de git.
 2. Copia su dirección. Tiene este aspecto: `git@github.com:you/novel.git`.
-3. En φ, abre **Ajustes** → **Versiones** y pasa la bóveda a **Git**.
+3. En Poiesis, abre **Ajustes** → **Versiones** y pasa la bóveda a **Git**.
 4. En **Respaldo en git**, pega la dirección en **URL del remoto de respaldo**.
 5. Activa **Push automático de respaldos**.
 6. Elige un valor en **Push cada**. Al principio son 15 minutos.
 7. Pulsa **Hacer push ahora** para enviar la primera copia.
 
-φ envía el historial en segundo plano. Un servicio lento o que no responde
-nunca te impide escribir. Si un envío tarda más de dos minutos, φ lo
+Poiesis envía el historial en segundo plano. Un servicio lento o que no responde
+nunca te impide escribir. Si un envío tarda más de dos minutos, Poiesis lo
 interrumpe y lo intenta de nuevo la próxima vez.
 
 **Respaldar ahora** muestra cómo está la copia de seguridad: **Al día con el
@@ -145,9 +145,9 @@ mantener este trabajo separado de su cuenta principal de git:
 
 | Ajuste | Para qué sirve |
 | --- | --- |
-| **Nombre del commit** y **Correo del commit** | El nombre y el correo que quedan registrados en el historial. Si los dejas en blanco, φ usa la identidad de git de tu ordenador. |
-| **Ruta de la clave SSH** | La clave privada con la que φ envía el historial, por ejemplo `~/.ssh/id_ed25519`. Con ella, φ puede enviar como otra cuenta. El archivo de la clave solo debes poder leerlo tú (`chmod 600`). |
-| **URL del remoto de respaldo** | Si la dejas en blanco, φ usa el `origin` que ya tenga el repositorio. |
+| **Nombre del commit** y **Correo del commit** | El nombre y el correo que quedan registrados en el historial. Si los dejas en blanco, Poiesis usa la identidad de git de tu ordenador. |
+| **Ruta de la clave SSH** | La clave privada con la que Poiesis envía el historial, por ejemplo `~/.ssh/id_ed25519`. Con ella, Poiesis puede enviar como otra cuenta. El archivo de la clave solo debes poder leerlo tú (`chmod 600`). |
+| **URL del remoto de respaldo** | Si la dejas en blanco, Poiesis usa el `origin` que ya tenga el repositorio. |
 | **Firmar commits** | Firma cada commit con una clave **SSH** o **GPG**, para que el servicio lo muestre como verificado. |
 
 :::tip Usa un repositorio privado

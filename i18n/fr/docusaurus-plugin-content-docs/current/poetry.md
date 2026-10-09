@@ -5,7 +5,7 @@ description: Des vers qui gardent leurs lignes, des strophes, des épigraphes et
 
 # Poésie et vers
 
-Pour écrire un poème, utilisez un bloc **Vers**. φ garde vos retours à la
+Pour écrire un poème, utilisez un bloc **Vers**. φ Poiesis garde vos retours à la
 ligne, vos strophes et vos retraits exactement tels que vous les écrivez, et
 chaque export les imprime à l’identique.
 
@@ -40,7 +40,7 @@ arrêté.
 
 - **Les retraits sont conservés.** Si vous commencez un vers par des espaces
   ou par `Tab`, il garde ce retrait sur la page et dans tous les exports.
-- **Les vers ne sont ni justifiés ni coupés.** φ n’étire pas une ligne et ne
+- **Les vers ne sont ni justifiés ni coupés.** Poiesis n’étire pas une ligne et ne
   coupe pas un mot.
 - **Un vers trop long pour la page imprimée** se poursuit sur la ligne
   suivante, en retrait. C’est ainsi que les éditeurs impriment la poésie.
@@ -75,7 +75,7 @@ Une épigraphe est une citation placée en tête d’un texte.
 4. Indiquez-y la source.
 
 Pour placer une épigraphe en ouverture du livre entier, ajoutez-la dans les
-[Détails du livre](./book-details) du projet. φ l’imprime alors sur une page
+[Détails du livre](./book-details) du projet. Poiesis l’imprime alors sur une page
 à part.
 
 ## Détacher une ligne {#set-a-line-apart}

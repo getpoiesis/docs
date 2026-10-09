@@ -19,7 +19,7 @@ voulez commencer à taper.
    modèles.
 3. Choisissez le modèle dans le menu des blocs.
 
-φ insère le modèle à l’emplacement du curseur et remplit ses variables (voir
+φ Poiesis insère le modèle à l’emplacement du curseur et remplit ses variables (voir
 [Remplir les dates et placer le curseur](#fill-in-dates-and-the-caret)).
 
 Dans le menu, chaque modèle porte l’une de ces deux mentions :
@@ -36,7 +36,7 @@ Dans le menu, chaque modèle porte l’une de ces deux mentions :
 | Le document entier | Appuyez sur `⌘P`, choisissez **Enregistrer le document comme modèle…**, puis donnez-lui un nom. | Tous les coffres. |
 | Une partie d’un document | Sélectionnez cette partie. Dans la barre d’outils qui apparaît, cliquez sur **›** (**Plus d’outils**), puis sur **Enregistrer la sélection comme modèle…**. Donnez-lui un nom, puis choisissez **Tous les coffres** ou **Ce coffre uniquement**. | Au choix. |
 
-Les modèles valables pour tous les coffres sont conservés par φ, en dehors de
+Les modèles valables pour tous les coffres sont conservés par Poiesis, en dehors de
 vos coffres. En ajouter ou en supprimer un ne change rien aux fichiers de
 votre coffre. Les modèles propres à un coffre sont conservés dans le dossier
 de ce coffre. Si vous copiez ou déplacez le coffre, ils le suivent.
@@ -84,7 +84,7 @@ pour le supprimer. Sous les listes :
 
 ## Remplir les dates et placer le curseur {#fill-in-dates-and-the-caret}
 
-Une variable est un code court placé dans un modèle. φ la remplace chaque
+Une variable est un code court placé dans un modèle. Poiesis la remplace chaque
 fois que vous insérez le modèle. Le même modèle donne ainsi
 toujours la date du jour où vous l’insérez.
 

@@ -7,7 +7,7 @@ description: Qué llevan la portada, la página de créditos y las páginas de a
 
 Algunas páginas de un libro terminado no son capítulos: la portada, la
 página de créditos, una dedicatoria, una página «Otros títulos». Estas
-páginas no las escribes tú. φ las compone con los **Datos del libro** del
+páginas no las escribes tú. φ Poiesis las compone con los **Datos del libro** del
 proyecto, y así dicen lo mismo en todos los formatos que exportes.
 
 <img src="/img/app/manuscript-light.png" alt="La página de un libro: su cubierta, el título y el autor, la descripción, los ajustes y Datos del libro" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -22,7 +22,7 @@ proyecto, y así dicen lo mismo en todos los formatos que exportes.
    descripción va en la contracubierta.
 4. Abre **Datos del libro**, más abajo en la página.
 5. Rellena los campos que necesites. Todos son opcionales. Si una página se
-   queda sin contenido, φ no la incluye.
+   queda sin contenido, Poiesis no la incluye.
 
 ## Qué va en cada sitio {#what-goes-where}
 
@@ -40,10 +40,10 @@ proyecto, y así dicen lo mismo en todos los formatos que exportes.
 «Sobre el autor» sale del perfil del primer autor: su biografía y su foto.
 
 Si lo prefieres, escribe la dedicatoria o el epígrafe como un documento más,
-en las páginas preliminares del proyecto. En los dos casos, φ lo coloca en
+en las páginas preliminares del proyecto. En los dos casos, Poiesis lo coloca en
 una página propia.
 
-φ comprueba el ISBN mientras lo escribes, y te avisa si algún dígito parece
+Poiesis comprueba el ISBN mientras lo escribes, y te avisa si algún dígito parece
 incorrecto.
 
 ## Ver también {#see-also}

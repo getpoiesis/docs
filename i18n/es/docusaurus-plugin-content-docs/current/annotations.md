@@ -5,7 +5,7 @@ description: Resalta un pasaje, coméntalo y guarda junto al texto tus notas sob
 
 # Anotaciones y notas al margen
 
-φ te ofrece dos formas de dejarte notas sobre un documento:
+φ Poiesis te ofrece dos formas de dejarte notas sobre un documento:
 
 - Una **anotación** se refiere a un pasaje concreto. Puedes resaltar el
   pasaje, comentarlo o las dos cosas.
@@ -57,7 +57,7 @@ comentario.
 
 | Para | Haz esto |
 | --- | --- |
-| Ir al pasaje | Haz clic en el pasaje citado. φ se desplaza hasta él y lo selecciona. |
+| Ir al pasaje | Haz clic en el pasaje citado. Poiesis se desplaza hasta él y lo selecciona. |
 | Escribir o cambiar el comentario | Escribe en el cuadro de la tarjeta (**Añadir una nota…**). |
 | Cambiarle el color | Elige otro color o **Color personalizado**. Elige **Sin resaltado (comentario)** para quedarte solo con el comentario. |
 | Darla por terminada | Haz clic en la marca de verificación (**Marcar como resuelta**). Una anotación resuelta se ve atenuada, pero se conserva. **Marcar como no resuelta** la vuelve a abrir. |

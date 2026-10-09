@@ -93,7 +93,7 @@ pour ce jour.*
 1. Cliquez sur aujourd’hui ou sur n’importe quel jour passé.
 2. Appuyez sur **Écrire ce jour**.
 
-φ ouvre l’entrée de journal de ce jour-là. Si elle n’existe pas encore, il la
+φ Poiesis ouvre l’entrée de journal de ce jour-là. Si elle n’existe pas encore, il la
 crée.
 
 Un jour à venir ne peut pas encore avoir d’entrée de journal. Rien ne vous

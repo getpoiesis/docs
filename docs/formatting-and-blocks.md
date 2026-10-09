@@ -1,15 +1,15 @@
 ---
 title: Formatting & blocks
-description: Every kind of formatting and block φ has, and the ways to insert each one.
+description: Every kind of formatting and block φ Poiesis has, and the ways to insert each one.
 ---
 
 # Formatting & blocks
 
-This page lists every kind of formatting and every block in φ. For each
+This page lists every kind of formatting and every block in φ Poiesis. For each
 one, it says what it is for and how to add it.
 
 A block is a piece of the page that is not plain text, such as a heading, a
-list, a quote or a table. φ also has blocks for books and poems: verse,
+list, a quote or a table. Poiesis also has blocks for books and poems: verse,
 scene breaks, epigraphs and footnotes.
 
 ## Format as you write
@@ -44,7 +44,7 @@ so the next word is plain.
 
 **Links.**
 
-- When you type or paste a web address, φ makes it a link.
+- When you type or paste a web address, Poiesis makes it a link.
 - To change a link, select the linked words and choose **Link** again.
   Type a new address.
 - To remove a link, select the linked words, choose **Link**, and clear the
@@ -52,7 +52,7 @@ so the next word is plain.
 - Links open in your browser. While you are editing, hold `⌘` and click the
   link.
 - To link to another document in your [vault](./vaults) (the folder where
-  φ keeps your documents), use a wiki link. See
+  Poiesis keeps your documents), use a wiki link. See
   [Links & the graph](./links-and-graph).
 
 ## Headings, lists and quotes
@@ -87,7 +87,7 @@ in Notes and on research pages. To have them in another mode, open
 is a header. Drag the edge of a column to make it wider. Press `Tab` to go
 to the next cell.
 
-**Code blocks.** φ colours the code for the language it recognises. To
+**Code blocks.** Poiesis colours the code for the language it recognises. To
 choose the language yourself, type its name after the opening fence, for
 example ` ```python `. Press `Tab` to indent and `⇧Tab` to outdent. To
 change the indent, open **Settings → Editor → Code** and set **Indent
@@ -104,7 +104,7 @@ the document is outside a project.
 
 | Block | What it's for | Insert with |
 | --- | --- | --- |
-| **Verse** | The lines of a poem. φ keeps the lines as you write them, at the same margin as the rest of the text. | `/verse` or `⌥⌘V` |
+| **Verse** | The lines of a poem. Poiesis keeps the lines as you write them, at the same margin as the rest of the text. | `/verse` or `⌥⌘V` |
 | **Scene break** | A centred ornament between scenes: **Asterism** ⁂, **Stars** \* \* \*, **Fleuron** ❧ or **Blank space**. Point at it to choose another. | `/scene` |
 | **Epigraph** | A quotation at the start, with its source on a line below. | `/epigraph` |
 | **Pull-quote** | A line in large type, for emphasis. | `/pull-quote` |
@@ -124,7 +124,7 @@ To learn more:
 
 | Block | What it's for | Insert with |
 | --- | --- | --- |
-| **Image** | A picture with a caption. Use its toolbar to place it left, centre, right or full width. Drag its edge to resize it. φ copies the file into your vault. | `/image`, or `![alt](https://…)` |
+| **Image** | A picture with a caption. Use its toolbar to place it left, centre, right or full width. Drag its edge to resize it. Poiesis copies the file into your vault. | `/image`, or `![alt](https://…)` |
 | **Callout** | A box for a side note: info, tip, warning or danger. Point at it to choose another kind. | `/callout`, or `> [!tip] ` |
 | **Date** | Today's date, shown as a chip. The chip links the document to that day in the [calendar](./calendar). | `/date` |
 | **Date & time** | The same as **Date**, with the time. | `/datetime` |
@@ -145,7 +145,7 @@ You can also add two things inside a line of text:
 
 ## Writing in Markdown
 
-When you type Markdown, φ changes it into formatting. The tables above show
+When you type Markdown, Poiesis changes it into formatting. The tables above show
 the Markdown for each kind of formatting.
 
 **Seeing the Markdown.** Turn on **Settings → Editor → Show Markdown**. The
@@ -153,11 +153,11 @@ markers (`**`, `#`, `[ ]( )`) then show faintly around the formatting in
 the line you are on. The markers are never part of your text.
 
 **Pasting Markdown.** When you paste text copied from a Markdown editor or
-a notes app, φ formats it. It formats headings, checklists, tables, quotes,
+a notes app, Poiesis formats it. It formats headings, checklists, tables, quotes,
 callouts, code, links, pictures and footnotes. Footnotes can be written
 `^[the note]`, or `[^1]` with a `[^1]: the note` line.
 
-φ also understands the Markdown that other notes apps write:
+Poiesis also understands the Markdown that other notes apps write:
 
 - `~text~` becomes underlined text.
 - `==🟢text==` becomes a green highlight.

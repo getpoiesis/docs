@@ -5,7 +5,7 @@ description: La barra lateral, la lista, la página y el panel de Información, 
 
 # Un recorrido por la ventana
 
-La ventana de φ tiene tres columnas, de izquierda a derecha:
+La ventana de φ Poiesis tiene tres columnas, de izquierda a derecha:
 
 - La **barra lateral**, donde eliges un modo y un lugar dentro de él.
 - La **lista**, que muestra lo que hay en ese lugar.
@@ -14,7 +14,7 @@ La ventana de φ tiene tres columnas, de izquierda a derecha:
 A la derecha de la página puedes abrir además el panel de **Información**, que
 muestra los datos del documento abierto.
 
-φ tiene tres modos: **Escribir**, **Notas** y **Diario**. Cada uno tiene su
+Poiesis tiene tres modos: **Escribir**, **Notas** y **Diario**. Cada uno tiene su
 propia pantalla de entrada, llamada **Inicio**.
 
 <img src="/img/app/editor-light.png" alt="La barra lateral con el modo Escribir elegido, los capítulos de The Weighing House en la lista de al lado y un capítulo abierto en la página" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -76,7 +76,7 @@ diario, los tableros o la papelera.
 
 En la parte superior de la lista:
 
-- **‹ ›** van atrás y adelante. A su lado, φ indica dónde estás; por ejemplo,
+- **‹ ›** van atrás y adelante. A su lado, Poiesis indica dónde estás; por ejemplo,
   **Escribir · Proyectos**.
 - **El título** dice qué muestra la lista.
 - **El orden** aparece en las piezas y en las notas: **Editado**, **Creado** o
@@ -95,7 +95,7 @@ la investigación tienen un campo de búsqueda debajo del título. La lista se v
 acortando a medida que escribes. Pulsa `Esc` para borrar la búsqueda.
 
 **Anotar una idea.** **Todas las notas**, las carpetas y las etiquetas tienen
-un cuadro **Anota una idea…**. Escribe una línea y pulsa `Intro`. φ la guarda
+un cuadro **Anota una idea…**. Escribe una línea y pulsa `Intro`. Poiesis la guarda
 como nota, en la carpeta o con la etiqueta que tienes abierta. En **Todas las
 notas** o en una carpeta, si la línea lleva una palabra con almohadilla, como
 `#idea`, la nota recibe esa etiqueta.
@@ -148,14 +148,14 @@ Algunos documentos muestran otras pestañas:
 - Las páginas propias de un proyecto muestran el **Proyecto**.
 
 **Abierto y cerrado.** El panel se queda abierto hasta que lo cierras. Una vez
-cerrado, sigue cerrado en todos los documentos, incluso después de salir de φ,
+cerrado, sigue cerrado en todos los documentos, incluso después de salir de Poiesis,
 hasta que vuelvas a abrirlo. Si la ventana es demasiado estrecha para
-mostrarlo todo, φ oculta el panel sin cerrarlo. Ensancha la ventana y el panel
+mostrarlo todo, Poiesis oculta el panel sin cerrarlo. Ensancha la ventana y el panel
 vuelve.
 
 **Cambiar los anchos.** Arrastra la línea divisoria que hay entre dos columnas
 para ensancharlas o estrecharlas. También puedes llegar a la divisoria con el
-teclado y pulsar las teclas de flecha. φ recuerda los anchos de cada bóveda.
+teclado y pulsar las teclas de flecha. Poiesis recuerda los anchos de cada bóveda.
 
 **Cerrar el panel con su divisoria.** Haz doble clic en la divisoria del panel
 de Información, o arrástrala hasta dejarlo casi cerrado.
@@ -197,7 +197,7 @@ paleta. Antes de que escribas nada, muestra:
   escribes.
 - **Crear**: un documento nuevo. Aparecen más opciones a medida que escribes.
 
-Cuando escribes, φ busca en todos los documentos de los tres modos, tanto en
+Cuando escribes, Poiesis busca en todos los documentos de los tres modos, tanto en
 los títulos como en el texto. Cada resultado indica en qué modo está.
 
 | Tecla | Qué hace |

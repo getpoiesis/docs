@@ -5,7 +5,7 @@ description: The sidebar, the list, the page and the Info panel, and the keys th
 
 # A tour of the window
 
-φ's window has three columns, from left to right:
+φ Poiesis's window has three columns, from left to right:
 
 - The **sidebar**, where you choose a mode and a place in it.
 - The **list**, which shows what is in that place.
@@ -14,7 +14,7 @@ description: The sidebar, the list, the page and the Info panel, and the keys th
 You can also open an **Info** panel on the right of the page. It shows
 details about the open document.
 
-φ has three modes: **Write**, **Notes** and **Journal**. Each mode has its
+Poiesis has three modes: **Write**, **Notes** and **Journal**. Each mode has its
 own start screen, called **Home**.
 
 <img src="/img/app/editor-light.png" alt="The sidebar with Write chosen, The Weighing House's chapters listed beside it, and a chapter open on the page" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -71,7 +71,7 @@ the trash.
 
 At the top of the list:
 
-- **‹ ›** go back and forward. Beside them, φ shows where you are, for
+- **‹ ›** go back and forward. Beside them, Poiesis shows where you are, for
   example **Write · Projects**.
 - **The title** names what the list shows.
 - **The sort** appears on pieces and notes: **Edited**, **Created** or
@@ -88,7 +88,7 @@ search field under the title. The list gets shorter as you type. Press `Esc`
 to clear the search.
 
 **Capture a thought.** **All notes**, a folder and a tag have a **Capture a
-thought…** box. Type a line and press `Enter`. φ saves the line as a note,
+thought…** box. Type a line and press `Enter`. Poiesis saves the line as a note,
 in the folder or with the tag you are looking at. In **All notes** or a
 folder, a `#word` in the line adds that tag to the note.
 
@@ -138,14 +138,14 @@ Some documents show different tabs:
 - A project's own pages show the **Project**.
 
 **Open and closed.** The panel stays open until you close it. After you
-close it, it stays closed for every document, even after you quit φ, until
-you open it again. If the window is too narrow to show everything, φ hides
+close it, it stays closed for every document, even after you quit Poiesis, until
+you open it again. If the window is too narrow to show everything, Poiesis hides
 the panel without closing it. Make the window wider and the panel comes
 back.
 
 **Change the widths.** Drag the thin divider between two columns to make
 them wider or narrower. You can also move to the divider with the keyboard
-and press the arrow keys. φ remembers the widths for each vault.
+and press the arrow keys. Poiesis remembers the widths for each vault.
 
 **Close the panel with its divider.** Double-click the Info panel's divider,
 or drag it most of the way closed.
@@ -185,7 +185,7 @@ type, it shows:
 - **Go to**: Home, the modes and the places. More appear as you type.
 - **Create**: a new document. More choices appear as you type.
 
-When you type, φ searches every document in all three modes. It searches the
+When you type, Poiesis searches every document in all three modes. It searches the
 titles and the text. Each result says which mode it is in.
 
 | Key | What it does |

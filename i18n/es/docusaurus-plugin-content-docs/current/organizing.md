@@ -5,7 +5,7 @@ description: Carpetas, etiquetas, orden de las listas, cómo mover documentos y 
 
 # Organizar
 
-φ te da cuatro herramientas sencillas para organizar tus documentos:
+φ Poiesis te da cuatro herramientas sencillas para organizar tus documentos:
 carpetas, etiquetas, estrellas y un orden para cada lista. Solo cambian la
 forma de encontrar un documento, nunca lo que hay escrito en él. Usa todas,
 algunas o ninguna.
@@ -56,7 +56,7 @@ Hay cuatro formas:
   o en Notas).
 - Haz clic derecho en una carpeta y elige **Nueva carpeta dentro**.
 
-φ te pide el **Nombre de la nueva carpeta**.
+Poiesis te pide el **Nombre de la nueva carpeta**.
 
 ### El menú de una carpeta {#a-folders-menu}
 
@@ -107,7 +107,7 @@ llevar todas las etiquetas que quieras.
   **+ Etiqueta** y pulsa `Intro`.
 - **Quitar una etiqueta**: haz clic en la **×** de la etiqueta.
 - **Ver las notas de una etiqueta**: haz clic en la etiqueta en Detalles, o
-  en **Etiquetas** de la barra lateral de Notas. φ muestra todas las notas
+  en **Etiquetas** de la barra lateral de Notas. Poiesis muestra todas las notas
   que la llevan.
 
 ## Ordenar una lista y buscar en ella {#sort-and-search-a-list}

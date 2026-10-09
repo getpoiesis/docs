@@ -5,7 +5,7 @@ description: Lisez sur Mac, Windows ou Linux les pages écrites à la main sur u
 
 # Pages manuscrites
 
-Avec φ sur iPad ou sur une tablette Android (bientôt disponible), vous
+Avec φ Poiesis sur iPad ou sur une tablette Android (bientôt disponible), vous
 pouvez écrire un document à la main avec un stylet, sur papier ligné,
 pointillé, quadrillé ou blanc.
 
@@ -29,11 +29,11 @@ Un document manuscrit a deux vues. Choisissez-en une en haut de la page :
 
 Un document manuscrit n’a qu’un texte. Tant que vous ne le modifiez pas, il
 suit votre écriture : quand une tablette lit de nouveaux mots sur les pages,
-le texte se met à jour. Une fois que vous l’avez modifié, φ ne le change
+le texte se met à jour. Une fois que vous l’avez modifié, Poiesis ne le change
 plus de lui-même. Sur la tablette, **Mettre à jour depuis l’écriture** le
 remet en accord avec les pages.
 
-Tant qu’un document est ouvert, φ se souvient de la vue choisie.
+Tant qu’un document est ouvert, Poiesis se souvient de la vue choisie.
 
 ## Versions antérieures {#earlier-versions}
 
@@ -47,16 +47,16 @@ version :
   ont été retirés apparaissent en transparence.
 - **Restaurer** rétablit les pages et le texte ensemble.
 
-Les versions enregistrées avant φ 0.19 n’ont gardé que le texte. Elles
+Les versions enregistrées avant Poiesis 0.19 n’ont gardé que le texte. Elles
 l’indiquent, et en restaurer une laisse les pages telles qu’elles sont.
 
 ## Couleurs {#colours}
 
-L’encre noire et l’ardoise propre à φ changent avec votre
+L’encre noire et l’ardoise propre à Poiesis changent avec votre
 [thème de couleur](themes-and-languages). Par exemple, une page écrite en
 noir s’affiche en blanc avec un thème sombre.
 
-Les autres couleurs ne changent pas. Sur une page sombre, φ les éclaircit un
+Les autres couleurs ne changent pas. Sur une page sombre, Poiesis les éclaircit un
 peu pour qu’elles restent lisibles.
 
 ## Une page illisible {#a-page-that-cant-be-read}
@@ -69,8 +69,8 @@ s’affiche aussi sur l’ordinateur.
 
 ## Où sont rangées les pages {#where-the-pages-live}
 
-φ garde les pages manuscrites dans votre [coffre](vaults), avec le document.
-Un coffre est le dossier où φ range vos documents. Les pages se
+Poiesis garde les pages manuscrites dans votre [coffre](vaults), avec le document.
+Un coffre est le dossier où Poiesis range vos documents. Les pages se
 synchronisent avec le document.
 
 Les pages suivent aussi le document quand vous le mettez à la corbeille, le

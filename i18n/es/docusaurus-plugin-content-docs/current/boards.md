@@ -122,7 +122,7 @@ tablero**.
 3. Pulsa **Seguir** junto a una tarea. Elige un tablero de tareas o crea
    uno nuevo.
 
-φ crea una tarjeta que enlaza con la nota. Desde ese momento, la tarea y la
+φ Poiesis crea una tarjeta que enlaza con la nota. Desde ese momento, la tarea y la
 tarjeta cambian a la vez:
 
 - Si marcas la tarea, la tarjeta pasa a la última columna.
@@ -155,7 +155,7 @@ muestra la tarjeta.
 
 ## El tablero de capítulos de un proyecto {#a-projects-chapter-board}
 
-Cada proyecto tiene un tablero que φ crea por ti. Muestra los capítulos del
+Cada proyecto tiene un tablero que Poiesis crea por ti. Muestra los capítulos del
 proyecto como tarjetas, en cuatro columnas de estado: **Pendiente**,
 **Borrador**, **Revisado** y **Final**. Si arrastras una tarjeta a otra
 columna, cambia el estado del capítulo.

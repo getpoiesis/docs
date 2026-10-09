@@ -17,13 +17,13 @@ Info panel.
 1. Press `⌘N` to make a new document, or click a document in the list.
 2. Type a title at the top. The title is the document's name in the list,
    in search and in links.
-3. Write your text below the title. φ saves it for you.
+3. Write your text below the title. φ Poiesis saves it for you.
 4. Type `/` on an empty line to add a heading, a list, a quote or another
    block.
 5. Select some words to show the toolbar. It has bold, italic, link,
    highlight and comment.
 
-As you type, φ corrects your punctuation. Straight quotes become curly
+As you type, Poiesis corrects your punctuation. Straight quotes become curly
 quotes, two hyphens become a dash, and three dots become an ellipsis.
 
 ## The buttons above the page
@@ -49,9 +49,9 @@ Notes do not show a word count.
 
 ## Saving
 
-You do not need to save. φ saves a moment after you stop typing.
+You do not need to save. Poiesis saves a moment after you stop typing.
 
-φ saves carefully. It writes each save to a temporary file, reads the file
+Poiesis saves carefully. It writes each save to a temporary file, reads the file
 back to check it, and only then replaces the document. If the app crashes or
 the disk is full, your document is not left half-written.
 
@@ -81,7 +81,7 @@ Click **More tools** (› at the end of the toolbar) for the other tools:
 **Align right**, **Justify**, **Look up word** (opens the
 [dictionary](./dictionary)) and **Save selection as template…**.
 
-φ keeps highlights and comments as [annotations](./annotations).
+Poiesis keeps highlights and comments as [annotations](./annotations).
 
 Press `Esc` to hide the toolbar. The toolbar does not appear in read mode or
 on morning pages.
@@ -143,7 +143,7 @@ document:
   spelling…**.
 - Every format you can export the document to.
 - **Save a Copy (`.poiesis` with images)…** and **Move to vault…**. A
-  [vault](./vaults) is the folder where φ keeps your documents.
+  [vault](./vaults) is the folder where Poiesis keeps your documents.
 - **Move to trash**.
 
 On a morning page, the menu has **Seal day** in place of **Star** and
@@ -155,7 +155,7 @@ suggestions, cut, copy and paste, followed by **Outline**, **Wiki links**,
 
 ## Move between documents
 
-φ has no tabs. You can open a document in three ways:
+Poiesis has no tabs. You can open a document in three ways:
 
 - Click it in the list.
 - Click a link to it.

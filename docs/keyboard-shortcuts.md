@@ -1,17 +1,17 @@
 ---
 title: Keyboard shortcuts
-description: Every keyboard shortcut in φ, for writing, formatting, finding your way and arranging the window.
+description: Every keyboard shortcut in φ Poiesis, for writing, formatting, finding your way and arranging the window.
 ---
 
 # Keyboard shortcuts
 
-This page lists every shortcut in φ, with the Mac keys. On Windows and Linux,
+This page lists every shortcut in φ Poiesis, with the Mac keys. On Windows and Linux,
 most shortcuts work with **Ctrl** in place of ⌘. The few that are different
 are [listed at the end](#on-windows-and-linux).
 
 The keys are ⌘ Command, ⇧ Shift, ⌥ Option, ⌃ Control, ↵ Return and ⌫ Delete.
 
-You can also see shortcuts inside φ:
+You can also see shortcuts inside Poiesis:
 
 - Press `⌘/` to see a list of the main shortcuts. Press `⌘/` or `Esc` to
   close it.
@@ -41,7 +41,7 @@ You can also see shortcuts inside φ:
 | Start a new line without a new paragraph | `⇧↵` |
 | Indent · outdent a list item | `Tab` · `⇧Tab` |
 | Stop writing in bold or italic | Two spaces |
-| Move the document to the trash (φ asks first) | `⌘⌫` |
+| Move the document to the trash (Poiesis asks first) | `⌘⌫` |
 
 A normal paste turns Markdown marks in the pasted text into formatting.
 **Paste as plain text** keeps the text exactly as it is.
@@ -159,7 +159,7 @@ In the list of a project's chapters:
 | Full screen | `⌃⌘F` |
 | Open Settings | `⌘,` |
 | Minimise the window | `⌘M` |
-| Hide φ · hide the other apps | `⌘H` · `⌥⌘H` |
+| Hide Poiesis · hide the other apps | `⌘H` · `⌥⌘H` |
 | Quit | `⌘Q` |
 
 On the graph, `⇧⌘I` shows the graph's settings, not the Info panel.
@@ -182,7 +182,7 @@ These shortcuts are different:
 | Full screen | **F11** |
 | Open Settings | The sliders button at the top of the sidebar (no shortcut) |
 
-Hiding φ and hiding the other apps work only on a Mac.
+Hiding Poiesis and hiding the other apps work only on a Mac.
 
 ## See also
 

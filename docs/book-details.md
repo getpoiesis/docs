@@ -7,7 +7,7 @@ description: What a book's title page, copyright page and opening and closing pa
 
 Some pages of a finished book are not chapters: the title page, the
 copyright page, a dedication, an "Also by" page. You don't write these
-pages. φ makes them from the project's **Book details**, so they say the
+pages. φ Poiesis makes them from the project's **Book details**, so they say the
 same thing in every format you export.
 
 <img src="/img/app/manuscript-light.png" alt="A book's page: its cover, title and author, description, settings and Book details" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -21,7 +21,7 @@ same thing in every format you export.
 3. Write the description beside the cover. On a printed book, the
    description goes on the back cover.
 4. Open **Book details**, further down the page.
-5. Fill in the fields you need. Every field is optional. φ leaves out a
+5. Fill in the fields you need. Every field is optional. Poiesis leaves out a
    page that has nothing on it.
 
 ## What goes where
@@ -41,9 +41,9 @@ same thing in every format you export.
 photo.
 
 If you prefer, write the dedication or the epigraph as a document in the
-project's front matter instead. In both cases φ puts it on its own page.
+project's front matter instead. In both cases Poiesis puts it on its own page.
 
-φ checks an ISBN as you type it, and tells you when a digit looks wrong.
+Poiesis checks an ISBN as you type it, and tells you when a digit looks wrong.
 
 ## See also
 

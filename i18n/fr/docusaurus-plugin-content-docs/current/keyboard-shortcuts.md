@@ -1,11 +1,11 @@
 ---
 title: Raccourcis clavier
-description: Tous les raccourcis clavier de φ, pour écrire, mettre en forme, vous déplacer et organiser la fenêtre.
+description: Tous les raccourcis clavier de φ Poiesis, pour écrire, mettre en forme, vous déplacer et organiser la fenêtre.
 ---
 
 # Raccourcis clavier
 
-Cette page donne tous les raccourcis de φ, avec les touches du Mac. Sur
+Cette page donne tous les raccourcis de φ Poiesis, avec les touches du Mac. Sur
 Windows et Linux, la plupart fonctionnent avec **Ctrl** à la place de ⌘. Les
 quelques raccourcis qui diffèrent sont
 [indiqués à la fin](#on-windows-and-linux).
@@ -13,7 +13,7 @@ quelques raccourcis qui diffèrent sont
 Les touches sont ⌘ Commande, ⇧ Maj, ⌥ Option, ⌃ Contrôle, ↵ Entrée et
 ⌫ Suppr.
 
-Vous pouvez aussi consulter les raccourcis dans φ :
+Vous pouvez aussi consulter les raccourcis dans Poiesis :
 
 - Appuyez sur `⌘/` pour afficher la liste des principaux raccourcis. Appuyez
   sur `⌘/` ou sur `Esc` pour la fermer.
@@ -43,7 +43,7 @@ Vous pouvez aussi consulter les raccourcis dans φ :
 | Aller à la ligne sans changer de paragraphe | `⇧↵` |
 | Augmenter · diminuer le retrait d’un élément de liste | `Tab` · `⇧Tab` |
 | Cesser d’écrire en gras ou en italique | Deux espaces |
-| Mettre le document à la corbeille (φ demande confirmation) | `⌘⌫` |
+| Mettre le document à la corbeille (Poiesis demande confirmation) | `⌘⌫` |
 
 Quand vous collez normalement, les signes Markdown du texte collé deviennent de
 la mise en forme. « Coller en texte brut » garde le texte exactement tel quel.
@@ -164,7 +164,7 @@ Dans la liste des chapitres d’un projet :
 | Plein écran | `⌃⌘F` |
 | Ouvrir les Réglages | `⌘,` |
 | Réduire la fenêtre | `⌘M` |
-| Masquer φ · masquer les autres applications | `⌘H` · `⌥⌘H` |
+| Masquer Poiesis · masquer les autres applications | `⌘H` · `⌥⌘H` |
 | Quitter | `⌘Q` |
 
 Sur le graphe, `⇧⌘I` affiche les réglages du graphe, et non le panneau Infos.
@@ -187,7 +187,7 @@ Ces raccourcis sont différents :
 | Plein écran | **F11** |
 | Ouvrir les Réglages | Le bouton à curseurs en haut de la barre latérale (pas de raccourci) |
 
-Masquer φ et masquer les autres applications ne fonctionnent que sur un Mac.
+Masquer Poiesis et masquer les autres applications ne fonctionnent que sur un Mac.
 
 ## Voir aussi {#see-also}
 

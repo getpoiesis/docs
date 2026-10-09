@@ -6,7 +6,7 @@ description: Liez un document à un autre en écrivant, voyez quels documents so
 # Liens et graphe
 
 Un lien relie un document à un autre. Pour en créer un, tapez `[[` puis le
-nom d’un document. φ enregistre chaque lien dans les deux sens : chaque
+nom d’un document. φ Poiesis enregistre chaque lien dans les deux sens : chaque
 document peut donc montrer ceux vers lesquels il pointe et ceux qui pointent
 vers lui. Le **graphe** est une image de tous les liens de votre
 [coffre](./vaults), le dossier qui contient vos textes.
@@ -40,11 +40,11 @@ document d’après le titre.
 2. Si aucun document ne porte ce titre, la dernière entrée du menu est
    **Créer « … »**. Choisissez-la.
 
-φ écrit le lien, mais le document n’existe pas encore. En attendant, le lien
+Poiesis écrit le lien, mais le document n’existe pas encore. En attendant, le lien
 s’affiche comme un lien rompu.
 
 Le document est créé quand vous suivez le lien : cliquez dessus en maintenant
-`⌘`, ou cliquez dessus sous **Liens sortants** (voir la section suivante). φ
+`⌘`, ou cliquez dessus sous **Liens sortants** (voir la section suivante). Poiesis
 crée alors un document portant ce titre et l’ouvre.
 
 ## Voir quels documents sont liés {#see-what-links-where}

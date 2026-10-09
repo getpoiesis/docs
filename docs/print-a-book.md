@@ -11,7 +11,7 @@ both:
 - the **interior**: the pages of the book, as a print-ready PDF;
 - the **cover**: the front, the spine and the back on one page.
 
-φ works out the margins and the blank pages before chapters. It also works
+φ Poiesis works out the margins and the blank pages before chapters. It also works
 out the width of the spine from the page count.
 
 <img src="/img/app/print-book-light.png" alt="The Print book tab: design, trim size, paper and ink, the check, and the two export buttons" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -57,9 +57,9 @@ By default, links and citations print in black. This way, no colour from
 your screen appears on a printed page. Pictures always keep their colour.
 Choose **Keep φ's colour** only if you are paying for colour printing.
 
-## What φ takes care of
+## What Poiesis takes care of
 
-- **Chapters open on a right-hand page.** When the design asks for this, φ
+- **Chapters open on a right-hand page.** When the design asks for this, Poiesis
   adds a blank page before the chapter where one is needed. You can turn this
   off under **Adjust the design**.
 - **Margins for the binding.** A book with more pages gets a wider inside

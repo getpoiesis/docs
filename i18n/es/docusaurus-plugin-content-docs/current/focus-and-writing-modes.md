@@ -5,7 +5,7 @@ description: El Santuario, el desplazamiento de máquina de escribir, la escritu
 
 # Concentración y Santuario
 
-El **Santuario** oculta todo lo que hay en φ menos la página, para que nada
+El **Santuario** oculta todo lo que hay en φ Poiesis menos la página, para que nada
 te distraiga mientras escribes. Aquí se explican también tres herramientas
 más pequeñas: el desplazamiento de máquina de escribir, la escritura
 enfocada y el modo lectura.
@@ -113,7 +113,7 @@ Se activa y se desactiva desde cuatro sitios:
 
 ## Tus sesiones de escritura {#your-writing-sessions}
 
-Una sesión de escritura es un rato seguido escribiendo. φ mide tus sesiones
+Una sesión de escritura es un rato seguido escribiendo. Poiesis mide tus sesiones
 por ti.
 
 - La sesión empieza cuando pulsas la primera tecla.

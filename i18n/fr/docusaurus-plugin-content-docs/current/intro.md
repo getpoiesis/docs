@@ -1,12 +1,12 @@
 ---
 title: Bienvenue
-description: Ce qu’est φ, à qui il s’adresse et comment il conserve vos textes.
+description: Ce qu’est φ Poiesis, à qui il s’adresse et comment il conserve vos textes.
 slug: /
 ---
 
-# Bienvenue dans φ
+# Bienvenue dans φ Poiesis
 
-φ est une application de bureau conçue pour l’écriture au long cours : romans,
+Poiesis est une application de bureau conçue pour l’écriture au long cours : romans,
 poésie, essais, ainsi que les notes et le journal qui les accompagnent. Elle
 vous offre une page au calme et conserve chaque mot dans des fichiers, sur
 votre propre ordinateur.
@@ -16,17 +16,17 @@ votre propre ordinateur.
 
 ## Premiers pas {#get-started}
 
-1. [Installez φ](./installing) sur macOS, Windows ou Linux.
+1. [Installez Poiesis](./installing) sur macOS, Windows ou Linux.
 2. [Créez votre premier coffre](./getting-started). Un coffre est le dossier
    qui contient vos textes.
 3. Faites [la visite de la fenêtre](./finding-your-way).
 4. Cliquez sur le projet d’exemple, **The Grey Morning**, dans la barre
    latérale. Cliquez ensuite sur **Exporter**, juste en dessous, pour voir
-   comment φ met un livre en pages.
+   comment Poiesis met un livre en pages.
 
 ## Trois modes dans un même coffre {#three-modes-in-one-vault}
 
-φ compte trois modes : **Écrire**, **Notes** et **Journal**. Écrire est le
+Poiesis compte trois modes : **Écrire**, **Notes** et **Journal**. Écrire est le
 mode principal. Les trois partagent le même coffre : un chapitre peut donc
 renvoyer à une note, et une entrée du journal mentionner un personnage.
 
@@ -45,36 +45,36 @@ Deux fonctions sont disponibles dans tous les modes :
 ## Vos textes restent à vous {#your-writing-stays-yours}
 
 - **Vos fichiers se trouvent dans un dossier que vous choisissez.** Aucun
-  compte n’est nécessaire, et φ n’utilise pas le cloud. L’écriture, la
+  compte n’est nécessaire, et Poiesis n’utilise pas le cloud. L’écriture, la
   recherche et l’export fonctionnent hors ligne.
-- **φ enregistre pendant que vous écrivez.** Chaque document est enregistré en
+- **Poiesis enregistre pendant que vous écrivez.** Chaque document est enregistré en
   permanence, et chaque enregistrement est vérifié. L’historique des versions
   vous permet de revenir à n’importe quel état antérieur. Si vous voulez en
   garder une copie ailleurs, vous pouvez aussi le sauvegarder sur votre propre
   dépôt git distant. Voir [Versions et sauvegarde](./versions-and-backup).
 - **Votre travail est facile à déplacer et à conserver.** Copiez le dossier,
   et vous avez tout copié. Vous pouvez placer un coffre dans iCloud Drive,
-  Dropbox ou un autre dossier synchronisé. φ pour iPhone et iPad n’est pas
+  Dropbox ou un autre dossier synchronisé. Poiesis pour iPhone et iPad n’est pas
   encore sorti ; quand il le sera, il ouvrira le même coffre. Voir
   [Coffres](./vaults).
 
 Chaque document est un fichier `.poiesis`. Ce fichier contient votre texte et
 ses détails sous forme de contenu structuré : les annotations, les notes de
-bas de page et les citations y sont donc conservées intégralement. φ ne stocke
+bas de page et les citations y sont donc conservées intégralement. Poiesis ne stocke
 pas vos textes en Markdown, mais vous pouvez en importer, en coller et en
 exporter.
 
-φ est stable et prêt à accueillir votre écriture. Il garde l’étiquette
+Poiesis est stable et prêt à accueillir votre écriture. Il garde l’étiquette
 **Bêta** encore un peu, le temps que davantage de personnes l’essaient. Si
 quelque chose vous semble anormal, le badge **Bêta**, en bas de la barre
 latérale, est le moyen le plus rapide de le signaler.
 
-## Ce que φ n’est pas {#what-φ-isnt}
+## Ce que Poiesis n’est pas {#what-Poiesis-isnt}
 
 - **Un service cloud.** Rien ne quitte votre ordinateur, à moins que vous ne
   configuriez vous-même une sauvegarde ou que vous ne placiez le coffre dans
   un dossier synchronisé.
-- **Un outil de collaboration en temps réel.** φ est fait pour une seule
+- **Un outil de collaboration en temps réel.** Poiesis est fait pour une seule
   personne à la fois.
 
 ## Voir aussi {#see-also}

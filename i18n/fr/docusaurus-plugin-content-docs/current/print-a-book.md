@@ -12,7 +12,7 @@ imprimé** produit les deux :
 - la **couverture** : le premier plat, le dos et la quatrième de couverture
   sur une seule page.
 
-φ calcule les marges et les pages blanches à placer avant les chapitres. Il
+φ Poiesis calcule les marges et les pages blanches à placer avant les chapitres. Il
 calcule aussi la largeur du dos d’après le nombre de pages.
 
 <img src="/img/app/print-book-light.png" alt="L’onglet Livre imprimé : maquette, format, papier et encre, la vérification et les deux boutons d’export" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -62,10 +62,10 @@ votre écran ne se retrouve ainsi sur une page imprimée. Les images, elles,
 gardent toujours leurs couleurs. Ne choisissez **Garder la couleur de φ** que
 si vous payez une impression en couleur.
 
-## Ce dont φ s’occupe {#what-φ-takes-care-of}
+## Ce dont Poiesis s’occupe {#what-Poiesis-takes-care-of}
 
 - **Les chapitres commencent en belle page**, c’est-à-dire sur une page de
-  droite. Quand la maquette le demande, φ ajoute une page blanche avant le
+  droite. Quand la maquette le demande, Poiesis ajoute une page blanche avant le
   chapitre là où il en faut une. Vous pouvez désactiver cela dans **Ajuster
   la maquette**.
 - **Des marges adaptées à la reliure.** Plus le livre a de pages, plus la

@@ -5,7 +5,7 @@ description: Dossiers, étiquettes, tri, déplacement des documents et récupér
 
 # Organiser
 
-Pour organiser vos documents, φ vous donne quatre outils simples : les
+Pour organiser vos documents, φ Poiesis vous donne quatre outils simples : les
 dossiers, les étiquettes, les favoris et le tri de chaque liste. Ils changent
 seulement la façon dont vous retrouvez un document, jamais la façon dont il
 est écrit. Servez-vous-en un peu ou beaucoup, à votre guise.
@@ -56,7 +56,7 @@ Il y a quatre façons de le faire :
 - Faites un clic droit sur un dossier, puis choisissez **Nouveau dossier à
   l’intérieur**.
 
-φ vous demande alors le **Nom du nouveau dossier**.
+Poiesis vous demande alors le **Nom du nouveau dossier**.
 
 ### Le menu d’un dossier {#a-folders-menu}
 
@@ -108,7 +108,7 @@ peut porter autant d’étiquettes que vous voulez.
   **+ Étiquette** et appuyez sur Entrée.
 - **Retirer une étiquette** : cliquez sur le **×** de l’étiquette.
 - **Voir les notes d’une étiquette** : cliquez sur l’étiquette dans les
-  Détails, ou sous **Étiquettes** dans la barre latérale de Notes. φ affiche
+  Détails, ou sous **Étiquettes** dans la barre latérale de Notes. Poiesis affiche
   toutes les notes qui portent cette étiquette.
 
 ## Trier une liste et y chercher {#sort-and-search-a-list}

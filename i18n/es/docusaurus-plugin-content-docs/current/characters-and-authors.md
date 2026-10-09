@@ -22,7 +22,7 @@ de las dos listas.
 
 1. En **Escribir**, haz clic en **Personajes**, bajo **Mundo**.
 2. Haz clic en **+** (**Nuevo personaje**).
-3. Rellena la ficha del personaje. φ guarda cada campo cuando sales de él.
+3. Rellena la ficha del personaje. φ Poiesis guarda cada campo cuando sales de él.
 4. Para mencionar al personaje, escribe `@` y el principio de su nombre en
    cualquier documento.
 
@@ -69,9 +69,9 @@ Un personaje nuevo entra en ese proyecto cuando lo creas en esta lista, o con
 
 ## Mencionar a un personaje {#mention-a-character}
 
-1. En un documento, escribe `@` y empieza a escribir un nombre. φ te sugiere
+1. En un documento, escribe `@` y empieza a escribir un nombre. Poiesis te sugiere
    los personajes del proyecto en el que escribes y los compartidos.
-2. Elige una sugerencia. φ inserta la mención en el texto.
+2. Elige una sugerencia. Poiesis inserta la mención en el texto.
 
 <img src="/img/app/mention-suggestions-light.png" alt="Un capítulo con una arroba y una letra escritas, y la lista de personajes coincidentes abierta" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/mention-suggestions-dark.png" alt="Un capítulo con una arroba y una letra escritas, y la lista de personajes coincidentes abierta" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -84,7 +84,7 @@ se encuentra a José.
   cambias el nombre, la mención cambia también.
 - Haz clic en una mención para abrir la ficha del personaje.
 - Si escribes un nombre que no tiene ningún personaje, la última sugerencia
-  es **Nuevo personaje**. Elígela, y φ crea el personaje y añade la mención.
+  es **Nuevo personaje**. Elígela, y Poiesis crea el personaje y añade la mención.
 
 Al exportar, una mención se convierte en texto normal: el nombre o el alias
 que elegiste, sin la `@`.
@@ -98,7 +98,7 @@ En las páginas matinales no hay sugerencias con `@`.
 
 1. En **Escribir**, haz clic en **Autores**, bajo **Mundo**.
 2. Haz clic en **+** (**Nuevo autor**).
-3. Rellena el perfil. φ guarda cada campo cuando sales de él.
+3. Rellena el perfil. Poiesis guarda cada campo cuando sales de él.
 4. Añade el perfil a un proyecto. En la página del proyecto, elígelo en
    **Ajustes** → **Perfil de autor**. O añádelo en **Datos del libro** →
    **Personas** (consulta [Datos del libro](./book-details)).
@@ -112,7 +112,7 @@ En las páginas matinales no hay sugerencias con `@`.
 | **Foto** | Haz clic en el cuadrado que hay junto al nombre para añadir una. Aparece con «Sobre el autor». **Quitar foto** la quita. |
 | **Crédito de la foto** | Se imprime debajo de la foto. |
 | **Biografía** | «Sobre el autor», al final del libro, que sale del perfil del primer autor. |
-| **Biografía breve** | Una o dos líneas para la contracubierta. Si está vacía, φ usa el primer párrafo de **Biografía**. |
+| **Biografía breve** | Una o dos líneas para la contracubierta. Si está vacía, Poiesis usa el primer párrafo de **Biografía**. |
 | **Correo** y **Sitio web** | Tu correo va también en el bloque de contacto de un manuscrito. |
 | **Dirección postal** y **Teléfono** | Bajo **Para envíos**: el resto del bloque de contacto de la primera página de un manuscrito. |
 | **Agente** | Si tienes agente: su nombre, su agencia, su dirección, su teléfono y su correo, uno por línea. Sustituyen a tus propios datos en la primera página del manuscrito. |

@@ -5,7 +5,7 @@ description: Highlight a passage, say something about it, and keep notes about t
 
 # Annotations & margin notes
 
-φ gives you two ways to write notes to yourself about a document:
+φ Poiesis gives you two ways to write notes to yourself about a document:
 
 - An **annotation** is about one passage. You can highlight the passage,
   write a comment on it, or both.
@@ -54,7 +54,7 @@ comment.
 
 | To | Do this |
 | --- | --- |
-| Go to the passage | Click the quoted passage. φ scrolls to it and selects it. |
+| Go to the passage | Click the quoted passage. Poiesis scrolls to it and selects it. |
 | Write or change the comment | Type in the card's box (**Add a note…**). |
 | Change its colour | Choose another colour or **Custom colour**. Choose **No highlight (comment)** to keep only the comment. |
 | Mark it as finished | Click the check (**Mark resolved**). A resolved annotation is dimmed but kept. **Mark unresolved** makes it open again. |

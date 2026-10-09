@@ -1,16 +1,16 @@
 ---
 title: Importer
-description: Faites entrer dans φ vos textes en Markdown, ceux d’autres applications et vos propres copies.
+description: Faites entrer dans φ Poiesis vos textes en Markdown, ceux d’autres applications et vos propres copies.
 ---
 
 # Importer
 
-Vous pouvez faire entrer dans φ des textes écrits dans d’autres applications,
-ainsi que des copies créées dans φ. Une fois importés, ces textes sont des
-documents φ comme les autres. Leurs dates, leurs liens et leurs images sont
+Vous pouvez faire entrer dans φ Poiesis des textes écrits dans d’autres applications,
+ainsi que des copies créées dans Poiesis. Une fois importés, ces textes sont des
+documents Poiesis comme les autres. Leurs dates, leurs liens et leurs images sont
 conservés.
 
-Les documents importés sont rangés dans un [coffre](./vaults), le dossier où φ
+Les documents importés sont rangés dans un [coffre](./vaults), le dossier où Poiesis
 garde votre travail.
 
 ## Importer des fichiers Markdown {#import-markdown-files}
@@ -22,7 +22,7 @@ garde votre travail.
 Vous pouvez aussi passer par le menu du coffre, en haut de la barre latérale :
 choisissez **Importer…**.
 
-φ lit l’en-tête (front matter), les titres, les listes et les tâches, les
+Poiesis lit l’en-tête (front matter), les titres, les listes et les tâches, les
 encadrés, les surlignages, les notes de bas de page et les liens wiki.
 
 ## Importer un dossier de notes {#import-a-folder-of-notes}
@@ -35,24 +35,24 @@ pouvez importer le dossier entier.
    **Importer un dossier Markdown → comme nouveau coffre…**.
 3. Sélectionnez le dossier.
 
-φ conserve l’organisation du dossier. Il conserve aussi :
+Poiesis conserve l’organisation du dossier. Il conserve aussi :
 
-- **La date de création de chaque note.** φ la trouve dans une date inscrite
+- **La date de création de chaque note.** Poiesis la trouve dans une date inscrite
   dans le fichier, dans le nom d’une note quotidienne (comme `2022_11_11`) ou
   dans l’historique git du dossier.
-- **Les liens entre les notes.** φ décode les noms de fichiers encodés, lit les
+- **Les liens entre les notes.** Poiesis décode les noms de fichiers encodés, lit les
   propriétés `title::` et `alias::`, et traite les `#tags` comme des liens vers
   des pages. Les rétroliens et le graphe fonctionnent dès la fin de l’import.
 
-## Importer un document ou un projet φ {#import-a-φ-document-or-project}
+## Importer un document ou un projet Poiesis {#import-a-Poiesis-document-or-project}
 
 Un fichier `.poiesis` créé avec **Enregistrer une copie** ou **Copie du
 projet** s’ouvre avec ses images. Vous pouvez l’importer de trois façons :
 
-- Dans la palette de commandes, choisissez **Importer un document φ
+- Dans la palette de commandes, choisissez **Importer un document Poiesis
   (`.poiesis`)…**.
 - Choisissez **Fichier → Importer un document φ…**.
-- Faites glisser le fichier sur la fenêtre de φ.
+- Faites glisser le fichier sur la fenêtre de Poiesis.
 
 ## Voir aussi {#see-also}
 

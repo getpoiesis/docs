@@ -5,7 +5,7 @@ description: Surlignez un passage, commentez-le et gardez à côté du texte vos
 
 # Annotations et notes en marge
 
-φ vous offre deux façons de prendre des notes pour vous-même sur un
+φ Poiesis vous offre deux façons de prendre des notes pour vous-même sur un
 document :
 
 - Une **annotation** porte sur un passage. Vous pouvez surligner le passage,
@@ -58,7 +58,7 @@ commentaire.
 
 | Pour | Faites ceci |
 | --- | --- |
-| Aller au passage | Cliquez sur le passage cité. φ fait défiler le texte jusqu’à lui et le sélectionne. |
+| Aller au passage | Cliquez sur le passage cité. Poiesis fait défiler le texte jusqu’à lui et le sélectionne. |
 | Écrire ou modifier le commentaire | Tapez dans la zone de texte de la carte (**Ajouter une note…**). |
 | Changer sa couleur | Choisissez une autre couleur ou **Couleur personnalisée**. Choisissez **Sans surlignage (commentaire)** pour ne garder que le commentaire. |
 | La marquer comme terminée | Cliquez sur la coche (**Marquer comme résolue**). Une annotation résolue est estompée, mais conservée. **Marquer comme non résolue** la rouvre. |
