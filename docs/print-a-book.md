@@ -20,9 +20,9 @@ out the width of the spine from the page count.
 ## Make the files
 
 1. Open the project's **Export** page (see
-   [How exporting works](./exporting)) and choose **Print book**.
+   [How exporting works](./exporting.md)) and choose **Print book**.
 2. Choose the four things a print service asks for:
-   - **Design**: how the book looks (see [Designs](./designs)).
+   - **Design**: how the book looks (see [Designs](./designs.md)).
    - **Trim size**: the size of the printed page.
    - **Paper**: **White** or **Cream**.
    - **Ink**: **Black**, or **Keep φ's colour**.
@@ -99,7 +99,7 @@ see them.
 
 ## See also
 
-- [Preview](./preview): every page of the book, as spreads.
-- [Designs & adjusting them](./designs)
-- [Book details](./book-details): the title page, copyright page and ISBN.
-- [Make an ebook](./make-an-ebook): the same book for reading apps.
+- [Preview](./preview.md): every page of the book, as spreads.
+- [Designs & adjusting them](./designs.md)
+- [Book details](./book-details.md): the title page, copyright page and ISBN.
+- [Make an ebook](./make-an-ebook.md): the same book for reading apps.

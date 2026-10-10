@@ -15,7 +15,7 @@ moverla y sincronizarla con tus otros dispositivos.
 Tus documentos son archivos `.poiesis`. Es el formato propio de φ Poiesis, así que
 otras aplicaciones no pueden abrirlos directamente. Para usar tus textos en
 otra aplicación, expórtalos como Markdown, Word, PDF o EPUB. Consulta
-[Cómo funciona la exportación](./exporting).
+[Cómo funciona la exportación](./exporting.md).
 
 ## Crear una bóveda {#make-a-vault}
 
@@ -43,7 +43,7 @@ Lo que ocurre después depende de la carpeta:
 | Archivos `.poiesis` | Tus documentos, un archivo por cada uno. |
 | `assets` | Aquí se copian las imágenes que añades, para que a la bóveda no le falte nada. |
 | `.trash` | Los documentos que eliminas, hasta que los recuperas desde la **Papelera**, en la parte inferior de la barra lateral. Lo que siga ahí pasados 30 días se elimina definitivamente. |
-| `.poiesis-history` o `.git` | El historial de versiones (consulta [Versiones y copias de seguridad](./versions-and-backup)). |
+| `.poiesis-history` o `.git` | El historial de versiones (consulta [Versiones y copias de seguridad](./versions-and-backup.md)). |
 | `.poiesis-vault.json` | Un archivo pequeño que da nombre a la bóveda y recuerda sus ajustes. |
 
 La mayoría de los gestores de archivos ocultan los nombres que empiezan por
@@ -55,7 +55,7 @@ encarga Poiesis.
 Puedes tener varias bóvedas; por ejemplo, una para una novela y otra para las
 notas del día a día. Solo puede haber una abierta a la vez. Cada bóveda tiene
 sus propios documentos, su historial y sus
-[ajustes de escritura](./setup).
+[ajustes de escritura](./setup.md).
 
 <img src="/img/app/vault-menu-light.png" alt="El menú de la bóveda abierto en la parte superior de la barra lateral" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/vault-menu-dark.png" alt="El menú de la bóveda abierto en la parte superior de la barra lateral" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -188,7 +188,7 @@ por la más antigua. Puedes hacerlo desde cualquiera de tus dispositivos.
 Si la bóveda usa git para su historial, Poiesis guarda el historial de git en cada
 ordenador, fuera de la carpeta sincronizada. Un servicio de sincronización
 copia el historial archivo por archivo, y eso puede estropearlo. Consulta
-[Versiones y copias de seguridad](./versions-and-backup).
+[Versiones y copias de seguridad](./versions-and-backup.md).
 
 :::
 
@@ -207,6 +207,6 @@ Si era tu última bóveda, Poiesis vuelve a la pantalla de bienvenida.
 
 ## Ver también {#see-also}
 
-- [Versiones y copias de seguridad](./versions-and-backup)
-- [Importar](./importing): trae textos de otras aplicaciones.
-- [Puesta a punto](./setup): qué muestra cada bóveda.
+- [Versiones y copias de seguridad](./versions-and-backup.md)
+- [Importar](./importing.md): trae textos de otras aplicaciones.
+- [Puesta a punto](./setup.md): qué muestra cada bóveda.

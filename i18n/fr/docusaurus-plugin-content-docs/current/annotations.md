@@ -24,7 +24,7 @@ Les unes comme les autres sont enregistrées avec le document.
 2. Cliquez sur la pastille de couleur (**Surligner et commenter**) et
    choisissez une couleur. Ou cliquez sur **Commenter (sans surlignage)**
    pour laisser le texte sans couleur.
-3. Le [panneau Infos](./finding-your-way#the-info-panel) s’ouvre sur son
+3. Le [panneau Infos](./finding-your-way.md#the-info-panel) s’ouvre sur son
    onglet **Notes**, où la nouvelle annotation vous attend. Écrivez votre
    commentaire dans sa zone de texte.
 
@@ -102,7 +102,7 @@ avec lui. Rien ne quitte votre ordinateur.
 
 ## Voir aussi {#see-also}
 
-- [Tableaux](./boards) : les éléments de liste de tâches que vous pouvez
+- [Tableaux](./boards.md) : les éléments de liste de tâches que vous pouvez
   suivre sur un tableau se trouvent dans l’onglet **Tâches**.
-- [L’éditeur](./the-editor)
-- [Versions et sauvegarde](./versions-and-backup)
+- [L’éditeur](./the-editor.md)
+- [Versions et sauvegarde](./versions-and-backup.md)

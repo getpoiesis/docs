@@ -13,7 +13,7 @@ En **Ajustes → Ajustes de escritura** decides dos cosas:
   **Notas**, **Diario**).
 
 Cada bóveda tiene su propia configuración. Una bóveda es la carpeta donde se
-guarda lo que escribes (consulta [Bóvedas](./vaults)). Así, una bóveda para
+guarda lo que escribes (consulta [Bóvedas](./vaults.md)). Así, una bóveda para
 una novela y otra para un diario pueden mostrar cada una solo lo que necesita.
 
 ## Configura una bóveda {#set-up-a-vault}
@@ -112,7 +112,7 @@ aparecen de nuevo.
 ## Lo que Ajustes de escritura no cambia {#what-setup-doesnt-change}
 
 - **Los modos que tiene una bóveda.** Se eligen en **Ajustes → Bóveda →
-  Espacios**. Consulta [Bóvedas](./vaults).
+  Espacios**. Consulta [Bóvedas](./vaults.md).
 - **Las herramientas del editor.** Las citas, el índice y las plantillas no
   tienen interruptor. Están disponibles en todos los tipos de documento que
   pueden usarlas.
@@ -121,7 +121,7 @@ aparecen de nuevo.
 
 ## Ver también {#see-also}
 
-- [Un recorrido por la ventana](./finding-your-way)
-- [Ajustes](./settings)
-- [Concentración y Santuario](./focus-and-writing-modes)
-- [El calendario](./calendar)
+- [Un recorrido por la ventana](./finding-your-way.md)
+- [Ajustes](./settings.md)
+- [Concentración y Santuario](./focus-and-writing-modes.md)
+- [El calendario](./calendar.md)

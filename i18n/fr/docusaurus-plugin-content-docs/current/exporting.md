@@ -37,10 +37,10 @@ vos documents : vous pouvez donc exporter aussi souvent que vous le voulez.
 
 | Destination | Ce que vous obtenez | Pour en savoir plus |
 | --- | --- | --- |
-| **Livre imprimé** | Le PDF de l’intérieur et la couverture complète pour KDP, IngramSpark, Lulu et les autres services d’impression à la demande. | [Imprimer un livre](./print-a-book) |
-| **Livre numérique** | Un EPUB pour Apple Books, Kindle, Kobo et Google Play. | [Créer un livre numérique](./make-an-ebook) |
-| **Agent ou éditeur** | Votre manuscrit au format standard de manuscrit (Standard Manuscript Format), en Word ou en PDF. | [Envoyer à un agent ou un éditeur](./send-to-an-agent) |
-| **Partager une copie** | Un PDF à lire, un fichier Word pour continuer à modifier le texte, une page web, du Markdown, du texte enrichi, ou une copie du projet entier. | [Partager une copie](./share-a-copy) |
+| **Livre imprimé** | Le PDF de l’intérieur et la couverture complète pour KDP, IngramSpark, Lulu et les autres services d’impression à la demande. | [Imprimer un livre](./print-a-book.md) |
+| **Livre numérique** | Un EPUB pour Apple Books, Kindle, Kobo et Google Play. | [Créer un livre numérique](./make-an-ebook.md) |
+| **Agent ou éditeur** | Votre manuscrit au format standard de manuscrit (Standard Manuscript Format), en Word ou en PDF. | [Envoyer à un agent ou un éditeur](./send-to-an-agent.md) |
+| **Partager une copie** | Un PDF à lire, un fichier Word pour continuer à modifier le texte, une page web, du Markdown, du texte enrichi, ou une copie du projet entier. | [Partager une copie](./share-a-copy.md) |
 
 Poiesis retient la destination et vos choix pour chaque projet.
 
@@ -70,9 +70,9 @@ page « Du même auteur » et « À propos de l’auteur ». Vous ne les tap
 un document : Poiesis les compose à partir de ce que vous indiquez dans le projet.
 
 - La couverture et la description se règlent en haut de la page du projet.
-- Tout le reste se trouve dans [Détails du livre](./book-details), sur la même
+- Tout le reste se trouve dans [Détails du livre](./book-details.md), sur la même
   page.
-- « À propos de l’auteur » vient du [profil](./characters-and-authors) du
+- « À propos de l’auteur » vient du [profil](./characters-and-authors.md) du
   premier auteur.
 
 ## Exporter un seul document {#export-a-single-document}
@@ -106,8 +106,8 @@ pas les suivre.
 
 ## Voir aussi {#see-also}
 
-- [Aperçu](./preview) : toutes les pages avant d’exporter.
-- [Maquettes et ajustements](./designs) : l’allure du livre.
-- [Détails du livre](./book-details) : ce qu’affichent la page de titre et la
+- [Aperçu](./preview.md) : toutes les pages avant d’exporter.
+- [Maquettes et ajustements](./designs.md) : l’allure du livre.
+- [Détails du livre](./book-details.md) : ce qu’affichent la page de titre et la
   page de copyright.
-- [Importer](./importing) : faire entrer vos textes dans Poiesis.
+- [Importer](./importing.md) : faire entrer vos textes dans Poiesis.

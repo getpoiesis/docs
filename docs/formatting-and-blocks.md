@@ -51,9 +51,9 @@ so the next word is plain.
   field.
 - Links open in your browser. While you are editing, hold `⌘` and click the
   link.
-- To link to another document in your [vault](./vaults) (the folder where
+- To link to another document in your [vault](./vaults.md) (the folder where
   Poiesis keeps your documents), use a wiki link. See
-  [Links & the graph](./links-and-graph).
+  [Links & the graph](./links-and-graph.md).
 
 ## Headings, lists and quotes
 
@@ -96,7 +96,7 @@ using** (**Spaces** or **Tabs**) and **Indent width**.
 ## Blocks for books and poems
 
 The slash menu offers these blocks in documents that belong to a
-[project](./collections): chapters, poems and essays. A project is a book
+[project](./collections.md): chapters, poems and essays. A project is a book
 or other long work made of several documents.
 
 If a document already has one of these blocks, the block still shows when
@@ -116,8 +116,8 @@ the document is outside a project.
 
 To learn more:
 
-- [Poetry & verse](./poetry) explains verse, epigraphs and scene breaks.
-- [Footnotes & citations](./footnotes-and-citations) explains footnotes,
+- [Poetry & verse](./poetry.md) explains verse, epigraphs and scene breaks.
+- [Footnotes & citations](./footnotes-and-citations.md) explains footnotes,
   citations and the bibliography.
 
 ## Pictures, callouts and dates
@@ -126,7 +126,7 @@ To learn more:
 | --- | --- | --- |
 | **Image** | A picture with a caption. Use its toolbar to place it left, centre, right or full width. Drag its edge to resize it. Poiesis copies the file into your vault. | `/image`, or `![alt](https://…)` |
 | **Callout** | A box for a side note: info, tip, warning or danger. Point at it to choose another kind. | `/callout`, or `> [!tip] ` |
-| **Date** | Today's date, shown as a chip. The chip links the document to that day in the [calendar](./calendar). | `/date` |
+| **Date** | Today's date, shown as a chip. The chip links the document to that day in the [calendar](./calendar.md). | `/date` |
 | **Date & time** | The same as **Date**, with the time. | `/datetime` |
 | **Time** | The time now, as plain text. | `/time` |
 
@@ -138,10 +138,10 @@ The slash menu does not offer callouts in journal entries.
 You can also add two things inside a line of text:
 
 - **@-mentions.** Type `@` and choose a
-  [character](./characters-and-authors). To make a new character from the
+  [character](./characters-and-authors.md). To make a new character from the
   name you typed, choose **Create @name**.
 - **Wiki links.** Type `[[` and choose a document. See
-  [Links & the graph](./links-and-graph).
+  [Links & the graph](./links-and-graph.md).
 
 ## Writing in Markdown
 
@@ -177,7 +177,7 @@ choose **Copy as Markdown**.
 
 ## See also
 
-- [The editor](./the-editor): the toolbar and the slash menu.
-- [Poetry & verse](./poetry)
-- [Footnotes & citations](./footnotes-and-citations)
-- [Templates](./templates)
+- [The editor](./the-editor.md): the toolbar and the slash menu.
+- [Poetry & verse](./poetry.md)
+- [Footnotes & citations](./footnotes-and-citations.md)
+- [Templates](./templates.md)

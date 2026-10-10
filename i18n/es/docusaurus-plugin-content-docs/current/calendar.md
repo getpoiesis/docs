@@ -35,11 +35,11 @@ Pulsa `⌘[` para volver adonde estabas.
 ## Qué muestra la lista de al lado {#what-the-list-beside-it-shows}
 
 Es la lista que queda junto al calendario (consulta
-[Un recorrido por la ventana](./finding-your-way)).
+[Un recorrido por la ventana](./finding-your-way.md)).
 
 | Sección | Qué contiene |
 | --- | --- |
-| **Mostrar** | **Todo**, **Escribir**, **Notas**, **Diario** o **Vence**. Elige una opción para ver solo los documentos de ese modo, o solo las tarjetas de [tablero](./boards) que vencen. |
+| **Mostrar** | **Todo**, **Escribir**, **Notas**, **Diario** o **Vence**. Elige una opción para ver solo los documentos de ese modo, o solo las tarjetas de [tablero](./boards.md) que vencen. |
 | El nombre del mes | Las palabras que has escrito este mes, cuántos días has escrito y cuántos de ellos son de esta semana. Debajo están tu racha y, si las hay, el número de mañanas con páginas matinales. |
 | **Mapa de calor** | Qué significan los tonos del mapa de calor, de **Menos** a **Más**. |
 | **Marcas** | Qué significa cada marca de la cuadrícula del mes. |
@@ -118,7 +118,7 @@ del mapa de calor.
 
 ## Ver también {#see-also}
 
-- [Diario y páginas matinales](./journal-and-morning-pages): las entradas, las
+- [Diario y páginas matinales](./journal-and-morning-pages.md): las entradas, las
   páginas matinales y cómo se cuenta la racha.
-- [Tableros](./boards): tarjetas con fecha de vencimiento.
-- [Un recorrido por la ventana](./finding-your-way)
+- [Tableros](./boards.md): tarjetas con fecha de vencimiento.
+- [Un recorrido por la ventana](./finding-your-way.md)

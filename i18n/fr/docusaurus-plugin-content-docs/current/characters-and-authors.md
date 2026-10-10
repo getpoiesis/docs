@@ -40,7 +40,7 @@ d’après son nom et ouvre l’une ou l’autre liste.
 | **Rôle et traits** | Quelques lignes pour dire qui il est. |
 | **Notes** | Son passé, son apparence, son évolution au fil de l’histoire, ou quoi que ce soit d’autre. |
 | **Lié depuis** | Tous les documents qui le mentionnent, avec le nombre de mentions. Cliquez sur l’un d’eux pour l’ouvrir. |
-| **Recherches** et **Notes** | Les pages de recherche et les notes qui le concernent : **Nouvelle page de recherche**, **Lier une recherche…**, **Nouvelle note à ce sujet** et **Lier une note…** (voir [Recherche](./research)). |
+| **Recherches** et **Notes** | Les pages de recherche et les notes qui le concernent : **Nouvelle page de recherche**, **Lier une recherche…**, **Nouvelle note à ce sujet** et **Lier une note…** (voir [Recherche](./research.md)). |
 
 **Supprimer**, en bas de la fiche, envoie le personnage à la corbeille.
 
@@ -49,7 +49,7 @@ noms, les noms d’utilisateur et les alias.
 
 ## Séparer le monde de chaque livre {#keep-each-books-world-apart}
 
-Un personnage appartient au [projet](./collections) dans lequel vous le créez.
+Un personnage appartient au [projet](./collections.md) dans lequel vous le créez.
 Pour voir les personnages d’un projet, ouvrez le projet et choisissez
 **Personnages** en dessous de lui, dans la barre latérale. Les personnages
 propres au projet viennent en premier. Les personnages partagés suivent, avec
@@ -64,7 +64,7 @@ liste, ou avec `@` pendant que vous écrivez l’un des chapitres du projet.
   apparaît partout, par exemple une personne réelle ou un narrateur que vous
   reprenez.
 - **Tout le coffre :** **Monde → Personnages**, dans la barre latérale,
-  continue d’afficher tous les personnages du [coffre](./vaults), le dossier
+  continue d’afficher tous les personnages du [coffre](./vaults.md), le dossier
   qui contient vos textes.
 - **Déplacer un projet :** quand vous déplacez un projet vers un autre coffre,
   ses propres personnages le suivent. Un personnage qu’il partage avec
@@ -106,7 +106,7 @@ Les pages du matin n’ont pas de suggestions `@`.
 3. Remplissez le profil. Poiesis enregistre chaque champ dès que vous le quittez.
 4. Ajoutez le profil à un projet. Sur la page du projet, choisissez-le sous
    **Réglages** → **Profil d’auteur**. Ou bien ajoutez-le sous **Détails du
-   livre** → **Personnes** (voir [Détails du livre](./book-details)).
+   livre** → **Personnes** (voir [Détails du livre](./book-details.md)).
 
 ## Ce que signe chaque partie du profil {#what-each-part-of-the-profile-signs}
 
@@ -126,15 +126,15 @@ Les pages du matin n’ont pas de suggestions `@`.
 
 Quand vous préparez un manuscrit pour un agent, l’export vous signale ce qui
 manque sur la première page. Il propose alors **Ouvrir le profil d’auteur**
-(voir [Envoyer à un agent ou un éditeur](./send-to-an-agent)).
+(voir [Envoyer à un agent ou un éditeur](./send-to-an-agent.md)).
 
 **Supprimer** envoie le profil à la corbeille.
 
 ## Voir aussi {#see-also}
 
-- [Détails du livre](./book-details) : qui a écrit, traduit ou dirigé le
+- [Détails du livre](./book-details.md) : qui a écrit, traduit ou dirigé le
   livre.
-- [Envoyer à un agent ou un éditeur](./send-to-an-agent) : le manuscrit et sa
+- [Envoyer à un agent ou un éditeur](./send-to-an-agent.md) : le manuscrit et sa
   première page.
-- [Recherche](./research) : les pages liées à un personnage.
-- [Liens et graphe](./links-and-graph)
+- [Recherche](./research.md) : les pages liées à un personnage.
+- [Liens et graphe](./links-and-graph.md)

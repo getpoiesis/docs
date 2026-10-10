@@ -59,7 +59,7 @@ Notes s’ouvre sur l’Accueil. À gauche, vous trouvez :
   les notes** ouvre la liste complète.
 - **Actions en cours** : les éléments des listes de tâches de vos notes qui
   figurent sur un tableau et ne sont pas encore terminés. Cette section
-  n’apparaît que s’il y en a. Voir [Tableaux](./boards).
+  n’apparaît que s’il y en a. Voir [Tableaux](./boards.md).
 
 À droite, vous trouvez :
 
@@ -86,7 +86,7 @@ titre, les premières lignes et les étiquettes. Chaque liste peut aussi être
 triée : **Modifié**, **Créé** ou **Titre**.
 
 `⌘K` retrouve n’importe quel document par son nom, où que vous soyez dans φ Poiesis.
-Voir [Rechercher et remplacer](./search-and-replace).
+Voir [Rechercher et remplacer](./search-and-replace.md).
 
 ## Mettre une note en favori {#star-a-note}
 
@@ -133,13 +133,13 @@ note peut devenir une pièce, et une pièce peut devenir une note.
   par son **⋮**) et choisissez **Déplacer vers les pièces d’Écrire**.
 - Pour transformer une pièce en note, choisissez **Déplacer vers Notes**.
 
-Voir [Organiser](./organizing).
+Voir [Organiser](./organizing.md).
 
 :::
 
 ## Voir aussi {#see-also}
 
-- [Organiser](./organizing) : dossiers, tri, déplacements et corbeille.
-- [Liens et graphe](./links-and-graph)
-- [Tableaux](./boards) : transformer en carte une liste de tâches d’une note.
-- [Recherche](./research) : des notes gardées pour un livre en particulier.
+- [Organiser](./organizing.md) : dossiers, tri, déplacements et corbeille.
+- [Liens et graphe](./links-and-graph.md)
+- [Tableaux](./boards.md) : transformer en carte une liste de tâches d’une note.
+- [Recherche](./research.md) : des notes gardées pour un livre en particulier.

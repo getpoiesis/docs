@@ -25,7 +25,7 @@ another app, or to keep a copy.
 | **Web page** | One HTML file with the whole work in it, styles and pictures included. Open it in a browser or put it on a site. |
 | **Markdown** | Any app that takes plain text. Chapters and numbering are kept. |
 | **Rich Text** | TextEdit, Pages and every version of Word open it with its formatting. Use it for submission websites that refuse `.docx`. |
-| **Project copy** | Everything as φ Poiesis keeps it. Use it to move the project to another [vault](./vaults) or to store it. |
+| **Project copy** | Everything as φ Poiesis keeps it. Use it to move the project to another [vault](./vaults.md) or to store it. |
 
 ## Styles and paper
 
@@ -36,7 +36,7 @@ A shared copy uses a **style**, not a book design. The styles are:
 - **Paperback**;
 - **Poetry**;
 - **Academic paper**;
-- any style you made yourself ([Custom styles](./custom-styles)).
+- any style you made yourself ([Custom styles](./custom-styles.md)).
 
 **Paper** sets the page size of the PDF: Letter, A4, A5, Digest or Trade. The
 other formats have no fixed pages, so **Paper** does not change them.
@@ -51,10 +51,10 @@ To open it in another vault:
 1. Open the command palette (`⌘P`).
 2. Choose **Import a Poiesis document (`.poiesis`)…**.
 
-[Importing](./importing) has more.
+[Importing](./importing.md) has more.
 
 ## See also
 
-- [How exporting works](./exporting): exporting a single document.
-- [Print a book](./print-a-book) and [Make an ebook](./make-an-ebook):
+- [How exporting works](./exporting.md): exporting a single document.
+- [Print a book](./print-a-book.md) and [Make an ebook](./make-an-ebook.md):
   files to publish.

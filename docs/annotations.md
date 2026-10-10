@@ -22,7 +22,7 @@ Both are saved with the document.
 1. Select the text. A toolbar appears.
 2. Click the colour swatch (**Highlight & comment**) and choose a colour. Or
    click **Comment (no highlight)** to leave the text without a colour.
-3. The [Info panel](./finding-your-way#the-info-panel) opens on its **Notes**
+3. The [Info panel](./finding-your-way.md#the-info-panel) opens on its **Notes**
    tab, with the new annotation ready. Write your comment in its box.
 
 There are five colours: **Yellow**, **Green**, **Blue**, **Purple** and
@@ -96,7 +96,7 @@ computer.
 
 ## See also
 
-- [Boards](./boards): checklist items you can track on a board are on the
+- [Boards](./boards.md): checklist items you can track on a board are on the
   **Tasks** tab.
-- [The editor](./the-editor)
-- [Versions & backup](./versions-and-backup)
+- [The editor](./the-editor.md)
+- [Versions & backup](./versions-and-backup.md)

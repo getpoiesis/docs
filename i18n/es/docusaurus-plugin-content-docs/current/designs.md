@@ -21,7 +21,7 @@ diseño y cambias solo eso.
 ## Elige un diseño {#choose-a-design}
 
 1. Abre la página **Exportar** del proyecto (consulta
-   [Cómo funciona la exportación](./exporting)).
+   [Cómo funciona la exportación](./exporting.md)).
 2. Elige **Libro impreso** o **Libro electrónico**.
 3. Elige el **Diseño**.
 4. Pulsa **Vista previa** para ver el diseño en todas las páginas.
@@ -34,7 +34,7 @@ diseño y cambias solo eso.
 | **Poesía** | Para un poemario. Cada poema conserva sus versos y sus sangrías, con espacio alrededor. |
 
 Debajo de los diseños aparecen también tus propios estilos. Consulta
-[Estilos propios](./custom-styles).
+[Estilos propios](./custom-styles.md).
 
 ## Ajusta el diseño {#adjust-the-design}
 
@@ -75,8 +75,8 @@ porque un manuscrito tiene que ser sobrio.
 
 ## Ver también {#see-also}
 
-- [Estilos propios](./custom-styles): para todo lo que no se puede cambiar con
+- [Estilos propios](./custom-styles.md): para todo lo que no se puede cambiar con
   un diseño y **Ajustar el diseño**.
-- [Vista previa](./preview)
-- [Imprimir un libro](./print-a-book) y
-  [Crear un libro electrónico](./make-an-ebook)
+- [Vista previa](./preview.md)
+- [Imprimir un libro](./print-a-book.md) y
+  [Crear un libro electrónico](./make-an-ebook.md)

@@ -52,7 +52,7 @@ y al restaurar una, las páginas quedan como están.
 ## Colores {#colours}
 
 La tinta negra y el color pizarra de Poiesis cambian con tu
-[tema de color](themes-and-languages). Por ejemplo, una página escrita en
+[tema de color](./themes-and-languages.md). Por ejemplo, una página escrita en
 negro se ve en blanco con un tema oscuro.
 
 Los demás colores no cambian. En una página oscura, Poiesis los aclara un poco
@@ -68,7 +68,7 @@ ordenador.
 
 ## Dónde se guardan las páginas {#where-the-pages-live}
 
-Poiesis guarda las páginas escritas a mano en tu [bóveda](vaults), junto al
+Poiesis guarda las páginas escritas a mano en tu [bóveda](./vaults.md), junto al
 documento. Una bóveda es la carpeta donde Poiesis guarda tus documentos. Las
 páginas se sincronizan junto con el documento.
 

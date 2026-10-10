@@ -33,11 +33,11 @@ Estos botones están arriba a la derecha de la página:
 
 | Botón | Para qué sirve |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de la página. Consulta [Documentos lado a lado](./side-by-side). |
+| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de la página. Consulta [Documentos lado a lado](./side-by-side.md). |
 | **⋮** | Abre el menú del documento, que se explica más abajo. |
 | **Detalles…** (ⓘ) | Muestra el estado del documento, su sinopsis, su meta de palabras, sus etiquetas, su color y si está destacado, además del lugar donde se guarda. |
 | **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene cinco pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. |
-| **Santuario** (`⌘.`) | Oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes). |
+| **Santuario** (`⌘.`) | Oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
 
 El recuento de palabras está en la esquina inferior derecha de la página. Si
 el documento tiene una meta de palabras, el recuento aparece junto a la meta.
@@ -62,7 +62,7 @@ tu documento nunca queda a medio escribir.
   la que podrás volver más adelante.
 - Elige **Guardar versión…** (`⌘⇧S`) para ponerle un nombre a la versión.
 
-Consulta [Versiones y copias de seguridad](./versions-and-backup).
+Consulta [Versiones y copias de seguridad](./versions-and-backup.md).
 
 ## Dar formato a una selección {#format-a-selection}
 
@@ -84,11 +84,11 @@ estos botones:
 Las demás herramientas están en **Más herramientas** (el › del final de la
 barra): **Tachado**, **Código en línea**, **Alinear a la izquierda**,
 **Centrar**, **Alinear a la derecha**, **Justificar**, **Buscar palabra**
-(abre el [diccionario](./dictionary)) y **Guardar selección como
+(abre el [diccionario](./dictionary.md)) y **Guardar selección como
 plantilla…**.
 
 Poiesis guarda los resaltados y los comentarios como
-[anotaciones](./annotations).
+[anotaciones](./annotations.md).
 
 Pulsa `Esc` para ocultar la barra. La barra no aparece en el modo lectura ni
 en las páginas matinales.
@@ -107,7 +107,7 @@ encabezado, una cita, una tabla o una imagen, por ejemplo.
    No escribas ningún espacio, porque el espacio cierra el menú.
 3. Pulsa `Intro`.
 
-En el menú también están tus [plantillas](./templates), cada una con su
+En el menú también están tus [plantillas](./templates.md), cada una con su
 nombre.
 
 Si prefieres el ratón, acerca el puntero al borde izquierdo de una línea y
@@ -122,7 +122,7 @@ El menú cambia según el tipo de documento en el que estés:
 | **Una entrada del diario** | Encabezados, listas, citas, imágenes y fechas. No hay avisos, tablas ni código. |
 | **Páginas matinales** | No hay menú. Las páginas matinales son solo texto. |
 
-Un [proyecto](./collections) es un libro u otra obra larga formada por
+Un [proyecto](./collections.md) es un libro u otra obra larga formada por
 varios documentos.
 
 Las listas de tareas (**Lista de tareas**) aparecen en el menú en Notas y en
@@ -132,7 +132,7 @@ Ajustes de escritura → Modos** y activa **Listas de tareas** para ese modo.
 Un bloque que ya está en un documento se muestra siempre, aunque el menú de
 ese documento no lo ofrezca.
 
-En [Formato y bloques](./formatting-and-blocks) tienes la lista de todos los
+En [Formato y bloques](./formatting-and-blocks.md) tienes la lista de todos los
 bloques y cómo insertar cada uno.
 
 ## El menú ⋮ del documento {#the-documents--menu}
@@ -151,7 +151,7 @@ afectan al documento entero:
   y **Revisar ortografía…**.
 - Todos los formatos a los que puedes exportar el documento.
 - **Guardar una copia (`.poiesis` con imágenes)…** y **Mover a otra
-  bóveda…**. Una [bóveda](./vaults) es la carpeta donde Poiesis guarda tus
+  bóveda…**. Una [bóveda](./vaults.md) es la carpeta donde Poiesis guarda tus
   documentos.
 - **Mover a la papelera**.
 
@@ -192,7 +192,7 @@ Mientras editas, mantén pulsada `⌘` y haz clic en el enlace.
 
 ## Ver también {#see-also}
 
-- [Formato y bloques](./formatting-and-blocks)
-- [Concentración y Santuario](./focus-and-writing-modes)
-- [Anotaciones y notas al margen](./annotations)
-- [Atajos de teclado](./keyboard-shortcuts)
+- [Formato y bloques](./formatting-and-blocks.md)
+- [Concentración y Santuario](./focus-and-writing-modes.md)
+- [Anotaciones y notas al margen](./annotations.md)
+- [Atajos de teclado](./keyboard-shortcuts.md)

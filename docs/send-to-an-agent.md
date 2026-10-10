@@ -12,7 +12,7 @@ count.
 
 ## Make the manuscript
 
-1. Open your [author profile](./characters-and-authors). Check that it has
+1. Open your [author profile](./characters-and-authors.md). Check that it has
    your **Name**, postal address, email and phone. The first page needs them.
    **Name** is your legal name; **Pen name / byline** is the name readers see.
 2. Open the project's **Export** page.
@@ -44,5 +44,5 @@ want PDF, and some ask for only the first chapters.
 
 ## See also
 
-- [Characters & authors](./characters-and-authors): the author profile.
-- [Share a copy](./share-a-copy): a Word file to keep editing.
+- [Characters & authors](./characters-and-authors.md): the author profile.
+- [Share a copy](./share-a-copy.md): a Word file to keep editing.

@@ -37,10 +37,10 @@ so you can export as often as you like.
 
 | Destination | What you get | Read more |
 | --- | --- | --- |
-| **Print book** | The interior PDF and the full-wrap cover for KDP, IngramSpark, Lulu and other print-on-demand services. | [Print a book](./print-a-book) |
-| **Ebook** | An EPUB for Apple Books, Kindle, Kobo and Google Play. | [Make an ebook](./make-an-ebook) |
-| **Agent or publisher** | Your manuscript in Standard Manuscript Format, in Word or PDF. | [Send to an agent or publisher](./send-to-an-agent) |
-| **Share a copy** | A PDF to read, Word to keep editing, a web page, Markdown, Rich Text, or a copy of the whole project. | [Share a copy](./share-a-copy) |
+| **Print book** | The interior PDF and the full-wrap cover for KDP, IngramSpark, Lulu and other print-on-demand services. | [Print a book](./print-a-book.md) |
+| **Ebook** | An EPUB for Apple Books, Kindle, Kobo and Google Play. | [Make an ebook](./make-an-ebook.md) |
+| **Agent or publisher** | Your manuscript in Standard Manuscript Format, in Word or PDF. | [Send to an agent or publisher](./send-to-an-agent.md) |
+| **Share a copy** | A PDF to read, Word to keep editing, a web page, Markdown, Rich Text, or a copy of the whole project. | [Share a copy](./share-a-copy.md) |
 
 Poiesis remembers the destination and your choices for each project.
 
@@ -69,9 +69,9 @@ epigraph, the "Also by" page and "About the author". You do not type them in
 a document. Poiesis makes them from what you enter in the project:
 
 - You set the cover and the description at the top of the project's page.
-- Everything else is in [Book details](./book-details), on the same page.
+- Everything else is in [Book details](./book-details.md), on the same page.
 - "About the author" comes from the first author's
-  [profile](./characters-and-authors).
+  [profile](./characters-and-authors.md).
 
 ## Export a single document
 
@@ -102,7 +102,7 @@ every format. A reader outside your vault could not follow them.
 
 ## See also
 
-- [Preview](./preview): every page before you export.
-- [Designs & adjusting them](./designs): how the book looks.
-- [Book details](./book-details): what the title and copyright pages show.
-- [Importing](./importing): bringing work into Poiesis.
+- [Preview](./preview.md): every page before you export.
+- [Designs & adjusting them](./designs.md): how the book looks.
+- [Book details](./book-details.md): what the title and copyright pages show.
+- [Importing](./importing.md): bringing work into Poiesis.

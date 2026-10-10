@@ -7,7 +7,7 @@ description: Páginas con el material de una obra, cada una vinculada al capítu
 
 Una **página de investigación** guarda el material que hay detrás de lo que
 escribes: fuentes, datos, lugares, cronologías. Cada página se vincula a
-aquello de lo que trata: un capítulo, un [proyecto](./collections) o un
+aquello de lo que trata: un capítulo, un [proyecto](./collections.md) o un
 personaje. Así, la investigación aparece junto a ese capítulo, proyecto o
 personaje, sin mezclarse con el texto del libro.
 
@@ -17,7 +17,7 @@ personaje, sin mezclarse con el texto del libro.
 ## Empezar una página de investigación para un capítulo {#start-a-research-page-for-a-chapter}
 
 1. Abre el capítulo.
-2. Abre el [panel de Información](./finding-your-way#the-info-panel)
+2. Abre el [panel de Información](./finding-your-way.md#the-info-panel)
    (`⇧⌘I`) y elige **Enlaces**.
 3. En **Investigación**, pulsa **Nueva página de investigación**. La página
    nueva ya queda vinculada al capítulo.
@@ -93,14 +93,14 @@ investigación.
 
 :::note
 
-Las páginas de investigación no aparecen en el [grafo](./links-and-graph) ni
+Las páginas de investigación no aparecen en el [grafo](./links-and-graph.md) ni
 en las listas de Notas.
 
 :::
 
 ## Ver también {#see-also}
 
-- [Enlaces y el grafo](./links-and-graph)
-- [Proyectos](./collections)
-- [Personajes y autores](./characters-and-authors)
-- [Notas e ideas al vuelo](./notes)
+- [Enlaces y el grafo](./links-and-graph.md)
+- [Proyectos](./collections.md)
+- [Personajes y autores](./characters-and-authors.md)
+- [Notas e ideas al vuelo](./notes.md)

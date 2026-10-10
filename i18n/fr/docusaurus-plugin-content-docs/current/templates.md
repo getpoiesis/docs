@@ -25,7 +25,7 @@ voulez commencer à taper.
 Dans le menu, chaque modèle porte l’une de ces deux mentions :
 
 - **Insérer un modèle enregistré** : le modèle est disponible dans tous les
-  [coffres](./vaults). Un coffre est le dossier qui contient vos textes.
+  [coffres](./vaults.md). Un coffre est le dossier qui contient vos textes.
 - **Insérer un modèle du coffre** : le modèle n’est disponible que dans ce
   coffre.
 
@@ -112,6 +112,6 @@ jour, prête à recevoir votre texte.
 
 ## Voir aussi {#see-also}
 
-- [Mise en forme et blocs](./formatting-and-blocks) : le menu des blocs (`/`).
-- [Journal et pages du matin](./journal-and-morning-pages)
-- [Réglages](./settings)
+- [Mise en forme et blocs](./formatting-and-blocks.md) : le menu des blocs (`/`).
+- [Journal et pages du matin](./journal-and-morning-pages.md)
+- [Réglages](./settings.md)

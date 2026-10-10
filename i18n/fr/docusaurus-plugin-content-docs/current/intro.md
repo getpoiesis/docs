@@ -16,10 +16,10 @@ votre propre ordinateur.
 
 ## Premiers pas {#get-started}
 
-1. [Installez Poiesis](./installing) sur macOS, Windows ou Linux.
-2. [Créez votre premier coffre](./getting-started). Un coffre est le dossier
+1. [Installez Poiesis](./installing.md) sur macOS, Windows ou Linux.
+2. [Créez votre premier coffre](./getting-started.md). Un coffre est le dossier
    qui contient vos textes.
-3. Faites [la visite de la fenêtre](./finding-your-way).
+3. Faites [la visite de la fenêtre](./finding-your-way.md).
 4. Cliquez sur le projet d’exemple, **The Grey Morning**, dans la barre
    latérale. Cliquez ensuite sur **Exporter**, juste en dessous, pour voir
    comment Poiesis met un livre en pages.
@@ -39,7 +39,7 @@ renvoyer à une note, et une entrée du journal mentionner un personnage.
 Deux fonctions sont disponibles dans tous les modes :
 
 - **Les liens.** Tapez `[[` pour lier un document à un autre. Le
-  [graphe](./links-and-graph) montre comment vos documents sont reliés.
+  [graphe](./links-and-graph.md) montre comment vos documents sont reliés.
 - **Le Sanctuaire.** Appuyez sur `⌘.` pour tout masquer, sauf la page.
 
 ## Vos textes restent à vous {#your-writing-stays-yours}
@@ -51,12 +51,12 @@ Deux fonctions sont disponibles dans tous les modes :
   permanence, et chaque enregistrement est vérifié. L’historique des versions
   vous permet de revenir à n’importe quel état antérieur. Si vous voulez en
   garder une copie ailleurs, vous pouvez aussi le sauvegarder sur votre propre
-  dépôt git distant. Voir [Versions et sauvegarde](./versions-and-backup).
+  dépôt git distant. Voir [Versions et sauvegarde](./versions-and-backup.md).
 - **Votre travail est facile à déplacer et à conserver.** Copiez le dossier,
   et vous avez tout copié. Vous pouvez placer un coffre dans iCloud Drive,
   Dropbox ou un autre dossier synchronisé. Poiesis pour iPhone et iPad n’est pas
   encore sorti ; quand il le sera, il ouvrira le même coffre. Voir
-  [Coffres](./vaults).
+  [Coffres](./vaults.md).
 
 Chaque document est un fichier `.poiesis`. Ce fichier contient votre texte et
 ses détails sous forme de contenu structuré : les annotations, les notes de
@@ -79,7 +79,7 @@ latérale, est le moyen le plus rapide de le signaler.
 
 ## Voir aussi {#see-also}
 
-- [Votre premier coffre](./getting-started)
-- [Visite de la fenêtre](./finding-your-way)
-- [L’éditeur](./the-editor)
-- [Projets](./collections)
+- [Votre premier coffre](./getting-started.md)
+- [Visite de la fenêtre](./finding-your-way.md)
+- [L’éditeur](./the-editor.md)
+- [Projets](./collections.md)

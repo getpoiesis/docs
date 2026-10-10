@@ -23,7 +23,7 @@ Las dos se guardan con el documento.
 2. Haz clic en la muestra de color (**Resaltar y comentar**) y elige un
    color. O haz clic en **Comentar (sin resaltado)** para dejar el texto sin
    color.
-3. El [panel de Información](./finding-your-way#the-info-panel) se abre en
+3. El [panel de Información](./finding-your-way.md#the-info-panel) se abre en
    la pestaña **Notas**, con la anotación nueva ya preparada. Escribe tu
    comentario en su cuadro.
 
@@ -99,6 +99,6 @@ Nada sale de tu ordenador.
 
 ## Ver también {#see-also}
 
-- [Tableros](./boards): las tareas que puedes seguir en un tablero están en la pestaña **Tareas**.
-- [El editor](./the-editor)
-- [Versiones y copias de seguridad](./versions-and-backup)
+- [Tableros](./boards.md): las tareas que puedes seguir en un tablero están en la pestaña **Tareas**.
+- [El editor](./the-editor.md)
+- [Versiones y copias de seguridad](./versions-and-backup.md)

@@ -16,7 +16,7 @@ look again as often as you like.
 ## Open the preview
 
 1. Open the project's **Export** page (see
-   [How exporting works](./exporting)).
+   [How exporting works](./exporting.md)).
 2. Press **Preview**, at the top of the page.
 3. In the toolbar, choose what to look at: **Print**, **Ebook**, **Web page**
    or **Manuscript**.
@@ -50,6 +50,6 @@ look exactly like your preview. Check these things:
 
 ## See also
 
-- [Print a book](./print-a-book)
-- [Make an ebook](./make-an-ebook)
-- [Designs & adjusting them](./designs)
+- [Print a book](./print-a-book.md)
+- [Make an ebook](./make-an-ebook.md)
+- [Designs & adjusting them](./designs.md)

@@ -21,10 +21,10 @@ calcule aussi la largeur du dos d’après le nombre de pages.
 ## Produire les fichiers {#make-the-files}
 
 1. Ouvrez la page **Exporter** du projet (voir
-   [Comment fonctionne l’export](./exporting)) et choisissez **Livre
+   [Comment fonctionne l’export](./exporting.md)) et choisissez **Livre
    imprimé**.
 2. Réglez les quatre points que demande un imprimeur :
-   - **Maquette** : l’allure du livre (voir [Maquettes et ajustements](./designs)).
+   - **Maquette** : l’allure du livre (voir [Maquettes et ajustements](./designs.md)).
    - **Format** : les dimensions de la page imprimée.
    - **Papier** : **Blanc** ou **Crème**.
    - **Encre** : **Noire**, ou **Garder la couleur de φ**.
@@ -109,9 +109,9 @@ tels qu’un lecteur les verra.
 
 ## Voir aussi {#see-also}
 
-- [Aperçu](./preview) : toutes les pages du livre, en doubles pages.
-- [Maquettes et ajustements](./designs)
-- [Détails du livre](./book-details) : la page de titre, la page de copyright
+- [Aperçu](./preview.md) : toutes les pages du livre, en doubles pages.
+- [Maquettes et ajustements](./designs.md)
+- [Détails du livre](./book-details.md) : la page de titre, la page de copyright
   et l’ISBN.
-- [Créer un livre numérique](./make-an-ebook) : le même livre pour les
+- [Créer un livre numérique](./make-an-ebook.md) : le même livre pour les
   applications de lecture.

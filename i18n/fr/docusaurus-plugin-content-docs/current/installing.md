@@ -17,7 +17,7 @@ dès qu’une nouvelle version est disponible.
 3. Installez-le. Les étapes propres à votre système sont décrites plus bas.
 4. Ouvrez Poiesis. Votre système l’affiche sous le nom **φ Poiesis**. Pour le
    trouver, tapez « poiesis » dans Spotlight ou dans le menu Démarrer.
-5. [Créez votre premier coffre](./getting-started).
+5. [Créez votre premier coffre](./getting-started.md).
 
 ## Configuration requise {#what-you-need}
 
@@ -132,6 +132,6 @@ programmes**.
 
 ## Voir aussi {#see-also}
 
-- [Votre premier coffre](./getting-started)
-- [Réglages](./settings)
-- [Coffres](./vaults)
+- [Votre premier coffre](./getting-started.md)
+- [Réglages](./settings.md)
+- [Coffres](./vaults.md)

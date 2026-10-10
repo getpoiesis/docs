@@ -146,11 +146,11 @@ under **Spelling**, on the same page of Settings:
 2. Choose the **Engine**.
 3. Tick the **Languages**.
 
-A [vault](./vaults) (the folder that holds your work) can use its own engine.
-Set it under **This vault**. [Spelling](./spelling) has the details.
+A [vault](./vaults.md) (the folder that holds your work) can use its own engine.
+Set it under **This vault**. [Spelling](./spelling.md) has the details.
 
 ## See also
 
-- [Settings](./settings): every setting on one page.
-- [Spelling](./spelling)
-- [Dictionary & thesaurus](./dictionary)
+- [Settings](./settings.md): every setting on one page.
+- [Spelling](./spelling.md)
+- [Dictionary & thesaurus](./dictionary.md)

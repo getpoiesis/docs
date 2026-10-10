@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Head from '@docusaurus/Head'
 import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
-// The 404 page, worded like getpoiesis.com's. GitHub Pages answers every
-// unknown URL with the English build's 404.html (with a 404 status), even
-// under /es/ and /fr/, so the page reads the language from the URL once it
-// loads, rather than from the build it came from.
+// The 404 page, worded like getpoiesis.com's, in the build's language.
+// GitHub Pages answers every unknown URL with the English build's 404.html
+// (with a 404 status), even under /es/ and /fr/; a script in the page's head
+// (docusaurus.config.ts, headTags) swaps that for the Spanish or French build's
+// 404 page, navbar and footer included. If it can't, this still reads the
+// language from the URL.
 
 type Lang = 'en' | 'es' | 'fr'
 
@@ -34,8 +37,8 @@ const langOf = (path: string): Lang =>
   path.startsWith('/es/') || path === '/es' ? 'es' : path.startsWith('/fr/') || path === '/fr' ? 'fr' : 'en'
 
 export default function NotFoundContent({ className }: { className?: string }) {
-  // English in the prerendered page; the visitor's language after it loads.
-  const [lang, setLang] = useState<Lang>('en')
+  const { i18n } = useDocusaurusContext()
+  const [lang, setLang] = useState<Lang>(i18n.currentLocale as Lang)
   useEffect(() => setLang(langOf(window.location.pathname)), [])
 
   const t = TEXT[lang]
@@ -44,8 +47,8 @@ export default function NotFoundContent({ className }: { className?: string }) {
   return (
     <main className={['container', 'margin-vert--xl', className].filter(Boolean).join(' ')}>
       <Head>
-        <html lang={lang} />
         <title>{`${t.title} | φ Poiesis`}</title>
+        <meta name="robots" content="noindex" />
       </Head>
       <div className="row">
         <div className="col col--6 col--offset-3">

@@ -186,7 +186,7 @@ Hiding Poiesis and hiding the other apps work only on a Mac.
 
 ## See also
 
-- [Finding your way around](./finding-your-way)
-- [Formatting & blocks](./formatting-and-blocks)
-- [Side by side](./side-by-side)
-- [Settings](./settings)
+- [Finding your way around](./finding-your-way.md)
+- [Formatting & blocks](./formatting-and-blocks.md)
+- [Side by side](./side-by-side.md)
+- [Settings](./settings.md)

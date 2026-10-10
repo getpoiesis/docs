@@ -17,7 +17,7 @@ de fois que vous le voulez.
 ## Ouvrir l’aperçu {#open-the-preview}
 
 1. Ouvrez la page **Exporter** du projet (voir
-   [Comment fonctionne l’export](./exporting)).
+   [Comment fonctionne l’export](./exporting.md)).
 2. Appuyez sur **Aperçu**, en haut de la page.
 3. Dans la barre d’outils, choisissez ce que vous voulez regarder :
    **Imprimé**, **Livre numérique**, **Page web** ou **Manuscrit**.
@@ -54,6 +54,6 @@ ressemblera donc pas exactement à votre aperçu. Vérifiez ces points :
 
 ## Voir aussi {#see-also}
 
-- [Imprimer un livre](./print-a-book)
-- [Créer un livre numérique](./make-an-ebook)
-- [Maquettes et ajustements](./designs)
+- [Imprimer un livre](./print-a-book.md)
+- [Créer un livre numérique](./make-an-ebook.md)
+- [Maquettes et ajustements](./designs.md)

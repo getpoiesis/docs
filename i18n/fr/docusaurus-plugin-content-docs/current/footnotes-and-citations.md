@@ -14,7 +14,7 @@ export les contient donc, à l’endroit où le lecteur les attend.
 <img src="/img/app/footnotes-dark.png" alt="Un chapitre avec un appel de note dans le texte, et l’onglet Plan du panneau Infos qui affiche les deux notes de bas de page du chapitre" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Les notes de bas de page, les citations et la bibliographie n’existent que
-dans les documents qui font partie d’un [projet](./collections). Vous ne les
+dans les documents qui font partie d’un [projet](./collections.md). Vous ne les
 trouverez ni dans les notes, ni dans les pièces hors projet, ni dans le
 journal.
 
@@ -100,6 +100,6 @@ page.
 
 ## Voir aussi {#see-also}
 
-- [Mise en forme et blocs](./formatting-and-blocks)
-- [Projets](./collections)
-- [Comment fonctionne l’export](./exporting)
+- [Mise en forme et blocs](./formatting-and-blocks.md)
+- [Projets](./collections.md)
+- [Comment fonctionne l’export](./exporting.md)

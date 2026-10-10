@@ -37,7 +37,7 @@ finds a character by name and opens either list.
 | **Role & traits** | A few lines on who they are. |
 | **Notes** | Background, appearance, how they change in the story, or anything else. |
 | **Linked from** | Every document that mentions them, with the number of mentions. Click one to open it. |
-| **Research** and **Notes** | Research pages and notes about them: **New research page**, **Link research…**, **New note about this** and **Link a note…** (see [Research](./research)). |
+| **Research** and **Notes** | Research pages and notes about them: **New research page**, **Link research…**, **New note about this** and **Link a note…** (see [Research](./research.md)). |
 
 **Delete**, at the bottom of the sheet, moves the character to the trash.
 
@@ -46,7 +46,7 @@ aliases.
 
 ## Keep each book's world apart
 
-A character belongs to the [project](./collections) where you make them.
+A character belongs to the [project](./collections.md) where you make them.
 To see a project's characters, open the project and choose **Characters**
 under it in the sidebar. The project's own characters come first. The
 shared ones come after, marked **Shared**.
@@ -59,7 +59,7 @@ with `@` while you write one of the project's chapters.
 - **All your work:** choose **Every project** for someone who appears
   everywhere, such as a real person or a narrator you use again.
 - **The whole vault:** **World → Characters** in the sidebar still lists
-  every character in the [vault](./vaults), the folder that holds your
+  every character in the [vault](./vaults.md), the folder that holds your
   writing.
 - **Moving a project:** when you move a project to another vault, its own
   characters move with it. A character it shares with other projects stays.
@@ -97,7 +97,7 @@ Morning pages have no `@` suggestions.
 3. Fill in the profile. Poiesis saves each field when you leave it.
 4. Add the profile to a project. On the project's page, choose it under
    **Settings** → **Author profile**. Or add it under **Book details** →
-   **People** (see [Book details](./book-details)).
+   **People** (see [Book details](./book-details.md)).
 
 ## What each part of the profile signs
 
@@ -117,14 +117,14 @@ Morning pages have no `@` suggestions.
 
 When you make a manuscript for an agent, the export tells you what is
 missing from the first page. It offers **Open the author profile** (see
-[Send to an agent or publisher](./send-to-an-agent)).
+[Send to an agent or publisher](./send-to-an-agent.md)).
 
 **Delete** moves the profile to the trash.
 
 ## See also
 
-- [Book details](./book-details): who wrote, translated or edited the book.
-- [Send to an agent or publisher](./send-to-an-agent): the manuscript and its
+- [Book details](./book-details.md): who wrote, translated or edited the book.
+- [Send to an agent or publisher](./send-to-an-agent.md): the manuscript and its
   first page.
-- [Research](./research): pages linked to a character.
-- [Links & graph](./links-and-graph)
+- [Research](./research.md): pages linked to a character.
+- [Links & graph](./links-and-graph.md)

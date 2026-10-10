@@ -29,10 +29,10 @@ place. Tous les autres documents sont soit des pièces, soit des notes :
 - Les **pièces** sont dans Écrire, sous **Pièces**. Une pièce est un poème,
   un essai ou un récit qui n’appartient à aucun projet. Elle peut avoir un
   statut et un objectif de mots. Vous pouvez l’ajouter à un projet à tout
-  moment (voir [Projets](./collections)).
+  moment (voir [Projets](./collections.md)).
 - Les **notes** sont dans Notes. Une note est une idée, une source ou une
   phrase entendue au passage. Les notes n’ont ni statut ni objectif de mots
-  (voir [Notes et capture rapide](./notes)).
+  (voir [Notes et capture rapide](./notes.md)).
 
 Les pièces et les notes partagent les mêmes dossiers. Notes affiche tous les
 dossiers. Pièces affiche ceux qui contiennent des pièces, ainsi que les
@@ -97,7 +97,7 @@ sur l’Accueil.
 | De Notes vers Écrire, ou l’inverse | Faites un clic droit dessus et choisissez **Déplacer vers les pièces d’Écrire** ou **Déplacer vers Notes**. Le même choix figure dans le **⋮** du document et dans sa page Détails. |
 | Dans un projet | Faites un clic droit sur une pièce et choisissez **Ajouter à un projet** ou **Déplacer vers un autre projet**. Ou choisissez **L’ajouter à un projet…** dans sa page Détails. Une note passe d’abord dans les pièces d’Écrire. |
 | Hors d’un projet | Faites un clic droit sur le chapitre et choisissez **Retirer du projet**. |
-| Vers un autre coffre | Faites un clic droit dessus et choisissez **Déplacer vers un coffre…**. Cette commande apparaît quand vous avez plusieurs coffres (voir [Coffres](./vaults)). |
+| Vers un autre coffre | Faites un clic droit dessus et choisissez **Déplacer vers un coffre…**. Cette commande apparaît quand vous avez plusieurs coffres (voir [Coffres](./vaults.md)). |
 
 ## Étiquettes {#tags}
 
@@ -132,7 +132,7 @@ Voici ce que vous pouvez faire dans une liste :
   document situé au-dessus ou au-dessous de celui qui est ouvert.
 - **Ouvrir à côté.** Cliquez sur une ligne en maintenant `⌥` pour l’ouvrir à
   côté du document que vous lisez (voir
-  [Documents côte à côte](./side-by-side)).
+  [Documents côte à côte](./side-by-side.md)).
 
 ## Détails {#details}
 
@@ -160,7 +160,7 @@ Les lignes affichées dépendent du type de document :
 | **Couleur** | Les chapitres : **Gris**, **Rouge**, **Ambre**, **Vert**, **Bleu** ou **Violet**. |
 | **Favorite** | Tous les documents. |
 | **Dans** | Pour un chapitre : son projet, sa partie et son numéro, **Laisser hors de la numérotation**, et un lien qui ouvre le projet. Pour une pièce ou une note : son dossier, et la possibilité de la déplacer vers l’autre mode. Les cartes de tableau liées au document figurent aussi ici. |
-| **Lié à** | Les pièces et les notes : les documents, les projets et les personnages dont parle ce document (voir [Recherche](./research)). |
+| **Lié à** | Les pièces et les notes : les documents, les projets et les personnages dont parle ce document (voir [Recherche](./research.md)). |
 
 Le bas de la page indique quand le document a été créé, quand il a été
 modifié pour la dernière fois et combien de versions il compte.
@@ -174,13 +174,13 @@ sur son **⋮**. Le menu contient :
   favoris**.
 - **Plan**, **Liens wiki**, **Notes** et **Historique des versions**. Chacun
   ouvre la partie correspondante du
-  [panneau Infos](./finding-your-way#the-info-panel).
+  [panneau Infos](./finding-your-way.md#the-info-panel).
 - Les déplacements décrits dans [Déplacer un document](#move-a-document).
 - **Marquer comme pages du matin** (voir
-  [Journal et pages du matin](./journal-and-morning-pages)).
+  [Journal et pages du matin](./journal-and-morning-pages.md)).
 - **Renommer…** et **Copier en Markdown**.
 - Un sous-menu avec tous les formats d’export (voir
-  [Comment fonctionne l’export](./exporting)).
+  [Comment fonctionne l’export](./exporting.md)).
 - **Supprimer**, qui met le document à la corbeille.
 
 ## Corbeille {#trash}
@@ -213,8 +213,8 @@ confirmation.
 
 ## Voir aussi {#see-also}
 
-- [Notes et capture rapide](./notes)
-- [Visite de la fenêtre](./finding-your-way) : la barre latérale, la liste et
+- [Notes et capture rapide](./notes.md)
+- [Visite de la fenêtre](./finding-your-way.md) : la barre latérale, la liste et
   la page.
-- [Rechercher et remplacer](./search-and-replace)
-- [Projets](./collections) : organiser les chapitres et les parties.
+- [Rechercher et remplacer](./search-and-replace.md)
+- [Projets](./collections.md) : organiser les chapitres et les parties.

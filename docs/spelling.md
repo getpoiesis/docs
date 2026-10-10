@@ -62,7 +62,7 @@ Open **Settings → Language → Spelling**. There are three settings:
   uses two languages. With **Native** on a Mac, the system detects the
   language automatically.
 
-A [vault](./vaults) (the folder that holds your writing) can have its own
+A [vault](./vaults.md) (the folder that holds your writing) can have its own
 setting. Under **Settings → Language → This vault**, set **Default for this
 vault** to **Use global**, **Native** or **Enhanced**. With **Enhanced**,
 you can also choose the languages for that vault.
@@ -92,6 +92,6 @@ When you keep a word, where it is saved depends on the engine:
 
 ## See also
 
-- [Dictionary & thesaurus](./dictionary)
-- [Themes & languages](./themes-and-languages)
-- [Settings](./settings)
+- [Dictionary & thesaurus](./dictionary.md)
+- [Themes & languages](./themes-and-languages.md)
+- [Settings](./settings.md)

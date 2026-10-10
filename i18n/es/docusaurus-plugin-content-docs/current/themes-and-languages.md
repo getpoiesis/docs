@@ -148,12 +148,12 @@ Los idiomas de la ortografía no dependen del idioma de la interfaz. Están en
 2. Elige el **Motor**.
 3. Marca los **Idiomas**.
 
-Una [bóveda](./vaults) (la carpeta que contiene tu trabajo) puede usar su
+Una [bóveda](./vaults.md) (la carpeta que contiene tu trabajo) puede usar su
 propio motor. Se elige en **Esta bóveda**. Los detalles están en
-[Ortografía](./spelling).
+[Ortografía](./spelling.md).
 
 ## Ver también {#see-also}
 
-- [Ajustes](./settings): todos los ajustes en una sola página.
-- [Ortografía](./spelling)
-- [Diccionario y tesauro](./dictionary)
+- [Ajustes](./settings.md): todos los ajustes en una sola página.
+- [Ortografía](./spelling.md)
+- [Diccionario y tesauro](./dictionary.md)

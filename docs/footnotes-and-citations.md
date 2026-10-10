@@ -14,7 +14,7 @@ export includes them, in the place a reader expects.
 <img src="/img/app/footnotes-dark.png" alt="A chapter with a footnote marker in its text, and the Info panel's Outline listing the chapter's two footnotes" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Footnotes, citations and the bibliography are available only in documents
-that belong to a [project](./collections). They are not available in
+that belong to a [project](./collections.md). They are not available in
 notes, in pieces outside a project, or in the journal.
 
 ## Add a footnote
@@ -95,6 +95,6 @@ In a PDF or a Word file, the bibliography starts on a new page.
 
 ## See also
 
-- [Formatting & blocks](./formatting-and-blocks)
-- [Projects](./collections)
-- [How exporting works](./exporting)
+- [Formatting & blocks](./formatting-and-blocks.md)
+- [Projects](./collections.md)
+- [How exporting works](./exporting.md)

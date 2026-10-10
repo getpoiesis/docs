@@ -54,7 +54,7 @@ vérification contrôle les points suivants :
 - **Une description pour chaque image** (texte alternatif). Elle est destinée
   aux lecteurs qui ne peuvent pas voir les images.
 - **Un ISBN**, si vous en avez un pour le livre numérique. Saisissez-le dans
-  **ISBN (numérique)**, dans les [Détails du livre](./book-details). KDP et
+  **ISBN (numérique)**, dans les [Détails du livre](./book-details.md). KDP et
   Google Play n’en exigent pas.
 
 Pendant qu’il crée le fichier, Poiesis vérifie aussi que l’EPUB respecte la norme
@@ -62,7 +62,7 @@ EPUB.
 
 ## Voir aussi {#see-also}
 
-- [Aperçu](./preview) : pour voir le livre numérique sur un téléphone, une
+- [Aperçu](./preview.md) : pour voir le livre numérique sur un téléphone, une
   tablette ou un écran.
-- [Maquettes et ajustements](./designs)
-- [Imprimer un livre](./print-a-book)
+- [Maquettes et ajustements](./designs.md)
+- [Imprimer un livre](./print-a-book.md)

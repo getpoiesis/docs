@@ -41,7 +41,7 @@ La instantánea aparece en la pestaña **Historial** del documento, con la marca
   una versión de un momento que eliges tú.
 - **Poiesis guarda una versión antes de un cambio en toda la bóveda.** La bóveda es
   la carpeta que contiene tu trabajo. Cuando reemplazas una palabra en todos
-  los documentos (consulta [Buscar y reemplazar](./search-and-replace)), Poiesis
+  los documentos (consulta [Buscar y reemplazar](./search-and-replace.md)), Poiesis
   guarda primero una versión de la bóveda entera. Así puedes deshacer el
   cambio.
 
@@ -166,7 +166,7 @@ carpeta sincronizada o una copia en un disco.
 
 ## Ver también {#see-also}
 
-- [Bóvedas](./vaults): bóvedas en varios dispositivos, y qué pasa cuando dos
+- [Bóvedas](./vaults.md): bóvedas en varios dispositivos, y qué pasa cuando dos
   de ellos cambian el mismo documento.
-- [Buscar y reemplazar](./search-and-replace)
-- [Ajustes](./settings)
+- [Buscar y reemplazar](./search-and-replace.md)
+- [Ajustes](./settings.md)

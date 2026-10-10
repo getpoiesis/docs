@@ -12,7 +12,7 @@ contacto y el número de palabras.
 
 ## Crear el manuscrito {#make-the-manuscript}
 
-1. Abre tu [perfil de autor](./characters-and-authors). Comprueba que tiene tu
+1. Abre tu [perfil de autor](./characters-and-authors.md). Comprueba que tiene tu
    **Nombre**, tu dirección postal, tu correo electrónico y tu teléfono: la
    primera página los necesita. **Nombre** es tu nombre legal; **Seudónimo /
    firma** es el nombre que ven los lectores.
@@ -47,6 +47,6 @@ unos pocos prefieren PDF y algunos piden solo los primeros capítulos.
 
 ## Ver también {#see-also}
 
-- [Personajes y autores](./characters-and-authors): el perfil de autor.
-- [Compartir una copia](./share-a-copy): un archivo de Word para seguir
+- [Personajes y autores](./characters-and-authors.md): el perfil de autor.
+- [Compartir una copia](./share-a-copy.md): un archivo de Word para seguir
   editando.

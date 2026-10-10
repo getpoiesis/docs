@@ -40,7 +40,7 @@ De arriba abajo, la barra lateral tiene:
   aparecen tus bóvedas y, a continuación, **Abrir otra bóveda…**, **Nueva
   bóveda…**, **Mostrar en Finder** (**Mostrar en el Explorador de archivos**
   en Windows) e **Importar…**. Si tienes más de una bóveda, también aparece
-  **Fusionar con otra bóveda…**. Consulta [Bóvedas](./vaults).
+  **Fusionar con otra bóveda…**. Consulta [Bóvedas](./vaults.md).
 - **Los controles deslizantes**, al lado del nombre. Abren los **Ajustes**
   (`⌘,`).
 - **Escribir · Notas · Diario**, el selector de modo. `⌘1`, `⌘2` y `⌘3` abren
@@ -66,7 +66,7 @@ meter una nota en una carpeta, arrástrala hasta la carpeta en la barra
 lateral.
 
 Tú decides qué lugares muestra cada modo. Consulta
-[Puesta a punto](./setup).
+[Puesta a punto](./setup.md).
 
 ## La lista {#the-list}
 
@@ -113,11 +113,11 @@ arriba a la derecha están estos botones:
 
 | Botón | Qué hace |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de este. Consulta [Documentos lado a lado](./side-by-side). |
+| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de este. Consulta [Documentos lado a lado](./side-by-side.md). |
 | **⋮** | El menú del documento: destacar, añadir a un tablero, modo lectura, desplazamiento de máquina de escribir, revisar la ortografía, guardar una versión, exportar, mover a la papelera y más. |
-| **Detalles…** (la ⓘ) | El estado del documento, su sinopsis o descripción, su meta de palabras, sus etiquetas, su color y dónde está guardado. Consulta [Organizar](./organizing). |
+| **Detalles…** (la ⓘ) | El estado del documento, su sinopsis o descripción, su meta de palabras, sus etiquetas, su color y dónde está guardado. Consulta [Organizar](./organizing.md). |
 | **Información** (`⇧⌘I`) | Abre o cierra el panel de Información. |
-| **Santuario** (`⌘.`) | Lo oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes). |
+| **Santuario** (`⌘.`) | Lo oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
 
 El recuento de palabras está en la esquina inferior derecha. Si el documento
 tiene una meta de palabras, la esquina muestra tus palabras y la meta. Haz
@@ -135,14 +135,14 @@ del documento. Tiene cinco pestañas:
 | Pestaña | Qué muestra |
 | --- | --- |
 | **Esquema** | Las palabras, el tiempo de lectura y la meta; los encabezados y las notas al pie; **Añadir al tablero…** y **Guardar versión…**. |
-| **Enlaces** | A qué enlaza este documento y qué documentos enlazan con él, las notas enlazadas y el **Grafo local**. Consulta [Enlaces y el grafo](./links-and-graph). |
-| **Notas** | Sus resaltados, comentarios y notas al margen (`⇧⌘A`). Consulta [Anotaciones y notas al margen](./annotations). |
+| **Enlaces** | A qué enlaza este documento y qué documentos enlazan con él, las notas enlazadas y el **Grafo local**. Consulta [Enlaces y el grafo](./links-and-graph.md). |
+| **Notas** | Sus resaltados, comentarios y notas al margen (`⇧⌘A`). Consulta [Anotaciones y notas al margen](./annotations.md). |
 | **Tareas** | Los elementos de sus listas de tareas y las tarjetas de tablero que les hacen seguimiento. |
-| **Historial** | Sus versiones. Consulta [Versiones y copias de seguridad](./versions-and-backup). |
+| **Historial** | Sus versiones. Consulta [Versiones y copias de seguridad](./versions-and-backup.md). |
 
 Algunos documentos muestran otras pestañas:
 
-- Mientras usas el [diccionario](./dictionary) (`⇧⌘D`), este aparece como
+- Mientras usas el [diccionario](./dictionary.md) (`⇧⌘D`), este aparece como
   sexta pestaña.
 - Una página matinal muestra en su lugar **La práctica** e **Historial**.
 - Las páginas propias de un proyecto muestran el **Proyecto**.
@@ -229,13 +229,13 @@ ejecutado **Últimamente**. Escribe para buscar entre todos los comandos.
 
 Pulsa `⌘/` para ver juntos los atajos principales. Pulsa `⌘/` o `Esc` para
 cerrarlos. La lista completa está en
-[Atajos de teclado](./keyboard-shortcuts).
+[Atajos de teclado](./keyboard-shortcuts.md).
 
 :::
 
 ## Ver también {#see-also}
 
-- [Tu primera bóveda](./getting-started)
-- [Puesta a punto](./setup)
-- [Documentos lado a lado](./side-by-side)
-- [Atajos de teclado](./keyboard-shortcuts)
+- [Tu primera bóveda](./getting-started.md)
+- [Puesta a punto](./setup.md)
+- [Documentos lado a lado](./side-by-side.md)
+- [Atajos de teclado](./keyboard-shortcuts.md)

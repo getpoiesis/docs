@@ -17,7 +17,7 @@ tantas veces como quieras.
 ## Abre la vista previa {#open-the-preview}
 
 1. Abre la página **Exportar** del proyecto (consulta
-   [Cómo funciona la exportación](./exporting)).
+   [Cómo funciona la exportación](./exporting.md)).
 2. Pulsa **Vista previa**, en lo alto de la página.
 3. En la barra de herramientas, elige qué quieres ver: **Impreso**, **Libro
    electrónico**, **Página web** o **Manuscrito**.
@@ -53,6 +53,6 @@ no se verá exactamente igual que en tu vista previa. Fíjate en esto:
 
 ## Ver también {#see-also}
 
-- [Imprimir un libro](./print-a-book)
-- [Crear un libro electrónico](./make-an-ebook)
-- [Diseños y cómo ajustarlos](./designs)
+- [Imprimir un libro](./print-a-book.md)
+- [Crear un libro electrónico](./make-an-ebook.md)
+- [Diseños y cómo ajustarlos](./designs.md)

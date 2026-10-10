@@ -23,7 +23,7 @@ the caret (the blinking text cursor) where you want to start typing.
 In the menu, each template has one of two labels:
 
 - **Insert a saved template**: the template is available in every
-  [vault](./vaults). A vault is the folder that holds your writing.
+  [vault](./vaults.md). A vault is the folder that holds your writing.
 - **Insert a vault template**: the template is available in this vault only.
 
 ## Save something as a template
@@ -105,6 +105,6 @@ ready for you to write.
 
 ## See also
 
-- [Formatting & blocks](./formatting-and-blocks): the `/` menu.
-- [Journal & morning pages](./journal-and-morning-pages)
-- [Settings](./settings)
+- [Formatting & blocks](./formatting-and-blocks.md): the `/` menu.
+- [Journal & morning pages](./journal-and-morning-pages.md)
+- [Settings](./settings.md)

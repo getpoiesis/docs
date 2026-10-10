@@ -37,10 +37,10 @@ documentos, así que puedes hacerlo tantas veces como quieras.
 
 | Destino | Qué obtienes | Más información |
 | --- | --- | --- |
-| **Libro impreso** | El PDF del interior y la cubierta completa para KDP, IngramSpark, Lulu y otros servicios de impresión bajo demanda. | [Imprimir un libro](./print-a-book) |
-| **Libro electrónico** | Un EPUB para Apple Books, Kindle, Kobo y Google Play. | [Crear un libro electrónico](./make-an-ebook) |
-| **Agente o editorial** | Tu manuscrito en el formato estándar de manuscrito, en Word o PDF. | [Enviar a un agente o editorial](./send-to-an-agent) |
-| **Compartir una copia** | Un PDF para leer, un Word para seguir editando, una página web, Markdown, texto enriquecido o una copia del proyecto entero. | [Compartir una copia](./share-a-copy) |
+| **Libro impreso** | El PDF del interior y la cubierta completa para KDP, IngramSpark, Lulu y otros servicios de impresión bajo demanda. | [Imprimir un libro](./print-a-book.md) |
+| **Libro electrónico** | Un EPUB para Apple Books, Kindle, Kobo y Google Play. | [Crear un libro electrónico](./make-an-ebook.md) |
+| **Agente o editorial** | Tu manuscrito en el formato estándar de manuscrito, en Word o PDF. | [Enviar a un agente o editorial](./send-to-an-agent.md) |
+| **Compartir una copia** | Un PDF para leer, un Word para seguir editando, una página web, Markdown, texto enriquecido o una copia del proyecto entero. | [Compartir una copia](./share-a-copy.md) |
 
 Poiesis recuerda el destino y las opciones de cada proyecto.
 
@@ -69,9 +69,9 @@ Son la portada, la página de créditos, la dedicatoria, el epígrafe, la págin
 crea con los datos que introduces en el proyecto.
 
 - La cubierta y la descripción se ponen en lo alto de la página del proyecto.
-- Todo lo demás está en [Datos del libro](./book-details), en esa misma
+- Todo lo demás está en [Datos del libro](./book-details.md), en esa misma
   página.
-- «Sobre el autor» sale del [perfil](./characters-and-authors) del primer
+- «Sobre el autor» sale del [perfil](./characters-and-authors.md) del primer
   autor.
 
 ## Exporta un solo documento {#export-a-single-document}
@@ -105,8 +105,8 @@ podría seguirlos.
 
 ## Ver también {#see-also}
 
-- [Vista previa](./preview): todas las páginas antes de exportar.
-- [Diseños y cómo ajustarlos](./designs): el aspecto del libro.
-- [Datos del libro](./book-details): lo que aparece en la portada y en la
+- [Vista previa](./preview.md): todas las páginas antes de exportar.
+- [Diseños y cómo ajustarlos](./designs.md): el aspecto del libro.
+- [Datos del libro](./book-details.md): lo que aparece en la portada y en la
   página de créditos.
-- [Importar](./importing): cómo traer tu obra a Poiesis.
+- [Importar](./importing.md): cómo traer tu obra a Poiesis.

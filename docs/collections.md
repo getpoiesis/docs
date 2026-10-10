@@ -23,7 +23,7 @@ parts, the numbering, the cover and the word goal. A project is also what
 4. On the project's page, under **Settings**, set the **Type**, the
    **Author profile** and the **Word goal**.
 
-If your [vault](./vaults) (the folder that holds your writing) is still
+If your [vault](./vaults.md) (the folder that holds your writing) is still
 empty, Write's Home shows **Start a project** instead. Pick **Novel**,
 **Poetry**, **Essays** or **Other**, then press **Create**.
 
@@ -46,7 +46,7 @@ stays the same.
 
 This page says *chapter* and *part* for all types. Read them as the names
 your project's type uses. For a project of poems, see also
-[Poetry & verse](./poetry).
+[Poetry & verse](./poetry.md).
 
 ## Find your way around a project
 
@@ -54,13 +54,13 @@ Click a project in the sidebar to open it. These pages appear under it:
 
 | Page | What's there |
 | --- | --- |
-| *The project's name* | The project's page: cover, title, author, description, progress, settings and [Book details](./book-details). |
+| *The project's name* | The project's page: cover, title, author, description, progress, settings and [Book details](./book-details.md). |
 | **Contents** | The whole work on one page, to arrange it. |
-| **Research** | The research pages linked to the project ([Research](./research)). |
-| **Characters** | The project's characters, and the shared ones ([Characters & authors](./characters-and-authors)). |
-| **Board** | The chapters as cards by status, and the project's own boards, listed beside it ([Boards](./boards)). |
+| **Research** | The research pages linked to the project ([Research](./research.md)). |
+| **Characters** | The project's characters, and the shared ones ([Characters & authors](./characters-and-authors.md)). |
+| **Board** | The chapters as cards by status, and the project's own boards, listed beside it ([Boards](./boards.md)). |
 | **Read** | The manuscript in order, read-only: as **Prose**, or as a **Book** with its contents. |
-| **Export** | The printed book, the ebook, the manuscript for an agent ([How exporting works](./exporting)). |
+| **Export** | The printed book, the ebook, the manuscript for an agent ([How exporting works](./exporting.md)). |
 
 While a project is open, the list beside the page shows its outline. The
 outline has every chapter under its part, with the chapter's number and
@@ -127,7 +127,7 @@ The document then has no number. Your first real chapter is still
 Chapter 1 in the outline, in the reading view and in every export.
 
 The book's title page, copyright page and "Also by" page are not
-documents. Poiesis makes them from the project's [Book details](./book-details).
+documents. Poiesis makes them from the project's [Book details](./book-details.md).
 
 ## Set word goals
 
@@ -155,7 +155,7 @@ Click the project's name in the sidebar to open its page. It has:
 - **Settings.** **Type**, **Author profile** and **Word goal**. Click one
   to change it.
 - **Book details.** The information for the title page, the copyright page
-  and similar pages ([Book details](./book-details)).
+  and similar pages ([Book details](./book-details.md)).
 - **Research** and **Notes.** The research pages and notes linked to the
   project, with **New research page**, **Link research…**, **New note
   about this** and **Link a note…**.
@@ -165,7 +165,7 @@ Click the project's name in the sidebar to open its page. It has:
 ## Add a piece you've already written
 
 A piece is a document in Write that is not in any project (see
-[Organizing your work](./organizing)). There are two ways to add one:
+[Organizing your work](./organizing.md)). There are two ways to add one:
 
 - Right-click the piece in the list, choose **Add to project** (or **Move
   to project**), then choose the project.
@@ -210,8 +210,8 @@ can restore it from there.
 
 ## See also
 
-- [Book details](./book-details): the title page, copyright page and the
+- [Book details](./book-details.md): the title page, copyright page and the
   book's other pages.
-- [How exporting works](./exporting)
-- [Boards](./boards)
-- [Organizing your work](./organizing)
+- [How exporting works](./exporting.md)
+- [Boards](./boards.md)
+- [Organizing your work](./organizing.md)

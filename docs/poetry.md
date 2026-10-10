@@ -14,7 +14,7 @@ them the same way.
 
 ## Write a poem
 
-1. Open a poem in a [project](./collections). To start a new poem, click
+1. Open a poem in a [project](./collections.md). To start a new poem, click
    the **+** above the list and choose **New poem**.
 2. Type `/verse` and press `Enter`, or press `⌥⌘V`. A verse block starts.
 3. Write. Press `Enter` to start a new line.
@@ -65,7 +65,7 @@ An epigraph is a quotation at the start of a piece.
 4. Write the source there.
 
 To put an epigraph at the start of the whole book, add it in the project's
-[Book details](./book-details). Poiesis then prints it on its own page.
+[Book details](./book-details.md). Poiesis then prints it on its own page.
 
 ## Set a line apart
 
@@ -116,7 +116,7 @@ poetry.
 
 ## See also
 
-- [Designs & adjusting them](./designs)
-- [Print a book](./print-a-book)
-- [Formatting & blocks](./formatting-and-blocks)
-- [Projects](./collections)
+- [Designs & adjusting them](./designs.md)
+- [Print a book](./print-a-book.md)
+- [Formatting & blocks](./formatting-and-blocks.md)
+- [Projects](./collections.md)

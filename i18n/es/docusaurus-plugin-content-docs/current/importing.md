@@ -9,7 +9,7 @@ A φ Poiesis puedes traer textos de otras aplicaciones de escritura y también c
 hayas hecho con Poiesis. Lo que importas se convierte en documentos normales de Poiesis y
 conserva sus fechas, sus enlaces y sus imágenes.
 
-Los documentos importados van a una [bóveda](./vaults), la carpeta donde Poiesis
+Los documentos importados van a una [bóveda](./vaults.md), la carpeta donde Poiesis
 guarda tu trabajo.
 
 ## Importar archivos Markdown {#import-markdown-files}
@@ -55,5 +55,5 @@ proyecto** se abre con sus imágenes. Hay tres maneras de importarlo:
 
 ## Ver también {#see-also}
 
-- [Bóvedas](./vaults): adónde va lo que importas.
-- [Compartir una copia](./share-a-copy): cómo hacer una copia del proyecto.
+- [Bóvedas](./vaults.md): adónde va lo que importas.
+- [Compartir una copia](./share-a-copy.md): cómo hacer una copia del proyecto.

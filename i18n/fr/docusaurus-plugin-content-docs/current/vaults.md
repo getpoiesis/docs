@@ -16,7 +16,7 @@ déplacer et le synchroniser avec vos autres appareils.
 Vos documents sont des fichiers `.poiesis`. C’est le format propre à φ Poiesis : les
 autres applications ne peuvent donc pas les ouvrir directement. Pour utiliser
 vos textes dans une autre application, exportez-les en Markdown, Word, PDF ou
-EPUB. Voir [Comment fonctionne l’export](./exporting).
+EPUB. Voir [Comment fonctionne l’export](./exporting.md).
 
 ## Créer un coffre {#make-a-vault}
 
@@ -44,7 +44,7 @@ La suite dépend du dossier :
 | Fichiers `.poiesis` | Vos documents, à raison d’un fichier par document. |
 | `assets` | Les images que vous ajoutez sont copiées ici : le coffre se suffit ainsi à lui-même. |
 | `.trash` | Les documents que vous supprimez, tant que vous ne les restaurez pas depuis la **Corbeille**, tout en bas de la barre latérale. Ce qui y reste est supprimé définitivement au bout de 30 jours. |
-| `.poiesis-history` ou `.git` | L’historique des versions (voir [Versions et sauvegarde](./versions-and-backup)). |
+| `.poiesis-history` ou `.git` | L’historique des versions (voir [Versions et sauvegarde](./versions-and-backup.md)). |
 | `.poiesis-vault.json` | Un petit fichier qui donne son nom au coffre et retient ses réglages. |
 
 La plupart des gestionnaires de fichiers masquent les noms qui commencent par
@@ -56,7 +56,7 @@ s’en occupe.
 Vous pouvez avoir plusieurs coffres, par exemple un pour un roman et un pour
 vos notes quotidiennes. Un seul coffre est ouvert à la fois. Chaque coffre a
 ses propres documents, son historique et ses
-[réglages d’écriture](./setup).
+[réglages d’écriture](./setup.md).
 
 <img src="/img/app/vault-menu-light.png" alt="Le menu du coffre ouvert en haut de la barre latérale" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/vault-menu-dark.png" alt="Le menu du coffre ouvert en haut de la barre latérale" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -195,7 +195,7 @@ de vos appareils.
 Si le coffre utilise git pour son historique, Poiesis conserve l’historique git
 sur chaque ordinateur, en dehors du dossier synchronisé. Un service de
 synchronisation copie l’historique fichier par fichier, ce qui peut
-l’endommager. Voir [Versions et sauvegarde](./versions-and-backup).
+l’endommager. Voir [Versions et sauvegarde](./versions-and-backup.md).
 
 :::
 
@@ -215,6 +215,6 @@ Si c’était votre dernier coffre, Poiesis revient à l’écran de bienvenue.
 
 ## Voir aussi {#see-also}
 
-- [Versions et sauvegarde](./versions-and-backup)
-- [Importer](./importing) : récupérez des textes venus d’autres applications.
-- [Réglages d’écriture](./setup) : ce que chaque coffre affiche.
+- [Versions et sauvegarde](./versions-and-backup.md)
+- [Importer](./importing.md) : récupérez des textes venus d’autres applications.
+- [Réglages d’écriture](./setup.md) : ce que chaque coffre affiche.

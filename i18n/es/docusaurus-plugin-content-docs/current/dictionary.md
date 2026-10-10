@@ -75,6 +75,6 @@ consulta se conecta a internet.
 
 ## Ver también {#see-also}
 
-- [Ortografía](./spelling)
-- [El editor](./the-editor): la barra de herramientas de selección.
-- [Temas e idiomas](./themes-and-languages)
+- [Ortografía](./spelling.md)
+- [El editor](./the-editor.md): la barra de herramientas de selección.
+- [Temas e idiomas](./themes-and-languages.md)

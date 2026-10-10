@@ -39,7 +39,7 @@ From top to bottom, the sidebar has:
   the name to open the vault menu. It lists your vaults, then **Open another
   vault…**, **New vault…**, **Show in Finder** (**Show in File Explorer** on
   Windows) and **Import…**. If you have more than one vault, it also has
-  **Merge into another vault…**. See [Vaults](./vaults).
+  **Merge into another vault…**. See [Vaults](./vaults.md).
 - **The sliders** beside the name. They open **Settings** (`⌘,`).
 - **Write · Notes · Journal**, the mode switch. `⌘1`, `⌘2` and `⌘3` open
   the Home of each mode. A vault that uses only one mode has no switch.
@@ -61,7 +61,7 @@ While the project is open, the sidebar shows these under it: **Contents**,
 Right-click a project or a folder to open its menu. To put a note in a
 folder, drag the note onto the folder in the sidebar.
 
-You can choose which places each mode shows. See [Setting up](./setup).
+You can choose which places each mode shows. See [Setting up](./setup.md).
 
 ## The list
 
@@ -104,11 +104,11 @@ buttons are at the top right:
 
 | Button | What it does |
 | --- | --- |
-| **Split view** (`⌘\`) | Opens a second pane beside this one. See [Documents side by side](./side-by-side). |
+| **Split view** (`⌘\`) | Opens a second pane beside this one. See [Documents side by side](./side-by-side.md). |
 | **⋮** | The document's menu: star, add to a board, read mode, typewriter scrolling, check spelling, save a version, export, move to the trash and more. |
-| **Details…** (the ⓘ) | The document's status, synopsis or description, word goal, tags, colour and where it lives. See [Organizing your work](./organizing). |
+| **Details…** (the ⓘ) | The document's status, synopsis or description, word goal, tags, colour and where it lives. See [Organizing your work](./organizing.md). |
 | **Info** (`⇧⌘I`) | Opens or closes the Info panel. |
-| **Sanctuary** (`⌘.`) | Hides everything but the page. See [Sanctuary & writing sessions](./focus-and-writing-modes). |
+| **Sanctuary** (`⌘.`) | Hides everything but the page. See [Sanctuary & writing sessions](./focus-and-writing-modes.md). |
 
 The word count is in the bottom-right corner. If the document has a word
 goal, the corner shows your words and the goal. Click it once to open the
@@ -126,14 +126,14 @@ It has five tabs:
 | Tab | What it shows |
 | --- | --- |
 | **Outline** | Words, reading time and the goal; the headings and footnotes; **Add to board…** and **Save version…**. |
-| **Links** | What this document links to and what links to it, the notes linked to it, and **Local graph**. See [Links & the graph](./links-and-graph). |
-| **Notes** | Its highlights, comments and margin notes (`⇧⌘A`). See [Annotations](./annotations). |
+| **Links** | What this document links to and what links to it, the notes linked to it, and **Local graph**. See [Links & the graph](./links-and-graph.md). |
+| **Notes** | Its highlights, comments and margin notes (`⇧⌘A`). See [Annotations](./annotations.md). |
 | **Tasks** | Its checklist items, and the board cards tracking them. |
-| **History** | Its versions. See [Versions & backup](./versions-and-backup). |
+| **History** | Its versions. See [Versions & backup](./versions-and-backup.md). |
 
 Some documents show different tabs:
 
-- While you use the [dictionary](./dictionary) (`⇧⌘D`), it is a sixth tab.
+- While you use the [dictionary](./dictionary.md) (`⇧⌘D`), it is a sixth tab.
 - A morning page shows **The practice** and **History** instead.
 - A project's own pages show the **Project**.
 
@@ -215,13 +215,13 @@ commands you ran **Lately**. Type to search every command.
 :::tip Every shortcut on one card
 
 Press `⌘/` to see the main shortcuts together. Press `⌘/` or `Esc` to close
-them. The full list is in [Keyboard shortcuts](./keyboard-shortcuts).
+them. The full list is in [Keyboard shortcuts](./keyboard-shortcuts.md).
 
 :::
 
 ## See also
 
-- [Your first vault](./getting-started)
-- [Setting up](./setup)
-- [Documents side by side](./side-by-side)
-- [Keyboard shortcuts](./keyboard-shortcuts)
+- [Your first vault](./getting-started.md)
+- [Setting up](./setup.md)
+- [Documents side by side](./side-by-side.md)
+- [Keyboard shortcuts](./keyboard-shortcuts.md)

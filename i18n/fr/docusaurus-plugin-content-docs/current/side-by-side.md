@@ -122,7 +122,7 @@ sépare. Vous pouvez aussi cliquer sur cette ligne, puis appuyer sur `←` ou
 `→`.
 
 Poiesis retient les largeurs pour chaque coffre, sur cet ordinateur. (Un
-[coffre](./vaults) est le dossier où Poiesis range vos documents.)
+[coffre](./vaults.md) est le dossier où Poiesis range vos documents.)
 
 Si la fenêtre est trop étroite pour montrer tous les volets, ceux qui ne
 tiennent pas deviennent d’étroits onglets sur le bord droit. Cliquez sur un
@@ -133,7 +133,7 @@ Le Sanctuaire masque tout sauf ce que vous écrivez. Appuyez sur `⌘.` : les
 volets restent, et tout ce qui les entoure disparaît. Placez le pointeur sur
 l’en-tête d’un volet pour faire apparaître ses boutons. L’atténuation et le
 défilement machine à écrire ne s’appliquent qu’au volet dans lequel vous
-écrivez. Voir [Concentration et Sanctuaire](./focus-and-writing-modes).
+écrivez. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md).
 :::
 
 ## Revenir à une seule page {#back-to-one-page}
@@ -157,6 +157,6 @@ document ouvert.
 
 ## Voir aussi {#see-also}
 
-- [Concentration et Sanctuaire](./focus-and-writing-modes)
-- [Recherche](./research)
-- [Liens et graphe](./links-and-graph)
+- [Concentration et Sanctuaire](./focus-and-writing-modes.md)
+- [Recherche](./research.md)
+- [Liens et graphe](./links-and-graph.md)

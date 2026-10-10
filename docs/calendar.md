@@ -34,11 +34,11 @@ Press `⌘[` to go back to where you were.
 ## What the list beside it shows
 
 This is the list next to the calendar (see
-[Finding your way](./finding-your-way)).
+[Finding your way](./finding-your-way.md)).
 
 | Section | What it holds |
 | --- | --- |
-| **Show** | **All**, **Write**, **Notes**, **Journal** or **Due**. Choose one to show only the documents of that mode, or only the [board](./boards) cards that are due. |
+| **Show** | **All**, **Write**, **Notes**, **Journal** or **Due**. Choose one to show only the documents of that mode, or only the [board](./boards.md) cards that are due. |
 | The month's name | The words you wrote this month, the number of days you wrote, and the number of days you wrote this week. Below them are your streak and, when there are any, the number of mornings with morning pages. |
 | **Heat map** | What the shades of the heat map mean, from **Less** to **More**. |
 | **Marks** | What each mark on the month grid means. |
@@ -113,7 +113,7 @@ first column of the month grid and of the heat map.
 
 ## See also
 
-- [Journal & morning pages](./journal-and-morning-pages): entries, morning
+- [Journal & morning pages](./journal-and-morning-pages.md): entries, morning
   pages and how the streak is counted.
-- [Boards](./boards): cards with due dates.
-- [Finding your way](./finding-your-way)
+- [Boards](./boards.md): cards with due dates.
+- [Finding your way](./finding-your-way.md)

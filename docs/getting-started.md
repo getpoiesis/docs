@@ -83,14 +83,14 @@ part of Poiesis:
 - **Select some text.** The formatting toolbar appears: bold, italic,
   underline, heading, link, **Highlight & comment** and **Comment (no
   highlight)**. **More tools**, at the end of the toolbar, opens the other
-  tools, including **Look up word**. See [The editor](./the-editor).
+  tools, including **Look up word**. See [The editor](./the-editor.md).
 - **Type `/`** at the start of a line. The block menu opens: headings,
   lists, quotes, scene breaks, epigraphs and more. See
-  [Formatting & blocks](./formatting-and-blocks).
+  [Formatting & blocks](./formatting-and-blocks.md).
 - **Type `[[`** to link to another document by its name. See
-  [Links & the graph](./links-and-graph).
+  [Links & the graph](./links-and-graph.md).
 - **Start a project.** Click **New project** under **Projects** in the
-  sidebar. See [Projects](./collections).
+  sidebar. See [Projects](./collections.md).
 
 ## Open another vault
 
@@ -101,14 +101,14 @@ You can have several vaults, for example one for each book.
 2. Choose a vault, **Open another vault…** or **New vault…**.
 
 From the keyboard, press `⌥⌘O` (**File → Switch Vault…**). See
-[Vaults](./vaults).
+[Vaults](./vaults.md).
 
 A vault is an ordinary folder. Any backup you already use protects it: Time
 Machine, a synced folder, or a copy on an external drive.
 
 ## See also
 
-- [A tour of the window](./finding-your-way)
-- [Vaults](./vaults)
-- [Versions & backup](./versions-and-backup)
-- [Keyboard shortcuts](./keyboard-shortcuts)
+- [A tour of the window](./finding-your-way.md)
+- [Vaults](./vaults.md)
+- [Versions & backup](./versions-and-backup.md)
+- [Keyboard shortcuts](./keyboard-shortcuts.md)

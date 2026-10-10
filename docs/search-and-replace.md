@@ -6,7 +6,7 @@ description: Find words in the page you're on or across every document, and chan
 # Search & replace
 
 φ Poiesis has two searches. `⌘F` searches the document you have open. `⇧⌘F`
-searches every document in the [vault](./vaults), the folder that holds
+searches every document in the [vault](./vaults.md), the folder that holds
 your writing. Both can replace what they find, so you can rename a
 character or correct a word everywhere at once.
 
@@ -26,7 +26,7 @@ character or correct a word everywhere at once.
 If versioning is on, Poiesis first saves a version of the whole vault, named
 after what you replaced. You can go back to that version later. If
 versioning is off, the change can't be undone, and Poiesis tells you so before
-you confirm. See [Versions & backup](./versions-and-backup).
+you confirm. See [Versions & backup](./versions-and-backup.md).
 
 ## Find in this document
 
@@ -80,12 +80,12 @@ match is in a document's title, the document is marked **in the name**.
 
 | To find | Use |
 | --- | --- |
-| A document, project or character by name | `⌘K`. See [Finding your way](./finding-your-way). |
+| A document, project or character by name | `⌘K`. See [Finding your way](./finding-your-way.md). |
 | Something in the list you're looking at | The search field under the list's title. It filters by title, opening text and tags. |
 | A command | `⌘P`. |
 
 ## See also
 
-- [Finding your way](./finding-your-way)
-- [Organizing](./organizing)
-- [Versions & backup](./versions-and-backup)
+- [Finding your way](./finding-your-way.md)
+- [Organizing](./organizing.md)
+- [Versions & backup](./versions-and-backup.md)

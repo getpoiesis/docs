@@ -21,9 +21,9 @@ También calcula el ancho del lomo a partir del número de páginas.
 ## Crea los archivos {#make-the-files}
 
 1. Abre la página **Exportar** del proyecto (consulta
-   [Cómo funciona la exportación](./exporting)) y elige **Libro impreso**.
+   [Cómo funciona la exportación](./exporting.md)) y elige **Libro impreso**.
 2. Elige las cuatro cosas que pide un servicio de impresión:
-   - **Diseño**: el aspecto del libro (consulta [Diseños y cómo ajustarlos](./designs)).
+   - **Diseño**: el aspecto del libro (consulta [Diseños y cómo ajustarlos](./designs.md)).
    - **Formato**: el tamaño de la página impresa.
    - **Papel**: **Blanco** o **Crema**.
    - **Tinta**: **Negra** o **Mantener el color de φ**.
@@ -105,10 +105,10 @@ los verá un lector.
 
 ## Ver también {#see-also}
 
-- [Vista previa](./preview): todas las páginas del libro, en páginas
+- [Vista previa](./preview.md): todas las páginas del libro, en páginas
   enfrentadas.
-- [Diseños y cómo ajustarlos](./designs)
-- [Datos del libro](./book-details): la portada, la página de créditos y el
+- [Diseños y cómo ajustarlos](./designs.md)
+- [Datos del libro](./book-details.md): la portada, la página de créditos y el
   ISBN.
-- [Crear un libro electrónico](./make-an-ebook): el mismo libro para
+- [Crear un libro electrónico](./make-an-ebook.md): el mismo libro para
   aplicaciones de lectura.

@@ -53,7 +53,7 @@ l’indiquent, et en restaurer une laisse les pages telles qu’elles sont.
 ## Couleurs {#colours}
 
 L’encre noire et l’ardoise propre à Poiesis changent avec votre
-[thème de couleur](themes-and-languages). Par exemple, une page écrite en
+[thème de couleur](./themes-and-languages.md). Par exemple, une page écrite en
 noir s’affiche en blanc avec un thème sombre.
 
 Les autres couleurs ne changent pas. Sur une page sombre, Poiesis les éclaircit un
@@ -69,7 +69,7 @@ s’affiche aussi sur l’ordinateur.
 
 ## Où sont rangées les pages {#where-the-pages-live}
 
-Poiesis garde les pages manuscrites dans votre [coffre](vaults), avec le document.
+Poiesis garde les pages manuscrites dans votre [coffre](./vaults.md), avec le document.
 Un coffre est le dossier où Poiesis range vos documents. Les pages se
 synchronisent avec le document.
 

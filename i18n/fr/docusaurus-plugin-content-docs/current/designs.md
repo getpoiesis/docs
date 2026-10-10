@@ -21,7 +21,7 @@ la maquette** : vous gardez la maquette et ne modifiez que ces points-là.
 ## Choisir une maquette {#choose-a-design}
 
 1. Ouvrez la page **Exporter** du projet (voir
-   [Comment fonctionne l’export](./exporting)).
+   [Comment fonctionne l’export](./exporting.md)).
 2. Choisissez **Livre imprimé** ou **Livre numérique**.
 3. Choisissez la **Maquette**.
 4. Appuyez sur **Aperçu** pour voir la maquette sur toutes les pages.
@@ -34,7 +34,7 @@ la maquette** : vous gardez la maquette et ne modifiez que ces points-là.
 | **Poésie** | Pour un recueil de poèmes. Chaque poème garde ses vers et ses retraits, avec de l’espace autour. |
 
 Vos propres styles figurent aussi dans la liste, sous les maquettes. Voir
-[Styles personnalisés](./custom-styles).
+[Styles personnalisés](./custom-styles.md).
 
 ## Ajuster la maquette {#adjust-the-design}
 
@@ -76,8 +76,8 @@ manuscrit doit l’être.
 
 ## Voir aussi {#see-also}
 
-- [Styles personnalisés](./custom-styles) : pour tout ce qu’une maquette et
+- [Styles personnalisés](./custom-styles.md) : pour tout ce qu’une maquette et
   **Ajuster la maquette** ne permettent pas de changer.
-- [Aperçu](./preview)
-- [Imprimer un livre](./print-a-book) et
-  [Créer un livre numérique](./make-an-ebook)
+- [Aperçu](./preview.md)
+- [Imprimer un livre](./print-a-book.md) et
+  [Créer un livre numérique](./make-an-ebook.md)

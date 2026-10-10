@@ -15,7 +15,7 @@ encontrarlas.
 <img src="/img/app/footnotes-dark.png" alt="Un capítulo con la llamada de una nota al pie en el texto, y el Esquema del panel de Información con las dos notas al pie del capítulo" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Las notas al pie, las citas y la bibliografía solo están disponibles en los
-documentos que pertenecen a un [proyecto](./collections). No lo están en las
+documentos que pertenecen a un [proyecto](./collections.md). No lo están en las
 notas, en las piezas que no forman parte de un proyecto ni en el diario.
 
 ## Añadir una nota al pie {#add-a-footnote}
@@ -101,6 +101,6 @@ nueva.
 
 ## Ver también {#see-also}
 
-- [Formato y bloques](./formatting-and-blocks)
-- [Proyectos](./collections)
-- [Cómo funciona la exportación](./exporting)
+- [Formato y bloques](./formatting-and-blocks.md)
+- [Proyectos](./collections.md)
+- [Cómo funciona la exportación](./exporting.md)

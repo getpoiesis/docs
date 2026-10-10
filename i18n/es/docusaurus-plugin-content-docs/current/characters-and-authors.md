@@ -38,7 +38,7 @@ de las dos listas.
 | **Rol y rasgos** | Unas líneas sobre quién es. |
 | **Notas** | Su pasado, su aspecto, cómo cambia a lo largo de la historia o cualquier otra cosa. |
 | **Enlazado desde** | Todos los documentos que lo mencionan, con el número de menciones. Haz clic en uno para abrirlo. |
-| **Investigación** y **Notas** | Páginas de investigación y notas sobre el personaje: **Nueva página de investigación**, **Vincular investigación…**, **Nueva nota sobre esto** y **Vincular una nota…** (consulta [Investigación](./research)). |
+| **Investigación** y **Notas** | Páginas de investigación y notas sobre el personaje: **Nueva página de investigación**, **Vincular investigación…**, **Nueva nota sobre esto** y **Vincular una nota…** (consulta [Investigación](./research.md)). |
 
 **Eliminar**, al final de la ficha, envía el personaje a la papelera.
 
@@ -47,7 +47,7 @@ nombres, los nombres de usuario y los alias.
 
 ## Mantener separado el mundo de cada libro {#keep-each-books-world-apart}
 
-Un personaje pertenece al [proyecto](./collections) en el que lo creas. Para
+Un personaje pertenece al [proyecto](./collections.md) en el que lo creas. Para
 ver los personajes de un proyecto, ábrelo y elige **Personajes**, debajo de
 él en la barra lateral. Primero aparecen los personajes propios del proyecto.
 Después vienen los compartidos, con la marca **Compartido**.
@@ -61,7 +61,7 @@ Un personaje nuevo entra en ese proyecto cuando lo creas en esta lista, o con
   todas partes, como una persona real o un narrador al que recurres más de
   una vez.
 - **Toda la bóveda:** **Mundo → Personajes**, en la barra lateral, sigue
-  mostrando todos los personajes de la [bóveda](./vaults), la carpeta donde
+  mostrando todos los personajes de la [bóveda](./vaults.md), la carpeta donde
   se guarda lo que escribes.
 - **Mover un proyecto:** cuando mueves un proyecto a otra bóveda, sus
   personajes propios se van con él. Un personaje que comparte con otros
@@ -101,7 +101,7 @@ En las páginas matinales no hay sugerencias con `@`.
 3. Rellena el perfil. Poiesis guarda cada campo cuando sales de él.
 4. Añade el perfil a un proyecto. En la página del proyecto, elígelo en
    **Ajustes** → **Perfil de autor**. O añádelo en **Datos del libro** →
-   **Personas** (consulta [Datos del libro](./book-details)).
+   **Personas** (consulta [Datos del libro](./book-details.md)).
 
 ## Qué firma cada parte del perfil {#what-each-part-of-the-profile-signs}
 
@@ -121,15 +121,15 @@ En las páginas matinales no hay sugerencias con `@`.
 
 Cuando preparas un manuscrito para un agente, la exportación te dice qué le
 falta a la primera página. Te ofrece **Abrir el perfil de autor** (consulta
-[Enviar a un agente o editorial](./send-to-an-agent)).
+[Enviar a un agente o editorial](./send-to-an-agent.md)).
 
 **Eliminar** envía el perfil a la papelera.
 
 ## Ver también {#see-also}
 
-- [Datos del libro](./book-details): quién ha escrito, traducido o editado el
+- [Datos del libro](./book-details.md): quién ha escrito, traducido o editado el
   libro.
-- [Enviar a un agente o editorial](./send-to-an-agent): el manuscrito y su
+- [Enviar a un agente o editorial](./send-to-an-agent.md): el manuscrito y su
   primera página.
-- [Investigación](./research): páginas vinculadas a un personaje.
-- [Enlaces y el grafo](./links-and-graph)
+- [Investigación](./research.md): páginas vinculadas a un personaje.
+- [Enlaces y el grafo](./links-and-graph.md)
