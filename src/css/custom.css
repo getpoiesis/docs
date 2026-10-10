@@ -1177,3 +1177,32 @@ article mark[data-markjs] {
   border-radius: 3px;
   padding: 0 2px;
 }
+
+/* ---- 404 (src/theme/NotFound/Content), worded and set like the website's ---- */
+.phi-404__code {
+  margin: 0;
+  font: 500 12px var(--ifm-font-family-monospace);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+}
+.phi-404__title {
+  margin: 18px 0 0;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 400;
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.phi-404__body {
+  margin: 24px 0 0;
+  font-size: 17px;
+  color: var(--ifm-color-emphasis-700);
+}
+.phi-404__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 32px 0 0;
+  font-weight: 600;
+}
