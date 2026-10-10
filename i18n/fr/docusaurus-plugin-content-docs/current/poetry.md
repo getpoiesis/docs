@@ -14,7 +14,7 @@ chaque export les imprime à l’identique.
 
 ## Écrire un poème {#write-a-poem}
 
-1. Ouvrez un poème dans un [projet](./collections). Pour en commencer un
+1. Ouvrez un poème dans un [projet](./collections.md). Pour en commencer un
    nouveau, cliquez sur le **+** au-dessus de la liste et choisissez
    **Ajouter poème**.
 2. Tapez `/verse` et appuyez sur `Enter`, ou appuyez sur `⌥⌘V`. Un bloc de
@@ -75,7 +75,7 @@ Une épigraphe est une citation placée en tête d’un texte.
 4. Indiquez-y la source.
 
 Pour placer une épigraphe en ouverture du livre entier, ajoutez-la dans les
-[Détails du livre](./book-details) du projet. Poiesis l’imprime alors sur une page
+[Détails du livre](./book-details.md) du projet. Poiesis l’imprime alors sur une page
 à part.
 
 ## Détacher une ligne {#set-a-line-apart}
@@ -129,7 +129,7 @@ imprimé.
 
 ## Voir aussi {#see-also}
 
-- [Maquettes et ajustements](./designs)
-- [Imprimer un livre](./print-a-book)
-- [Mise en forme et blocs](./formatting-and-blocks)
-- [Projets](./collections)
+- [Maquettes et ajustements](./designs.md)
+- [Imprimer un livre](./print-a-book.md)
+- [Mise en forme et blocs](./formatting-and-blocks.md)
+- [Projets](./collections.md)

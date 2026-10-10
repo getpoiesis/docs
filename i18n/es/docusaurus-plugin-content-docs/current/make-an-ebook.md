@@ -52,7 +52,7 @@ siguiente:
 - **Descripciones de las imágenes** (texto alternativo). Son para quienes no
   pueden ver las imágenes.
 - **Un ISBN**, si tienes uno para el libro electrónico. Añádelo como **ISBN
-  (libro electrónico)** en [Datos del libro](./book-details). KDP y Google Play
+  (libro electrónico)** en [Datos del libro](./book-details.md). KDP y Google Play
   no lo exigen.
 
 Además, mientras crea el archivo, Poiesis comprueba que el EPUB cumple el estándar
@@ -60,7 +60,7 @@ EPUB.
 
 ## Ver también {#see-also}
 
-- [Vista previa](./preview): mira el libro electrónico en un teléfono, una
+- [Vista previa](./preview.md): mira el libro electrónico en un teléfono, una
   tableta o una pantalla.
-- [Diseños y cómo ajustarlos](./designs)
-- [Imprimir un libro](./print-a-book)
+- [Diseños y cómo ajustarlos](./designs.md)
+- [Imprimir un libro](./print-a-book.md)

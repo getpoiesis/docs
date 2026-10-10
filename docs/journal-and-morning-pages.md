@@ -16,7 +16,7 @@ streak, which is the number of days in a row that you have written.
 ## Write today's entry
 
 1. Choose **Journal** in the mode switch at the top of the sidebar. The
-   shortcut is `⌘3` when the [vault](./vaults) has all three modes.
+   shortcut is `⌘3` when the [vault](./vaults.md) has all three modes.
 2. Click **Today**. φ Poiesis opens today's entry. If there is no entry yet, Poiesis makes
    one.
 3. Write. The entry saves itself as you write.
@@ -38,7 +38,7 @@ There are three other ways to start today's entry:
 | **All entries** | Every day you have written, newest first. This week is a row of days at the top. Open a day to read it, or stay on the list: it shows every day as one long page, and you can write in any day there. |
 | **Morning pages** | Every morning pages session, with its pages and words. |
 | **Sealed** | The morning pages you have finished. |
-| **Calendar** | Your writing across the months. See [The calendar](./calendar). |
+| **Calendar** | Your writing across the months. See [The calendar](./calendar.md). |
 
 At the top of an entry you see the weekday and the date. Beside them are:
 
@@ -62,7 +62,7 @@ There are three ways to choose the day:
 - Click a day in the row of days at the top of **All entries**.
 - On the page that shows all your days, press **Write on a day…** and pick a
   date.
-- In the [calendar](./calendar), select a day and press **Write this day**.
+- In the [calendar](./calendar.md), select a day and press **Write this day**.
 
 If you open a day and leave it without writing anything, Poiesis moves that empty
 entry to the trash.
@@ -172,7 +172,7 @@ sets it back to zero.
 
 ## See also
 
-- [The calendar](./calendar): every day you wrote, and what belongs to it.
-- [Finding your way](./finding-your-way): the sidebar, the list and the Info
+- [The calendar](./calendar.md): every day you wrote, and what belongs to it.
+- [Finding your way](./finding-your-way.md): the sidebar, the list and the Info
   panel.
-- [Versions & backup](./versions-and-backup): the History tab.
+- [Versions & backup](./versions-and-backup.md): the History tab.

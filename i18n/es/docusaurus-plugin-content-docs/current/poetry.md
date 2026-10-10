@@ -14,7 +14,7 @@ las exportaciones los imprimen igual.
 
 ## Escribir un poema {#write-a-poem}
 
-1. Abre un poema de un [proyecto](./collections). Para empezar uno nuevo,
+1. Abre un poema de un [proyecto](./collections.md). Para empezar uno nuevo,
    haz clic en el **+** que hay sobre la lista y elige **Añadir poema**.
 2. Escribe `/verse` y pulsa `Intro`, o pulsa `⌥⌘V`. Empieza un bloque de
    verso.
@@ -68,7 +68,7 @@ Un epígrafe es una cita que se pone al comienzo de una pieza.
 4. Escribe ahí la fuente.
 
 Para poner un epígrafe al comienzo de todo el libro, añádelo en los
-[Datos del libro](./book-details) del proyecto. Poiesis lo imprimirá en una página
+[Datos del libro](./book-details.md) del proyecto. Poiesis lo imprimirá en una página
 aparte.
 
 ## Destacar una línea {#set-a-line-apart}
@@ -122,7 +122,7 @@ impreso.
 
 ## Ver también {#see-also}
 
-- [Diseños y cómo ajustarlos](./designs)
-- [Imprimir un libro](./print-a-book)
-- [Formato y bloques](./formatting-and-blocks)
-- [Proyectos](./collections)
+- [Diseños y cómo ajustarlos](./designs.md)
+- [Imprimir un libro](./print-a-book.md)
+- [Formato y bloques](./formatting-and-blocks.md)
+- [Proyectos](./collections.md)

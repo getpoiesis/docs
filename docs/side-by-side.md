@@ -111,7 +111,7 @@ To change the width of two panes, drag the line between them. You can also
 click the line and press `←` or `→`.
 
 Poiesis remembers the widths for each vault on this computer. (A
-[vault](./vaults) is the folder where Poiesis keeps your documents.)
+[vault](./vaults.md) is the folder where Poiesis keeps your documents.)
 
 If the window is too narrow to show every pane, the panes that do not fit
 become narrow tabs at the right edge. Click a tab to show that pane again.
@@ -121,7 +121,7 @@ Sanctuary hides everything except what you are writing. Press `⌘.` and the
 panes stay, while everything around them is hidden. Point at a pane's
 header to show its buttons. The dimming and typewriter scrolling apply only
 to the pane you are writing in. See
-[Focus & Sanctuary](./focus-and-writing-modes).
+[Focus & Sanctuary](./focus-and-writing-modes.md).
 :::
 
 ## Back to one page
@@ -145,6 +145,6 @@ open.
 
 ## See also
 
-- [Focus & Sanctuary](./focus-and-writing-modes)
-- [Research](./research)
-- [Links & the graph](./links-and-graph)
+- [Focus & Sanctuary](./focus-and-writing-modes.md)
+- [Research](./research.md)
+- [Links & the graph](./links-and-graph.md)

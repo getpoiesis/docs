@@ -34,11 +34,11 @@ Ces boutons se trouvent en haut à droite de la page :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de la page. Voir [Documents côte à côte](./side-by-side). |
+| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de la page. Voir [Documents côte à côte](./side-by-side.md). |
 | **⋮** | Ouvre le menu du document, décrit plus bas. |
 | **Détails…** (ⓘ) | Affiche le statut du document, son synopsis, son objectif de mots, ses étiquettes, sa couleur, s’il est en favori, et l’endroit où il est rangé. |
 | **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend cinq parties : **Plan**, **Liens**, **Notes**, **Tâches** et **Historique**. |
-| **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes). |
+| **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
 Le nombre de mots s’affiche dans le coin inférieur droit de la page. Si le
 document a un objectif de mots, il apparaît à côté de l’objectif.
@@ -64,7 +64,7 @@ votre document ne reste donc jamais à moitié écrit.
 - Choisissez **Enregistrer une version…** (`⌘⇧S`) pour donner un nom à la
   version.
 
-Voir [Versions et sauvegarde](./versions-and-backup).
+Voir [Versions et sauvegarde](./versions-and-backup.md).
 
 ## Mettre en forme une sélection {#format-a-selection}
 
@@ -85,10 +85,10 @@ boutons suivants :
 Cliquez sur **Plus d’outils** (› au bout de la barre) pour accéder aux autres
 outils : **Barré**, **Code en ligne**, **Aligner à gauche**, **Centrer**,
 **Aligner à droite**, **Justifier**, **Rechercher le mot** (qui ouvre le
-[dictionnaire](./dictionary)) et **Enregistrer la sélection comme modèle…**.
+[dictionnaire](./dictionary.md)) et **Enregistrer la sélection comme modèle…**.
 
 Poiesis conserve les surlignages et les commentaires sous forme
-d’[annotations](./annotations).
+d’[annotations](./annotations.md).
 
 Appuyez sur `Esc` pour masquer la barre d’outils. Elle n’apparaît ni en mode
 lecture ni dans les pages du matin.
@@ -107,7 +107,7 @@ une citation, un tableau ou une image, par exemple.
    pas d’espace : une espace ferme le menu.
 3. Appuyez sur `Enter`.
 
-Vos propres [modèles](./templates) figurent aussi dans le menu, sous leur nom.
+Vos propres [modèles](./templates.md) figurent aussi dans le menu, sous leur nom.
 
 Vous pouvez également passer par la souris : placez le pointeur sur le bord
 gauche d’une ligne et cliquez sur le **+** qui apparaît (**Insérer un bloc en
@@ -122,7 +122,7 @@ Le menu varie selon le type de document :
 | **Une entrée de journal** | Les titres, les listes, les citations, les images et les dates. Ni encadrés, ni tableaux, ni code. |
 | **Les pages du matin** | Aucun menu. Les pages du matin ne contiennent que du texte. |
 
-Un [projet](./collections) est un livre, ou tout autre texte long composé de
+Un [projet](./collections.md) est un livre, ou tout autre texte long composé de
 plusieurs documents.
 
 Le menu propose les listes de tâches (**Liste de tâches**) dans Notes et sur
@@ -133,7 +133,7 @@ pour ce mode.
 Un bloc déjà présent dans un document reste toujours affiché, même si le menu
 de ce document ne le propose pas.
 
-La page [Mise en forme et blocs](./formatting-and-blocks) recense tous les
+La page [Mise en forme et blocs](./formatting-and-blocks.md) recense tous les
 blocs et la façon de les insérer.
 
 ## Le menu ⋮ du document {#the-documents--menu}
@@ -153,7 +153,7 @@ concernent le document entier :
   **Vérifier l’orthographe…**.
 - Tous les formats dans lesquels vous pouvez exporter le document.
 - **Enregistrer une copie (`.poiesis` avec images)…** et **Déplacer vers un
-  coffre…**. Un [coffre](./vaults) est le dossier où Poiesis range vos documents.
+  coffre…**. Un [coffre](./vaults.md) est le dossier où Poiesis range vos documents.
 - **Déplacer vers la corbeille**.
 
 Sur une page du matin, **Sceller la journée** remplace **Mettre en favori** et
@@ -193,7 +193,7 @@ vous écrivez, maintenez `⌘` enfoncée et cliquez sur le lien.
 
 ## Voir aussi {#see-also}
 
-- [Mise en forme et blocs](./formatting-and-blocks)
-- [Concentration et Sanctuaire](./focus-and-writing-modes)
-- [Annotations et notes en marge](./annotations)
-- [Raccourcis clavier](./keyboard-shortcuts)
+- [Mise en forme et blocs](./formatting-and-blocks.md)
+- [Concentration et Sanctuaire](./focus-and-writing-modes.md)
+- [Annotations et notes en marge](./annotations.md)
+- [Raccourcis clavier](./keyboard-shortcuts.md)

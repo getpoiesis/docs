@@ -27,10 +27,10 @@ document is one of two kinds:
 
 - **Pieces** are in Write, under **Pieces**. A piece is a poem, an essay or a
   story outside any project. A piece can have a status and a word goal. You
-  can add it to a project at any time (see [Projects](./collections)).
+  can add it to a project at any time (see [Projects](./collections.md)).
 - **Notes** are in Notes. A note is an idea, a source or a line you
   overheard. Notes have no status and no word goal (see
-  [Notes & capture](./notes)).
+  [Notes & capture](./notes.md)).
 
 Pieces and notes share the same folders. Notes shows every folder. Pieces
 shows the folders that contain pieces, and any new, empty folders.
@@ -88,7 +88,7 @@ sidebar, the list, the folder path and Home.
 | From Notes to Write, or back | Right-click it and choose **Move to Write's pieces** or **Move to Notes**. The same choice is on the document's **⋮** and on its Details page. |
 | Into a project | Right-click a piece and choose **Add to project** or **Move to project**. Or choose **Add it to a project…** on its Details page. A note moves to Write's pieces first. |
 | Out of a project | Right-click the chapter and choose **Remove from project**. |
-| To another vault | Right-click it and choose **Move to vault…**. This appears when you have more than one vault (see [Vaults](./vaults)). |
+| To another vault | Right-click it and choose **Move to vault…**. This appears when you have more than one vault (see [Vaults](./vaults.md)). |
 
 ## Tags
 
@@ -120,7 +120,7 @@ You can do these things in a list:
 - **Go to the next or previous document.** `⌥⌘←` and `⌥⌘→` open the document
   above or below the open one.
 - **Open beside.** `⌥`-click a row to open it next to the document you are
-  reading (see [Side by side](./side-by-side)).
+  reading (see [Side by side](./side-by-side.md)).
 
 ## Details
 
@@ -147,7 +147,7 @@ The rows you see depend on the kind of document:
 | **Colour** | Chapters: **Grey**, **Red**, **Amber**, **Green**, **Blue** or **Violet**. |
 | **Starred** | Every document. |
 | **In** | A chapter: its project, part and number, **Leave out of the numbering**, and a link that opens the project. A piece or a note: its folder, and the choice to move it to the other mode. Any board card that links to the document is also listed here. |
-| **Linked to** | Pieces and notes: the documents, projects and characters this document is about (see [Research](./research)). |
+| **Linked to** | Pieces and notes: the documents, projects and characters this document is about (see [Research](./research.md)). |
 
 The bottom of the page shows when the document was created, when it was last
 edited, and how many versions it has.
@@ -158,12 +158,12 @@ Right-click a document in any list, or click its **⋮**. The menu has:
 
 - **Details…**, **Open beside**, and **Star** or **Unstar**.
 - **Outline**, **Wiki links**, **Notes** and **Version history**. Each opens
-  that part of the [Info panel](./finding-your-way#the-info-panel).
+  that part of the [Info panel](./finding-your-way.md#the-info-panel).
 - The moves listed in [Move a document](#move-a-document).
 - **Mark as morning pages** (see
-  [Journal & morning pages](./journal-and-morning-pages)).
+  [Journal & morning pages](./journal-and-morning-pages.md)).
 - **Rename…** and **Copy as Markdown**.
-- A submenu with every export format (see [Exporting](./exporting)).
+- A submenu with every export format (see [Exporting](./exporting.md)).
 - **Delete**, which moves the document to the trash.
 
 ## Trash
@@ -193,7 +193,7 @@ you. Items in the trash are permanently deleted after 30 days.
 
 ## See also
 
-- [Notes & capture](./notes)
-- [Finding your way](./finding-your-way): the sidebar, the list and the page.
-- [Search & replace](./search-and-replace)
-- [Projects](./collections): organizing chapters and parts.
+- [Notes & capture](./notes.md)
+- [Finding your way](./finding-your-way.md): the sidebar, the list and the page.
+- [Search & replace](./search-and-replace.md)
+- [Projects](./collections.md): organizing chapters and parts.

@@ -9,7 +9,7 @@ Un enlace conecta un documento con otro. Para crear uno, escribe `[[` y el
 nombre de un documento. φ Poiesis registra cada enlace en los dos sentidos, de modo
 que cualquier documento puede mostrarte tanto los documentos a los que
 enlaza como los que enlazan con él. El **grafo** es un dibujo de todos los
-enlaces de tu [bóveda](./vaults), la carpeta que guarda lo que escribes.
+enlaces de tu [bóveda](./vaults.md), la carpeta que guarda lo que escribes.
 
 <img src="/img/app/links-light.png" alt="Una página de investigación con un enlace wiki en el texto y, en el panel de Información, la pestaña Enlaces con sus enlaces salientes, sus retroenlaces y sus fechas enlazadas" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/links-dark.png" alt="Una página de investigación con un enlace wiki en el texto y, en el panel de Información, la pestaña Enlaces con sus enlaces salientes, sus retroenlaces y sus fechas enlazadas" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -25,11 +25,11 @@ enlaces de tu [bóveda](./vaults), la carpeta que guarda lo que escribes.
 <img src="/img/app/link-menu-dark.png" alt="Una nota con dos corchetes y unas letras escritas, y el menú de documentos coincidentes abierto" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Para seguir un enlace, haz clic en él con `⌘` pulsada. En
-[modo lectura](./the-editor) basta un clic normal.
+[modo lectura](./the-editor.md) basta un clic normal.
 
 Para abrir el documento enlazado al lado del que tienes delante, haz clic en
 el enlace con `⌥⌘` pulsadas (consulta
-[Documentos lado a lado](./side-by-side)).
+[Documentos lado a lado](./side-by-side.md)).
 
 Un enlace elegido en el menú apunta al documento en sí: si más adelante le
 cambias el nombre, el enlace sigue funcionando. En cambio, un `[[Título]]`
@@ -51,7 +51,7 @@ sección siguiente). Poiesis crea un documento con ese título y lo abre.
 ## Ver qué enlaza con qué {#see-what-links-where}
 
 La pestaña **Enlaces** del
-[panel de Información](./finding-your-way#the-info-panel) muestra los
+[panel de Información](./finding-your-way.md#the-info-panel) muestra los
 enlaces de un documento. Hay tres formas de abrirla:
 
 - Abre el panel de Información (`⇧⌘I`) y elige **Enlaces**.
@@ -67,8 +67,8 @@ cambios que aún no has guardado.
 | **En este documento** | Los personajes que has mencionado aquí con @. Solo aparece si hay alguno. |
 | **Enlaces salientes** | Todos los documentos a los que enlaza este. También figuran los enlaces a documentos que aún no existen, con un icono de crear. Haz clic en uno para crear ese documento. |
 | **Retroenlaces** | Todos los documentos que enlazan *con* este. |
-| **Fechas enlazadas** | Las fechas que añadiste con `/date`. Haz clic en una para ver ese día en el [calendario](./calendar). |
-| **Investigación** y **Notas** | Las páginas de investigación (de Escribir) y las notas vinculadas a este documento. Desde aquí puedes añadir más. Consulta [Investigación](./research). |
+| **Fechas enlazadas** | Las fechas que añadiste con `/date`. Haz clic en una para ver ese día en el [calendario](./calendar.md). |
+| **Investigación** y **Notas** | Las páginas de investigación (de Escribir) y las notas vinculadas a este documento. Desde aquí puedes añadir más. Consulta [Investigación](./research.md). |
 
 Haz clic en cualquier entrada para abrirla. **Grafo local**, al final de la
 pestaña, abre el grafo que rodea a este documento.
@@ -133,14 +133,14 @@ documentos con más enlaces. Haz clic en uno para abrirlo.
 
 **Sin enlazar**, en la barra lateral de Notas, muestra las notas a las que
 no llega ningún enlace y de las que no sale ninguno. Consulta
-[Notas e ideas al vuelo](./notes).
+[Notas e ideas al vuelo](./notes.md).
 
 :::
 
 ## Ver también {#see-also}
 
-- [Investigación](./research): notas e investigación vinculadas a un
+- [Investigación](./research.md): notas e investigación vinculadas a un
   capítulo, un proyecto o un personaje.
-- [Personajes y autores](./characters-and-authors): las menciones con @.
-- [El calendario](./calendar)
-- [Documentos lado a lado](./side-by-side)
+- [Personajes y autores](./characters-and-authors.md): las menciones con @.
+- [El calendario](./calendar.md)
+- [Documentos lado a lado](./side-by-side.md)

@@ -53,9 +53,9 @@ formato; el segundo lo corta, y la palabra siguiente sale ya sin él.
   y borra el contenido del campo.
 - Los enlaces se abren en tu navegador. Mientras editas, mantén pulsada `⌘`
   y haz clic en el enlace.
-- Para enlazar con otro documento de tu [bóveda](./vaults) (la carpeta donde
+- Para enlazar con otro documento de tu [bóveda](./vaults.md) (la carpeta donde
   Poiesis guarda tus documentos), usa un enlace wiki. Consulta
-  [Enlaces y el grafo](./links-and-graph).
+  [Enlaces y el grafo](./links-and-graph.md).
 
 ## Encabezados, listas y citas {#headings-lists-and-quotes}
 
@@ -100,7 +100,7 @@ la sangría y `⇧Tab` para reducirla. Para cambiar la sangría, abre **Ajustes
 ## Bloques para libros y poemas {#blocks-for-books-and-poems}
 
 El menú de bloques ofrece estos bloques en los documentos que
-pertenecen a un [proyecto](./collections): capítulos, poemas y ensayos. Un
+pertenecen a un [proyecto](./collections.md): capítulos, poemas y ensayos. Un
 proyecto es un libro u otra obra larga formada por varios documentos.
 
 Si un documento ya tiene alguno de estos bloques, el bloque se sigue viendo
@@ -120,9 +120,9 @@ aunque el documento esté fuera de un proyecto.
 
 Para saber más:
 
-- [Poesía y verso](./poetry) explica los versos, los epígrafes y los saltos
+- [Poesía y verso](./poetry.md) explica los versos, los epígrafes y los saltos
   de escena.
-- [Notas al pie y citas](./footnotes-and-citations) explica las notas al
+- [Notas al pie y citas](./footnotes-and-citations.md) explica las notas al
   pie, las citas bibliográficas y la bibliografía.
 
 ## Imágenes, avisos y fechas {#pictures-callouts-and-dates}
@@ -131,7 +131,7 @@ Para saber más:
 | --- | --- | --- |
 | **Imagen** | Una imagen con su pie. Con su barra de herramientas la colocas a la izquierda, en el centro, a la derecha o a todo el ancho. Arrastra su borde para cambiarle el tamaño. Poiesis copia el archivo a tu bóveda. | `/image`, o `![alt](https://…)` |
 | **Aviso** | Un recuadro para un comentario aparte: información, consejo, advertencia o peligro. Pasa el puntero por encima para elegir otro tipo. | `/callout`, o `> [!tip] ` |
-| **Fecha** | La fecha de hoy, en una etiqueta de fecha. La etiqueta enlaza el documento con ese día del [calendario](./calendar). | `/date` |
+| **Fecha** | La fecha de hoy, en una etiqueta de fecha. La etiqueta enlaza el documento con ese día del [calendario](./calendar.md). | `/date` |
 | **Fecha y hora** | Igual que **Fecha**, pero con la hora. | `/datetime` |
 | **Hora** | La hora actual, como texto normal. | `/time` |
 
@@ -144,10 +144,10 @@ En las entradas del diario, el menú de bloques no ofrece avisos.
 Dentro de una línea de texto también puedes añadir dos cosas:
 
 - **Menciones con @.** Escribe `@` y elige un
-  [personaje](./characters-and-authors). Para crear un personaje nuevo con
+  [personaje](./characters-and-authors.md). Para crear un personaje nuevo con
   el nombre que has escrito, elige **Crear @nombre**.
 - **Enlaces wiki.** Escribe `[[` y elige un documento. Consulta
-  [Enlaces y el grafo](./links-and-graph).
+  [Enlaces y el grafo](./links-and-graph.md).
 
 ## Escribir en Markdown {#writing-in-markdown}
 
@@ -185,7 +185,7 @@ documento de la lista y elegir **Copiar como Markdown**.
 
 ## Ver también {#see-also}
 
-- [El editor](./the-editor): la barra de herramientas y el menú de bloques.
-- [Poesía y verso](./poetry)
-- [Notas al pie y citas](./footnotes-and-citations)
-- [Plantillas](./templates)
+- [El editor](./the-editor.md): la barra de herramientas y el menú de bloques.
+- [Poesía y verso](./poetry.md)
+- [Notas al pie y citas](./footnotes-and-citations.md)
+- [Plantillas](./templates.md)

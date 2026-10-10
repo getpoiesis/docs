@@ -35,11 +35,11 @@ Appuyez sur `⌘[` pour revenir là où vous étiez.
 ## Ce que montre la liste d’à côté {#what-the-list-beside-it-shows}
 
 Il s’agit de la liste située à côté du calendrier (voir
-[Visite de la fenêtre](./finding-your-way)).
+[Visite de la fenêtre](./finding-your-way.md)).
 
 | Section | Ce qu’elle contient |
 | --- | --- |
-| **Afficher** | **Tout**, **Écrire**, **Notes**, **Journal** ou **Échéance**. Choisissez-en un pour ne voir que les documents de ce mode, ou que les cartes de [tableau](./boards) arrivées à échéance. |
+| **Afficher** | **Tout**, **Écrire**, **Notes**, **Journal** ou **Échéance**. Choisissez-en un pour ne voir que les documents de ce mode, ou que les cartes de [tableau](./boards.md) arrivées à échéance. |
 | Le nom du mois | Les mots écrits ce mois-ci, le nombre de jours où vous avez écrit et le nombre de jours où vous avez écrit cette semaine. En dessous viennent votre série et, s’il y en a, le nombre de matins avec des pages du matin. |
 | **Carte de chaleur** | Ce que signifient les nuances de la carte de chaleur, de **Moins** à **Plus**. |
 | **Repères** | Ce que signifie chaque repère de la grille du mois. |
@@ -121,7 +121,7 @@ colonne de la grille du mois et de la carte de chaleur.
 
 ## Voir aussi {#see-also}
 
-- [Journal et pages du matin](./journal-and-morning-pages) : les entrées, les
+- [Journal et pages du matin](./journal-and-morning-pages.md) : les entrées, les
   pages du matin et la façon dont la série est comptée.
-- [Tableaux](./boards) : les cartes avec une échéance.
-- [Visite de la fenêtre](./finding-your-way)
+- [Tableaux](./boards.md) : les cartes avec une échéance.
+- [Visite de la fenêtre](./finding-your-way.md)

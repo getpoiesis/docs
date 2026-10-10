@@ -20,7 +20,7 @@ and change only those things.
 ## Choose a design
 
 1. Open the project's **Export** page (see
-   [How exporting works](./exporting)).
+   [How exporting works](./exporting.md)).
 2. Choose **Print book** or **Ebook**.
 3. Choose the **Design**.
 4. Press **Preview** to see the design on every page.
@@ -33,7 +33,7 @@ and change only those things.
 | **Poetry** | For a collection of poems. Each poem keeps its lines and indentation, with space around it. |
 
 Your own styles are also listed under the designs. See
-[Custom styles](./custom-styles).
+[Custom styles](./custom-styles.md).
 
 ## Adjust the design
 
@@ -73,7 +73,7 @@ manuscript must be plain.
 
 ## See also
 
-- [Custom styles](./custom-styles): for anything that a design and **Adjust
+- [Custom styles](./custom-styles.md): for anything that a design and **Adjust
   the design** cannot change.
-- [Preview](./preview)
-- [Print a book](./print-a-book) and [Make an ebook](./make-an-ebook)
+- [Preview](./preview.md)
+- [Print a book](./print-a-book.md) and [Make an ebook](./make-an-ebook.md)

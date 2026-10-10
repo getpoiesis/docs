@@ -65,7 +65,7 @@ Ouvrez **Réglages → Langue → Orthographe**. Vous y trouvez trois réglages�
   document écrit en deux langues. Avec **Natif** sur un Mac, le système
   reconnaît la langue tout seul.
 
-Un [coffre](./vaults) (le dossier qui contient vos textes) peut avoir son
+Un [coffre](./vaults.md) (le dossier qui contient vos textes) peut avoir son
 propre réglage. Dans **Réglages → Langue → Ce coffre**, réglez **Par défaut
 pour ce coffre** sur **Utiliser global**, **Natif** ou **Amélioré**. Avec
 **Amélioré**, vous pouvez aussi choisir les langues de ce coffre.
@@ -97,6 +97,6 @@ L’endroit où Poiesis range un mot que vous acceptez dépend du moteur :
 
 ## Voir aussi {#see-also}
 
-- [Dictionnaire et thésaurus](./dictionary)
-- [Thèmes et langues](./themes-and-languages)
-- [Réglages](./settings)
+- [Dictionnaire et thésaurus](./dictionary.md)
+- [Thèmes et langues](./themes-and-languages.md)
+- [Réglages](./settings.md)

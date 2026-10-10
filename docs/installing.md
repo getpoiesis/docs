@@ -17,7 +17,7 @@ there is a new version.
 3. Install it. The steps for your system are below.
 4. Open Poiesis. Your system lists it as **φ Poiesis**. To find it, type "poiesis"
    in Spotlight or the Start menu.
-5. [Create your first vault](./getting-started).
+5. [Create your first vault](./getting-started.md).
 
 ## What you need
 
@@ -121,6 +121,6 @@ from **Add or remove programs**.
 
 ## See also
 
-- [Your first vault](./getting-started)
-- [Settings](./settings)
-- [Vaults](./vaults)
+- [Your first vault](./getting-started.md)
+- [Settings](./settings.md)
+- [Vaults](./vaults.md)

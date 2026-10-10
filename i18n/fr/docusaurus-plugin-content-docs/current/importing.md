@@ -10,7 +10,7 @@ ainsi que des copies créées dans Poiesis. Une fois importés, ces textes sont 
 documents Poiesis comme les autres. Leurs dates, leurs liens et leurs images sont
 conservés.
 
-Les documents importés sont rangés dans un [coffre](./vaults), le dossier où Poiesis
+Les documents importés sont rangés dans un [coffre](./vaults.md), le dossier où Poiesis
 garde votre travail.
 
 ## Importer des fichiers Markdown {#import-markdown-files}
@@ -56,5 +56,5 @@ projet** s’ouvre avec ses images. Vous pouvez l’importer de trois façons :
 
 ## Voir aussi {#see-also}
 
-- [Coffres](./vaults) : là où va ce que vous importez.
-- [Partager une copie](./share-a-copy) : créer une copie du projet.
+- [Coffres](./vaults.md) : là où va ce que vous importez.
+- [Partager une copie](./share-a-copy.md) : créer une copie du projet.

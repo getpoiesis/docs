@@ -23,7 +23,7 @@ Vous avez trois possibilités :
   l’application.
 
 Certains réglages valent pour toute l’application, d’autres seulement pour le
-coffre ouvert. Un [coffre](./vaults) est le dossier qui contient votre travail.
+coffre ouvert. Un [coffre](./vaults.md) est le dossier qui contient votre travail.
 
 | Section | Ce qu’elle contient | S’applique à |
 | --- | --- | --- |
@@ -39,7 +39,7 @@ coffre ouvert. Un [coffre](./vaults) est le dossier qui contient votre travail.
 
 ## Apparence {#appearance}
 
-L’aspect de Poiesis. La page [Thèmes et langues](./themes-and-languages) en dit plus
+L’aspect de Poiesis. La page [Thèmes et langues](./themes-and-languages.md) en dit plus
 sur les thèmes de couleur.
 
 | Réglage | Ce qu’il fait |
@@ -48,7 +48,7 @@ sur les thèmes de couleur.
 | **Taille de l’interface** | **100%**, **115%**, **130%** ou **150%**. Agrandit tout, icônes comprises. |
 | **Thème de couleur** | Les thèmes dont vous disposez, chacun avec un petit aperçu. **Installer un thème…** et **Parcourir les thèmes officiels…** permettent d’en ajouter. **Ouvrir le dossier des thèmes** montre où ils sont rangés. |
 | **Barre latérale en thème clair** | **Sombre** ou **Clair**. **Sombre** est le choix par défaut : la page est ainsi la zone la plus lumineuse de l’écran. En thème sombre, la barre latérale est toujours sombre. |
-| **Le sanctuaire atténue le reste** | Le [Sanctuaire](./focus-and-writing-modes) masque tout dans Poiesis, sauf la page. Quand ce réglage est activé, le Sanctuaire atténue tout sauf la phrase que vous écrivez. Si **Écriture focalisée** est réglée sur **Paragraphe**, c’est le paragraphe entier qui reste net. Désactivez le réglage pour ne rien atténuer. |
+| **Le sanctuaire atténue le reste** | Le [Sanctuaire](./focus-and-writing-modes.md) masque tout dans Poiesis, sauf la page. Quand ce réglage est activé, le Sanctuaire atténue tout sauf la phrase que vous écrivez. Si **Écriture focalisée** est réglée sur **Paragraphe**, c’est le paragraphe entier qui reste net. Désactivez le réglage pour ne rien atténuer. |
 
 ## Éditeur {#editor}
 
@@ -74,7 +74,7 @@ La zone où vous écrivez.
 
 Ce que Poiesis vous montre dans ce coffre. Quand vous désactivez un élément, Poiesis le
 masque. Votre travail, lui, n’est jamais masqué ni supprimé. La page
-[Réglages d’écriture](./setup) explique tout cela.
+[Réglages d’écriture](./setup.md) explique tout cela.
 
 | Réglage | Ce qu’il fait |
 | --- | --- |
@@ -98,8 +98,8 @@ masque. Votre travail, lui, n’est jamais masqué ni supprimé. La page
 | **Dictionnaire personnel** | Les mots que vous avez ajoutés. Chacun a un bouton corbeille pour le retirer. |
 | **Dictionnaire et thésaurus** | **Installer un pack de dictionnaire…** ajoute un dictionnaire. En dessous figurent les packs dont vous disposez, avec leur nombre de mots. |
 
-Voir [Thèmes et langues](./themes-and-languages), [Orthographe](./spelling) et
-[Dictionnaire et thésaurus](./dictionary).
+Voir [Thèmes et langues](./themes-and-languages.md), [Orthographe](./spelling.md) et
+[Dictionnaire et thésaurus](./dictionary.md).
 
 ## Versions {#versioning}
 
@@ -127,7 +127,7 @@ Si le coffre se trouve dans un dossier cloud, Poiesis conserve son dépôt git s
 ordinateur, et non dans le coffre. Sur iPhone et iPad, Poiesis (bientôt disponible)
 n’exécute jamais git : il conserve les versions dans le dossier
 `.poiesis-history` du coffre. Pour en savoir plus, voyez
-[Versions et sauvegarde](./versions-and-backup).
+[Versions et sauvegarde](./versions-and-backup.md).
 
 ## Coffre {#vault}
 
@@ -137,7 +137,7 @@ n’exécute jamais git : il conserve les versions dans le dossier
 | **Espaces** | Les modes que le coffre affiche : **Écrire**, **Notes** et **Journal** (au moins un). **S’ouvre sur** fixe ce que vous voyez à l’ouverture du coffre : **Accueil** ou l’un de ses modes. |
 | **Gérer** | **Ouvrir un coffre…** et **Créer un coffre…** ajoutent un coffre. **Retirer le coffre…** vous demande comment le retirer. **Dissocier (conserver le dossier)** retire le coffre de Poiesis sans toucher au dossier. **Déplacer vers la corbeille** envoie tout le dossier dans la corbeille de votre ordinateur, où vous pouvez encore le récupérer. |
 
-Voir [Coffres](./vaults).
+Voir [Coffres](./vaults.md).
 
 ## Modèles {#templates}
 
@@ -151,7 +151,7 @@ a un bouton crayon pour le modifier et un bouton corbeille pour le supprimer.
 - **Installer un modèle…** ajoute un fichier de modèle.
 - **Ouvrir le dossier des modèles** montre où les modèles sont rangés.
 
-Voir [Modèles](./templates).
+Voir [Modèles](./templates.md).
 
 ## Raccourcis {#shortcuts}
 
@@ -159,7 +159,7 @@ Les principaux raccourcis clavier, en quatre groupes : **Se déplacer**,
 **Documents**, **Écriture** et **Format**. C’est la liste qu’affiche `⌘/`.
 Tapez dans **Rechercher des commandes…** pour trouver un raccourci.
 
-La page [Raccourcis clavier](./keyboard-shortcuts) les donne tous.
+La page [Raccourcis clavier](./keyboard-shortcuts.md) les donne tous.
 
 ## Données {#data}
 
@@ -171,8 +171,8 @@ La page [Raccourcis clavier](./keyboard-shortcuts) les donne tous.
 
 ## Voir aussi {#see-also}
 
-- [Réglages d’écriture](./setup) : tout sur les signaux, les lieux et les
+- [Réglages d’écriture](./setup.md) : tout sur les signaux, les lieux et les
   modes.
-- [Thèmes et langues](./themes-and-languages)
-- [Raccourcis clavier](./keyboard-shortcuts)
-- [Versions et sauvegarde](./versions-and-backup)
+- [Thèmes et langues](./themes-and-languages.md)
+- [Raccourcis clavier](./keyboard-shortcuts.md)
+- [Versions et sauvegarde](./versions-and-backup.md)

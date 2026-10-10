@@ -32,11 +32,11 @@ These buttons are at the top right of the page:
 
 | Button | What it does |
 | --- | --- |
-| **Split view** (`⌘\`) | Opens a second pane beside the page. See [Side by side](./side-by-side). |
+| **Split view** (`⌘\`) | Opens a second pane beside the page. See [Side by side](./side-by-side.md). |
 | **⋮** | Opens the document's menu, described below. |
 | **Details…** (ⓘ) | Shows the document's status, synopsis, word goal, tags, colour and star, and where the document is kept. |
 | **Info** (`⌘⇧I`) | Opens the Info panel. It has five parts: **Outline**, **Links**, **Notes**, **Tasks** and **History**. |
-| **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes). |
+| **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes.md). |
 
 The word count is in the bottom-right corner of the page. If the document
 has a word goal, the count is shown next to the goal.
@@ -59,7 +59,7 @@ the disk is full, your document is not left half-written.
   return to later.
 - Choose **Save version…** (`⌘⇧S`) to give the version a name.
 
-See [Versions & backup](./versions-and-backup).
+See [Versions & backup](./versions-and-backup.md).
 
 ## Format a selection
 
@@ -79,9 +79,9 @@ Select some text. A small toolbar appears above it, with these buttons:
 Click **More tools** (› at the end of the toolbar) for the other tools:
 **Strikethrough**, **Inline code**, **Align left**, **Align center**,
 **Align right**, **Justify**, **Look up word** (opens the
-[dictionary](./dictionary)) and **Save selection as template…**.
+[dictionary](./dictionary.md)) and **Save selection as template…**.
 
-Poiesis keeps highlights and comments as [annotations](./annotations).
+Poiesis keeps highlights and comments as [annotations](./annotations.md).
 
 Press `Esc` to hide the toolbar. The toolbar does not appear in read mode or
 on morning pages.
@@ -100,7 +100,7 @@ quote, a table or a picture.
    type a space, because a space closes the menu.
 3. Press `Enter`.
 
-Your own [templates](./templates) are also in the menu, under their names.
+Your own [templates](./templates.md) are also in the menu, under their names.
 
 You can also use the mouse. Point at the left edge of a line and click the
 **+** that appears (**Insert block below (/)**).
@@ -114,7 +114,7 @@ The menu changes with the kind of document you are in:
 | **A journal entry** | Headings, lists, quotes, pictures and dates. No callouts, tables or code. |
 | **Morning pages** | No menu. Morning pages are text only. |
 
-A [project](./collections) is a book or other long work made of several
+A [project](./collections.md) is a book or other long work made of several
 documents.
 
 The menu offers checklists (**Task List**) in Notes and on research pages.
@@ -124,7 +124,7 @@ turn on **Checklists** for that mode.
 A block that is already in a document always shows, even if the menu in
 that document does not offer it.
 
-[Formatting & blocks](./formatting-and-blocks) lists every block and how to
+[Formatting & blocks](./formatting-and-blocks.md) lists every block and how to
 insert it.
 
 ## The document's ⋮ menu
@@ -143,7 +143,7 @@ document:
   spelling…**.
 - Every format you can export the document to.
 - **Save a Copy (`.poiesis` with images)…** and **Move to vault…**. A
-  [vault](./vaults) is the folder where Poiesis keeps your documents.
+  [vault](./vaults.md) is the folder where Poiesis keeps your documents.
 - **Move to trash**.
 
 On a morning page, the menu has **Seal day** in place of **Star** and
@@ -181,7 +181,7 @@ and click the link.
 
 ## See also
 
-- [Formatting & blocks](./formatting-and-blocks)
-- [Focus & Sanctuary](./focus-and-writing-modes)
-- [Annotations](./annotations)
-- [Keyboard shortcuts](./keyboard-shortcuts)
+- [Formatting & blocks](./formatting-and-blocks.md)
+- [Focus & Sanctuary](./focus-and-writing-modes.md)
+- [Annotations](./annotations.md)
+- [Keyboard shortcuts](./keyboard-shortcuts.md)

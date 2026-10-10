@@ -191,7 +191,7 @@ Masquer Poiesis et masquer les autres applications ne fonctionnent que sur un Ma
 
 ## Voir aussi {#see-also}
 
-- [Visite de la fenêtre](./finding-your-way)
-- [Mise en forme et blocs](./formatting-and-blocks)
-- [Documents côte à côte](./side-by-side)
-- [Réglages](./settings)
+- [Visite de la fenêtre](./finding-your-way.md)
+- [Mise en forme et blocs](./formatting-and-blocks.md)
+- [Documents côte à côte](./side-by-side.md)
+- [Réglages](./settings.md)

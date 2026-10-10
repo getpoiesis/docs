@@ -6,7 +6,7 @@ description: Retrouvez un mot dans la page ouverte ou dans tous vos documents, e
 # Rechercher et remplacer
 
 φ Poiesis propose deux recherches. `⌘F` cherche dans le document ouvert. `⇧⌘F`
-cherche dans tous les documents du [coffre](./vaults), le dossier qui contient
+cherche dans tous les documents du [coffre](./vaults.md), le dossier qui contient
 vos écrits. L’une comme l’autre peut remplacer ce qu’elle trouve : vous pouvez
 ainsi renommer un personnage ou corriger un mot partout à la fois.
 
@@ -27,7 +27,7 @@ Si le versionnage est activé, Poiesis enregistre d’abord une version de tout 
 coffre, qui porte le nom de ce que vous avez remplacé. Vous pourrez y revenir
 plus tard. Si le versionnage est désactivé, le changement est définitif, et Poiesis
 vous en avertit avant que vous ne confirmiez. Voir
-[Versions et sauvegarde](./versions-and-backup).
+[Versions et sauvegarde](./versions-and-backup.md).
 
 ## Rechercher dans ce document {#find-in-this-document}
 
@@ -87,12 +87,12 @@ document porte la mention **dans le nom**. **Respecter la casse** et
 
 | Pour retrouver | Utilisez |
 | --- | --- |
-| Un document, un projet ou un personnage d’après son nom | `⌘K`. Voir [Visite de la fenêtre](./finding-your-way). |
+| Un document, un projet ou un personnage d’après son nom | `⌘K`. Voir [Visite de la fenêtre](./finding-your-way.md). |
 | Un élément de la liste affichée | Le champ de recherche sous le titre de la liste. Il filtre d’après le titre, le début du texte et les étiquettes. |
 | Une commande | `⌘P`. |
 
 ## Voir aussi {#see-also}
 
-- [Visite de la fenêtre](./finding-your-way)
-- [Organiser](./organizing)
-- [Versions et sauvegarde](./versions-and-backup)
+- [Visite de la fenêtre](./finding-your-way.md)
+- [Organiser](./organizing.md)
+- [Versions et sauvegarde](./versions-and-backup.md)

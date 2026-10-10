@@ -22,7 +22,7 @@ Hay tres maneras:
 - En un Mac, pulsa `⌘,` o elige **Preferencias…** en el menú de la aplicación.
 
 Algunos ajustes cambian toda la aplicación. Otros solo cambian la bóveda que
-tienes abierta. Una [bóveda](./vaults) es la carpeta que contiene tu trabajo.
+tienes abierta. Una [bóveda](./vaults.md) es la carpeta que contiene tu trabajo.
 
 | Sección | Qué contiene | A qué se aplica |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ tienes abierta. Una [bóveda](./vaults) es la carpeta que contiene tu trabajo.
 
 ## Apariencia {#appearance}
 
-El aspecto de Poiesis. En [Temas e idiomas](./themes-and-languages) hay más
+El aspecto de Poiesis. En [Temas e idiomas](./themes-and-languages.md) hay más
 información sobre los temas de color.
 
 | Ajuste | Qué hace |
@@ -47,7 +47,7 @@ información sobre los temas de color.
 | **Tamaño de la interfaz** | **100%**, **115%**, **130%** o **150%**. Lo agranda todo, incluidos los iconos. |
 | **Tema de color** | Los temas que tienes, cada uno con una pequeña vista previa. Con **Instalar tema…** y **Explorar temas oficiales…** puedes añadir más. **Abrir carpeta de temas** muestra dónde se guardan. |
 | **Barra lateral en tema claro** | **Oscuro** o **Claro**. El valor predeterminado es **Oscuro**, para que la página sea lo más luminoso de la pantalla. En el tema oscuro, la barra lateral siempre es oscura. |
-| **El santuario atenúa el resto** | El [Santuario](./focus-and-writing-modes) oculta todo lo que hay en Poiesis salvo la página. Con este ajuste activado, el Santuario atenúa además todo menos la oración que estás escribiendo. Si **Escritura enfocada** está en **Párrafo**, se mantiene nítido el párrafo entero. Desactiva el ajuste para que no se atenúe nada. |
+| **El santuario atenúa el resto** | El [Santuario](./focus-and-writing-modes.md) oculta todo lo que hay en Poiesis salvo la página. Con este ajuste activado, el Santuario atenúa además todo menos la oración que estás escribiendo. Si **Escritura enfocada** está en **Párrafo**, se mantiene nítido el párrafo entero. Desactiva el ajuste para que no se atenúe nada. |
 
 ## Editor {#editor}
 
@@ -72,7 +72,7 @@ La zona donde escribes.
 ## Ajustes de escritura {#setup}
 
 Lo que Poiesis te muestra en esta bóveda. Cuando desactivas algo, Poiesis lo oculta. Tu
-trabajo nunca se oculta ni se borra. En [Puesta a punto](./setup) se explica todo esto.
+trabajo nunca se oculta ni se borra. En [Puesta a punto](./setup.md) se explica todo esto.
 
 | Ajuste | Qué hace |
 | --- | --- |
@@ -96,8 +96,8 @@ trabajo nunca se oculta ni se borra. En [Puesta a punto](./setup) se explica tod
 | **Diccionario personal** | Las palabras que has añadido. Cada una tiene un botón de papelera para quitarla. |
 | **Diccionario y tesauro** | **Instalar paquete de diccionario…** añade un diccionario. Debajo están los paquetes que tienes, con su número de palabras. |
 
-Consulta [Temas e idiomas](./themes-and-languages), [Ortografía](./spelling) y
-[Diccionario y tesauro](./dictionary).
+Consulta [Temas e idiomas](./themes-and-languages.md), [Ortografía](./spelling.md) y
+[Diccionario y tesauro](./dictionary.md).
 
 ## Versiones {#versioning}
 
@@ -125,7 +125,7 @@ Si la bóveda está en una carpeta en la nube, Poiesis guarda su repositorio de 
 este ordenador, no dentro de la bóveda. Poiesis para iPhone y iPad (próximamente)
 nunca ejecuta git. Guarda las versiones en la carpeta `.poiesis-history` de la
 bóveda. Hay más información en
-[Versiones y copias de seguridad](./versions-and-backup).
+[Versiones y copias de seguridad](./versions-and-backup.md).
 
 ## Bóveda {#vault}
 
@@ -135,7 +135,7 @@ bóveda. Hay más información en
 | **Espacios** | Los modos que muestra la bóveda: **Escribir**, **Notas** y **Diario** (al menos uno). **Se abre en** define lo que ves al abrir la bóveda: **Inicio** o uno de sus modos. |
 | **Gestionar** | **Abrir bóveda…** y **Crear bóveda…** añaden una bóveda. **Quitar bóveda…** te pregunta cómo quitarla. **Desvincular (conservar carpeta)** quita la bóveda de Poiesis y no toca la carpeta. **Mover a la papelera** envía la carpeta entera a la papelera de tu ordenador; de ahí todavía puedes recuperarla. |
 
-Consulta [Bóvedas](./vaults).
+Consulta [Bóvedas](./vaults.md).
 
 ## Plantillas {#templates}
 
@@ -150,7 +150,7 @@ quitarla.
 - **Instalar una plantilla…** añade un archivo de plantilla.
 - **Abrir carpeta de plantillas** muestra dónde se guardan las plantillas.
 
-Consulta [Plantillas](./templates).
+Consulta [Plantillas](./templates.md).
 
 ## Atajos {#shortcuts}
 
@@ -158,7 +158,7 @@ Los principales atajos de teclado, en cuatro grupos: **Moverse**,
 **Documentos**, **Escritura** y **Formato**. Es la misma lista que muestra
 `⌘/`. Para encontrar un atajo, escribe en **Buscar comandos…**.
 
-En [Atajos de teclado](./keyboard-shortcuts) están todos los atajos.
+En [Atajos de teclado](./keyboard-shortcuts.md) están todos los atajos.
 
 ## Datos {#data}
 
@@ -170,8 +170,8 @@ En [Atajos de teclado](./keyboard-shortcuts) están todos los atajos.
 
 ## Ver también {#see-also}
 
-- [Puesta a punto](./setup): todo sobre las señales, los lugares y los
+- [Puesta a punto](./setup.md): todo sobre las señales, los lugares y los
   modos.
-- [Temas e idiomas](./themes-and-languages)
-- [Atajos de teclado](./keyboard-shortcuts)
-- [Versiones y copias de seguridad](./versions-and-backup)
+- [Temas e idiomas](./themes-and-languages.md)
+- [Atajos de teclado](./keyboard-shortcuts.md)
+- [Versiones y copias de seguridad](./versions-and-backup.md)

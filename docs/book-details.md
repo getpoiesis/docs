@@ -15,7 +15,7 @@ same thing in every format you export.
 
 ## Fill in the details
 
-1. Open the [project](./collections) in **Write**. Its page shows the
+1. Open the [project](./collections.md) in **Write**. Its page shows the
    cover, the title, the author and the description.
 2. Click the cover to add or change it.
 3. Write the description beside the cover. On a printed book, the
@@ -28,7 +28,7 @@ same thing in every format you export.
 
 | Section | Fields | Where it appears |
 | --- | --- | --- |
-| **People** | The book's authors, translators, editors, illustrators, and who wrote a foreword or introduction, each from an [author profile](./characters-and-authors). | The byline, the title page, the copyright page. |
+| **People** | The book's authors, translators, editors, illustrators, and who wrote a foreword or introduction, each from an [author profile](./characters-and-authors.md). | The byline, the title page, the copyright page. |
 | **Title page** | Subtitle, series and number, publisher, imprint, city, website. | The title page. |
 | **Copyright page** | Rights (all rights reserved, a Creative Commons licence, public domain, or your own wording), the rights holder, edition, first published, ISBN for print and ebook, credits (cover, editing, illustrations…), a notice such as "This is a work of fiction…", printed in, language. | The copyright page, and the ebook's catalogue details. |
 | **Opening pages** | Dedication; epigraph and its source. | Their own pages before the first chapter. |
@@ -47,6 +47,6 @@ Poiesis checks an ISBN as you type it, and tells you when a digit looks wrong.
 
 ## See also
 
-- [How exporting works](./exporting)
-- [Projects](./collections): front matter, end matter and parts.
-- [Characters & authors](./characters-and-authors): author profiles.
+- [How exporting works](./exporting.md)
+- [Projects](./collections.md): front matter, end matter and parts.
+- [Characters & authors](./characters-and-authors.md): author profiles.

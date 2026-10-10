@@ -12,7 +12,7 @@ coordonnées et le nombre de mots.
 
 ## Créer le manuscrit {#make-the-manuscript}
 
-1. Ouvrez votre [profil d’auteur](./characters-and-authors). Vérifiez qu’il
+1. Ouvrez votre [profil d’auteur](./characters-and-authors.md). Vérifiez qu’il
    contient votre **Nom**, votre adresse postale, votre e-mail et votre
    téléphone : la première page en a besoin. **Nom** est votre nom à l’état civil ;
    **Nom de plume / signature** est le nom que voient les lecteurs.
@@ -50,6 +50,6 @@ chapitres.
 
 ## Voir aussi {#see-also}
 
-- [Personnages et auteurs](./characters-and-authors) : le profil d’auteur.
-- [Partager une copie](./share-a-copy) : un fichier Word que l’on peut
+- [Personnages et auteurs](./characters-and-authors.md) : le profil d’auteur.
+- [Partager une copie](./share-a-copy.md) : un fichier Word que l’on peut
   continuer à modifier.

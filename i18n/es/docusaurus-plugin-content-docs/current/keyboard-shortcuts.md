@@ -189,7 +189,7 @@ Ocultar Poiesis y ocultar las demás aplicaciones solo funciona en un Mac.
 
 ## Ver también {#see-also}
 
-- [Un recorrido por la ventana](./finding-your-way)
-- [Formato y bloques](./formatting-and-blocks)
-- [Documentos lado a lado](./side-by-side)
-- [Ajustes](./settings)
+- [Un recorrido por la ventana](./finding-your-way.md)
+- [Formato y bloques](./formatting-and-blocks.md)
+- [Documentos lado a lado](./side-by-side.md)
+- [Ajustes](./settings.md)

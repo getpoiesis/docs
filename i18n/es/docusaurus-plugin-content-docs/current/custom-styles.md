@@ -5,11 +5,11 @@ description: Crea un estilo tuyo a partir de uno de los de φ Poiesis y úsalo e
 
 # Estilos propios
 
-Con un [diseño](./designs) y **Ajustar el diseño** puedes cambiar algunos
+Con un [diseño](./designs.md) y **Ajustar el diseño** puedes cambiar algunos
 detalles del aspecto de un libro. Si necesitas cambiar más cosas, crea tu
 propio estilo: copias uno de los diseños o estilos de φ Poiesis y cambias lo que
 quieras. Después puedes usar tu estilo en cualquier proyecto de la
-[bóveda](./vaults).
+[bóveda](./vaults.md).
 
 ## Crea un estilo {#make-a-style}
 
@@ -56,5 +56,5 @@ Poiesis corrige el valor y la comprobación de la página Exportar te avisa.
 
 ## Ver también {#see-also}
 
-- [Diseños y cómo ajustarlos](./designs)
-- [Vista previa](./preview)
+- [Diseños y cómo ajustarlos](./designs.md)
+- [Vista previa](./preview.md)

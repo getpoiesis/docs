@@ -53,9 +53,9 @@ y met fin, et le mot suivant s’écrit en texte normal.
   videz le champ.
 - Les liens s’ouvrent dans votre navigateur. Pendant que vous écrivez,
   maintenez `⌘` enfoncée et cliquez sur le lien.
-- Pour créer un lien vers un autre document de votre [coffre](./vaults) (le
+- Pour créer un lien vers un autre document de votre [coffre](./vaults.md) (le
   dossier où Poiesis range vos documents), utilisez un lien wiki. Voir
-  [Liens et graphe](./links-and-graph).
+  [Liens et graphe](./links-and-graph.md).
 
 ## Titres, listes et citations {#headings-lists-and-quotes}
 
@@ -101,7 +101,7 @@ retrait et sur `⇧Tab` pour le réduire. Pour changer le retrait, ouvrez
 ## Blocs pour les livres et les poèmes {#blocks-for-books-and-poems}
 
 Le menu des blocs propose ces blocs dans les documents qui font partie d’un
-[projet](./collections) : les chapitres, les poèmes et les essais. Un projet
+[projet](./collections.md) : les chapitres, les poèmes et les essais. Un projet
 est un livre, ou tout autre texte long composé de plusieurs documents.
 
 Si un document contient déjà l’un de ces blocs, celui-ci reste affiché même
@@ -121,9 +121,9 @@ quand le document se trouve hors d’un projet.
 
 Pour en savoir plus :
 
-- [Poésie et vers](./poetry) explique les vers, les épigraphes et les sauts de
+- [Poésie et vers](./poetry.md) explique les vers, les épigraphes et les sauts de
   scène.
-- [Notes de bas de page et citations](./footnotes-and-citations) explique les
+- [Notes de bas de page et citations](./footnotes-and-citations.md) explique les
   notes de bas de page, les citations bibliographiques et la bibliographie.
 
 ## Images, encadrés et dates {#pictures-callouts-and-dates}
@@ -132,7 +132,7 @@ Pour en savoir plus :
 | --- | --- | --- |
 | **Image** | Une image avec sa légende. Sa barre d’outils permet de la placer à gauche, au centre, à droite ou en pleine largeur. Faites glisser son bord pour la redimensionner. Poiesis copie le fichier dans votre coffre. | `/image`, ou `![alt](https://…)` |
 | **Encadré** | Un cadre pour une remarque en marge du texte : info, astuce, avertissement ou danger. Placez le pointeur dessus pour choisir un autre type. | `/callout`, ou `> [!tip] ` |
-| **Date** | La date du jour, sous forme de pastille. La pastille relie le document à ce jour dans le [calendrier](./calendar). | `/date` |
+| **Date** | La date du jour, sous forme de pastille. La pastille relie le document à ce jour dans le [calendrier](./calendar.md). | `/date` |
 | **Date et heure** | Comme **Date**, avec l’heure en plus. | `/datetime` |
 | **Heure** | L’heure qu’il est, en texte simple. | `/time` |
 
@@ -145,10 +145,10 @@ Le menu des blocs ne propose pas les encadrés dans les entrées de journal.
 Vous pouvez aussi ajouter deux éléments au fil d’une ligne de texte :
 
 - **Les mentions @.** Tapez `@` et choisissez un
-  [personnage](./characters-and-authors). Pour créer un personnage à partir du
+  [personnage](./characters-and-authors.md). Pour créer un personnage à partir du
   nom que vous venez de taper, choisissez **Créer @nom**.
 - **Les liens wiki.** Tapez `[[` et choisissez un document. Voir
-  [Liens et graphe](./links-and-graph).
+  [Liens et graphe](./links-and-graph.md).
 
 ## Écrire en Markdown {#writing-in-markdown}
 
@@ -186,7 +186,7 @@ document dans la liste et choisir **Copier en Markdown**.
 
 ## Voir aussi {#see-also}
 
-- [L’éditeur](./the-editor) : la barre d’outils et le menu des blocs.
-- [Poésie et vers](./poetry)
-- [Notes de bas de page et citations](./footnotes-and-citations)
-- [Modèles](./templates)
+- [L’éditeur](./the-editor.md) : la barre d’outils et le menu des blocs.
+- [Poésie et vers](./poetry.md)
+- [Notes de bas de page et citations](./footnotes-and-citations.md)
+- [Modèles](./templates.md)

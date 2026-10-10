@@ -17,7 +17,7 @@ has escrito.
 ## Escribe la entrada de hoy {#write-todays-entry}
 
 1. Elige **Diario** en el selector de modo, en lo alto de la barra lateral. Si
-   la [bóveda](./vaults) tiene los tres modos, el atajo es `⌘3`.
+   la [bóveda](./vaults.md) tiene los tres modos, el atajo es `⌘3`.
 2. Haz clic en **Hoy**. φ Poiesis abre la entrada de hoy y, si todavía no existe, la
    crea.
 3. Escribe. La entrada se guarda sola a medida que escribes.
@@ -39,7 +39,7 @@ Hay otras tres maneras de empezar la entrada de hoy:
 | **Todas las entradas** | Todos los días en que has escrito, del más reciente al más antiguo. Arriba, esta semana aparece como una fila de días. Abre un día para leerlo o quédate en la lista: todos los días se ven seguidos, como una sola página larga, y puedes escribir en cualquiera de ellos ahí mismo. |
 | **Páginas matinales** | Todas las sesiones de páginas matinales, con sus páginas y sus palabras. |
 | **Selladas** | Las páginas matinales que ya has terminado. |
-| **Calendario** | Lo que has escrito a lo largo de los meses. Consulta [El calendario](./calendar). |
+| **Calendario** | Lo que has escrito a lo largo de los meses. Consulta [El calendario](./calendar.md). |
 
 En lo alto de cada entrada ves el día de la semana y la fecha. A su lado
 están:
@@ -65,7 +65,7 @@ Hay tres maneras de elegir el día:
 - Haz clic en un día de la fila que hay en lo alto de **Todas las entradas**.
 - En la página que muestra todos tus días, pulsa **Escribir en un día…** y
   elige una fecha.
-- En el [calendario](./calendar), selecciona un día y pulsa **Escribir este
+- En el [calendario](./calendar.md), selecciona un día y pulsa **Escribir este
   día**.
 
 Si abres un día y sales sin haber escrito nada, Poiesis manda esa entrada vacía a la
@@ -184,9 +184,9 @@ fallar un día nunca vuelves a cero.
 
 ## Ver también {#see-also}
 
-- [El calendario](./calendar): todos los días en que escribiste y lo que
+- [El calendario](./calendar.md): todos los días en que escribiste y lo que
   corresponde a cada uno.
-- [Un recorrido por la ventana](./finding-your-way): la barra lateral, la
+- [Un recorrido por la ventana](./finding-your-way.md): la barra lateral, la
   lista y el panel de Información.
-- [Versiones y copias de seguridad](./versions-and-backup): la pestaña
+- [Versiones y copias de seguridad](./versions-and-backup.md): la pestaña
   Historial.

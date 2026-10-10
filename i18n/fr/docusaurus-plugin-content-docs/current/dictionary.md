@@ -77,6 +77,6 @@ recherche ne passe par Internet.
 
 ## Voir aussi {#see-also}
 
-- [Orthographe](./spelling)
-- [L’éditeur](./the-editor) : la barre d’outils de sélection.
-- [Thèmes et langues](./themes-and-languages)
+- [Orthographe](./spelling.md)
+- [L’éditeur](./the-editor.md) : la barre d’outils de sélection.
+- [Thèmes et langues](./themes-and-languages.md)

@@ -5,10 +5,10 @@ description: Make a style of your own from one of φ Poiesis's, and use it for a
 
 # Custom styles
 
-A [design](./designs) and **Adjust the design** let you change a few things
+A [design](./designs.md) and **Adjust the design** let you change a few things
 about how a book looks. If you need to change more, make your own style. You
 copy one of φ Poiesis's designs or styles and change what you want. You can then use
-your style for any project in the [vault](./vaults).
+your style for any project in the [vault](./vaults.md).
 
 ## Make a style
 
@@ -52,5 +52,5 @@ then corrects the value, and the check on the Export page tells you.
 
 ## See also
 
-- [Designs & adjusting them](./designs)
-- [Preview](./preview)
+- [Designs & adjusting them](./designs.md)
+- [Preview](./preview.md)

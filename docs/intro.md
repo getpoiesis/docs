@@ -15,10 +15,10 @@ keeps every word in files on your own computer.
 
 ## Get started
 
-1. [Install Poiesis](./installing) on macOS, Windows or Linux.
-2. [Create your first vault](./getting-started). A vault is the folder that
+1. [Install Poiesis](./installing.md) on macOS, Windows or Linux.
+2. [Create your first vault](./getting-started.md). A vault is the folder that
    holds your writing.
-3. Take [a tour of the window](./finding-your-way).
+3. Take [a tour of the window](./finding-your-way.md).
 4. Click the sample project, **The Grey Morning**, in the sidebar. Then click
    **Export** under it to see how Poiesis lays out a book.
 
@@ -37,7 +37,7 @@ journal entry can mention a character.
 Two things work in every mode:
 
 - **Links.** Type `[[` to link one document to another. The
-  [graph](./links-and-graph) shows how your documents connect.
+  [graph](./links-and-graph.md) shows how your documents connect.
 - **Sanctuary.** Press `⌘.` to hide everything except the page.
 
 ## Your writing stays yours
@@ -47,11 +47,11 @@ Two things work in every mode:
 - **Poiesis saves as you type.** It saves every document all the time, and checks
   each save. Version history lets you go back to any earlier draft. You can
   also back it up to your own git remote if you want a copy somewhere else.
-  See [Versions & backup](./versions-and-backup).
+  See [Versions & backup](./versions-and-backup.md).
 - **Your work is easy to move and keep.** Copy the folder and you have
   copied everything. You can keep a vault in iCloud Drive, Dropbox or
   another synced folder. Poiesis for iPhone and iPad is not out yet. When it is,
-  it will open the same vault. See [Vaults](./vaults).
+  it will open the same vault. See [Vaults](./vaults.md).
 
 Each document is a `.poiesis` file. The file holds your text and its details
 as structured content, so annotations, footnotes and citations are kept
@@ -70,7 +70,7 @@ little longer while more people try it out. If something seems off, the
 
 ## See also
 
-- [Your first vault](./getting-started)
-- [A tour of the window](./finding-your-way)
-- [The editor](./the-editor)
-- [Projects](./collections)
+- [Your first vault](./getting-started.md)
+- [A tour of the window](./finding-your-way.md)
+- [The editor](./the-editor.md)
+- [Projects](./collections.md)

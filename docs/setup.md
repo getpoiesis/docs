@@ -13,7 +13,7 @@ In **Settings → Setup** you choose two things:
   sidebar.
 
 Each vault has its own setup. A vault is the folder that holds your writing
-(see [Vaults](./vaults)). So a vault for a novel and a vault for a journal
+(see [Vaults](./vaults.md)). So a vault for a novel and a vault for a journal
 can each show only what they need.
 
 ## Set up a vault
@@ -109,7 +109,7 @@ again and your pages appear again.
 ## What Setup doesn't change
 
 - **Which modes a vault has.** You choose them in **Settings → Vault →
-  Spaces**. See [Vaults](./vaults).
+  Spaces**. See [Vaults](./vaults.md).
 - **Editor tools.** Citations, the table of contents and templates have no
   switches. They are available in every kind of document that can use
   them.
@@ -117,7 +117,7 @@ again and your pages appear again.
 
 ## See also
 
-- [A tour of the window](./finding-your-way)
-- [Settings](./settings)
-- [Sanctuary & writing sessions](./focus-and-writing-modes)
-- [The calendar](./calendar)
+- [A tour of the window](./finding-your-way.md)
+- [Settings](./settings.md)
+- [Sanctuary & writing sessions](./focus-and-writing-modes.md)
+- [The calendar](./calendar.md)

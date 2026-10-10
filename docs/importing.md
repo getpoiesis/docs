@@ -9,7 +9,7 @@ You can bring writing into φ Poiesis from other writing apps, and from copies y
 made in Poiesis. Imported writing becomes ordinary Poiesis documents. Their dates, links
 and pictures are kept.
 
-Imported documents go into a [vault](./vaults), the folder where Poiesis keeps your
+Imported documents go into a [vault](./vaults.md), the folder where Poiesis keeps your
 work.
 
 ## Import Markdown files
@@ -54,5 +54,5 @@ pictures. There are three ways to import it:
 
 ## See also
 
-- [Vaults](./vaults): where imported work goes.
-- [Share a copy](./share-a-copy): making a project copy.
+- [Vaults](./vaults.md): where imported work goes.
+- [Share a copy](./share-a-copy.md): making a project copy.

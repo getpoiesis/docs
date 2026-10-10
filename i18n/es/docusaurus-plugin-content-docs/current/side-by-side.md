@@ -122,7 +122,7 @@ Para cambiar el ancho de dos paneles, arrastra la línea que los separa.
 También puedes hacer clic en la línea y pulsar `←` o `→`.
 
 Poiesis recuerda los anchos de cada bóveda en este ordenador. (Una
-[bóveda](./vaults) es la carpeta donde Poiesis guarda tus documentos).
+[bóveda](./vaults.md) es la carpeta donde Poiesis guarda tus documentos).
 
 Si la ventana es demasiado estrecha para mostrar todos los paneles, los que
 no caben se convierten en pestañas estrechas en el borde derecho. Haz clic
@@ -133,7 +133,7 @@ El Santuario oculta todo menos lo que estás escribiendo. Pulsa `⌘.` y los
 paneles se quedan, mientras desaparece todo lo que los rodea. Pasa el
 puntero por la cabecera de un panel para ver sus botones. La atenuación y el
 desplazamiento de máquina de escribir solo se aplican al panel en el que
-escribes. Consulta [Concentración y Santuario](./focus-and-writing-modes).
+escribes. Consulta [Concentración y Santuario](./focus-and-writing-modes.md).
 :::
 
 ## Volver a una sola página {#back-to-one-page}
@@ -157,6 +157,6 @@ abierto.
 
 ## Ver también {#see-also}
 
-- [Concentración y Santuario](./focus-and-writing-modes)
-- [Investigación](./research)
-- [Enlaces y el grafo](./links-and-graph)
+- [Concentración y Santuario](./focus-and-writing-modes.md)
+- [Investigación](./research.md)
+- [Enlaces y el grafo](./links-and-graph.md)

@@ -50,12 +50,12 @@ things:
 - **Descriptions for pictures** (alt text). These are for readers who can't
   see the pictures.
 - **An ISBN**, if you have one for the ebook. Add it as **ISBN (ebook)** in
-  [Book details](./book-details). KDP and Google Play don't need one.
+  [Book details](./book-details.md). KDP and Google Play don't need one.
 
 Poiesis also checks the EPUB against the EPUB standard while it makes the file.
 
 ## See also
 
-- [Preview](./preview): see the ebook on a phone, a tablet or a screen.
-- [Designs & adjusting them](./designs)
-- [Print a book](./print-a-book)
+- [Preview](./preview.md): see the ebook on a phone, a tablet or a screen.
+- [Designs & adjusting them](./designs.md)
+- [Print a book](./print-a-book.md)

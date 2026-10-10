@@ -21,7 +21,7 @@ alors ensemble : cochez l’élément, et la carte change de colonne.
 
 1. Allez là où se trouvent les tableaux :
    - Dans Notes, ouvrez **Tableaux** sous **Lieux**, dans la barre latérale.
-   - Dans Écrire, ouvrez le [projet](./collections) auquel le tableau est
+   - Dans Écrire, ouvrez le [projet](./collections.md) auquel le tableau est
      destiné, puis choisissez **Tableau** sous ce projet.
 2. Cliquez sur **Nouveau tableau de tâches** ou sur **Nouveau tableau
    personnalisé**. Dans un projet, cliquez sur le **+** de la liste, puis sur
@@ -69,7 +69,7 @@ ouverte comporte ces champs :
 | **Liste de contrôle** | Des étapes. Tapez une étape et appuyez sur Entrée. |
 | **Lié à** | Des documents, des personnages et des projets. Cliquez sur un lien pour l’ouvrir. |
 | **Colonne** | La colonne où se trouve la carte. |
-| **Échéance** | Une date. La carte apparaît ce jour-là dans le [calendrier](./calendar), et sous **À rendre cette semaine** sur l’Accueil d’Écrire. |
+| **Échéance** | Une date. La carte apparaît ce jour-là dans le [calendrier](./calendar.md), et sous **À rendre cette semaine** sur l’Accueil d’Écrire. |
 | **Rappel** | Une date et une heure. |
 | **Priorité** | **Basse**, **Normale**, **Haute** ou **Urgente**. |
 | **Étiquette** | Une couleur, ou **Sans étiquette**. |
@@ -119,7 +119,7 @@ choisissez **Remettre sur le tableau**.
 
 1. Dans une note, écrivez un élément de liste de tâches : tapez `[]` ou
    utilisez `/checklist`.
-2. Ouvrez le [panneau Infos](./finding-your-way#the-info-panel) (`⇧⌘I`) et
+2. Ouvrez le [panneau Infos](./finding-your-way.md#the-info-panel) (`⇧⌘I`) et
    choisissez **Tâches**. Tous les éléments de liste de tâches de la note y
    figurent.
 3. Cliquez sur **Suivre** à côté d’un élément. Choisissez un tableau de
@@ -178,7 +178,7 @@ même page.
 
 ## Voir aussi {#see-also}
 
-- [Notes et capture rapide](./notes)
-- [Le calendrier](./calendar) : les échéances, jour par jour.
-- [Projets](./collections)
-- [Organiser](./organizing) : restaurer depuis la corbeille.
+- [Notes et capture rapide](./notes.md)
+- [Le calendrier](./calendar.md) : les échéances, jour par jour.
+- [Projets](./collections.md)
+- [Organiser](./organizing.md) : restaurer depuis la corbeille.

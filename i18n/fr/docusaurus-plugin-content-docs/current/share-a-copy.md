@@ -26,7 +26,7 @@ garder une copie.
 | **Page web** | Un seul fichier HTML qui contient toute l’œuvre, styles et images compris. Ouvrez-le dans un navigateur ou publiez-le sur un site. |
 | **Markdown** | Toute application qui accepte le texte brut. Les chapitres et la numérotation sont conservés. |
 | **Texte enrichi** | TextEdit, Pages et toutes les versions de Word l’ouvrent avec sa mise en forme. Utilisez-le pour les sites de soumission qui refusent le `.docx`. |
-| **Copie du projet** | Tout, tel que φ Poiesis le conserve. Utilisez-la pour déplacer le projet vers un autre [coffre](./vaults) ou pour l’archiver. |
+| **Copie du projet** | Tout, tel que φ Poiesis le conserve. Utilisez-la pour déplacer le projet vers un autre [coffre](./vaults.md) ou pour l’archiver. |
 
 ## Styles et papier {#styles-and-paper}
 
@@ -40,7 +40,7 @@ les styles :
 - **Poetry** ;
 - **Academic paper** ;
 - tout style que vous avez créé vous-même
-  ([Styles personnalisés](./custom-styles)).
+  ([Styles personnalisés](./custom-styles.md)).
 
 **Papier** fixe le format de page du PDF : Letter, A4, A5, Digest ou Trade.
 Les autres formats n’ont pas de pages fixes : **Papier** n’y change donc rien.
@@ -55,10 +55,10 @@ Pour l’ouvrir dans un autre coffre :
 1. Ouvrez la palette de commandes (`⌘P`).
 2. Choisissez **Importer un document Poiesis (`.poiesis`)…**.
 
-Pour en savoir plus, voyez [Importer](./importing).
+Pour en savoir plus, voyez [Importer](./importing.md).
 
 ## Voir aussi {#see-also}
 
-- [Comment fonctionne l’export](./exporting) : exporter un seul document.
-- [Imprimer un livre](./print-a-book) et
-  [Créer un livre numérique](./make-an-ebook) : des fichiers à publier.
+- [Comment fonctionne l’export](./exporting.md) : exporter un seul document.
+- [Imprimer un livre](./print-a-book.md) et
+  [Créer un livre numérique](./make-an-ebook.md) : des fichiers à publier.

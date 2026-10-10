@@ -24,7 +24,7 @@ C’est aussi un projet que φ Poiesis exporte sous forme de livre.
 4. Sur la page du projet, sous **Réglages**, définissez le **Type**, le
    **Profil d’auteur** et l’**Objectif de mots**.
 
-Si votre [coffre](./vaults) (le dossier qui contient vos textes) est encore
+Si votre [coffre](./vaults.md) (le dossier qui contient vos textes) est encore
 vide, l’Accueil d’Écrire affiche à la place **Commencer un projet**.
 Choisissez **Roman**, **Poésie**, **Essais** ou **Autre**, puis appuyez sur
 **Créer**.
@@ -48,7 +48,7 @@ vos textes restent tels quels.
 
 Cette page parle de *chapitre* et de *partie* quel que soit le type.
 Remplacez-les par les noms qu’utilise le type de votre projet. Pour un projet
-de poèmes, voyez aussi [Poésie et vers](./poetry).
+de poèmes, voyez aussi [Poésie et vers](./poetry.md).
 
 ## Se repérer dans un projet {#find-your-way-around-a-project}
 
@@ -57,13 +57,13 @@ suivantes apparaissent en dessous :
 
 | Page | Ce qu’on y trouve |
 | --- | --- |
-| *Le nom du projet* | La page du projet : couverture, titre, auteur, description, progression, réglages et [Détails du livre](./book-details). |
+| *Le nom du projet* | La page du projet : couverture, titre, auteur, description, progression, réglages et [Détails du livre](./book-details.md). |
 | **Sommaire** | Toute l’œuvre sur une seule page, pour l’organiser. |
-| **Recherche** | Les pages de recherche liées au projet ([Recherche](./research)). |
-| **Personnages** | Les personnages du projet, et les personnages partagés ([Personnages et auteurs](./characters-and-authors)). |
-| **Tableau** | Les chapitres sous forme de cartes classées par statut, et les tableaux propres au projet, dont la liste figure à côté ([Tableaux](./boards)). |
+| **Recherche** | Les pages de recherche liées au projet ([Recherche](./research.md)). |
+| **Personnages** | Les personnages du projet, et les personnages partagés ([Personnages et auteurs](./characters-and-authors.md)). |
+| **Tableau** | Les chapitres sous forme de cartes classées par statut, et les tableaux propres au projet, dont la liste figure à côté ([Tableaux](./boards.md)). |
 | **Lire** | Le manuscrit dans l’ordre, en lecture seule : en **Prose**, ou en **Livre** avec son sommaire. |
-| **Exporter** | Le livre imprimé, le livre numérique, le manuscrit destiné à un agent ([Comment fonctionne l’export](./exporting)). |
+| **Exporter** | Le livre imprimé, le livre numérique, le manuscrit destiné à un agent ([Comment fonctionne l’export](./exporting.md)). |
 
 Tant qu’un projet est ouvert, la liste à côté de la page affiche son plan. On
 y voit chaque chapitre sous sa partie, avec son numéro et son synopsis. Tout
@@ -138,7 +138,7 @@ Chapitre 1 dans le plan, dans la vue de lecture et dans tous les exports.
 
 La page de titre, la page de copyright et la page « Du même auteur » ne sont
 pas des documents. Poiesis les compose à partir des
-[Détails du livre](./book-details) du projet.
+[Détails du livre](./book-details.md) du projet.
 
 ## Fixer des objectifs de mots {#set-word-goals}
 
@@ -170,7 +170,7 @@ y trouvez :
   Cliquez sur l’un d’eux pour le modifier.
 - **Détails du livre.** Les informations destinées à la page de titre, à la
   page de copyright et aux pages du même genre
-  ([Détails du livre](./book-details)).
+  ([Détails du livre](./book-details.md)).
 - **Recherches** et **Notes.** Les pages de recherche et les notes liées au
   projet, avec **Nouvelle page de recherche**, **Lier une recherche…**,
   **Nouvelle note à ce sujet** et **Lier une note…**.
@@ -181,7 +181,7 @@ y trouvez :
 ## Ajouter une pièce déjà écrite {#add-a-piece-youve-already-written}
 
 Une pièce est un document d’Écrire qui ne fait partie d’aucun projet (voir
-[Organiser](./organizing)). Il y a deux façons d’en ajouter une
+[Organiser](./organizing.md)). Il y a deux façons d’en ajouter une
 à un projet :
 
 - Faites un clic droit sur la pièce dans la liste, choisissez **Ajouter à un
@@ -230,8 +230,8 @@ Le projet va dans la corbeille, d’où vous pouvez le restaurer.
 
 ## Voir aussi {#see-also}
 
-- [Détails du livre](./book-details) : la page de titre, la page de copyright
+- [Détails du livre](./book-details.md) : la page de titre, la page de copyright
   et les autres pages du livre.
-- [Comment fonctionne l’export](./exporting)
-- [Tableaux](./boards)
-- [Organiser](./organizing)
+- [Comment fonctionne l’export](./exporting.md)
+- [Tableaux](./boards.md)
+- [Organiser](./organizing.md)

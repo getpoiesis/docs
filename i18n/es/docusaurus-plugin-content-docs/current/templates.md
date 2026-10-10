@@ -24,7 +24,7 @@ plantilla también puede rellenar la fecha de hoy y dejar el cursor de texto
 En el menú, cada plantilla lleva uno de estos dos rótulos:
 
 - **Insertar una plantilla guardada**: la plantilla está disponible en todas
-  las [bóvedas](./vaults). Una bóveda es la carpeta que guarda lo que
+  las [bóvedas](./vaults.md). Una bóveda es la carpeta que guarda lo que
   escribes.
 - **Insertar una plantilla de la bóveda**: la plantilla solo está disponible
   en esta bóveda.
@@ -112,6 +112,6 @@ lista para escribir.
 
 ## Ver también {#see-also}
 
-- [Formato y bloques](./formatting-and-blocks): el menú de bloques (`/`).
-- [Diario y páginas matinales](./journal-and-morning-pages)
-- [Ajustes](./settings)
+- [Formato y bloques](./formatting-and-blocks.md): el menú de bloques (`/`).
+- [Diario y páginas matinales](./journal-and-morning-pages.md)
+- [Ajustes](./settings.md)

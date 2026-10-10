@@ -89,14 +89,14 @@ la parte de Poiesis en la que estés:
   cursiva, subrayado, encabezado, enlace, **Resaltar y comentar** y
   **Comentar (sin resaltado)**. Al final de la barra, **Más herramientas**
   abre las demás, entre ellas **Buscar palabra**. Consulta
-  [El editor](./the-editor).
+  [El editor](./the-editor.md).
 - **Escribe `/`** al principio de una línea. Se abre el menú de bloques:
   encabezados, listas, citas, saltos de escena, epígrafes y más. Consulta
-  [Formato y bloques](./formatting-and-blocks).
+  [Formato y bloques](./formatting-and-blocks.md).
 - **Escribe `[[`** para enlazar con otro documento por su nombre. Consulta
-  [Enlaces y el grafo](./links-and-graph).
+  [Enlaces y el grafo](./links-and-graph.md).
 - **Empieza un proyecto.** Haz clic en **Nuevo proyecto**, debajo de
-  **Proyectos**, en la barra lateral. Consulta [Proyectos](./collections).
+  **Proyectos**, en la barra lateral. Consulta [Proyectos](./collections.md).
 
 ## Abre otra bóveda {#open-another-vault}
 
@@ -107,7 +107,7 @@ Puedes tener varias bóvedas; por ejemplo, una para cada libro.
 2. Elige una bóveda, **Abrir otra bóveda…** o **Nueva bóveda…**.
 
 Desde el teclado, pulsa `⌥⌘O` (**Archivo → Cambiar de bóveda…**). Consulta
-[Bóvedas](./vaults).
+[Bóvedas](./vaults.md).
 
 Una bóveda es una carpeta normal y corriente. Cualquier copia de seguridad que
 ya uses la protege: Time Machine, una carpeta sincronizada o una copia en un
@@ -115,7 +115,7 @@ disco externo.
 
 ## Ver también {#see-also}
 
-- [Un recorrido por la ventana](./finding-your-way)
-- [Bóvedas](./vaults)
-- [Versiones y copias de seguridad](./versions-and-backup)
-- [Atajos de teclado](./keyboard-shortcuts)
+- [Un recorrido por la ventana](./finding-your-way.md)
+- [Bóvedas](./vaults.md)
+- [Versiones y copias de seguridad](./versions-and-backup.md)
+- [Atajos de teclado](./keyboard-shortcuts.md)

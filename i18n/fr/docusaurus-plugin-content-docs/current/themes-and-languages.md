@@ -152,12 +152,12 @@ Elles se trouvent sous **Orthographe**, sur la même page des Réglages :
 2. Choisissez le **Moteur**.
 3. Cochez les **Langues**.
 
-Un [coffre](./vaults) (le dossier qui contient votre travail) peut avoir son
+Un [coffre](./vaults.md) (le dossier qui contient votre travail) peut avoir son
 propre moteur. Réglez-le sous **Ce coffre**. La page
-[Orthographe](./spelling) donne tous les détails.
+[Orthographe](./spelling.md) donne tous les détails.
 
 ## Voir aussi {#see-also}
 
-- [Réglages](./settings) : tous les réglages sur une seule page.
-- [Orthographe](./spelling)
-- [Dictionnaire et thésaurus](./dictionary)
+- [Réglages](./settings.md) : tous les réglages sur une seule page.
+- [Orthographe](./spelling.md)
+- [Dictionnaire et thésaurus](./dictionary.md)

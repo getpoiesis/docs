@@ -25,7 +25,7 @@ enfocada y el modo lectura.
 en la paleta de comandos (`⌘P`).
 
 El Santuario funciona con un documento y con el
-[grafo](./links-and-graph).
+[grafo](./links-and-graph.md).
 
 ## Mientras estás en el Santuario {#while-youre-in-sanctuary}
 
@@ -54,7 +54,7 @@ pantalla completa, elige esa opción en el menú **Ver**.
 El Santuario se cierra por sí solo cuando abres una página que no es un documento,
 como el calendario o un tablero.
 
-Si tienes documentos [lado a lado](./side-by-side), el Santuario conserva
+Si tienes documentos [lado a lado](./side-by-side.md), el Santuario conserva
 los paneles. La atenuación y el desplazamiento de máquina de escribir solo
 se aplican al panel en el que escribes.
 
@@ -142,7 +142,7 @@ Para empezar y terminar las sesiones por tu cuenta:
 
 ## Ver también {#see-also}
 
-- [El editor](./the-editor)
-- [Documentos lado a lado](./side-by-side)
-- [Ajustes](./settings)
-- [Atajos de teclado](./keyboard-shortcuts)
+- [El editor](./the-editor.md)
+- [Documentos lado a lado](./side-by-side.md)
+- [Ajustes](./settings.md)
+- [Atajos de teclado](./keyboard-shortcuts.md)

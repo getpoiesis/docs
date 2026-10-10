@@ -16,7 +16,7 @@ d’export.
 
 ## Remplir les détails {#fill-in-the-details}
 
-1. Ouvrez le [projet](./collections) dans **Écrire**. Sa page affiche la
+1. Ouvrez le [projet](./collections.md) dans **Écrire**. Sa page affiche la
    couverture, le titre, l’auteur et la description.
 2. Cliquez sur la couverture pour en ajouter une ou la changer.
 3. Écrivez la description à côté de la couverture. Sur un livre imprimé, elle
@@ -29,7 +29,7 @@ d’export.
 
 | Section | Champs | Où cela apparaît |
 | --- | --- | --- |
-| **Personnes** | Les auteurs, traducteurs, directeurs d’ouvrage et illustrateurs du livre, ainsi que les auteurs de la préface ou de l’introduction, chacun tiré d’un [profil d’auteur](./characters-and-authors). | La signature, la page de titre, la page de copyright. |
+| **Personnes** | Les auteurs, traducteurs, directeurs d’ouvrage et illustrateurs du livre, ainsi que les auteurs de la préface ou de l’introduction, chacun tiré d’un [profil d’auteur](./characters-and-authors.md). | La signature, la page de titre, la page de copyright. |
 | **Page de titre** | Sous-titre, série et numéro, éditeur, collection, ville, site web. | La page de titre. |
 | **Page de copyright** | Droits (tous droits réservés, une licence Creative Commons, domaine public ou votre propre formulation), titulaire des droits, édition, première publication, ISBN de l’édition imprimée et du livre numérique, crédits (couverture, édition, illustrations…), une mention telle que « Ceci est une œuvre de fiction… », imprimé en, langue. | La page de copyright, et la notice de catalogue du livre numérique. |
 | **Pages d’ouverture** | Dédicace ; épigraphe et sa source. | Chacune sur sa propre page, avant le premier chapitre. |
@@ -50,6 +50,6 @@ semble erroné.
 
 ## Voir aussi {#see-also}
 
-- [Comment fonctionne l’export](./exporting)
-- [Projets](./collections) : pages liminaires, pages finales et parties.
-- [Personnages et auteurs](./characters-and-authors) : les profils d’auteur.
+- [Comment fonctionne l’export](./exporting.md)
+- [Projets](./collections.md) : pages liminaires, pages finales et parties.
+- [Personnages et auteurs](./characters-and-authors.md) : les profils d’auteur.

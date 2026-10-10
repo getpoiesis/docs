@@ -38,7 +38,7 @@ The snapshot appears in the document's **History** tab, marked **Snapshot**.
   version at a moment you choose.
 - **Poiesis saves a version before a change to the whole vault.** A vault is the
   folder that holds your work. When you replace a word in every document (see
-  [Search & replace](./search-and-replace)), Poiesis first saves a version of the
+  [Search & replace](./search-and-replace.md)), Poiesis first saves a version of the
   whole vault. So you can undo the change.
 
 ## Find an old version
@@ -154,7 +154,7 @@ also works: Time Machine, a synced folder, or a copy on a drive.
 
 ## See also
 
-- [Vaults](./vaults): vaults on several devices, and what happens when two
+- [Vaults](./vaults.md): vaults on several devices, and what happens when two
   of them change the same document.
-- [Search & replace](./search-and-replace)
-- [Settings](./settings)
+- [Search & replace](./search-and-replace.md)
+- [Settings](./settings.md)

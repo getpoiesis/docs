@@ -9,7 +9,7 @@ A link connects one document to another. Type `[[` and the name of a
 document to make one. φ Poiesis records each link in both directions, so every
 document can show the documents it links to and the documents that link to
 it. The **graph** is a picture of all the links in your
-[vault](./vaults), the folder that holds your writing.
+[vault](./vaults.md), the folder that holds your writing.
 
 <img src="/img/app/links-light.png" alt="A research page with a wiki-link in its text, and the Info panel's Links tab listing its outgoing links, backlinks and linked dates" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/links-dark.png" alt="A research page with a wiki-link in its text, and the Info panel's Links tab listing its outgoing links, backlinks and linked dates" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -24,10 +24,10 @@ it. The **graph** is a picture of all the links in your
 <img src="/img/app/link-menu-dark.png" alt="A note with two square brackets and a few letters typed, and the menu of matching documents open" width="1600" height="1000" loading="lazy" decoding="async" />
 
 To follow a link, hold `⌘` and click it. In
-[reading mode](./the-editor), a plain click is enough.
+[reading mode](./the-editor.md), a plain click is enough.
 
 To open the linked document beside the one you are in, `⌥⌘`-click the link
-(see [Side by side](./side-by-side)).
+(see [Side by side](./side-by-side.md)).
 
 A link chosen from the menu points to the document itself. If you rename the
 document later, the link still works. A `[[Title]]` that you type in full or
@@ -48,7 +48,7 @@ that title and opens it.
 
 ## See what links where
 
-The **Links** tab of the [Info panel](./finding-your-way#the-info-panel)
+The **Links** tab of the [Info panel](./finding-your-way.md#the-info-panel)
 lists a document's links. There are three ways to open it:
 
 - Open the Info panel (`⇧⌘I`) and choose **Links**.
@@ -63,8 +63,8 @@ saved yet.
 | **In this document** | The characters you have @-mentioned here. Shown only when there are some. |
 | **Outgoing links** | Every document this one links to. Links to documents that do not exist yet are listed too, with a create icon. Click one to make that document. |
 | **Backlinks** | Every document that links *to* this one. |
-| **Linked dates** | The dates you added with `/date`. Click one to show that day in the [calendar](./calendar). |
-| **Research** and **Notes** | Research pages (in Write) and notes linked to this document. You can add more here. See [Research](./research). |
+| **Linked dates** | The dates you added with `/date`. Click one to show that day in the [calendar](./calendar.md). |
+| **Research** and **Notes** | Research pages (in Write) and notes linked to this document. You can add more here. See [Research](./research.md). |
 
 Click any entry to open it. **Local graph**, at the bottom of the tab, opens
 the graph around this document.
@@ -123,14 +123,14 @@ links. Click one to open it.
 :::tip Find notes with no links
 
 **Unlinked**, in the Notes sidebar, lists the notes that have no links to
-them and no links from them. See [Notes & capture](./notes).
+them and no links from them. See [Notes & capture](./notes.md).
 
 :::
 
 ## See also
 
-- [Research](./research): notes and research linked to a chapter, project or
+- [Research](./research.md): notes and research linked to a chapter, project or
   character.
-- [Characters & authors](./characters-and-authors): @-mentions.
-- [Calendar](./calendar)
-- [Side by side](./side-by-side)
+- [Characters & authors](./characters-and-authors.md): @-mentions.
+- [Calendar](./calendar.md)
+- [Side by side](./side-by-side.md)

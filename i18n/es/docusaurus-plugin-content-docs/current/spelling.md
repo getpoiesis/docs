@@ -64,7 +64,7 @@ Abre **Ajustes → Idioma → Ortografía**. Hay tres ajustes:
   un documento mezcla dos idiomas. Con **Nativo** en un Mac, el sistema
   detecta el idioma automáticamente.
 
-Cada [bóveda](./vaults) (la carpeta donde se guarda lo que escribes) puede
+Cada [bóveda](./vaults.md) (la carpeta donde se guarda lo que escribes) puede
 tener su propio ajuste. En **Ajustes → Idioma → Esta bóveda**, pon
 **Predeterminado para esta bóveda** en **Usar global**, **Nativo** o
 **Mejorado**. Con **Mejorado**, también puedes elegir los idiomas de esa
@@ -96,6 +96,6 @@ Cuando das una palabra por buena, el lugar donde se guarda depende del motor:
 
 ## Ver también {#see-also}
 
-- [Diccionario y tesauro](./dictionary)
-- [Temas e idiomas](./themes-and-languages)
-- [Ajustes](./settings)
+- [Diccionario y tesauro](./dictionary.md)
+- [Temas e idiomas](./themes-and-languages.md)
+- [Ajustes](./settings.md)

@@ -7,7 +7,7 @@ description: Des pages de documentation gardées pour une œuvre, chacune liée 
 
 Une **page de recherche** rassemble la documentation qui nourrit votre
 écriture : sources, faits, lieux, chronologies. Vous liez chaque page de
-recherche à ce dont elle parle : un chapitre, un [projet](./collections) ou
+recherche à ce dont elle parle : un chapitre, un [projet](./collections.md) ou
 un personnage. Vos recherches apparaissent alors à côté de ce chapitre, de ce
 projet ou de ce personnage, sans se mêler au texte du livre.
 
@@ -17,7 +17,7 @@ projet ou de ce personnage, sans se mêler au texte du livre.
 ## Commencer une page de recherche pour un chapitre {#start-a-research-page-for-a-chapter}
 
 1. Ouvrez le chapitre.
-2. Ouvrez le [panneau Infos](./finding-your-way#the-info-panel) (`⇧⌘I`) et
+2. Ouvrez le [panneau Infos](./finding-your-way.md#the-info-panel) (`⇧⌘I`) et
    choisissez **Liens**.
 3. Sous **Recherche**, cliquez sur **Nouvelle page de recherche**. La
    nouvelle page est déjà liée au chapitre.
@@ -91,14 +91,14 @@ alors à côté du chapitre, sans avoir besoin d’être une page de recherche.
 
 :::note
 
-Les pages de recherche n’apparaissent ni dans le [graphe](./links-and-graph)
+Les pages de recherche n’apparaissent ni dans le [graphe](./links-and-graph.md)
 ni dans les listes de Notes.
 
 :::
 
 ## Voir aussi {#see-also}
 
-- [Liens et graphe](./links-and-graph)
-- [Projets](./collections)
-- [Personnages et auteurs](./characters-and-authors)
-- [Notes et capture rapide](./notes)
+- [Liens et graphe](./links-and-graph.md)
+- [Projets](./collections.md)
+- [Personnages et auteurs](./characters-and-authors.md)
+- [Notes et capture rapide](./notes.md)

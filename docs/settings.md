@@ -21,7 +21,7 @@ There are three ways:
 - On a Mac, press `⌘,`, or choose **Preferences…** in the app menu.
 
 Some settings change the whole app. Others change only the open vault. A
-[vault](./vaults) is the folder that holds your work.
+[vault](./vaults.md) is the folder that holds your work.
 
 | Section | What it holds | Applies to |
 | --- | --- | --- |
@@ -37,7 +37,7 @@ Some settings change the whole app. Others change only the open vault. A
 
 ## Appearance
 
-How Poiesis looks. [Themes & languages](./themes-and-languages) has more about
+How Poiesis looks. [Themes & languages](./themes-and-languages.md) has more about
 colour themes.
 
 | Setting | What it does |
@@ -46,7 +46,7 @@ colour themes.
 | **Interface size** | **100%**, **115%**, **130%** or **150%**. Makes everything larger, icons too. |
 | **Colour theme** | The themes you have, each with a small preview. Use **Install theme…** and **Browse official themes…** to add more. **Open themes folder** shows where themes are kept. |
 | **Sidebar in light theme** | **Dark** or **Light**. **Dark** is the default, so the page is the brightest part of the screen. In the dark theme the sidebar is always dark. |
-| **Sanctuary dims the rest** | [Sanctuary](./focus-and-writing-modes) hides everything in Poiesis except the page. With this setting on, Sanctuary dims everything except the sentence you are writing. If **Focus typing** is set to **Paragraph**, the whole paragraph stays clear. Turn the setting off to dim nothing. |
+| **Sanctuary dims the rest** | [Sanctuary](./focus-and-writing-modes.md) hides everything in Poiesis except the page. With this setting on, Sanctuary dims everything except the sentence you are writing. If **Focus typing** is set to **Paragraph**, the whole paragraph stays clear. Turn the setting off to dim nothing. |
 
 ## Editor
 
@@ -71,7 +71,7 @@ The area you write in.
 ## Setup
 
 What Poiesis shows you in this vault. When you turn something off, Poiesis hides it. Your
-work is never hidden or removed. [Setup](./setup) explains all of this.
+work is never hidden or removed. [Setup](./setup.md) explains all of this.
 
 | Setting | What it does |
 | --- | --- |
@@ -95,8 +95,8 @@ work is never hidden or removed. [Setup](./setup) explains all of this.
 | **Personal dictionary** | The words you added. Each has a trash button to remove it. |
 | **Dictionary & Thesaurus** | **Install dictionary pack…** adds a dictionary. Below it are the packs you have, with their word counts. |
 
-See [Themes & languages](./themes-and-languages), [Spelling](./spelling) and
-[Dictionary & thesaurus](./dictionary).
+See [Themes & languages](./themes-and-languages.md), [Spelling](./spelling.md) and
+[Dictionary & thesaurus](./dictionary.md).
 
 ## Versioning
 
@@ -123,7 +123,7 @@ When the backend is **Git**, a **Git backup** group appears:
 If the vault is in a cloud folder, Poiesis keeps its git repository on this
 computer, not inside the vault. Poiesis on iPhone and iPad (coming soon) never runs
 git. It keeps versions in the vault's `.poiesis-history`.
-[Versions & backup](./versions-and-backup) has more.
+[Versions & backup](./versions-and-backup.md) has more.
 
 ## Vault
 
@@ -133,7 +133,7 @@ git. It keeps versions in the vault's `.poiesis-history`.
 | **Spaces** | The modes the vault shows: **Write**, **Notes** and **Journal** (at least one). **Opens on** sets what you see when the vault opens: **Home** or one of its modes. |
 | **Manage** | **Open vault…** and **Create vault…** add a vault. **Remove vault…** asks how to remove it. **Unlink (keep folder)** removes the vault from Poiesis and doesn't touch the folder. **Move to Trash** moves the whole folder to your computer's Trash; you can still get it back from there. |
 
-See [Vaults](./vaults).
+See [Vaults](./vaults.md).
 
 ## Templates
 
@@ -147,7 +147,7 @@ template has a pencil button to edit it and a trash button to remove it.
 - **Install a template…** adds a template file.
 - **Open templates folder** shows where templates are kept.
 
-See [Templates](./templates).
+See [Templates](./templates.md).
 
 ## Shortcuts
 
@@ -155,7 +155,7 @@ The main keyboard shortcuts, in four groups: **Move around**, **Documents**,
 **Writing** and **Format**. This is the same list that `⌘/` shows. Type in
 **Search commands…** to find a shortcut.
 
-[Keyboard shortcuts](./keyboard-shortcuts) lists every shortcut.
+[Keyboard shortcuts](./keyboard-shortcuts.md) lists every shortcut.
 
 ## Data
 
@@ -167,7 +167,7 @@ The main keyboard shortcuts, in four groups: **Move around**, **Documents**,
 
 ## See also
 
-- [Setup](./setup): all about signals, places and modes.
-- [Themes & languages](./themes-and-languages)
-- [Keyboard shortcuts](./keyboard-shortcuts)
-- [Versions & backup](./versions-and-backup)
+- [Setup](./setup.md): all about signals, places and modes.
+- [Themes & languages](./themes-and-languages.md)
+- [Keyboard shortcuts](./keyboard-shortcuts.md)
+- [Versions & backup](./versions-and-backup.md)

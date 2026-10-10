@@ -21,7 +21,7 @@ cambian a la vez: marcas la tarea y la tarjeta se mueve.
 
 1. Ve al lugar de los tableros:
    - En Notas, abre **Tableros**, en **Lugares** de la barra lateral.
-   - En Escribir, abre el [proyecto](./collections) al que va destinado el
+   - En Escribir, abre el [proyecto](./collections.md) al que va destinado el
      tablero y elige **Tablero** debajo de él.
 2. Pulsa **Nuevo tablero de tareas** o **Nuevo tablero personalizado**. En
    un proyecto, haz clic en el **+** de la lista y luego en **Nuevo tablero
@@ -69,7 +69,7 @@ tiene estos campos:
 | **Lista de comprobación** | Los pasos. Escribe un paso y pulsa `Intro`. |
 | **Enlazado a** | Documentos, personajes y proyectos. Haz clic en un enlace para abrirlo. |
 | **Columna** | La columna en la que está la tarjeta. |
-| **Vence** | Una fecha. Ese día, la tarjeta aparece en el [calendario](./calendar) y, en el Inicio de Escribir, en **Vence esta semana**. |
+| **Vence** | Una fecha. Ese día, la tarjeta aparece en el [calendario](./calendar.md) y, en el Inicio de Escribir, en **Vence esta semana**. |
 | **Recordar** | Una fecha y una hora. |
 | **Prioridad** | **Baja**, **Normal**, **Alta** o **Urgente**. |
 | **Etiqueta** | Un color, o **Sin etiqueta**. |
@@ -117,7 +117,7 @@ tablero**.
 ## Seguir en un tablero una tarea de una lista {#track-a-checklist-item-on-a-board}
 
 1. En una nota, empieza una lista de tareas: escribe `[]` o usa `/checklist`.
-2. Abre el [panel de Información](./finding-your-way#the-info-panel)
+2. Abre el [panel de Información](./finding-your-way.md#the-info-panel)
    (`⇧⌘I`) y elige **Tareas**. Ahí están todas las tareas de la nota.
 3. Pulsa **Seguir** junto a una tarea. Elige un tablero de tareas o crea
    uno nuevo.
@@ -174,7 +174,7 @@ página.
 
 ## Ver también {#see-also}
 
-- [Notas e ideas al vuelo](./notes)
-- [El calendario](./calendar): las fechas de vencimiento, día a día.
-- [Proyectos](./collections)
-- [Organizar](./organizing): cómo restaurar desde la papelera.
+- [Notas e ideas al vuelo](./notes.md)
+- [El calendario](./calendar.md): las fechas de vencimiento, día a día.
+- [Proyectos](./collections.md)
+- [Organizar](./organizing.md): cómo restaurar desde la papelera.

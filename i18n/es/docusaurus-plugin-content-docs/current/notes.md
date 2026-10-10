@@ -58,7 +58,7 @@ Notas se abre siempre en Inicio. A la izquierda tienes:
   la lista completa.
 - **Acciones pendientes**: las tareas de las listas de tus notas que están en
   un tablero y siguen sin hacer. Esta sección solo aparece cuando hay alguna.
-  Consulta [Tableros](./boards).
+  Consulta [Tableros](./boards.md).
 
 A la derecha tienes:
 
@@ -84,7 +84,7 @@ primeras líneas y etiquetas. También puedes ordenarla por **Editado**,
 **Creado** o **Título**.
 
 Con `⌘K` encuentras cualquier documento por su nombre, estés donde estés en
-φ Poiesis. Consulta [Buscar y reemplazar](./search-and-replace).
+φ Poiesis. Consulta [Buscar y reemplazar](./search-and-replace.md).
 
 ## Destacar una nota {#star-a-note}
 
@@ -128,14 +128,14 @@ nota puede convertirse en pieza, y una pieza, en nota.
   **⋮**) y elige **Mover a las piezas de Escribir**.
 - Para convertir una pieza en nota, elige **Mover a Notas**.
 
-Consulta [Organizar](./organizing).
+Consulta [Organizar](./organizing.md).
 
 :::
 
 ## Ver también {#see-also}
 
-- [Organizar](./organizing): carpetas, orden, cómo mover documentos y la
+- [Organizar](./organizing.md): carpetas, orden, cómo mover documentos y la
   papelera.
-- [Enlaces y el grafo](./links-and-graph)
-- [Tableros](./boards): convierte en tarjeta una lista de tareas de una nota.
-- [Investigación](./research): notas guardadas para un libro concreto.
+- [Enlaces y el grafo](./links-and-graph.md)
+- [Tableros](./boards.md): convierte en tarjeta una lista de tareas de una nota.
+- [Investigación](./research.md): notas guardadas para un libro concreto.

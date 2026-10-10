@@ -30,10 +30,10 @@ sitio. Todos los demás documentos son de uno de estos dos tipos:
 - Las **piezas** están en Escribir, en **Piezas**. Una pieza es un poema, un
   ensayo o un relato que no forma parte de ningún proyecto. Puede tener
   estado y meta de palabras, y puedes añadirla a un proyecto cuando quieras
-  (consulta [Proyectos](./collections)).
+  (consulta [Proyectos](./collections.md)).
 - Las **notas** están en Notas. Una nota es una idea, una fuente o una frase
   que oíste por ahí. No tienen estado ni meta de palabras (consulta
-  [Notas e ideas al vuelo](./notes)).
+  [Notas e ideas al vuelo](./notes.md)).
 
 Las piezas y las notas comparten las mismas carpetas. Notas las muestra
 todas. Piezas muestra las que contienen piezas y las carpetas nuevas que
@@ -96,7 +96,7 @@ Inicio.
 | De Notas a Escribir, o al revés | Haz clic derecho en él y elige **Mover a las piezas de Escribir** o **Mover a Notas**. La misma opción está en el **⋮** del documento y en su página de Detalles. |
 | A un proyecto | Haz clic derecho en una pieza y elige **Añadir a un proyecto** o **Mover a otro proyecto**. O elige **Añadirlo a un proyecto…** en su página de Detalles. Una nota pasa primero a las piezas de Escribir. |
 | Fuera de un proyecto | Haz clic derecho en el capítulo y elige **Quitar del proyecto**. |
-| A otra bóveda | Haz clic derecho en él y elige **Mover a otra bóveda…**. Esta opción aparece cuando tienes más de una bóveda (consulta [Bóvedas](./vaults)). |
+| A otra bóveda | Haz clic derecho en él y elige **Mover a otra bóveda…**. Esta opción aparece cuando tienes más de una bóveda (consulta [Bóvedas](./vaults.md)). |
 
 ## Etiquetas {#tags}
 
@@ -131,7 +131,7 @@ En una lista puedes hacer todo esto:
   documento que está encima o debajo del que tienes abierto.
 - **Abrir al lado.** Haz clic en una fila con `⌥` pulsada para abrirla junto
   al documento que estás leyendo (consulta
-  [Documentos lado a lado](./side-by-side)).
+  [Documentos lado a lado](./side-by-side.md)).
 
 ## Detalles {#details}
 
@@ -159,7 +159,7 @@ Las filas que ves dependen del tipo de documento:
 | **Color** | Capítulos: **Gris**, **Rojo**, **Ámbar**, **Verde**, **Azul** o **Violeta**. |
 | **Destacada** | Todos los documentos. |
 | **En** | En un capítulo: su proyecto, su parte y su número, **Dejar fuera de la numeración** y un enlace que abre el proyecto. En una pieza o una nota: su carpeta y la opción de moverla al otro modo. Aquí aparecen también las tarjetas de tablero que enlazan con el documento. |
-| **Vinculado a** | Piezas y notas: los documentos, proyectos y personajes de los que trata este documento (consulta [Investigación](./research)). |
+| **Vinculado a** | Piezas y notas: los documentos, proyectos y personajes de los que trata este documento (consulta [Investigación](./research.md)). |
 
 Al pie de la página se indica cuándo se creó el documento, cuándo se editó
 por última vez y cuántas versiones tiene.
@@ -171,14 +171,14 @@ Haz clic derecho en un documento, en cualquier lista, o haz clic en su
 
 - **Detalles…**, **Abrir al lado** y **Destacar** o **Quitar destacado**.
 - **Esquema**, **Enlaces wiki**, **Notas** e **Historial de versiones**. Cada una abre esa pestaña del
-  [panel de Información](./finding-your-way#the-info-panel).
+  [panel de Información](./finding-your-way.md#the-info-panel).
 - Las opciones para moverlo que se describen en
   [Mover un documento](#move-a-document).
 - **Marcar como páginas matinales** (consulta
-  [Diario y páginas matinales](./journal-and-morning-pages)).
+  [Diario y páginas matinales](./journal-and-morning-pages.md)).
 - **Renombrar…** y **Copiar como Markdown**.
 - Un submenú con todos los formatos de exportación (consulta
-  [Cómo funciona la exportación](./exporting)).
+  [Cómo funciona la exportación](./exporting.md)).
 - **Eliminar**, que envía el documento a la papelera.
 
 ## Papelera {#trash}
@@ -210,8 +210,8 @@ confirmación.
 
 ## Ver también {#see-also}
 
-- [Notas e ideas al vuelo](./notes)
-- [Un recorrido por la ventana](./finding-your-way): la barra lateral, la
+- [Notas e ideas al vuelo](./notes.md)
+- [Un recorrido por la ventana](./finding-your-way.md): la barra lateral, la
   lista y la página.
-- [Buscar y reemplazar](./search-and-replace)
-- [Proyectos](./collections): cómo organizar capítulos y partes.
+- [Buscar y reemplazar](./search-and-replace.md)
+- [Proyectos](./collections.md): cómo organizar capítulos y partes.

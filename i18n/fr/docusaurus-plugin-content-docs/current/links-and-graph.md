@@ -9,7 +9,7 @@ Un lien relie un document à un autre. Pour en créer un, tapez `[[` puis le
 nom d’un document. φ Poiesis enregistre chaque lien dans les deux sens : chaque
 document peut donc montrer ceux vers lesquels il pointe et ceux qui pointent
 vers lui. Le **graphe** est une image de tous les liens de votre
-[coffre](./vaults), le dossier qui contient vos textes.
+[coffre](./vaults.md), le dossier qui contient vos textes.
 
 <img src="/img/app/links-light.png" alt="Une page de recherche avec un lien wiki dans son texte, et l’onglet Liens du panneau Infos, qui affiche ses liens sortants, ses rétroliens et ses dates liées" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/links-dark.png" alt="Une page de recherche avec un lien wiki dans son texte, et l’onglet Liens du panneau Infos, qui affiche ses liens sortants, ses rétroliens et ses dates liées" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -24,10 +24,10 @@ vers lui. Le **graphe** est une image de tous les liens de votre
 <img src="/img/app/link-menu-dark.png" alt="Une note avec deux crochets et quelques lettres tapés, et le menu des documents correspondants ouvert" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Pour suivre un lien, cliquez dessus en maintenant `⌘`. En
-[mode lecture](./the-editor), un simple clic suffit.
+[mode lecture](./the-editor.md), un simple clic suffit.
 
 Pour ouvrir le document lié à côté de celui où vous êtes, cliquez sur le lien
-en maintenant `⌥⌘` (voir [Documents côte à côte](./side-by-side)).
+en maintenant `⌥⌘` (voir [Documents côte à côte](./side-by-side.md)).
 
 Un lien choisi dans le menu pointe vers le document lui-même : si vous
 renommez ce document par la suite, le lien fonctionne toujours. En revanche,
@@ -49,7 +49,7 @@ crée alors un document portant ce titre et l’ouvre.
 
 ## Voir quels documents sont liés {#see-what-links-where}
 
-L’onglet **Liens** du [panneau Infos](./finding-your-way#the-info-panel)
+L’onglet **Liens** du [panneau Infos](./finding-your-way.md#the-info-panel)
 réunit les liens d’un document. Il y a trois façons de l’ouvrir :
 
 - Ouvrez le panneau Infos (`⇧⌘I`) et choisissez **Liens**.
@@ -65,8 +65,8 @@ vous n’avez pas encore enregistrées.
 | **Dans ce document** | Les personnages que vous avez mentionnés ici avec @. N’apparaît que s’il y en a. |
 | **Liens sortants** | Tous les documents vers lesquels celui-ci pointe. Les liens vers des documents qui n’existent pas encore y figurent aussi, avec une icône de création. Cliquez sur l’un d’eux pour créer le document. |
 | **Rétroliens** | Tous les documents qui pointent *vers* celui-ci. |
-| **Dates liées** | Les dates que vous avez ajoutées avec `/date`. Cliquez sur l’une d’elles pour afficher ce jour dans le [calendrier](./calendar). |
-| **Recherche** et **Notes** | Les pages de recherche (dans Écrire) et les notes liées à ce document. Vous pouvez en ajouter ici. Voir [Recherche](./research). |
+| **Dates liées** | Les dates que vous avez ajoutées avec `/date`. Cliquez sur l’une d’elles pour afficher ce jour dans le [calendrier](./calendar.md). |
+| **Recherche** et **Notes** | Les pages de recherche (dans Écrire) et les notes liées à ce document. Vous pouvez en ajouter ici. Voir [Recherche](./research.md). |
 
 Cliquez sur une entrée pour l’ouvrir. **Graphe local**, en bas de l’onglet,
 ouvre le graphe autour de ce document.
@@ -130,14 +130,14 @@ liens. Cliquez sur l’un d’eux pour l’ouvrir.
 
 **Non liées**, dans la barre latérale de Notes, réunit les notes qu’aucun
 lien ne relie au reste : rien ne pointe vers elles et elles ne pointent vers
-rien. Voir [Notes et capture rapide](./notes).
+rien. Voir [Notes et capture rapide](./notes.md).
 
 :::
 
 ## Voir aussi {#see-also}
 
-- [Recherche](./research) : les notes et les recherches liées à un chapitre,
+- [Recherche](./research.md) : les notes et les recherches liées à un chapitre,
   à un projet ou à un personnage.
-- [Personnages et auteurs](./characters-and-authors) : les mentions avec @.
-- [Le calendrier](./calendar)
-- [Documents côte à côte](./side-by-side)
+- [Personnages et auteurs](./characters-and-authors.md) : les mentions avec @.
+- [Le calendrier](./calendar.md)
+- [Documents côte à côte](./side-by-side.md)

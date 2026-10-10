@@ -6,7 +6,7 @@ description: Encuentra palabras en la página que tienes abierta o en todos tus 
 # Buscar y reemplazar
 
 φ Poiesis tiene dos búsquedas. `⌘F` busca en el documento que tienes abierto. `⇧⌘F`
-busca en todos los documentos de la [bóveda](./vaults), la carpeta donde se
+busca en todos los documentos de la [bóveda](./vaults.md), la carpeta donde se
 guarda lo que escribes. Las dos pueden reemplazar lo que encuentran, así que
 puedes cambiarle el nombre a un personaje o corregir una palabra en todas
 partes a la vez.
@@ -28,7 +28,7 @@ Si el historial de versiones está activado, Poiesis guarda antes una versión d
 y le pone el nombre de lo que has reemplazado. Más adelante puedes volver a
 esa versión. Si está desactivado, el cambio no se puede
 deshacer, y Poiesis te lo advierte antes de que confirmes. Consulta
-[Versiones y copias de seguridad](./versions-and-backup).
+[Versiones y copias de seguridad](./versions-and-backup.md).
 
 ## Buscar en este documento {#find-in-this-document}
 
@@ -88,12 +88,12 @@ documento, este lleva la marca **en el nombre**. **Distinguir mayúsculas** y
 
 | Para encontrar | Usa |
 | --- | --- |
-| Un documento, un proyecto o un personaje por su nombre | `⌘K`. Consulta [Un recorrido por la ventana](./finding-your-way). |
+| Un documento, un proyecto o un personaje por su nombre | `⌘K`. Consulta [Un recorrido por la ventana](./finding-your-way.md). |
 | Algo en la lista que tienes delante | El campo de búsqueda que está bajo el título de la lista. Filtra por título, por las primeras líneas del texto y por etiquetas. |
 | Un comando | `⌘P`. |
 
 ## Ver también {#see-also}
 
-- [Un recorrido por la ventana](./finding-your-way)
-- [Organizar](./organizing)
-- [Versiones y copias de seguridad](./versions-and-backup)
+- [Un recorrido por la ventana](./finding-your-way.md)
+- [Organizar](./organizing.md)
+- [Versiones y copias de seguridad](./versions-and-backup.md)

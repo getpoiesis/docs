@@ -15,6 +15,34 @@ const config: Config = {
 
   url: 'https://docs.getpoiesis.com',
   baseUrl: '/',
+  // GitHub Pages serves each page from <path>/index.html and redirects
+  // /installing to /installing/, so canonicals, hreflang links and the sitemap
+  // use the slash form: the address Google lands on, not a redirect.
+  trailingSlash: true,
+
+  // GitHub Pages answers every unknown URL with the English 404.html (with a
+  // 404 status), even under /es/ and /fr/. There, the English page loads that
+  // language's 404 page instead (navbar and footer included), which puts the
+  // address the visitor asked for back in the address bar.
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `(function () {
+  var path = location.pathname;
+  var from = /\\/404\\.html$/.test(path) && location.search.match(/[?&]from=([^&#]*)/);
+  if (from) {
+    var back = decodeURIComponent(from[1]);
+    if (back.charAt(0) === '/' && back.charAt(1) !== '/') history.replaceState(null, '', back + location.hash);
+    return;
+  }
+  var m = path.match(/^\\/(es|fr)(\\/|$)/);
+  if (m && document.documentElement.lang === 'en') {
+    location.replace('/' + m[1] + '/404.html?from=' + encodeURIComponent(path + location.search) + location.hash);
+  }
+})();`,
+    },
+  ],
 
   organizationName: 'getpoiesis',
   projectName: 'docs',
@@ -54,6 +82,10 @@ const config: Config = {
           showLastUpdateTime: true,
         },
         blog: false,
+        // The search results page is no page to land on from Google.
+        sitemap: {
+          ignorePatterns: ['/search/**', '/es/search/**', '/fr/search/**'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },

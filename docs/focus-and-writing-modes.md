@@ -22,7 +22,7 @@ typewriter scrolling, focus typing and read mode.
 You can also find **Sanctuary** in the **View** menu, in the document's ⋮
 menu and in the command palette (`⌘P`).
 
-Sanctuary works for a document and for the [graph](./links-and-graph).
+Sanctuary works for a document and for the [graph](./links-and-graph.md).
 
 ## While you're in Sanctuary
 
@@ -48,7 +48,7 @@ screen, choose the full-screen item in the **View** menu.
 Sanctuary ends by itself when you open a page that is not a document, such
 as the calendar or a board.
 
-When you have documents [side by side](./side-by-side), Sanctuary keeps the
+When you have documents [side by side](./side-by-side.md), Sanctuary keeps the
 panes. The dimming and typewriter scrolling apply only to the pane you are
 writing in.
 
@@ -134,7 +134,7 @@ To start and end sessions yourself:
 
 ## See also
 
-- [The editor](./the-editor)
-- [Side by side](./side-by-side)
-- [Settings](./settings)
-- [Keyboard shortcuts](./keyboard-shortcuts)
+- [The editor](./the-editor.md)
+- [Side by side](./side-by-side.md)
+- [Settings](./settings.md)
+- [Keyboard shortcuts](./keyboard-shortcuts.md)

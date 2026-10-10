@@ -17,7 +17,7 @@ una versión nueva.
 3. Instálalo. Más abajo tienes los pasos para tu sistema.
 4. Abre Poiesis. En tu sistema aparece como **φ Poiesis**. Para encontrarlo, escribe
    «poiesis» en Spotlight o en el menú Inicio.
-5. [Crea tu primera bóveda](./getting-started).
+5. [Crea tu primera bóveda](./getting-started.md).
 
 ## Requisitos {#what-you-need}
 
@@ -127,6 +127,6 @@ antigua desde **Agregar o quitar programas**.
 
 ## Ver también {#see-also}
 
-- [Tu primera bóveda](./getting-started)
-- [Ajustes](./settings)
-- [Bóvedas](./vaults)
+- [Tu primera bóveda](./getting-started.md)
+- [Ajustes](./settings.md)
+- [Bóvedas](./vaults.md)

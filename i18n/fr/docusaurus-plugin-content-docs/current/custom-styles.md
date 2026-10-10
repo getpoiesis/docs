@@ -5,11 +5,11 @@ description: Créez votre propre style à partir de l’un de ceux de φ Poiesis
 
 # Styles personnalisés
 
-Une [maquette](./designs) et **Ajuster la maquette** permettent de changer
+Une [maquette](./designs.md) et **Ajuster la maquette** permettent de changer
 quelques aspects de l’allure d’un livre. Pour aller plus loin, créez votre
 propre style : vous copiez une maquette ou un style de φ Poiesis, puis vous modifiez ce
 que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
-[coffre](./vaults).
+[coffre](./vaults.md).
 
 ## Créer un style {#make-a-style}
 
@@ -58,5 +58,5 @@ corrige la valeur, et la vérification de la page Exporter vous le signale.
 
 ## Voir aussi {#see-also}
 
-- [Maquettes et ajustements](./designs)
-- [Aperçu](./preview)
+- [Maquettes et ajustements](./designs.md)
+- [Aperçu](./preview.md)

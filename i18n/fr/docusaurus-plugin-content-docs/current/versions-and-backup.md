@@ -46,7 +46,7 @@ L’instantané apparaît dans l’onglet **Historique** du document, avec la me
 - **Poiesis enregistre une version avant toute modification du coffre entier.** Un
   coffre est le dossier qui contient votre travail. Quand vous remplacez un mot
   dans tous les documents (voir
-  [Rechercher et remplacer](./search-and-replace)), Poiesis enregistre d’abord une
+  [Rechercher et remplacer](./search-and-replace.md)), Poiesis enregistre d’abord une
   version du coffre entier. Vous pouvez ainsi annuler l’opération.
 
 ## Retrouver une ancienne version {#find-an-old-version}
@@ -176,7 +176,7 @@ dossier synchronisé ou une copie sur un disque.
 
 ## Voir aussi {#see-also}
 
-- [Coffres](./vaults) : un coffre sur plusieurs appareils, et ce qui se passe
+- [Coffres](./vaults.md) : un coffre sur plusieurs appareils, et ce qui se passe
   quand deux d’entre eux modifient le même document.
-- [Rechercher et remplacer](./search-and-replace)
-- [Réglages](./settings)
+- [Rechercher et remplacer](./search-and-replace.md)
+- [Réglages](./settings.md)

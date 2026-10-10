@@ -13,7 +13,7 @@ Dans **Réglages → Réglages d’écriture**, vous choisissez deux choses :
   sa barre latérale.
 
 Chaque coffre a ses propres réglages d’écriture. Un coffre est le dossier qui
-contient vos textes (voir [Coffres](./vaults)). Un coffre consacré à un roman
+contient vos textes (voir [Coffres](./vaults.md)). Un coffre consacré à un roman
 et un coffre consacré à un journal peuvent donc n’afficher, chacun, que ce
 qui leur est utile.
 
@@ -114,7 +114,7 @@ pages du matin, et vos pages réapparaissent.
 ## Ce que les réglages d’écriture ne changent pas {#what-setup-doesnt-change}
 
 - **Les modes d’un coffre.** Vous les choisissez dans **Réglages → Coffre →
-  Espaces**. Voir [Coffres](./vaults).
+  Espaces**. Voir [Coffres](./vaults.md).
 - **Les outils de l’éditeur.** Les citations, la table des matières et les
   modèles n’ont pas d’interrupteur. Ils sont disponibles dans tous les types
   de documents qui peuvent s’en servir.
@@ -123,7 +123,7 @@ pages du matin, et vos pages réapparaissent.
 
 ## Voir aussi {#see-also}
 
-- [Visite de la fenêtre](./finding-your-way)
-- [Réglages](./settings)
-- [Concentration et Sanctuaire](./focus-and-writing-modes)
-- [Le calendrier](./calendar)
+- [Visite de la fenêtre](./finding-your-way.md)
+- [Réglages](./settings.md)
+- [Concentration et Sanctuaire](./focus-and-writing-modes.md)
+- [Le calendrier](./calendar.md)

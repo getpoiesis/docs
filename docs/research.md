@@ -7,7 +7,7 @@ description: Pages of material kept for a work, each linked to the chapter, proj
 
 A **research page** holds the material behind your writing: sources, facts,
 places, timelines. You link each research page to the thing it is about: a
-chapter, a [project](./collections) or a character. The research then
+chapter, a [project](./collections.md) or a character. The research then
 appears beside that chapter, project or character, and stays separate from
 the text of the book.
 
@@ -17,7 +17,7 @@ the text of the book.
 ## Start a research page for a chapter
 
 1. Open the chapter.
-2. Open the [Info panel](./finding-your-way#the-info-panel) (`⇧⌘I`) and
+2. Open the [Info panel](./finding-your-way.md#the-info-panel) (`⇧⌘I`) and
    choose **Links**.
 3. Under **Research**, press **New research page**. The new page is already
    linked to the chapter.
@@ -85,14 +85,14 @@ and it does not need to be a research page.
 
 :::note
 
-Research pages do not appear in the [graph](./links-and-graph) or in the
+Research pages do not appear in the [graph](./links-and-graph.md) or in the
 lists in Notes.
 
 :::
 
 ## See also
 
-- [Links & the graph](./links-and-graph)
-- [Projects](./collections)
-- [Characters & authors](./characters-and-authors)
-- [Notes & capture](./notes)
+- [Links & the graph](./links-and-graph.md)
+- [Projects](./collections.md)
+- [Characters & authors](./characters-and-authors.md)
+- [Notes & capture](./notes.md)

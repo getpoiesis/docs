@@ -72,6 +72,6 @@ online.
 
 ## See also
 
-- [Spelling](./spelling)
-- [The editor](./the-editor): the selection toolbar.
-- [Themes & languages](./themes-and-languages)
+- [Spelling](./spelling.md)
+- [The editor](./the-editor.md): the selection toolbar.
+- [Themes & languages](./themes-and-languages.md)

@@ -14,7 +14,7 @@ it to your other devices.
 
 Your documents are `.poiesis` files. This is φ Poiesis's own format, so other apps
 can't open them directly. To use your writing in another app, export it as
-Markdown, Word, PDF or EPUB. See [Exporting](./exporting).
+Markdown, Word, PDF or EPUB. See [Exporting](./exporting.md).
 
 ## Make a vault
 
@@ -40,7 +40,7 @@ What happens next depends on the folder:
 | `.poiesis` files | Your documents, one file each. |
 | `assets` | Images you add are copied here, so the vault is complete on its own. |
 | `.trash` | Documents you delete, until you restore them from **Trash** at the foot of the sidebar. Anything left there is deleted for good after 30 days. |
-| `.poiesis-history` or `.git` | The version history (see [Versions & backup](./versions-and-backup)). |
+| `.poiesis-history` or `.git` | The version history (see [Versions & backup](./versions-and-backup.md)). |
 | `.poiesis-vault.json` | A small file that names the vault and remembers its settings. |
 
 Most file managers hide names that start with a dot. You never need to
@@ -50,7 +50,7 @@ change any of these files yourself. Poiesis manages them.
 
 You can have several vaults, for example one for a novel and one for daily
 notes. Only one vault is open at a time. Each vault has its own documents,
-history and [setup](./setup).
+history and [setup](./setup.md).
 
 <img src="/img/app/vault-menu-light.png" alt="The vault menu open at the top of the sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/vault-menu-dark.png" alt="The vault menu open at the top of the sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -178,7 +178,7 @@ You can do this on any of your devices.
 If the vault uses git for its history, Poiesis keeps the git history on each
 computer, outside the synced folder. A sync service copies the history one
 file at a time, and that can break it. See
-[Versions & backup](./versions-and-backup).
+[Versions & backup](./versions-and-backup.md).
 
 :::
 
@@ -197,6 +197,6 @@ If it was your last vault, Poiesis goes back to the welcome screen.
 
 ## See also
 
-- [Versions & backup](./versions-and-backup)
-- [Importing](./importing): bring in writing from other apps.
-- [Setup](./setup): what each vault shows.
+- [Versions & backup](./versions-and-backup.md)
+- [Importing](./importing.md): bring in writing from other apps.
+- [Setup](./setup.md): what each vault shows.

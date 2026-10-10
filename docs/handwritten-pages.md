@@ -48,7 +48,7 @@ one leaves the pages as they are.
 ## Colours
 
 Black ink and Poiesis's own slate colour change with your
-[colour theme](themes-and-languages). For example, a page written in black
+[colour theme](./themes-and-languages.md). For example, a page written in black
 shows in white on a dark theme.
 
 Other colours stay the same colour. On a dark page, Poiesis makes them a little
@@ -63,7 +63,7 @@ is saved again, the page shows on the computer too.
 
 ## Where the pages live
 
-Poiesis keeps the handwritten pages in your [vault](vaults), with the document. A
+Poiesis keeps the handwritten pages in your [vault](./vaults.md), with the document. A
 vault is the folder where Poiesis keeps your documents. The pages sync together
 with the document.
 

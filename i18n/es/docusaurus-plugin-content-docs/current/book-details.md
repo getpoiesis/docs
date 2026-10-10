@@ -15,7 +15,7 @@ proyecto, y así dicen lo mismo en todos los formatos que exportes.
 
 ## Rellenar los datos {#fill-in-the-details}
 
-1. Abre el [proyecto](./collections) en **Escribir**. Su página muestra la
+1. Abre el [proyecto](./collections.md) en **Escribir**. Su página muestra la
    cubierta, el título, el autor y la descripción.
 2. Haz clic en la cubierta para añadirla o cambiarla.
 3. Escribe la descripción al lado de la cubierta. En un libro impreso, la
@@ -28,7 +28,7 @@ proyecto, y así dicen lo mismo en todos los formatos que exportes.
 
 | Sección | Campos | Dónde aparece |
 | --- | --- | --- |
-| **Personas** | Los autores, traductores, editores e ilustradores del libro, y quien haya escrito un prólogo o una introducción. Cada uno sale de un [perfil de autor](./characters-and-authors). | La firma, la portada y la página de créditos. |
+| **Personas** | Los autores, traductores, editores e ilustradores del libro, y quien haya escrito un prólogo o una introducción. Cada uno sale de un [perfil de autor](./characters-and-authors.md). | La firma, la portada y la página de créditos. |
 | **Portada** | Subtítulo, serie y número, editorial, sello, ciudad, sitio web. | La portada. |
 | **Página de créditos** | Derechos (todos los derechos reservados, una licencia Creative Commons, dominio público o un texto tuyo), titular de los derechos, edición, primera publicación, ISBN del libro impreso y del electrónico, créditos (cubierta, edición, ilustraciones…), un aviso como «Esta es una obra de ficción…», impreso en, idioma. | La página de créditos y los datos de catálogo del libro electrónico. |
 | **Páginas de apertura** | Dedicatoria; epígrafe y su fuente. | Cada una en su propia página, antes del primer capítulo. |
@@ -48,6 +48,6 @@ incorrecto.
 
 ## Ver también {#see-also}
 
-- [Cómo funciona la exportación](./exporting)
-- [Proyectos](./collections): páginas preliminares, páginas finales y partes.
-- [Personajes y autores](./characters-and-authors): perfiles de autor.
+- [Cómo funciona la exportación](./exporting.md)
+- [Proyectos](./collections.md): páginas preliminares, páginas finales y partes.
+- [Personajes y autores](./characters-and-authors.md): perfiles de autor.

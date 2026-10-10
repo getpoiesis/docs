@@ -17,7 +17,7 @@ d’affilée où vous avez écrit.
 ## Écrire l’entrée du jour {#write-todays-entry}
 
 1. Choisissez **Journal** dans le sélecteur de mode, en haut de la barre
-   latérale. Le raccourci est `⌘3` quand le [coffre](./vaults) a les trois
+   latérale. Le raccourci est `⌘3` quand le [coffre](./vaults.md) a les trois
    modes.
 2. Cliquez sur **Aujourd’hui**. φ Poiesis ouvre l’entrée du jour ; si elle n’existe
    pas encore, il la crée.
@@ -41,7 +41,7 @@ Il y a trois autres façons de commencer l’entrée du jour :
 | **Toutes les entrées** | Tous les jours où vous avez écrit, du plus récent au plus ancien. La semaine en cours forme une rangée de jours tout en haut. Ouvrez un jour pour le lire, ou restez sur la liste : elle présente tous les jours à la suite, comme une seule longue page, et vous pouvez écrire dans n’importe lequel. |
 | **Pages du matin** | Toutes vos séances de pages du matin, avec leur nombre de pages et de mots. |
 | **Scellées** | Les pages du matin que vous avez terminées. |
-| **Calendrier** | Votre écriture au fil des mois. Voir [Le calendrier](./calendar). |
+| **Calendrier** | Votre écriture au fil des mois. Voir [Le calendrier](./calendar.md). |
 
 En haut d’une entrée, vous voyez le jour de la semaine et la date. À côté se
 trouvent :
@@ -68,7 +68,7 @@ Il y a trois façons de choisir le jour :
   entrées**.
 - Sur la page qui présente tous vos jours, appuyez sur **Écrire un jour…** et
   choisissez une date.
-- Dans le [calendrier](./calendar), sélectionnez un jour et appuyez sur
+- Dans le [calendrier](./calendar.md), sélectionnez un jour et appuyez sur
   **Écrire ce jour**.
 
 Si vous ouvrez un jour et le quittez sans rien écrire, Poiesis met cette entrée vide
@@ -188,8 +188,8 @@ jours ; un jour manqué ne le remet donc jamais à zéro.
 
 ## Voir aussi {#see-also}
 
-- [Le calendrier](./calendar) : chaque jour où vous avez écrit, et ce qui s’y
+- [Le calendrier](./calendar.md) : chaque jour où vous avez écrit, et ce qui s’y
   rattache.
-- [Visite de la fenêtre](./finding-your-way) : la barre latérale, la liste et
+- [Visite de la fenêtre](./finding-your-way.md) : la barre latérale, la liste et
   le panneau Infos.
-- [Versions et sauvegarde](./versions-and-backup) : l’onglet Historique.
+- [Versions et sauvegarde](./versions-and-backup.md) : l’onglet Historique.

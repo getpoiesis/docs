@@ -15,10 +15,10 @@ página tranquila y guarda cada palabra en archivos de tu propio ordenador.
 
 ## Primeros pasos {#get-started}
 
-1. [Instala Poiesis](./installing) en macOS, Windows o Linux.
-2. [Crea tu primera bóveda](./getting-started). Una bóveda es la carpeta donde
+1. [Instala Poiesis](./installing.md) en macOS, Windows o Linux.
+2. [Crea tu primera bóveda](./getting-started.md). Una bóveda es la carpeta donde
    se guarda lo que escribes.
-3. Haz [un recorrido por la ventana](./finding-your-way).
+3. Haz [un recorrido por la ventana](./finding-your-way.md).
 4. Haz clic en el proyecto de ejemplo, **The Grey Morning**, en la barra
    lateral. Después haz clic en **Exportar**, justo debajo, para ver cómo
    maqueta Poiesis un libro.
@@ -38,7 +38,7 @@ con una nota y una entrada del diario puede mencionar a un personaje.
 Hay dos cosas que funcionan en todos los modos:
 
 - **Los enlaces.** Escribe `[[` para enlazar un documento con otro. El
-  [grafo](./links-and-graph) muestra cómo se conectan tus documentos.
+  [grafo](./links-and-graph.md) muestra cómo se conectan tus documentos.
 - **Santuario.** Pulsa `⌘.` para ocultarlo todo menos la página.
 
 ## Lo que escribes es tuyo {#your-writing-stays-yours}
@@ -50,11 +50,11 @@ Hay dos cosas que funcionan en todos los modos:
   comprueba cada guardado. Con el historial de versiones puedes volver a
   cualquier borrador anterior. Si quieres tener una copia en otro lugar,
   también puedes respaldarlo en tu propio repositorio remoto de git. Consulta
-  [Versiones y copias de seguridad](./versions-and-backup).
+  [Versiones y copias de seguridad](./versions-and-backup.md).
 - **Tu trabajo es fácil de mover y de conservar.** Al copiar la carpeta lo
   copias todo. La bóveda puede estar en iCloud Drive, en Dropbox o en cualquier
   otra carpeta sincronizada. Poiesis para iPhone y iPad todavía no ha salido; cuando
-  salga, abrirá la misma bóveda. Consulta [Bóvedas](./vaults).
+  salga, abrirá la misma bóveda. Consulta [Bóvedas](./vaults.md).
 
 Cada documento es un archivo `.poiesis`. El archivo guarda el texto y sus datos
 como contenido estructurado, de modo que las anotaciones, las notas al pie y
@@ -75,7 +75,7 @@ rápida de contarlo.
 
 ## Ver también {#see-also}
 
-- [Tu primera bóveda](./getting-started)
-- [Un recorrido por la ventana](./finding-your-way)
-- [El editor](./the-editor)
-- [Proyectos](./collections)
+- [Tu primera bóveda](./getting-started.md)
+- [Un recorrido por la ventana](./finding-your-way.md)
+- [El editor](./the-editor.md)
+- [Proyectos](./collections.md)

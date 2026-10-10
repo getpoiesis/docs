@@ -54,7 +54,7 @@ Notes opens on Home. On the left you see:
   ago you changed it and its first line. **All notes** opens the full list.
 - **Open action items**: checklist items from your notes that are on a board
   and are not done yet. This section appears only when you have some. See
-  [Boards](./boards).
+  [Boards](./boards.md).
 
 On the right you see:
 
@@ -80,7 +80,7 @@ lines and tags. Each list also has a sort: **Edited**, **Created** or
 **Title**.
 
 `⌘K` finds any document by name, from anywhere in φ Poiesis. See
-[Search & replace](./search-and-replace).
+[Search & replace](./search-and-replace.md).
 
 ## Star a note
 
@@ -119,13 +119,13 @@ can become a piece, and a piece can become a note.
   **Move to Write's pieces**.
 - To turn a piece into a note, choose **Move to Notes**.
 
-See [Organizing](./organizing).
+See [Organizing](./organizing.md).
 
 :::
 
 ## See also
 
-- [Organizing](./organizing): folders, sorting, moving and the trash.
-- [Links & the graph](./links-and-graph)
-- [Boards](./boards): turn a checklist in a note into a card.
-- [Research](./research): notes kept for a particular book.
+- [Organizing](./organizing.md): folders, sorting, moving and the trash.
+- [Links & the graph](./links-and-graph.md)
+- [Boards](./boards.md): turn a checklist in a note into a card.
+- [Research](./research.md): notes kept for a particular book.

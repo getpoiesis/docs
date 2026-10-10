@@ -23,7 +23,7 @@ un proyecto es lo que φ Poiesis exporta como libro.
 4. En la página del proyecto, bajo **Ajustes**, define el **Tipo**, el
    **Perfil de autor** y la **Meta de palabras**.
 
-Si tu [bóveda](./vaults) (la carpeta donde se guarda lo que escribes) todavía
+Si tu [bóveda](./vaults.md) (la carpeta donde se guarda lo que escribes) todavía
 está vacía, el Inicio de Escribir muestra en su lugar **Empieza un
 proyecto**. Elige **Novela**, **Poesía**, **Ensayos** u **Otro**, y pulsa
 **Crear**.
@@ -47,7 +47,7 @@ has escrito sigue igual.
 
 Esta página dice *capítulo* y *parte* para todos los tipos. Entiéndelos como
 los nombres que usa el tipo de tu proyecto. Si tu proyecto es de poemas,
-consulta también [Poesía y verso](./poetry).
+consulta también [Poesía y verso](./poetry.md).
 
 ## Moverte por un proyecto {#find-your-way-around-a-project}
 
@@ -56,13 +56,13 @@ estas páginas:
 
 | Página | Qué contiene |
 | --- | --- |
-| *El nombre del proyecto* | La página del proyecto: cubierta, título, autor, descripción, progreso, ajustes y [Datos del libro](./book-details). |
+| *El nombre del proyecto* | La página del proyecto: cubierta, título, autor, descripción, progreso, ajustes y [Datos del libro](./book-details.md). |
 | **Índice** | Toda la obra en una sola página, para ordenarla. |
-| **Investigación** | Las páginas de investigación vinculadas al proyecto ([Investigación](./research)). |
-| **Personajes** | Los personajes del proyecto y los compartidos ([Personajes y autores](./characters-and-authors)). |
-| **Tablero** | Los capítulos en forma de tarjetas, ordenados por estado, y los tableros propios del proyecto, que aparecen al lado ([Tableros](./boards)). |
+| **Investigación** | Las páginas de investigación vinculadas al proyecto ([Investigación](./research.md)). |
+| **Personajes** | Los personajes del proyecto y los compartidos ([Personajes y autores](./characters-and-authors.md)). |
+| **Tablero** | Los capítulos en forma de tarjetas, ordenados por estado, y los tableros propios del proyecto, que aparecen al lado ([Tableros](./boards.md)). |
 | **Leer** | El manuscrito en orden y solo para leer: como **Prosa**, o como **Libro** con su índice. |
-| **Exportar** | El libro impreso, el libro electrónico, el manuscrito para un agente ([Cómo funciona la exportación](./exporting)). |
+| **Exportar** | El libro impreso, el libro electrónico, el manuscrito para un agente ([Cómo funciona la exportación](./exporting.md)). |
 
 Mientras un proyecto está abierto, la lista que hay junto a la página muestra
 su esquema. En el esquema está cada capítulo dentro de su parte, con su
@@ -132,7 +132,7 @@ sigue siendo el Capítulo 1 en el esquema, en la vista de lectura y en todas
 las exportaciones.
 
 La portada del libro, la página de créditos y la página «Otros títulos» no
-son documentos. Poiesis las compone con los [Datos del libro](./book-details) del
+son documentos. Poiesis las compone con los [Datos del libro](./book-details.md) del
 proyecto.
 
 ## Definir metas de palabras {#set-word-goals}
@@ -164,7 +164,7 @@ Contiene:
 - **Ajustes.** **Tipo**, **Perfil de autor** y **Meta de palabras**. Haz clic
   en uno para cambiarlo.
 - **Datos del libro.** La información para la portada, la página de créditos
-  y otras páginas parecidas ([Datos del libro](./book-details)).
+  y otras páginas parecidas ([Datos del libro](./book-details.md)).
 - **Investigación** y **Notas.** Las páginas de investigación y las notas
   vinculadas al proyecto, con **Nueva página de investigación**, **Vincular
   investigación…**, **Nueva nota sobre esto** y **Vincular una nota…**.
@@ -174,7 +174,7 @@ Contiene:
 ## Añadir una pieza que ya has escrito {#add-a-piece-youve-already-written}
 
 Una pieza es un documento de Escribir que no está en ningún proyecto
-(consulta [Organizar](./organizing)). Hay dos maneras de añadir
+(consulta [Organizar](./organizing.md)). Hay dos maneras de añadir
 una:
 
 - Haz clic derecho en la pieza en la lista, elige **Añadir a un proyecto** (o
@@ -223,8 +223,8 @@ proyecto va a la papelera, y desde allí puedes restaurarlo.
 
 ## Ver también {#see-also}
 
-- [Datos del libro](./book-details): la portada, la página de créditos y las
+- [Datos del libro](./book-details.md): la portada, la página de créditos y las
   demás páginas del libro.
-- [Cómo funciona la exportación](./exporting)
-- [Tableros](./boards)
-- [Organizar](./organizing)
+- [Cómo funciona la exportación](./exporting.md)
+- [Tableros](./boards.md)
+- [Organizar](./organizing.md)

@@ -42,7 +42,7 @@ De haut en bas, la barre latérale comprend :
   **Afficher dans le Finder** (**Afficher dans l’Explorateur de fichiers**
   sur Windows) et **Importer…**. Si vous avez plusieurs coffres, le menu
   propose aussi **Fusionner dans un autre coffre…**. Voir
-  [Coffres](./vaults).
+  [Coffres](./vaults.md).
 - **Les curseurs**, à côté du nom. Ils ouvrent les **Réglages** (`⌘,`).
 - **Écrire · Notes · Journal**, le sélecteur de mode. `⌘1`, `⌘2` et `⌘3`
   ouvrent l’Accueil de chaque mode. Un coffre qui n’utilise qu’un seul mode
@@ -69,7 +69,7 @@ Pour ranger une note dans un dossier, faites-la glisser sur ce dossier dans
 la barre latérale.
 
 Vous pouvez choisir les lieux que chaque mode affiche. Voir
-[Réglages d’écriture](./setup).
+[Réglages d’écriture](./setup.md).
 
 ## La liste {#the-list}
 
@@ -117,11 +117,11 @@ boutons se trouvent en haut à droite :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de celui-ci. Voir [Documents côte à côte](./side-by-side). |
+| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de celui-ci. Voir [Documents côte à côte](./side-by-side.md). |
 | **⋮** | Le menu du document : mettre en favori, ajouter à un tableau, mode lecture, défilement machine à écrire, vérifier l’orthographe, enregistrer une version, exporter, mettre à la corbeille, etc. |
-| **Détails…** (le ⓘ) | Le statut du document, son synopsis ou sa description, son objectif de mots, ses étiquettes, sa couleur et son emplacement. Voir [Organiser](./organizing). |
+| **Détails…** (le ⓘ) | Le statut du document, son synopsis ou sa description, son objectif de mots, ses étiquettes, sa couleur et son emplacement. Voir [Organiser](./organizing.md). |
 | **Infos** (`⇧⌘I`) | Ouvre ou ferme le panneau Infos. |
-| **Sanctuaire** (`⌘.`) | Masque tout, sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes). |
+| **Sanctuaire** (`⌘.`) | Masque tout, sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
 Le nombre de mots se trouve dans le coin inférieur droit. Si le document a un
 objectif de mots, vous y voyez vos mots et l’objectif. Cliquez une fois
@@ -139,14 +139,14 @@ du document. Il comporte cinq onglets :
 | Onglet | Ce qu’il affiche |
 | --- | --- |
 | **Plan** | Le nombre de mots, le temps de lecture et l’objectif ; les titres et les notes de bas de page ; **Ajouter au tableau…** et **Enregistrer une version…**. |
-| **Liens** | Les documents vers lesquels celui-ci renvoie et ceux qui renvoient vers lui, les notes qui lui sont liées, et le **Graphe local**. Voir [Liens et graphe](./links-and-graph). |
-| **Notes** | Ses surlignages, ses commentaires et ses notes en marge (`⇧⌘A`). Voir [Annotations et notes en marge](./annotations). |
+| **Liens** | Les documents vers lesquels celui-ci renvoie et ceux qui renvoient vers lui, les notes qui lui sont liées, et le **Graphe local**. Voir [Liens et graphe](./links-and-graph.md). |
+| **Notes** | Ses surlignages, ses commentaires et ses notes en marge (`⇧⌘A`). Voir [Annotations et notes en marge](./annotations.md). |
 | **Tâches** | Les éléments de ses listes de tâches, et les cartes de tableau qui les suivent. |
-| **Historique** | Ses versions. Voir [Versions et sauvegarde](./versions-and-backup). |
+| **Historique** | Ses versions. Voir [Versions et sauvegarde](./versions-and-backup.md). |
 
 Certains documents affichent d’autres onglets :
 
-- Tant que vous utilisez le [dictionnaire](./dictionary) (`⇧⌘D`), il forme un
+- Tant que vous utilisez le [dictionnaire](./dictionary.md) (`⇧⌘D`), il forme un
   sixième onglet.
 - Une page du matin affiche à la place **La pratique** et **Historique**.
 - Les pages du projet lui-même affichent **Projet**.
@@ -238,13 +238,13 @@ parmi toutes les commandes.
 
 Appuyez sur `⌘/` pour voir les principaux raccourcis réunis. Appuyez sur `⌘/`
 ou sur `Esc` pour refermer la fiche. La liste complète se trouve dans
-[Raccourcis clavier](./keyboard-shortcuts).
+[Raccourcis clavier](./keyboard-shortcuts.md).
 
 :::
 
 ## Voir aussi {#see-also}
 
-- [Votre premier coffre](./getting-started)
-- [Réglages d’écriture](./setup)
-- [Documents côte à côte](./side-by-side)
-- [Raccourcis clavier](./keyboard-shortcuts)
+- [Votre premier coffre](./getting-started.md)
+- [Réglages d’écriture](./setup.md)
+- [Documents côte à côte](./side-by-side.md)
+- [Raccourcis clavier](./keyboard-shortcuts.md)

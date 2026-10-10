@@ -93,14 +93,14 @@ selon l’endroit de Poiesis où vous vous trouvez :
 - **Sélectionnez du texte.** La barre d’outils apparaît : gras,
   italique, souligné, titre, lien, **Surligner et commenter** et **Commenter
   (sans surlignage)**. Au bout de la barre, **Plus d’outils** donne accès aux
-  autres outils, dont **Rechercher le mot**. Voir [L’éditeur](./the-editor).
+  autres outils, dont **Rechercher le mot**. Voir [L’éditeur](./the-editor.md).
 - **Tapez `/`** en début de ligne. Le menu des blocs s’ouvre : titres,
   listes, citations, sauts de scène, épigraphes, etc. Voir
-  [Mise en forme et blocs](./formatting-and-blocks).
+  [Mise en forme et blocs](./formatting-and-blocks.md).
 - **Tapez `[[`** pour créer un lien vers un autre document à partir de son
-  nom. Voir [Liens et graphe](./links-and-graph).
+  nom. Voir [Liens et graphe](./links-and-graph.md).
 - **Commencez un projet.** Cliquez sur **Nouveau projet** sous **Projets**,
-  dans la barre latérale. Voir [Projets](./collections).
+  dans la barre latérale. Voir [Projets](./collections.md).
 
 ## Ouvrir un autre coffre {#open-another-vault}
 
@@ -111,7 +111,7 @@ Vous pouvez avoir plusieurs coffres, par exemple un par livre.
 2. Choisissez un coffre, **Ouvrir un autre coffre…** ou **Nouveau coffre…**.
 
 Au clavier, appuyez sur `⌥⌘O` (**Fichier → Changer de coffre…**). Voir
-[Coffres](./vaults).
+[Coffres](./vaults.md).
 
 Un coffre est un dossier ordinaire. Toute sauvegarde que vous utilisez déjà
 le protège : Time Machine, un dossier synchronisé ou une copie sur un disque
@@ -119,7 +119,7 @@ externe.
 
 ## Voir aussi {#see-also}
 
-- [Visite de la fenêtre](./finding-your-way)
-- [Coffres](./vaults)
-- [Versions et sauvegarde](./versions-and-backup)
-- [Raccourcis clavier](./keyboard-shortcuts)
+- [Visite de la fenêtre](./finding-your-way.md)
+- [Coffres](./vaults.md)
+- [Versions et sauvegarde](./versions-and-backup.md)
+- [Raccourcis clavier](./keyboard-shortcuts.md)

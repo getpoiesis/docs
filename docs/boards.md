@@ -20,7 +20,7 @@ item and its card change together: tick the item, and the card moves.
 
 1. Go to the place for boards:
    - In Notes, open **Boards** under **Places** in the sidebar.
-   - In Write, open the [project](./collections) the board is for, and choose
+   - In Write, open the [project](./collections.md) the board is for, and choose
      **Board** under it.
 2. Press **New tasks board** or **New custom board**. In a project, click the
    list's **+**, then **New tasks board for this project**.
@@ -64,7 +64,7 @@ Click a card to open it. An open card has these fields:
 | **Checklist** | Steps. Type a step and press Return. |
 | **Linked to** | Documents, characters and projects. Click a link to open it. |
 | **Column** | The column the card is in. |
-| **Due** | A date. The card appears on the [calendar](./calendar) on that day, and under **Due this week** on Write's Home. |
+| **Due** | A date. The card appears on the [calendar](./calendar.md) on that day, and under **Due this week** on Write's Home. |
 | **Remind** | A date and time. |
 | **Priority** | **Low**, **Normal**, **High** or **Urgent**. |
 | **Label** | A colour, or **No label**. |
@@ -108,7 +108,7 @@ archived card to the board, open it and choose **Put back on the board**.
 ## Track a checklist item on a board
 
 1. In a note, write a checklist item: type `[]` or use `/checklist`.
-2. Open the [Info panel](./finding-your-way#the-info-panel) (`⇧⌘I`) and
+2. Open the [Info panel](./finding-your-way.md#the-info-panel) (`⇧⌘I`) and
    choose **Tasks**. It lists every checklist item in the note.
 3. Press **Track** beside an item. Choose a tasks board, or make a new one.
 
@@ -162,7 +162,7 @@ open on the same page.
 
 ## See also
 
-- [Notes & capture](./notes)
-- [Calendar](./calendar): due dates, by day.
-- [Projects](./collections)
-- [Organizing](./organizing): restoring from the trash.
+- [Notes & capture](./notes.md)
+- [Calendar](./calendar.md): due dates, by day.
+- [Projects](./collections.md)
+- [Organizing](./organizing.md): restoring from the trash.

@@ -25,7 +25,7 @@ lecture.
 document et dans la palette de commandes (`⌘P`).
 
 Le Sanctuaire fonctionne pour un document et pour le
-[graphe](./links-and-graph).
+[graphe](./links-and-graph.md).
 
 ## Dans le Sanctuaire {#while-youre-in-sanctuary}
 
@@ -53,7 +53,7 @@ plein écran, choisissez la commande de plein écran dans le menu **Affichage**.
 Le Sanctuaire se referme tout seul quand vous ouvrez une page qui n’est pas un
 document, comme le calendrier ou un tableau.
 
-Quand des documents sont ouverts [côte à côte](./side-by-side), le Sanctuaire
+Quand des documents sont ouverts [côte à côte](./side-by-side.md), le Sanctuaire
 conserve les volets. L’atténuation et le défilement machine à écrire ne
 s’appliquent qu’au volet dans lequel vous écrivez.
 
@@ -143,7 +143,7 @@ Pour démarrer et terminer vous-même les sessions :
 
 ## Voir aussi {#see-also}
 
-- [L’éditeur](./the-editor)
-- [Documents côte à côte](./side-by-side)
-- [Réglages](./settings)
-- [Raccourcis clavier](./keyboard-shortcuts)
+- [L’éditeur](./the-editor.md)
+- [Documents côte à côte](./side-by-side.md)
+- [Réglages](./settings.md)
+- [Raccourcis clavier](./keyboard-shortcuts.md)
