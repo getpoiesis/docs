@@ -8,6 +8,17 @@ import type { PluginOptions as SearchOptions } from '@easyops-cn/docusaurus-sear
 
 const RELEASES = 'https://github.com/getpoiesis/releases/releases'
 
+// Docusaurus builds each language separately and says which one it's building.
+const LOCALE = (process.env.DOCUSAURUS_CURRENT_LOCALE ?? 'en') as 'en' | 'es' | 'fr'
+
+// The link-preview card for each language: 1200×630, made with the website's
+// card renderer (getpoiesis repo, scripts/og/render.cjs docs).
+const OG_ALT = {
+  en: 'The φ Poiesis documentation: how to write, shape and export your work, step by step.',
+  es: 'La documentación de φ Poiesis: cómo escribir, dar forma y exportar tu obra, paso a paso.',
+  fr: 'La documentation de φ Poiesis : comment écrire, façonner et exporter votre travail, pas à pas.',
+}[LOCALE]
+
 const config: Config = {
   title: 'φ Poiesis',
   tagline: 'A calm, local-first writing app for manuscripts, poetry, and essays',
@@ -111,7 +122,18 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/og.png',
+    image: `img/og/docs-${LOCALE}.png`,
+    // Open Graph and X/Twitter tags on top of the title, description, URL,
+    // image and locale Docusaurus sends for every page.
+    metadata: [
+      { property: 'og:site_name', content: 'φ Poiesis Docs' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:image:type', content: 'image/png' },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { property: 'og:image:alt', content: OG_ALT },
+      { name: 'twitter:image:alt', content: OG_ALT },
+    ],
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
