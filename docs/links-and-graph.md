@@ -30,8 +30,9 @@ To open the linked document beside the one you are in, `⌥⌘`-click the link
 (see [Side by side](./side-by-side.md)).
 
 A link chosen from the menu points to the document itself. If you rename the
-document later, the link still works. A `[[Title]]` that you type in full or
-paste finds its document by title instead.
+document later, the link still works. So does a `[[Title]]` that you type in
+full: when you type the closing `]]`, it links to the document with that
+title. A `[[Title]]` that you paste finds its document by title instead.
 
 ## Link to a page you haven't written yet
 
@@ -39,12 +40,17 @@ paste finds its document by title instead.
 2. If no document has that title, the last entry in the menu is
    **Create "…"**. Choose it.
 
-Poiesis writes the link, but the document does not exist yet. The link is shown as
-a broken link until it does.
+Poiesis makes the document straight away, in the same folder as the one you are
+writing, and the link points to it. `⌘`-click the link to open it. Typing the
+closing `]]` yourself does the same when no document has that title.
 
-The document is made when you follow the link. `⌘`-click the link, or click
-it under **Outgoing links** (see the next section). Poiesis creates a document with
-that title and opens it.
+A title can have spaces: the menu stays open while you type `[[Hello World`.
+To type `[[` as plain text, press `Esc`. The menu closes and stays closed
+until you start another `[[`.
+
+A pasted link to a document that does not exist yet is shown as a broken
+link. Poiesis makes that document when you follow the link: `⌘`-click it, or
+click it under **Outgoing links** (see the next section).
 
 ## See what links where
 

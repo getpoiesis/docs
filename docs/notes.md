@@ -42,8 +42,9 @@ folder or a tag. Where the note goes depends on the list you are looking at:
 | A tag | Under that tag, whatever you typed. |
 
 To write a longer note, press **+** at the top of the list (**New note**), or
-press `⌘N` while you are in Notes. If you are in a folder when you press
-**+**, the new note goes in that folder.
+press `⌘N` while you are in Notes. If you are in a folder, the new note goes
+in that folder, however you make it: **+**, `⌘N`, the list's **⋮** or `⌘K`.
+In a tag's list, the new note gets that tag.
 
 ## Notes' Home
 

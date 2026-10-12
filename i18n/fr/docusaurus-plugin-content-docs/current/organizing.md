@@ -52,7 +52,7 @@ Il y a quatre façons de le faire :
 - Cliquez sur le **+** à côté de **Dossiers**, dans la barre latérale de
   Notes.
 - Cliquez sur le **⋮** de la liste, puis sur **Nouveau dossier** (dans Écrire
-  ou dans Notes).
+  ou dans Notes). Dans un dossier, le nouveau dossier est créé à l’intérieur.
 - Faites un clic droit sur un dossier, puis choisissez **Nouveau dossier à
   l’intérieur**.
 
