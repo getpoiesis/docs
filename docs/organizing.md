@@ -47,7 +47,8 @@ There are four ways:
 - Click **New folder** at the bottom of a folder listing. The new folder is
   made inside the folder you are looking at.
 - Click **+** beside **Folders** in the Notes sidebar.
-- Click the list's **⋮**, then **New folder** (in Write or Notes).
+- Click the list's **⋮**, then **New folder** (in Write or Notes). Inside a
+  folder, the new folder is made inside it.
 - Right-click a folder, then choose **New folder inside**.
 
 Poiesis asks you to **Name the new folder**.

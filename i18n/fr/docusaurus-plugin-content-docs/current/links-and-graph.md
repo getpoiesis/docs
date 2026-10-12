@@ -30,9 +30,10 @@ Pour ouvrir le document lié à côté de celui où vous êtes, cliquez sur le l
 en maintenant `⌥⌘` (voir [Documents côte à côte](./side-by-side.md)).
 
 Un lien choisi dans le menu pointe vers le document lui-même : si vous
-renommez ce document par la suite, le lien fonctionne toujours. En revanche,
-un `[[Titre]]` que vous tapez en entier ou que vous collez retrouve son
-document d’après le titre.
+renommez ce document par la suite, le lien fonctionne toujours. Un `[[Titre]]`
+tapé en entier aussi : quand vous tapez les `]]` de fermeture, il pointe vers
+le document de ce titre. En revanche, un `[[Titre]]` que vous collez retrouve
+son document d’après le titre.
 
 ## Créer un lien vers une page qui n’existe pas encore {#link-to-a-page-you-havent-written-yet}
 
@@ -40,12 +41,18 @@ document d’après le titre.
 2. Si aucun document ne porte ce titre, la dernière entrée du menu est
    **Créer « … »**. Choisissez-la.
 
-Poiesis écrit le lien, mais le document n’existe pas encore. En attendant, le lien
-s’affiche comme un lien rompu.
+Poiesis crée le document aussitôt, dans le même dossier que celui que vous
+écrivez, et le lien pointe vers lui. Cliquez sur le lien en maintenant `⌘` pour
+l’ouvrir. Taper vous-même les `]]` de fermeture fait de même quand aucun
+document ne porte ce titre.
 
-Le document est créé quand vous suivez le lien : cliquez dessus en maintenant
-`⌘`, ou cliquez dessus sous **Liens sortants** (voir la section suivante). Poiesis
-crée alors un document portant ce titre et l’ouvre.
+Un titre peut contenir des espaces : le menu reste ouvert pendant que vous
+tapez `[[Bonjour le monde`. Pour taper `[[` comme du texte, appuyez sur `Échap`.
+Le menu se ferme et ne revient pas avant le prochain `[[`.
+
+Un lien collé vers un document qui n’existe pas encore s’affiche comme un lien
+rompu. Poiesis crée ce document quand vous suivez le lien : cliquez dessus en
+maintenant `⌘`, ou sous **Liens sortants** (voir la section suivante).
 
 ## Voir quels documents sont liés {#see-what-links-where}
 

@@ -45,9 +45,10 @@ liste affichée :
 | Une étiquette | Sous cette étiquette, quoi que vous ayez tapé. |
 
 Pour écrire une note plus longue, cliquez sur **+** en haut de la liste
-(**Nouvelle note**) ou, depuis Notes, appuyez sur `⌘N`. Si vous cliquez sur
-**+** alors que vous êtes dans un dossier, la nouvelle note est rangée dans
-ce dossier.
+(**Nouvelle note**) ou, depuis Notes, appuyez sur `⌘N`. Si vous êtes dans un
+dossier, la nouvelle note y est rangée, quelle que soit la façon de la
+créer : **+**, `⌘N`, le **⋮** de la liste ou `⌘K`. Dans la liste d’une
+étiquette, la nouvelle note reçoit cette étiquette.
 
 ## L’Accueil de Notes {#notes-home}
 

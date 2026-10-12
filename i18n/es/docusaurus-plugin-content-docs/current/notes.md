@@ -45,8 +45,10 @@ lista que tengas delante:
 | Una etiqueta | Bajo esa etiqueta, escribas lo que escribas. |
 
 Para escribir una nota más larga, pulsa **+** al principio de la lista
-(**Nueva nota**) o pulsa `⌘N` desde Notas. Si pulsas **+** dentro de una
-carpeta, la nota nueva se guarda en esa carpeta.
+(**Nueva nota**) o pulsa `⌘N` desde Notas. Si estás dentro de una carpeta, la
+nota nueva se guarda en esa carpeta, la crees como la crees: **+**, `⌘N`, el
+**⋮** de la lista o `⌘K`. En la lista de una etiqueta, la nota nueva lleva
+esa etiqueta.
 
 ## El Inicio de Notas {#notes-home}
 

@@ -32,8 +32,10 @@ el enlace con `⌥⌘` pulsadas (consulta
 [Documentos lado a lado](./side-by-side.md)).
 
 Un enlace elegido en el menú apunta al documento en sí: si más adelante le
-cambias el nombre, el enlace sigue funcionando. En cambio, un `[[Título]]`
-que escribes entero o que pegas busca su documento por el título.
+cambias el nombre, el enlace sigue funcionando. También un `[[Título]]` que
+escribes entero: al escribir los `]]` de cierre, enlaza con el documento de
+ese título. En cambio, un `[[Título]]` que pegas busca su documento por el
+título.
 
 ## Enlazar con una página que aún no has escrito {#link-to-a-page-you-havent-written-yet}
 
@@ -41,12 +43,19 @@ que escribes entero o que pegas busca su documento por el título.
 2. Si ningún documento se llama así, la última opción del menú es
    **Crear «…»**. Elígela.
 
-Poiesis escribe el enlace, pero el documento todavía no existe. Hasta que exista,
-el enlace se muestra como enlace roto.
+Poiesis crea el documento al momento, en la misma carpeta que el que estás
+escribiendo, y el enlace apunta a él. Haz clic en el enlace con `⌘` pulsada
+para abrirlo. Escribir tú los `]]` de cierre hace lo mismo cuando ningún
+documento tiene ese título.
 
-El documento se crea cuando sigues el enlace: haz clic en él con `⌘`
-pulsada, o haz clic en él en **Enlaces salientes** (lo explicamos en la
-sección siguiente). Poiesis crea un documento con ese título y lo abre.
+Un título puede tener espacios: el menú sigue abierto mientras escribes
+`[[Hola Mundo`. Para escribir `[[` como texto normal, pulsa `Esc`. El menú se
+cierra y no vuelve hasta que empieces otro `[[`.
+
+Un enlace pegado a un documento que aún no existe se muestra como enlace
+roto. Poiesis crea ese documento cuando sigues el enlace: haz clic en él con
+`⌘` pulsada, o en **Enlaces salientes** (lo explicamos en la sección
+siguiente).
 
 ## Ver qué enlaza con qué {#see-what-links-where}
 

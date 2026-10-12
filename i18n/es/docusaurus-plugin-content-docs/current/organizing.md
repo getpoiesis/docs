@@ -53,7 +53,7 @@ Hay cuatro formas:
 - Haz clic en el **+** que hay junto a **Carpetas**, en la barra lateral de
   Notas.
 - Haz clic en el **⋮** de la lista y luego en **Nueva carpeta** (en Escribir
-  o en Notas).
+  o en Notas). Dentro de una carpeta, la carpeta nueva se crea dentro de ella.
 - Haz clic derecho en una carpeta y elige **Nueva carpeta dentro**.
 
 Poiesis te pide el **Nombre de la nueva carpeta**.
