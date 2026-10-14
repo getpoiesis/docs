@@ -38,9 +38,8 @@ Il y a trois autres façons de commencer l’entrée du jour :
 | --- | --- |
 | **Accueil** | L’entrée du jour, la semaine en cours, les derniers jours, les pages du matin du jour et le mois. Vous y trouvez aussi **Ce jour-là** : ce que vous avez écrit à la même date les années précédentes. |
 | **Aujourd’hui** | L’entrée du jour. |
-| **Toutes les entrées** | Tous les jours où vous avez écrit, du plus récent au plus ancien. La semaine en cours forme une rangée de jours tout en haut. Ouvrez un jour pour le lire, ou restez sur la liste : elle présente tous les jours à la suite, comme une seule longue page, et vous pouvez écrire dans n’importe lequel. |
-| **Pages du matin** | Toutes vos séances de pages du matin, avec leur nombre de pages et de mots. |
-| **Scellées** | Les pages du matin que vous avez terminées. |
+| **Toutes les entrées** | Tous les jours où vous avez écrit, du plus récent au plus ancien. La semaine en cours forme une rangée de jours tout en haut. Ouvrez un jour pour le lire, ou restez sur la liste : elle présente tous les jours à la suite, comme une seule longue page, et vous pouvez écrire dans n’importe lequel. Le mois et l’année s’affichent au-dessus de la semaine et entre les mois. Pour aller à un jour précis, cliquez sur le calendrier à côté du mois (**Aller à un jour**) et choisissez-le : son entrée s’ouvre ou, si vous n’avez rien écrit ce jour-là, la liste se place sur le jour précédent le plus proche. |
+| **Pages du matin** | Toutes vos séances de pages du matin, avec leur nombre de pages et de mots. En haut de la liste, choisissez **Toutes**, **En cours** ou **Scellées** (celles que vous avez terminées). |
 | **Calendrier** | Votre écriture au fil des mois. Voir [Le calendrier](./calendar.md). |
 
 En haut d’une entrée, vous voyez le jour de la semaine et la date. À côté se

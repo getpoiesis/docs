@@ -181,6 +181,16 @@ Haz clic derecho en un documento, en cualquier lista, o haz clic en su
   [Cómo funciona la exportación](./exporting.md)).
 - **Eliminar**, que envía el documento a la papelera.
 
+## Quitar los documentos vacíos {#clear-out-empty-documents}
+
+Un documento que creaste y en el que nunca escribiste sigue en su lista.
+Para quitarlos, haz clic en el **⋮** de la lista en Escribir o en Notas y
+elige **Borrar los documentos vacíos**. Indica cuántos hay: documentos sin
+título ni palabras que no están en un proyecto. En el Diario, **Borrar los
+días vacíos** en el **⋮** hace lo mismo con los días y las páginas matinales
+sin palabras. Los dos preguntan antes y mueven lo que borran a la papelera,
+así que aún puedes restaurarlo.
+
 ## Papelera {#trash}
 
 Lo que eliminas no desaparece en el momento: va a la **Papelera**, al final

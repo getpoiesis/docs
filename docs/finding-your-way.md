@@ -52,7 +52,7 @@ From top to bottom, the sidebar has:
 | --- | --- |
 | **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **Authors**, **Research**), **Places** (**Graph**, **Calendar**) |
 | **Notes** | **Home**, **All notes**, **Starred**, **Unlinked**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Graph**, **Calendar**, **Templates**) |
-| **Journal** | **Home**, **Today**, **All entries**, **Morning pages**, **Sealed**, **Places** (**Calendar**) |
+| **Journal** | **Home**, **Today**, **All entries**, **Morning pages**, **Places** (**Calendar**) |
 
 Click a project to open the project's own page. The list shows its outline.
 While the project is open, the sidebar shows these under it: **Contents**,

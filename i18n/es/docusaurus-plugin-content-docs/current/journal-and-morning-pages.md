@@ -36,9 +36,8 @@ Hay otras tres maneras de empezar la entrada de hoy:
 | --- | --- |
 | **Inicio** | La entrada de hoy, esta semana, los últimos días, las páginas matinales de hoy y el mes. También muestra **Un día como hoy**: lo que escribiste en esta misma fecha otros años. |
 | **Hoy** | La entrada de hoy. |
-| **Todas las entradas** | Todos los días en que has escrito, del más reciente al más antiguo. Arriba, esta semana aparece como una fila de días. Abre un día para leerlo o quédate en la lista: todos los días se ven seguidos, como una sola página larga, y puedes escribir en cualquiera de ellos ahí mismo. |
-| **Páginas matinales** | Todas las sesiones de páginas matinales, con sus páginas y sus palabras. |
-| **Selladas** | Las páginas matinales que ya has terminado. |
+| **Todas las entradas** | Todos los días en que has escrito, del más reciente al más antiguo. Arriba, esta semana aparece como una fila de días. Abre un día para leerlo o quédate en la lista: todos los días se ven seguidos, como una sola página larga, y puedes escribir en cualquiera de ellos ahí mismo. El mes y el año aparecen sobre la semana y entre un mes y otro. Para ir a un día concreto, haz clic en el calendario junto al mes (**Ir a un día**) y elígelo: se abre su entrada o, si ese día no escribiste nada, la lista se mueve al día anterior más cercano. |
+| **Páginas matinales** | Todas las sesiones de páginas matinales, con sus páginas y sus palabras. Arriba de la lista eliges **Todas**, **En curso** o **Selladas** (las que ya has terminado). |
 | **Calendario** | Lo que has escrito a lo largo de los meses. Consulta [El calendario](./calendar.md). |
 
 En lo alto de cada entrada ves el día de la semana y la fecha. A su lado

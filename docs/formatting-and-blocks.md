@@ -78,6 +78,11 @@ in the Info panel (`⌘⇧I`). A **Table of contents** block also lists them.
 (`⌘⇧R`) and **Justify** (`⌘⇧J`) are in the **Format** menu. They are also
 under **More tools** in the toolbar.
 
+**Lists.** Press `Tab` to indent an item and `⇧Tab` to outdent it. Backspace
+at the start of an item deletes it, or joins it to the line above, and the
+list stays whole: the numbers carry on and the bullets keep their level.
+`Delete` at the end of an item pulls the next one up.
+
 **Task lists.** Each item has three states: todo, doing and done. Click the
 box to change an item to the next state. The slash menu offers task lists
 in Notes and on research pages. To have them in another mode, open

@@ -35,9 +35,8 @@ There are three other ways to start today's entry:
 | --- | --- |
 | **Home** | Today's entry, this week, the last few days, today's morning page and the month. It also shows **On this day**: what you wrote on this date in earlier years. |
 | **Today** | Today's entry. |
-| **All entries** | Every day you have written, newest first. This week is a row of days at the top. Open a day to read it, or stay on the list: it shows every day as one long page, and you can write in any day there. |
-| **Morning pages** | Every morning pages session, with its pages and words. |
-| **Sealed** | The morning pages you have finished. |
+| **All entries** | Every day you have written, newest first. This week is a row of days at the top. Open a day to read it, or stay on the list: it shows every day as one long page, and you can write in any day there. The month and year show above the week and between the months. To go to a particular day, click the calendar beside the month (**Go to a day**) and pick it: its entry opens, or, if you wrote nothing that day, the list moves to the nearest day before it. |
+| **Morning pages** | Every morning pages session, with its pages and words. Choose **All**, **In progress** or **Sealed** (the ones you have finished) at the top of the list. |
 | **Calendar** | Your writing across the months. See [The calendar](./calendar.md). |
 
 At the top of an entry you see the weekday and the date. Beside them are:
