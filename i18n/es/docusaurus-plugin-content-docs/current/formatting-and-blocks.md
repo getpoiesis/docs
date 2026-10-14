@@ -81,6 +81,11 @@ los recoge en una lista.
 la derecha** (`⌘⇧R`) y **Justificar** (`⌘⇧J`) están en el menú **Formato**.
 También están en **Más herramientas**, en la barra de herramientas.
 
+**Listas.** Pulsa `Tab` para sangrar un elemento y `⇧Tab` para quitarle la
+sangría. Retroceso al principio de un elemento lo borra o lo une a la línea
+de arriba, y la lista sigue entera: los números continúan y las viñetas
+mantienen su nivel. `Supr` al final de un elemento sube el siguiente.
+
 **Listas de tareas.** Cada elemento tiene tres estados: pendiente, en curso
 y hecho. Haz clic en la casilla para pasar al estado siguiente. El menú de bloques ofrece las listas de tareas en Notas y en las páginas de
 investigación. Si las quieres en otro modo, abre **Ajustes → Ajustes de

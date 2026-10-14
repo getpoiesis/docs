@@ -57,7 +57,7 @@ De haut en bas, la barre latérale comprend :
 | --- | --- |
 | **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Auteurs**, **Recherche**), **Lieux** (**Graphe**, **Calendrier**) |
 | **Notes** | **Accueil**, **Toutes les notes**, **Favoris**, **Non liées**, **Dossiers** (avec un **+** pour créer un dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Graphe**, **Calendrier**, **Modèles**) |
-| **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Scellées**, **Lieux** (**Calendrier**) |
+| **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Lieux** (**Calendrier**) |
 
 Cliquez sur un projet pour ouvrir la page du projet lui-même. La liste en
 affiche le plan. Tant que le projet est ouvert, la barre latérale affiche

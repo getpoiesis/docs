@@ -81,6 +81,12 @@ aussi.
 droite** (`⌘⇧R`) et **Justifier** (`⌘⇧J`) se trouvent dans le menu **Format**,
 ainsi que sous **Plus d’outils** dans la barre d’outils.
 
+**Listes.** Appuyez sur `Tab` pour décaler un élément vers la droite et sur
+`⇧Tab` pour le ramener. Retour arrière au début d’un élément le supprime ou
+le joint à la ligne du dessus, et la liste reste entière : les numéros se
+suivent et les puces gardent leur niveau. `Suppr` à la fin d’un élément
+remonte le suivant.
+
 **Listes de tâches.** Chaque élément a trois états : à faire, en cours et
 terminé. Cliquez sur la case pour le faire passer à l’état suivant. Le menu
 des blocs propose les listes de tâches dans Notes et sur les pages de

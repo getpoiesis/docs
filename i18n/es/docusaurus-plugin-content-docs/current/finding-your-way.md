@@ -54,7 +54,7 @@ De arriba abajo, la barra lateral tiene:
 | --- | --- |
 | **Escribir** | **Inicio**, **Piezas**, **Proyectos** (cada proyecto, **Nuevo proyecto** y, cuando has guardado alguno, **Guardados**), **Mundo** (**Personajes**, **Autores**, **Investigación**), **Lugares** (**Grafo**, **Calendario**) |
 | **Notas** | **Inicio**, **Todas las notas**, **Destacados**, **Sin enlazar**, **Carpetas** (con un **+** para crear una carpeta), **Etiquetas**, **Lugares** (**Tableros**, **Grafo**, **Calendario**, **Plantillas**) |
-| **Diario** | **Inicio**, **Hoy**, **Todas las entradas**, **Páginas matinales**, **Selladas**, **Lugares** (**Calendario**) |
+| **Diario** | **Inicio**, **Hoy**, **Todas las entradas**, **Páginas matinales**, **Lugares** (**Calendario**) |
 
 Haz clic en un proyecto para abrir su página propia. La lista muestra su
 esquema. Mientras el proyecto está abierto, debajo de él aparecen en la barra

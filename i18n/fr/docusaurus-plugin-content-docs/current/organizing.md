@@ -183,6 +183,16 @@ sur son **⋮**. Le menu contient :
   [Comment fonctionne l’export](./exporting.md)).
 - **Supprimer**, qui met le document à la corbeille.
 
+## Supprimer les documents vides {#clear-out-empty-documents}
+
+Un document créé dans lequel vous n’avez jamais écrit reste dans sa liste.
+Pour les supprimer, cliquez sur le **⋮** de la liste dans Écrire ou dans
+Notes et choisissez **Supprimer les documents vides**. Le nombre s’affiche :
+ce sont les documents sans titre ni mots qui ne font partie d’aucun projet.
+Dans le Journal, **Supprimer les jours vides** dans le **⋮** fait de même pour
+les jours et les pages du matin sans mots. Les deux demandent d’abord, et
+mettent ce qu’ils suppriment à la corbeille : vous pouvez encore le restaurer.
+
 ## Corbeille {#trash}
 
 Ce que vous supprimez ne disparaît pas tout de suite : l’élément va dans la

@@ -167,6 +167,16 @@ Right-click a document in any list, or click its **⋮**. The menu has:
 - A submenu with every export format (see [Exporting](./exporting.md)).
 - **Delete**, which moves the document to the trash.
 
+## Clear out empty documents
+
+A document you made and never wrote in stays in its list. To clear them out,
+click the list's **⋮** in Write or Notes and choose **Delete empty
+documents**. It shows how many there are: documents with no title and no
+words that are not in a project. In the Journal, **Delete empty days** in
+the **⋮** does the same for days and morning pages with no words. Both ask
+first, and both move what they delete to the trash, so you can still
+restore it.
+
 ## Trash
 
 A deleted item is not removed at once. It goes to the **Trash**, at the
