@@ -97,6 +97,25 @@ shows what is inside it. The path is above the list, for example **All ›
 Essays › Drafts**. Click a step of the path to go back to it. To move a
 document, drag it onto a folder or onto a step of the path.
 
+## Make more room
+
+To give the page more room and still see where you are:
+
+- **Compact the sidebar** with the button at its top, **View → Compact
+  Sidebar** or `⌃⌘S`. It becomes a narrow rail of icons; point at an icon to
+  see its name. The same button opens it out again.
+- **Compact the list** with the button at its top, **View → Compact List**
+  or `⌃⌘L`. It shows only titles; point at a document to see its date and
+  first lines.
+
+Poiesis remembers how you left them. To hide everything but the page, use
+[Sanctuary](./focus-and-writing-modes.md).
+
+A document opens again where you left it: the same place on the page, the
+cursor where it was, even after you quit. The lists sort by when a
+document's words last changed, so opening it, filing it in a folder or a
+project, or starring it does not move it to the top.
+
 ## The page
 
 The page shows the title and the text. When a document is open, these
