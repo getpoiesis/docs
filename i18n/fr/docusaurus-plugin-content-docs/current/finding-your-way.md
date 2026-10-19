@@ -110,6 +110,26 @@ liste, par exemple **Tout › Essais › Brouillons**. Cliquez sur une étape du
 chemin pour y revenir. Pour déplacer un document, faites-le glisser sur un
 dossier ou sur une étape du chemin.
 
+## Faire plus de place {#make-more-room}
+
+Pour donner plus de place à la page sans perdre de vue où vous êtes :
+
+- **Compactez la barre latérale** avec le bouton en haut, **Affichage →
+  Barre latérale compacte** ou `⌃⌘S`. Elle devient une étroite colonne
+  d’icônes ; pointez une icône pour voir son nom. Le même bouton la redéplie.
+- **Compactez la liste** avec le bouton en haut, **Affichage → Liste
+  compacte** ou `⌃⌘L`. Elle n’affiche que les titres ; pointez un document
+  pour voir sa date et ses premières lignes.
+
+Poiesis se souvient de la façon dont vous les avez laissées. Pour tout
+masquer sauf la page, utilisez le [Sanctuaire](./focus-and-writing-modes.md).
+
+Un document se rouvre là où vous l’aviez laissé : au même endroit de la
+page, le curseur à sa place, même après avoir quitté l’app. Les listes se
+classent selon la dernière fois que les mots d’un document ont changé :
+l’ouvrir, le ranger dans un dossier ou un projet, ou lui mettre une étoile ne
+le fait pas remonter en tête.
+
 ## La page {#the-page}
 
 La page affiche le titre et le texte. Quand un document est ouvert, ces

@@ -106,6 +106,26 @@ por ejemplo, **Todo › Ensayos › Borradores**. Haz clic en un tramo de la rut
 para volver a él. Para mover un documento, arrástralo hasta una carpeta o
 hasta un tramo de la ruta.
 
+## Hacer más sitio {#make-more-room}
+
+Para dar más sitio a la página sin perder de vista dónde estás:
+
+- **Compacta la barra lateral** con el botón de arriba, **Ver → Barra
+  lateral compacta** o `⌃⌘S`. Se queda en una franja estrecha de iconos;
+  señala un icono para ver su nombre. El mismo botón la vuelve a abrir.
+- **Compacta la lista** con el botón de arriba, **Ver → Lista compacta** o
+  `⌃⌘L`. Muestra solo los títulos; señala un documento para ver su fecha y
+  sus primeras líneas.
+
+Poiesis recuerda cómo las dejaste. Para ocultarlo todo menos la página, usa
+el [Santuario](./focus-and-writing-modes.md).
+
+Un documento se vuelve a abrir donde lo dejaste: en el mismo punto de la
+página y con el cursor donde estaba, incluso después de cerrar la app. Las
+listas se ordenan por la última vez que cambiaron las palabras de un
+documento, así que abrirlo, guardarlo en una carpeta o un proyecto, o
+marcarlo con una estrella no lo sube arriba del todo.
+
 ## La página {#the-page}
 
 La página muestra el título y el texto. Cuando hay un documento abierto,
