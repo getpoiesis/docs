@@ -142,7 +142,7 @@ texte. Il y a trois façons de l’ouvrir :
 <img src="/img/app/details-light.png" alt="La page Détails d’une pièce : statut, description, objectif de mots, étiquettes, dossier et liens" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="La page Détails d’une pièce : statut, description, objectif de mots, étiquettes, dossier et liens" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Cliquez sur le ⓘ en haut de la page.
+- Choisissez **Détails…** dans le menu **⋮** en haut de la page.
 - Cliquez sur le **⋮** du document, puis sur **Détails…**.
 - Faites un clic droit sur la ligne du document dans une liste, puis
   choisissez **Détails…**.

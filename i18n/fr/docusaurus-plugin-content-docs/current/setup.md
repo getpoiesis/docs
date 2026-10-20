@@ -26,7 +26,8 @@ qui leur est utile.
 4. Sous **Modes**, cliquez sur **Écrire**, **Notes** ou **Journal** pour
    choisir les lieux que ce mode propose.
 5. Pour reprendre les mêmes réglages dans un autre coffre, cliquez sur
-   **Enregistrer sous…**, sous **Réglages enregistrés**.
+   **Enregistrer sous…**, sous **Réglages enregistrés**. Cette section
+   apparaît dès que vous avez plus d’un coffre.
 
 <img src="/img/app/setup-settings-light.png" alt="Les réglages ouverts sur la configuration du coffre : les signaux, les trois modes et les configurations enregistrées" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/setup-settings-dark.png" alt="Les réglages ouverts sur la configuration du coffre : les signaux, les trois modes et les configurations enregistrées" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -39,8 +40,8 @@ coffre démarre avec les valeurs par défaut indiquées ci-dessous.
 | Signal | Ce qu’il fait | Au départ |
 | --- | --- | --- |
 | **Démarrer les sessions automatiquement** | Lance le chronomètre d’une session d’écriture dès que vous tapez la première lettre. Si vous le désactivez, une session ne démarre que lorsque vous le demandez : `⌘P` → **Démarrer la session d’écriture** (et **Terminer la session d’écriture**). | Activé |
-| **Statistiques de lisibilité** | Ajoute le niveau de lecture et la longueur des phrases aux **Statistiques du document**. Pour les ouvrir, cliquez sur le nombre de mots dans le coin de la page, puis cliquez dessus une seconde fois. | Désactivé |
-| **Série** | La façon dont votre série d’écriture s’affiche sur l’Accueil et dans le calendrier : **Flamme et compte**, **Jours simples** ou **Désactivée**. | **Flamme et compte** |
+| **Statistiques de lisibilité** | Ajoute le niveau de lecture et la longueur des phrases aux **Statistiques du document**. Pour les ouvrir, cliquez sur le nombre de mots dans le coin de la page, puis sur **Statistiques…**. | Désactivé |
+| **Série** | La façon dont votre série d’écriture s’affiche sur l’Accueil et dans le calendrier : **Flamme et compte**, **Jours simples** ou **Désactivée**. | **Jours simples** |
 | **La semaine commence le** | Le premier jour de la semaine. Le calendrier et votre rythme hebdomadaire s’en servent. Ce réglage vaut pour tous les coffres. | Lundi |
 | **Rythme hebdomadaire** | Un nombre de jours d’écriture à atteindre par semaine : **Aucun**, ou de **1/semaine** à **7/semaine**. Poiesis compte les sept derniers jours : un jour manqué ne remet donc pas le compteur à zéro. | **Aucun** |
 
@@ -71,12 +72,23 @@ Ce tableau indique les lieux que chaque mode propose au départ :
 | Lieu | Écrire | Notes | Journal |
 | --- | :---: | :---: | :---: |
 | **Personnages** | ✓ | | |
+| **Monde** | ✓ | | |
 | **Auteurs** | ✓ | | |
 | **Recherche** | ✓ | jamais | |
-| **Tableaux** | ✓ | ✓ | |
-| **Graphe** | ✓ | ✓ | |
-| **Calendrier** | ✓ | ✓ | ✓ |
+| **Tableaux** | | ✓ | |
+| **Graphe** | | | |
+| **Calendrier** | | | ✓ |
 | **Commencer les pages du matin du jour** | | | ✓ |
+
+Les lieux désactivés au départ restent à portée de main : le graphe avec
+`⌘G` puis `G`, et le calendrier avec `⌘G` puis `C` depuis n’importe quel
+mode. Dans Écrire, chaque projet a son propre
+**Tableau**.
+
+Un mode que vous n’avez jamais modifié (**Suit le coffre**) utilise ces lieux
+de départ : il change donc quand les valeurs par défaut de Poiesis changent.
+Un lieu que vous avez activé ou désactivé vous-même reste tel que vous l’avez
+réglé.
 
 - **Écrire et Notes.** Vous pouvez activer n’importe lequel des autres lieux,
   sauf les pages du matin. Par exemple, vous pouvez activer **Personnages**
@@ -92,7 +104,8 @@ Ce tableau indique les lieux que chaque mode propose au départ :
 ## Utiliser des réglages dans un autre coffre {#use-a-setup-in-another-vault}
 
 **Réglages enregistrés** conserve des copies de vos réglages, chacune sous
-un nom.
+un nom. Cette section apparaît dans **Réglages d’écriture** quand vous avez
+plus d’un coffre, ou quand vous avez déjà enregistré des réglages.
 
 - **Enregistrer sous…** donne un nom aux réglages actuels et en garde une
   copie. Si vous modifiez ce coffre par la suite, la copie ne change pas.

@@ -48,22 +48,39 @@ De arriba abajo, la barra lateral tiene:
 - **Los lugares del modo**, por grupos. Están en la tabla de más abajo.
 - **En la parte inferior:** lo que la bóveda está haciendo en ese momento
   (**Guardando…**, **Indexando…**), la **Papelera** y la insignia **Beta**.
-  Haz clic en la insignia para enviarnos tus comentarios.
+  Haz clic en la insignia para enviarnos tus comentarios. De vez en cuando,
+  una línea discreta encima pregunta qué tal te va con Poiesis.
 
 | Modo | Qué aparece en la barra lateral |
 | --- | --- |
-| **Escribir** | **Inicio**, **Piezas**, **Proyectos** (cada proyecto, **Nuevo proyecto** y, cuando has guardado alguno, **Guardados**), **Mundo** (**Personajes**, **Autores**, **Investigación**), **Lugares** (**Grafo**, **Calendario**) |
-| **Notas** | **Inicio**, **Todas las notas**, **Destacados**, **Sin enlazar**, **Carpetas** (con un **+** para crear una carpeta), **Etiquetas**, **Lugares** (**Tableros**, **Grafo**, **Calendario**, **Plantillas**) |
+| **Escribir** | **Inicio**, **Piezas**, **Proyectos** (cada proyecto, **Nuevo proyecto** y, cuando has guardado alguno, **Guardados**), **Mundo** (**Personajes**, **Mundo**, **Autores**, **Investigación**) |
+| **Notas** | **Inicio**, **Bandeja de entrada**, **Todas las notas**, **Destacados**, **Carpetas** (con un **+** para crear una carpeta), **Etiquetas**, **Lugares** (**Tableros**, **Plantillas**) |
 | **Diario** | **Inicio**, **Hoy**, **Todas las entradas**, **Páginas matinales**, **Lugares** (**Calendario**) |
 
 Haz clic en un proyecto para abrir su página propia. La lista muestra su
 esquema. Mientras el proyecto está abierto, debajo de él aparecen en la barra
-lateral **Índice**, **Investigación**, **Personajes**, **Tablero**, **Leer** y
-**Exportar**.
+lateral **Índice**, **Tablero**, **Leer** y **Exportar**.
+
+Bajo el nombre del proyecto, en la lista, cinco pestañas muestran sus partes:
+**Índice**, **Personajes**, **Mundo**, **Investigación** y **Tablero**. Cada
+una muestra lo propio del proyecto y lo compartido. La pestaña en la que estás
+muestra su nombre; señala las demás para ver el suyo. Pulsa `⌃1` a `⌃5` para
+cambiar de pestaña o, desde cualquier lugar de un proyecto, `⌘G` y luego `P`,
+`L` o `R` para sus personajes, su mundo o su investigación.
+
+Los personajes, los autores, el mundo y la investigación también son de toda la bóveda, así que el grupo **Mundo** sigue en la barra lateral haya o no un proyecto abierto. **Personajes**, **Autores** e **Investigación** muestran una parte de la bóveda cada vez: el menú bajo el título de la lista elige **Este proyecto** (aquel en el que estabas), **Sin proyecto**, **Todo** o un proyecto por su nombre. Abierta desde un proyecto, la lista empieza en ese proyecto; abierta desde cualquier otro sitio, en lo que no pertenece a ningún proyecto. Poiesis recuerda tu elección para cada lista en cada bóveda.
+
+Los recuentos aparecen al señalar una fila; el de la Bandeja de entrada y el avance de un proyecto hacia su meta de palabras (un porcentaje) se ven siempre.
 
 Haz clic derecho en un proyecto o en una carpeta para abrir su menú. Para
 meter una nota en una carpeta, arrástrala hasta la carpeta en la barra
 lateral.
+
+Algunos lugares no están en la barra lateral salvo que los añadas, pero
+siempre quedan a una tecla:
+
+- **El grafo:** `⌘G` y luego `G`, o **Grafo local** en Información → **Enlaces**.
+- **El calendario** (fuera del Diario): `⌘G` y luego `C`, desde cualquier modo.
 
 Tú decides qué lugares muestra cada modo. Consulta
 [Puesta a punto](./setup.md).
@@ -80,7 +97,8 @@ En la parte superior de la lista:
   **Escribir · Proyectos**.
 - **El título** dice qué muestra la lista.
 - **El orden** aparece en las piezas y en las notas: **Editado**, **Creado** o
-  **Título**.
+  **Título**. En **Todas las notas**, el mismo menú tiene **Solo notas sin
+  enlaces**, que muestra solo las notas que ningún enlace toca.
 - **+** crea un documento nuevo aquí mismo. En un proyecto ofrece un capítulo
   nuevo (`⌘N`) o una parte nueva (`⇧⌘N`); cómo se llaman depende del tipo de
   proyecto.
@@ -133,16 +151,24 @@ arriba a la derecha están estos botones:
 
 | Botón | Qué hace |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de este. Consulta [Documentos lado a lado](./side-by-side.md). |
-| **⋮** | El menú del documento: destacar, añadir a un tablero, modo lectura, desplazamiento de máquina de escribir, revisar la ortografía, guardar una versión, exportar, mover a la papelera y más. |
-| **Detalles…** (la ⓘ) | El estado del documento, su sinopsis o descripción, su meta de palabras, sus etiquetas, su color y dónde está guardado. Consulta [Organizar](./organizing.md). |
+| **Buscar** (la lupa, `⌘K`) | Abre el buscador. Señálala y se abre en un campo. |
+| **⋮** | El menú del documento: destacar, añadir a un tablero, modo lectura, desplazamiento de máquina de escribir, revisar la ortografía, guardar una versión, exportar, mover a la papelera y más. El esquema, los enlaces, las notas y el historial están en el panel de Información. |
 | **Información** (`⇧⌘I`) | Abre o cierra el panel de Información. |
 | **Santuario** (`⌘.`) | Lo oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
 
+**Vista dividida** (`⌘\`) y **Detalles…** están en el menú **⋮**. Mientras estás en una de las dos, su botón aparece también en la barra, para salir con un clic.
+
 El recuento de palabras está en la esquina inferior derecha. Si el documento
 tiene una meta de palabras, la esquina muestra tus palabras y la meta. Haz
-clic una vez para abrir la pestaña **Esquema** de **Información**. Haz clic
-otra vez para abrir las **Estadísticas del documento** completas.
+clic en él para ver un menú pequeño: **Información** abre la pestaña
+**Esquema** del panel de Información, **Estadísticas…** abre las
+**Estadísticas del documento** completas y **Empezar un sprint de
+escritura…** prepara uno.
+
+Mientras escribes, los botones de arriba a la derecha de la página, la
+cabecera de la lista y el recuento de palabras se desvanecen. Mueve el
+puntero, o pulsa una flecha, `Tab`, `Esc` o un atajo, y vuelven. Nada se
+mueve cuando desaparecen.
 
 ## El panel de Información {#the-info-panel}
 
@@ -150,7 +176,8 @@ otra vez para abrir las **Estadísticas del documento** completas.
 <img src="/img/app/outline-dark.png" alt="El panel de Información junto a una página de investigación, con la pestaña Esquema abierta: palabras, tiempo de lectura, encabezados y notas al pie" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Pulsa `⇧⌘I`, o haz clic en **Información**, para abrir un panel a la derecha
-del documento. Tiene cinco pestañas:
+del documento. Tiene seis pestañas. La pestaña en la que estás muestra su nombre; señala
+las demás para ver el suyo:
 
 | Pestaña | Qué muestra |
 | --- | --- |
@@ -158,6 +185,7 @@ del documento. Tiene cinco pestañas:
 | **Enlaces** | A qué enlaza este documento y qué documentos enlazan con él, las notas enlazadas y el **Grafo local**. Consulta [Enlaces y el grafo](./links-and-graph.md). |
 | **Notas** | Sus resaltados, comentarios y notas al margen (`⇧⌘A`). Consulta [Anotaciones y notas al margen](./annotations.md). |
 | **Tareas** | Los elementos de sus listas de tareas y las tarjetas de tablero que les hacen seguimiento. |
+| **Mundo** | En Escribir: los personajes que trae el documento (mencionados con @ o por su nombre), los lugares y el saber que nombra y la investigación enlazada a él. Haz clic en un personaje, lugar o entrada de saber para ver una línea sobre él y **Abrir**; haz clic en una página de investigación para abrirla junto a la página. Los lugares y el saber se encuentran por su nombre. |
 | **Historial** | Sus versiones. Consulta [Versiones y copias de seguridad](./versions-and-backup.md). |
 
 Algunos documentos muestran otras pestañas:
@@ -167,9 +195,9 @@ Algunos documentos muestran otras pestañas:
 - Una página matinal muestra en su lugar **La práctica** e **Historial**.
 - Las páginas propias de un proyecto muestran el **Proyecto**.
 
-**Abierto y cerrado.** El panel se queda abierto hasta que lo cierras. Una vez
-cerrado, sigue cerrado en todos los documentos, incluso después de salir de Poiesis,
-hasta que vuelvas a abrirlo. Si la ventana es demasiado estrecha para
+**Abierto y cerrado.** El panel empieza cerrado. Una vez que lo abres, sigue
+abierto en todos los documentos, incluso después de salir de Poiesis, hasta que lo
+cierres; y una vez cerrado, sigue cerrado hasta que vuelvas a abrirlo. Si la ventana es demasiado estrecha para
 mostrarlo todo, Poiesis oculta el panel sin cerrarlo. Ensancha la ventana y el panel
 vuelve.
 
@@ -218,7 +246,9 @@ paleta. Antes de que escribas nada, muestra:
 - **Crear**: un documento nuevo. Aparecen más opciones a medida que escribes.
 
 Cuando escribes, Poiesis busca en todos los documentos de los tres modos, tanto en
-los títulos como en el texto. Cada resultado indica en qué modo está.
+los títulos como en el texto. Cada resultado indica en qué modo está. Debajo de
+los documentos, **Comandos** muestra los comandos cuyo nombre coincide, con su
+atajo, para que también puedas ejecutarlos desde aquí.
 
 | Tecla | Qué hace |
 | --- | --- |

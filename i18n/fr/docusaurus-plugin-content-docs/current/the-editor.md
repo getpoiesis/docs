@@ -34,18 +34,27 @@ Ces boutons se trouvent en haut à droite de la page :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de la page. Voir [Documents côte à côte](./side-by-side.md). |
+| **Rechercher** (la loupe, `⌘K`) | Ouvre la recherche. Pointez-la et elle s’ouvre en champ. |
 | **⋮** | Ouvre le menu du document, décrit plus bas. |
-| **Détails…** (ⓘ) | Affiche le statut du document, son synopsis, son objectif de mots, ses étiquettes, sa couleur, s’il est en favori, et l’endroit où il est rangé. |
-| **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend cinq parties : **Plan**, **Liens**, **Notes**, **Tâches** et **Historique**. |
+| **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend six parties : **Plan**, **Liens**, **Notes**, **Tâches**, **Monde** (dans Écrire) et **Historique**. |
 | **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
-Le nombre de mots s’affiche dans le coin inférieur droit de la page. Si le
-document a un objectif de mots, il apparaît à côté de l’objectif.
+**Vue partagée** (`⌘\`) et **Détails…** se trouvent dans le menu **⋮**. Tant que vous êtes dans l’un ou l’autre, son bouton apparaît aussi dans la barre, pour en sortir d’un clic.
 
-- Cliquez une fois sur le nombre de mots pour ouvrir **Plan** dans le panneau
-  Infos. Vous y voyez le nombre de mots et le temps de lecture.
-- Cliquez une seconde fois pour voir toutes les statistiques du document.
+Le nombre de mots s’affiche dans le coin inférieur droit de la page. Si le
+document a un objectif de mots, il apparaît à côté de l’objectif. Cliquez
+dessus pour ouvrir un menu :
+
+- **Infos** ouvre **Plan** dans le panneau Infos. Vous y voyez le nombre de
+  mots et le temps de lecture.
+- **Statistiques…** affiche toutes les statistiques du document.
+- **Lancer un sprint d’écriture…** fixe une durée et un objectif de mots pour
+  un sprint. Cette commande n’apparaît pas pendant un sprint.
+
+Pendant que vous tapez, les boutons au-dessus de la page, l’en-tête de la
+liste et le nombre de mots s’effacent : il ne reste que vos mots. Bougez le
+pointeur, ou appuyez sur une flèche, `Tab`, `Échap` ou un raccourci, et ils
+reviennent.
 
 Les notes n’affichent pas de nombre de mots.
 
@@ -146,8 +155,6 @@ concernent le document entier :
 - **Déplacer vers les pièces d’Écrire** ou **Déplacer vers Notes**, pour un
   document qui ne fait pas partie d’un projet.
 - **Détails…**, **Vue partagée** et **Ouvrir à côté…**.
-- **Plan**, **Liens et rétroliens**, **Notes** et **Historique des versions**.
-  Chacune de ces commandes ouvre la partie correspondante du panneau Infos.
 - **Enregistrer une version…** et **Ouvrir le dictionnaire** (`⌘⇧D`).
 - **Mode lecture**, **Défilement machine à écrire**, **Sanctuaire** et
   **Vérifier l’orthographe…**.
@@ -159,9 +166,15 @@ concernent le document entier :
 Sur une page du matin, **Sceller la journée** remplace **Mettre en favori** et
 **Ajouter au tableau…**.
 
+Le plan, les liens, les notes et l’historique des versions ne sont pas dans
+ce menu : ouvrez-les depuis le panneau Infos (`⌘⇧I`).
+
 Il existe un second menu. Faites un clic droit dans le texte : vous y trouvez
-les suggestions d’orthographe, puis couper, copier et coller, et enfin
-**Plan**, **Liens wiki**, **Annotations** et **Historique des versions**.
+les suggestions d’orthographe, puis couper, copier et coller. Faites un clic
+droit sur un mot bien orthographié et, si un [dictionnaire](./dictionary.md)
+installé a une entrée de synonymes pour lui, **Synonymes** en propose jusqu’à
+huit. Choisissez-en un pour le mettre à sa place, avec la même casse et en
+gardant le gras ou l’italique.
 
 ## Passer d’un document à l’autre {#move-between-documents}
 

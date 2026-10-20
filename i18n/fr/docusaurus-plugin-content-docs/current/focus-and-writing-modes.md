@@ -130,7 +130,7 @@ Vous retrouvez vos sessions à deux endroits :
   carte **Aujourd’hui**.
 - Les statistiques du document indiquent votre **Session la plus longue** et
   votre **Meilleure session (mots)**. Pour les ouvrir, cliquez sur le nombre
-  de mots, puis cliquez de nouveau dessus.
+  de mots, puis sur **Statistiques…**.
 
 Pour démarrer et terminer vous-même les sessions :
 

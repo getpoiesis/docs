@@ -59,7 +59,7 @@ Il y a trois façons de le faire :
 
 ## Lier la page à ce dont elle parle {#link-it-to-what-its-about}
 
-1. Ouvrez les **Détails…** de la page de recherche (le ⓘ en haut de la page).
+1. Ouvrez les **Détails…** de la page de recherche (**⋮** → **Détails…** en haut de la page).
 2. Sous **Recherches pour**, cliquez sur **Lier à…**.
 3. Choisissez un **Document**, un **Projet** ou un **Personnage**.
 

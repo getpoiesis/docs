@@ -97,7 +97,7 @@ Fuera de las listas y las tablas, `Tab` escribe una tabulación.
 
 | Para | Pulsa |
 | --- | --- |
-| Buscar un documento | `⌘K` |
+| Buscar un documento, un lugar o un comando | `⌘K` |
 | Abrir la paleta de comandos | `⌘P` |
 | Mostrar la tarjeta de atajos | `⌘/` |
 | Ir atrás · adelante | `⌘[` · `⌘]` |
@@ -112,15 +112,27 @@ Los botones laterales del ratón también sirven para ir atrás y adelante.
 ### Ir a {#go-to}
 
 Pulsa `⌘G`, suelta las teclas y pulsa la segunda tecla antes de que pasen unos
-dos segundos.
+dos segundos. Mientras Poiesis espera, una franja abajo de la ventana muestra las
+teclas. La misma lista está en **Ver → Ir a** y en la tarjeta de atajos (`⌘/`).
 
 | Ir a | Pulsa |
 | --- | --- |
+| Escribir | `⌘G` y luego `W` |
 | Notas | `⌘G` y luego `N` |
-| Escribir | `⌘G` y luego `C` |
 | Diario | `⌘G` y luego `J` |
-| Buscar un documento | `⌘G` y luego `S` |
+| El calendario, desde cualquier modo | `⌘G` y luego `C` |
+| Tableros: los de Notas, o el del proyecto en el que estás | `⌘G` y luego `B` |
+| La bandeja de entrada de Notas | `⌘G` y luego `I` |
+| El Inicio del modo en el que estás | `⌘G` y luego `H` |
 | El grafo | `⌘G` y luego `G` |
+| Buscar un documento (`⌘K`) | `⌘G` y luego `S` |
+| Personajes: los del proyecto abierto o los de la bóveda | `⌘G` y luego `P` |
+| Mundo (lugares, saber y cronología): el del proyecto abierto o el de la bóveda | `⌘G` y luego `L` |
+| Investigación: la del proyecto abierto o la de la bóveda | `⌘G` y luego `R` |
+| Las pestañas de un proyecto: Índice, Personajes, Mundo, Investigación, Tablero | `⌃1` a `⌃5` |
+
+Las teclas de un modo que tu bóveda no usa no aparecen. Escribir era `C`;
+ahora es `W`, y `C` es el calendario.
 
 ### En la paleta `⌘K` {#in-the-k-palette}
 

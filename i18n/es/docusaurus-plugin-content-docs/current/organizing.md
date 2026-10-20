@@ -141,7 +141,7 @@ salvo su texto. Hay tres formas de abrirla:
 <img src="/img/app/details-light.png" alt="La página Detalles de una pieza: estado, descripción, meta de palabras, etiquetas, carpeta y enlaces" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="La página Detalles de una pieza: estado, descripción, meta de palabras, etiquetas, carpeta y enlaces" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Haz clic en la ⓘ, en la parte superior de la página.
+- Elige **Detalles…** en el menú **⋮** de la parte superior de la página.
 - Haz clic en el **⋮** del documento y luego en **Detalles…**.
 - Haz clic derecho en la fila del documento, en una lista, y luego en
   **Detalles…**.

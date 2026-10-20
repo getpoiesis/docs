@@ -131,7 +131,7 @@ its text. There are three ways to open it:
 <img src="/img/app/details-light.png" alt="The Details page of a piece: status, description, word goal, tags, folder and links" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="The Details page of a piece: status, description, word goal, tags, folder and links" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Click the ⓘ at the top of the page.
+- Choose **Details…** in the **⋮** menu at the top of the page.
 - Click the document's **⋮**, then **Details…**.
 - Right-click the document's row in a list, then **Details…**.
 

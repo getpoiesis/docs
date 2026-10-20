@@ -46,20 +46,37 @@ From top to bottom, the sidebar has:
 - **The mode's places**, in groups. The table below lists them.
 - **At the bottom:** what the vault is doing now (**Saving…**,
   **Indexing…**), the **Trash**, and the **Beta** badge. Click the badge to
-  send feedback.
+  send feedback. Now and then, a quiet line above it asks how Poiesis is going.
 
 | Mode | What the sidebar lists |
 | --- | --- |
-| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **Authors**, **Research**), **Places** (**Graph**, **Calendar**) |
-| **Notes** | **Home**, **All notes**, **Starred**, **Unlinked**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Graph**, **Calendar**, **Templates**) |
+| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **World**, **Authors**, **Research**) |
+| **Notes** | **Home**, **Inbox**, **All notes**, **Starred**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Templates**) |
 | **Journal** | **Home**, **Today**, **All entries**, **Morning pages**, **Places** (**Calendar**) |
 
 Click a project to open the project's own page. The list shows its outline.
 While the project is open, the sidebar shows these under it: **Contents**,
-**Research**, **Characters**, **Board**, **Read** and **Export**.
+**Board**, **Read** and **Export**.
+
+Under the project's name in the list, five tabs show its parts: **Contents**,
+**Characters**, **World**, **Research** and **Board**. Each shows the
+project's own entries and the shared ones. The tab you're on shows its name;
+point at the others to see theirs. Press `⌃1` to `⌃5` to switch tabs, or,
+from anywhere in a project, `⌘G` then `P`, `L` or `R` for its characters,
+world or research.
+
+Characters, authors, the world and research also belong to the whole vault, so the **World** group stays in the sidebar whether or not a project is open. **Characters**, **Authors** and **Research** show part of the vault at a time: the menu under the list's title picks **This project** (the one you were in), **Not in a project**, **All**, or a project by name. Opened from a project, the list starts on that project; opened from anywhere else, on what isn't in any project. Poiesis remembers your choice for each list in each vault.
+
+Counts appear when you point at a row; the Inbox's count and a project's progress toward its word goal (a percentage) always show.
 
 Right-click a project or a folder to open its menu. To put a note in a
 folder, drag the note onto the folder in the sidebar.
+
+Some places are not in the sidebar unless you add them, but they are always
+a key away:
+
+- **The graph:** `⌘G` then `G`, or **Local graph** in Info → **Links**.
+- **The calendar** (outside Journal): `⌘G` then `C`, from any mode.
 
 You can choose which places each mode shows. See [Setting up](./setup.md).
 
@@ -75,7 +92,8 @@ At the top of the list:
   example **Write · Projects**.
 - **The title** names what the list shows.
 - **The sort** appears on pieces and notes: **Edited**, **Created** or
-  **Title**.
+  **Title**. In **All notes**, the same menu has **Only unlinked notes**,
+  which shows only the notes no link touches.
 - **+** makes a new document here. In a project, it offers a new chapter
   (`⌘N`) or a new part (`⇧⌘N`). Their names depend on the kind of project.
 - **⋮** opens a menu of less common actions. In a project, this menu also
@@ -123,16 +141,21 @@ buttons are at the top right:
 
 | Button | What it does |
 | --- | --- |
-| **Split view** (`⌘\`) | Opens a second pane beside this one. See [Documents side by side](./side-by-side.md). |
-| **⋮** | The document's menu: star, add to a board, read mode, typewriter scrolling, check spelling, save a version, export, move to the trash and more. |
-| **Details…** (the ⓘ) | The document's status, synopsis or description, word goal, tags, colour and where it lives. See [Organizing your work](./organizing.md). |
+| **Search** (the magnifier, `⌘K`) | Opens the finder. Point at it and it opens into a field. |
+| **⋮** | The document's menu: star, add to a board, read mode, typewriter scrolling, check spelling, save a version, export, move to the trash and more. The outline, links, notes and history are in the Info panel. |
 | **Info** (`⇧⌘I`) | Opens or closes the Info panel. |
 | **Sanctuary** (`⌘.`) | Hides everything but the page. See [Sanctuary & writing sessions](./focus-and-writing-modes.md). |
 
+**Split view** (`⌘\`) and **Details…** are in the **⋮** menu. While you're in either one, its button appears in the bar too, so you can leave it with a click.
+
 The word count is in the bottom-right corner. If the document has a word
-goal, the corner shows your words and the goal. Click it once to open the
-**Outline** tab of **Info**. Click it again to open the full **Document
-stats**.
+goal, the corner shows your words and the goal. Click it for a small menu:
+**Info** opens the **Outline** tab of the Info panel, **Statistics…** opens
+the full **Document stats**, and **Start a writing sprint…** sets one up.
+
+While you type, the buttons at the top right of the page, the list's header
+and the word count fade away. Move the pointer, or press an arrow key, `Tab`,
+`Esc` or a shortcut, and they come back. Nothing moves when they go.
 
 ## The Info panel
 
@@ -140,7 +163,8 @@ stats**.
 <img src="/img/app/outline-dark.png" alt="The Info panel beside a research page, on its Outline tab: words, reading time, headings and footnotes" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Press `⇧⌘I`, or click **Info**, to open a panel on the right of a document.
-It has five tabs:
+It has six tabs. The tab you're on shows its name; point at the others to
+see theirs:
 
 | Tab | What it shows |
 | --- | --- |
@@ -148,6 +172,7 @@ It has five tabs:
 | **Links** | What this document links to and what links to it, the notes linked to it, and **Local graph**. See [Links & the graph](./links-and-graph.md). |
 | **Notes** | Its highlights, comments and margin notes (`⇧⌘A`). See [Annotations](./annotations.md). |
 | **Tasks** | Its checklist items, and the board cards tracking them. |
+| **World** | In Write: the characters the document brings in (@-mentioned or named), the places and lore it names, and the research linked to it. Click a character, place or lore entry for a line about it and **Open**; click a research page to open it beside the page. Places and lore are found by their names. |
 | **History** | Its versions. See [Versions & backup](./versions-and-backup.md). |
 
 Some documents show different tabs:
@@ -156,9 +181,9 @@ Some documents show different tabs:
 - A morning page shows **The practice** and **History** instead.
 - A project's own pages show the **Project**.
 
-**Open and closed.** The panel stays open until you close it. After you
-close it, it stays closed for every document, even after you quit Poiesis, until
-you open it again. If the window is too narrow to show everything, Poiesis hides
+**Open and closed.** The panel starts closed. After you open it, it stays
+open for every document, even after you quit Poiesis, until you close it again;
+after you close it, it stays closed until you open it again. If the window is too narrow to show everything, Poiesis hides
 the panel without closing it. Make the window wider and the panel comes
 back.
 
@@ -205,7 +230,9 @@ type, it shows:
 - **Create**: a new document. More choices appear as you type.
 
 When you type, Poiesis searches every document in all three modes. It searches the
-titles and the text. Each result says which mode it is in.
+titles and the text. Each result says which mode it is in. Under the
+documents, **Commands** lists the commands whose names match, with their
+shortcuts, so you can run one from here too.
 
 | Key | What it does |
 | --- | --- |

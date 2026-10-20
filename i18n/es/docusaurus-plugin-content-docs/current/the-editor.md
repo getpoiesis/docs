@@ -33,18 +33,26 @@ Estos botones están arriba a la derecha de la página:
 
 | Botón | Para qué sirve |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de la página. Consulta [Documentos lado a lado](./side-by-side.md). |
+| **Buscar** (la lupa, `⌘K`) | Abre el buscador. Señálala y se abre en un campo. |
 | **⋮** | Abre el menú del documento, que se explica más abajo. |
-| **Detalles…** (ⓘ) | Muestra el estado del documento, su sinopsis, su meta de palabras, sus etiquetas, su color y si está destacado, además del lugar donde se guarda. |
-| **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene cinco pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. |
+| **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene seis pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas**, **Mundo** (en Escribir) e **Historial**. |
 | **Santuario** (`⌘.`) | Oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
+
+**Vista dividida** (`⌘\`) y **Detalles…** están en el menú **⋮**. Mientras estás en una de las dos, su botón aparece también en la barra, para salir con un clic.
 
 El recuento de palabras está en la esquina inferior derecha de la página. Si
 el documento tiene una meta de palabras, el recuento aparece junto a la meta.
+Haz clic en él para ver un menú:
 
-- Haz clic una vez en el recuento para abrir **Esquema** en el panel de
-  Información. Ahí verás el número de palabras y el tiempo de lectura.
-- Haz clic otra vez para ver todas las estadísticas del documento.
+- **Información** abre **Esquema** en el panel de Información. Ahí verás el
+  número de palabras y el tiempo de lectura.
+- **Estadísticas…** muestra todas las estadísticas del documento.
+- **Empezar un sprint de escritura…** fija una duración y una meta de
+  palabras para un sprint. No aparece mientras hay un sprint en marcha.
+
+Mientras escribes, los botones de encima de la página, la cabecera de la
+lista y el recuento de palabras se desvanecen y solo quedan las palabras.
+Mueve el puntero, o pulsa una flecha, `Tab`, `Esc` o un atajo, y vuelven.
 
 Las notas no muestran recuento de palabras.
 
@@ -144,8 +152,6 @@ afectan al documento entero:
 - **Mover a las piezas de Escribir** o **Mover a Notas**. Solo aparecen si
   el documento no está en un proyecto.
 - **Detalles…**, **Vista dividida** y **Abrir al lado…**.
-- **Esquema**, **Enlaces y retroenlaces**, **Notas** e **Historial de
-  versiones**. Cada una abre esa pestaña del panel de Información.
 - **Guardar versión…** y **Abrir el diccionario** (`⌘⇧D`).
 - **Modo lectura**, **Desplazamiento de máquina de escribir**, **Santuario**
   y **Revisar ortografía…**.
@@ -158,10 +164,15 @@ afectan al documento entero:
 En una página matinal, el menú tiene **Sellar el día** en lugar de
 **Destacar** y **Añadir al tablero…**.
 
-Hay un segundo menú. Haz clic derecho en el texto y verás
-las sugerencias de ortografía y las opciones de cortar, copiar y pegar,
-seguidas de **Esquema**, **Enlaces wiki**, **Anotaciones** e **Historial de
-versiones**.
+El esquema, los enlaces, las notas y el historial de versiones no están en
+este menú: ábrelos desde el panel de Información (`⌘⇧I`).
+
+Hay un segundo menú. Haz clic derecho en el texto y verás las sugerencias de
+ortografía y las opciones de cortar, copiar y pegar. Haz clic derecho en una
+palabra bien escrita y, si un [diccionario](./dictionary.md) instalado tiene
+una entrada de sinónimos para ella, **Sinónimos** muestra hasta ocho. Elige
+uno para ponerlo en su lugar, con las mismas mayúsculas y conservando la
+negrita o la cursiva.
 
 ## Moverse entre documentos {#move-between-documents}
 

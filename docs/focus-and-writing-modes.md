@@ -123,8 +123,8 @@ You can see your sessions in two places:
 - **Write**'s Home shows the minutes of the current session on its
   **Today** card.
 - The document's statistics show your **Longest session** and **Best
-  session words**. To open the statistics, click the word count, then click
-  it again.
+  session words**. To open the statistics, click the word count, then
+  **Statistics…**.
 
 To start and end sessions yourself:
 
