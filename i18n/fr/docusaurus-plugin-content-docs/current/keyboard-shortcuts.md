@@ -99,7 +99,7 @@ sélectionnez du texte.
 
 | Pour | Appuyez sur |
 | --- | --- |
-| Trouver un document | `⌘K` |
+| Trouver un document, un lieu ou une commande | `⌘K` |
 | Ouvrir la palette de commandes | `⌘P` |
 | Afficher la liste des raccourcis | `⌘/` |
 | Revenir en arrière · avancer | `⌘[` · `⌘]` |
@@ -115,15 +115,24 @@ avancer.
 ### Aller à {#go-to}
 
 Appuyez sur `⌘G`, relâchez les touches, puis appuyez sur la seconde touche dans
-les deux secondes environ.
+les deux secondes environ. Pendant que Poiesis attend, une bande en bas de la
+fenêtre liste les touches. La même liste se trouve dans **Affichage → Aller à**
+et sur la carte des raccourcis (`⌘/`).
 
 | Aller à | Appuyez sur |
 | --- | --- |
+| Écrire | `⌘G` puis `W` |
 | Notes | `⌘G` puis `N` |
-| Écrire | `⌘G` puis `C` |
 | Journal | `⌘G` puis `J` |
-| Trouver un document | `⌘G` puis `S` |
+| Le calendrier, depuis n’importe quel mode | `⌘G` puis `C` |
+| Les tableaux : ceux de Notes, ou celui du projet où vous êtes | `⌘G` puis `B` |
+| La boîte de réception de Notes | `⌘G` puis `I` |
+| L’Accueil du mode où vous êtes | `⌘G` puis `H` |
 | Le graphe | `⌘G` puis `G` |
+| Trouver un document (`⌘K`) | `⌘G` puis `S` |
+
+Les touches d’un mode que votre coffre n’utilise pas n'apparaissent pas.
+Écrire était `C` ; c’est maintenant `W`, et `C` est le calendrier.
 
 ### Dans la palette `⌘K` {#in-the-k-palette}
 

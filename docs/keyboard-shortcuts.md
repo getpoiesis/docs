@@ -96,7 +96,7 @@ Outside lists and tables, `Tab` types a tab.
 
 | To | Press |
 | --- | --- |
-| Find a document | `⌘K` |
+| Find a document, a place or a command | `⌘K` |
 | Open the command palette | `⌘P` |
 | Show the shortcuts card | `⌘/` |
 | Go back · forward | `⌘[` · `⌘]` |
@@ -110,15 +110,24 @@ The side buttons of your mouse also go back and forward.
 
 ### Go to
 
-Press `⌘G`, release the keys, then press the second key within about two seconds.
+Press `⌘G`, release the keys, then press the second key within about two
+seconds. A strip at the bottom of the window lists the keys while Poiesis waits.
+The same list is in **View → Go to** and on the shortcuts card (`⌘/`).
 
 | Go to | Press |
 | --- | --- |
+| Write | `⌘G` then `W` |
 | Notes | `⌘G` then `N` |
-| Write | `⌘G` then `C` |
 | Journal | `⌘G` then `J` |
-| Find a document | `⌘G` then `S` |
+| The calendar, from any mode | `⌘G` then `C` |
+| Boards: Notes' boards, or the board of the project you're in | `⌘G` then `B` |
+| The Notes inbox | `⌘G` then `I` |
+| The Home of the mode you're in | `⌘G` then `H` |
 | The graph | `⌘G` then `G` |
+| Find a document (`⌘K`) | `⌘G` then `S` |
+
+Keys for a mode your vault doesn't use are left out. Write used to be `C`;
+it is `W` now, and `C` is the calendar.
 
 ### In the `⌘K` palette
 

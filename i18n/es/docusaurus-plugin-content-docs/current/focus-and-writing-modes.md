@@ -130,7 +130,7 @@ Tus sesiones se ven en dos sitios:
   tarjeta **Hoy**.
 - Las estadísticas del documento muestran tu **Sesión más larga** y tu
   **Mejor sesión (palabras)**. Para abrirlas, haz clic en el recuento de
-  palabras y luego haz clic otra vez.
+  palabras y luego en **Estadísticas…**.
 
 Para empezar y terminar las sesiones por tu cuenta:
 

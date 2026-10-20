@@ -25,7 +25,8 @@ una novela y otra para un diario pueden mostrar cada una solo lo que necesita.
 4. En **Modos**, haz clic en **Escribir**, **Notas** o **Diario** para elegir
    los lugares que ofrece ese modo.
 5. Para usar la misma configuración en otra bóveda, haz clic en **Guardar
-   como…**, en **Ajustes guardados**.
+   como…**, en **Ajustes guardados**. Esta sección aparece cuando tienes más
+   de una bóveda.
 
 <img src="/img/app/setup-settings-light.png" alt="Los ajustes abiertos en la sección de configuración de la bóveda: las señales, los tres modos y las configuraciones guardadas" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/setup-settings-dark.png" alt="Los ajustes abiertos en la sección de configuración de la bóveda: las señales, los tres modos y las configuraciones guardadas" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -38,8 +39,8 @@ con los valores predeterminados que se indican más abajo.
 | Señal | Qué hace | Valor inicial |
 | --- | --- | --- |
 | **Iniciar sesiones automáticamente** | Empieza a cronometrar una sesión de escritura en cuanto tecleas la primera letra. Si la desactivas, la sesión solo empieza cuando tú lo pides: `⌘P` → **Iniciar sesión de escritura** (y **Terminar sesión de escritura**). | Activada |
-| **Estadísticas de legibilidad** | Añade el nivel de lectura y la longitud de las frases a las **Estadísticas del documento**. Para abrirlas, haz clic en el recuento de palabras, en la esquina de la página, y luego haz clic otra vez. | Desactivada |
-| **Racha** | Cómo se muestra tu racha de escritura en el Inicio y en el calendario: **Llama y número**, **Días a secas** o **Apagada**. | **Llama y número** |
+| **Estadísticas de legibilidad** | Añade el nivel de lectura y la longitud de las frases a las **Estadísticas del documento**. Para abrirlas, haz clic en el recuento de palabras, en la esquina de la página, y luego en **Estadísticas…**. | Desactivada |
+| **Racha** | Cómo se muestra tu racha de escritura en el Inicio y en el calendario: **Llama y número**, **Días a secas** o **Apagada**. | **Días a secas** |
 | **La semana empieza en** | El primer día de la semana. Lo usan el calendario y tu ritmo semanal. Este ajuste vale para todas las bóvedas. | Lunes |
 | **Ritmo semanal** | Cuántos días te propones escribir a la semana: **Ninguno**, o de **1/semana** a **7/semana**. Poiesis cuenta los últimos siete días, así que un día sin escribir no lo pone a cero. | **Ninguno** |
 
@@ -70,12 +71,21 @@ Esta tabla muestra con qué lugares empieza cada modo:
 | Lugar | Escribir | Notas | Diario |
 | --- | :---: | :---: | :---: |
 | **Personajes** | ✓ | | |
-| **Autores** | ✓ | | |
+| **Mundo** | ✓ | | |
+| **Autores** | | | |
 | **Investigación** | ✓ | nunca | |
-| **Tableros** | ✓ | ✓ | |
-| **Grafo** | ✓ | ✓ | |
-| **Calendario** | ✓ | ✓ | ✓ |
+| **Tableros** | | ✓ | |
+| **Grafo** | | | |
+| **Calendario** | | | ✓ |
 | **Empezar las páginas matinales de hoy** | | | ✓ |
+
+Los lugares que empiezan desactivados siguen a mano: el grafo con `⌘G` y
+luego `G`, el calendario con `⌘G` y luego `C` desde cualquier modo, y los
+autores desde `⌘P`. En Escribir, cada proyecto tiene su propio **Tablero**.
+
+Un modo que nunca has cambiado (**Sigue a la bóveda**) usa estos lugares de
+partida, así que cambia cuando cambian los valores por defecto de Poiesis. Un
+lugar que activaste o desactivaste tú se queda como lo dejaste.
 
 - **Escribir y Notas.** Puedes activar cualquiera de los demás lugares, menos
   las páginas matinales. Por ejemplo, puedes activar **Personajes** en Notas.
@@ -91,7 +101,8 @@ Esta tabla muestra con qué lugares empieza cada modo:
 ## Usa una configuración en otra bóveda {#use-a-setup-in-another-vault}
 
 **Ajustes guardados** conserva copias de una configuración, cada una con su
-nombre.
+nombre. Aparece en **Ajustes de escritura** cuando tienes más de una bóveda,
+o cuando ya has guardado alguna.
 
 - **Guardar como…** pone nombre a la configuración actual y guarda una copia.
   Si después cambias esta bóveda, la copia no cambia.

@@ -55,8 +55,8 @@ De haut en bas, la barre latérale comprend :
 
 | Mode | Ce qu’affiche la barre latérale |
 | --- | --- |
-| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Auteurs**, **Recherche**), **Lieux** (**Graphe**, **Calendrier**) |
-| **Notes** | **Accueil**, **Toutes les notes**, **Favoris**, **Non liées**, **Dossiers** (avec un **+** pour créer un dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Graphe**, **Calendrier**, **Modèles**) |
+| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Monde**, **Recherche**) |
+| **Notes** | **Accueil**, **Boîte de réception**, **Toutes les notes**, **Favoris**, **Dossiers** (avec un **+** pour créer un dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Modèles**) |
 | **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Lieux** (**Calendrier**) |
 
 Cliquez sur un projet pour ouvrir la page du projet lui-même. La liste en
@@ -67,6 +67,13 @@ sous son nom : **Sommaire**, **Recherche**, **Personnages**, **Tableau**,
 Faites un clic droit sur un projet ou sur un dossier pour ouvrir son menu.
 Pour ranger une note dans un dossier, faites-la glisser sur ce dossier dans
 la barre latérale.
+
+Certains lieux ne sont pas dans la barre latérale, sauf si vous les y
+ajoutez, mais ils restent à une touche :
+
+- **Le graphe :** `⌘G` puis `G`, ou **Graphe local** dans Infos → **Liens**.
+- **Le calendrier** (hors du Journal) : `⌘G` puis `C`, depuis n’importe quel mode.
+- **Les auteurs** (pseudonymes) : `⌘P`, ou les **Détails du livre** d’un projet.
 
 Vous pouvez choisir les lieux que chaque mode affiche. Voir
 [Réglages d’écriture](./setup.md).
@@ -83,7 +90,8 @@ En haut de la liste :
   vous êtes, par exemple **Écrire · Projets**.
 - **Le titre** indique ce que la liste affiche.
 - **Le tri** apparaît pour les pièces et les notes : **Modifié**, **Créé** ou
-  **Titre**.
+  **Titre**. Dans **Toutes les notes**, le même menu propose **Seulement les
+  notes sans liens**, qui n’affiche que les notes qu’aucun lien ne touche.
 - **+** crée un nouveau document à cet endroit. Dans un projet, il propose un
   nouveau chapitre (`⌘N`) ou une nouvelle partie (`⇧⌘N`). Leur nom dépend du
   type de projet.
@@ -138,15 +146,21 @@ boutons se trouvent en haut à droite :
 | Bouton | Ce qu’il fait |
 | --- | --- |
 | **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de celui-ci. Voir [Documents côte à côte](./side-by-side.md). |
-| **⋮** | Le menu du document : mettre en favori, ajouter à un tableau, mode lecture, défilement machine à écrire, vérifier l’orthographe, enregistrer une version, exporter, mettre à la corbeille, etc. |
+| **⋮** | Le menu du document : mettre en favori, ajouter à un tableau, mode lecture, défilement machine à écrire, vérifier l’orthographe, enregistrer une version, exporter, mettre à la corbeille, etc. Le plan, les liens, les notes et l’historique se trouvent dans le panneau Infos. |
 | **Détails…** (le ⓘ) | Le statut du document, son synopsis ou sa description, son objectif de mots, ses étiquettes, sa couleur et son emplacement. Voir [Organiser](./organizing.md). |
 | **Infos** (`⇧⌘I`) | Ouvre ou ferme le panneau Infos. |
 | **Sanctuaire** (`⌘.`) | Masque tout, sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
 Le nombre de mots se trouve dans le coin inférieur droit. Si le document a un
-objectif de mots, vous y voyez vos mots et l’objectif. Cliquez une fois
-dessus pour ouvrir l’onglet **Plan** du panneau **Infos**. Cliquez une
-seconde fois pour ouvrir les **Statistiques du document** complètes.
+objectif de mots, vous y voyez vos mots et l’objectif. Cliquez dessus pour
+ouvrir un petit menu : **Infos** ouvre l’onglet **Plan** du panneau Infos,
+**Statistiques…** ouvre les **Statistiques du document** complètes, et
+**Lancer un sprint d’écriture…** en prépare un.
+
+Pendant que vous tapez, les boutons en haut à droite de la page, l’en-tête de
+la liste et le nombre de mots s’effacent. Bougez le pointeur, ou appuyez sur
+une flèche, `Tab`, `Échap` ou un raccourci, et ils reviennent. Rien ne bouge
+quand ils disparaissent.
 
 ## Le panneau Infos {#the-info-panel}
 
@@ -171,9 +185,9 @@ Certains documents affichent d’autres onglets :
 - Une page du matin affiche à la place **La pratique** et **Historique**.
 - Les pages du projet lui-même affichent **Projet**.
 
-**Ouvert ou fermé.** Le panneau reste ouvert tant que vous ne le fermez pas.
-Une fois fermé, il le reste pour tous les documents, même après avoir quitté
-Poiesis, jusqu’à ce que vous le rouvriez. Si la fenêtre est trop étroite pour tout
+**Ouvert ou fermé.** Le panneau est fermé au départ. Une fois ouvert, il le
+reste pour tous les documents, même après avoir quitté Poiesis, jusqu’à ce que
+vous le fermiez ; une fois fermé, il le reste jusqu’à ce que vous le rouvriez. Si la fenêtre est trop étroite pour tout
 afficher, Poiesis masque le panneau sans le fermer. Élargissez la fenêtre, et le
 panneau revient.
 
@@ -190,25 +204,31 @@ du panneau Infos, ou faites-le glisser presque jusqu’au bord.
 Pour ouvrir l’Accueil du mode où vous vous trouvez, appuyez sur `⌘⇧H` ou
 cliquez sur **Accueil**, en haut de la barre latérale.
 
+Chaque Accueil s’ouvre sur ce que vous avez en cours. Les chiffres sont
+repliés sous une seule ligne, **Plus**, en bas : cliquez dessus pour l’ouvrir.
+Elle reste ouverte jusqu’à ce que vous la refermiez, tant que Poiesis tourne.
+
 **Écrire** affiche :
 
-- Le chapitre à **Reprendre**, les projets **En cours**, les **Pièces**
-  récentes et les **Recherches récentes**.
-- À côté : **Aujourd’hui** (les mots du jour, votre série, la session en
-  cours, les jours de la semaine où vous avez écrit), le mois, et ce qui est
-  **À rendre cette semaine** sur vos tableaux.
+- Le chapitre à **Reprendre**, les projets **En cours**, **Nouveau projet**
+  et les **Pièces** récentes.
+- Sous **Plus** : **Aujourd’hui** (les mots du jour, votre série, la session
+  en cours, les jours de la semaine où vous avez écrit), le mois, ce qui est
+  **À rendre cette semaine** sur vos tableaux et les recherches en cours.
 
 **Notes** affiche :
 
 - **Notez une idée…**, les notes sous **Modifié récemment** et vos **Actions
   en cours**.
-- À côté : le mois, vos notes sous **Favoris** et vos **Étiquettes**.
+- À côté : vos notes sous **Favoris** et vos **Étiquettes**.
+- Sous **Plus** : le mois.
 
 **Journal** affiche :
 
 - L’entrée du jour, **Cette semaine** et les jours précédents.
-- À côté : les **Pages du matin** du jour, le mois et **Ce jour-là**. **Ce
-  jour-là** affiche ce que vous avez écrit à la même date, les autres années.
+- À côté : les **Pages du matin** du jour.
+- Sous **Plus** : le mois et **Ce jour-là**, qui affiche ce que vous avez
+  écrit à la même date, les autres années.
 
 ## Tout trouver : `⌘K` {#find-anything-k}
 
@@ -226,7 +246,9 @@ la palette. Avant que vous ne tapiez quoi que ce soit, elle affiche :
 
 Dès que vous tapez, Poiesis cherche dans tous les documents des trois modes, dans
 les titres comme dans le texte. Chaque résultat indique le mode où il se
-trouve.
+trouve. Sous les documents, **Commandes** liste les commandes dont le nom
+correspond, avec leur raccourci, pour que vous puissiez aussi les lancer
+d’ici.
 
 | Touche | Ce qu’elle fait |
 | --- | --- |

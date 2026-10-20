@@ -25,7 +25,7 @@ can each show only what they need.
 4. Under **Modes**, click **Write**, **Notes** or **Journal** to choose the
    places that mode offers.
 5. To use the same setup in another vault, click **Save as…** under **Saved
-   setups**.
+   setups**. This section appears once you have more than one vault.
 
 <img src="/img/app/setup-settings-light.png" alt="Settings open on Setup: the signals, the three modes and the saved setups" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/setup-settings-dark.png" alt="Settings open on Setup: the signals, the three modes and the saved setups" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -38,8 +38,8 @@ defaults shown below.
 | Signal | What it does | Starts as |
 | --- | --- | --- |
 | **Start sessions automatically** | Starts timing a writing session when you type the first letter. If you turn it off, a session starts only when you ask: `⌘P` → **Start writing session** (and **End writing session**). | On |
-| **Readability statistics** | Adds reading grade and sentence length to a document's **Document stats**. To open them, click the word count in the corner of the page, then click it again. | Off |
-| **Streak** | How your writing streak shows on Home and in the calendar: **Flame and count**, **Plain days**, or **Off**. | **Flame and count** |
+| **Readability statistics** | Adds reading grade and sentence length to a document's **Document stats**. To open them, click the word count in the corner of the page, then **Statistics…**. | Off |
+| **Streak** | How your writing streak shows on Home and in the calendar: **Flame and count**, **Plain days**, or **Off**. | **Plain days** |
 | **Week starts on** | The first day of the week. The calendar and your weekly pace use it. This setting applies to every vault. | Monday |
 | **Weekly pace** | A target number of writing days in a week: **None**, or **1/week** to **7/week**. Poiesis counts the last seven days, so one missed day does not reset it. | **None** |
 
@@ -69,12 +69,21 @@ This table shows which places each mode starts with:
 | Place | Write | Notes | Journal |
 | --- | :---: | :---: | :---: |
 | **Characters** | ✓ | | |
-| **Authors** | ✓ | | |
+| **World** | ✓ | | |
+| **Authors** | | | |
 | **Research** | ✓ | never | |
-| **Boards** | ✓ | ✓ | |
-| **Graph** | ✓ | ✓ | |
-| **Calendar** | ✓ | ✓ | ✓ |
+| **Boards** | | ✓ | |
+| **Graph** | | | |
+| **Calendar** | | | ✓ |
 | **Start today's morning pages** | | | ✓ |
+
+The places that start off are still easy to reach: the graph with `⌘G` then
+`G`, the calendar with `⌘G` then `C` from any mode, and authors from `⌘P`.
+In Write, each project has its own **Board** under it.
+
+A mode you have never changed (**Follows the vault**) uses these starting
+places, so it changes when Poiesis's defaults change. A place you turned on or
+off yourself stays as you set it.
 
 - **Write and Notes.** You can turn on any of the other places, except the
   morning pages. For example, you can turn on **Characters** in Notes.
@@ -89,7 +98,8 @@ This table shows which places each mode starts with:
 
 ## Use a setup in another vault
 
-**Saved setups** keeps named copies of a setup.
+**Saved setups** keeps named copies of a setup. It appears in **Setup** when
+you have more than one vault, or when you have already saved a setup.
 
 - **Save as…** gives the current setup a name and keeps a copy. If you
   change this vault later, the copy does not change.

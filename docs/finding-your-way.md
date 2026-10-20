@@ -50,8 +50,8 @@ From top to bottom, the sidebar has:
 
 | Mode | What the sidebar lists |
 | --- | --- |
-| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **Authors**, **Research**), **Places** (**Graph**, **Calendar**) |
-| **Notes** | **Home**, **All notes**, **Starred**, **Unlinked**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Graph**, **Calendar**, **Templates**) |
+| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **World**, **Research**) |
+| **Notes** | **Home**, **Inbox**, **All notes**, **Starred**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Templates**) |
 | **Journal** | **Home**, **Today**, **All entries**, **Morning pages**, **Places** (**Calendar**) |
 
 Click a project to open the project's own page. The list shows its outline.
@@ -60,6 +60,13 @@ While the project is open, the sidebar shows these under it: **Contents**,
 
 Right-click a project or a folder to open its menu. To put a note in a
 folder, drag the note onto the folder in the sidebar.
+
+Some places are not in the sidebar unless you add them, but they are always
+a key away:
+
+- **The graph:** `⌘G` then `G`, or **Local graph** in Info → **Links**.
+- **The calendar** (outside Journal): `⌘G` then `C`, from any mode.
+- **Authors** (pen names): `⌘P`, or a project's **Book details**.
 
 You can choose which places each mode shows. See [Setting up](./setup.md).
 
@@ -75,7 +82,8 @@ At the top of the list:
   example **Write · Projects**.
 - **The title** names what the list shows.
 - **The sort** appears on pieces and notes: **Edited**, **Created** or
-  **Title**.
+  **Title**. In **All notes**, the same menu has **Only unlinked notes**,
+  which shows only the notes no link touches.
 - **+** makes a new document here. In a project, it offers a new chapter
   (`⌘N`) or a new part (`⇧⌘N`). Their names depend on the kind of project.
 - **⋮** opens a menu of less common actions. In a project, this menu also
@@ -124,15 +132,19 @@ buttons are at the top right:
 | Button | What it does |
 | --- | --- |
 | **Split view** (`⌘\`) | Opens a second pane beside this one. See [Documents side by side](./side-by-side.md). |
-| **⋮** | The document's menu: star, add to a board, read mode, typewriter scrolling, check spelling, save a version, export, move to the trash and more. |
+| **⋮** | The document's menu: star, add to a board, read mode, typewriter scrolling, check spelling, save a version, export, move to the trash and more. The outline, links, notes and history are in the Info panel. |
 | **Details…** (the ⓘ) | The document's status, synopsis or description, word goal, tags, colour and where it lives. See [Organizing your work](./organizing.md). |
 | **Info** (`⇧⌘I`) | Opens or closes the Info panel. |
 | **Sanctuary** (`⌘.`) | Hides everything but the page. See [Sanctuary & writing sessions](./focus-and-writing-modes.md). |
 
 The word count is in the bottom-right corner. If the document has a word
-goal, the corner shows your words and the goal. Click it once to open the
-**Outline** tab of **Info**. Click it again to open the full **Document
-stats**.
+goal, the corner shows your words and the goal. Click it for a small menu:
+**Info** opens the **Outline** tab of the Info panel, **Statistics…** opens
+the full **Document stats**, and **Start a writing sprint…** sets one up.
+
+While you type, the buttons at the top right of the page, the list's header
+and the word count fade away. Move the pointer, or press an arrow key, `Tab`,
+`Esc` or a shortcut, and they come back. Nothing moves when they go.
 
 ## The Info panel
 
@@ -156,9 +168,9 @@ Some documents show different tabs:
 - A morning page shows **The practice** and **History** instead.
 - A project's own pages show the **Project**.
 
-**Open and closed.** The panel stays open until you close it. After you
-close it, it stays closed for every document, even after you quit Poiesis, until
-you open it again. If the window is too narrow to show everything, Poiesis hides
+**Open and closed.** The panel starts closed. After you open it, it stays
+open for every document, even after you quit Poiesis, until you close it again;
+after you close it, it stays closed until you open it again. If the window is too narrow to show everything, Poiesis hides
 the panel without closing it. Make the window wider and the panel comes
 back.
 
@@ -174,24 +186,31 @@ or drag it most of the way closed.
 To open the Home of the mode you are in, press `⌘⇧H` or click **Home** at
 the top of the sidebar.
 
+Each Home opens on what you're working on. The figures fold under one
+**More** line at the bottom: click it to open them. It stays open until you
+close it, while Poiesis is running.
+
 **Write** shows:
 
-- The chapter to **Continue**, the projects you are **Working on**, recent
-  **Pieces** and **Recent research**.
-- Beside them: **Today** (words today, your streak, this sitting, days this
-  week), the month, and what is **Due this week** on your boards.
+- The chapter to **Continue**, the projects you are **Working on**,
+  **New project** and recent **Pieces**.
+- Under **More**: **Today** (words today, your streak, this sitting, days
+  this week), the month, what is **Due this week** on your boards, and
+  research in progress.
 
 **Notes** shows:
 
 - **Capture a thought…**, the notes you **Recently edited** and your **Open
   action items**.
-- Beside them: the month, your **Starred** notes and your **Tags**.
+- Beside them: your **Starred** notes and your **Tags**.
+- Under **More**: the month.
 
 **Journal** shows:
 
 - Today's entry, **This week** and the days before.
-- Beside them: today's **Morning page**, the month, and **On this day**.
-  **On this day** shows what you wrote on this date in other years.
+- Beside them: today's **Morning page**.
+- Under **More**: the month and **On this day**, which shows what you wrote
+  on this date in other years.
 
 ## Find anything: `⌘K`
 
@@ -205,7 +224,9 @@ type, it shows:
 - **Create**: a new document. More choices appear as you type.
 
 When you type, Poiesis searches every document in all three modes. It searches the
-titles and the text. Each result says which mode it is in.
+titles and the text. Each result says which mode it is in. Under the
+documents, **Commands** lists the commands whose names match, with their
+shortcuts, so you can run one from here too.
 
 | Key | What it does |
 | --- | --- |

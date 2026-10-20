@@ -39,11 +39,17 @@ These buttons are at the top right of the page:
 | **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes.md). |
 
 The word count is in the bottom-right corner of the page. If the document
-has a word goal, the count is shown next to the goal.
+has a word goal, the count is shown next to the goal. Click it for a menu:
 
-- Click the word count once to open **Outline** in the Info panel. It shows
-  the number of words and the reading time.
-- Click it again to see all the document's statistics.
+- **Info** opens **Outline** in the Info panel. It shows the number of words
+  and the reading time.
+- **Statistics…** shows all the document's statistics.
+- **Start a writing sprint…** sets a length and a word target for a sprint.
+  It isn't offered while a sprint is running.
+
+While you type, the buttons above the page, the list's header and the word
+count fade away, so only the words are left. Move the pointer, or press an
+arrow key, `Tab`, `Esc` or a shortcut, and they come back.
 
 Notes do not show a word count.
 
@@ -136,8 +142,6 @@ document:
 - **Move to Write's pieces** or **Move to Notes**. These appear for a
   document that is not in a project.
 - **Details…**, **Split view** and **Open beside…**.
-- **Outline**, **Links and backlinks**, **Notes** and **Version history**.
-  Each one opens that part of the Info panel.
 - **Save version…** and **Open dictionary** (`⌘⇧D`).
 - **Read mode**, **Typewriter scrolling**, **Sanctuary** and **Check
   spelling…**.
@@ -149,9 +153,14 @@ document:
 On a morning page, the menu has **Seal day** in place of **Star** and
 **Add to board…**.
 
+The outline, links, notes and version history are not in this menu: open
+them from the Info panel (`⌘⇧I`).
+
 There is a second menu. Right-click in the text to see spelling
-suggestions, cut, copy and paste, followed by **Outline**, **Wiki links**,
-**Annotations** and **Version history**.
+suggestions, then cut, copy and paste. Right-click a word that is spelled
+correctly and, if an installed [dictionary](./dictionary.md) has a thesaurus
+entry for it, **Synonyms** lists up to eight. Choose one to put it in the
+word's place, in the same case and keeping its bold or italic.
 
 ## Move between documents
 
