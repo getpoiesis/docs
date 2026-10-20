@@ -33,11 +33,12 @@ Estos botones están arriba a la derecha de la página:
 
 | Botón | Para qué sirve |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de la página. Consulta [Documentos lado a lado](./side-by-side.md). |
+| **Buscar** (la lupa, `⌘K`) | Abre el buscador. Señálala y se abre en un campo. |
 | **⋮** | Abre el menú del documento, que se explica más abajo. |
-| **Detalles…** (ⓘ) | Muestra el estado del documento, su sinopsis, su meta de palabras, sus etiquetas, su color y si está destacado, además del lugar donde se guarda. |
 | **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene cinco pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. |
 | **Santuario** (`⌘.`) | Oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
+
+**Vista dividida** (`⌘\`) y **Detalles…** están en el menú **⋮**. Mientras estás en una de las dos, su botón aparece también en la barra, para salir con un clic.
 
 El recuento de palabras está en la esquina inferior derecha de la página. Si
 el documento tiene una meta de palabras, el recuento aparece junto a la meta.

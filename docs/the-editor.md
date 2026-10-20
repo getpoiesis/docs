@@ -32,11 +32,12 @@ These buttons are at the top right of the page:
 
 | Button | What it does |
 | --- | --- |
-| **Split view** (`⌘\`) | Opens a second pane beside the page. See [Side by side](./side-by-side.md). |
+| **Search** (the magnifier, `⌘K`) | Opens the finder. Point at it and it opens into a field. |
 | **⋮** | Opens the document's menu, described below. |
-| **Details…** (ⓘ) | Shows the document's status, synopsis, word goal, tags, colour and star, and where the document is kept. |
 | **Info** (`⌘⇧I`) | Opens the Info panel. It has five parts: **Outline**, **Links**, **Notes**, **Tasks** and **History**. |
 | **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes.md). |
+
+**Split view** (`⌘\`) and **Details…** are in the **⋮** menu. While you're in either one, its button appears in the bar too, so you can leave it with a click.
 
 The word count is in the bottom-right corner of the page. If the document
 has a word goal, the count is shown next to the goal. Click it for a menu:

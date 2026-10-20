@@ -59,7 +59,7 @@ Hay tres formas:
 
 ## Vincularla a aquello de lo que trata {#link-it-to-what-its-about}
 
-1. Abre los **Detalles…** de la página de investigación (la ⓘ de la parte
+1. Abre los **Detalles…** de la página de investigación (**⋮** → **Detalles…**, en la parte
    superior de la página).
 2. En **Investigación para**, haz clic en **Enlazar con…**.
 3. Elige un **Documento**, un **Proyecto** o un **Personaje**.

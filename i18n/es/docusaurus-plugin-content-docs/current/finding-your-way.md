@@ -48,7 +48,8 @@ De arriba abajo, la barra lateral tiene:
 - **Los lugares del modo**, por grupos. Están en la tabla de más abajo.
 - **En la parte inferior:** lo que la bóveda está haciendo en ese momento
   (**Guardando…**, **Indexando…**), la **Papelera** y la insignia **Beta**.
-  Haz clic en la insignia para enviarnos tus comentarios.
+  Haz clic en la insignia para enviarnos tus comentarios. De vez en cuando,
+  una línea discreta encima pregunta qué tal te va con Poiesis.
 
 | Modo | Qué aparece en la barra lateral |
 | --- | --- |
@@ -60,6 +61,8 @@ Haz clic en un proyecto para abrir su página propia. La lista muestra su
 esquema. Mientras el proyecto está abierto, debajo de él aparecen en la barra
 lateral **Índice**, **Investigación**, **Personajes**, **Tablero**, **Leer** y
 **Exportar**.
+
+Mientras un proyecto está abierto, sus propias filas sustituyen al grupo **Mundo** de toda la bóveda, así que a cada lugar se llega por un solo camino. Los recuentos aparecen al señalar una fila; la Bandeja de entrada siempre muestra el suyo. Un proyecto con meta de palabras muestra su avance como un anillo fino alrededor de su icono.
 
 Haz clic derecho en un proyecto o en una carpeta para abrir su menú. Para
 meter una nota en una carpeta, arrástrala hasta la carpeta en la barra
@@ -141,11 +144,12 @@ arriba a la derecha están estos botones:
 
 | Botón | Qué hace |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de este. Consulta [Documentos lado a lado](./side-by-side.md). |
+| **Buscar** (la lupa, `⌘K`) | Abre el buscador. Señálala y se abre en un campo. |
 | **⋮** | El menú del documento: destacar, añadir a un tablero, modo lectura, desplazamiento de máquina de escribir, revisar la ortografía, guardar una versión, exportar, mover a la papelera y más. El esquema, los enlaces, las notas y el historial están en el panel de Información. |
-| **Detalles…** (la ⓘ) | El estado del documento, su sinopsis o descripción, su meta de palabras, sus etiquetas, su color y dónde está guardado. Consulta [Organizar](./organizing.md). |
 | **Información** (`⇧⌘I`) | Abre o cierra el panel de Información. |
 | **Santuario** (`⌘.`) | Lo oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
+
+**Vista dividida** (`⌘\`) y **Detalles…** están en el menú **⋮**. Mientras estás en una de las dos, su botón aparece también en la barra, para salir con un clic.
 
 El recuento de palabras está en la esquina inferior derecha. Si el documento
 tiene una meta de palabras, la esquina muestra tus palabras y la meta. Haz

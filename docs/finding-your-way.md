@@ -46,7 +46,7 @@ From top to bottom, the sidebar has:
 - **The mode's places**, in groups. The table below lists them.
 - **At the bottom:** what the vault is doing now (**Saving…**,
   **Indexing…**), the **Trash**, and the **Beta** badge. Click the badge to
-  send feedback.
+  send feedback. Now and then, a quiet line above it asks how Poiesis is going.
 
 | Mode | What the sidebar lists |
 | --- | --- |
@@ -57,6 +57,8 @@ From top to bottom, the sidebar has:
 Click a project to open the project's own page. The list shows its outline.
 While the project is open, the sidebar shows these under it: **Contents**,
 **Research**, **Characters**, **Board**, **Read** and **Export**.
+
+While a project is open, its own rows replace the vault-wide **World** group, so each place has one way in. Counts appear when you point at a row; the Inbox always shows its count. A project with a word goal shows its progress as a thin ring round its icon.
 
 Right-click a project or a folder to open its menu. To put a note in a
 folder, drag the note onto the folder in the sidebar.
@@ -131,11 +133,12 @@ buttons are at the top right:
 
 | Button | What it does |
 | --- | --- |
-| **Split view** (`⌘\`) | Opens a second pane beside this one. See [Documents side by side](./side-by-side.md). |
+| **Search** (the magnifier, `⌘K`) | Opens the finder. Point at it and it opens into a field. |
 | **⋮** | The document's menu: star, add to a board, read mode, typewriter scrolling, check spelling, save a version, export, move to the trash and more. The outline, links, notes and history are in the Info panel. |
-| **Details…** (the ⓘ) | The document's status, synopsis or description, word goal, tags, colour and where it lives. See [Organizing your work](./organizing.md). |
 | **Info** (`⇧⌘I`) | Opens or closes the Info panel. |
 | **Sanctuary** (`⌘.`) | Hides everything but the page. See [Sanctuary & writing sessions](./focus-and-writing-modes.md). |
+
+**Split view** (`⌘\`) and **Details…** are in the **⋮** menu. While you're in either one, its button appears in the bar too, so you can leave it with a click.
 
 The word count is in the bottom-right corner. If the document has a word
 goal, the corner shows your words and the goal. Click it for a small menu:

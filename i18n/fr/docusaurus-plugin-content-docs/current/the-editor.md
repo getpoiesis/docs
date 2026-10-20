@@ -34,11 +34,12 @@ Ces boutons se trouvent en haut à droite de la page :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de la page. Voir [Documents côte à côte](./side-by-side.md). |
+| **Rechercher** (la loupe, `⌘K`) | Ouvre la recherche. Pointez-la et elle s’ouvre en champ. |
 | **⋮** | Ouvre le menu du document, décrit plus bas. |
-| **Détails…** (ⓘ) | Affiche le statut du document, son synopsis, son objectif de mots, ses étiquettes, sa couleur, s’il est en favori, et l’endroit où il est rangé. |
 | **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend cinq parties : **Plan**, **Liens**, **Notes**, **Tâches** et **Historique**. |
 | **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
+
+**Vue partagée** (`⌘\`) et **Détails…** se trouvent dans le menu **⋮**. Tant que vous êtes dans l’un ou l’autre, son bouton apparaît aussi dans la barre, pour en sortir d’un clic.
 
 Le nombre de mots s’affiche dans le coin inférieur droit de la page. Si le
 document a un objectif de mots, il apparaît à côté de l’objectif. Cliquez

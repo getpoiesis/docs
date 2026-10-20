@@ -55,7 +55,7 @@ There are three ways:
 
 ## Link it to what it's about
 
-1. Open the research page's **Details…** (the ⓘ at the top of the page).
+1. Open the research page's **Details…** (**⋮** → **Details…** at the top of the page).
 2. Under **Research for**, click **Link to…**.
 3. Choose a **Document**, a **Project** or a **Character**.
 

@@ -51,7 +51,9 @@ De haut en bas, la barre latérale comprend :
   la liste.
 - **Tout en bas :** ce que le coffre est en train de faire
   (**Enregistrement…**, **Indexation…**), la **Corbeille** et le badge
-  **Bêta**. Cliquez sur le badge pour nous envoyer vos remarques.
+  **Bêta**. Cliquez sur le badge pour nous envoyer vos remarques. De temps
+  en temps, une ligne discrète au-dessus vous demande comment ça se passe
+  avec Poiesis.
 
 | Mode | Ce qu’affiche la barre latérale |
 | --- | --- |
@@ -63,6 +65,8 @@ Cliquez sur un projet pour ouvrir la page du projet lui-même. La liste en
 affiche le plan. Tant que le projet est ouvert, la barre latérale affiche
 sous son nom : **Sommaire**, **Recherche**, **Personnages**, **Tableau**,
 **Lire** et **Exporter**.
+
+Tant qu’un projet est ouvert, ses propres lignes remplacent le groupe **Monde** de tout le coffre : chaque lieu n’a qu’un chemin. Les nombres apparaissent quand vous pointez une ligne ; la Boîte de réception affiche toujours le sien. Un projet qui a un objectif de mots montre sa progression par un anneau fin autour de son icône.
 
 Faites un clic droit sur un projet ou sur un dossier pour ouvrir son menu.
 Pour ranger une note dans un dossier, faites-la glisser sur ce dossier dans
@@ -145,11 +149,12 @@ boutons se trouvent en haut à droite :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de celui-ci. Voir [Documents côte à côte](./side-by-side.md). |
+| **Rechercher** (la loupe, `⌘K`) | Ouvre la recherche. Pointez-la et elle s’ouvre en champ. |
 | **⋮** | Le menu du document : mettre en favori, ajouter à un tableau, mode lecture, défilement machine à écrire, vérifier l’orthographe, enregistrer une version, exporter, mettre à la corbeille, etc. Le plan, les liens, les notes et l’historique se trouvent dans le panneau Infos. |
-| **Détails…** (le ⓘ) | Le statut du document, son synopsis ou sa description, son objectif de mots, ses étiquettes, sa couleur et son emplacement. Voir [Organiser](./organizing.md). |
 | **Infos** (`⇧⌘I`) | Ouvre ou ferme le panneau Infos. |
 | **Sanctuaire** (`⌘.`) | Masque tout, sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
+
+**Vue partagée** (`⌘\`) et **Détails…** se trouvent dans le menu **⋮**. Tant que vous êtes dans l’un ou l’autre, son bouton apparaît aussi dans la barre, pour en sortir d’un clic.
 
 Le nombre de mots se trouve dans le coin inférieur droit. Si le document a un
 objectif de mots, vous y voyez vos mots et l’objectif. Cliquez dessus pour
