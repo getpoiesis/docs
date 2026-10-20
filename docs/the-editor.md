@@ -34,7 +34,7 @@ These buttons are at the top right of the page:
 | --- | --- |
 | **Search** (the magnifier, `⌘K`) | Opens the finder. Point at it and it opens into a field. |
 | **⋮** | Opens the document's menu, described below. |
-| **Info** (`⌘⇧I`) | Opens the Info panel. It has five parts: **Outline**, **Links**, **Notes**, **Tasks** and **History**. |
+| **Info** (`⌘⇧I`) | Opens the Info panel. It has six parts: **Outline**, **Links**, **Notes**, **Tasks**, **World** (in Write) and **History**. |
 | **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes.md). |
 
 **Split view** (`⌘\`) and **Details…** are in the **⋮** menu. While you're in either one, its button appears in the bar too, so you can leave it with a click.

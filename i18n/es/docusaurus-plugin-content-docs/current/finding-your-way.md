@@ -53,16 +53,24 @@ De arriba abajo, la barra lateral tiene:
 
 | Modo | Qué aparece en la barra lateral |
 | --- | --- |
-| **Escribir** | **Inicio**, **Piezas**, **Proyectos** (cada proyecto, **Nuevo proyecto** y, cuando has guardado alguno, **Guardados**), **Mundo** (**Personajes**, **Mundo**, **Investigación**) |
+| **Escribir** | **Inicio**, **Piezas**, **Proyectos** (cada proyecto, **Nuevo proyecto** y, cuando has guardado alguno, **Guardados**), **Mundo** (**Personajes**, **Mundo**, **Autores**, **Investigación**) |
 | **Notas** | **Inicio**, **Bandeja de entrada**, **Todas las notas**, **Destacados**, **Carpetas** (con un **+** para crear una carpeta), **Etiquetas**, **Lugares** (**Tableros**, **Plantillas**) |
 | **Diario** | **Inicio**, **Hoy**, **Todas las entradas**, **Páginas matinales**, **Lugares** (**Calendario**) |
 
 Haz clic en un proyecto para abrir su página propia. La lista muestra su
 esquema. Mientras el proyecto está abierto, debajo de él aparecen en la barra
-lateral **Índice**, **Investigación**, **Personajes**, **Tablero**, **Leer** y
-**Exportar**.
+lateral **Índice**, **Tablero**, **Leer** y **Exportar**.
 
-Mientras un proyecto está abierto, sus propias filas sustituyen al grupo **Mundo** de toda la bóveda, así que a cada lugar se llega por un solo camino. Los recuentos aparecen al señalar una fila; la Bandeja de entrada siempre muestra el suyo. Un proyecto con meta de palabras muestra su avance como un anillo fino alrededor de su icono.
+Bajo el nombre del proyecto, en la lista, cinco pestañas muestran sus partes:
+**Índice**, **Personajes**, **Mundo**, **Investigación** y **Tablero**. Cada
+una muestra lo propio del proyecto y lo compartido. La pestaña en la que estás
+muestra su nombre; señala las demás para ver el suyo. Pulsa `⌃1` a `⌃5` para
+cambiar de pestaña o, desde cualquier lugar de un proyecto, `⌘G` y luego `P`,
+`L` o `R` para sus personajes, su mundo o su investigación.
+
+Los personajes, los autores, el mundo y la investigación también son de toda la bóveda, así que el grupo **Mundo** sigue en la barra lateral haya o no un proyecto abierto. **Personajes**, **Autores** e **Investigación** muestran una parte de la bóveda cada vez: el menú bajo el título de la lista elige **Este proyecto** (aquel en el que estabas), **Sin proyecto**, **Todo** o un proyecto por su nombre. Abierta desde un proyecto, la lista empieza en ese proyecto; abierta desde cualquier otro sitio, en lo que no pertenece a ningún proyecto. Poiesis recuerda tu elección para cada lista en cada bóveda.
+
+Los recuentos aparecen al señalar una fila; el de la Bandeja de entrada y el avance de un proyecto hacia su meta de palabras (un porcentaje) se ven siempre.
 
 Haz clic derecho en un proyecto o en una carpeta para abrir su menú. Para
 meter una nota en una carpeta, arrástrala hasta la carpeta en la barra
@@ -73,7 +81,6 @@ siempre quedan a una tecla:
 
 - **El grafo:** `⌘G` y luego `G`, o **Grafo local** en Información → **Enlaces**.
 - **El calendario** (fuera del Diario): `⌘G` y luego `C`, desde cualquier modo.
-- **Autores** (seudónimos): `⌘P`, o los **Detalles del libro** de un proyecto.
 
 Tú decides qué lugares muestra cada modo. Consulta
 [Puesta a punto](./setup.md).
@@ -169,7 +176,8 @@ mueve cuando desaparecen.
 <img src="/img/app/outline-dark.png" alt="El panel de Información junto a una página de investigación, con la pestaña Esquema abierta: palabras, tiempo de lectura, encabezados y notas al pie" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Pulsa `⇧⌘I`, o haz clic en **Información**, para abrir un panel a la derecha
-del documento. Tiene cinco pestañas:
+del documento. Tiene seis pestañas. La pestaña en la que estás muestra su nombre; señala
+las demás para ver el suyo:
 
 | Pestaña | Qué muestra |
 | --- | --- |
@@ -177,6 +185,7 @@ del documento. Tiene cinco pestañas:
 | **Enlaces** | A qué enlaza este documento y qué documentos enlazan con él, las notas enlazadas y el **Grafo local**. Consulta [Enlaces y el grafo](./links-and-graph.md). |
 | **Notas** | Sus resaltados, comentarios y notas al margen (`⇧⌘A`). Consulta [Anotaciones y notas al margen](./annotations.md). |
 | **Tareas** | Los elementos de sus listas de tareas y las tarjetas de tablero que les hacen seguimiento. |
+| **Mundo** | En Escribir: los personajes que trae el documento (mencionados con @ o por su nombre), los lugares y el saber que nombra y la investigación enlazada a él. Haz clic en un personaje, lugar o entrada de saber para ver una línea sobre él y **Abrir**; haz clic en una página de investigación para abrirla junto a la página. Los lugares y el saber se encuentran por su nombre. |
 | **Historial** | Sus versiones. Consulta [Versiones y copias de seguridad](./versions-and-backup.md). |
 
 Algunos documentos muestran otras pestañas:
@@ -204,31 +213,24 @@ de Información, o arrástrala hasta dejarlo casi cerrado.
 Para abrir el Inicio del modo en el que estás, pulsa `⌘⇧H` o haz clic en
 **Inicio**, en la parte superior de la barra lateral.
 
-Cada Inicio se abre con aquello en lo que trabajas. Las cifras se pliegan en
-una sola línea, **Más**, al final: haz clic para abrirla. Se queda abierta
-hasta que la cierres, mientras Poiesis esté en marcha.
-
 **Escribir** muestra:
 
 - El capítulo por el que **Continuar**, los proyectos que tienes **En
-  marcha**, **Nuevo proyecto** y las **Piezas** recientes.
-- En **Más**: **Hoy** (las palabras de hoy, tu racha, esta sesión, los días
-  de esta semana), el mes, lo que **Vence esta semana** en tus tableros y la
-  investigación en curso.
+  marcha**, las **Piezas** recientes y la **Investigación reciente**.
+- Al lado: **Hoy** (las palabras de hoy, tu racha, esta sesión, los días de
+  esta semana), el mes y lo que **Vence esta semana** en tus tableros.
 
 **Notas** muestra:
 
 - **Anota una idea…**, las notas de **Editado recientemente** y tus **Acciones
   pendientes**.
-- Al lado: tus notas de **Destacados** y tus **Etiquetas**.
-- En **Más**: el mes.
+- Al lado: el mes, tus notas de **Destacados** y tus **Etiquetas**.
 
 **Diario** muestra:
 
 - La entrada de hoy, **Esta semana** y los días anteriores.
-- Al lado: las **Páginas matinales** de hoy.
-- En **Más**: el mes y **Un día como hoy**, que muestra lo que escribiste en
-  esta misma fecha otros años.
+- Al lado: las **Páginas matinales** de hoy, el mes y **Un día como hoy**, que
+  muestra lo que escribiste en esta misma fecha otros años.
 
 ## Encuentra lo que sea: `⌘K` {#find-anything-k}
 

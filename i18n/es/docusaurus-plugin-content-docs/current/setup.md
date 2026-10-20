@@ -72,7 +72,7 @@ Esta tabla muestra con qué lugares empieza cada modo:
 | --- | :---: | :---: | :---: |
 | **Personajes** | ✓ | | |
 | **Mundo** | ✓ | | |
-| **Autores** | | | |
+| **Autores** | ✓ | | |
 | **Investigación** | ✓ | nunca | |
 | **Tableros** | | ✓ | |
 | **Grafo** | | | |
@@ -80,8 +80,7 @@ Esta tabla muestra con qué lugares empieza cada modo:
 | **Empezar las páginas matinales de hoy** | | | ✓ |
 
 Los lugares que empiezan desactivados siguen a mano: el grafo con `⌘G` y
-luego `G`, el calendario con `⌘G` y luego `C` desde cualquier modo, y los
-autores desde `⌘P`. En Escribir, cada proyecto tiene su propio **Tablero**.
+luego `G`, y el calendario con `⌘G` y luego `C` desde cualquier modo. En Escribir, cada proyecto tiene su propio **Tablero**.
 
 Un modo que nunca has cambiado (**Sigue a la bóveda**) usa estos lugares de
 partida, así que cambia cuando cambian los valores por defecto de Poiesis. Un

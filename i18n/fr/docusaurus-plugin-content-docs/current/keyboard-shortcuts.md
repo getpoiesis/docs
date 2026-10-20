@@ -130,6 +130,10 @@ et sur la carte des raccourcis (`⌘/`).
 | L’Accueil du mode où vous êtes | `⌘G` puis `H` |
 | Le graphe | `⌘G` puis `G` |
 | Trouver un document (`⌘K`) | `⌘G` puis `S` |
+| Personnages : ceux du projet ouvert, ou ceux du coffre | `⌘G` puis `P` |
+| Monde (lieux, savoir et chronologie) : celui du projet ouvert, ou celui du coffre | `⌘G` puis `L` |
+| Recherche : celle du projet ouvert, ou celle du coffre | `⌘G` puis `R` |
+| Les onglets d’un projet : Sommaire, Personnages, Monde, Recherche, Tableau | `⌃1` à `⌃5` |
 
 Les touches d’un mode que votre coffre n’utilise pas n'apparaissent pas.
 Écrire était `C` ; c’est maintenant `W`, et `C` est le calendrier.

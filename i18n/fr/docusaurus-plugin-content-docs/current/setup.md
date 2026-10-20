@@ -73,7 +73,7 @@ Ce tableau indique les lieux que chaque mode propose au départ :
 | --- | :---: | :---: | :---: |
 | **Personnages** | ✓ | | |
 | **Monde** | ✓ | | |
-| **Auteurs** | | | |
+| **Auteurs** | ✓ | | |
 | **Recherche** | ✓ | jamais | |
 | **Tableaux** | | ✓ | |
 | **Graphe** | | | |
@@ -81,8 +81,8 @@ Ce tableau indique les lieux que chaque mode propose au départ :
 | **Commencer les pages du matin du jour** | | | ✓ |
 
 Les lieux désactivés au départ restent à portée de main : le graphe avec
-`⌘G` puis `G`, le calendrier avec `⌘G` puis `C` depuis n’importe quel mode,
-et les auteurs depuis `⌘P`. Dans Écrire, chaque projet a son propre
+`⌘G` puis `G`, et le calendrier avec `⌘G` puis `C` depuis n’importe quel
+mode. Dans Écrire, chaque projet a son propre
 **Tableau**.
 
 Un mode que vous n’avez jamais modifié (**Suit le coffre**) utilise ces lieux

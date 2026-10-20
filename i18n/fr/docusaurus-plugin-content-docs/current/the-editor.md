@@ -36,7 +36,7 @@ Ces boutons se trouvent en haut à droite de la page :
 | --- | --- |
 | **Rechercher** (la loupe, `⌘K`) | Ouvre la recherche. Pointez-la et elle s’ouvre en champ. |
 | **⋮** | Ouvre le menu du document, décrit plus bas. |
-| **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend cinq parties : **Plan**, **Liens**, **Notes**, **Tâches** et **Historique**. |
+| **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend six parties : **Plan**, **Liens**, **Notes**, **Tâches**, **Monde** (dans Écrire) et **Historique**. |
 | **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
 **Vue partagée** (`⌘\`) et **Détails…** se trouvent dans le menu **⋮**. Tant que vous êtes dans l’un ou l’autre, son bouton apparaît aussi dans la barre, pour en sortir d’un clic.

@@ -126,6 +126,10 @@ teclas. La misma lista está en **Ver → Ir a** y en la tarjeta de atajos (`⌘
 | El Inicio del modo en el que estás | `⌘G` y luego `H` |
 | El grafo | `⌘G` y luego `G` |
 | Buscar un documento (`⌘K`) | `⌘G` y luego `S` |
+| Personajes: los del proyecto abierto o los de la bóveda | `⌘G` y luego `P` |
+| Mundo (lugares, saber y cronología): el del proyecto abierto o el de la bóveda | `⌘G` y luego `L` |
+| Investigación: la del proyecto abierto o la de la bóveda | `⌘G` y luego `R` |
+| Las pestañas de un proyecto: Índice, Personajes, Mundo, Investigación, Tablero | `⌃1` a `⌃5` |
 
 Las teclas de un modo que tu bóveda no usa no aparecen. Escribir era `C`;
 ahora es `W`, y `C` es el calendario.

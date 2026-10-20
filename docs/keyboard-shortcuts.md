@@ -125,6 +125,10 @@ The same list is in **View → Go to** and on the shortcuts card (`⌘/`).
 | The Home of the mode you're in | `⌘G` then `H` |
 | The graph | `⌘G` then `G` |
 | Find a document (`⌘K`) | `⌘G` then `S` |
+| Characters: the open project's, or the vault's | `⌘G` then `P` |
+| World (places, lore and the timeline): the open project's, or the vault's | `⌘G` then `L` |
+| Research: the open project's, or the vault's | `⌘G` then `R` |
+| A project's tabs: Contents, Characters, World, Research, Board | `⌃1` to `⌃5` |
 
 Keys for a mode your vault doesn't use are left out. Write used to be `C`;
 it is `W` now, and `C` is the calendar.

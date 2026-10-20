@@ -50,15 +50,24 @@ From top to bottom, the sidebar has:
 
 | Mode | What the sidebar lists |
 | --- | --- |
-| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **World**, **Research**) |
+| **Write** | **Home**, **Pieces**, **Projects** (each project, **New project**, and **Put away** when you've put some away), **World** (**Characters**, **World**, **Authors**, **Research**) |
 | **Notes** | **Home**, **Inbox**, **All notes**, **Starred**, **Folders** (with a **+** for a new folder), **Tags**, **Places** (**Boards**, **Templates**) |
 | **Journal** | **Home**, **Today**, **All entries**, **Morning pages**, **Places** (**Calendar**) |
 
 Click a project to open the project's own page. The list shows its outline.
 While the project is open, the sidebar shows these under it: **Contents**,
-**Research**, **Characters**, **Board**, **Read** and **Export**.
+**Board**, **Read** and **Export**.
 
-While a project is open, its own rows replace the vault-wide **World** group, so each place has one way in. Counts appear when you point at a row; the Inbox always shows its count. A project with a word goal shows its progress as a thin ring round its icon.
+Under the project's name in the list, five tabs show its parts: **Contents**,
+**Characters**, **World**, **Research** and **Board**. Each shows the
+project's own entries and the shared ones. The tab you're on shows its name;
+point at the others to see theirs. Press `⌃1` to `⌃5` to switch tabs, or,
+from anywhere in a project, `⌘G` then `P`, `L` or `R` for its characters,
+world or research.
+
+Characters, authors, the world and research also belong to the whole vault, so the **World** group stays in the sidebar whether or not a project is open. **Characters**, **Authors** and **Research** show part of the vault at a time: the menu under the list's title picks **This project** (the one you were in), **Not in a project**, **All**, or a project by name. Opened from a project, the list starts on that project; opened from anywhere else, on what isn't in any project. Poiesis remembers your choice for each list in each vault.
+
+Counts appear when you point at a row; the Inbox's count and a project's progress toward its word goal (a percentage) always show.
 
 Right-click a project or a folder to open its menu. To put a note in a
 folder, drag the note onto the folder in the sidebar.
@@ -68,7 +77,6 @@ a key away:
 
 - **The graph:** `⌘G` then `G`, or **Local graph** in Info → **Links**.
 - **The calendar** (outside Journal): `⌘G` then `C`, from any mode.
-- **Authors** (pen names): `⌘P`, or a project's **Book details**.
 
 You can choose which places each mode shows. See [Setting up](./setup.md).
 
@@ -155,7 +163,8 @@ and the word count fade away. Move the pointer, or press an arrow key, `Tab`,
 <img src="/img/app/outline-dark.png" alt="The Info panel beside a research page, on its Outline tab: words, reading time, headings and footnotes" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Press `⇧⌘I`, or click **Info**, to open a panel on the right of a document.
-It has five tabs:
+It has six tabs. The tab you're on shows its name; point at the others to
+see theirs:
 
 | Tab | What it shows |
 | --- | --- |
@@ -163,6 +172,7 @@ It has five tabs:
 | **Links** | What this document links to and what links to it, the notes linked to it, and **Local graph**. See [Links & the graph](./links-and-graph.md). |
 | **Notes** | Its highlights, comments and margin notes (`⇧⌘A`). See [Annotations](./annotations.md). |
 | **Tasks** | Its checklist items, and the board cards tracking them. |
+| **World** | In Write: the characters the document brings in (@-mentioned or named), the places and lore it names, and the research linked to it. Click a character, place or lore entry for a line about it and **Open**; click a research page to open it beside the page. Places and lore are found by their names. |
 | **History** | Its versions. See [Versions & backup](./versions-and-backup.md). |
 
 Some documents show different tabs:
@@ -189,31 +199,24 @@ or drag it most of the way closed.
 To open the Home of the mode you are in, press `⌘⇧H` or click **Home** at
 the top of the sidebar.
 
-Each Home opens on what you're working on. The figures fold under one
-**More** line at the bottom: click it to open them. It stays open until you
-close it, while Poiesis is running.
-
 **Write** shows:
 
-- The chapter to **Continue**, the projects you are **Working on**,
-  **New project** and recent **Pieces**.
-- Under **More**: **Today** (words today, your streak, this sitting, days
-  this week), the month, what is **Due this week** on your boards, and
-  research in progress.
+- The chapter to **Continue**, the projects you are **Working on**, recent
+  **Pieces** and **Recent research**.
+- Beside them: **Today** (words today, your streak, this sitting, days this
+  week), the month, and what is **Due this week** on your boards.
 
 **Notes** shows:
 
 - **Capture a thought…**, the notes you **Recently edited** and your **Open
   action items**.
-- Beside them: your **Starred** notes and your **Tags**.
-- Under **More**: the month.
+- Beside them: the month, your **Starred** notes and your **Tags**.
 
 **Journal** shows:
 
 - Today's entry, **This week** and the days before.
-- Beside them: today's **Morning page**.
-- Under **More**: the month and **On this day**, which shows what you wrote
-  on this date in other years.
+- Beside them: today's **Morning page**, the month, and **On this day**.
+  **On this day** shows what you wrote on this date in other years.
 
 ## Find anything: `⌘K`
 

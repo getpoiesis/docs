@@ -70,7 +70,7 @@ This table shows which places each mode starts with:
 | --- | :---: | :---: | :---: |
 | **Characters** | ✓ | | |
 | **World** | ✓ | | |
-| **Authors** | | | |
+| **Authors** | ✓ | | |
 | **Research** | ✓ | never | |
 | **Boards** | | ✓ | |
 | **Graph** | | | |
@@ -78,7 +78,7 @@ This table shows which places each mode starts with:
 | **Start today's morning pages** | | | ✓ |
 
 The places that start off are still easy to reach: the graph with `⌘G` then
-`G`, the calendar with `⌘G` then `C` from any mode, and authors from `⌘P`.
+`G`, and the calendar with `⌘G` then `C` from any mode.
 In Write, each project has its own **Board** under it.
 
 A mode you have never changed (**Follows the vault**) uses these starting

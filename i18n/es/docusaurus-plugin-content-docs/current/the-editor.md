@@ -35,7 +35,7 @@ Estos botones están arriba a la derecha de la página:
 | --- | --- |
 | **Buscar** (la lupa, `⌘K`) | Abre el buscador. Señálala y se abre en un campo. |
 | **⋮** | Abre el menú del documento, que se explica más abajo. |
-| **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene cinco pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. |
+| **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene seis pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas**, **Mundo** (en Escribir) e **Historial**. |
 | **Santuario** (`⌘.`) | Oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
 
 **Vista dividida** (`⌘\`) y **Detalles…** están en el menú **⋮**. Mientras estás en una de las dos, su botón aparece también en la barra, para salir con un clic.

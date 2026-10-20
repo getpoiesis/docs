@@ -57,16 +57,24 @@ De haut en bas, la barre latérale comprend :
 
 | Mode | Ce qu’affiche la barre latérale |
 | --- | --- |
-| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Monde**, **Recherche**) |
+| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Monde**, **Auteurs**, **Recherche**) |
 | **Notes** | **Accueil**, **Boîte de réception**, **Toutes les notes**, **Favoris**, **Dossiers** (avec un **+** pour créer un dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Modèles**) |
 | **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Lieux** (**Calendrier**) |
 
 Cliquez sur un projet pour ouvrir la page du projet lui-même. La liste en
 affiche le plan. Tant que le projet est ouvert, la barre latérale affiche
-sous son nom : **Sommaire**, **Recherche**, **Personnages**, **Tableau**,
-**Lire** et **Exporter**.
+sous son nom : **Sommaire**, **Tableau**, **Lire** et **Exporter**.
 
-Tant qu’un projet est ouvert, ses propres lignes remplacent le groupe **Monde** de tout le coffre : chaque lieu n’a qu’un chemin. Les nombres apparaissent quand vous pointez une ligne ; la Boîte de réception affiche toujours le sien. Un projet qui a un objectif de mots montre sa progression par un anneau fin autour de son icône.
+Sous le nom du projet, dans la liste, cinq onglets montrent ses parties :
+**Sommaire**, **Personnages**, **Monde**, **Recherche** et **Tableau**. Chacun
+montre ce qui est propre au projet et ce qui est partagé. L’onglet où vous êtes
+affiche son nom ; pointez les autres pour voir le leur. Appuyez sur `⌃1` à `⌃5`
+pour changer d’onglet ou, où que vous soyez dans un projet, sur `⌘G` puis `P`,
+`L` ou `R` pour ses personnages, son monde ou sa recherche.
+
+Les personnages, les auteurs, le monde et la recherche appartiennent aussi à tout le coffre : le groupe **Monde** reste dans la barre latérale, qu’un projet soit ouvert ou non. **Personnages**, **Auteurs** et **Recherche** montrent une partie du coffre à la fois : le menu sous le titre de la liste choisit **Ce projet** (celui où vous étiez), **Hors projet**, **Tout** ou un projet par son nom. Ouverte depuis un projet, la liste commence sur ce projet ; ouverte d’ailleurs, sur ce qui n’appartient à aucun projet. Poiesis retient votre choix pour chaque liste, dans chaque coffre.
+
+Les nombres apparaissent quand vous pointez une ligne ; celui de la Boîte de réception et la progression d’un projet vers son objectif de mots (un pourcentage) restent toujours visibles.
 
 Faites un clic droit sur un projet ou sur un dossier pour ouvrir son menu.
 Pour ranger une note dans un dossier, faites-la glisser sur ce dossier dans
@@ -173,7 +181,8 @@ quand ils disparaissent.
 <img src="/img/app/outline-dark.png" alt="Le panneau Infos à côté d’une page de recherche, sur l’onglet Plan : mots, temps de lecture, titres et notes de bas de page" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Appuyez sur `⇧⌘I`, ou cliquez sur **Infos**, pour ouvrir un panneau à droite
-du document. Il comporte cinq onglets :
+du document. Il comporte six onglets. L’onglet où vous êtes affiche son nom ; pointez
+les autres pour voir le leur :
 
 | Onglet | Ce qu’il affiche |
 | --- | --- |
@@ -181,6 +190,7 @@ du document. Il comporte cinq onglets :
 | **Liens** | Les documents vers lesquels celui-ci renvoie et ceux qui renvoient vers lui, les notes qui lui sont liées, et le **Graphe local**. Voir [Liens et graphe](./links-and-graph.md). |
 | **Notes** | Ses surlignages, ses commentaires et ses notes en marge (`⇧⌘A`). Voir [Annotations et notes en marge](./annotations.md). |
 | **Tâches** | Les éléments de ses listes de tâches, et les cartes de tableau qui les suivent. |
+| **Monde** | Dans Écrire : les personnages qu’amène le document (mentionnés avec @ ou nommés), les lieux et le savoir qu’il nomme, et la recherche qui lui est liée. Cliquez sur un personnage, un lieu ou une entrée de savoir pour lire une ligne à son sujet et **Ouvrir** ; cliquez sur une page de recherche pour l’ouvrir à côté de la page. Les lieux et le savoir sont trouvés par leur nom. |
 | **Historique** | Ses versions. Voir [Versions et sauvegarde](./versions-and-backup.md). |
 
 Certains documents affichent d’autres onglets :
@@ -209,31 +219,25 @@ du panneau Infos, ou faites-le glisser presque jusqu’au bord.
 Pour ouvrir l’Accueil du mode où vous vous trouvez, appuyez sur `⌘⇧H` ou
 cliquez sur **Accueil**, en haut de la barre latérale.
 
-Chaque Accueil s’ouvre sur ce que vous avez en cours. Les chiffres sont
-repliés sous une seule ligne, **Plus**, en bas : cliquez dessus pour l’ouvrir.
-Elle reste ouverte jusqu’à ce que vous la refermiez, tant que Poiesis tourne.
-
 **Écrire** affiche :
 
-- Le chapitre à **Reprendre**, les projets **En cours**, **Nouveau projet**
-  et les **Pièces** récentes.
-- Sous **Plus** : **Aujourd’hui** (les mots du jour, votre série, la session
-  en cours, les jours de la semaine où vous avez écrit), le mois, ce qui est
-  **À rendre cette semaine** sur vos tableaux et les recherches en cours.
+- Le chapitre à **Reprendre**, les projets **En cours**, les **Pièces**
+  récentes et les **Recherches récentes**.
+- À côté : **Aujourd’hui** (les mots du jour, votre série, la session en
+  cours, les jours de la semaine où vous avez écrit), le mois, et ce qui est
+  **À rendre cette semaine** sur vos tableaux.
 
 **Notes** affiche :
 
 - **Notez une idée…**, les notes sous **Modifié récemment** et vos **Actions
   en cours**.
-- À côté : vos notes sous **Favoris** et vos **Étiquettes**.
-- Sous **Plus** : le mois.
+- À côté : le mois, vos notes sous **Favoris** et vos **Étiquettes**.
 
 **Journal** affiche :
 
 - L’entrée du jour, **Cette semaine** et les jours précédents.
-- À côté : les **Pages du matin** du jour.
-- Sous **Plus** : le mois et **Ce jour-là**, qui affiche ce que vous avez
-  écrit à la même date, les autres années.
+- À côté : les **Pages du matin** du jour, le mois et **Ce jour-là**. **Ce
+  jour-là** affiche ce que vous avez écrit à la même date, les autres années.
 
 ## Tout trouver : `⌘K` {#find-anything-k}
 
