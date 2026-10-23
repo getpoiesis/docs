@@ -100,6 +100,28 @@ this command in the command palette (`⌘P`) and in the document's **⋮** menu.
 Links between your own documents (`[[wiki links]]`) become plain text in
 every format. A reader outside your vault could not follow them.
 
+## Print a document
+
+To print the document you are writing, on your own printer:
+
+1. Open the document.
+2. Choose **File → Print…**, or press `⌘P` and choose **Print…**.
+3. Beside the preview of the first page, set the page up:
+   - **Paper**: A4, Letter or A5.
+   - **Margins**: **Narrow**, **Normal** or **Wide**.
+   - **Type size** and **Line spacing**.
+   - **Title on the first page**, **Page numbers** and **Keep highlight
+     colours**.
+4. Press **Print…**. Your computer's print dialog opens. **Save as PDF** is
+   there too.
+
+Footnotes are
+numbered and gathered at the end. Folded toggles print in
+full. Comments don't print.
+
+This prints the page as you wrote it. To make a manuscript or a book, use
+**Export**.
+
 ## See also
 
 - [Preview](./preview.md): every page before you export.

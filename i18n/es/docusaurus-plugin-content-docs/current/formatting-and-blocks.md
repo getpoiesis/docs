@@ -72,6 +72,8 @@ formato; el segundo lo corta, y la palabra siguiente sale ya sin él.
 | **Separador** | `/divider` | | `---` |
 | **Bloque de código** | `/code` | | ` ``` ` |
 | **Tabla** | `/table` | | |
+| **Desplegable** | `/toggle` | | |
+| **Bloque de fórmula** | `/math` | | |
 
 **Encabezados.** Con los encabezados se forma el esquema del documento, que
 puedes ver en el panel de Información (`⌘⇧I`). El bloque **Índice** también
@@ -95,6 +97,22 @@ escritura → Modos** y activa **Listas de tareas** para ese modo.
 fila es la cabecera. Arrastra el borde de una columna para ensancharla.
 Pulsa `Tab` para pasar a la celda siguiente.
 
+Cuando el cursor está en una tabla, aparece encima una barra de herramientas.
+Indica en qué fila y columna estás; por ejemplo, *Fila 2 de 3 · Columna 1 de
+3*. Sus botones:
+
+- **Añadir una fila arriba**, **Añadir una fila abajo** y **Eliminar fila**.
+- **Añadir una columna a la izquierda**, **Añadir una columna a la derecha** y
+  **Eliminar columna**.
+- **Fila de encabezado** y **Columna de encabezado** activan o desactivan el
+  encabezado.
+- **Combinar celdas** une las celdas que has seleccionado. **Dividir celda**
+  vuelve a separar una celda combinada.
+- **Eliminar tabla** quita la tabla entera.
+
+Una tabla siempre conserva al menos una fila y una columna. Para quitar la
+última, usa **Eliminar tabla**.
+
 **Bloques de código.** Poiesis colorea el código según el lenguaje que reconoce.
 Si prefieres elegir tú el lenguaje, escribe su nombre justo después de los
 tres acentos graves que abren el bloque, por ejemplo ` ```python `. Pulsa `Tab` para aumentar
@@ -102,14 +120,55 @@ la sangría y `⇧Tab` para reducirla. Para cambiar la sangría, abre **Ajustes
 → Editor → Código** y ajusta **Sangrar con** (**Espacios** o
 **Tabulaciones**) y **Ancho de sangría**.
 
+## Desplegables: secciones que se pliegan {#toggles-sections-that-fold-away}
+
+Un desplegable pliega bloques bajo una línea a la que tú pones nombre. Úsalo
+para un spoiler, un inciso o notas para ti dentro de un borrador.
+
+1. Escribe `/toggle` y pulsa `Intro`.
+2. Escribe la línea que da nombre a la sección (**Di qué se pliega aquí**).
+3. Pulsa `Intro` al final de esa línea para escribir dentro de la sección.
+
+| Para | Haz esto |
+| --- | --- |
+| Plegar o desplegar la sección | Haz clic en la flecha o pulsa `⌘⌥↩`. |
+| Entrar en la sección | Pulsa `Intro` al final de la línea con nombre. Si la sección está plegada, se abre. |
+| Salir de la sección | Pulsa `Intro` en una última línea vacía, `⌘↩` en cualquier punto de ella o `↓` al final. |
+| Saltarte una sección plegada | Pulsa `↓` en su línea con nombre. |
+| Deshacer el desplegable | Pulsa Retroceso en una línea con nombre vacía. Sus bloques vuelven a la página. |
+
+El texto plegado sigue contando en el recuento de palabras, en las búsquedas
+y en las exportaciones. Al imprimir, la sección se imprime entera. En el modo
+lectura, la flecha pliega y despliega la sección sin cambiar el documento.
+
+## Fórmulas {#math}
+
+Las fórmulas se escriben en LaTeX y las compone KaTeX.
+
+- **Una fórmula en su propia línea.** Escribe `/math` y elige **Bloque de
+  fórmula**. Con el cursor en el bloque, su código fuente se abre encima de
+  la fórmula, y la fórmula cambia a medida que escribes. Pulsa `⌘↩` o `Esc`
+  para salir del bloque.
+- **Una fórmula dentro de una línea.** Escribe `$$E = mc^2$$`, o escribe
+  `/inline`, elige **Fórmula en línea** y escribe la fórmula. Haz doble clic
+  en una fórmula en línea para cambiarla.
+
+Si una fórmula no se puede leer, Poiesis te dice por qué en lugar de
+ocultarla. Al imprimir, las fórmulas se componen como fórmulas de verdad. Un
+formato de exportación que aún no sabe componer fórmulas conserva como texto
+el LaTeX de un bloque de fórmula. Nada de una fórmula puede enlazar, cargar
+ni ejecutar nada.
+
 ## Bloques para libros y poemas {#blocks-for-books-and-poems}
 
-El menú de bloques ofrece estos bloques en los documentos que
-pertenecen a un [proyecto](./collections.md): capítulos, poemas y ensayos. Un
-proyecto es un libro u otra obra larga formada por varios documentos.
+El menú de bloques ofrece estos bloques en los documentos de **Escribir**: los
+capítulos, poemas y ensayos de un [proyecto](./collections.md), y las piezas
+que aún no forman parte de ningún proyecto. Un proyecto es un libro u otra
+obra larga formada por varios documentos. **Verso** se ofrece en todos los
+documentos menos en las páginas matinales.
 
 Si un documento ya tiene alguno de estos bloques, el bloque se sigue viendo
-aunque el documento esté fuera de un proyecto.
+aunque el documento esté en otro sitio.
 
 | Bloque | Para qué sirve | Cómo se inserta |
 | --- | --- | --- |
@@ -144,7 +203,8 @@ Haz clic en una etiqueta de fecha para abrir ese día en el calendario.
 Para cambiar la fecha o la hora, haz clic en el lápiz que hay junto a la
 etiqueta (**Editar fecha y hora**).
 
-En las entradas del diario, el menú de bloques no ofrece avisos.
+En las entradas del diario, el menú de bloques no ofrece avisos, tablas ni
+bloques de código.
 
 Dentro de una línea de texto también puedes añadir dos cosas:
 

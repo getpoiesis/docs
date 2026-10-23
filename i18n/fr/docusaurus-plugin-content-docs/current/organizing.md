@@ -137,17 +137,17 @@ Voici ce que vous pouvez faire dans une liste :
 ## Détails {#details}
 
 La page **Détails…** d’un document réunit tout ce qui le concerne, sauf son
-texte. Il y a trois façons de l’ouvrir :
+texte. Il y a deux façons de l’ouvrir :
 
 <img src="/img/app/details-light.png" alt="La page Détails d’une pièce : statut, description, objectif de mots, étiquettes, dossier et liens" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="La page Détails d’une pièce : statut, description, objectif de mots, étiquettes, dossier et liens" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Cliquez sur le ⓘ en haut de la page.
-- Cliquez sur le **⋮** du document, puis sur **Détails…**.
+- Cliquez sur le **⋮** au-dessus de la page, puis sur **Détails…**.
 - Faites un clic droit sur la ligne du document dans une liste, puis
   choisissez **Détails…**.
 
-**Retour au texte** vous ramène à la page.
+Tant que les Détails sont ouverts, un ⓘ apparaît en haut de la page. Cliquez
+dessus, ou sur **Retour au texte**, pour revenir à la page.
 
 Les lignes affichées dépendent du type de document :
 
@@ -172,16 +172,20 @@ sur son **⋮**. Le menu contient :
 
 - **Détails…**, **Ouvrir à côté**, et **Mettre en favori** ou **Retirer des
   favoris**.
-- **Plan**, **Liens wiki**, **Notes** et **Historique des versions**. Chacun
-  ouvre la partie correspondante du
-  [panneau Infos](./finding-your-way.md#the-info-panel).
+- **Traité (hors de la boîte)**, pour une note de la Boîte de réception (voir
+  [Notes et capture rapide](./notes.md)).
 - Les déplacements décrits dans [Déplacer un document](#move-a-document).
+- **Masquer des listes** (ou **Afficher dans les listes**).
 - **Marquer comme pages du matin** (voir
   [Journal et pages du matin](./journal-and-morning-pages.md)).
 - **Renommer…** et **Copier en Markdown**.
 - Un sous-menu avec tous les formats d’export (voir
   [Comment fonctionne l’export](./exporting.md)).
 - **Supprimer**, qui met le document à la corbeille.
+
+Le plan, les liens, les notes et les versions du document ne figurent pas dans
+ce menu. Ouvrez-les depuis les onglets du
+[panneau Infos](./finding-your-way.md#the-info-panel) (`⇧⌘I`).
 
 ## Supprimer les documents vides {#clear-out-empty-documents}
 
@@ -197,8 +201,9 @@ mettent ce qu’ils suppriment à la corbeille : vous pouvez encore le restaure
 
 Ce que vous supprimez ne disparaît pas tout de suite : l’élément va dans la
 **Corbeille**, en bas de la barre latérale. La corbeille recueille les
-documents, les projets, les personnages, les profils d’auteur, les tableaux
-et les cartes de tableau supprimés.
+documents, les projets, les personnages, les profils d’auteur, les entrées du
+monde (lieux, univers et événements), les tableaux et les cartes de tableau
+supprimés.
 
 <img src="/img/app/trash-light.png" alt="La corbeille avec un document supprimé sélectionné et les boutons pour le restaurer ou le supprimer définitivement" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/trash-dark.png" alt="La corbeille avec un document supprimé sélectionné et les boutons pour le restaurer ou le supprimer définitivement" width="1600" height="1000" loading="lazy" decoding="async" />

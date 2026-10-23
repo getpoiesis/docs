@@ -76,8 +76,9 @@ To put an epigraph at the start of the whole book, add it in the project's
   **Blank space**. Point at the scene break to choose another one.
 
 In an exported book, every scene break uses the ornament of the book's
-design. To change that ornament, go to **Adjust the design → Between
-scenes**.
+design. To change that ornament, open **Design the book…** on the Export
+page and choose **Scene breaks → Between scenes** (see
+[Designs](./designs.md#design-the-book)).
 
 | Block | Insert with |
 | --- | --- |

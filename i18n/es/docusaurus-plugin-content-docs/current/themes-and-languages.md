@@ -46,9 +46,9 @@ lateral en tema claro** en **Claro**.
 
 En el tema oscuro, la barra lateral siempre es oscura.
 
-Si usas un tema de color que no sea Phi, la barra lateral toma los colores de
-ese tema. Una barra oscura usa los colores oscuros del tema, y una clara, los
-claros.
+La barra lateral toma los colores de tu tema de color, sea cual sea: Phi, un
+tema incluido o uno que hayas instalado. Una barra oscura usa los colores
+oscuros del tema, y una clara, los claros.
 
 ## Cambiar los colores {#change-the-colours}
 
@@ -59,9 +59,17 @@ los enlaces y el código. Todos los temas tienen un lado claro y un lado oscuro.
 Para usar un tema, haz clic en él en la lista **Tema de color**. Cada tema de
 la lista lleva una pequeña vista previa de la ventana de Poiesis con sus colores.
 
-Poiesis trae un tema, **Phi**, marcado como **Oficial**. Es de grises neutros, con la
+El tema propio de Poiesis es **Phi**, marcado como **Oficial**. Es de grises neutros, con la
 página en blanco puro o en negro puro. Es el predeterminado y no se puede
 quitar.
+
+Vienen incluidos cinco temas más, listos desde el primer arranque y sin
+conexión: **Papel**, **Noche**, **Sepia**, **Cálido** y **Alto contraste**.
+Cada uno tiene un lado claro y uno oscuro, así que **Sistema**, **Claro** y
+**Oscuro** siguen funcionando. En todos se comprueba que el texto se lea bien,
+y en **Alto contraste**, con el nivel AAA, más estricto. Un tema que descargues
+no puede usar ninguno de sus nombres. Como Phi, llevan la marca **Oficial** y
+no se pueden quitar.
 
 <img src="/img/app/themes-nord-light.png" alt="La ventana de Inicio con el tema Nord: la página gris azulada clara de Nord junto a su barra lateral de color pizarra oscuro" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/themes-nord-dark.png" alt="La ventana de Inicio con el tema Nord, en oscuro: la página y la barra lateral en el tono «noche polar» de Nord" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -108,6 +116,10 @@ color. Si al tema le falta alguno, Poiesis usa el de Phi.
 ## Cambiar el idioma de Poiesis {#change-Poiesiss-language}
 
 Elige un valor en **Idioma de la interfaz**. Es el idioma de los menús y los textos de Poiesis.
+
+Los números y las horas también siguen este idioma, sea cual sea el idioma de
+tu ordenador. Un recuento de palabras se lee *12,480* en inglés, *12.480* en
+español y *12 480* en francés, y una hora se lee *3:05 PM* o *15:05*.
 
 <img src="/img/app/settings-language-light.png" alt="Los ajustes abiertos en Idioma: el idioma de la interfaz, la ortografía y el diccionario personal" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-language-dark.png" alt="Los ajustes abiertos en Idioma: el idioma de la interfaz, la ortografía y el diccionario personal" width="1600" height="1000" loading="lazy" decoding="async" />

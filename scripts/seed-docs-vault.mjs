@@ -17,7 +17,7 @@
  * POIESIS_SHOT_TODAY (an ISO date-time) to fix the day the vault is "today" on.
  */
 import { execFileSync } from 'node:child_process'
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 const [app, target] = process.argv.slice(2)
@@ -170,6 +170,121 @@ writeFileSync(
     9,
   ),
 )
+
+// --- The world -------------------------------------------------------------
+// Places (one inside another), lore and a short timeline for the novel, so
+// the World page has something to show.
+const world = [
+  { id: 'shot-world-kestrel', kind: 'place', name: 'Kestrel Bay', summary: 'The port town at the edge of the inland sea.' },
+  { id: 'shot-world-house', kind: 'place', name: 'The weighing house', parentId: 'shot-world-kestrel', summary: 'Where the town brings what it owns to learn what it is worth.' },
+  { id: 'shot-world-harbour', kind: 'place', name: 'The harbour', parentId: 'shot-world-kestrel', summary: 'Salt boats in, ledgers out.' },
+  { id: 'shot-world-flats', kind: 'place', name: 'The salt flats', summary: 'Six days out. White, flat, and the sound of nothing.' },
+  { id: 'shot-world-scale', kind: 'lore', name: 'The honest scale', summary: 'The town believes the scale has never lied. The town is wrong.' },
+  { id: 'shot-world-sevens', kind: 'lore', name: 'Barred sevens', summary: 'Tomas crossed his sevens, always. The last four years of ledgers do not.' },
+  { id: 'shot-world-e1', kind: 'event', name: 'The railway reaches the coast', when: 'Thirty-one years before', order: 1, summary: 'The inland route starts to matter less.' },
+  { id: 'shot-world-e2', kind: 'event', name: 'The ledgers change hands', when: 'Four years before', order: 2, placeId: 'shot-world-house', summary: 'Someone else starts writing in Tomas\'s books.' },
+  { id: 'shot-world-e3', kind: 'event', name: 'Eleven sacks', when: 'Chapter one', order: 3, placeId: 'shot-world-house', summary: 'Miren takes the last delivery of the season.' },
+  { id: 'shot-world-e4', kind: 'event', name: 'The crossing', when: 'Chapter five', order: 4, placeId: 'shot-world-flats', summary: 'Miren and Sefa set out across the flats.' },
+]
+for (const e of world) {
+  const made = ago(20)
+  writeFileSync(
+    join(target, `${e.id}.poiesis-world`),
+    JSON.stringify({ body: '', tags: [], projects: ['shot-book-0001'], characterIds: [], ...e, createdAt: made, updatedAt: made }, null, 2),
+  )
+}
+
+// --- Earlier years -----------------------------------------------------------
+// Memories and Your year need a past: journal entries and pieces on this day
+// one and two years back, and a year before this one written on most weeks.
+const journalModel = JSON.parse(
+  readFileSync(join(target, readdirSync(target).find((f) => f.startsWith('shot-journal-'))), 'utf-8'),
+)
+const daysBack = (date, days) => new Date(date.getTime() - days * 86_400_000)
+const yearsBack = (n) => {
+  const d = new Date(today)
+  d.setFullYear(d.getFullYear() - n)
+  return d
+}
+const at = (d, hour) => {
+  const x = new Date(d)
+  x.setHours(hour, 12, 0, 0)
+  return x.toISOString()
+}
+const PAST_LINES = [
+  ['Rain all day. Wrote the scene at the scale house twice and kept neither.', 'Tomorrow: start with the ledger, not the weather.'],
+  ['A good morning. Miren finally said the thing out loud, and the chapter turned on it.', 'Nine hundred words before lunch. Walked to the harbour after.'],
+  ['Read the whole draft back. The middle sags where the crossing should pull.', 'Cut the second market scene. It was there for me, not for her.'],
+  ['Short day. Notes on the salt flats: white, flat, the sound of nothing.', 'The railway is the villain and it doesn\'t know it.'],
+  ['Started over on chapter one. Same first line, new everything after it.', 'Sefa needs a reason to stay that isn\'t Miren.'],
+]
+const pastEntry = (d, lines) => {
+  const blocks = lines.map(p)
+  const day = ymd(at(d, 12))
+  writeFileSync(
+    join(target, `shot-journal-${day}.poiesis`),
+    JSON.stringify(
+      {
+        ...journalModel,
+        metadata: {
+          ...journalModel.metadata,
+          id: `shot-journal-${day}`,
+          title: d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }),
+          entryDay: day,
+          createdAt: at(d, 20),
+          updatedAt: at(d, 20),
+          editedDays: [day],
+          wordByDay: { [day]: words(blocks) },
+        },
+        doc: { type: 'doc', content: blocks },
+      },
+      null,
+      2,
+    ),
+  )
+}
+const pastPiece = (id, title, d, blocks) => {
+  const made = at(d, 10)
+  writeFileSync(
+    join(target, `${id}.poiesis`),
+    JSON.stringify(
+      {
+        ...model,
+        metadata: {
+          ...model.metadata,
+          id,
+          title,
+          starred: false,
+          editedDays: [ymd(made)],
+          wordByDay: { [ymd(made)]: words(blocks) },
+          createdAt: made,
+          updatedAt: made,
+        },
+        doc: { type: 'doc', content: blocks },
+      },
+      null,
+      2,
+    ),
+  )
+}
+// On this day, one and two years ago.
+pastEntry(yearsBack(1), [
+  'First real day on the new book. A woman who weighs things for a living, and a scale that has been lying.',
+  'I don\'t know her name yet. I know her hands.',
+])
+pastEntry(yearsBack(2), [
+  'Finished the last poem for the collection. Sent it to nobody. Put it in a drawer, the good drawer.',
+])
+pastPiece('shot-doc-past-0001', 'The Weighmaster\'s Daughter (first notes)', yearsBack(1), [
+  p('She starts the day at the scale. She ends it at the scale. In between, the town brings her everything it owns and asks her what it is worth, and she tells them, and they believe her, because the scale has never lied.'),
+  p('Until it does. That is the book.'),
+])
+// Last year, written on most weeks: something for Your year to tell.
+const lastYear = today.getFullYear() - 1
+for (let i = 0, d = new Date(lastYear, 0, 3); d.getFullYear() === lastYear; i++, d = daysBack(d, -(i % 3 === 0 ? 2 : 5))) {
+  if (ymd(at(d, 12)) === ymd(at(yearsBack(1), 12))) continue
+  pastEntry(d, PAST_LINES[i % PAST_LINES.length])
+}
 
 // --- Book details ----------------------------------------------------------
 // The novel's title and copyright pages, so the Book details form has

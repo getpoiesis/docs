@@ -1,6 +1,6 @@
 ---
 title: Concentration et Sanctuaire
-description: Le Sanctuaire, le défilement machine à écrire, l’écriture focalisée et le mode lecture, pour les moments où seule la page compte.
+description: Le Sanctuaire, le défilement machine à écrire, l’écriture focalisée, le mode lecture et les sprints d’écriture, pour les moments où seule la page compte.
 ---
 
 # Concentration et Sanctuaire
@@ -8,7 +8,8 @@ description: Le Sanctuaire, le défilement machine à écrire, l’écriture foc
 Le **Sanctuaire** masque tout dans φ Poiesis sauf la page, pour que rien ne vous
 distraie pendant que vous écrivez. Cette page présente aussi trois outils plus
 modestes : le défilement machine à écrire, l’écriture focalisée et le mode
-lecture.
+lecture, ainsi que les deux façons dont Poiesis chronomètre votre écriture :
+les sessions et les sprints.
 
 <img src="/img/app/focus-light.png" alt="Le Sanctuaire : un chapitre seul sur la page, la phrase en cours bien nette et le reste atténué, avec l’emplacement du chapitre sur une ligne discrète en haut" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/focus-dark.png" alt="Le Sanctuaire : un chapitre seul sur la page, la phrase en cours bien nette et le reste atténué, avec l’emplacement du chapitre sur une ligne discrète en haut" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -130,7 +131,7 @@ Vous retrouvez vos sessions à deux endroits :
   carte **Aujourd’hui**.
 - Les statistiques du document indiquent votre **Session la plus longue** et
   votre **Meilleure session (mots)**. Pour les ouvrir, cliquez sur le nombre
-  de mots, puis cliquez de nouveau dessus.
+  de mots et choisissez **Statistiques…**.
 
 Pour démarrer et terminer vous-même les sessions :
 
@@ -140,6 +141,40 @@ Pour démarrer et terminer vous-même les sessions :
    d’écriture**.
 3. Quand vous avez fini, choisissez **Terminer la session d’écriture** dans la
    palette de commandes.
+
+Seuls les mots que vous tapez comptent. Ouvrir un document pendant une
+session ne compte pas les mots qu’il contient déjà.
+
+## Écrire contre la montre {#write-against-the-clock}
+
+Un sprint d’écriture est un temps donné pour écrire autant que possible, avec
+un objectif de mots si vous le souhaitez.
+
+1. Appuyez sur `⌘P` et choisissez **Lancer un sprint d’écriture…**. Aucun
+   document n’a besoin d’être ouvert. Vous pouvez aussi cliquer sur le
+   nombre de mots dans le coin de la page et choisir **Lancer un sprint
+   d’écriture…**.
+2. Choisissez une **Durée** : **10**, **15**, **25**, **45** ou **60**
+   minutes, ou tapez n’importe quelle durée jusqu’à trois heures.
+3. Si vous en voulez un, tapez un **Objectif de mots**.
+4. Si vous le souhaitez, activez **Sans effacer**.
+5. Cliquez sur **Lancer le sprint**.
+
+Le chronomètre tourne dans le coin inférieur gauche de la page. Il affiche le
+temps restant, vos mots et où vous en êtes par rapport à l’objectif.
+
+- Chaque mot ajouté compte, quels que soient les documents entre lesquels
+  vous passez. Effacer des mots n’en retire aucun.
+- Avec **Sans effacer**, `Backspace`, `Delete`, **Couper** et **Annuler** ne
+  font rien jusqu’à la fin du sprint. Taper ou coller sur une sélection
+  ajoute les nouveaux mots après elle au lieu de la remplacer.
+- Pour arrêter avant la fin, cliquez sur le chronomètre. Poiesis vous demande
+  d’abord confirmation. Les mots déjà écrits sont gardés et comptés.
+
+Quand le temps est écoulé, Poiesis affiche le bilan du sprint : vos mots, si
+vous avez atteint votre objectif, et votre rythme en mots par minute. Cliquez
+sur **Un autre sprint…** pour recommencer. Poiesis retient la durée et
+l’objectif pour la prochaine fois.
 
 ## Voir aussi {#see-also}
 

@@ -32,6 +32,34 @@ La nota no se abre: sigues donde estabas. La encontrarás la primera en
 - Solo la primera palabra con `#` se convierte en etiqueta. La palabra sigue
   además en el texto, tal como la escribiste.
 
+## Anotar desde cualquier sitio {#capture-from-anywhere}
+
+No hace falta estar en φ Poiesis para atrapar una idea. Pulsa `⌥⇧⌘N`
+(**Ctrl + Alt + Mayús + N** en Windows y Linux) en cualquier sitio, aunque φ
+esté en segundo plano. Se abre una ventana pequeña.
+
+1. Escribe la idea. La primera línea será el título de la nota.
+2. Pulsa `⌘↵` (o **Guardar**). La nota va a la **Bandeja de entrada** de la
+   bóveda abierta.
+
+Pulsa `Esc` para guardar la ventana. Lo que escribiste te espera allí para la
+próxima vez. También puedes abrir la ventana desde la φ de la barra de menús,
+o con **Archivo → Captura rápida**.
+
+Para cambiar el atajo, o para desactivarlo, ve a **Ajustes** → **Atajos** →
+**Captura rápida**. Haz clic en la tecla y pulsa la que quieras. Si otra app ya
+la usa, φ te lo dice; elige otra.
+
+### La Bandeja de entrada {#the-inbox}
+
+La **Bandeja de entrada** está arriba en la barra lateral de Notas, debajo de
+**Inicio**. Guarda lo que has anotado y aún no has resuelto, y su recuento se
+ve siempre. `⌘G` y luego `I` la abre desde cualquier sitio.
+
+Cuando ya hayas resuelto una nota anotada, haz clic derecho en ella y elige
+**Listo (fuera de la bandeja)**. Sale de la Bandeja de entrada y se queda en
+tus notas.
+
 ## Anotar desde una lista {#capture-from-a-list}
 
 El mismo cuadro aparece al principio de la lista cuando ves **Todas las
@@ -66,6 +94,8 @@ A la derecha tienes:
 
 - El mes. Cuantas más notas editaste un día, más oscuro se ve.
   **Calendario** abre el calendario.
+- **Recuerdos**, cuando tienes algo de este mismo día en un año anterior
+  (consulta [Recuerdos y celebraciones](./memories-and-celebrations.md)).
 - Tus notas de **Destacados**.
 - Las **Etiquetas** que más usas. Haz clic en una para ver sus notas.
 
@@ -75,15 +105,20 @@ En Notas, la barra lateral muestra estos lugares:
 
 | Lugar | Qué contiene |
 | --- | --- |
+| **Bandeja de entrada** | Lo que enviaste con la captura rápida y aún no has resuelto. |
 | **Todas las notas** | Todas las notas que no pertenecen a ningún proyecto. |
 | **Destacados** | Las notas que destacaste. |
-| **Sin enlazar** | Las notas a las que no llega ningún enlace y de las que no sale ninguno. Te sirve para localizar las que aún no has conectado con nada. |
 | **Carpetas** | Tus carpetas, cada una con su número de notas. El **+** que hay junto al título crea una carpeta. |
 | **Etiquetas** | Todas las etiquetas de tus notas, cada una con su número de notas. |
 
 Cada lista tiene arriba un campo de búsqueda, que la filtra por título,
 primeras líneas y etiquetas. También puedes ordenarla por **Editado**,
 **Creado** o **Título**.
+
+**Encontrar las notas sin enlaces.** Abre **Todas las notas**, abre el menú de
+orden de la lista y elige **Solo notas sin enlaces**. La lista muestra solo
+las notas a las que no llega ningún enlace y de las que no sale ninguno: las
+que aún no has conectado con nada. Vuelve a elegirlo para ver todas las notas.
 
 Con `⌘K` encuentras cualquier documento por su nombre, estés donde estés en
 φ Poiesis. Consulta [Buscar y reemplazar](./search-and-replace.md).

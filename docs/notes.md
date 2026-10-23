@@ -30,6 +30,32 @@ top of **Recently edited** and in **All notes**.
 - Only the first `#word` becomes a tag. The word also stays in the text as
   you wrote it.
 
+## Capture from anywhere
+
+You don't need to be in φ Poiesis to catch a thought. Press `⌥⇧⌘N`
+(**Ctrl + Alt + Shift + N** on Windows and Linux) anywhere, even with φ in
+the background. A small window opens.
+
+1. Type the thought. The first line becomes the note's title.
+2. Press `⌘↵` (or **Save**). The note goes to the open vault's **Inbox**.
+
+Press `Esc` to put the window away. What you typed waits there for next
+time. You can also open the window from the φ in the menu bar, or with
+**File → Quick Capture**.
+
+To change the shortcut, or to turn it off, go to **Settings** → **Shortcuts**
+→ **Quick capture**. Click the key and press the one you want. If another
+app already uses it, φ says so; pick another.
+
+### The Inbox
+
+**Inbox** is at the top of Notes' sidebar, under **Home**. It holds what you
+captured that you haven't dealt with yet, and its count always shows.
+`⌘G` then `I` opens it from anywhere.
+
+When you have dealt with a capture, right-click it and choose **Done with it
+(out of the Inbox)**. It leaves the Inbox and stays in your notes.
+
 ## Capture from a list
 
 The same box is at the top of the list when you look at **All notes**, a
@@ -61,6 +87,8 @@ On the right you see:
 
 - The month. Darker days are days when you edited more notes. **Calendar**
   opens the calendar.
+- **Memories**, when you have something from this day in an earlier year (see
+  [Memories & celebrations](./memories-and-celebrations.md)).
 - Your **Starred** notes.
 - The **Tags** you use most. Click a tag to list its notes.
 
@@ -70,15 +98,20 @@ In Notes, the sidebar lists these places:
 
 | Place | What it lists |
 | --- | --- |
+| **Inbox** | What you sent with quick capture and haven't dealt with yet. |
 | **All notes** | Every note that belongs to no project. |
 | **Starred** | The notes you starred. |
-| **Unlinked** | Notes that have no links to them and no links from them. Use it to find notes you have not connected to anything yet. |
 | **Folders** | Your folders, each with the number of notes in it. **+** beside the heading makes a new folder. |
 | **Tags** | Every tag on your notes, each with the number of notes. |
 
 Each list has a search field at the top. It filters the list by title, first
 lines and tags. Each list also has a sort: **Edited**, **Created** or
 **Title**.
+
+**Find unlinked notes.** Open **All notes**, then open the list's sort menu
+and choose **Only unlinked notes**. The list shows only the notes with no
+links to them and no links from them: the ones you have not connected to
+anything yet. Choose it again to see every note.
 
 `⌘K` finds any document by name, from anywhere in φ Poiesis. See
 [Search & replace](./search-and-replace.md).

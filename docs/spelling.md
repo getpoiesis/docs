@@ -48,6 +48,10 @@ can choose a language that Poiesis has.
 2. Click a suggestion to replace the word. Or choose **Add to Dictionary**
    to keep the word, so Poiesis stops underlining it.
 
+A word that is spelled right can show **Synonyms** in the same menu,
+when an installed dictionary has them. See [Replace a word with a
+synonym](./dictionary.md#replace-a-word-with-a-synonym).
+
 ## Choose how Poiesis checks
 
 Open **Settings → Language → Spelling**. There are three settings:

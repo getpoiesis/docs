@@ -32,18 +32,26 @@ These buttons are at the top right of the page:
 
 | Button | What it does |
 | --- | --- |
-| **Split view** (`⌘\`) | Opens a second pane beside the page. See [Side by side](./side-by-side.md). |
+| **Search…** | Finds a document anywhere in the vault (`⌘K`). It rests as a magnifier and opens into the field when you point at it. |
 | **⋮** | Opens the document's menu, described below. |
-| **Details…** (ⓘ) | Shows the document's status, synopsis, word goal, tags, colour and star, and where the document is kept. |
-| **Info** (`⌘⇧I`) | Opens the Info panel. It has five parts: **Outline**, **Links**, **Notes**, **Tasks** and **History**. |
+| **Info** (`⌘⇧I`) | Opens the Info panel. Its tabs are icons, with the one you are on named: **Outline**, **Links**, **Notes**, **Tasks** and **History**. A Write document also has **World**. Point at an icon to see its name. |
 | **Sanctuary** (`⌘.`) | Hides everything except the page. See [Focus & Sanctuary](./focus-and-writing-modes.md). |
 
-The word count is in the bottom-right corner of the page. If the document
-has a word goal, the count is shown next to the goal.
+**Split view** (`⌘\`) and **Details…** are in the ⋮ menu. While you are in
+one of them, its button also shows in the bar, as the way back.
 
-- Click the word count once to open **Outline** in the Info panel. It shows
-  the number of words and the reading time.
-- Click it again to see all the document's statistics.
+While you type, these buttons dim. They don't disappear, and the list's
+header and the word count stay as they are.
+
+The word count is in the bottom-right corner of the page. If the document
+has a word goal, the count is shown next to the goal. Click the word count
+to open a small menu:
+
+- **Info** opens the Info panel on its **Outline** tab.
+- **Statistics…** shows all the document's statistics.
+- **Start a writing sprint…** starts a [writing
+  sprint](./focus-and-writing-modes.md#write-against-the-clock). It is
+  there while no sprint is running.
 
 Notes do not show a word count.
 
@@ -109,9 +117,9 @@ The menu changes with the kind of document you are in:
 
 | Where | What the menu offers |
 | --- | --- |
-| **A chapter, poem or essay in a project** | Everything, including **Verse**, **Scene break**, **Epigraph**, **Pull-quote**, **Drop cap**, **Footnote**, **Citation**, **Bibliography** and **Table of contents**. |
-| **A note, or a piece outside a project** | Everything except those manuscript blocks. |
-| **A journal entry** | Headings, lists, quotes, pictures and dates. No callouts, tables or code. |
+| **A chapter, poem or essay in a project, or a piece in Write** | Everything, including **Scene break**, **Epigraph**, **Pull-quote**, **Drop cap**, **Footnote**, **Citation**, **Bibliography** and **Table of contents**. |
+| **A note** | Everything except those manuscript blocks. **Verse**, toggles and math are still there. |
+| **A journal entry** | Headings, lists, quotes, verse, pictures, dates, toggles and math. No callouts, tables, code or manuscript blocks. |
 | **Morning pages** | No menu. Morning pages are text only. |
 
 A [project](./collections.md) is a book or other long work made of several
@@ -136,8 +144,6 @@ document:
 - **Move to Write's pieces** or **Move to Notes**. These appear for a
   document that is not in a project.
 - **Details…**, **Split view** and **Open beside…**.
-- **Outline**, **Links and backlinks**, **Notes** and **Version history**.
-  Each one opens that part of the Info panel.
 - **Save version…** and **Open dictionary** (`⌘⇧D`).
 - **Read mode**, **Typewriter scrolling**, **Sanctuary** and **Check
   spelling…**.
@@ -149,9 +155,12 @@ document:
 On a morning page, the menu has **Seal day** in place of **Star** and
 **Add to board…**.
 
+The document's outline, links, notes and versions are not in this menu.
+Open them from the tabs of the Info panel (`⌘⇧I`).
+
 There is a second menu. Right-click in the text to see spelling
-suggestions, cut, copy and paste, followed by **Outline**, **Wiki links**,
-**Annotations** and **Version history**.
+suggestions, [synonyms](./dictionary.md#replace-a-word-with-a-synonym), and
+cut, copy and paste.
 
 ## Move between documents
 

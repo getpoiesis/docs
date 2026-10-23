@@ -18,9 +18,8 @@ columnas en que se divide la ventana.
 ## Abrir un documento al lado de este {#open-a-document-beside-this-one}
 
 1. Abre un documento.
-2. Haz clic en **Vista dividida**, en la barra que hay sobre la página, o
-   pulsa `⌘\`. Se abre un panel vacío al lado del documento y aparece la
-   barra lateral.
+2. Pulsa `⌘\`, o elige **Vista dividida** en el menú ⋮ del documento. Se
+   abre un panel vacío al lado del documento y aparece la barra lateral.
 3. Busca el segundo documento en la barra lateral y en la lista. Puedes
    mirar en cualquier modo: la página no cambia mientras buscas.
 4. Haz clic en el segundo documento. Se abre en el panel vacío.
@@ -95,8 +94,8 @@ documento también lo abre en un panel nuevo, a la derecha del activo: hacer
 clic en él en la lista, elegirlo en la búsqueda o seguir un enlace. Cuando
 ya hay tres paneles abiertos, sustituye al documento del panel activo.
 
-**Vista dividida**, en la barra de encima de la página, se ve pulsado
-mientras estás en la vista dividida. Haz clic de nuevo para salir: solo queda
+Mientras estás en la vista dividida, aparece en la barra de encima de la
+página un botón **Vista dividida**, pulsado. Haz clic en él para salir: solo queda
 abierto el documento en el que estás. Cerrar un panel deja los demás como
 están.
 

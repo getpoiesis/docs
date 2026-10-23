@@ -70,6 +70,8 @@ so the next word is plain.
 | **Divider** | `/divider` | | `---` |
 | **Code Block** | `/code` | | ` ``` ` |
 | **Table** | `/table` | | |
+| **Toggle** | `/toggle` | | |
+| **Math block** | `/math` | | |
 
 **Headings.** The headings make the document's outline, which you can see
 in the Info panel (`⌘⇧I`). A **Table of contents** block also lists them.
@@ -92,20 +94,74 @@ in Notes and on research pages. To have them in another mode, open
 is a header. Drag the edge of a column to make it wider. Press `Tab` to go
 to the next cell.
 
+When the cursor is in a table, a toolbar appears above it. It says which
+row and column you are in, for example *Row 2 of 3 · Column 1 of 3*. Its
+buttons:
+
+- **Add a row above**, **Add a row below** and **Delete row**.
+- **Add a column to the left**, **Add a column to the right** and **Delete
+  column**.
+- **Header row** and **Header column** turn the header on or off.
+- **Merge cells** joins the cells you selected. **Split cell** splits a
+  merged cell again.
+- **Delete table** removes the whole table.
+
+A table always keeps at least one row and one column. To remove the last
+one, use **Delete table**.
+
 **Code blocks.** Poiesis colours the code for the language it recognises. To
 choose the language yourself, type its name after the opening fence, for
 example ` ```python `. Press `Tab` to indent and `⇧Tab` to outdent. To
 change the indent, open **Settings → Editor → Code** and set **Indent
 using** (**Spaces** or **Tabs**) and **Indent width**.
 
+## Toggles: sections that fold away
+
+A toggle folds blocks away under a line you name. Use it for a spoiler, an
+aside, or notes to yourself inside a draft.
+
+1. Type `/toggle` and press `Enter`.
+2. Type the line that names the section (**Name what’s folded here**).
+3. Press `Enter` at the end of that line to write inside the section.
+
+| To | Do this |
+| --- | --- |
+| Fold or unfold the section | Click the arrow, or press `⌘⌥↩`. |
+| Go into the section | Press `Enter` at the end of the named line. A folded section opens. |
+| Leave the section | Press `Enter` on an empty last line, `⌘↩` anywhere in it, or `↓` at its end. |
+| Skip a folded section | Press `↓` on its named line. |
+| Undo the toggle | Press `Backspace` in an empty named line. Its blocks go back into the page. |
+
+Folded text still counts in the word count, in search and in exports.
+When you print, the section prints in full. In read mode, the arrow folds
+and unfolds the section without changing the document.
+
+## Math
+
+Formulas are written in LaTeX and set by KaTeX.
+
+- **A formula on its own line.** Type `/math` and choose **Math block**.
+  With the cursor in the block, its source opens above the formula, and the
+  formula changes as you type. Press `⌘↩` or `Esc` to leave the block.
+- **A formula inside a line.** Type `$$E = mc^2$$`, or type `/inline`,
+  choose **Inline math** and type the formula. Double-click an inline
+  formula to change it.
+
+If a formula can't be read, Poiesis says why instead of hiding it. When you
+print, formulas are set as real math. An export format that can't set math
+yet keeps a math block's LaTeX as text. Nothing in a formula can link to,
+load or run anything.
+
 ## Blocks for books and poems
 
-The slash menu offers these blocks in documents that belong to a
-[project](./collections.md): chapters, poems and essays. A project is a book
-or other long work made of several documents.
+The slash menu offers these blocks in the documents of **Write**: the
+chapters, poems and essays of a [project](./collections.md), and pieces that
+are not in a project yet. A project is a book or other long work made of
+several documents. **Verse** is offered in every document except morning
+pages.
 
 If a document already has one of these blocks, the block still shows when
-the document is outside a project.
+the document is somewhere else.
 
 | Block | What it's for | Insert with |
 | --- | --- | --- |
@@ -138,7 +194,8 @@ To learn more:
 Click a date chip to open that day in the calendar. Click the pencil beside
 the chip (**Edit date & time**) to change the date or the time.
 
-The slash menu does not offer callouts in journal entries.
+The slash menu does not offer callouts, tables or code blocks in journal
+entries.
 
 You can also add two things inside a line of text:
 

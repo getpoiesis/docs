@@ -68,7 +68,8 @@ Il existe trois façons de changer de coffre :
   où il est conservé : **Local**, iCloud, Dropbox, Google Drive ou OneDrive.
   Sous les coffres se trouvent **Ouvrir un autre coffre…**, **Nouveau
   coffre…**, **Afficher dans le Finder** (**Afficher dans l’Explorateur de
-  fichiers** sur Windows) et **Importer…**.
+  fichiers** sur Windows), **Sauvegarder le coffre…** et **Importer…**. Voir
+  [Sauvegarder un coffre en un clic](./versions-and-backup.md#back-up-a-vault-in-one-click).
 - **Le sélecteur de coffres.** Choisissez **Fichier** → **Changer de
   coffre…** (`⌥⌘O`). Une courte liste s’ouvre. Tapez pour la réduire, puis
   appuyez sur Entrée. Le coffre où vous vous trouvez porte la mention

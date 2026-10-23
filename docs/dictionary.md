@@ -40,6 +40,24 @@ packs also have their own list of word forms, so a Spanish dictionary finds
 The **Dictionary** tab is in the Info panel only while you're using it, and
 only when a document is open.
 
+## Replace a word with a synonym
+
+There are two ways to swap a word in your text for another:
+
+- **Right-click the word.** When an installed pack has synonyms for it, the
+  menu has **Synonyms**, with up to eight words. Choose one. A misspelled
+  word shows its corrections instead.
+- **Look the word up** with **Look up word** in the toolbar. When the pack
+  has synonyms, the **Dictionary** tab lists them under **Replace “…”
+  with**. Click one.
+
+The new word takes the old one's place, in the case you wrote it (*Quiet*
+becomes *Calm*, not *calm*), and keeps its bold or italic. Press `⌘Z` to put
+the old word back. Antonyms and example sentences aren't offered as
+replacements.
+
+This works with any installed pack that has synonyms, in any language.
+
 ## Install a dictionary
 
 Poiesis doesn't come with a dictionary. The first time you open the tab, it says

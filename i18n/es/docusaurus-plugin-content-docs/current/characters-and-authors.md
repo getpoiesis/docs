@@ -14,9 +14,13 @@ contacto del manuscrito que envías.
 <img src="/img/app/characters-light.png" alt="Los personajes de un proyecto, con uno compartido señalado, y la ficha de un personaje: nombre, nombre de usuario, alias, el proyecto al que pertenece, rol y rasgos, notas, y los documentos, la investigación y las notas vinculados a él" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/characters-dark.png" alt="Los personajes de un proyecto, con uno compartido señalado, y la ficha de un personaje: nombre, nombre de usuario, alias, el proyecto al que pertenece, rol y rasgos, notas, y los documentos, la investigación y las notas vinculados a él" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Los dos están en **Escribir**, bajo **Mundo** en la barra lateral. Desde
+Los dos están en **Escribir**, bajo **Mundo** en la barra lateral. El grupo
+**Mundo** se queda ahí tanto si hay un proyecto abierto como si no. Desde
 cualquier modo, `⌘K` encuentra un personaje por su nombre y abre cualquiera
-de las dos listas.
+de las dos listas. `⌘G` y luego `P` abre Personajes.
+
+Los lugares, el trasfondo y la cronología de tu historia están en
+[el mundo](./world.md).
 
 ## Añadir un personaje {#add-a-character}
 
@@ -48,9 +52,10 @@ nombres, los nombres de usuario y los alias.
 ## Mantener separado el mundo de cada libro {#keep-each-books-world-apart}
 
 Un personaje pertenece al [proyecto](./collections.md) en el que lo creas. Para
-ver los personajes de un proyecto, ábrelo y elige **Personajes**, debajo de
-él en la barra lateral. Primero aparecen los personajes propios del proyecto.
-Después vienen los compartidos, con la marca **Compartido**.
+ver los personajes de un proyecto, ábrelo y haz clic en la pestaña
+**Personajes**, bajo su nombre en la lista (`⌃2`; **Alt+2** en Windows y
+Linux). Primero aparecen los personajes propios del proyecto. Después vienen
+los compartidos, con la marca **Compartido**.
 
 Un personaje nuevo entra en ese proyecto cuando lo creas en esta lista, o con
 `@` mientras escribes uno de los capítulos del proyecto.
@@ -60,12 +65,32 @@ Un personaje nuevo entra en ese proyecto cuando lo creas en esta lista, o con
 - **Toda tu obra:** elige **Todos los proyectos** para alguien que aparece en
   todas partes, como una persona real o un narrador al que recurres más de
   una vez.
-- **Toda la bóveda:** **Mundo → Personajes**, en la barra lateral, sigue
-  mostrando todos los personajes de la [bóveda](./vaults.md), la carpeta donde
-  se guarda lo que escribes.
+- **Toda la bóveda:** **Mundo → Personajes**, en la barra lateral, muestra
+  los personajes de la [bóveda](./vaults.md), la carpeta donde se guarda lo
+  que escribes. En la sección siguiente se explica cómo elegir cuáles.
 - **Mover un proyecto:** cuando mueves un proyecto a otra bóveda, sus
   personajes propios se van con él. Un personaje que comparte con otros
   proyectos se queda.
+
+## Elegir qué parte de la bóveda muestra una lista {#choose-which-part-of-the-vault-a-list-shows}
+
+Las listas **Personajes**, **Autores** e **Investigación** de la barra
+lateral muestran una parte de la bóveda cada vez. Un menú en la cabecera de la
+lista elige cuál:
+
+| Opción | Muestra |
+| --- | --- |
+| **Este proyecto** | El proyecto en el que estabas cuando abriste la lista. Su nombre aparece al lado. |
+| **Sin proyecto** | Lo que no pertenece a ningún proyecto. |
+| **Todo** | Todo lo que hay en la bóveda. |
+| El nombre de un proyecto | Ese proyecto. |
+
+Si abres la lista desde un proyecto, empieza en ese proyecto. Si la abres
+desde cualquier otro sitio, empieza en **Sin proyecto**. φ recuerda lo que
+elegiste para cada lista en cada bóveda.
+
+Un personaje o una página de investigación nuevos que crees desde una lista
+limitada a un proyecto pertenecen a ese proyecto.
 
 ## Mencionar a un personaje {#mention-a-character}
 
@@ -132,4 +157,5 @@ falta a la primera página. Te ofrece **Abrir el perfil de autor** (consulta
 - [Enviar a un agente o editorial](./send-to-an-agent.md): el manuscrito y su
   primera página.
 - [Investigación](./research.md): páginas vinculadas a un personaje.
+- [El mundo](./world.md): lugares, trasfondo y la cronología.
 - [Enlaces y el grafo](./links-and-graph.md)

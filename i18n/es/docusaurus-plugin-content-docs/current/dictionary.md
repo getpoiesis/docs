@@ -42,6 +42,26 @@ que un diccionario de español encuentra *correr* a partir de *corriendo*.
 La pestaña **Diccionario** solo está en el panel de Información mientras la
 usas, y solo cuando hay un documento abierto.
 
+## Cambiar una palabra por un sinónimo {#replace-a-word-with-a-synonym}
+
+Hay dos formas de cambiar una palabra de tu texto por otra:
+
+- **Haz clic derecho en la palabra.** Si un paquete instalado tiene sinónimos
+  de ella, el menú muestra **Sinónimos**, con hasta ocho palabras. Elige una.
+  Si la palabra está mal escrita, el menú muestra en su lugar las
+  correcciones.
+- **Busca la palabra** con **Buscar palabra**, en la barra de herramientas. Si
+  el paquete tiene sinónimos, la pestaña **Diccionario** los muestra bajo
+  **Reemplazar «…» por**. Haz clic en uno.
+
+La palabra nueva ocupa el lugar de la antigua, con las mayúsculas con que la
+escribiste (*Quieto* pasa a ser *Tranquilo*, no *tranquilo*), y conserva la
+negrita o la cursiva. Pulsa `⌘Z` para recuperar la palabra antigua. Los
+antónimos y las frases de ejemplo no se ofrecen como reemplazo.
+
+Funciona con cualquier paquete instalado que tenga sinónimos, en cualquier
+idioma.
+
 ## Instalar un diccionario {#install-a-dictionary}
 
 Poiesis no trae ningún diccionario. La primera vez que abres la pestaña, dice **No

@@ -5,7 +5,7 @@ description: Créez votre propre style à partir de l’un de ceux de φ Poiesis
 
 # Styles personnalisés
 
-Une [maquette](./designs.md) et **Ajuster la maquette** permettent de changer
+Une [maquette](./designs.md) et **Mettre en page…** permettent de changer
 quelques aspects de l’allure d’un livre. Pour aller plus loin, créez votre
 propre style : vous copiez une maquette ou un style de φ Poiesis, puis vous modifiez ce
 que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
@@ -14,8 +14,8 @@ que vous voulez. Votre style peut ensuite servir à n’importe quel projet du
 ## Créer un style {#make-a-style}
 
 1. Ouvrez la page **Exporter** du projet.
-2. Ouvrez **Ajuster la maquette**. Dans **Partager une copie**, ouvrez
-   **Options**.
+2. Ouvrez **Options**, sous **Mettre en page…**. Dans **Partager une
+   copie**, ouvrez **Options**.
 3. Choisissez **Modifier les styles…**. La fenêtre **Styles d’export**
    s’ouvre.
 4. Sous **Intégrés à φ**, choisissez la maquette ou le style le plus proche de

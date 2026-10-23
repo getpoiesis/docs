@@ -81,8 +81,9 @@ aparte.
   para elegir otro.
 
 En un libro exportado, todos los saltos de escena llevan el adorno del
-diseño del libro. Para cambiarlo, ve a **Ajustar el diseño → Entre
-escenas**.
+diseño del libro. Para cambiarlo, abre **Diseñar el libro…** en la página
+Exportar y elige **Cambios de escena → Entre escenas** (consulta
+[Diseños](./designs.md#design-the-book)).
 
 | Bloque | Cómo se inserta |
 | --- | --- |

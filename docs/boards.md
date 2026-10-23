@@ -46,6 +46,9 @@ There are two kinds of board:
   **Due this week** on Home.
 - **In Notes**, **Boards** under **Places** holds the boards that belong to
   no project.
+- **From anywhere**, press `⌘G` then `B`. It opens Notes' boards, or the
+  board of the project you are in when you are in one. Inside a project, the
+  **Board** tab under its name in the list (`⌃5`) opens it too.
 
 When no board is open, the page shows each board as a tile. A tile shows the
 board's columns and the number of open cards. Click a tile to open the board.

@@ -61,7 +61,8 @@ There are three ways to switch:
   menu lists your vaults. Each one shows where it is kept: **Local**,
   iCloud, Dropbox, Google Drive or OneDrive. Below the vaults are **Open
   another vault…**, **New vault…**, **Show in Finder** (**Show in File
-  Explorer** on Windows) and **Import…**.
+  Explorer** on Windows), **Back up vault…** and **Import…**. See
+  [Back up a vault in one click](./versions-and-backup.md#back-up-a-vault-in-one-click).
 - **The vault switcher.** Choose **File** → **Switch Vault…** (`⌥⌘O`). A
   short list opens. Type to make it shorter, then press Return. The vault
   you are in is marked **here now**.

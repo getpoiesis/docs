@@ -32,13 +32,17 @@ Cliquez sur l’un des noms pour l’ouvrir.
 
 Les pages de recherche appartiennent au mode **Écrire**.
 
-- **Toutes les recherches.** Ouvrez **Monde** → **Recherche** dans la barre
-  latérale pour voir toutes les pages de recherche. Quand aucune page de
-  recherche n’est ouverte, la page les présente toutes, classées par mois.
-  Chacune indique à quoi elle est liée.
-- **Les recherches d’un projet.** À l’intérieur d’un projet, la barre
-  latérale affiche aussi **Recherche** sous le projet. Cette liste ne
-  contient que les recherches liées au projet ou à l’un de ses chapitres.
+- **Les recherches du coffre.** Ouvrez **Monde** → **Recherche** dans la
+  barre latérale (`⌘G` puis `R`). Quand aucune page de recherche n’est
+  ouverte, la page les présente classées par mois. Chacune indique à quoi
+  elle est liée. Un menu dans l’en-tête de la liste choisit les recherches
+  affichées : **Ce projet**, **Hors projet**, **Tout**, ou un projet par son
+  nom (voir
+  [Personnages et auteurs](./characters-and-authors.md#choose-which-part-of-the-vault-a-list-shows)).
+- **Les recherches d’un projet.** À l’intérieur d’un projet, cliquez sur
+  l’onglet **Recherche** sous le nom du projet, dans la liste (`⌃4` ;
+  **Alt+4** sur Windows et Linux). Cette liste contient les recherches liées
+  au projet ou à l’un de ses chapitres.
 - **Les recherches récentes.** L’**Accueil** d’Écrire affiche vos
   **Recherches récentes**, avec le sujet de chaque page. Quand tous les
   chapitres d’un projet sont marqués **Final**, les recherches de ce projet
@@ -49,8 +53,8 @@ Les pages de recherche appartiennent au mode **Écrire**.
 Il y a trois façons de le faire :
 
 - Cliquez sur **+** en haut d’une liste Recherche (**Nouvelle page de
-  recherche**). Si vous le faites dans la liste Recherche d’un projet, la
-  page est liée à ce projet.
+  recherche**). Si vous le faites dans l’onglet Recherche d’un projet, ou
+  dans une liste restreinte à un projet, la page appartient à ce projet.
 - Appuyez sur `⌘K` et choisissez **Nouvelle page de recherche**.
 - Cliquez sur **Nouvelle page de recherche** sous **Recherche**, dans
   l’onglet **Liens** d’un document, dans la page d’un projet ou dans la page
@@ -59,7 +63,7 @@ Il y a trois façons de le faire :
 
 ## Lier la page à ce dont elle parle {#link-it-to-what-its-about}
 
-1. Ouvrez les **Détails…** de la page de recherche (le ⓘ en haut de la page).
+1. Ouvrez les **Détails…** de la page de recherche (dans le menu **⋮** au-dessus de la page).
 2. Sous **Recherches pour**, cliquez sur **Lier à…**.
 3. Choisissez un **Document**, un **Projet** ou un **Personnage**.
 

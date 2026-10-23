@@ -1,13 +1,14 @@
 ---
 title: Focus & Sanctuary
-description: Sanctuary, typewriter scrolling, focus typing and read mode, for when the page should be all there is.
+description: Sanctuary, typewriter scrolling, focus typing, read mode and writing sprints, for when the page should be all there is.
 ---
 
 # Focus & Sanctuary
 
 **Sanctuary** hides everything in φ Poiesis except the page, so nothing distracts
 you while you write. This page also explains three smaller tools:
-typewriter scrolling, focus typing and read mode.
+typewriter scrolling, focus typing and read mode, and the two ways Poiesis
+times your writing: sessions and sprints.
 
 <img src="/img/app/focus-light.png" alt="Sanctuary: a chapter alone on the page, the sentence being written at full strength and the rest dimmed, with where the chapter lives in a quiet line above" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/focus-dark.png" alt="Sanctuary: a chapter alone on the page, the sentence being written at full strength and the rest dimmed, with where the chapter lives in a quiet line above" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -123,14 +124,47 @@ You can see your sessions in two places:
 - **Write**'s Home shows the minutes of the current session on its
   **Today** card.
 - The document's statistics show your **Longest session** and **Best
-  session words**. To open the statistics, click the word count, then click
-  it again.
+  session words**. To open the statistics, click the word count and choose
+  **Statistics…**.
 
 To start and end sessions yourself:
 
 1. Open **Settings → Setup** and turn off **Start sessions automatically**.
 2. Open the command palette and choose **Start writing session**.
 3. When you finish, choose **End writing session** in the command palette.
+
+Only the words you type count. Opening a document during a session does not
+count the words already in it.
+
+## Write against the clock
+
+A writing sprint is a set time to write as much as you can, with a word
+target if you want one.
+
+1. Press `⌘P` and choose **Start a writing sprint…**. You don't need a
+   document open. You can also click the word count in the page's corner
+   and choose **Start a writing sprint…**.
+2. Choose a **Length**: **10**, **15**, **25**, **45** or **60** minutes,
+   or type any length up to three hours.
+3. If you want one, type a **Word target**.
+4. If you want, turn on **No deleting**.
+5. Click **Start sprint**.
+
+The clock runs in the bottom-left corner of the page. It shows the time
+left, your words and how close you are to the target.
+
+- Every word you add counts, in whichever documents you move between.
+  Deleting words takes none back.
+- With **No deleting** on, `Backspace`, `Delete`, **Cut** and **Undo** do
+  nothing until the sprint ends. Typing or pasting over a selection adds
+  the new words after it instead of replacing it.
+- To stop early, click the clock. Poiesis asks first. The words you wrote so
+  far are kept and counted.
+
+When the time is up, Poiesis shows what the sprint came to: your words,
+whether you reached your target, and your pace in words a minute. Click
+**Another sprint…** to start again. Poiesis remembers the length and the target
+for next time.
 
 ## See also
 

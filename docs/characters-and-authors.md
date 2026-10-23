@@ -14,8 +14,11 @@ you send out.
 <img src="/img/app/characters-light.png" alt="A project's characters, with a shared one marked, and a character's sheet: name, username, aliases, the project it belongs to, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/characters-dark.png" alt="A project's characters, with a shared one marked, and a character's sheet: name, username, aliases, the project it belongs to, role and traits, notes, and the documents, research and notes linked to them" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Both are in **Write**, under **World** in the sidebar. From any mode, `⌘K`
-finds a character by name and opens either list.
+Both are in **Write**, under **World** in the sidebar. The **World** group
+stays there whether or not a project is open. From any mode, `⌘K` finds a
+character by name and opens either list. `⌘G` then `P` opens Characters.
+
+The places, lore and timeline of your story are in [the world](./world.md).
 
 ## Add a character
 
@@ -47,9 +50,10 @@ aliases.
 ## Keep each book's world apart
 
 A character belongs to the [project](./collections.md) where you make them.
-To see a project's characters, open the project and choose **Characters**
-under it in the sidebar. The project's own characters come first. The
-shared ones come after, marked **Shared**.
+To see a project's characters, open the project and click the **Characters**
+tab under its name in the list (`⌃2`; **Alt+2** on Windows and Linux). The
+project's own characters come first. The shared ones come after, marked
+**Shared**.
 
 A new character goes into that project when you make them in this list, or
 with `@` while you write one of the project's chapters.
@@ -58,11 +62,30 @@ with `@` while you write one of the project's chapters.
   **Belongs to**. The character is then in each of them.
 - **All your work:** choose **Every project** for someone who appears
   everywhere, such as a real person or a narrator you use again.
-- **The whole vault:** **World → Characters** in the sidebar still lists
-  every character in the [vault](./vaults.md), the folder that holds your
-  writing.
+- **The whole vault:** **World → Characters** in the sidebar lists the
+  characters of the [vault](./vaults.md), the folder that holds your writing.
+  See the next section to choose which.
 - **Moving a project:** when you move a project to another vault, its own
   characters move with it. A character it shares with other projects stays.
+
+## Choose which part of the vault a list shows
+
+The **Characters**, **Authors** and **Research** lists in the sidebar show
+part of the vault at a time. A menu in the list's header picks which:
+
+| Choice | Shows |
+| --- | --- |
+| **This project** | The project you were in when you opened the list. Its name is shown beside it. |
+| **Not in a project** | What belongs to no project. |
+| **All** | Everything in the vault. |
+| A project's name | That project. |
+
+Opened from a project, the list starts on that project. Opened from
+anywhere else, it starts on **Not in a project**. φ remembers your choice
+for each list in each vault.
+
+A new character or research page made from a list narrowed to a project
+belongs to that project.
 
 ## Mention a character
 
@@ -127,4 +150,5 @@ missing from the first page. It offers **Open the author profile** (see
 - [Send to an agent or publisher](./send-to-an-agent.md): the manuscript and its
   first page.
 - [Research](./research.md): pages linked to a character.
+- [The world](./world.md): places, lore and the timeline.
 - [Links & graph](./links-and-graph.md)

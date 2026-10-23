@@ -88,8 +88,9 @@ Pour placer une épigraphe en ouverture du livre entier, ajoutez-la dans les
   autre.
 
 Dans un livre exporté, tous les sauts de scène prennent l’ornement de la
-maquette du livre. Pour changer cet ornement, allez dans **Ajuster la
-maquette → Entre les scènes**.
+maquette du livre. Pour changer cet ornement, ouvrez **Mettre en page…** sur
+la page Exporter et choisissez **Changements de scène → Entre les scènes**
+(voir [Maquettes](./designs.md#design-the-book)).
 
 | Bloc | Pour l’insérer |
 | --- | --- |

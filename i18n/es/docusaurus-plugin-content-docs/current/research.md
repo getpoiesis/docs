@@ -31,14 +31,17 @@ para**). Haz clic en uno de esos nombres para abrirlo.
 
 Las páginas de investigación pertenecen a **Escribir**.
 
-- **Toda la investigación.** Abre **Mundo** → **Investigación** en la barra
-  lateral para ver todas las páginas de investigación. Si no hay ninguna
-  abierta, la página las muestra todas ordenadas por mes, cada una con
-  aquello a lo que está vinculada.
-- **La investigación de un proyecto.** Dentro de un proyecto, la barra
-  lateral muestra también **Investigación** debajo del proyecto. Esa lista
-  contiene solo la investigación vinculada al proyecto o a alguno de sus
-  capítulos.
+- **La investigación de la bóveda.** Abre **Mundo** → **Investigación** en la
+  barra lateral (`⌘G` y luego `R`). Si no hay ninguna página de investigación
+  abierta, la página las muestra ordenadas por mes, cada una con aquello a lo
+  que está vinculada. Un menú en la cabecera de la lista elige qué
+  investigación muestra: **Este proyecto**, **Sin proyecto**, **Todo** o un
+  proyecto por su nombre (consulta
+  [Personajes y autores](./characters-and-authors.md#choose-which-part-of-the-vault-a-list-shows)).
+- **La investigación de un proyecto.** Dentro de un proyecto, haz clic en la
+  pestaña **Investigación**, bajo el nombre del proyecto en la lista (`⌃4`;
+  **Alt+4** en Windows y Linux). Esa lista contiene la investigación
+  vinculada al proyecto o a alguno de sus capítulos.
 - **La investigación reciente.** El **Inicio** de Escribir muestra tu
   **Investigación reciente** y de qué trata cada página. Cuando todos los
   capítulos de un proyecto están marcados como **Final**, la investigación
@@ -49,8 +52,9 @@ Las páginas de investigación pertenecen a **Escribir**.
 Hay tres formas:
 
 - Haz clic en **+**, al principio de una lista Investigación (**Nueva página
-  de investigación**). Si lo haces en la lista Investigación de un proyecto,
-  la página queda vinculada a ese proyecto.
+  de investigación**). Si lo haces en la pestaña Investigación de un
+  proyecto, o en una lista limitada a un proyecto, la página pertenece a ese
+  proyecto.
 - Pulsa `⌘K` y elige **Nueva página de investigación**.
 - Haz clic en **Nueva página de investigación**, en **Investigación**, en la
   pestaña **Enlaces** de un documento, en la página de un proyecto o en la
@@ -59,8 +63,8 @@ Hay tres formas:
 
 ## Vincularla a aquello de lo que trata {#link-it-to-what-its-about}
 
-1. Abre los **Detalles…** de la página de investigación (la ⓘ de la parte
-   superior de la página).
+1. Abre los **Detalles…** de la página de investigación (en el menú **⋮** que
+   hay encima de la página).
 2. En **Investigación para**, haz clic en **Enlazar con…**.
 3. Elige un **Documento**, un **Proyecto** o un **Personaje**.
 

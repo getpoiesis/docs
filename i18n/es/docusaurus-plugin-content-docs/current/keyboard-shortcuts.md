@@ -19,6 +19,11 @@ También puedes consultar los atajos dentro de Poiesis:
 - En **Ajustes → Atajos** está la misma lista, con un campo de búsqueda.
 - La paleta de comandos (`⌘P`) muestra el atajo de cada comando a su lado.
 
+Puedes asignar teclas propias a muchos comandos de la app en **Ajustes →
+Atajos → Tus atajos** (consulta [Ajustes](./settings.md#shortcuts)). Esta
+página reúne las teclas propias de φ. Los menús, `⌘/` y los Ajustes muestran
+las tuyas.
+
 <img src="/img/app/shortcuts-card-light.png" alt="La tarjeta de atajos, con los atajos principales en cuatro grupos" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/shortcuts-card-dark.png" alt="La tarjeta de atajos, con los atajos principales en cuatro grupos" width="1600" height="1000" loading="lazy" decoding="async" />
 
@@ -54,6 +59,9 @@ Fuera de las listas y las tablas, `Tab` escribe una tabulación.
 | Escribe | Para |
 | --- | --- |
 | `/` | Insertar un bloque: un encabezado, una cita, un verso, una tabla, una plantilla… |
+| `/toggle` | Una sección que se pliega bajo una línea a la que pones nombre |
+| `/math` | Una fórmula en su propia línea |
+| `$$E = mc^2$$` | Una fórmula dentro de una línea |
 | `[[` | Enlazar con otro documento |
 | `@` | Mencionar a un personaje |
 
@@ -64,6 +72,16 @@ Fuera de las listas y las tablas, `Tab` escribe una tabulación.
 | Convertir un párrafo en verso, o al revés | `⌥⌘V` |
 | Empezar una línea nueva del verso | `↵` |
 | Salir del verso y empezar un párrafo nuevo | `⌘↵` |
+
+### En un desplegable o una fórmula {#in-a-toggle-or-a-formula}
+
+| Para | Pulsa |
+| --- | --- |
+| Plegar o desplegar un desplegable | `⌥⌘↵` (o haz clic en su flecha) |
+| Salir de un desplegable | `⌘↵`, o `↵` en una última línea vacía |
+| Salir de una fórmula que estás editando | `⌘↵` o `Esc` |
+
+Consulta [Formato y bloques](./formatting-and-blocks.md).
 
 ### Enlaces {#links}
 
@@ -104,6 +122,7 @@ Fuera de las listas y las tablas, `Tab` escribe una tabulación.
 | Abrir el documento anterior · siguiente de la lista | `⌥⌘←` · `⌥⌘→` |
 | Ir al Inicio del primer, segundo o tercer modo, según el orden de la barra lateral | `⌘1` · `⌘2` · `⌘3` |
 | Ir al Inicio de este modo | `⇧⌘H` |
+| Anotar una idea desde cualquier sitio, aunque Poiesis esté en segundo plano | `⌥⇧⌘N` |
 | Cambiar de bóveda | `⌥⌘O` |
 | Abrir una bóveda | `⇧⌘O` |
 
@@ -116,11 +135,23 @@ dos segundos.
 
 | Ir a | Pulsa |
 | --- | --- |
+| Escribir | `⌘G` y luego `W` |
 | Notas | `⌘G` y luego `N` |
-| Escribir | `⌘G` y luego `C` |
 | Diario | `⌘G` y luego `J` |
-| Buscar un documento | `⌘G` y luego `S` |
+| El calendario, desde cualquier modo | `⌘G` y luego `C` |
+| Los tableros de Notas, o el tablero del proyecto en el que estás | `⌘G` y luego `B` |
+| La Bandeja de entrada | `⌘G` y luego `I` |
+| El Inicio del modo en el que estás | `⌘G` y luego `H` |
 | El grafo | `⌘G` y luego `G` |
+| Buscar un documento (`⌘K`) | `⌘G` y luego `S` |
+| Personajes | `⌘G` y luego `P` |
+| Mundo: lugares, trasfondo y cronología | `⌘G` y luego `L` |
+| Investigación | `⌘G` y luego `R` |
+
+Dentro de un proyecto, `P`, `L` y `R` abren la pestaña de ese proyecto. En
+cualquier otro sitio, abren la lista de la bóveda. Después de `⌘G` aparece una
+franja que muestra las teclas, y **Ver → Ir a** también las enumera. Las
+teclas de un modo que la bóveda no tiene no aparecen.
 
 ### En la paleta `⌘K` {#in-the-k-palette}
 
@@ -133,7 +164,11 @@ dos segundos.
 | Cerrar el documento abierto que está resaltado | `⌘W` |
 | Cerrar la paleta | `Esc` |
 
-### En el esquema de un proyecto {#in-a-projects-outline}
+### En un proyecto {#in-a-project}
+
+| Para | Pulsa |
+| --- | --- |
+| Mostrar la pestaña **Índice**, **Personajes**, **Mundo**, **Investigación** o **Tablero** del proyecto | `⌃1` · `⌃2` · `⌃3` · `⌃4` · `⌃5` |
 
 En la lista de capítulos de un proyecto:
 
@@ -157,6 +192,7 @@ En la lista de capítulos de un proyecto:
 | Pasar al panel anterior · siguiente | `⌃⌘←` · `⌃⌘→` |
 | Cerrar los demás paneles | `⌥⌘W` |
 | Mostrar la barra lateral sobre los paneles, en la vista dividida | `⌘0` |
+| Compactar la lista para ver solo los títulos, o volver | `⌃⌘L` |
 | Acercar · alejar | `⌘+` · `⌘-` |
 | Pantalla completa | `⌃⌘F` |
 | Abrir los Ajustes | `⌘,` |
@@ -181,9 +217,12 @@ Estos atajos son distintos:
 | --- | --- |
 | Mover el documento a la papelera | **Supr** |
 | Pasar al panel anterior · siguiente | **Ctrl + Alt + Mayús + ←** · **→** |
+| Las pestañas de un proyecto | **Alt + 1** a **Alt + 5** |
+| Compactar la lista | **Ctrl + Alt + Mayús + L** |
+| Anotar una idea al vuelo | **Ctrl + Alt + Mayús + N** |
 | Rehacer | **Ctrl + Mayús + Z** o **Ctrl + Y** |
 | Pantalla completa | **F11** |
-| Abrir los Ajustes | El botón de los controles deslizantes, en lo alto de la barra lateral (no hay atajo) |
+| Abrir los Ajustes | **Ctrl + ,** (está en el menú **Archivo**) |
 
 Ocultar Poiesis y ocultar las demás aplicaciones solo funciona en un Mac.
 

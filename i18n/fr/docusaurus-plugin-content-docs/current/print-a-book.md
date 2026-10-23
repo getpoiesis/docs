@@ -28,11 +28,14 @@ calcule aussi la largeur du dos d’après le nombre de pages.
    - **Format** : les dimensions de la page imprimée.
    - **Papier** : **Blanc** ou **Crème**.
    - **Encre** : **Noire**, ou **Garder la couleur de φ**.
-3. Lisez la vérification affichée sous ces choix et corrigez ce qu’elle
+3. Si vous le souhaitez, changez l’allure des pages avec **Mettre en page…**
+   (voir [Maquettes](./designs.md#design-the-book)), et réglez la quatrième de
+   couverture et le dos sous **Couverture** (voir [La couverture](#the-cover)).
+4. Lisez la vérification affichée sous ces choix et corrigez ce qu’elle
    signale.
-4. Appuyez sur **Exporter le PDF d’impression** pour produire l’intérieur.
-5. Appuyez sur **Exporter la couverture** pour produire la couverture.
-6. Envoyez les deux fichiers à votre service d’impression. Ils se déposent
+5. Appuyez sur **Exporter le PDF d’impression** pour produire l’intérieur.
+6. Appuyez sur **Exporter la couverture** pour produire la couverture.
+7. Envoyez les deux fichiers à votre service d’impression. Ils se déposent
    séparément.
 
 ## Choisir le format {#choosing-the-trim-size}
@@ -66,8 +69,8 @@ si vous payez une impression en couleur.
 
 - **Les chapitres commencent en belle page**, c’est-à-dire sur une page de
   droite. Quand la maquette le demande, Poiesis ajoute une page blanche avant le
-  chapitre là où il en faut une. Vous pouvez désactiver cela dans **Ajuster
-  la maquette**.
+  chapitre là où il en faut une. Vous pouvez désactiver cela dans **Mettre
+  en page…**, sous **Les chapitres commencent**.
 - **Des marges adaptées à la reliure.** Plus le livre a de pages, plus la
   marge intérieure est large, pour que le texte ne se perde pas dans la
   reliure. Les services d’impression l’exigent.
@@ -83,21 +86,40 @@ si vous payez une impression en couleur.
 
 **Exporter la couverture** produit un seul PDF avec la quatrième de
 couverture, le dos et le premier plat. Il y ajoute le fond perdu : un huitième
-de pouce en plus sur tout le pourtour, que le service d’impression coupe.
+de pouce en plus sur tout le pourtour, que le service d’impression coupe. Le
+PDF indique où la page est massicotée, pour que le service d’impression lise
+correctement le fond perdu.
 
 - **Le premier plat**, c’est votre illustration de couverture. Elle se choisit
   en haut de la page du projet.
-- **La quatrième de couverture et le dos** reprennent la couleur de
-  l’illustration.
 - **La quatrième de couverture** porte la description du livre et la courte
-  biographie du premier auteur. Le coin réservé au code-barres reste vide.
+  biographie du premier auteur.
 - **Le dos** est dimensionné d’après le nombre de pages et le papier. À partir
   de 80 pages, il porte le titre et l’auteur. En dessous de 80 pages, il est
   trop étroit pour du texte et reste uni.
 
+Ouvrez **Couverture**, sous **Options**, pour régler le reste :
+
+| Choix | Ce qu’il fait |
+| --- | --- |
+| **Quatrième et dos** | Leur couleur : **D’après l’illustration**, ou **Une couleur choisie**, avec un sélecteur de couleur. |
+| **Code-barres ISBN** | **Laisser libre (KDP)** : KDP ajoute son propre code-barres, la zone reste donc vide. **D’après l’ISBN** : Poiesis dessine le code-barres à partir de l’**ISBN (imprimé)** des [Détails du livre](./book-details.md). IngramSpark et la plupart des imprimeurs le demandent. |
+| **Largeur du dos (in)** | Laissez ce champ vide, et Poiesis calcule le dos d’après le nombre de pages et le papier. Si le calculateur de couverture de votre imprimeur donne un autre chiffre, tapez le sien ici. |
+
+**Vérifier la couverture** montre toute la couverture à plat : la quatrième,
+le dos et le premier plat. Des lignes rouges indiquent ce que l’imprimeur
+coupe et où le dos se plie. Gardez le texte à l’intérieur des lignes bleues.
+La zone du code-barres est aussi signalée. C’est le fichier que produit
+Poiesis, pas une photo du livre imprimé.
+
+<img src="/img/app/check-cover-light.png" alt="Vérifier la couverture : la quatrième, le dos et le premier plat à plat, avec la coupe, le pli et la zone du code-barres signalés" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/check-cover-dark.png" alt="Vérifier la couverture : la quatrième, le dos et le premier plat à plat, avec la coupe, le pli et la zone du code-barres signalés" width="1600" height="1000" loading="lazy" decoding="async" />
+
 La vérification vous avertit quand l’illustration de couverture est trop
 petite pour une impression nette. Une couverture imprimée demande environ
-300 pixels par pouce.
+300 pixels par pouce. Elle vous avertit aussi quand la largeur du dos que vous
+avez tapée s’éloigne beaucoup de celle que donne le nombre de pages, ou quand
+vous avez choisi un code-barres alors que le livre n’a pas d’ISBN imprimé.
 
 :::tip Commandez une épreuve
 

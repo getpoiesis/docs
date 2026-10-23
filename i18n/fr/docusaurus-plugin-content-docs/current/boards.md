@@ -49,6 +49,10 @@ Le **+** en haut de la liste Tableaux crée lui aussi un tableau de tâches. Le
   rendre cette semaine** sur l’Accueil.
 - **Dans Notes**, **Tableaux**, sous **Lieux**, réunit les tableaux qui
   n’appartiennent à aucun projet.
+- **Depuis n’importe où**, appuyez sur `⌘G` puis `B`. Cela ouvre les tableaux
+  de Notes, ou le tableau du projet dans lequel vous êtes, le cas échéant.
+  Dans un projet, l’onglet **Tableau** sous son nom, dans la liste (`⌃5`),
+  l’ouvre aussi.
 
 Quand aucun tableau n’est ouvert, la page présente chaque tableau sous la
 forme d’une vignette. Une vignette montre les colonnes du tableau et le

@@ -49,6 +49,10 @@ puedes elegir un idioma que Poiesis sí tenga.
 2. Haz clic en una sugerencia para sustituir la palabra. O elige **Añadir al
    diccionario** para darla por buena y que Poiesis deje de subrayarla.
 
+Una palabra bien escrita puede mostrar **Sinónimos** en ese mismo menú, cuando
+un diccionario instalado los tiene. Consulta [Cambiar una palabra por un
+sinónimo](./dictionary.md#replace-a-word-with-a-synonym).
+
 ## Elegir cómo revisa Poiesis {#choose-how-Poiesis-checks}
 
 Abre **Ajustes → Idioma → Ortografía**. Hay tres ajustes:

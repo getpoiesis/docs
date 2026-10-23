@@ -52,14 +52,10 @@ L’instantané apparaît dans l’onglet **Historique** du document, avec la me
 ## Retrouver une ancienne version {#find-an-old-version}
 
 L’historique d’un document se trouve dans l’onglet **Historique** du panneau
-Infos, le panneau situé à côté du document. Vous pouvez l’ouvrir de trois
-façons :
-
-- Appuyez sur `⇧⌘I` pour ouvrir le panneau Infos, puis cliquez sur
-  **Historique**.
-- Choisissez **Historique des versions** dans le menu ⋮ du document.
-- Faites un clic droit sur le document dans une liste, puis choisissez
-  **Historique des versions**.
+Infos, le panneau situé à côté du document. Pour l’ouvrir, appuyez sur `⇧⌘I`
+(ou cliquez sur **Infos** au-dessus de la page), puis cliquez sur l’onglet
+**Historique**. Les onglets sont des icônes ; pointez sur l’une d’elles pour
+voir son nom.
 
 Dans l’onglet **Historique** :
 
@@ -166,6 +162,23 @@ Votre historique contient tous vos brouillons. Sauvegardez-le dans un dépôt
 privé. Si vous le pouvez, utilisez une identité réservée à cet usage.
 
 :::
+
+## Sauvegarder un coffre en un clic {#back-up-a-vault-in-one-click}
+
+Pour garder une copie d’un coffre entier, sur un disque ou un autre
+ordinateur :
+
+1. Cliquez sur le nom du coffre en haut de la barre latérale et choisissez
+   **Sauvegarder le coffre…**. Vous le trouvez aussi dans **Réglages** →
+   **Données** → **Sauvegarde du coffre**.
+2. Choisissez où l’enregistrer.
+
+φ Poiesis enregistre un fichier ZIP daté du coffre ouvert, par exemple
+`My Novel Backup 2026-10-19.zip`. Il contient un dossier au nom du coffre,
+avec chaque document, dossier, fiche, pièce jointe et les réglages propres
+au coffre. L’historique des versions et la corbeille n’y figurent pas. Quand
+le fichier est enregistré depuis le menu du coffre, φ l’affiche dans son
+dossier. Dans les Réglages, **Afficher dans le dossier** fait de même.
 
 ## Un coffre est un dossier ordinaire {#a-vault-is-an-ordinary-folder}
 
