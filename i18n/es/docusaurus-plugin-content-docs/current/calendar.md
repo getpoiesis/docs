@@ -15,7 +15,8 @@ fecha otros años.
 
 ## Vuelve a un día {#look-back-at-a-day}
 
-1. Haz clic en **Calendario**, bajo **Lugares**, en la barra lateral.
+1. Pulsa `⌘G` y luego `C`, en cualquier modo. En Diario también puedes hacer
+   clic en **Calendario**, en la barra lateral.
 2. Cambia de mes con las flechas que hay junto al nombre del mes. **Hoy** te
    devuelve al mes actual.
 3. Haz clic en un día. Debajo de la cuadrícula del mes aparece todo lo que
@@ -25,7 +26,7 @@ fecha otros años.
 
 También puedes abrir el calendario de estas maneras:
 
-- Pulsa `⌘K` y escribe «Calendario».
+- Pulsa `⌘K` o `⌘P` y escribe «Calendario».
 - Abre el menú **⋮** de la lista del Diario.
 - Haz clic en un día de la tarjeta del mes, en el Inicio de cualquier modo. El
   calendario se abre en ese día.
@@ -102,9 +103,15 @@ Cuando el día seleccionado tiene algo de otros años, encima de la lista del
 día aparece **Un día como hoy**, que indica cuántos elementos hay *de años
 anteriores*.
 
-1. Haz clic en **Un día como hoy**. Cada elemento indica cuánto tiempo hace
-   que lo creaste; por ejemplo, *hace 3 a*.
+1. Haz clic en **Un día como hoy**. Cada elemento muestra la primera línea de
+   lo que escribiste y cuánto tiempo hace que lo creaste; por ejemplo,
+   *hace 3 a*. También aparecen los hitos que alcanzaste en esa fecha, como
+   una racha larga.
 2. Haz clic en un elemento para abrirlo.
+3. Haz clic en **Todos los recuerdos**, al final de la lista, para ver todo lo
+   de este día y de esta semana en años anteriores.
+
+Consulta [Recuerdos y celebraciones](./memories-and-celebrations.md).
 
 :::tip Cambia cómo se muestra la racha
 
@@ -121,4 +128,6 @@ del mapa de calor.
 - [Diario y páginas matinales](./journal-and-morning-pages.md): las entradas, las
   páginas matinales y cómo se cuenta la racha.
 - [Tableros](./boards.md): tarjetas con fecha de vencimiento.
+- [Recuerdos y celebraciones](./memories-and-celebrations.md): lo que
+  escribiste antes, en cada Inicio, y tu año de escritura.
 - [Un recorrido por la ventana](./finding-your-way.md)

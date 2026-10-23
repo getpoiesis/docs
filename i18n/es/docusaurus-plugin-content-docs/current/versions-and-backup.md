@@ -48,13 +48,10 @@ La instantánea aparece en la pestaña **Historial** del documento, con la marca
 ## Encontrar una versión antigua {#find-an-old-version}
 
 El historial de un documento está en la pestaña **Historial** del panel de
-Información, el panel que aparece junto al documento. Hay tres maneras de
-abrirla:
-
-- Pulsa `⇧⌘I` para abrir el panel de Información y haz clic en **Historial**.
-- Elige **Historial de versiones** en el menú **⋮** del documento.
-- Haz clic derecho en el documento en una lista y elige **Historial de
-  versiones**.
+Información, el panel que aparece junto al documento. Para abrirla, pulsa
+`⇧⌘I` (o haz clic en **Información**, encima de la página) y luego haz clic en
+la pestaña **Historial**. Las pestañas son iconos; señala una para ver su
+nombre.
 
 En la pestaña **Historial**:
 
@@ -156,6 +153,23 @@ Tu historial contiene todos tus borradores. Respáldalo en un repositorio
 privado. Si puedes, usa una identidad reservada solo para esto.
 
 :::
+
+## Hacer una copia de la bóveda con un clic {#back-up-a-vault-in-one-click}
+
+Para guardar una copia de toda una bóveda, en un disco o en otro ordenador:
+
+1. Haz clic en el nombre de la bóveda, arriba en la barra lateral, y elige
+   **Hacer copia de la bóveda…**. También está en **Ajustes** → **Datos** →
+   **Copia de la bóveda**.
+2. Elige dónde guardarla.
+
+φ Poiesis guarda un único archivo ZIP con fecha de la bóveda abierta, por
+ejemplo `My Novel Backup 2026-10-19.zip`. Dentro hay una carpeta con el nombre
+de la bóveda, con todos los documentos, carpetas, registros, adjuntos y los
+ajustes propios de la bóveda. El historial de versiones y la papelera se
+quedan fuera. Cuando guardas el archivo desde el menú de la bóveda, φ lo
+muestra en su carpeta. En los Ajustes, **Mostrar en la carpeta** hace lo
+mismo.
 
 ## Una bóveda es una carpeta corriente {#a-vault-is-an-ordinary-folder}
 

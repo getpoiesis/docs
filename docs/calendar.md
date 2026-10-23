@@ -14,7 +14,8 @@ that day. It also shows what you made on the same date in earlier years.
 
 ## Look back at a day
 
-1. Click **Calendar** under **Places** in the sidebar.
+1. Press `⌘G`, then `C`, in any mode. In Journal, you can also click
+   **Calendar** in the sidebar.
 2. Use the arrows beside the month's name to change the month. **Today**
    returns you to the current month.
 3. Click a day. Everything that belongs to that day is listed below the month
@@ -24,7 +25,7 @@ that day. It also shows what you made on the same date in earlier years.
 
 You can also open the calendar in these ways:
 
-- Press `⌘K` and type "Calendar".
+- Press `⌘K` or `⌘P` and type "Calendar".
 - Open the **⋮** menu of the Journal list.
 - Click a day in the month card on the Home of any mode. The calendar opens
   on that day.
@@ -98,9 +99,14 @@ When the selected day has something from earlier years, **On this day**
 appears above the day's list. It shows how many items there are *from
 previous years*.
 
-1. Click **On this day**. Each item shows how long ago you made it, such as
-   *3y ago*.
+1. Click **On this day**. Each item shows the opening line of what you
+   wrote and how long ago you made it, such as *3y ago*. Milestones you
+   reached on this date, such as a long streak, are listed too.
 2. Click an item to open it.
+3. Click **All memories** at the end of the list to see everything from
+   this day and this week in earlier years.
+
+See [Memories & celebrations](./memories-and-celebrations.md).
 
 :::tip Change how the streak shows
 
@@ -116,4 +122,6 @@ first column of the month grid and of the heat map.
 - [Journal & morning pages](./journal-and-morning-pages.md): entries, morning
   pages and how the streak is counted.
 - [Boards](./boards.md): cards with due dates.
+- [Memories & celebrations](./memories-and-celebrations.md): your past
+  writing on each Home, and your year in writing.
 - [Finding your way](./finding-your-way.md)

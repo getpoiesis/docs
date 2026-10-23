@@ -40,7 +40,9 @@ De haut en bas, la barre latérale comprend :
   Cliquez sur son nom pour ouvrir le menu du coffre. Vous y trouvez la liste
   de vos coffres, puis **Ouvrir un autre coffre…**, **Nouveau coffre…**,
   **Afficher dans le Finder** (**Afficher dans l’Explorateur de fichiers**
-  sur Windows) et **Importer…**. Si vous avez plusieurs coffres, le menu
+  sur Windows), **Sauvegarder le coffre…**, qui enregistre tout le coffre
+  dans un seul fichier ZIP, et **Importer…**. Si vous avez plusieurs
+  coffres, le menu
   propose aussi **Fusionner dans un autre coffre…**. Voir
   [Coffres](./vaults.md).
 - **Les curseurs**, à côté du nom. Ils ouvrent les **Réglages** (`⌘,`).
@@ -51,18 +53,36 @@ De haut en bas, la barre latérale comprend :
   la liste.
 - **Tout en bas :** ce que le coffre est en train de faire
   (**Enregistrement…**, **Indexation…**), la **Corbeille** et le badge
-  **Bêta**. Cliquez sur le badge pour nous envoyer vos remarques.
+  **Bêta**. Cliquez sur le badge pour nous envoyer vos remarques. De temps
+  en temps, une ligne discrète près du badge vous demande comment se passe
+  la bêta. Pour qu’elle ne vous le demande plus, faites un clic droit sur
+  son **×**.
 
 | Mode | Ce qu’affiche la barre latérale |
 | --- | --- |
-| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Auteurs**, **Recherche**), **Lieux** (**Graphe**, **Calendrier**) |
-| **Notes** | **Accueil**, **Toutes les notes**, **Favoris**, **Non liées**, **Dossiers** (avec un **+** pour créer un dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Graphe**, **Calendrier**, **Modèles**) |
+| **Écrire** | **Accueil**, **Pièces**, **Projets** (chaque projet, **Nouveau projet**, et **Rangés** quand vous en avez rangé), **Monde** (**Personnages**, **Monde**, **Auteurs**, **Recherche**) |
+| **Notes** | **Accueil**, **Boîte de réception**, **Toutes les notes**, **Favoris**, **Dossiers** (avec un **+** pour créer un dossier), **Étiquettes**, **Lieux** (**Tableaux**, **Modèles**) |
 | **Journal** | **Accueil**, **Aujourd’hui**, **Toutes les entrées**, **Pages du matin**, **Lieux** (**Calendrier**) |
+
+Le groupe **Monde** reste dans la barre latérale d’Écrire, qu’un projet soit
+ouvert ou non. Voir [Lieux, univers et chronologie](./world.md).
+
+Le graphe et le calendrier ne figurent pas dans la barre latérale d’Écrire et
+de Notes, mais ils sont à une touche dans tous les modes : `⌘G G` ouvre le
+graphe et `⌘G C` le calendrier. Vous pouvez aussi les appeler par leur nom
+dans `⌘K` et `⌘P`. Pour trouver les notes sans liens, ouvrez **Toutes les
+notes** et choisissez **Seulement les notes sans liens** dans le menu de tri
+de la liste.
+
+Les nombres à côté des lignes s’affichent quand vous pointez une ligne, ou
+sur la ligne sélectionnée. Le nombre de la boîte de réception et la
+progression d’un projet vers son objectif de mots restent toujours affichés.
 
 Cliquez sur un projet pour ouvrir la page du projet lui-même. La liste en
 affiche le plan. Tant que le projet est ouvert, la barre latérale affiche
-sous son nom : **Sommaire**, **Recherche**, **Personnages**, **Tableau**,
-**Lire** et **Exporter**.
+sous son nom : **Sommaire**, **Tableau**, **Lire** et **Exporter**. Les
+personnages, le monde et la recherche du projet sont des onglets en haut de
+sa liste (voir [Projets](./collections.md)).
 
 Faites un clic droit sur un projet ou sur un dossier pour ouvrir son menu.
 Pour ranger une note dans un dossier, faites-la glisser sur ce dossier dans
@@ -114,14 +134,11 @@ dossier ou sur une étape du chemin.
 
 Pour donner plus de place à la page sans perdre de vue où vous êtes :
 
-- **Compactez la barre latérale** avec le bouton en haut, **Affichage →
-  Barre latérale compacte** ou `⌃⌘S`. Elle devient une étroite colonne
-  d’icônes ; pointez une icône pour voir son nom. Le même bouton la redéplie.
 - **Compactez la liste** avec le bouton en haut, **Affichage → Liste
   compacte** ou `⌃⌘L`. Elle n’affiche que les titres ; pointez un document
   pour voir sa date et ses premières lignes.
 
-Poiesis se souvient de la façon dont vous les avez laissées. Pour tout
+Poiesis se souvient de la façon dont vous l’avez laissée. Pour tout
 masquer sauf la page, utilisez le [Sanctuaire](./focus-and-writing-modes.md).
 
 Un document se rouvre là où vous l’aviez laissé : au même endroit de la
@@ -137,16 +154,22 @@ boutons se trouvent en haut à droite :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de celui-ci. Voir [Documents côte à côte](./side-by-side.md). |
-| **⋮** | Le menu du document : mettre en favori, ajouter à un tableau, mode lecture, défilement machine à écrire, vérifier l’orthographe, enregistrer une version, exporter, mettre à la corbeille, etc. |
-| **Détails…** (le ⓘ) | Le statut du document, son synopsis ou sa description, son objectif de mots, ses étiquettes, sa couleur et son emplacement. Voir [Organiser](./organizing.md). |
+| **Rechercher…** | Trouve n’importe quoi (`⌘K`). Au repos, c’est une loupe ; elle s’ouvre en champ de recherche quand vous la pointez. |
+| **⋮** | Le menu du document : mettre en favori, ajouter à un tableau, **Vue partagée** (`⌘\`), **Détails…**, mode lecture, défilement machine à écrire, vérifier l’orthographe, enregistrer une version, exporter, mettre à la corbeille, etc. |
 | **Infos** (`⇧⌘I`) | Ouvre ou ferme le panneau Infos. |
 | **Sanctuaire** (`⌘.`) | Masque tout, sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
+Quand vous êtes en [vue partagée](./side-by-side.md) ou dans les **Détails…**
+d’un document ([Organiser](./organizing.md)), son bouton apparaît aussi dans
+la barre, pour revenir en arrière. Pendant que vous tapez, les boutons
+s’estompent.
+
 Le nombre de mots se trouve dans le coin inférieur droit. Si le document a un
-objectif de mots, vous y voyez vos mots et l’objectif. Cliquez une fois
-dessus pour ouvrir l’onglet **Plan** du panneau **Infos**. Cliquez une
-seconde fois pour ouvrir les **Statistiques du document** complètes.
+objectif de mots, vous y voyez vos mots et l’objectif. Cliquez dessus pour
+ouvrir un petit menu : **Infos** ouvre l’onglet **Plan** du panneau Infos,
+**Statistiques…** ouvre les **Statistiques du document** complètes, et
+**Lancer un sprint d’écriture…** lance un
+[sprint](./focus-and-writing-modes.md#write-against-the-clock).
 
 ## Le panneau Infos {#the-info-panel}
 
@@ -154,7 +177,9 @@ seconde fois pour ouvrir les **Statistiques du document** complètes.
 <img src="/img/app/outline-dark.png" alt="Le panneau Infos à côté d’une page de recherche, sur l’onglet Plan : mots, temps de lecture, titres et notes de bas de page" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Appuyez sur `⇧⌘I`, ou cliquez sur **Infos**, pour ouvrir un panneau à droite
-du document. Il comporte cinq onglets :
+du document. Ses onglets sont des icônes : celui où vous êtes affiche son nom,
+et vous pouvez pointer les autres pour voir le leur. Il comporte ces
+onglets :
 
 | Onglet | Ce qu’il affiche |
 | --- | --- |
@@ -162,16 +187,18 @@ du document. Il comporte cinq onglets :
 | **Liens** | Les documents vers lesquels celui-ci renvoie et ceux qui renvoient vers lui, les notes qui lui sont liées, et le **Graphe local**. Voir [Liens et graphe](./links-and-graph.md). |
 | **Notes** | Ses surlignages, ses commentaires et ses notes en marge (`⇧⌘A`). Voir [Annotations et notes en marge](./annotations.md). |
 | **Tâches** | Les éléments de ses listes de tâches, et les cartes de tableau qui les suivent. |
+| **Monde** | Dans Écrire seulement : les personnages, les lieux et l’univers qu’amène le document, et la recherche qui lui est liée. Voir [Lieux, univers et chronologie](./world.md). |
 | **Historique** | Ses versions. Voir [Versions et sauvegarde](./versions-and-backup.md). |
 
 Certains documents affichent d’autres onglets :
 
 - Tant que vous utilisez le [dictionnaire](./dictionary.md) (`⇧⌘D`), il forme un
-  sixième onglet.
+  onglet de plus.
 - Une page du matin affiche à la place **La pratique** et **Historique**.
 - Les pages du projet lui-même affichent **Projet**.
 
-**Ouvert ou fermé.** Le panneau reste ouvert tant que vous ne le fermez pas.
+**Ouvert ou fermé.** Sur une nouvelle installation, le panneau est d’abord
+fermé. Une fois ouvert, il reste ouvert tant que vous ne le fermez pas.
 Une fois fermé, il le reste pour tous les documents, même après avoir quitté
 Poiesis, jusqu’à ce que vous le rouvriez. Si la fenêtre est trop étroite pour tout
 afficher, Poiesis masque le panneau sans le fermer. Élargissez la fenêtre, et le
@@ -195,20 +222,25 @@ cliquez sur **Accueil**, en haut de la barre latérale.
 - Le chapitre à **Reprendre**, les projets **En cours**, les **Pièces**
   récentes et les **Recherches récentes**.
 - À côté : **Aujourd’hui** (les mots du jour, votre série, la session en
-  cours, les jours de la semaine où vous avez écrit), le mois, et ce qui est
-  **À rendre cette semaine** sur vos tableaux.
+  cours, les jours de la semaine où vous avez écrit), le mois, les
+  **Souvenirs**, et ce qui est **À rendre cette semaine** sur vos tableaux.
 
 **Notes** affiche :
 
 - **Notez une idée…**, les notes sous **Modifié récemment** et vos **Actions
   en cours**.
-- À côté : le mois, vos notes sous **Favoris** et vos **Étiquettes**.
+- À côté : le mois, les **Souvenirs**, vos notes sous **Favoris** et vos
+  **Étiquettes**.
 
 **Journal** affiche :
 
 - L’entrée du jour, **Cette semaine** et les jours précédents.
-- À côté : les **Pages du matin** du jour, le mois et **Ce jour-là**. **Ce
-  jour-là** affiche ce que vous avez écrit à la même date, les autres années.
+- À côté : les **Pages du matin** du jour, le mois et les **Souvenirs**.
+
+Les **Souvenirs**, sur chaque Accueil, affichent ce que vous avez écrit à la
+même date les années précédentes. Du 1er décembre au 15 janvier, une carte
+au-dessus vous propose **Votre année dans φ Poiesis**. Voir
+[Souvenirs et célébrations](./memories-and-celebrations.md).
 
 ## Tout trouver : `⌘K` {#find-anything-k}
 
@@ -226,7 +258,8 @@ la palette. Avant que vous ne tapiez quoi que ce soit, elle affiche :
 
 Dès que vous tapez, Poiesis cherche dans tous les documents des trois modes, dans
 les titres comme dans le texte. Chaque résultat indique le mode où il se
-trouve.
+trouve. Les commandes qui portent ce nom sont listées sous les documents,
+avec leurs touches : vous pouvez donc aussi en lancer une d’ici.
 
 | Touche | Ce qu’elle fait |
 | --- | --- |

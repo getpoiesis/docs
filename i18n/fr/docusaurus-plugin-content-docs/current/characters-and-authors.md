@@ -16,8 +16,12 @@ envoyez.
 <img src="/img/app/characters-dark.png" alt="Les personnages d’un projet, dont un personnage partagé signalé comme tel, et la fiche d’un personnage : nom, nom d’utilisateur, alias, projet auquel il appartient, rôle et traits, notes, ainsi que les documents, recherches et notes qui lui sont liés" width="1600" height="1000" loading="lazy" decoding="async" />
 
 Les uns et les autres se trouvent dans **Écrire**, sous **Monde** dans la
-barre latérale. Depuis n’importe quel mode, `⌘K` retrouve un personnage
-d’après son nom et ouvre l’une ou l’autre liste.
+barre latérale. Le groupe **Monde** y reste, qu’un projet soit ouvert ou non.
+Depuis n’importe quel mode, `⌘K` retrouve un personnage d’après son nom et
+ouvre l’une ou l’autre liste. `⌘G` puis `P` ouvre les Personnages.
+
+Les lieux, l’univers et la chronologie de votre histoire se trouvent dans
+[le monde](./world.md).
 
 ## Ajouter un personnage {#add-a-character}
 
@@ -50,9 +54,9 @@ noms, les noms d’utilisateur et les alias.
 ## Séparer le monde de chaque livre {#keep-each-books-world-apart}
 
 Un personnage appartient au [projet](./collections.md) dans lequel vous le créez.
-Pour voir les personnages d’un projet, ouvrez le projet et choisissez
-**Personnages** en dessous de lui, dans la barre latérale. Les personnages
-propres au projet viennent en premier. Les personnages partagés suivent, avec
+Pour voir les personnages d’un projet, ouvrez le projet et cliquez sur
+l’onglet **Personnages** sous son nom, dans la liste (`⌃2` ; **Alt+2** sous
+Windows et Linux). Les personnages propres au projet viennent en premier. Les personnages partagés suivent, avec
 la mention **Partagé**.
 
 Un nouveau personnage entre dans ce projet quand vous le créez dans cette
@@ -64,11 +68,31 @@ liste, ou avec `@` pendant que vous écrivez l’un des chapitres du projet.
   apparaît partout, par exemple une personne réelle ou un narrateur que vous
   reprenez.
 - **Tout le coffre :** **Monde → Personnages**, dans la barre latérale,
-  continue d’afficher tous les personnages du [coffre](./vaults.md), le dossier
-  qui contient vos textes.
+  affiche les personnages du [coffre](./vaults.md), le dossier qui contient
+  vos textes. La section suivante explique comment choisir lesquels.
 - **Déplacer un projet :** quand vous déplacez un projet vers un autre coffre,
   ses propres personnages le suivent. Un personnage qu’il partage avec
   d’autres projets reste où il est.
+
+## Choisir la partie du coffre qu’affiche une liste {#choose-which-part-of-the-vault-a-list-shows}
+
+Les listes **Personnages**, **Auteurs** et **Recherche** de la barre latérale
+affichent une partie du coffre à la fois. Un menu, dans l’en-tête de la
+liste, permet de choisir laquelle :
+
+| Choix | Affiche |
+| --- | --- |
+| **Ce projet** | Le projet dans lequel vous étiez quand vous avez ouvert la liste. Son nom figure à côté. |
+| **Hors projet** | Ce qui n’appartient à aucun projet. |
+| **Tout** | Tout le contenu du coffre. |
+| Le nom d’un projet | Ce projet. |
+
+Ouverte depuis un projet, la liste commence sur ce projet. Ouverte depuis
+n’importe où ailleurs, elle commence sur **Hors projet**. φ retient votre
+choix pour chaque liste, dans chaque coffre.
+
+Un nouveau personnage ou une nouvelle page de recherche créés depuis une
+liste restreinte à un projet appartiennent à ce projet.
 
 ## Mentionner un personnage {#mention-a-character}
 
@@ -137,4 +161,5 @@ manque sur la première page. Il propose alors **Ouvrir le profil d’auteur**
 - [Envoyer à un agent ou un éditeur](./send-to-an-agent.md) : le manuscrit et sa
   première page.
 - [Recherche](./research.md) : les pages liées à un personnage.
+- [Le monde](./world.md) : les lieux, l’univers et la chronologie.
 - [Liens et graphe](./links-and-graph.md)

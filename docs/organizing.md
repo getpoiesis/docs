@@ -126,16 +126,16 @@ You can do these things in a list:
 ## Details
 
 A document's **Details…** page holds everything about the document except
-its text. There are three ways to open it:
+its text. There are two ways to open it:
 
 <img src="/img/app/details-light.png" alt="The Details page of a piece: status, description, word goal, tags, folder and links" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="The Details page of a piece: status, description, word goal, tags, folder and links" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Click the ⓘ at the top of the page.
-- Click the document's **⋮**, then **Details…**.
+- Click **⋮** above the page, then **Details…**.
 - Right-click the document's row in a list, then **Details…**.
 
-**Back to text** returns you to the page.
+While Details is open, an ⓘ shows at the top of the page. Click it, or
+**Back to text**, to return to the page.
 
 The rows you see depend on the kind of document:
 
@@ -158,14 +158,19 @@ edited, and how many versions it has.
 Right-click a document in any list, or click its **⋮**. The menu has:
 
 - **Details…**, **Open beside**, and **Star** or **Unstar**.
-- **Outline**, **Wiki links**, **Notes** and **Version history**. Each opens
-  that part of the [Info panel](./finding-your-way.md#the-info-panel).
+- **Done with it (out of the Inbox)**, for a note in the Inbox (see
+  [Notes & capture](./notes.md)).
 - The moves listed in [Move a document](#move-a-document).
+- **Hide from lists** (or **Show in lists**).
 - **Mark as morning pages** (see
   [Journal & morning pages](./journal-and-morning-pages.md)).
 - **Rename…** and **Copy as Markdown**.
 - A submenu with every export format (see [Exporting](./exporting.md)).
 - **Delete**, which moves the document to the trash.
+
+The document's outline, links, notes and versions are not in this menu.
+Open them from the tabs of the [Info panel](./finding-your-way.md#the-info-panel)
+(`⇧⌘I`).
 
 ## Clear out empty documents
 
@@ -181,7 +186,8 @@ restore it.
 
 A deleted item is not removed at once. It goes to the **Trash**, at the
 bottom of the sidebar. The trash holds deleted documents, projects,
-characters, author profiles, boards and board cards.
+characters, author profiles, world entries (places, lore and events),
+boards and board cards.
 
 <img src="/img/app/trash-light.png" alt="The Trash with a deleted document selected, and the Restore and Delete forever buttons" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/trash-dark.png" alt="The Trash with a deleted document selected, and the Restore and Delete forever buttons" width="1600" height="1000" loading="lazy" decoding="async" />

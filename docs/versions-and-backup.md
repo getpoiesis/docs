@@ -44,11 +44,9 @@ The snapshot appears in the document's **History** tab, marked **Snapshot**.
 ## Find an old version
 
 A document's history is in the **History** tab of the Info panel, the panel
-beside the document. There are three ways to open it:
-
-- Press `⇧⌘I` to open the Info panel, then click **History**.
-- Choose **Version history** in the document's **⋮** menu.
-- Right-click the document in a list and choose **Version history**.
+beside the document. To open it, press `⇧⌘I` (or click **Info** above the
+page), then click the **History** tab. The tabs are icons; point at one to
+see its name.
 
 In the **History** tab:
 
@@ -145,6 +143,21 @@ Your history holds every draft. Back it up to a private repository. If you
 can, use an identity that you keep only for this.
 
 :::
+
+## Back up a vault in one click
+
+To keep a copy of a whole vault, for a drive or another computer:
+
+1. Click the vault's name at the top of the sidebar and choose **Back up
+   vault…**. It is also in **Settings** → **Data** → **Vault backup**.
+2. Choose where to save it.
+
+φ Poiesis saves one dated ZIP file of the open vault, such as
+`My Novel Backup 2026-10-19.zip`. Inside is one folder named for the vault,
+with every document, folder, record, attachment and the vault's own
+settings. Version history and the trash stay out. When the file is saved
+from the vault menu, φ shows it in its folder. In Settings, **Show in
+folder** does the same.
 
 ## A vault is an ordinary folder
 

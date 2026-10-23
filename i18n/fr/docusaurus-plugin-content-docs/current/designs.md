@@ -15,8 +15,9 @@ Une **maquette** décide de l’allure de tout votre livre, à la manière dont 
 - l’ornement placé entre les scènes.
 
 Vous choisissez une seule maquette : le livre imprimé et le livre numérique
-l’utilisent tous les deux. Pour changer quelques détails, passez par **Ajuster
-la maquette** : vous gardez la maquette et ne modifiez que ces points-là.
+l’utilisent tous les deux. Pour changer quelques détails, passez par **Mettre
+en page…** : vous gardez la maquette et ne modifiez que ces points-là, en
+regardant les pages.
 
 ## Choisir une maquette {#choose-a-design}
 
@@ -36,29 +37,108 @@ la maquette** : vous gardez la maquette et ne modifiez que ces points-là.
 Vos propres styles figurent aussi dans la liste, sous les maquettes. Voir
 [Styles personnalisés](./custom-styles.md).
 
-## Ajuster la maquette {#adjust-the-design}
+## Mettre en page le livre {#design-the-book}
 
-1. Sur la page Exporter, repérez **Ajuster la maquette**, sous la maquette.
-2. Cliquez dessus pour afficher les choix.
-3. Modifiez ceux que vous voulez.
+Sur les onglets **Livre imprimé** et **Livre numérique**, sous la maquette, se
+trouve la page d’ouverture du livre. À côté figure **Mettre en page…**, avec le
+nombre de changements et de vos images que contient le livre, ou *Comme le
+prévoit Classique* (avec le nom de votre maquette) s’il n’en a aucun.
 
-Au départ, chaque choix est réglé sur **Comme la maquette** : c’est la maquette
-qui décide. Une fois refermée, la ligne indique combien de choix vous avez
-modifiés.
+<img src="/img/app/design-book-light.png" alt="Mettre en page le livre : une ouverture de chapitre affichée en grand, telle qu’elle sera imprimée, avec à côté les choix de la maquette présentés en images : maquettes, polices, taille et place du titre, couleurs" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/design-book-dark.png" alt="Mettre en page le livre : une ouverture de chapitre affichée en grand, telle qu’elle sera imprimée, avec à côté les choix de la maquette présentés en images : maquettes, polices, taille et place du titre, couleurs" width="1600" height="1000" loading="lazy" decoding="async" />
+
+1. Cliquez sur **Mettre en page…**. Les pages du livre s’ouvrent en grand,
+   telles qu’elles seront imprimées.
+2. Au-dessus des pages, choisissez les **Pages à afficher** : **Page de
+   titre**, **Ouverture de chapitre**, **Pages de texte** ou, dans un livre
+   en parties, **Page de partie**.
+3. Désignez n’importe quel élément d’une page : un titre de chapitre, son
+   numéro, les premières lignes, un changement de scène, le titre courant, le
+   numéro de page ou les marges. φ Poiesis le nomme.
+4. Cliquez dessus. Son réglage s’ouvre à côté des pages.
+5. Faites la modification. Les pages l’affichent un instant plus tard.
+6. Appuyez sur **Terminé**.
+
+**Annuler** et **Rétablir** (`⌘Z` et `⇧⌘Z`) défont un changement ou le
+refont. **Revenir à Classique** (avec le nom de votre maquette) supprime tous
+les changements. Vous pouvez aussi changer la maquette elle-même en haut des
+réglages : chaque maquette y apparaît comme une petite page de votre propre
+livre.
+
+Les réglages montrent chaque choix tel qu’il se présente : les polices sous
+forme de lettres composées dans chacune d’elles, les placements, premières
+lignes, marges et numéros de page sous forme de petits dessins, les couleurs
+sous forme de pastilles et les tailles sous forme de curseur. Un choix que
+vous n’avez pas modifié indique **Comme la maquette**.
+
+| Groupe | Choix | Ce qu’il change |
+| --- | --- | --- |
+| **Titres** | **Police des titres** | La police des titres, ou **Comme le texte**. |
+| | **Taille des titres** | La taille des titres, de 60 % à 180 %. |
+| | **Les titres sont** | **Centrés** ou **À gauche**. |
+| | **Couleur des titres** | Une pastille, ou **Choisir une couleur**. En encre noire, une couleur s’imprime en gris de même clarté. **Imprimer en couleur** change l’encre. |
+| | **Numéros de chapitre** | **Chapitre un**, **Chapitre 1**, **Un**, **1**, **I** ou **Aucun**. |
+| **Ouvertures de chapitre** | **Les premières lignes** | **Lettrine**, **Petites capitales** ou **Simple**. |
+| | **Place du titre** | **En haut**, **Au tiers** ou **À mi-page**. |
+| | **Les chapitres commencent** | **En belle page** (sur une page de droite), comme dans la plupart des livres reliés, ou **À la page suivante**, sans page blanche (livre imprimé). |
+| **Texte** | **Police** | La police du texte. |
+| | **Taille du texte** | De 9 à 13 pt. |
+| | **Interligne** | **Serré**, **Standard** ou **Aéré**. |
+| | **Paragraphes** | **En retrait** ou **Espacés**. |
+| | **Alignement** | **Justifié** ou **Aligné à gauche**. |
+| **Changements de scène** | **Entre les scènes** | L’ornement des sauts de scène : ⁂, \* \* \*, ❧, ou **Une ligne blanche**. **La vôtre** y place une petite image à vous. |
+| **Pages** | **Marges** | **Généreuses**, **Standard** ou **Compactes (moins de pages)**. |
+| | **Titres courants** | Activés ou non : l’auteur et le titre en haut des pages (livre imprimé). |
+| | **Numéros de page** | Activés ou non (livre imprimé). |
+
+Les changements appartiennent au projet. Pour en annuler un, remettez-le sur
+**Comme la maquette**.
+
+## Vos images {#your-pictures}
+
+**Vos images**, dans les réglages de **Mettre en page…**, place vos propres
+illustrations dans le livre.
+
+| Emplacement | Ce que c’est |
+| --- | --- |
+| **À chaque chapitre** | Un fleuron **Au-dessus du titre** ou **Sous le titre**, un **Bandeau en haut** de la page d’ouverture, ou une image **Derrière la page**. **Une autre image pour certains chapitres** permet d’en choisir une différente pour n’importe quel chapitre. |
+| **En fin de chapitre** | Un petit cul-de-lampe après la dernière ligne. |
+| **Sur la page de titre** | Une image au-dessus du titre, un bandeau ou une image derrière la page. |
+| **Sur les pages de partie** | Une image au-dessus ou au-dessous du titre de la partie, ou derrière la page. |
+| **À côté du numéro de page** | Une minuscule marque sur chaque page, avec le numéro de page ou en haut. |
+
+Les changements de scène peuvent aussi utiliser votre propre image : choisissez
+**La vôtre** sous **Changements de scène**.
+
+1. Déposez une image sur son emplacement, ou cliquez dessus et choisissez-en
+   une. φ Poiesis accepte les formats PNG, JPEG, SVG et WebP. Il en garde une
+   copie dans le dossier `assets/` du coffre.
+2. Réglez sa taille avec le curseur, en proportion de la largeur de la ligne.
+   **Revenir à la taille standard** rétablit la taille habituelle.
+3. Pour changer une image, choisissez **Remplacer**. Pour l’enlever,
+   choisissez **Retirer**.
+
+Les emplacements marqués **Créatif**, le bandeau et l’image derrière la page,
+conviennent aux livres illustrés, à la fantasy et aux éditions cadeaux. La
+plupart des romans gardent des ornements de chapitre discrets.
+
+Le PDF d’impression, le livre numérique et le fichier Word reprennent tous vos
+images. Les livres numériques et les fichiers Word se recomposent : ils
+laissent de côté l’image derrière la page et transforment un bandeau en image
+pleine largeur.
+
+## Options {#options}
+
+**Options**, sous **Mettre en page…**, regroupe le reste :
 
 | Choix | Ce qu’il change |
 | --- | --- |
-| **Police** | La police du texte : EB Garamond, Lora, Source Serif, Playfair Display, Inter ou Source Sans. |
-| **Taille du texte** | De 9,5 à 13 pt (livre imprimé). |
-| **Ouvertures de chapitre** | **Lettrine sur 2 lignes**, **Premiers mots en petites capitales** ou **Simple**. |
-| **Entre les scènes** | L’ornement des sauts de scène : ⁂, \* \* \*, ❧, ou **Une ligne blanche**. |
-| **Les chapitres commencent** | **En belle page** (sur une page de droite), comme dans la plupart des livres reliés, ou **À la page suivante**, sans page blanche (livre imprimé). |
-| **Titres courants** | L’auteur et le titre en haut des pages, ou rien (livre imprimé). |
-| **Sommaire** | Le nombre de niveaux que montre le sommaire, ou pas de sommaire du tout. |
-| **Dédicace et épigraphe** | Si ces pages affichent leur titre et figurent au sommaire. Et aussi la place du texte sur la page : vers le haut, au premier tiers ou au centre. |
+| **Sommaire** | Le nombre de niveaux que montre le sommaire, ou pas de sommaire du tout (**Aucun**). |
+| **Dédicace et épigraphe** | Si ces pages affichent leur titre et figurent au sommaire. |
+| **Place sur la page** | La place de la dédicace et de l’épigraphe : **En haut**, **Au premier tiers** ou **Centré**. |
 
-Les ajustements appartiennent au projet. Pour en annuler un, remettez-le sur
-**Comme la maquette**.
+**Modifier les styles…** se trouve aussi ici. Voir
+[Styles personnalisés](./custom-styles.md).
 
 ## Tous les formats la suivent {#every-format-follows-it}
 
@@ -77,7 +157,7 @@ manuscrit doit l’être.
 ## Voir aussi {#see-also}
 
 - [Styles personnalisés](./custom-styles.md) : pour tout ce qu’une maquette et
-  **Ajuster la maquette** ne permettent pas de changer.
+  **Mettre en page…** ne permettent pas de changer.
 - [Aperçu](./preview.md)
 - [Imprimer un livre](./print-a-book.md) et
   [Créer un livre numérique](./make-an-ebook.md)

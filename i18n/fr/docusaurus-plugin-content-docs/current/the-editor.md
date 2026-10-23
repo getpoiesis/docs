@@ -34,18 +34,27 @@ Ces boutons se trouvent en haut à droite de la page :
 
 | Bouton | Ce qu’il fait |
 | --- | --- |
-| **Vue partagée** (`⌘\`) | Ouvre un second volet à côté de la page. Voir [Documents côte à côte](./side-by-side.md). |
+| **Rechercher…** | Trouve un document n’importe où dans le coffre (`⌘K`). Il se présente comme une loupe et s’ouvre en champ quand vous pointez dessus. |
 | **⋮** | Ouvre le menu du document, décrit plus bas. |
-| **Détails…** (ⓘ) | Affiche le statut du document, son synopsis, son objectif de mots, ses étiquettes, sa couleur, s’il est en favori, et l’endroit où il est rangé. |
-| **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Il comprend cinq parties : **Plan**, **Liens**, **Notes**, **Tâches** et **Historique**. |
+| **Infos** (`⌘⇧I`) | Ouvre le panneau Infos. Ses onglets sont des icônes, et celui où vous êtes porte son nom : **Plan**, **Liens**, **Notes**, **Tâches** et **Historique**. Un document d’Écrire a aussi **Monde**. Pointez sur une icône pour voir son nom. |
 | **Sanctuaire** (`⌘.`) | Masque tout sauf la page. Voir [Concentration et Sanctuaire](./focus-and-writing-modes.md). |
 
-Le nombre de mots s’affiche dans le coin inférieur droit de la page. Si le
-document a un objectif de mots, il apparaît à côté de l’objectif.
+**Vue partagée** (`⌘\`) et **Détails…** se trouvent dans le menu ⋮. Quand
+vous êtes dans l’un des deux, son bouton apparaît aussi dans la barre, pour
+en revenir.
 
-- Cliquez une fois sur le nombre de mots pour ouvrir **Plan** dans le panneau
-  Infos. Vous y voyez le nombre de mots et le temps de lecture.
-- Cliquez une seconde fois pour voir toutes les statistiques du document.
+Pendant que vous tapez, ces boutons s’estompent. Ils ne disparaissent pas,
+et l’en-tête de la liste comme le nombre de mots restent tels quels.
+
+Le nombre de mots s’affiche dans le coin inférieur droit de la page. Si le
+document a un objectif de mots, il apparaît à côté de l’objectif. Cliquez sur
+le nombre de mots pour ouvrir un petit menu :
+
+- **Infos** ouvre le panneau Infos sur son onglet **Plan**.
+- **Statistiques…** affiche toutes les statistiques du document.
+- **Lancer un sprint d’écriture…** lance un [sprint
+  d’écriture](./focus-and-writing-modes.md#write-against-the-clock). Il est
+  proposé tant qu’aucun sprint n’est en cours.
 
 Les notes n’affichent pas de nombre de mots.
 
@@ -117,9 +126,9 @@ Le menu varie selon le type de document :
 
 | Où | Ce que propose le menu |
 | --- | --- |
-| **Un chapitre, un poème ou un essai dans un projet** | Tout, y compris **Vers**, **Saut de scène**, **Épigraphe**, **Exergue**, **Lettrine**, **Note de bas de page**, **Citation bibliographique**, **Bibliographie** et **Table des matières**. |
-| **Une note, ou une pièce hors projet** | Tout, sauf ces blocs de manuscrit. |
-| **Une entrée de journal** | Les titres, les listes, les citations, les images et les dates. Ni encadrés, ni tableaux, ni code. |
+| **Un chapitre, un poème ou un essai dans un projet, ou une pièce d’Écrire** | Tout, y compris **Saut de scène**, **Épigraphe**, **Exergue**, **Lettrine**, **Note de bas de page**, **Citation bibliographique**, **Bibliographie** et **Table des matières**. |
+| **Une note** | Tout, sauf ces blocs de manuscrit. **Vers**, les sections repliables et les formules restent disponibles. |
+| **Une entrée de journal** | Les titres, les listes, les citations, les vers, les images, les dates, les sections repliables et les formules. Ni encadrés, ni tableaux, ni code, ni blocs de manuscrit. |
 | **Les pages du matin** | Aucun menu. Les pages du matin ne contiennent que du texte. |
 
 Un [projet](./collections.md) est un livre, ou tout autre texte long composé de
@@ -146,8 +155,6 @@ concernent le document entier :
 - **Déplacer vers les pièces d’Écrire** ou **Déplacer vers Notes**, pour un
   document qui ne fait pas partie d’un projet.
 - **Détails…**, **Vue partagée** et **Ouvrir à côté…**.
-- **Plan**, **Liens et rétroliens**, **Notes** et **Historique des versions**.
-  Chacune de ces commandes ouvre la partie correspondante du panneau Infos.
 - **Enregistrer une version…** et **Ouvrir le dictionnaire** (`⌘⇧D`).
 - **Mode lecture**, **Défilement machine à écrire**, **Sanctuaire** et
   **Vérifier l’orthographe…**.
@@ -159,9 +166,13 @@ concernent le document entier :
 Sur une page du matin, **Sceller la journée** remplace **Mettre en favori** et
 **Ajouter au tableau…**.
 
+Le plan, les liens, les notes et les versions du document ne figurent pas
+dans ce menu. Ouvrez-les depuis les onglets du panneau Infos (`⌘⇧I`).
+
 Il existe un second menu. Faites un clic droit dans le texte : vous y trouvez
-les suggestions d’orthographe, puis couper, copier et coller, et enfin
-**Plan**, **Liens wiki**, **Annotations** et **Historique des versions**.
+les suggestions d’orthographe, les
+[synonymes](./dictionary.md#replace-a-word-with-a-synonym), puis couper,
+copier et coller.
 
 ## Passer d’un document à l’autre {#move-between-documents}
 

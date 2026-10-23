@@ -25,15 +25,15 @@ Some settings change the whole app. Others change only the open vault. A
 
 | Section | What it holds | Applies to |
 | --- | --- | --- |
-| **Appearance** | Light or dark, interface size, colour theme, the sidebar's colour | The whole app |
+| **Appearance** | Light or dark, interface size, colour theme, the sidebar's colour, moments | The whole app |
 | **Editor** | The area you write in: font, size, focus, dates, streak, code, versions | The whole app |
 | **Setup** | The signals (what Poiesis shows you about your writing) and the places each mode has | The open vault |
 | **Language** | The app's language, spelling, your dictionary | The whole app, plus a **This vault** part |
 | **Versioning** | How history is kept and backed up | The open vault |
 | **Vault** | Which modes the vault has, and adding or removing vaults | The open vault |
 | **Templates** | Your templates and their variables | This vault and every vault |
-| **Shortcuts** | The main keyboard shortcuts | — |
-| **Data** | The state of your files, migration backups, a reset | The whole app |
+| **Shortcuts** | Quick capture, your own keys, and the main keyboard shortcuts | The whole app |
+| **Data** | The state of your files, a backup of the vault, migration backups, a reset | The whole app |
 
 ## Appearance
 
@@ -44,9 +44,16 @@ colour themes.
 | --- | --- |
 | **Appearance** | **System**, **Light** or **Dark**. **System** follows your computer: Poiesis turns dark when your computer does. |
 | **Interface size** | **100%**, **115%**, **130%** or **150%**. Makes everything larger, icons too. |
-| **Colour theme** | The themes you have, each with a small preview. Use **Install theme…** and **Browse official themes…** to add more. **Open themes folder** shows where themes are kept. |
+| **Colour theme** | φ's own theme and the five that come with Poiesis (**Paper**, **Night**, **Sepia**, **Warm** and **High contrast**), plus any you installed, each with a small preview. Use **Install theme…** and **Browse official themes…** to add more. **Open themes folder** shows where themes are kept. |
 | **Sidebar in light theme** | **Dark** or **Light**. **Dark** is the default, so the page is the brightest part of the screen. In the dark theme the sidebar is always dark. |
 | **Sanctuary dims the rest** | [Sanctuary](./focus-and-writing-modes.md) hides everything in Poiesis except the page. With this setting on, Sanctuary dims everything except the sentence you are writing. If **Focus typing** is set to **Paragraph**, the whole paragraph stays clear. Turn the setting off to dim nothing. |
+
+Under **Moments** (see [Memories & celebrations](./memories-and-celebrations.md)):
+
+| Setting | What it does |
+| --- | --- |
+| **Celebrations** | A little confetti when you reach a milestone: a streak, a book's word goal, a lifetime word count. Never while you type. |
+| **A memory when φ opens** | Once a day, a small card in the corner offers what you wrote on this day in an earlier year. |
 
 ## Editor
 
@@ -81,7 +88,7 @@ work is never hidden or removed. [Setup](./setup.md) explains all of this.
 | **Week starts on** | Any day of the week. It sets the first column of the calendar and the heatmap, and the week that your pace is counted in. |
 | **Weekly pace** | **None**, or the number of days a week you want to write. A missed day never resets it. |
 | **Modes** | Open **Write**, **Notes** or **Journal** to set up that mode. You can choose the places it has (Characters, Authors, Research, Boards, Graph, Calendar, morning pages). You can change the signals (the settings above) for that mode only. You can turn **Checklists** on or off. Each mode reads **Follows the vault** or **Differs**. **Follow the vault again** removes the difference. |
-| **Saved setups** | **Save as…** saves this setup under a name. **Use in this vault** or **Use in another vault…** applies a saved setup to a vault. You can also rename or delete a saved setup. |
+| **Saved setups** | Appears once you have more than one vault, or a setup is saved. **Save as…** saves this setup under a name. **Use in this vault** or **Use in another vault…** applies a saved setup to a vault. You can also rename or delete a saved setup. |
 
 ## Language
 
@@ -151,9 +158,17 @@ See [Templates](./templates.md).
 
 ## Shortcuts
 
-The main keyboard shortcuts, in four groups: **Move around**, **Documents**,
-**Writing** and **Format**. This is the same list that `⌘/` shows. Type in
-**Search commands…** to find a shortcut.
+| Setting | What it does |
+| --- | --- |
+| **Quick capture** | The shortcut that opens the quick capture window from anywhere, even with Poiesis in the background (`⌥⇧⌘N` to start with). Click the key and press the one you want, or choose **Off**. If another app already uses that shortcut, Poiesis says so. See [Notes & capture](./notes.md). |
+| **Your keys** | Puts app commands (find, the command palette, new and close, back and forward, reading mode, Sanctuary, typewriter scrolling, the panels, Print and more) on keys you choose. Click a command's key and press the new one. `Esc` cancels, and `Delete` leaves the command without a key. If another command had that key, it moves over and Poiesis says which command lost it. The button at the end of a row puts back φ's own key for that command; **Back to φ's keys** puts back all of them. |
+
+Below them are the main keyboard shortcuts, in five groups: **Move around**,
+**Go to**, **Documents**, **Writing** and **Format**. This is the same list that `⌘/`
+shows. Type in **Search commands…** to find a shortcut.
+
+The menus, `⌘/` and this list all show your own keys. Formatting keys, such
+as `⌘B` and `⌘I`, can't be changed.
 
 [Keyboard shortcuts](./keyboard-shortcuts.md) lists every shortcut.
 
@@ -161,6 +176,7 @@ The main keyboard shortcuts, in four groups: **Move around**, **Documents**,
 
 | Setting | What it does |
 | --- | --- |
+| **Vault backup** | **Back up vault…** saves one dated ZIP of the open vault: every document, folder, record, attachment and the vault's settings. Version history and the trash stay out. See [Versions & backup](./versions-and-backup.md). |
 | **Vault health** | Shows whether your documents use the current file format. If some use an older format, **Migrate all notes** updates them. Poiesis saves a backup of each one first. |
 | **Backups** | Appears after documents have been migrated. It shows how many backups there are and their size. **Open backups folder** shows them; **Clear old backups** removes old ones. |
 | **Reset all settings…** | Returns every app setting (theme, editor, layout, graph, dates) to its default. Poiesis asks first. Your documents, vaults and writing records are kept. |
@@ -171,3 +187,4 @@ The main keyboard shortcuts, in four groups: **Move around**, **Documents**,
 - [Themes & languages](./themes-and-languages.md)
 - [Keyboard shortcuts](./keyboard-shortcuts.md)
 - [Versions & backup](./versions-and-backup.md)
+- [Memories & celebrations](./memories-and-celebrations.md)

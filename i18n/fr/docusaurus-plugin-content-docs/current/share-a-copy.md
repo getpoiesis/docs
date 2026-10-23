@@ -14,8 +14,9 @@ garder une copie.
 
 1. Ouvrez la page **Exporter** du projet.
 2. Choisissez **Partager une copie**.
-3. Sous **Options**, choisissez un **Style** et un **Papier**. Vous pouvez
-   sauter cette étape et garder les valeurs par défaut.
+3. Sous **Options**, choisissez un **Style**, un **Papier** et, pour le PDF,
+   **PDF accessible**. Vous pouvez sauter cette étape et garder les valeurs
+   par défaut.
 4. Appuyez sur le format voulu.
 5. Choisissez où enregistrer le fichier.
 
@@ -45,6 +46,16 @@ les styles :
 **Papier** fixe le format de page du PDF : Letter, A4, A5, Digest ou Trade.
 Les autres formats n’ont pas de pages fixes : **Papier** n’y change donc rien.
 
+## Un PDF accessible {#an-accessible-pdf}
+
+Réglez **PDF accessible** sur **Oui** sous **Options** pour produire un PDF
+conforme à la norme PDF/UA. Les lecteurs d’écran peuvent alors le suivre. Si
+le PDF ne peut pas respecter la norme, φ Poiesis crée un PDF ordinaire et
+vous explique pourquoi.
+
+Ce choix ne concerne que le PDF partagé. Les fichiers d’un
+[livre imprimé](./print-a-book.md) ne changent jamais.
+
 ## Rouvrir une copie dans Poiesis {#bringing-a-copy-back}
 
 Une **Copie du projet** est un fichier `.poiesis`. Elle contient le projet, ses
@@ -53,7 +64,7 @@ documents et ses images.
 Pour l’ouvrir dans un autre coffre :
 
 1. Ouvrez la palette de commandes (`⌘P`).
-2. Choisissez **Importer un document Poiesis (`.poiesis`)…**.
+2. Choisissez **Importer un document φ (`.poiesis`)…**.
 
 Pour en savoir plus, voyez [Importer](./importing.md).
 

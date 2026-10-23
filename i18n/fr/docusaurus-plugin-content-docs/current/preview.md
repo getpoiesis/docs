@@ -23,7 +23,8 @@ de fois que vous le voulez.
    **Imprimé**, **Livre numérique**, **Page web** ou **Manuscrit**.
 
 L’aperçu reprend les choix faits sur la page Exporter : la maquette, le format
-(les dimensions de la page imprimée), le papier et vos ajustements.
+(les dimensions de la page imprimée), le papier et vos modifications dans
+**Mettre en page…**.
 
 ## Feuilleter un livre imprimé {#looking-through-a-printed-book}
 

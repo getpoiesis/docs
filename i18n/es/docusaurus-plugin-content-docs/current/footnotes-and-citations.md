@@ -14,9 +14,10 @@ encontrarlas.
 <img src="/img/app/footnotes-light.png" alt="Un capítulo con la llamada de una nota al pie en el texto, y el Esquema del panel de Información con las dos notas al pie del capítulo" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/footnotes-dark.png" alt="Un capítulo con la llamada de una nota al pie en el texto, y el Esquema del panel de Información con las dos notas al pie del capítulo" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Las notas al pie, las citas y la bibliografía solo están disponibles en los
-documentos que pertenecen a un [proyecto](./collections.md). No lo están en las
-notas, en las piezas que no forman parte de un proyecto ni en el diario.
+Las notas al pie, las citas y la bibliografía están disponibles en los
+documentos de **Escribir**: los capítulos de un [proyecto](./collections.md) y
+las piezas que aún no forman parte de ningún proyecto. No lo están en las
+notas ni en el diario.
 
 ## Añadir una nota al pie {#add-a-footnote}
 

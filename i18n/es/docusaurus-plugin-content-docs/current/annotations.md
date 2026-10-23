@@ -41,11 +41,10 @@ Para quitar un resaltado:
 ## Encontrar tus notas {#find-your-notes}
 
 Todas las anotaciones y notas al margen de un documento están en la pestaña
-**Notas** del panel de Información. Hay tres formas de abrirla:
+**Notas** del panel de Información. Hay dos formas de abrirla:
 
 - Pulsa `⇧⌘A`.
-- Haz clic en el **⋮** del documento y luego en **Notas**.
-- Haz clic derecho en el texto y elige **Anotaciones**.
+- Abre el panel de Información (`⇧⌘I`) y haz clic en su pestaña **Notas**.
 
 La pestaña tiene dos partes: arriba, **Notas al margen**; debajo,
 **Anotaciones**.
@@ -78,6 +77,41 @@ Para asociarla a otro pasaje:
 
 1. Selecciona el pasaje nuevo.
 2. Haz clic en **Volver a vincular a la selección**.
+
+## Buscar en cada resaltado y comentario {#search-every-highlight-and-comment}
+
+Arriba, en la pestaña **Notas**, cambia de **Este documento** a **Todos los
+documentos**. Poiesis muestra entonces los resaltados y comentarios de todos
+los documentos de la bóveda.
+
+- Escribe en **Buscar en cada resaltado y comentario…**. Poiesis busca en las
+  palabras que cubre cada uno y en tus comentarios sobre ellos. Da igual que
+  uses mayúsculas o tildes.
+- Usa el filtro para ver solo los **Resaltados**, los **Comentarios**, las
+  **Abiertas** o las **Resueltas**.
+- Haz clic en uno para abrir su documento.
+
+También puedes abrirlo desde la paleta de comandos (`⌘P`): elige **Buscar en
+todos los resaltados y comentarios**.
+
+## Reunirlas en un documento {#gather-them-into-a-document}
+
+Para juntar en un solo sitio las anotaciones de un documento, abre la pestaña
+**Notas** y haz clic en **Reunir en un documento**, arriba. Poiesis crea un
+documento nuevo, *Notas sobre* y el título del documento. Contiene todos los
+resaltados y comentarios en orden de lectura: las palabras que cubre cada uno,
+como cita, con tu comentario debajo. Después vienen las notas al margen.
+
+- Las anotaciones resueltas llevan la marca **resuelta**.
+- Una anotación cuyo texto se borró conserva las palabras sobre las que se
+  hizo.
+
+Para hacer lo mismo con un libro entero, haz clic derecho en el proyecto, en
+la barra lateral, y elige **Reunir notas y resaltados**. El documento nuevo
+va capítulo a capítulo, bajo los títulos de los capítulos.
+
+En la paleta de comandos, **Reunir las notas y resaltados de este documento**
+lo hace con el documento abierto.
 
 ## Escribir una nota al margen {#write-a-margin-note}
 

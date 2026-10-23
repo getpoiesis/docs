@@ -103,6 +103,27 @@ Los enlaces entre tus propios documentos (`[[enlaces wiki]]`) se convierten en
 texto normal en todos los formatos, porque un lector que no tiene tu bóveda no
 podría seguirlos.
 
+## Imprimir un documento {#print-a-document}
+
+Para imprimir el documento que estás escribiendo en tu propia impresora:
+
+1. Abre el documento.
+2. Elige **Archivo → Imprimir…**, o pulsa `⌘P` y elige **Imprimir…**.
+3. Junto a la vista previa de la primera página, prepara la página:
+   - **Papel**: A4, Carta o A5.
+   - **Márgenes**: **Estrechos**, **Normales** o **Anchos**.
+   - **Tamaño de letra** e **Interlineado**.
+   - **Título en la primera página**, **Números de página** y **Conservar los
+     colores de resaltado**.
+4. Pulsa **Imprimir…**. Se abre el cuadro de impresión de tu ordenador. Ahí
+   está también **Guardar como PDF**.
+
+Las notas al pie se numeran y se reúnen al final. Los desplegables plegados se
+imprimen enteros. Los comentarios no se imprimen.
+
+Así se imprime la página tal como la escribiste. Para preparar un manuscrito o
+un libro, usa **Exportar**.
+
 ## Ver también {#see-also}
 
 - [Vista previa](./preview.md): todas las páginas antes de exportar.

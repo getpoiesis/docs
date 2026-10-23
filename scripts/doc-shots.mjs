@@ -63,7 +63,7 @@ const removeLine = js(
 const closeAll = [
   ...key('Escape'),
   ...js(
-    `(()=>{const s=__app.getState();['closeCommandPalette','closeSearch','closeBookViewer','closeVersionPreview','closeGraph','closeCalendar','closeCharacters','closeAuthors','closeResearch','closeBoards','closeTrash','closeSettings','closeCitationDialog','spellReviewClose'].forEach(k=>{try{s[k]&&s[k]()}catch(e){}});try{s.setCheatSheet(false)}catch(e){};try{s.toggleFindReplace(false)}catch(e){};try{s.setDetailsOpen(false)}catch(e){};return 'closed'})()`,
+    `(()=>{const s=__app.getState();['closeCommandPalette','closeSearch','closeBookViewer','closeVersionPreview','closeGraph','closeCalendar','closeCharacters','closeAuthors','closeResearch','closeBoards','closeTrash','closeSettings','closeCitationDialog','spellReviewClose'].forEach(k=>{try{s[k]&&s[k]()}catch(e){}});try{s.setCheatSheet(false)}catch(e){};try{s.toggleFindReplace(false)}catch(e){};try{s.setDetailsOpen(false)}catch(e){};['characters','authors','research'].forEach(l=>{try{s.setPlaceFilter(l,'all')}catch(e){}});try{const m=window.__moments.getState();m.setMemoryNudge(false);m.closeMemories();m.closeWrap()}catch(e){};document.querySelectorAll('.ps-moment-card--memory button:not(.ps-moment-open)').forEach(b=>b.click());return 'closed'})()`,
     500,
   ),
 ]
@@ -155,16 +155,9 @@ const SHOTS = {
     ],
   },
   export: {
-    steps: [
-      ...js(`__app.getState().openBookViewer('${BOOK}');'preview'`, 5000),
-      ...press('button', 'Single pages', 2000),
-      ...js(
-        `(async()=>{const el=document.querySelector('.ps-bview-stage');if(!el)return 'FAILED: no preview';for(let i=0;i<40;i++){const n=parseInt(document.querySelector('.ps-bview-where')?.textContent||'');if(n===17)return 'page 17';el.scrollTop+=(17-n)*el.scrollHeight/31;await new Promise(r=>setTimeout(r,250))}return 'near page 17'})()`,
-        3000,
-      ),
-      ...blur,
-    ],
+    steps: [...js(`__app.getState().setWriteTab('export','${BOOK}');'export'`, 3000), ...blur],
   },
+
   'put-away': {
     steps: [
       ...app(`openProject('shot-book-0002')`, 1500),
@@ -249,6 +242,8 @@ const SHOTS = {
       ...open('shot-doc-ch01'),
       ...noPanel,
       ...js(`__app.getState().toggleFindReplace(true,true);'find'`, 800),
+      // The field starts with any selection left from before: replace it.
+      ...key('a', ['meta']),
       ...type('sack', 900),
     ],
     after: js(`__app.getState().toggleFindReplace(false);'x'`, 400),
@@ -335,6 +330,52 @@ const SHOTS = {
       ...press('button', 'Print book', 2500),
       ...blur,
     ],
+  },
+
+  'design-book': {
+    steps: [
+      ...js(`__app.getState().setWriteTab('export','${BOOK}');'export'`, 3000),
+      ...press('button', 'Print book', 2500),
+      ...press('button', 'Design the book', 4000),
+      ...blur,
+    ],
+    after: key('Escape', undefined, 800),
+  },
+  'check-cover': {
+    steps: [
+      ...js(`__app.getState().setWriteTab('export','${BOOK}');'export'`, 3000),
+      ...press('button', 'Print book', 2500),
+      ...press('button', 'Check the cover', 3000),
+      ...blur,
+    ],
+    after: key('Escape', undefined, 800),
+  },
+
+  // ---- Memories, your year, the world ----
+  memories: {
+    steps: [...app(`setSpace('home')`, 800), ...js(`window.__moments.getState().openMemories();'memories'`, 1500), ...blur],
+    after: js(`window.__moments.getState().closeMemories();'x'`, 500),
+  },
+  'year-wrap': {
+    steps: [...app(`setSpace('home')`, 800), ...js(`window.__moments.getState().openWrap(new Date().getFullYear()-1);'wrap'`, 3500)],
+    after: js(`window.__moments.getState().closeWrap();'x'`, 800),
+  },
+  'year-wrap-days': {
+    steps: [
+      ...app(`setSpace('home')`, 800),
+      ...js(`window.__moments.getState().openWrap(new Date().getFullYear()-1);'wrap'`, 3000),
+      // The story moves on with → wherever focus is; send it to the window.
+      ...js(`window.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));'next'`, 1500),
+      ...js(`window.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));'next'`, 1500),
+      ...js(`window.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));'next'`, 3000),
+    ],
+    after: js(`window.__moments.getState().closeWrap();'x'`, 800),
+  },
+  world: {
+    steps: [...app(`setSpace('write')`), ...app(`openWorld('places','${BOOK}')`, 1500), ...blur],
+  },
+  'world-timeline': {
+    steps: [...app(`setSpace('write')`), ...app(`openWorld('timeline','${BOOK}')`, 1500), ...blur],
   },
 
   // ---- Around the app ----

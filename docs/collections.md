@@ -50,14 +50,13 @@ your project's type uses. For a project of poems, see also
 
 ## Find your way around a project
 
-Click a project in the sidebar to open it. These pages appear under it:
+Click a project in the sidebar to open it. These pages appear under it in
+the sidebar:
 
 | Page | What's there |
 | --- | --- |
 | *The project's name* | The project's page: cover, title, author, description, progress, settings and [Book details](./book-details.md). |
 | **Contents** | The whole work on one page, to arrange it. |
-| **Research** | The research pages linked to the project ([Research](./research.md)). |
-| **Characters** | The project's characters, and the shared ones ([Characters & authors](./characters-and-authors.md)). |
 | **Board** | The chapters as cards by status, and the project's own boards, listed beside it ([Boards](./boards.md)). |
 | **Read** | The manuscript in order, read-only: as **Prose**, or as a **Book** with its contents. |
 | **Export** | The printed book, the ebook, the manuscript for an agent ([How exporting works](./exporting.md)). |
@@ -67,9 +66,28 @@ outline has every chapter under its part, with the chapter's number and
 synopsis. At the top, it shows the words you have written and the word
 goal.
 
-Right-click the project in the sidebar to get the same pages in a menu.
-The menu also has **Icon…**, **Colour**, **Delete project…** and, when you
-have more than one vault, **Move to vault…**.
+### The project's tabs
+
+Under the project's name, the list has five tabs. Each one shows that part
+of the project, its own entries and the shared ones, in one click:
+
+| Tab | Key | What it shows |
+| --- | --- | --- |
+| **Contents** | `⌃1` | The outline. |
+| **Characters** | `⌃2` | The project's characters, and the shared ones ([Characters & authors](./characters-and-authors.md)). |
+| **World** | `⌃3` | Its places, lore and timeline ([The world](./world.md)). |
+| **Research** | `⌃4` | The research pages linked to the project ([Research](./research.md)). |
+| **Board** | `⌃5` | Its boards ([Boards](./boards.md)). |
+
+On Windows and Linux, the keys are **Alt+1** to **Alt+5**. The tab you are
+on shows its name. The others show their icon; point at one to see its
+name. A project's World page has the same tabs.
+
+Right-click the project in the sidebar to get its pages in a menu:
+**Contents**, **Overview**, **World**, **Read**, **Open project board** and
+**Export manuscript…**. The menu also has **Open**, **Icon…**, **Colour**,
+**Gather notes and highlights**, **Put away**, **Delete project…** and, when
+you have more than one vault, **Move to vault…**.
 
 ## Add chapters and parts
 

@@ -15,7 +15,8 @@ avez créé à la même date les années précédentes.
 
 ## Revenir sur un jour {#look-back-at-a-day}
 
-1. Cliquez sur **Calendrier**, sous **Lieux**, dans la barre latérale.
+1. Appuyez sur `⌘G`, puis `C`, dans n’importe quel mode. Dans Journal, vous
+   pouvez aussi cliquer sur **Calendrier** dans la barre latérale.
 2. Changez de mois avec les flèches placées à côté du nom du mois.
    **Aujourd’hui** vous ramène au mois en cours.
 3. Cliquez sur un jour. Tout ce qui se rattache à ce jour s’affiche sous la
@@ -25,7 +26,7 @@ avez créé à la même date les années précédentes.
 
 Vous pouvez aussi ouvrir le calendrier de ces façons :
 
-- Appuyez sur `⌘K` et tapez « Calendrier ».
+- Appuyez sur `⌘K` ou `⌘P` et tapez « Calendrier ».
 - Ouvrez le menu **⋮** de la liste du Journal.
 - Cliquez sur un jour dans la carte du mois, sur l’Accueil de n’importe quel
   mode. Le calendrier s’ouvre sur ce jour.
@@ -105,9 +106,15 @@ Quand le jour sélectionné contient quelque chose des années précédentes, **
 jour-là** apparaît au-dessus de la liste du jour, avec le nombre d’éléments
 *des années précédentes*.
 
-1. Cliquez sur **Ce jour-là**. Chaque élément indique de quand il date, par
-   exemple *il y a 3 a*.
+1. Cliquez sur **Ce jour-là**. Chaque élément montre la première ligne de ce
+   que vous avez écrit et indique de quand il date, par exemple *il y a 3 a*.
+   Les étapes franchies à cette date, comme une longue série, y figurent
+   aussi.
 2. Cliquez sur un élément pour l’ouvrir.
+3. Cliquez sur **Tous les souvenirs**, au bas de la liste, pour voir tout ce
+   qui date de ce jour et de cette semaine les années précédentes.
+
+Voir [Souvenirs et célébrations](./memories-and-celebrations.md).
 
 :::tip Changer l’affichage de la série
 
@@ -124,4 +131,6 @@ colonne de la grille du mois et de la carte de chaleur.
 - [Journal et pages du matin](./journal-and-morning-pages.md) : les entrées, les
   pages du matin et la façon dont la série est comptée.
 - [Tableaux](./boards.md) : les cartes avec une échéance.
+- [Souvenirs et célébrations](./memories-and-celebrations.md) : vos écrits
+  passés sur chaque Accueil, et votre année d’écriture.
 - [Visite de la fenêtre](./finding-your-way.md)

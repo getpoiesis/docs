@@ -25,7 +25,7 @@ can each show only what they need.
 4. Under **Modes**, click **Write**, **Notes** or **Journal** to choose the
    places that mode offers.
 5. To use the same setup in another vault, click **Save as…** under **Saved
-   setups**.
+   setups**. (This part appears once you have more than one vault.)
 
 <img src="/img/app/setup-settings-light.png" alt="Settings open on Setup: the signals, the three modes and the saved setups" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/setup-settings-dark.png" alt="Settings open on Setup: the signals, the three modes and the saved setups" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -38,8 +38,8 @@ defaults shown below.
 | Signal | What it does | Starts as |
 | --- | --- | --- |
 | **Start sessions automatically** | Starts timing a writing session when you type the first letter. If you turn it off, a session starts only when you ask: `⌘P` → **Start writing session** (and **End writing session**). | On |
-| **Readability statistics** | Adds reading grade and sentence length to a document's **Document stats**. To open them, click the word count in the corner of the page, then click it again. | Off |
-| **Streak** | How your writing streak shows on Home and in the calendar: **Flame and count**, **Plain days**, or **Off**. | **Flame and count** |
+| **Readability statistics** | Adds reading grade and sentence length to a document's **Document stats**. To open them, click the word count in the corner of the page and choose **Statistics…**. | Off |
+| **Streak** | How your writing streak shows on Home and in the calendar: **Flame and count**, **Plain days**, or **Off**. | **Plain days** |
 | **Week starts on** | The first day of the week. The calendar and your weekly pace use it. This setting applies to every vault. | Monday |
 | **Weekly pace** | A target number of writing days in a week: **None**, or **1/week** to **7/week**. Poiesis counts the last seven days, so one missed day does not reset it. | **None** |
 
@@ -69,27 +69,34 @@ This table shows which places each mode starts with:
 | Place | Write | Notes | Journal |
 | --- | :---: | :---: | :---: |
 | **Characters** | ✓ | | |
+| **World** | ✓ | | |
 | **Authors** | ✓ | | |
 | **Research** | ✓ | never | |
-| **Boards** | ✓ | ✓ | |
-| **Graph** | ✓ | ✓ | |
-| **Calendar** | ✓ | ✓ | ✓ |
+| **Boards** | | ✓ | |
+| **Graph** | | | |
+| **Calendar** | | | ✓ |
 | **Start today's morning pages** | | | ✓ |
 
 - **Write and Notes.** You can turn on any of the other places, except the
   morning pages. For example, you can turn on **Characters** in Notes.
-  **Research** is only for Write.
+  **Research** is only for Write. In Write, each project has its own
+  **Board**, so the **Boards** place starts in Notes only.
+- **Graph and Calendar.** They start out of the sidebar in Write and Notes,
+  but they are always a key away: `⌘G G` opens the graph and `⌘G C` the
+  calendar, in any mode, and both answer to their names in `⌘P` and `⌘K`.
+  Turn either on here to put it back in a mode's sidebar. A vault where you
+  already turned these on or off keeps what you chose.
 - **Journal.** It offers only the calendar and the morning pages. This is
   by design, to keep Journal simple. If you turn off **Start today's
-  morning pages**, **Morning pages** and **Sealed** leave Journal's
-  sidebar.
+  morning pages**, **Morning pages** leaves Journal's sidebar.
 - **Checklists.** They are on in Notes and off in Write and Journal,
   because checklists are mostly used in notes. If you keep checklists in a
   manuscript, turn them on for Write here.
 
 ## Use a setup in another vault
 
-**Saved setups** keeps named copies of a setup.
+**Saved setups** keeps named copies of a setup. It appears once you have
+more than one vault, or once a setup is saved.
 
 - **Save as…** gives the current setup a name and keeps a copy. If you
   change this vault later, the copy does not change.

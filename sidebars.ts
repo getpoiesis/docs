@@ -36,6 +36,7 @@ const sidebars: SidebarsConfig = {
       'book-details',
       'footnotes-and-citations',
       'characters-and-authors',
+      'world',
     ]),
     group('Notes', [
       'notes',
@@ -46,7 +47,11 @@ const sidebars: SidebarsConfig = {
       'boards',
       'templates',
     ]),
-    group('Journal', ['journal-and-morning-pages', 'calendar']),
+    group('Journal', [
+      'journal-and-morning-pages',
+      'calendar',
+      'memories-and-celebrations',
+    ]),
     group('Publishing', [
       'exporting',
       'preview',

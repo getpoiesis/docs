@@ -57,12 +57,8 @@ maintenant `⌘`, ou sous **Liens sortants** (voir la section suivante).
 ## Voir quels documents sont liés {#see-what-links-where}
 
 L’onglet **Liens** du [panneau Infos](./finding-your-way.md#the-info-panel)
-réunit les liens d’un document. Il y a trois façons de l’ouvrir :
-
-- Ouvrez le panneau Infos (`⇧⌘I`) et choisissez **Liens**.
-- Cliquez sur le **⋮** du document, puis sur **Liens et rétroliens**.
-- Faites un clic droit sur la ligne du document dans une liste, puis
-  choisissez **Liens wiki**.
+réunit les liens d’un document. Pour l’ouvrir, ouvrez le panneau Infos
+(`⇧⌘I`) et choisissez **Liens**.
 
 L’onglet reflète le document que vous lisez, y compris les modifications que
 vous n’avez pas encore enregistrées.
@@ -82,10 +78,11 @@ ouvre le graphe autour de ce document.
 
 Il y a trois façons d’ouvrir le graphe :
 
-- Cliquez sur **Graphe** sous **Lieux**, dans la barre latérale (dans Écrire
-  et dans Notes).
-- Appuyez sur `⌘K` et choisissez-le.
 - Appuyez sur `⌘G`, puis sur `G`.
+- Appuyez sur `⌘K` ou `⌘P` et tapez « Graphe ».
+- Cliquez sur **Graphe** dans la barre latérale, si vous l’y avez placé dans
+  [Réglages d’écriture](./setup.md). Un nouveau coffre ne l’affiche pas dans
+  la barre latérale.
 
 <img src="/img/app/graph-light.png" alt="Le graphe d’un coffre : les documents liés sont de gros points reliés par des traits, les documents sans lien de petits points pâles" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/graph-dark.png" alt="Le graphe d’un coffre : les documents liés sont de gros points reliés par des traits, les documents sans lien de petits points pâles" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -135,9 +132,10 @@ liens. Cliquez sur l’un d’eux pour l’ouvrir.
 
 :::tip Retrouver les notes sans lien
 
-**Non liées**, dans la barre latérale de Notes, réunit les notes qu’aucun
-lien ne relie au reste : rien ne pointe vers elles et elles ne pointent vers
-rien. Voir [Notes et capture rapide](./notes.md).
+Ouvrez **Toutes les notes** dans Notes et choisissez **Seulement les notes
+sans liens** dans le menu de tri de la liste. La liste ne montre plus que les
+notes qu’aucun lien ne relie au reste : rien ne pointe vers elles et elles ne
+pointent vers rien. Voir [Notes et capture rapide](./notes.md).
 
 :::
 

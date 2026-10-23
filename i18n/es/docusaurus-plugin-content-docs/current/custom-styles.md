@@ -5,7 +5,7 @@ description: Crea un estilo tuyo a partir de uno de los de φ Poiesis y úsalo e
 
 # Estilos propios
 
-Con un [diseño](./designs.md) y **Ajustar el diseño** puedes cambiar algunos
+Con un [diseño](./designs.md) y **Diseñar el libro…** puedes cambiar algunos
 detalles del aspecto de un libro. Si necesitas cambiar más cosas, crea tu
 propio estilo: copias uno de los diseños o estilos de φ Poiesis y cambias lo que
 quieras. Después puedes usar tu estilo en cualquier proyecto de la
@@ -14,7 +14,8 @@ quieras. Después puedes usar tu estilo en cualquier proyecto de la
 ## Crea un estilo {#make-a-style}
 
 1. Abre la página **Exportar** del proyecto.
-2. Abre **Ajustar el diseño**. En **Compartir una copia**, abre **Opciones**.
+2. Abre **Opciones**, debajo de **Diseñar el libro…**. En **Compartir una
+   copia**, abre **Opciones**.
 3. Elige **Editar estilos…**. Se abre **Estilos de exportación**.
 4. En **Incluidos en φ**, elige el diseño o el estilo que más se parezca a lo
    que buscas.

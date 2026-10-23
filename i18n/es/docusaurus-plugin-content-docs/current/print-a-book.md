@@ -27,11 +27,15 @@ También calcula el ancho del lomo a partir del número de páginas.
    - **Formato**: el tamaño de la página impresa.
    - **Papel**: **Blanco** o **Crema**.
    - **Tinta**: **Negra** o **Mantener el color de φ**.
-3. Lee la comprobación que aparece debajo de las opciones y corrige lo que
+3. Si quieres, cambia el aspecto de las páginas con **Diseñar el libro…**
+   (consulta [Diseños](./designs.md#design-the-book)) y prepara la
+   contracubierta y el lomo en **Cubierta** (consulta
+   [La cubierta](#the-cover)).
+4. Lee la comprobación que aparece debajo de las opciones y corrige lo que
    indique.
-4. Pulsa **Exportar PDF para imprenta** para crear el interior.
-5. Pulsa **Exportar cubierta** para crear la cubierta.
-6. Sube los dos archivos a tu servicio de impresión. Se suben por separado.
+5. Pulsa **Exportar PDF para imprenta** para crear el interior.
+6. Pulsa **Exportar cubierta** para crear la cubierta.
+7. Sube los dos archivos a tu servicio de impresión. Se suben por separado.
 
 ## Elige el formato {#choosing-the-trim-size}
 
@@ -64,7 +68,7 @@ pagar una impresión en color.
 
 - **Los capítulos empiezan en página impar.** Cuando el diseño lo pide, Poiesis
   añade una página en blanco antes del capítulo allí donde hace falta. Puedes
-  desactivarlo en **Ajustar el diseño**.
+  desactivarlo en **Diseñar el libro…**, en **Los capítulos empiezan en**.
 - **Márgenes para la encuadernación.** Cuantas más páginas tiene un libro, más
   ancho es su margen interior, para que el texto no se pierda en el lomo. Los
   servicios de impresión lo exigen.
@@ -80,20 +84,39 @@ pagar una impresión en color.
 
 **Exportar cubierta** crea un único PDF con la contracubierta, el lomo y la
 cubierta delantera. Le añade la sangre: un octavo de pulgada de más en todo el
-borde, que el servicio de impresión recorta.
+borde, que el servicio de impresión recorta. El PDF marca por dónde se corta
+la página, para que el servicio de impresión lea bien la sangre.
 
 - **La cubierta delantera** es tu imagen de cubierta. La pones en lo alto de
   la página del proyecto.
-- **La contracubierta y el lomo** toman su color de la imagen de cubierta.
 - **La contracubierta** lleva la descripción del libro y la biografía breve
-  del primer autor. La esquina donde va el código de barras queda vacía.
+  del primer autor.
 - **El lomo** se calcula a partir del número de páginas y del papel. A partir
   de 80 páginas, lleva el título y el autor. Con menos de 80, el lomo es
   demasiado estrecho para llevar texto y queda liso.
 
+Abre **Cubierta**, debajo de **Opciones**, para preparar el resto:
+
+| Opción | Qué hace |
+| --- | --- |
+| **Contracubierta y lomo** | Su color: **Del arte de la cubierta**, o **Un color que elijo**, con un selector de color. |
+| **Código de barras ISBN** | **Dejar libre (KDP)**: KDP añade su propio código de barras, así que la zona queda vacía. **Con el ISBN**: Poiesis dibuja el código de barras a partir del **ISBN (impreso)** de [Datos del libro](./book-details.md). IngramSpark y la mayoría de las imprentas lo piden así. |
+| **Ancho del lomo (in)** | Déjalo vacío y Poiesis calcula el lomo a partir del número de páginas y del papel. Si la calculadora de cubiertas de tu imprenta da otra cifra, escribe aquí la suya. |
+
+**Revisar la cubierta** muestra la cubierta entera, plana: la contracubierta,
+el lomo y la cubierta delantera. Las líneas rojas muestran lo que recorta la
+imprenta y por dónde se dobla el lomo. Mantén el texto dentro de las líneas
+azules. La zona del código de barras también está marcada. Es el archivo que
+crea Poiesis, no una foto del libro impreso.
+
+<img src="/img/app/check-cover-light.png" alt="Revisar la cubierta: la contracubierta, el lomo y la cubierta delantera extendidos en plano, con el corte, el pliegue y la zona del código de barras marcados" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/check-cover-dark.png" alt="Revisar la cubierta: la contracubierta, el lomo y la cubierta delantera extendidos en plano, con el corte, el pliegue y la zona del código de barras marcados" width="1600" height="1000" loading="lazy" decoding="async" />
+
 La comprobación te avisa cuando la imagen de cubierta es demasiado pequeña
 para imprimirse nítida. Una cubierta impresa necesita unos 300 píxeles por
-pulgada.
+pulgada. También te avisa cuando el ancho del lomo que escribiste se aleja
+mucho del que da el número de páginas, o cuando elegiste un código de barras y
+el libro no tiene ISBN impreso.
 
 :::tip Pide un ejemplar de prueba
 

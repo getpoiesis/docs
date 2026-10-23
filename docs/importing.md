@@ -48,7 +48,7 @@ Poiesis keeps the structure of the folder. It also keeps:
 A `.poiesis` file made with **Save a Copy** or **Project copy** opens with its
 pictures. There are three ways to import it:
 
-- In the command palette, choose **Import a Poiesis document (`.poiesis`)…**.
+- In the command palette, choose **Import a φ document (`.poiesis`)…**.
 - Choose **File → Import φ Document…**.
 - Drag the file onto the Poiesis window.
 

@@ -27,15 +27,15 @@ coffre ouvert. Un [coffre](./vaults.md) est le dossier qui contient votre travai
 
 | Section | Ce qu’elle contient | S’applique à |
 | --- | --- | --- |
-| **Apparence** | Clair ou sombre, taille de l’interface, thème de couleur, couleur de la barre latérale | Toute l’application |
+| **Apparence** | Clair ou sombre, taille de l’interface, thème de couleur, couleur de la barre latérale, moments | Toute l’application |
 | **Éditeur** | La zone où vous écrivez : police, taille, concentration, dates, série, code, versions | Toute l’application |
 | **Réglages d’écriture** | Les signaux (ce que Poiesis vous montre de votre écriture) et les lieux de chaque mode | Le coffre ouvert |
 | **Langue** | La langue de l’application, l’orthographe, votre dictionnaire | Toute l’application, avec une partie **Ce coffre** |
 | **Versions** | La façon dont l’historique est conservé et sauvegardé | Le coffre ouvert |
 | **Coffre** | Les modes du coffre ; ajouter ou retirer des coffres | Le coffre ouvert |
 | **Modèles** | Vos modèles et leurs variables | Ce coffre et tous les coffres |
-| **Raccourcis** | Les principaux raccourcis clavier | — |
-| **Données** | L’état de vos fichiers, les sauvegardes de migration, une réinitialisation | Toute l’application |
+| **Raccourcis** | La capture rapide, vos propres raccourcis et les principaux raccourcis clavier | Toute l’application |
+| **Données** | L’état de vos fichiers, une sauvegarde du coffre, les sauvegardes de migration, une réinitialisation | Toute l’application |
 
 ## Apparence {#appearance}
 
@@ -46,9 +46,16 @@ sur les thèmes de couleur.
 | --- | --- |
 | **Apparence** | **Système**, **Clair** ou **Sombre**. **Système** suit votre ordinateur : Poiesis passe en sombre quand votre ordinateur le fait. |
 | **Taille de l’interface** | **100%**, **115%**, **130%** ou **150%**. Agrandit tout, icônes comprises. |
-| **Thème de couleur** | Les thèmes dont vous disposez, chacun avec un petit aperçu. **Installer un thème…** et **Parcourir les thèmes officiels…** permettent d’en ajouter. **Ouvrir le dossier des thèmes** montre où ils sont rangés. |
+| **Thème de couleur** | Le thème propre à φ et les cinq fournis avec Poiesis (**Papier**, **Nuit**, **Sépia**, **Chaleureux** et **Contraste élevé**), plus ceux que vous avez installés, chacun avec un petit aperçu. **Installer un thème…** et **Parcourir les thèmes officiels…** permettent d’en ajouter. **Ouvrir le dossier des thèmes** montre où ils sont rangés. |
 | **Barre latérale en thème clair** | **Sombre** ou **Clair**. **Sombre** est le choix par défaut : la page est ainsi la zone la plus lumineuse de l’écran. En thème sombre, la barre latérale est toujours sombre. |
 | **Le sanctuaire atténue le reste** | Le [Sanctuaire](./focus-and-writing-modes.md) masque tout dans Poiesis, sauf la page. Quand ce réglage est activé, le Sanctuaire atténue tout sauf la phrase que vous écrivez. Si **Écriture focalisée** est réglée sur **Paragraphe**, c’est le paragraphe entier qui reste net. Désactivez le réglage pour ne rien atténuer. |
+
+Sous **Moments** (voir [Souvenirs et célébrations](./memories-and-celebrations.md)) :
+
+| Réglage | Ce qu’il fait |
+| --- | --- |
+| **Célébrations** | Un peu de confettis quand vous atteignez un jalon : une série, l’objectif de mots d’un livre, un total de mots sur toute une vie. Jamais pendant que vous tapez. |
+| **Un souvenir à l’ouverture de φ** | Une fois par jour, une petite carte dans le coin vous propose ce que vous avez écrit ce jour-là une année précédente. |
 
 ## Éditeur {#editor}
 
@@ -84,7 +91,7 @@ masque. Votre travail, lui, n’est jamais masqué ni supprimé. La page
 | **La semaine commence le** | N’importe quel jour de la semaine. Ce réglage fixe la première colonne du calendrier et de la carte de chaleur, ainsi que la semaine sur laquelle votre rythme est calculé. |
 | **Rythme hebdomadaire** | **Aucun**, ou le nombre de jours par semaine où vous voulez écrire. Un jour manqué ne le remet jamais à zéro. |
 | **Modes** | Ouvrez **Écrire**, **Notes** ou **Journal** pour configurer ce mode. Vous pouvez choisir les lieux qu’il propose (Personnages, Auteurs, Recherche, Tableaux, Graphe, Calendrier, pages du matin). Vous pouvez modifier les signaux (les réglages ci-dessus) pour ce mode seulement. Vous pouvez activer ou désactiver les **Listes de tâches**. Chaque mode porte la mention **Suit le coffre** ou **Diffère**. **Suivre le coffre à nouveau** supprime la différence. |
-| **Réglages enregistrés** | **Enregistrer sous…** enregistre ces réglages sous un nom. **Utiliser dans ce coffre** ou **Utiliser dans un autre coffre…** applique des réglages enregistrés à un coffre. Vous pouvez aussi les renommer ou les supprimer. |
+| **Réglages enregistrés** | Apparaît dès que vous avez plus d’un coffre, ou que des réglages sont enregistrés. **Enregistrer sous…** enregistre ces réglages sous un nom. **Utiliser dans ce coffre** ou **Utiliser dans un autre coffre…** applique des réglages enregistrés à un coffre. Vous pouvez aussi les renommer ou les supprimer. |
 
 ## Langue {#language}
 
@@ -155,9 +162,18 @@ Voir [Modèles](./templates.md).
 
 ## Raccourcis {#shortcuts}
 
-Les principaux raccourcis clavier, en quatre groupes : **Se déplacer**,
-**Documents**, **Écriture** et **Format**. C’est la liste qu’affiche `⌘/`.
-Tapez dans **Rechercher des commandes…** pour trouver un raccourci.
+| Réglage | Ce qu’il fait |
+| --- | --- |
+| **Capture rapide** | Le raccourci qui ouvre la fenêtre de capture rapide depuis n’importe où, même quand Poiesis est en arrière-plan (`⌥⇧⌘N` au départ). Cliquez sur le raccourci et appuyez sur celui que vous voulez, ou choisissez **Désactivé**. Si une autre application utilise déjà ce raccourci, Poiesis vous le signale. Voir [Notes et capture rapide](./notes.md). |
+| **Vos raccourcis** | Place des commandes de l’application (rechercher, la palette de commandes, nouveau et fermer, précédent et suivant, le mode lecture, le Sanctuaire, le défilement machine à écrire, les panneaux, Imprimer, etc.) sur les touches de votre choix. Cliquez sur le raccourci d’une commande et appuyez sur le nouveau. `Esc` annule, et `Delete` laisse la commande sans raccourci. Si une autre commande avait ce raccourci, il lui est transféré et Poiesis indique quelle commande l’a perdu. Le bouton en bout de ligne rétablit le raccourci de φ pour cette commande ; **Revenir aux raccourcis de φ** les rétablit tous. |
+
+En dessous figurent les principaux raccourcis clavier, en cinq groupes :
+**Se déplacer**, **Aller à**, **Documents**, **Écriture** et **Format**.
+C’est la liste qu’affiche `⌘/`. Tapez dans **Rechercher des commandes…**
+pour trouver un raccourci.
+
+Les menus, `⌘/` et cette liste affichent tous vos propres raccourcis. Les
+raccourcis de mise en forme, comme `⌘B` et `⌘I`, ne peuvent pas être modifiés.
 
 La page [Raccourcis clavier](./keyboard-shortcuts.md) les donne tous.
 
@@ -165,6 +181,7 @@ La page [Raccourcis clavier](./keyboard-shortcuts.md) les donne tous.
 
 | Réglage | Ce qu’il fait |
 | --- | --- |
+| **Sauvegarde du coffre** | **Sauvegarder le coffre…** enregistre un ZIP daté du coffre ouvert : chaque document, dossier, fiche, pièce jointe et les réglages du coffre. L’historique des versions et la corbeille n’y figurent pas. Voir [Versions et sauvegarde](./versions-and-backup.md). |
 | **Santé du coffre** | Indique si vos documents sont au format de fichier actuel. Si certains sont dans un format plus ancien, **Migrer toutes les notes** les met à jour. Poiesis enregistre d’abord une sauvegarde de chacun. |
 | **Sauvegardes** | Apparaît une fois que des documents ont été migrés. Indique le nombre de sauvegardes et leur taille. **Ouvrir le dossier des sauvegardes** les montre ; **Effacer les anciennes sauvegardes** supprime les plus anciennes. |
 | **Réinitialiser tous les réglages…** | Rétablit la valeur par défaut de tous les réglages de l’application (thème, éditeur, disposition, graphe, dates). Poiesis vous demande d’abord confirmation. Vos documents, vos coffres et vos statistiques d’écriture sont conservés. |
@@ -176,3 +193,4 @@ La page [Raccourcis clavier](./keyboard-shortcuts.md) les donne tous.
 - [Thèmes et langues](./themes-and-languages.md)
 - [Raccourcis clavier](./keyboard-shortcuts.md)
 - [Versions et sauvegarde](./versions-and-backup.md)
+- [Souvenirs et célébrations](./memories-and-celebrations.md)

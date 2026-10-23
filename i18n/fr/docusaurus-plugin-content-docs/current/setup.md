@@ -26,7 +26,8 @@ qui leur est utile.
 4. Sous **Modes**, cliquez sur **Écrire**, **Notes** ou **Journal** pour
    choisir les lieux que ce mode propose.
 5. Pour reprendre les mêmes réglages dans un autre coffre, cliquez sur
-   **Enregistrer sous…**, sous **Réglages enregistrés**.
+   **Enregistrer sous…**, sous **Réglages enregistrés**. (Cette partie
+   apparaît dès que vous avez plus d’un coffre.)
 
 <img src="/img/app/setup-settings-light.png" alt="Les réglages ouverts sur la configuration du coffre : les signaux, les trois modes et les configurations enregistrées" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/setup-settings-dark.png" alt="Les réglages ouverts sur la configuration du coffre : les signaux, les trois modes et les configurations enregistrées" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -39,8 +40,8 @@ coffre démarre avec les valeurs par défaut indiquées ci-dessous.
 | Signal | Ce qu’il fait | Au départ |
 | --- | --- | --- |
 | **Démarrer les sessions automatiquement** | Lance le chronomètre d’une session d’écriture dès que vous tapez la première lettre. Si vous le désactivez, une session ne démarre que lorsque vous le demandez : `⌘P` → **Démarrer la session d’écriture** (et **Terminer la session d’écriture**). | Activé |
-| **Statistiques de lisibilité** | Ajoute le niveau de lecture et la longueur des phrases aux **Statistiques du document**. Pour les ouvrir, cliquez sur le nombre de mots dans le coin de la page, puis cliquez dessus une seconde fois. | Désactivé |
-| **Série** | La façon dont votre série d’écriture s’affiche sur l’Accueil et dans le calendrier : **Flamme et compte**, **Jours simples** ou **Désactivée**. | **Flamme et compte** |
+| **Statistiques de lisibilité** | Ajoute le niveau de lecture et la longueur des phrases aux **Statistiques du document**. Pour les ouvrir, cliquez sur le nombre de mots dans le coin de la page et choisissez **Statistiques…**. | Désactivé |
+| **Série** | La façon dont votre série d’écriture s’affiche sur l’Accueil et dans le calendrier : **Flamme et compte**, **Jours simples** ou **Désactivée**. | **Jours simples** |
 | **La semaine commence le** | Le premier jour de la semaine. Le calendrier et votre rythme hebdomadaire s’en servent. Ce réglage vaut pour tous les coffres. | Lundi |
 | **Rythme hebdomadaire** | Un nombre de jours d’écriture à atteindre par semaine : **Aucun**, ou de **1/semaine** à **7/semaine**. Poiesis compte les sept derniers jours : un jour manqué ne remet donc pas le compteur à zéro. | **Aucun** |
 
@@ -71,20 +72,29 @@ Ce tableau indique les lieux que chaque mode propose au départ :
 | Lieu | Écrire | Notes | Journal |
 | --- | :---: | :---: | :---: |
 | **Personnages** | ✓ | | |
+| **Monde** | ✓ | | |
 | **Auteurs** | ✓ | | |
 | **Recherche** | ✓ | jamais | |
-| **Tableaux** | ✓ | ✓ | |
-| **Graphe** | ✓ | ✓ | |
-| **Calendrier** | ✓ | ✓ | ✓ |
+| **Tableaux** | | ✓ | |
+| **Graphe** | | | |
+| **Calendrier** | | | ✓ |
 | **Commencer les pages du matin du jour** | | | ✓ |
 
 - **Écrire et Notes.** Vous pouvez activer n’importe lequel des autres lieux,
   sauf les pages du matin. Par exemple, vous pouvez activer **Personnages**
-  dans Notes. **Recherche** est réservé à Écrire.
+  dans Notes. **Recherche** est réservé à Écrire. Dans Écrire, chaque projet
+  a son propre **Tableau** : le lieu **Tableaux** n’est donc proposé au
+  départ que dans Notes.
+- **Graphe et Calendrier.** Ils sont absents au départ de la barre latérale
+  d’Écrire et de Notes, mais restent toujours à portée de touche : `⌘G G`
+  ouvre le graphe et `⌘G C` le calendrier, dans n’importe quel mode, et tous
+  deux répondent à leur nom dans `⌘P` et `⌘K`. Activez l’un ou l’autre ici
+  pour le remettre dans la barre latérale d’un mode. Un coffre où vous les
+  aviez déjà activés ou désactivés garde votre choix.
 - **Journal.** Il ne propose que le calendrier et les pages du matin. C’est
   voulu, pour que Journal reste simple. Si vous désactivez **Commencer les
-  pages du matin du jour**, **Pages du matin** et **Scellées** disparaissent
-  de la barre latérale de Journal.
+  pages du matin du jour**, **Pages du matin** disparaît de la barre latérale
+  de Journal.
 - **Listes de tâches.** Elles sont activées dans Notes et désactivées dans
   Écrire et dans Journal, car on s’en sert surtout dans les notes. Si vous
   tenez des listes de tâches dans un manuscrit, activez-les ici pour Écrire.
@@ -92,7 +102,8 @@ Ce tableau indique les lieux que chaque mode propose au départ :
 ## Utiliser des réglages dans un autre coffre {#use-a-setup-in-another-vault}
 
 **Réglages enregistrés** conserve des copies de vos réglages, chacune sous
-un nom.
+un nom. Cette partie apparaît dès que vous avez plus d’un coffre, ou dès que
+des réglages sont enregistrés.
 
 - **Enregistrer sous…** donne un nom aux réglages actuels et en garde une
   copie. Si vous modifiez ce coffre par la suite, la copie ne change pas.

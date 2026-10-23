@@ -13,8 +13,8 @@ editarlo en otra aplicación o guardar una copia.
 
 1. Abre la página **Exportar** del proyecto.
 2. Elige **Compartir una copia**.
-3. En **Opciones**, elige un **Estilo** y un **Papel**. Si te sirven los
-   valores predeterminados, sáltate este paso.
+3. En **Opciones**, elige un **Estilo**, un **Papel** y, para el PDF, **PDF
+   accesible**. Si te sirven los valores predeterminados, sáltate este paso.
 4. Pulsa el formato que quieras.
 5. Elige dónde guardar el archivo.
 
@@ -43,6 +43,15 @@ son:
 **Papel** define el tamaño de página del PDF: Carta, A4, A5, Digest o Trade.
 Los demás formatos no tienen páginas fijas, así que **Papel** no les afecta.
 
+## Un PDF accesible {#an-accessible-pdf}
+
+Pon **PDF accesible** en **Sí**, en **Opciones**, para crear el PDF según el
+estándar PDF/UA. Así, los lectores de pantalla pueden seguirlo. Si el PDF no
+puede cumplir el estándar, φ Poiesis crea un PDF normal y te dice por qué.
+
+Esta opción es solo para el PDF que compartes. Los archivos de un
+[libro impreso](./print-a-book.md) no cambian nunca.
+
 ## Recuperar una copia {#bringing-a-copy-back}
 
 Una **Copia del proyecto** es un archivo `.poiesis`. Contiene el proyecto, sus
@@ -51,7 +60,7 @@ documentos y sus imágenes.
 Para abrirla en otra bóveda:
 
 1. Abre la paleta de comandos (`⌘P`).
-2. Elige **Importar un documento Poiesis (`.poiesis`)…**.
+2. Elige **Importar un documento φ (`.poiesis`)…**.
 
 En [Importar](./importing.md) lo tienes con más detalle.
 

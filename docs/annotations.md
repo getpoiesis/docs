@@ -39,11 +39,10 @@ To remove a highlight:
 ## Find your notes
 
 All annotations and margin notes for a document are on the Info panel's
-**Notes** tab. There are three ways to open it:
+**Notes** tab. There are two ways to open it:
 
 - Press `⇧⌘A`.
-- Click the document's **⋮**, then **Notes**.
-- Right-click in the text and choose **Annotations**.
+- Open the Info panel (`⇧⌘I`) and click its **Notes** tab.
 
 The tab has two parts: **Margin notes** at the top, then **Annotations**.
 
@@ -76,6 +75,40 @@ To attach it to a new passage:
 
 1. Select the new passage.
 2. Click **Reattach to selection**.
+
+## Search every highlight and comment
+
+At the top of the **Notes** tab, switch from **This document** to **All
+documents**. Poiesis then lists the highlights and comments of every document
+in the vault.
+
+- Type in **Search every highlight and comment…**. Poiesis searches the
+  words each one covers and your comments on them. Case and accents don't
+  matter.
+- Use the filter to show only **Highlights**, **Comments**, **Open** or
+  **Resolved** ones.
+- Click one to open its document.
+
+You can also open it from the command palette (`⌘P`): choose **Search all
+highlights and comments**.
+
+## Gather them into a document
+
+To collect a document's annotations in one place, open the **Notes** tab and
+click **Gather into a document** at the top. Poiesis makes a new document,
+*Notes on* and the document's title. It has every highlight and comment in
+reading order: the words each one covers as a quote, with your comment
+under it. The margin notes come after them.
+
+- Resolved annotations are marked **resolved**.
+- An annotation whose text was deleted keeps the words it was made on.
+
+To do the same for a whole book, right-click the project in the sidebar and
+choose **Gather notes and highlights**. The new document goes chapter by
+chapter, under the chapters' titles.
+
+In the command palette, **Gather this document’s notes and highlights**
+does it for the open document.
 
 ## Write a margin note
 

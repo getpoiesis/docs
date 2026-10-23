@@ -47,9 +47,9 @@ réglez **Barre latérale en thème clair** sur **Clair**.
 
 En thème sombre, la barre latérale est toujours sombre.
 
-Si vous utilisez un autre thème de couleur que Phi, la barre latérale prend les
-couleurs de ce thème : ses couleurs sombres si elle est sombre, ses couleurs
-claires si elle est claire.
+La barre latérale prend les couleurs de votre thème de couleur, quel qu’il
+soit : Phi, un thème intégré ou un thème que vous avez installé. Sombre, elle
+prend les couleurs sombres du thème ; claire, ses couleurs claires.
 
 ## Changer les couleurs {#change-the-colours}
 
@@ -61,9 +61,17 @@ Pour utiliser un thème, cliquez dessus dans la liste **Thème de couleur**.
 Chaque thème y est accompagné d’un petit aperçu de la fenêtre de Poiesis à ses
 couleurs.
 
-Poiesis est fourni avec un seul thème, **Phi**, marqué **Officiel**. Il associe des
-gris neutres à une page d’un blanc pur ou d’un noir pur. C’est le thème par
-défaut, et vous ne pouvez pas le supprimer.
+Le thème propre à Poiesis est **Phi**, marqué **Officiel**. Il associe des gris
+neutres à une page d’un blanc pur ou d’un noir pur. C’est le thème par défaut,
+et vous ne pouvez pas le supprimer.
+
+Cinq autres thèmes sont intégrés, prêts dès le premier lancement et sans
+connexion : **Papier**, **Nuit**, **Sépia**, **Chaleureux** et **Contraste
+élevé**. Chacun a une version claire et une version sombre : **Système**,
+**Clair** et **Sombre** fonctionnent donc toujours. La lisibilité du texte est
+vérifiée pour chacun, et selon le niveau AAA, plus strict, pour **Contraste
+élevé**. Un thème que vous téléchargez ne peut pas prendre l’un de leurs noms.
+Comme Phi, ils sont marqués **Officiel** et ne peuvent pas être supprimés.
 
 <img src="/img/app/themes-nord-light.png" alt="La fenêtre d’accueil dans le thème Nord : la page gris-bleu pâle de Nord à côté de sa barre latérale ardoise foncé" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/themes-nord-dark.png" alt="La fenêtre d’accueil dans le thème Nord, en sombre : la page et la barre latérale aux couleurs « nuit polaire » de Nord" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -112,6 +120,11 @@ Phi.
 
 Réglez **Langue de l’interface**. C’est la langue des menus et des libellés de
 Poiesis.
+
+Les nombres et les heures suivent aussi cette langue, quelle que soit celle
+de votre ordinateur. Un nombre de mots s’écrit *12,480* en anglais, *12.480*
+en espagnol et *12 480* en français, et une heure s’écrit *3:05 PM* ou
+*15:05*.
 
 <img src="/img/app/settings-language-light.png" alt="Les réglages ouverts sur Langue : la langue de l’interface, l’orthographe et le dictionnaire personnel" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-language-dark.png" alt="Les réglages ouverts sur Langue : la langue de l’interface, l’orthographe et le dictionnaire personnel" width="1600" height="1000" loading="lazy" decoding="async" />

@@ -36,7 +36,7 @@ Il y a trois autres façons de commencer l’entrée du jour :
 
 | Dans la barre latérale | Ce que vous y trouvez |
 | --- | --- |
-| **Accueil** | L’entrée du jour, la semaine en cours, les derniers jours, les pages du matin du jour et le mois. Vous y trouvez aussi **Ce jour-là** : ce que vous avez écrit à la même date les années précédentes. |
+| **Accueil** | L’entrée du jour, la semaine en cours, les derniers jours, les pages du matin du jour et le mois. Vous y trouvez aussi **Souvenirs** : ce que vous avez écrit à la même date les années précédentes. Voir [Souvenirs et célébrations](./memories-and-celebrations.md). |
 | **Aujourd’hui** | L’entrée du jour. |
 | **Toutes les entrées** | Tous les jours où vous avez écrit, du plus récent au plus ancien. La semaine en cours forme une rangée de jours tout en haut. Ouvrez un jour pour le lire, ou restez sur la liste : elle présente tous les jours à la suite, comme une seule longue page, et vous pouvez écrire dans n’importe lequel. Le mois et l’année s’affichent au-dessus de la semaine et entre les mois. Pour aller à un jour précis, cliquez sur le calendrier à côté du mois (**Aller à un jour**) et choisissez-le : son entrée s’ouvre ou, si vous n’avez rien écrit ce jour-là, la liste se place sur le jour précédent le plus proche. |
 | **Pages du matin** | Toutes vos séances de pages du matin, avec leur nombre de pages et de mots. En haut de la liste, choisissez **Toutes**, **En cours** ou **Scellées** (celles que vous avez terminées). |
@@ -180,6 +180,8 @@ Pour changer la façon dont la série s’affiche, allez dans **Réglages** →
 | **Flamme et compte** | Une flamme sur chaque jour où vous avez écrit. Dans le calendrier, les jours de votre série en cours sont reliés entre eux. |
 | **Jours simples** | Les flammes, mais sans mise en valeur de la série en cours. |
 | **Désactivée** | Ni flammes, ni série sur l’Accueil d’Écrire. |
+
+Un nouveau coffre commence sur **Jours simples**.
 
 Le **Rythme hebdomadaire** se règle au même endroit. C’est un objectif plus
 souple : un nombre de jours par semaine. Poiesis le calcule sur les sept derniers

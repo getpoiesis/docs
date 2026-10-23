@@ -13,10 +13,10 @@ export les contient donc, à l’endroit où le lecteur les attend.
 <img src="/img/app/footnotes-light.png" alt="Un chapitre avec un appel de note dans le texte, et l’onglet Plan du panneau Infos qui affiche les deux notes de bas de page du chapitre" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/footnotes-dark.png" alt="Un chapitre avec un appel de note dans le texte, et l’onglet Plan du panneau Infos qui affiche les deux notes de bas de page du chapitre" width="1600" height="1000" loading="lazy" decoding="async" />
 
-Les notes de bas de page, les citations et la bibliographie n’existent que
-dans les documents qui font partie d’un [projet](./collections.md). Vous ne les
-trouverez ni dans les notes, ni dans les pièces hors projet, ni dans le
-journal.
+Les notes de bas de page, les citations et la bibliographie existent dans les
+documents d’**Écrire** : les chapitres d’un [projet](./collections.md), et les
+pièces qui ne font pas encore partie d’un projet. Vous ne les trouverez ni
+dans les notes, ni dans le journal.
 
 ## Ajouter une note de bas de page {#add-a-footnote}
 

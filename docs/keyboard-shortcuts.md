@@ -19,6 +19,10 @@ You can also see shortcuts inside Poiesis:
 - The command palette (`⌘P`) shows each command's shortcut beside the
   command.
 
+You can put many app commands on keys of your own in **Settings → Shortcuts →
+Your keys** (see [Settings](./settings.md#shortcuts)). This page lists φ's
+own keys. The menus, `⌘/` and Settings show yours.
+
 <img src="/img/app/shortcuts-card-light.png" alt="The shortcuts card, listing the main shortcuts in four groups" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/shortcuts-card-dark.png" alt="The shortcuts card, listing the main shortcuts in four groups" width="1600" height="1000" loading="lazy" decoding="async" />
 
@@ -53,6 +57,9 @@ Outside lists and tables, `Tab` types a tab.
 | Type | To |
 | --- | --- |
 | `/` | Insert a block: a heading, a quote, a verse, a table, a template… |
+| `/toggle` | A section that folds away under a line you name |
+| `/math` | A formula on its own line |
+| `$$E = mc^2$$` | A formula inside a line |
 | `[[` | Link to another document |
 | `@` | Mention a character |
 
@@ -63,6 +70,16 @@ Outside lists and tables, `Tab` types a tab.
 | Turn a paragraph into a verse, or back | `⌥⌘V` |
 | Start a new line of the verse | `↵` |
 | Leave the verse and start a new paragraph | `⌘↵` |
+
+### In a toggle or a formula
+
+| To | Press |
+| --- | --- |
+| Fold or unfold a toggle | `⌥⌘↵` (or click its arrow) |
+| Leave a toggle | `⌘↵`, or `↵` on an empty last line |
+| Leave a formula you are editing | `⌘↵` or `Esc` |
+
+See [Formatting & blocks](./formatting-and-blocks.md).
 
 ### Links
 
@@ -103,6 +120,7 @@ Outside lists and tables, `Tab` types a tab.
 | Open the previous · next document in the list | `⌥⌘←` · `⌥⌘→` |
 | Go to the first, second or third mode's Home, in the sidebar's order | `⌘1` · `⌘2` · `⌘3` |
 | Go to this mode's Home | `⇧⌘H` |
+| Capture a thought from anywhere, even with Poiesis in the background | `⌥⇧⌘N` |
 | Switch vault | `⌥⌘O` |
 | Open a vault | `⇧⌘O` |
 
@@ -114,11 +132,22 @@ Press `⌘G`, release the keys, then press the second key within about two secon
 
 | Go to | Press |
 | --- | --- |
+| Write | `⌘G` then `W` |
 | Notes | `⌘G` then `N` |
-| Write | `⌘G` then `C` |
 | Journal | `⌘G` then `J` |
-| Find a document | `⌘G` then `S` |
+| The calendar, from any mode | `⌘G` then `C` |
+| Notes' boards, or the board of the project you're in | `⌘G` then `B` |
+| The Inbox | `⌘G` then `I` |
+| The Home of the mode you're in | `⌘G` then `H` |
 | The graph | `⌘G` then `G` |
+| Find a document (`⌘K`) | `⌘G` then `S` |
+| Characters | `⌘G` then `P` |
+| World: places, lore and the timeline | `⌘G` then `L` |
+| Research | `⌘G` then `R` |
+
+Inside a project, `P`, `L` and `R` open that project's tab. Anywhere else,
+they open the vault's list. After `⌘G`, a strip appears that shows the keys,
+and **View → Go to** lists them too. Keys for a mode the vault doesn't have are left out.
 
 ### In the `⌘K` palette
 
@@ -131,7 +160,11 @@ Press `⌘G`, release the keys, then press the second key within about two secon
 | Close the highlighted open document | `⌘W` |
 | Close the palette | `Esc` |
 
-### In a project's outline
+### In a project
+
+| To | Press |
+| --- | --- |
+| Show the project's **Contents**, **Characters**, **World**, **Research** or **Board** tab | `⌃1` · `⌃2` · `⌃3` · `⌃4` · `⌃5` |
 
 In the list of a project's chapters:
 
@@ -155,6 +188,7 @@ In the list of a project's chapters:
 | Move to the previous · next pane | `⌃⌘←` · `⌃⌘→` |
 | Close the other panes | `⌥⌘W` |
 | Show the sidebar over the panes, in split view | `⌘0` |
+| Compact the list to titles only, or back | `⌃⌘L` |
 | Zoom in · out | `⌘+` · `⌘-` |
 | Full screen | `⌃⌘F` |
 | Open Settings | `⌘,` |
@@ -178,9 +212,12 @@ These shortcuts are different:
 | --- | --- |
 | Move the document to the trash | **Delete** |
 | Move to the previous · next pane | **Ctrl + Alt + Shift + ←** · **→** |
+| A project's tabs | **Alt + 1** to **Alt + 5** |
+| Compact the list | **Ctrl + Alt + Shift + L** |
+| Quick capture | **Ctrl + Alt + Shift + N** |
 | Redo | **Ctrl + Shift + Z** or **Ctrl + Y** |
 | Full screen | **F11** |
-| Open Settings | The sliders button at the top of the sidebar (no shortcut) |
+| Open Settings | **Ctrl + ,** (it is in the **File** menu) |
 
 Hiding Poiesis and hiding the other apps work only on a Mac.
 

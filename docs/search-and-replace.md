@@ -82,7 +82,7 @@ match is in a document's title, the document is marked **in the name**.
 | --- | --- |
 | A document, project or character by name | `⌘K`. See [Finding your way](./finding-your-way.md). |
 | Something in the list you're looking at | The search field under the list's title. It filters by title, opening text and tags. |
-| A command | `⌘P`. |
+| A command | `⌘P`. Or type its name in `⌘K`: the commands of that name are listed under the documents, with their keys. |
 
 ## See also
 

@@ -18,8 +18,8 @@ la vue partagée.
 ## Ouvrir un document à côté de celui-ci {#open-a-document-beside-this-one}
 
 1. Ouvrez un document.
-2. Cliquez sur **Vue partagée** dans la barre au-dessus de la page, ou appuyez
-   sur `⌘\`. Un volet vide s’ouvre à côté du document, et la barre latérale
+2. Appuyez sur `⌘\`, ou choisissez **Vue partagée** dans le menu ⋮ du
+   document. Un volet vide s’ouvre à côté du document, et la barre latérale
    apparaît.
 3. Cherchez le second document dans la barre latérale et dans la liste. Vous
    pouvez regarder dans n’importe quel mode : la page ne change pas pendant
@@ -94,9 +94,9 @@ l’ouvre aussi dans un nouveau volet, à droite du volet actif : cliquer
 dessus dans la liste, le choisir dans la recherche, suivre un lien. Une fois
 trois volets ouverts, il remplace le document du volet actif.
 
-**Vue partagée**, dans la barre au-dessus de la page, apparaît enfoncé tant
-que vous êtes en vue partagée. Cliquez de nouveau pour en sortir : seul le
-document où vous êtes reste ouvert. Fermer un volet laisse les autres tels
+Tant que vous êtes en vue partagée, un bouton **Vue partagée** apparaît,
+enfoncé, dans la barre au-dessus de la page. Cliquez dessus pour en sortir :
+seul le document où vous êtes reste ouvert. Fermer un volet laisse les autres tels
 qu’ils sont.
 
 ## La barre latérale en vue partagée {#the-sidebar-while-split}

@@ -17,7 +17,8 @@ reading apps can use. It uses the same design as the printed book.
 1. Open the project's **Export** page.
 2. Choose **Ebook**.
 3. Choose the **Design**. The printed book uses the same design, so the two
-   match.
+   match. To change the look, press **Design the book…** (see
+   [Designs](./designs.md#design-the-book)).
 4. Read the check. It lists anything you need to fix before you export. Fix
    each item.
 5. Choose **Preview**, then **Ebook**. You see the book as a reading app
@@ -37,7 +38,9 @@ These parts of the design are kept:
 - the way a chapter opens: the chapter number and title together, then a drop
   cap or the first words in small capitals;
 - the ornament between scenes;
-- the title page, copyright page, dedication, epigraph and "About the author".
+- the title page, copyright page, dedication, epigraph and "About the author";
+- [your pictures](./designs.md#your-pictures). A picture behind the page is
+  left out, and a band across the top becomes a full-width picture.
 
 ## What the stores look for
 
@@ -53,6 +56,10 @@ things:
   [Book details](./book-details.md). KDP and Google Play don't need one.
 
 Poiesis also checks the EPUB against the EPUB standard while it makes the file.
+
+The EPUB also says how it can be read, in the accessibility information that
+stores show: its structure, its contents list, text that reflows, and
+descriptions of its pictures.
 
 ## See also
 

@@ -49,7 +49,7 @@ Poiesis conserve l’organisation du dossier. Il conserve aussi :
 Un fichier `.poiesis` créé avec **Enregistrer une copie** ou **Copie du
 projet** s’ouvre avec ses images. Vous pouvez l’importer de trois façons :
 
-- Dans la palette de commandes, choisissez **Importer un document Poiesis
+- Dans la palette de commandes, choisissez **Importer un document φ
   (`.poiesis`)…**.
 - Choisissez **Fichier → Importer un document φ…**.
 - Faites glisser le fichier sur la fenêtre de Poiesis.

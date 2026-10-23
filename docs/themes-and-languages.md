@@ -45,9 +45,9 @@ theme** to **Light**.
 
 In the dark theme, the sidebar is always dark.
 
-If you use a colour theme other than Phi, the sidebar uses that theme's
-colours. A dark sidebar uses the theme's dark colours, and a light sidebar
-uses its light colours.
+The sidebar takes its colours from your colour theme, whichever one you
+use: Phi, a built-in theme or one you installed. A dark sidebar uses the
+theme's dark colours, and a light sidebar uses its light colours.
 
 ## Change the colours
 
@@ -58,8 +58,15 @@ which side you see.
 To use a theme, click it in the **Colour theme** list. Each theme in the list
 has a small preview of the Poiesis window in its colours.
 
-Poiesis comes with one theme, **Phi**, marked **Official**. It has neutral greys and
-a pure white or pure black page. It is the default, and you can't remove it.
+Poiesis's own theme is **Phi**, marked **Official**. It has neutral greys and a
+pure white or pure black page. It is the default, and you can't remove it.
+
+Five more themes come built in, ready on first launch and without a
+connection: **Paper**, **Night**, **Sepia**, **Warm** and **High contrast**.
+Each has a light and a dark side, so **System**, **Light** and **Dark** keep
+working. Every one is checked for readable text, and **High contrast** to
+the stricter AAA level. A theme you download can't take one of their names.
+Like Phi, they are marked **Official** and can't be removed.
 
 <img src="/img/app/themes-nord-light.png" alt="The Home window in the Nord theme: Nord's pale blue-grey page beside its dark slate sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/themes-nord-dark.png" alt="The Home window in the Nord theme, dark: Nord's polar-night page and sidebar" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -106,6 +113,10 @@ install a theme. If a theme leaves a colour out, Poiesis uses the colour from Ph
 ## Change Poiesis's language
 
 Set **Interface language**. This is the language of Poiesis's menus and labels.
+
+Numbers and times follow this language too, whatever language your
+computer is set to. A word count reads *12,480* in English, *12.480* in
+Spanish and *12 480* in French, and a time reads *3:05 PM* or *15:05*.
 
 <img src="/img/app/settings-language-light.png" alt="Settings open on Language: the interface language, spelling and the personal dictionary" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/settings-language-dark.png" alt="Settings open on Language: the interface language, spelling and the personal dictionary" width="1600" height="1000" loading="lazy" decoding="async" />
