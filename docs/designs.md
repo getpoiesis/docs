@@ -120,6 +120,18 @@ The print PDF, the ebook and the Word file all carry your pictures. Ebooks and
 Word files reflow, so they leave out a picture behind the page and turn a band
 into a full-width picture.
 
+## The book's language
+
+A book comes out in its own language, whatever language φ is in: the chapter
+headings (*Capítulo uno*), the contents, the title and copyright pages and the
+running heads, with that language's hyphenation and quotes. The PDF and EPUB
+also tell readers and stores which language the book is in.
+
+Choose it under **Language** at the top of **Design the book…**, or in the
+project's [Book details](./book-details.md). **Automatic**, the default, uses
+the language the book is written in (English, Spanish or French), and φ's own
+language when it can't tell. Choosing a language yourself always wins.
+
 ## Options
 
 **Options**, below **Design the book…**, holds the rest:
