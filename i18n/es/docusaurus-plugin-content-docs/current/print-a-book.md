@@ -102,6 +102,9 @@ Abre **Cubierta**, debajo de **Opciones**, para preparar el resto:
 | **Contracubierta y lomo** | Su color: **Del arte de la cubierta**, o **Un color que elijo**, con un selector de color. |
 | **Código de barras ISBN** | **Dejar libre (KDP)**: KDP añade su propio código de barras, así que la zona queda vacía. **Con el ISBN**: Poiesis dibuja el código de barras a partir del **ISBN (impreso)** de [Datos del libro](./book-details.md). IngramSpark y la mayoría de las imprentas lo piden así. |
 | **Ancho del lomo (in)** | Déjalo vacío y Poiesis calcula el lomo a partir del número de páginas y del papel. Si la calculadora de cubiertas de tu imprenta da otra cifra, escribe aquí la suya. |
+| **Imagen de la contracubierta** | Tu propia imagen para la contracubierta, del lomo al borde, con el sangrado. Para un libro de 6 × 9 in, unos 1840 × 2775 píxeles. |
+| **Texto en la contracubierta** | Con una imagen: **Descripción y biografía** las pone sobre tu imagen, en un color que se lee sobre ella, así la imagen hace de fondo. **Ninguno** las quita cuando tu imagen ya lleva su propio texto. |
+| **Imagen del lomo** | Tu propia imagen para el lomo. Ocupa el lugar del título y el autor que pone Poiesis. |
 
 **Revisar la cubierta** muestra la cubierta entera, plana: la contracubierta,
 el lomo y la cubierta delantera. Las líneas rojas muestran lo que recorta la

@@ -105,6 +105,9 @@ Ouvrez **Couverture**, sous **Options**, pour régler le reste :
 | **Quatrième et dos** | Leur couleur : **D’après l’illustration**, ou **Une couleur choisie**, avec un sélecteur de couleur. |
 | **Code-barres ISBN** | **Laisser libre (KDP)** : KDP ajoute son propre code-barres, la zone reste donc vide. **D’après l’ISBN** : Poiesis dessine le code-barres à partir de l’**ISBN (imprimé)** des [Détails du livre](./book-details.md). IngramSpark et la plupart des imprimeurs le demandent. |
 | **Largeur du dos (in)** | Laissez ce champ vide, et Poiesis calcule le dos d’après le nombre de pages et le papier. Si le calculateur de couverture de votre imprimeur donne un autre chiffre, tapez le sien ici. |
+| **Image de la quatrième** | Votre propre image pour la quatrième, du dos au bord, avec le fond perdu. Pour un livre de 6 × 9 po, environ 1840 × 2775 pixels. |
+| **Texte sur la quatrième** | Avec une image : **Description et biographie** les place sur votre image, dans une couleur lisible dessus, et l’image sert de fond. **Aucun** les retire quand votre image a déjà son propre texte. |
+| **Image du dos** | Votre propre image pour le dos. Elle remplace le titre et l’auteur que Poiesis y place. |
 
 **Vérifier la couverture** montre toute la couverture à plat : la quatrième,
 le dos et le premier plat. Des lignes rouges indiquent ce que l’imprimeur

@@ -96,6 +96,9 @@ Open **Cover**, below **Options**, to set up the rest:
 | **Back and spine** | Their colour: **From the cover art**, or **A colour I choose**, with a colour picker. |
 | **ISBN barcode** | **Leave clear (KDP)**: KDP adds its own barcode, so the area stays empty. **Draw from the ISBN**: Poiesis draws the barcode from **ISBN (print)** in [Book details](./book-details.md). IngramSpark and most printers want this. |
 | **Spine width (in)** | Leave it empty, and Poiesis works out the spine from the page count and the paper. If your printer's cover calculator gives a different figure, type theirs here. |
+| **Back picture** | Your own art for the back, from the spine fold to the edge, with the bleed. For a 6 × 9 in book, about 1,840 × 2,775 pixels. |
+| **Words on the back** | With a back picture: **Description and bio** sets them over your picture, in a colour that reads on it, so the picture works as a background. **None** leaves them off when your art already has its own words. |
+| **Spine picture** | Your own art for the spine. It takes the place of the title and author Poiesis sets there. |
 
 **Check the cover** shows the whole cover flat: the back, the spine and the
 front. Red lines show what the printer trims away and where the spine
