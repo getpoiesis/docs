@@ -127,6 +127,19 @@ images. Les livres numériques et les fichiers Word se recomposent : ils
 laissent de côté l’image derrière la page et transforment un bandeau en image
 pleine largeur.
 
+## La langue du livre {#the-books-language}
+
+Un livre sort dans sa propre langue, quelle que soit celle de φ : les titres de
+chapitre (*Chapitre un*), le sommaire, les pages de titre et de copyright et
+les titres courants, avec la césure et les guillemets de cette langue. Le PDF
+et l’EPUB indiquent aussi aux lecteurs et aux librairies la langue du livre.
+
+Choisissez-la sous **Langue**, en haut de **Mettre en page…**, ou dans
+les [Détails du livre](./book-details.md) du projet. **Automatique**, le choix
+par défaut, prend la langue dans laquelle le livre est écrit (français,
+anglais ou espagnol), et celle de φ quand il ne peut pas le dire. La langue que
+vous choisissez l’emporte toujours.
+
 ## Options {#options}
 
 **Options**, sous **Mettre en page…**, regroupe le reste :

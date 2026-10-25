@@ -125,6 +125,19 @@ imágenes. Los libros electrónicos y los archivos de Word se reajustan, así qu
 omiten la imagen detrás de la página y convierten una franja en una imagen a
 todo lo ancho.
 
+## El idioma del libro {#the-books-language}
+
+Un libro sale en su propio idioma, sea cual sea el idioma de φ: los títulos de
+capítulo (*Capítulo uno*), el índice, las páginas de título y de créditos y los
+encabezados, con la división de palabras y las comillas de ese idioma. El PDF y
+el EPUB también indican a lectores y tiendas en qué idioma está el libro.
+
+Elígelo en **Idioma**, arriba en **Diseñar el libro…**, o en los
+[Detalles del libro](./book-details.md) del proyecto. **Automático**, la opción
+por defecto, usa el idioma en que está escrito el libro (español, inglés o
+francés), y el de φ cuando no puede saberlo. El idioma que elijas tú siempre
+manda.
+
 ## Opciones {#options}
 
 **Opciones**, debajo de **Diseñar el libro…**, reúne el resto:
