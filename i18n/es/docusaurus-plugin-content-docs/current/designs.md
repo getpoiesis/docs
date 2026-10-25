@@ -15,8 +15,8 @@ editoriales con los suyos. Determina:
 - el adorno que separa las escenas.
 
 Eliges un diseño y lo usan tanto el libro impreso como el libro electrónico.
-Si quieres cambiar algún detalle, usa **Ajustar el diseño**: conservas el
-diseño y cambias solo eso.
+Si quieres cambiar algún detalle, usa **Diseñar el libro…**: conservas el
+diseño y cambias solo eso, mientras miras las páginas.
 
 ## Elige un diseño {#choose-a-design}
 
@@ -36,28 +36,106 @@ diseño y cambias solo eso.
 Debajo de los diseños aparecen también tus propios estilos. Consulta
 [Estilos propios](./custom-styles.md).
 
-## Ajusta el diseño {#adjust-the-design}
+## Diseña el libro {#design-the-book}
 
-1. En la página Exportar, busca **Ajustar el diseño**, debajo del diseño.
-2. Haz clic para desplegar las opciones.
-3. Cambia las que quieras.
+En las pestañas **Libro impreso** y **Libro electrónico**, debajo del diseño,
+está la página inicial del libro. Junto a ella está **Diseñar el libro…**, con
+cuántos cambios e imágenes tuyas tiene el libro, o *Como lo deja Clásico* (con
+el nombre de tu diseño) cuando no tiene ninguno.
 
-Todas las opciones empiezan en **Como el diseño**, es decir, decide el diseño.
-Cuando la fila está cerrada, indica cuántas opciones has cambiado.
+<img src="/img/app/design-book-light.png" alt="Diseñar el libro: un inicio de capítulo en grande, tal como se imprimirá, y a su lado las opciones del diseño en forma de imágenes: diseños, tipografías, tamaño y posición del título, colores" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/design-book-dark.png" alt="Diseñar el libro: un inicio de capítulo en grande, tal como se imprimirá, y a su lado las opciones del diseño en forma de imágenes: diseños, tipografías, tamaño y posición del título, colores" width="1600" height="1000" loading="lazy" decoding="async" />
+
+1. Haz clic en **Diseñar el libro…**. Las páginas del libro se abren en
+   grande, tal como se imprimirán.
+2. Encima de las páginas, elige las **Páginas que mostrar**: **Portada**,
+   **Inicio de capítulo**, **Páginas de texto** o, en un libro con partes,
+   **Página de parte**.
+3. Pasa el puntero por cualquier cosa de una página: el título de un
+   capítulo, su número, las primeras líneas, un cambio de escena, la
+   cabecera, el número de página o los márgenes. φ Poiesis te dice qué es.
+4. Haz clic. Su ajuste se abre junto a las páginas.
+5. Haz el cambio. Las páginas lo muestran un momento después.
+6. Pulsa **Listo**.
+
+**Deshacer** y **Rehacer** (`⌘Z` y `⇧⌘Z`) quitan un cambio o lo vuelven a
+poner. **Volver a Clásico** (con el nombre de tu diseño) quita todos los
+cambios. También puedes cambiar el propio diseño arriba de los ajustes: cada
+diseño se muestra como una pequeña página de tu propio libro.
+
+Los ajustes muestran cada opción tal como se ve: las tipografías, como letras
+compuestas con ellas; las posiciones, las primeras líneas, los márgenes y los
+números de página, como pequeños dibujos; los colores, como muestras, y los
+tamaños, con un control deslizante. Una opción que no has cambiado está en
+**Como el diseño**.
+
+| Grupo | Opción | Qué cambia |
+| --- | --- | --- |
+| **Títulos** | **Tipo de los títulos** | La tipografía de los títulos, o **Igual que el texto**. |
+| | **Tamaño de los títulos** | Lo grandes que son los títulos, del 60 % al 180 %. |
+| | **Los títulos van** | **Centrados** o **A la izquierda**. |
+| | **Color de los títulos** | Una muestra, o **Elegir un color**. En tinta negra, un color se imprime como un gris de la misma claridad. **Imprimir en color** cambia la tinta. |
+| | **Números de capítulo** | **Capítulo uno**, **Capítulo 1**, **Uno**, **1**, **I** o **Ninguna**. |
+| **Inicios de capítulo** | **Las primeras líneas** | **Capitular**, **Versalitas** o **Sencillo**. |
+| | **Posición del título** | **Arriba**, **A un tercio** o **A media página**. |
+| | **Los capítulos empiezan en** | **Una página impar**, como en la mayoría de los libros encuadernados, o **La página siguiente**, sin páginas en blanco (libro impreso). |
+| **Texto** | **Tipografía** | La tipografía del texto. |
+| | **Tamaño del texto** | De 9 a 13 pt. |
+| | **Interlineado** | **Ajustado**, **Normal** o **Amplio**. |
+| | **Párrafos** | **Con sangría** o **Separados**. |
+| | **Alineación** | **Justificado** o **En bandera**. |
+| **Cambios de escena** | **Entre escenas** | El adorno que marca el cambio de escena: ⁂, \* \* \*, ❧ o **Una línea en blanco**. **La tuya** pone ahí una pequeña imagen tuya. |
+| **Páginas** | **Márgenes** | **Amplios**, **Normales** o **Compactos (menos páginas)**. |
+| | **Cabeceras** | Sí o no: el autor y el título en lo alto de las páginas (libro impreso). |
+| | **Números de página** | Sí o no (libro impreso). |
+
+Los cambios son de cada proyecto. Para deshacer uno, vuelve a ponerlo en
+**Como el diseño**.
+
+## Tus imágenes {#your-pictures}
+
+**Tus imágenes**, en los ajustes de **Diseñar el libro…**, pone tus propias
+ilustraciones en el libro.
+
+| Lugar | Qué es |
+| --- | --- |
+| **En cada capítulo** | Un adorno **Sobre el título** o **Bajo el título**, una **Franja arriba** de la página inicial o una imagen **Detrás de la página**. **Otra imagen para algunos capítulos** te deja elegir otra para cualquier capítulo. |
+| **Al final de un capítulo** | Una pequeña marca de cierre tras la última línea. |
+| **En la portada** | Una imagen sobre el título, una franja o una imagen detrás de la página. |
+| **En las páginas de parte** | Una imagen sobre o bajo el título de la parte, o detrás de la página. |
+| **Junto al número de página** | Una marca diminuta en cada página, con el número de página o arriba. |
+
+Los cambios de escena también pueden llevar una imagen tuya: elige **La tuya**
+en **Cambios de escena**.
+
+1. Suelta una imagen en su lugar, o haz clic en él y elige una. φ Poiesis
+   acepta PNG, JPEG, SVG y WebP. Guarda una copia en la carpeta `assets/` de
+   la bóveda.
+2. Ajusta su tamaño con el control deslizante, como parte del ancho de la
+   línea. **Volver al tamaño estándar** recupera el tamaño habitual.
+3. Para cambiar una imagen, elige **Cambiar**. Para quitarla, elige
+   **Quitar**.
+
+Los lugares marcados como **Creativo**, una franja y una imagen detrás de la
+página, van bien en libros ilustrados, fantasía y ediciones de regalo. La
+mayoría de las novelas usan ilustraciones pequeñas en los capítulos.
+
+El PDF de imprenta, el libro electrónico y el archivo de Word llevan tus
+imágenes. Los libros electrónicos y los archivos de Word se reajustan, así que
+omiten la imagen detrás de la página y convierten una franja en una imagen a
+todo lo ancho.
+
+## Opciones {#options}
+
+**Opciones**, debajo de **Diseñar el libro…**, reúne el resto:
 
 | Opción | Qué cambia |
 | --- | --- |
-| **Tipografía** | La tipografía del texto: EB Garamond, Lora, Source Serif, Playfair Display, Inter o Source Sans. |
-| **Tamaño del texto** | De 9,5 a 13 pt (libro impreso). |
-| **Inicio de capítulo** | **Capitular de 2 líneas**, **Primeras palabras en versalitas** o **Sin adorno**. |
-| **Entre escenas** | El adorno que marca el salto de escena: ⁂, \* \* \*, ❧ o **Una línea en blanco**. |
-| **Los capítulos empiezan en** | **Una página impar**, como en la mayoría de los libros encuadernados, o **La página siguiente**, sin páginas en blanco (libro impreso). |
-| **Cabeceras** | El autor y el título en lo alto de las páginas, o nada (libro impreso). |
-| **Índice** | Cuántos niveles muestra el índice, o bien sin índice. |
-| **Dedicatoria y epígrafe** | Si estas páginas muestran su título y aparecen en el índice. También, en qué parte de la página va el texto: cerca de la parte superior, a un tercio de la altura o centrado. |
+| **Índice** | Cuántos niveles muestra el índice, o bien sin índice (**Ninguno**). |
+| **Dedicatoria y epígrafe** | Si estas páginas muestran su título y aparecen en el índice. |
+| **Posición en la página** | Dónde van la dedicatoria y el epígrafe: **Arriba**, **A un tercio** o **Centrado**. |
 
-Los ajustes son de cada proyecto. Para deshacer uno, vuelve a ponerlo en
-**Como el diseño**.
+Aquí está también **Editar estilos…**. Consulta [Estilos propios](./custom-styles.md).
 
 ## Todos los formatos lo siguen {#every-format-follows-it}
 
@@ -76,7 +154,7 @@ porque un manuscrito tiene que ser sobrio.
 ## Ver también {#see-also}
 
 - [Estilos propios](./custom-styles.md): para todo lo que no se puede cambiar con
-  un diseño y **Ajustar el diseño**.
+  un diseño y **Diseñar el libro…**.
 - [Vista previa](./preview.md)
 - [Imprimir un libro](./print-a-book.md) y
   [Crear un libro electrónico](./make-an-ebook.md)

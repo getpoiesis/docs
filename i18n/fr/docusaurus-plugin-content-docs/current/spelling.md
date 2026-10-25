@@ -50,6 +50,10 @@ pour aucune des langues que vous vérifiez, il vous le signale et propose
 2. Cliquez sur une suggestion pour remplacer le mot. Si le mot est correct,
    choisissez plutôt **Ajouter au dictionnaire** : Poiesis ne le soulignera plus.
 
+Un mot bien orthographié peut proposer des **Synonymes** dans ce même menu,
+quand un dictionnaire installé en contient. Voir [Remplacer un mot par un
+synonyme](./dictionary.md#replace-a-word-with-a-synonym).
+
 ## Choisir comment Poiesis vérifie {#choose-how-Poiesis-checks}
 
 Ouvrez **Réglages → Langue → Orthographe**. Vous y trouvez trois réglages :

@@ -26,15 +26,15 @@ tienes abierta. Una [bóveda](./vaults.md) es la carpeta que contiene tu trabajo
 
 | Sección | Qué contiene | A qué se aplica |
 | --- | --- | --- |
-| **Apariencia** | Claro u oscuro, el tamaño de la interfaz, el tema de color, el color de la barra lateral | Toda la aplicación |
+| **Apariencia** | Claro u oscuro, el tamaño de la interfaz, el tema de color, el color de la barra lateral, los momentos | Toda la aplicación |
 | **Editor** | La zona donde escribes: fuente, tamaño, enfoque, fechas, racha, código, versiones | Toda la aplicación |
 | **Ajustes de escritura** | Las señales (lo que Poiesis te muestra sobre tu escritura) y los lugares que tiene cada modo | La bóveda abierta |
 | **Idioma** | El idioma de la aplicación, la ortografía, tu diccionario | Toda la aplicación, más un apartado **Esta bóveda** |
 | **Versiones** | Cómo se guarda y se respalda el historial | La bóveda abierta |
 | **Bóveda** | Qué modos tiene la bóveda, y añadir o quitar bóvedas | La bóveda abierta |
 | **Plantillas** | Tus plantillas y sus variables | Esta bóveda y todas las bóvedas |
-| **Atajos** | Los principales atajos de teclado | — |
-| **Datos** | El estado de tus archivos, las copias de seguridad de las migraciones, un restablecimiento | Toda la aplicación |
+| **Atajos** | La captura rápida, tus propios atajos y los principales atajos de teclado | Toda la aplicación |
+| **Datos** | El estado de tus archivos, una copia de la bóveda, las copias de seguridad de las migraciones, un restablecimiento | Toda la aplicación |
 
 ## Apariencia {#appearance}
 
@@ -45,9 +45,16 @@ información sobre los temas de color.
 | --- | --- |
 | **Apariencia** | **Sistema**, **Claro** u **Oscuro**. **Sistema** sigue a tu ordenador: cuando este pasa al modo oscuro, Poiesis también. |
 | **Tamaño de la interfaz** | **100%**, **115%**, **130%** o **150%**. Lo agranda todo, incluidos los iconos. |
-| **Tema de color** | Los temas que tienes, cada uno con una pequeña vista previa. Con **Instalar tema…** y **Explorar temas oficiales…** puedes añadir más. **Abrir carpeta de temas** muestra dónde se guardan. |
+| **Tema de color** | El tema propio de φ y los cinco que vienen con Poiesis (**Papel**, **Noche**, **Sepia**, **Cálido** y **Alto contraste**), además de los que hayas instalado, cada uno con una pequeña vista previa. Con **Instalar tema…** y **Explorar temas oficiales…** puedes añadir más. **Abrir carpeta de temas** muestra dónde se guardan. |
 | **Barra lateral en tema claro** | **Oscuro** o **Claro**. El valor predeterminado es **Oscuro**, para que la página sea lo más luminoso de la pantalla. En el tema oscuro, la barra lateral siempre es oscura. |
 | **El santuario atenúa el resto** | El [Santuario](./focus-and-writing-modes.md) oculta todo lo que hay en Poiesis salvo la página. Con este ajuste activado, el Santuario atenúa además todo menos la oración que estás escribiendo. Si **Escritura enfocada** está en **Párrafo**, se mantiene nítido el párrafo entero. Desactiva el ajuste para que no se atenúe nada. |
+
+En **Momentos** (consulta [Recuerdos y celebraciones](./memories-and-celebrations.md)):
+
+| Ajuste | Qué hace |
+| --- | --- |
+| **Celebraciones** | Un poco de confeti cuando alcanzas un hito: una racha, la meta de palabras de un libro, un total de palabras de toda la vida. Nunca mientras escribes. |
+| **Un recuerdo al abrir φ** | Una vez al día, una tarjeta pequeña en la esquina te ofrece lo que escribiste un día como hoy en un año anterior. |
 
 ## Editor {#editor}
 
@@ -82,7 +89,7 @@ trabajo nunca se oculta ni se borra. En [Puesta a punto](./setup.md) se explica 
 | **La semana empieza en** | Cualquier día de la semana. Define la primera columna del calendario y del mapa de calor, y la semana en la que se cuenta tu ritmo. |
 | **Ritmo semanal** | **Ninguno**, o cuántos días por semana quieres escribir. Un día sin escribir nunca lo pone a cero. |
 | **Modos** | Abre **Escribir**, **Notas** o **Diario** para configurar ese modo. Puedes elegir los lugares que tiene (Personajes, Autores, Investigación, Tableros, Grafo, Calendario, páginas matinales). Puedes cambiar las señales (los ajustes de arriba) solo para ese modo. Puedes activar o desactivar las **Listas de tareas**. En cada modo se lee **Sigue a la bóveda** o **Difiere**. **Volver a seguir a la bóveda** elimina la diferencia. |
-| **Ajustes guardados** | **Guardar como…** guarda esta configuración con un nombre. **Usar en esta bóveda** o **Usar en otra bóveda…** aplica a una bóveda una configuración guardada. También puedes cambiarle el nombre o eliminarla. |
+| **Ajustes guardados** | Aparece cuando tienes más de una bóveda o hay una configuración guardada. **Guardar como…** guarda esta configuración con un nombre. **Usar en esta bóveda** o **Usar en otra bóveda…** aplica a una bóveda una configuración guardada. También puedes cambiarle el nombre o eliminarla. |
 
 ## Idioma {#language}
 
@@ -154,9 +161,17 @@ Consulta [Plantillas](./templates.md).
 
 ## Atajos {#shortcuts}
 
-Los principales atajos de teclado, en cuatro grupos: **Moverse**,
-**Documentos**, **Escritura** y **Formato**. Es la misma lista que muestra
-`⌘/`. Para encontrar un atajo, escribe en **Buscar comandos…**.
+| Ajuste | Qué hace |
+| --- | --- |
+| **Captura rápida** | El atajo que abre la ventana de captura rápida desde cualquier sitio, aunque Poiesis esté en segundo plano (al principio, `⌥⇧⌘N`). Haz clic en la tecla y pulsa la que quieras, o elige **Desactivado**. Si otra app ya usa ese atajo, Poiesis te lo dice. Consulta [Notas e ideas al vuelo](./notes.md). |
+| **Tus atajos** | Asigna comandos de la app (buscar, la paleta de comandos, nuevo y cerrar, atrás y adelante, el modo lectura, el Santuario, el desplazamiento de máquina de escribir, los paneles, Imprimir y más) a las teclas que elijas. Haz clic en la tecla de un comando y pulsa la nueva. `Esc` cancela, y `Supr` deja el comando sin tecla. Si otro comando tenía esa tecla, pasa a este y Poiesis te dice qué comando la ha perdido. El botón del final de cada fila devuelve a ese comando la tecla propia de φ; **Volver a los atajos de φ** las devuelve todas. |
+
+Debajo están los principales atajos de teclado, en cinco grupos: **Moverse**,
+**Ir a**, **Documentos**, **Escritura** y **Formato**. Es la misma lista que
+muestra `⌘/`. Para encontrar un atajo, escribe en **Buscar comandos…**.
+
+Los menús, `⌘/` y esta lista muestran tus propios atajos. Las teclas de
+formato, como `⌘B` y `⌘I`, no se pueden cambiar.
 
 En [Atajos de teclado](./keyboard-shortcuts.md) están todos los atajos.
 
@@ -164,6 +179,7 @@ En [Atajos de teclado](./keyboard-shortcuts.md) están todos los atajos.
 
 | Ajuste | Qué hace |
 | --- | --- |
+| **Copia de la bóveda** | **Hacer copia de la bóveda…** guarda un ZIP con fecha de la bóveda abierta: todos los documentos, carpetas, registros, adjuntos y los ajustes de la bóveda. El historial de versiones y la papelera se quedan fuera. Consulta [Versiones y copias de seguridad](./versions-and-backup.md). |
 | **Estado de la bóveda** | Indica si tus documentos usan el formato de archivo actual. Si algunos usan un formato más antiguo, **Migrar todas las notas** los actualiza. Antes, Poiesis guarda una copia de seguridad de cada uno. |
 | **Copias de seguridad** | Aparece después de migrar documentos. Indica cuántas copias hay y cuánto ocupan. **Abrir carpeta de copias** las muestra; **Borrar copias antiguas** elimina las antiguas. |
 | **Restablecer todos los ajustes…** | Devuelve todos los ajustes de la aplicación (tema, editor, disposición, grafo, fechas) a su valor predeterminado. Poiesis te pregunta antes. Tus documentos, tus bóvedas y tus registros de escritura se conservan. |
@@ -175,3 +191,4 @@ En [Atajos de teclado](./keyboard-shortcuts.md) están todos los atajos.
 - [Temas e idiomas](./themes-and-languages.md)
 - [Atajos de teclado](./keyboard-shortcuts.md)
 - [Versiones y copias de seguridad](./versions-and-backup.md)
+- [Recuerdos y celebraciones](./memories-and-celebrations.md)

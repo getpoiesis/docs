@@ -53,14 +53,12 @@ de poèmes, voyez aussi [Poésie et vers](./poetry.md).
 ## Se repérer dans un projet {#find-your-way-around-a-project}
 
 Cliquez sur un projet dans la barre latérale pour l’ouvrir. Les pages
-suivantes apparaissent en dessous :
+suivantes apparaissent en dessous, dans la barre latérale :
 
 | Page | Ce qu’on y trouve |
 | --- | --- |
 | *Le nom du projet* | La page du projet : couverture, titre, auteur, description, progression, réglages et [Détails du livre](./book-details.md). |
 | **Sommaire** | Toute l’œuvre sur une seule page, pour l’organiser. |
-| **Recherche** | Les pages de recherche liées au projet ([Recherche](./research.md)). |
-| **Personnages** | Les personnages du projet, et les personnages partagés ([Personnages et auteurs](./characters-and-authors.md)). |
 | **Tableau** | Les chapitres sous forme de cartes classées par statut, et les tableaux propres au projet, dont la liste figure à côté ([Tableaux](./boards.md)). |
 | **Lire** | Le manuscrit dans l’ordre, en lecture seule : en **Prose**, ou en **Livre** avec son sommaire. |
 | **Exporter** | Le livre imprimé, le livre numérique, le manuscrit destiné à un agent ([Comment fonctionne l’export](./exporting.md)). |
@@ -69,10 +67,29 @@ Tant qu’un projet est ouvert, la liste à côté de la page affiche son plan. 
 y voit chaque chapitre sous sa partie, avec son numéro et son synopsis. Tout
 en haut figurent le nombre de mots écrits et l’objectif de mots.
 
-Faites un clic droit sur le projet dans la barre latérale pour retrouver ces
-mêmes pages dans un menu. Ce menu contient aussi **Icône…**, **Couleur**,
-**Supprimer le projet…** et, si vous avez plusieurs coffres, **Déplacer vers
-un coffre…**.
+### Les onglets du projet {#the-projects-tabs}
+
+Sous le nom du projet, la liste comporte cinq onglets. Chacun montre une
+partie du projet, ses propres entrées et les entrées partagées, en un clic :
+
+| Onglet | Touche | Ce qu’il montre |
+| --- | --- | --- |
+| **Sommaire** | `⌃1` | Le plan. |
+| **Personnages** | `⌃2` | Les personnages du projet, et les personnages partagés ([Personnages et auteurs](./characters-and-authors.md)). |
+| **Monde** | `⌃3` | Ses lieux, son univers et sa chronologie ([Le monde](./world.md)). |
+| **Recherche** | `⌃4` | Les pages de recherche liées au projet ([Recherche](./research.md)). |
+| **Tableau** | `⌃5` | Ses tableaux ([Tableaux](./boards.md)). |
+
+Sous Windows et Linux, les touches sont **Alt+1** à **Alt+5**. L’onglet
+actif affiche son nom. Les autres affichent leur icône ; pointez-en un pour
+voir son nom. La page Monde d’un projet a les mêmes onglets.
+
+Faites un clic droit sur le projet dans la barre latérale pour retrouver ses
+pages dans un menu : **Sommaire**, **Aperçu**, **Monde**, **Lire**, **Ouvrir
+le tableau du projet** et **Exporter le manuscrit…**. Ce menu contient aussi
+**Ouvrir**, **Icône…**, **Couleur**, **Rassembler notes et surlignages**,
+**Ranger**, **Supprimer le projet…** et, si vous avez plusieurs coffres,
+**Déplacer vers un coffre…**.
 
 ## Ajouter des chapitres et des parties {#add-chapters-and-parts}
 
@@ -105,8 +122,8 @@ son titre, son synopsis, son statut et son nombre de mots. Un anneau montre où
 en est le chapitre par rapport à son objectif de mots. Si le chapitre n’a pas
 d’objectif, l’anneau indique son statut.
 
-<img src="/img/app/project-contents-light.png" alt="Le sommaire d’un projet : les pages liminaires, puis les parties et les chapitres avec leur nombre de mots et leur progression" width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/project-contents-dark.png" alt="Le sommaire d’un projet : les pages liminaires, puis les parties et les chapitres avec leur nombre de mots et leur progression" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/project-contents-light.png" alt="Le sommaire d’un projet : les pages liminaires, puis les parties et les chapitres avec leur nombre de mots et leur progression" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/project-contents-dark.png" alt="Le sommaire d’un projet : les pages liminaires, puis les parties et les chapitres avec leur nombre de mots et leur progression" width="1600" height="1000" loading="lazy" decoding="async" />
 
 - Faites glisser une ligne pour la déplacer, dans une partie ou vers une autre
   zone.

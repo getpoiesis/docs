@@ -33,18 +33,26 @@ Estos botones están arriba a la derecha de la página:
 
 | Botón | Para qué sirve |
 | --- | --- |
-| **Vista dividida** (`⌘\`) | Abre un segundo panel al lado de la página. Consulta [Documentos lado a lado](./side-by-side.md). |
+| **Buscar…** | Encuentra un documento en cualquier parte de la bóveda (`⌘K`). En reposo es una lupa, y se abre en el campo de búsqueda cuando la señalas. |
 | **⋮** | Abre el menú del documento, que se explica más abajo. |
-| **Detalles…** (ⓘ) | Muestra el estado del documento, su sinopsis, su meta de palabras, sus etiquetas, su color y si está destacado, además del lugar donde se guarda. |
-| **Información** (`⌘⇧I`) | Abre el panel de Información, que tiene cinco pestañas: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. |
+| **Información** (`⌘⇧I`) | Abre el panel de Información. Sus pestañas son iconos, y la que tienes abierta muestra su nombre: **Esquema**, **Enlaces**, **Notas**, **Tareas** e **Historial**. Un documento de Escribir tiene además **Mundo**. Señala un icono para ver su nombre. |
 | **Santuario** (`⌘.`) | Oculta todo menos la página. Consulta [Concentración y Santuario](./focus-and-writing-modes.md). |
+
+**Vista dividida** (`⌘\`) y **Detalles…** están en el menú ⋮. Mientras estás
+en uno de ellos, su botón aparece también en la barra, como camino de vuelta.
+
+Mientras escribes, estos botones se atenúan. No desaparecen, y la cabecera de
+la lista y el recuento de palabras se quedan como están.
 
 El recuento de palabras está en la esquina inferior derecha de la página. Si
 el documento tiene una meta de palabras, el recuento aparece junto a la meta.
+Haz clic en el recuento para abrir un pequeño menú:
 
-- Haz clic una vez en el recuento para abrir **Esquema** en el panel de
-  Información. Ahí verás el número de palabras y el tiempo de lectura.
-- Haz clic otra vez para ver todas las estadísticas del documento.
+- **Información** abre el panel de Información en su pestaña **Esquema**.
+- **Estadísticas…** muestra todas las estadísticas del documento.
+- **Empezar un sprint de escritura…** empieza un [sprint de
+  escritura](./focus-and-writing-modes.md#write-against-the-clock). Está ahí
+  mientras no haya ningún sprint en marcha.
 
 Las notas no muestran recuento de palabras.
 
@@ -117,9 +125,9 @@ El menú cambia según el tipo de documento en el que estés:
 
 | Dónde | Qué ofrece el menú |
 | --- | --- |
-| **Un capítulo, poema o ensayo de un proyecto** | Todo, incluidos **Verso**, **Salto de escena**, **Epígrafe**, **Cita destacada**, **Capitular**, **Nota al pie**, **Cita bibliográfica**, **Bibliografía** e **Índice**. |
-| **Una nota, o una pieza fuera de un proyecto** | Todo menos esos bloques de manuscrito. |
-| **Una entrada del diario** | Encabezados, listas, citas, imágenes y fechas. No hay avisos, tablas ni código. |
+| **Un capítulo, poema o ensayo de un proyecto, o una pieza de Escribir** | Todo, incluidos **Salto de escena**, **Epígrafe**, **Cita destacada**, **Capitular**, **Nota al pie**, **Cita bibliográfica**, **Bibliografía** e **Índice**. |
+| **Una nota** | Todo menos esos bloques de manuscrito. **Verso**, los desplegables y las fórmulas siguen ahí. |
+| **Una entrada del diario** | Encabezados, listas, citas, versos, imágenes, fechas, desplegables y fórmulas. No hay avisos, tablas, código ni bloques de manuscrito. |
 | **Páginas matinales** | No hay menú. Las páginas matinales son solo texto. |
 
 Un [proyecto](./collections.md) es un libro u otra obra larga formada por
@@ -144,8 +152,6 @@ afectan al documento entero:
 - **Mover a las piezas de Escribir** o **Mover a Notas**. Solo aparecen si
   el documento no está en un proyecto.
 - **Detalles…**, **Vista dividida** y **Abrir al lado…**.
-- **Esquema**, **Enlaces y retroenlaces**, **Notas** e **Historial de
-  versiones**. Cada una abre esa pestaña del panel de Información.
 - **Guardar versión…** y **Abrir el diccionario** (`⌘⇧D`).
 - **Modo lectura**, **Desplazamiento de máquina de escribir**, **Santuario**
   y **Revisar ortografía…**.
@@ -158,10 +164,12 @@ afectan al documento entero:
 En una página matinal, el menú tiene **Sellar el día** en lugar de
 **Destacar** y **Añadir al tablero…**.
 
-Hay un segundo menú. Haz clic derecho en el texto y verás
-las sugerencias de ortografía y las opciones de cortar, copiar y pegar,
-seguidas de **Esquema**, **Enlaces wiki**, **Anotaciones** e **Historial de
-versiones**.
+El esquema, los enlaces, las notas y las versiones del documento no están en
+este menú. Ábrelos desde las pestañas del panel de Información (`⌘⇧I`).
+
+Hay un segundo menú. Haz clic derecho en el texto y verás las sugerencias de
+ortografía, los [sinónimos](./dictionary.md#replace-a-word-with-a-synonym) y
+las opciones de cortar, copiar y pegar.
 
 ## Moverse entre documentos {#move-between-documents}
 

@@ -34,7 +34,7 @@ Hay otras tres maneras de empezar la entrada de hoy:
 
 | En la barra lateral | Qué muestra |
 | --- | --- |
-| **Inicio** | La entrada de hoy, esta semana, los últimos días, las páginas matinales de hoy y el mes. También muestra **Un día como hoy**: lo que escribiste en esta misma fecha otros años. |
+| **Inicio** | La entrada de hoy, esta semana, los últimos días, las páginas matinales de hoy y el mes. También muestra **Recuerdos**: lo que escribiste en esta misma fecha otros años. Consulta [Recuerdos y celebraciones](./memories-and-celebrations.md). |
 | **Hoy** | La entrada de hoy. |
 | **Todas las entradas** | Todos los días en que has escrito, del más reciente al más antiguo. Arriba, esta semana aparece como una fila de días. Abre un día para leerlo o quédate en la lista: todos los días se ven seguidos, como una sola página larga, y puedes escribir en cualquiera de ellos ahí mismo. El mes y el año aparecen sobre la semana y entre un mes y otro. Para ir a un día concreto, haz clic en el calendario junto al mes (**Ir a un día**) y elígelo: se abre su entrada o, si ese día no escribiste nada, la lista se mueve al día anterior más cercano. |
 | **Páginas matinales** | Todas las sesiones de páginas matinales, con sus páginas y sus palabras. Arriba de la lista eliges **Todas**, **En curso** o **Selladas** (las que ya has terminado). |
@@ -176,6 +176,8 @@ escritura** → **Racha**:
 | **Llama y número** | Una llama en cada día en que escribiste. En el calendario, los días de tu racha actual aparecen unidos. |
 | **Días a secas** | Las llamas, pero sin destacar la racha actual. |
 | **Apagada** | Ni llamas ni racha en el Inicio de Escribir. |
+
+Una bóveda nueva empieza en **Días a secas**.
 
 En ese mismo sitio está **Ritmo semanal**, una meta más llevadera: un número
 de días por semana. Poiesis lo calcula sobre los últimos siete días, así que por

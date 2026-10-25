@@ -22,7 +22,8 @@ look again as often as you like.
    or **Manuscript**.
 
 The preview uses the choices you made on the Export page: the design, the
-trim size (the size of the printed page), the paper and your adjustments.
+trim size (the size of the printed page), the paper and your changes in
+**Design the book…**.
 
 ## Looking through a printed book
 

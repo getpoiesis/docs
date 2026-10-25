@@ -33,7 +33,7 @@ There are three other ways to start today's entry:
 
 | In the sidebar | What it shows |
 | --- | --- |
-| **Home** | Today's entry, this week, the last few days, today's morning page and the month. It also shows **On this day**: what you wrote on this date in earlier years. |
+| **Home** | Today's entry, this week, the last few days, today's morning page and the month. It also shows **Memories**: what you wrote on this date in earlier years. See [Memories & celebrations](./memories-and-celebrations.md). |
 | **Today** | Today's entry. |
 | **All entries** | Every day you have written, newest first. This week is a row of days at the top. Open a day to read it, or stay on the list: it shows every day as one long page, and you can write in any day there. The month and year show above the week and between the months. To go to a particular day, click the calendar beside the month (**Go to a day**) and pick it: its entry opens, or, if you wrote nothing that day, the list moves to the nearest day before it. |
 | **Morning pages** | Every morning pages session, with its pages and words. Choose **All**, **In progress** or **Sealed** (the ones you have finished) at the top of the list. |
@@ -164,6 +164,8 @@ To change how the streak looks, go to **Settings** → **Setup** → **Streak**:
 | **Flame and count** | A flame on every day you wrote. On the calendar, the days of your current streak are joined together. |
 | **Plain days** | The flames, but the current streak is not highlighted. |
 | **Off** | No flames, and no streak on the Home of Write. |
+
+A new vault starts on **Plain days**.
 
 **Weekly pace** is in the same place. It is a softer goal: a number of days
 each week. Poiesis counts it over the last seven days, so one missed day never

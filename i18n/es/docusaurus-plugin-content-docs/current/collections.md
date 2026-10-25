@@ -51,15 +51,13 @@ consulta también [Poesía y verso](./poetry.md).
 
 ## Moverte por un proyecto {#find-your-way-around-a-project}
 
-Haz clic en un proyecto en la barra lateral para abrirlo. Debajo aparecen
-estas páginas:
+Haz clic en un proyecto en la barra lateral para abrirlo. Debajo, en la barra
+lateral, aparecen estas páginas:
 
 | Página | Qué contiene |
 | --- | --- |
 | *El nombre del proyecto* | La página del proyecto: cubierta, título, autor, descripción, progreso, ajustes y [Datos del libro](./book-details.md). |
 | **Índice** | Toda la obra en una sola página, para ordenarla. |
-| **Investigación** | Las páginas de investigación vinculadas al proyecto ([Investigación](./research.md)). |
-| **Personajes** | Los personajes del proyecto y los compartidos ([Personajes y autores](./characters-and-authors.md)). |
 | **Tablero** | Los capítulos en forma de tarjetas, ordenados por estado, y los tableros propios del proyecto, que aparecen al lado ([Tableros](./boards.md)). |
 | **Leer** | El manuscrito en orden y solo para leer: como **Prosa**, o como **Libro** con su índice. |
 | **Exportar** | El libro impreso, el libro electrónico, el manuscrito para un agente ([Cómo funciona la exportación](./exporting.md)). |
@@ -69,8 +67,29 @@ su esquema. En el esquema está cada capítulo dentro de su parte, con su
 número y su sinopsis. Arriba aparecen las palabras que llevas escritas y la
 meta de palabras.
 
-Haz clic derecho en el proyecto en la barra lateral para tener las mismas
-páginas en un menú. El menú incluye además **Icono…**, **Color**, **Eliminar
+### Las pestañas del proyecto {#the-projects-tabs}
+
+Bajo el nombre del proyecto, la lista tiene cinco pestañas. Cada una muestra
+esa parte del proyecto, con sus propias entradas y las compartidas, en un
+clic:
+
+| Pestaña | Tecla | Qué muestra |
+| --- | --- | --- |
+| **Índice** | `⌃1` | El esquema. |
+| **Personajes** | `⌃2` | Los personajes del proyecto y los compartidos ([Personajes y autores](./characters-and-authors.md)). |
+| **Mundo** | `⌃3` | Sus lugares, su trasfondo y su cronología ([El mundo](./world.md)). |
+| **Investigación** | `⌃4` | Las páginas de investigación vinculadas al proyecto ([Investigación](./research.md)). |
+| **Tablero** | `⌃5` | Sus tableros ([Tableros](./boards.md)). |
+
+En Windows y Linux, las teclas son **Alt+1** a **Alt+5**. La pestaña en la que
+estás muestra su nombre. Las demás muestran su icono; pasa el puntero por
+encima de una para ver su nombre. La página Mundo de un proyecto tiene las
+mismas pestañas.
+
+Haz clic derecho en el proyecto en la barra lateral para tener sus páginas en
+un menú: **Índice**, **Resumen**, **Mundo**, **Leer**, **Abrir el tablero del
+proyecto** y **Exportar manuscrito…**. El menú incluye además **Abrir**,
+**Icono…**, **Color**, **Reunir notas y resaltados**, **Guardar**, **Eliminar
 proyecto…** y, si tienes más de una bóveda, **Mover a otra bóveda…**.
 
 ## Añadir capítulos y partes {#add-chapters-and-parts}

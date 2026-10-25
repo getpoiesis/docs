@@ -43,6 +43,26 @@ retrouve ainsi *correr* à partir de *corriendo*.
 L’onglet **Dictionnaire** n’apparaît dans le panneau Infos que pendant que
 vous vous en servez, et seulement si un document est ouvert.
 
+## Remplacer un mot par un synonyme {#replace-a-word-with-a-synonym}
+
+Il y a deux façons de remplacer un mot de votre texte par un autre :
+
+- **Faites un clic droit sur le mot.** Quand un pack installé propose des
+  synonymes pour ce mot, le menu contient **Synonymes**, avec jusqu’à huit
+  mots. Choisissez-en un. Pour un mot mal orthographié, le menu affiche
+  plutôt ses corrections.
+- **Cherchez le mot** avec **Rechercher le mot** dans la barre d’outils.
+  Quand le pack propose des synonymes, l’onglet **Dictionnaire** les présente
+  sous **Remplacer « … » par**. Cliquez sur l’un d’eux.
+
+Le nouveau mot prend la place de l’ancien, avec la casse que vous aviez
+employée (*Calme* devient *Paisible*, et non *paisible*), et garde son gras
+ou son italique. Appuyez sur `⌘Z` pour remettre l’ancien mot. Les antonymes
+et les phrases d’exemple ne sont pas proposés comme remplacements.
+
+Cela fonctionne avec tout pack installé qui propose des synonymes, quelle que
+soit la langue.
+
 ## Installer un dictionnaire {#install-a-dictionary}
 
 Poiesis est livré sans dictionnaire. La première fois que vous ouvrez l’onglet, il

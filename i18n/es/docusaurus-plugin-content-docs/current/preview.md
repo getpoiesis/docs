@@ -23,7 +23,8 @@ tantas veces como quieras.
    electrónico**, **Página web** o **Manuscrito**.
 
 La vista previa usa lo que elegiste en la página Exportar: el diseño, el
-formato (el tamaño de la página impresa), el papel y tus ajustes.
+formato (el tamaño de la página impresa), el papel y tus cambios en
+**Diseñar el libro…**.
 
 ## Recorre un libro impreso {#looking-through-a-printed-book}
 

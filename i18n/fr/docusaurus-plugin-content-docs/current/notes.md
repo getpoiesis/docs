@@ -32,6 +32,35 @@ de **Modifié récemment** et dans **Toutes les notes**.
 - Seul le premier `#mot` devient une étiquette. Le mot reste aussi dans le
   texte, tel que vous l’avez écrit.
 
+## Noter depuis n’importe où {#capture-from-anywhere}
+
+Inutile d’être dans φ Poiesis pour saisir une idée au vol. Appuyez sur
+`⌥⇧⌘N` (**Ctrl + Alt + Maj + N** sur Windows et Linux) où que vous soyez,
+même quand φ est en arrière-plan. Une petite fenêtre s’ouvre.
+
+1. Tapez votre idée. La première ligne devient le titre de la note.
+2. Appuyez sur `⌘↵` (ou sur **Enregistrer**). La note va dans la **Boîte de
+   réception** du coffre ouvert.
+
+Appuyez sur `Esc` pour ranger la fenêtre. Ce que vous avez tapé vous y attend
+pour la prochaine fois. Vous pouvez aussi ouvrir la fenêtre depuis le φ de la
+barre des menus, ou avec **Fichier → Capture rapide**.
+
+Pour changer le raccourci, ou pour le désactiver, allez dans **Réglages** →
+**Raccourcis** → **Capture rapide**. Cliquez sur le raccourci et appuyez sur
+celui que vous voulez. Si une autre application l’utilise déjà, φ vous le
+dit : choisissez-en un autre.
+
+### La Boîte de réception {#the-inbox}
+
+La **Boîte de réception** se trouve en haut de la barre latérale de Notes,
+sous **Accueil**. Elle contient ce que vous avez capturé et pas encore traité,
+et son nombre est toujours affiché. `⌘G` puis `I` l’ouvre depuis n’importe où.
+
+Quand vous avez traité une capture, faites un clic droit dessus et choisissez
+**Traité (hors de la boîte)**. Elle quitte la Boîte de réception et reste
+dans vos notes.
+
 ## Noter depuis une liste {#capture-from-a-list}
 
 La même zone se trouve en haut de la liste quand vous affichez **Toutes les
@@ -66,6 +95,8 @@ Notes s’ouvre sur l’Accueil. À gauche, vous trouvez :
 
 - Le mois. Plus un jour est foncé, plus vous avez modifié de notes ce
   jour-là. **Calendrier** ouvre le calendrier.
+- **Souvenirs**, quand vous avez quelque chose de ce jour-là une année
+  précédente (voir [Souvenirs et célébrations](./memories-and-celebrations.md)).
 - Vos notes **Favoris**.
 - Les **Étiquettes** que vous utilisez le plus. Cliquez sur une étiquette
   pour afficher ses notes.
@@ -76,15 +107,21 @@ Dans Notes, la barre latérale donne accès à ces lieux :
 
 | Lieu | Ce qu’il contient |
 | --- | --- |
+| **Boîte de réception** | Ce que vous avez envoyé avec la capture rapide et pas encore traité. |
 | **Toutes les notes** | Toutes les notes qui n’appartiennent à aucun projet. |
 | **Favoris** | Les notes que vous avez mises en favori. |
-| **Non liées** | Les notes qu’aucun lien ne relie au reste : rien ne pointe vers elles et elles ne pointent vers rien. Pratique pour repérer celles que vous n’avez pas encore rattachées à quoi que ce soit. |
 | **Dossiers** | Vos dossiers, chacun avec le nombre de notes qu’il contient. Le **+** à côté du titre crée un dossier. |
 | **Étiquettes** | Toutes les étiquettes de vos notes, chacune avec son nombre de notes. |
 
 Chaque liste commence par un champ de recherche, qui la filtre d’après le
 titre, les premières lignes et les étiquettes. Chaque liste peut aussi être
 triée : **Modifié**, **Créé** ou **Titre**.
+
+**Retrouver les notes sans liens.** Ouvrez **Toutes les notes**, puis le menu
+de tri de la liste, et choisissez **Seulement les notes sans liens**. La liste
+ne montre plus que les notes qu’aucun lien ne relie au reste : celles que vous
+n’avez pas encore rattachées à quoi que ce soit. Choisissez-le de nouveau pour
+voir toutes les notes.
 
 `⌘K` retrouve n’importe quel document par son nom, où que vous soyez dans φ Poiesis.
 Voir [Rechercher et remplacer](./search-and-replace.md).

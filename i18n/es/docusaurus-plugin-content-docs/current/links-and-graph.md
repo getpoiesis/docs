@@ -61,12 +61,8 @@ siguiente).
 
 La pestaña **Enlaces** del
 [panel de Información](./finding-your-way.md#the-info-panel) muestra los
-enlaces de un documento. Hay tres formas de abrirla:
-
-- Abre el panel de Información (`⇧⌘I`) y elige **Enlaces**.
-- Haz clic en el **⋮** del documento y luego en **Enlaces y retroenlaces**.
-- Haz clic derecho en la fila del documento, en una lista, y luego en
-  **Enlaces wiki**.
+enlaces de un documento. Para abrirla, abre el panel de Información (`⇧⌘I`)
+y elige **Enlaces**.
 
 La pestaña refleja el documento tal como lo estás leyendo, incluidos los
 cambios que aún no has guardado.
@@ -86,10 +82,11 @@ pestaña, abre el grafo que rodea a este documento.
 
 Hay tres formas de abrir el grafo:
 
-- Haz clic en **Grafo**, en **Lugares** de la barra lateral (en Escribir y
-  en Notas).
-- Pulsa `⌘K` y elígelo.
 - Pulsa `⌘G` y después `G`.
+- Pulsa `⌘K` o `⌘P` y escribe «Grafo».
+- Haz clic en **Grafo** en la barra lateral, si lo has puesto ahí en
+  [Puesta a punto](./setup.md). Una bóveda nueva no lo incluye en la barra
+  lateral.
 
 <img src="/img/app/graph-light.png" alt="El grafo de una bóveda: los documentos enlazados son puntos grandes unidos por líneas; los que no tienen enlaces, puntos pequeños y tenues" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/graph-dark.png" alt="El grafo de una bóveda: los documentos enlazados son puntos grandes unidos por líneas; los que no tienen enlaces, puntos pequeños y tenues" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -140,7 +137,8 @@ documentos con más enlaces. Haz clic en uno para abrirlo.
 
 :::tip Encontrar las notas sin enlaces
 
-**Sin enlazar**, en la barra lateral de Notas, muestra las notas a las que
+Abre **Todas las notas**, en Notas, y elige **Solo notas sin enlaces** en el
+menú de orden de la lista. La lista muestra entonces solo las notas a las que
 no llega ningún enlace y de las que no sale ninguno. Consulta
 [Notas e ideas al vuelo](./notes.md).
 

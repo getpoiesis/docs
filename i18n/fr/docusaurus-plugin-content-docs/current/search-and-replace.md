@@ -89,7 +89,7 @@ document porte la mention **dans le nom**. **Respecter la casse** et
 | --- | --- |
 | Un document, un projet ou un personnage d’après son nom | `⌘K`. Voir [Visite de la fenêtre](./finding-your-way.md). |
 | Un élément de la liste affichée | Le champ de recherche sous le titre de la liste. Il filtre d’après le titre, le début du texte et les étiquettes. |
-| Une commande | `⌘P`. |
+| Une commande | `⌘P`. Ou tapez son nom dans `⌘K` : les commandes de ce nom apparaissent sous les documents, avec leurs raccourcis. |
 
 ## Voir aussi {#see-also}
 

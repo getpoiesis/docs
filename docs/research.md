@@ -31,12 +31,16 @@ Click a name there to open it.
 
 Research pages belong to **Write**.
 
-- **All research.** Open **World** → **Research** in the sidebar to see every
-  research page. When no research page is open, the page lists them all by
-  month. Each one shows what it is linked to.
-- **A project's research.** Inside a project, the sidebar also shows
-  **Research** under the project. That list holds only the research linked to
-  the project or to one of its chapters.
+- **The vault's research.** Open **World** → **Research** in the sidebar
+  (`⌘G` then `R`). When no research page is open, the page lists them by
+  month. Each one shows what it is linked to. A menu in the list's header
+  picks which research it shows: **This project**, **Not in a project**,
+  **All**, or a project by name (see
+  [Characters & authors](./characters-and-authors.md#choose-which-part-of-the-vault-a-list-shows)).
+- **A project's research.** Inside a project, click the **Research** tab
+  under the project's name in the list (`⌃4`; **Alt+4** on Windows and
+  Linux). That list holds the research linked to the project or to one of
+  its chapters.
 - **Recent research.** Write's **Home** shows your **Recent research**, with
   what each page is about. When all chapters of a project are marked
   **Final**, research for that project is no longer shown there.
@@ -46,8 +50,8 @@ Research pages belong to **Write**.
 There are three ways:
 
 - Click **+** at the top of a Research list (**New research page**). If you
-  do this in a project's own Research list, the page is linked to that
-  project.
+  do this in a project's Research tab, or in a list narrowed to a project,
+  the page belongs to that project.
 - Press `⌘K` and choose **New research page**.
 - Click **New research page** under **Research** on a document's **Links**
   tab, on a project's page, or on a character's page. The page is linked to
@@ -55,7 +59,7 @@ There are three ways:
 
 ## Link it to what it's about
 
-1. Open the research page's **Details…** (the ⓘ at the top of the page).
+1. Open the research page's **Details…** (in the **⋮** menu above the page).
 2. Under **Research for**, click **Link to…**.
 3. Choose a **Document**, a **Project** or a **Character**.
 

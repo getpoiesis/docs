@@ -18,8 +18,8 @@ window.
 ## Open a document beside this one
 
 1. Open a document.
-2. Click **Split view** in the bar above the page, or press `⌘\`. An empty
-   pane opens beside the document, and the sidebar appears.
+2. Press `⌘\`, or choose **Split view** in the document's ⋮ menu. An
+   empty pane opens beside the document, and the sidebar appears.
 3. Find the second document in the sidebar and the list. You can look in
    any mode. The page does not change while you look.
 4. Click the second document. It opens in the empty pane.
@@ -87,8 +87,8 @@ it in a new pane, right of the active one: clicking it in the list,
 choosing it in search, following a link. Once three panes are open, it
 replaces the document in the active pane.
 
-**Split view** in the bar above the page looks pressed while you are in
-split view. Click it again to leave split view: only the document you are
+While you are in split view, a **Split view** button shows in the bar above
+the page, pressed. Click it to leave split view: only the document you are
 in stays open. Closing a pane leaves the others as they are.
 
 ## The sidebar while split

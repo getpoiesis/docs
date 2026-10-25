@@ -66,8 +66,9 @@ Hay tres formas de cambiar:
   superior de la barra lateral. El menú muestra tus bóvedas, y cada una indica
   dónde está guardada: **Local**, iCloud, Dropbox, Google Drive u OneDrive.
   Debajo están **Abrir otra bóveda…**, **Nueva bóveda…**, **Mostrar en
-  Finder** (**Mostrar en el Explorador de archivos** en Windows) e
-  **Importar…**.
+  Finder** (**Mostrar en el Explorador de archivos** en Windows), **Hacer copia
+  de la bóveda…** e **Importar…**. Consulta
+  [Hacer una copia de la bóveda con un clic](./versions-and-backup.md#back-up-a-vault-in-one-click).
 - **El selector de bóvedas.** Elige **Archivo** → **Cambiar de bóveda…**
   (`⌥⌘O`). Se abre una lista breve. Escribe para acortarla y pulsa `Intro`. La
   bóveda en la que estás lleva la marca **aquí ahora**.

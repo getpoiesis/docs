@@ -13,8 +13,8 @@ another app, or to keep a copy.
 
 1. Open the project's **Export** page.
 2. Choose **Share a copy**.
-3. Under **Options**, choose a **Style** and a **Paper**. You can skip this
-   step and keep the defaults.
+3. Under **Options**, choose a **Style**, a **Paper** and, for the PDF,
+   **Accessible PDF**. You can skip this step and keep the defaults.
 4. Press the format you want.
 5. Choose where to save the file.
 
@@ -41,6 +41,15 @@ A shared copy uses a **style**, not a book design. The styles are:
 **Paper** sets the page size of the PDF: Letter, A4, A5, Digest or Trade. The
 other formats have no fixed pages, so **Paper** does not change them.
 
+## An accessible PDF
+
+Set **Accessible PDF** to **Yes** under **Options** to make the PDF to the
+PDF/UA standard. Screen readers can then follow it. If the PDF can't meet the
+standard, φ Poiesis makes an ordinary PDF and says why.
+
+This choice is only for the shared PDF. The files for a
+[printed book](./print-a-book.md) are never changed.
+
 ## Bringing a copy back
 
 A **Project copy** is a `.poiesis` file. It holds the project, its documents
@@ -49,7 +58,7 @@ and its pictures.
 To open it in another vault:
 
 1. Open the command palette (`⌘P`).
-2. Choose **Import a Poiesis document (`.poiesis`)…**.
+2. Choose **Import a φ document (`.poiesis`)…**.
 
 [Importing](./importing.md) has more.
 

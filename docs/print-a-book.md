@@ -26,10 +26,13 @@ out the width of the spine from the page count.
    - **Trim size**: the size of the printed page.
    - **Paper**: **White** or **Cream**.
    - **Ink**: **Black**, or **Keep φ's colour**.
-3. Read the check below the choices, and fix anything it lists.
-4. Press **Export print PDF** to make the interior.
-5. Press **Export cover** to make the cover.
-6. Upload the two files to your print service. They are uploaded separately.
+3. If you want, change the look of the pages with **Design the book…** (see
+   [Designs](./designs.md#design-the-book)), and set up the back and spine
+   under **Cover** (see [The cover](#the-cover)).
+4. Read the check below the choices, and fix anything it lists.
+5. Press **Export print PDF** to make the interior.
+6. Press **Export cover** to make the cover.
+7. Upload the two files to your print service. They are uploaded separately.
 
 ## Choosing the trim size
 
@@ -61,7 +64,7 @@ Choose **Keep φ's colour** only if you are paying for colour printing.
 
 - **Chapters open on a right-hand page.** When the design asks for this, Poiesis
   adds a blank page before the chapter where one is needed. You can turn this
-  off under **Adjust the design**.
+  off in **Design the book…**, under **Chapters start on**.
 - **Margins for the binding.** A book with more pages gets a wider inside
   margin, so the text stays clear of the spine. Print services require this.
 - **Page count limits.** A paperback needs at least 24 pages and can have at
@@ -75,19 +78,37 @@ Choose **Keep φ's colour** only if you are paying for colour printing.
 
 **Export cover** makes one PDF with the back, the spine and the front. It
 adds bleed: an extra eighth of an inch around the edge, which the print
-service cuts away.
+service cuts away. The PDF marks where the page is trimmed, so the print
+service reads the bleed correctly.
 
 - **The front** is your cover art. You set it at the top of the project's
   page.
-- **The back and the spine** take their colour from the cover art.
 - **The back** shows the book's description and the first author's short
-  bio. The corner where the barcode goes is left empty.
+  bio.
 - **The spine** is sized from the page count and the paper. From 80 pages
   on, it shows the title and author. Below 80 pages the spine is too narrow
   for text and stays plain.
 
+Open **Cover**, below **Options**, to set up the rest:
+
+| Choice | What it does |
+| --- | --- |
+| **Back and spine** | Their colour: **From the cover art**, or **A colour I choose**, with a colour picker. |
+| **ISBN barcode** | **Leave clear (KDP)**: KDP adds its own barcode, so the area stays empty. **Draw from the ISBN**: Poiesis draws the barcode from **ISBN (print)** in [Book details](./book-details.md). IngramSpark and most printers want this. |
+| **Spine width (in)** | Leave it empty, and Poiesis works out the spine from the page count and the paper. If your printer's cover calculator gives a different figure, type theirs here. |
+
+**Check the cover** shows the whole cover flat: the back, the spine and the
+front. Red lines show what the printer trims away and where the spine
+folds. Keep the words inside the blue lines. The barcode area is marked too.
+This is the file Poiesis makes, not a photo of the printed book.
+
+<img src="/img/app/check-cover-light.png" alt="Check the cover: the back, spine and front laid flat, with the trim, the fold and the barcode area marked" width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/check-cover-dark.png" alt="Check the cover: the back, spine and front laid flat, with the trim, the fold and the barcode area marked" width="1600" height="1000" loading="lazy" decoding="async" />
+
 The check warns you when the cover art is too small to print sharply. A
-printed cover needs about 300 pixels per inch.
+printed cover needs about 300 pixels per inch. It also warns you when the
+spine width you typed is far from what the page count makes, or when you
+chose a barcode and the book has no print ISBN.
 
 :::tip Order a proof copy
 

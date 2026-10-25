@@ -42,11 +42,10 @@ Pour retirer un surlignage :
 ## Retrouver vos notes {#find-your-notes}
 
 Toutes les annotations et les notes en marge d’un document se trouvent dans
-l’onglet **Notes** du panneau Infos. Il y a trois façons de l’ouvrir :
+l’onglet **Notes** du panneau Infos. Il y a deux façons de l’ouvrir :
 
 - Appuyez sur `⇧⌘A`.
-- Cliquez sur le **⋮** du document, puis sur **Notes**.
-- Faites un clic droit dans le texte et choisissez **Annotations**.
+- Ouvrez le panneau Infos (`⇧⌘I`) et cliquez sur son onglet **Notes**.
 
 L’onglet comporte deux parties : les **Notes en marge** en haut, puis les
 **Annotations**.
@@ -81,6 +80,43 @@ Pour la rattacher à un nouveau passage :
 
 1. Sélectionnez le nouveau passage.
 2. Cliquez sur **Relier à la sélection**.
+
+## Chercher dans tous les surlignages et commentaires {#search-every-highlight-and-comment}
+
+En haut de l’onglet **Notes**, passez de **Ce document** à **Tous les
+documents**. Poiesis affiche alors les surlignages et les commentaires de
+tous les documents du coffre.
+
+- Tapez dans **Chercher dans chaque surlignage et commentaire…**. Poiesis
+  cherche dans les mots que couvre chacun d’eux et dans vos commentaires. Les
+  majuscules et les accents n’ont pas d’importance.
+- Le filtre n’affiche que les **Surlignages**, les **Commentaires**, les
+  **Ouvertes** ou les **Résolues**.
+- Cliquez sur l’un d’eux pour ouvrir son document.
+
+Vous pouvez aussi y accéder depuis la palette de commandes (`⌘P`) : choisissez
+**Chercher dans tous les surlignages et commentaires**.
+
+## Les rassembler dans un document {#gather-them-into-a-document}
+
+Pour réunir les annotations d’un document en un seul endroit, ouvrez l’onglet
+**Notes** et cliquez sur **Rassembler dans un document**, en haut. Poiesis
+crée un nouveau document, *Notes sur* suivi du titre du document. Il contient
+chaque surlignage et chaque commentaire dans l’ordre de lecture : les mots
+couverts, en citation, avec votre commentaire en dessous. Les notes en marge
+viennent ensuite.
+
+- Les annotations résolues portent la mention **résolue**.
+- Une annotation dont le texte a été supprimé garde les mots sur lesquels
+  elle a été faite.
+
+Pour faire de même avec tout un livre, faites un clic droit sur le projet dans
+la barre latérale et choisissez **Rassembler notes et surlignages**. Le
+nouveau document avance chapitre par chapitre, sous le titre de chaque
+chapitre.
+
+Dans la palette de commandes, **Rassembler les notes et surlignages de ce
+document** fait de même pour le document ouvert.
 
 ## Écrire une note en marge {#write-a-margin-note}
 

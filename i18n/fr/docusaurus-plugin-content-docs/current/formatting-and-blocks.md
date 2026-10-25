@@ -72,6 +72,8 @@ y met fin, et le mot suivant s’écrit en texte normal.
 | **Séparateur** | `/divider` | | `---` |
 | **Bloc de code** | `/code` | | ` ``` ` |
 | **Tableau** | `/table` | | |
+| **Section repliable** | `/toggle` | | |
+| **Bloc de formule** | `/math` | | |
 
 **Titres.** Les titres forment le plan du document, que vous pouvez consulter
 dans le panneau Infos (`⌘⇧I`). Un bloc **Table des matières** les reprend
@@ -97,6 +99,23 @@ d’écriture → Modes** et activez **Listes de tâches** pour ce mode.
 la première sert d’en-tête. Faites glisser le bord d’une colonne pour
 l’élargir. Appuyez sur `Tab` pour passer à la cellule suivante.
 
+Quand le curseur se trouve dans un tableau, une barre d’outils apparaît
+au-dessus. Elle indique la ligne et la colonne où vous êtes, par exemple
+*Ligne 2 sur 3 · Colonne 1 sur 3*. Ses boutons :
+
+- **Ajouter une ligne au-dessus**, **Ajouter une ligne en dessous** et
+  **Supprimer la ligne**.
+- **Ajouter une colonne à gauche**, **Ajouter une colonne à droite** et
+  **Supprimer la colonne**.
+- **Ligne d’en-tête** et **Colonne d’en-tête** activent ou désactivent
+  l’en-tête.
+- **Fusionner les cellules** réunit les cellules sélectionnées. **Scinder la
+  cellule** divise de nouveau une cellule fusionnée.
+- **Supprimer le tableau** retire le tableau entier.
+
+Un tableau garde toujours au moins une ligne et une colonne. Pour retirer la
+dernière, utilisez **Supprimer le tableau**.
+
 **Blocs de code.** Poiesis colore le code selon le langage qu’il reconnaît. Pour
 choisir vous-même le langage, tapez son nom après les accents graves
 d’ouverture, par exemple ` ```python `. Appuyez sur `Tab` pour augmenter le
@@ -104,14 +123,56 @@ retrait et sur `⇧Tab` pour le réduire. Pour changer le retrait, ouvrez
 **Réglages → Éditeur → Code**, puis réglez **Indenter avec** (**Espaces** ou
 **Tabulations**) et **Largeur d’indentation**.
 
+## Sections repliables : du texte qui se replie {#toggles-sections-that-fold-away}
+
+Une section repliable range des blocs sous une ligne que vous nommez.
+Servez-vous-en pour un divulgâchage, un aparté ou des notes pour vous-même
+au milieu d’un brouillon.
+
+1. Tapez `/toggle` et appuyez sur `Enter`.
+2. Tapez la ligne qui nomme la section (**Nommez ce qui est replié ici**).
+3. Appuyez sur `Enter` au bout de cette ligne pour écrire dans la section.
+
+| Pour | Faites ceci |
+| --- | --- |
+| Replier ou déplier la section | Cliquez sur la flèche, ou appuyez sur `⌘⌥↩`. |
+| Entrer dans la section | Appuyez sur `Enter` au bout de la ligne qui la nomme. Une section repliée s’ouvre. |
+| Sortir de la section | Appuyez sur `Enter` sur une dernière ligne vide, sur `⌘↩` n’importe où dans la section, ou sur `↓` à sa fin. |
+| Passer une section repliée | Appuyez sur `↓` sur la ligne qui la nomme. |
+| Défaire la section | Appuyez sur `Backspace` dans une ligne de nom vide. Ses blocs reviennent dans la page. |
+
+Le texte replié compte toujours dans le nombre de mots, dans la recherche et
+dans les exports. À l’impression, la section s’imprime en entier. En mode
+lecture, la flèche replie et déplie la section sans modifier le document.
+
+## Formules mathématiques {#math}
+
+Les formules s’écrivent en LaTeX et sont composées par KaTeX.
+
+- **Une formule sur sa propre ligne.** Tapez `/math` et choisissez **Bloc de
+  formule**. Quand le curseur est dans le bloc, sa source s’ouvre au-dessus
+  de la formule, et la formule change à mesure que vous tapez. Appuyez sur
+  `⌘↩` ou `Esc` pour sortir du bloc.
+- **Une formule dans une ligne.** Tapez `$$E = mc^2$$`, ou tapez `/inline`,
+  choisissez **Formule en ligne** et tapez la formule. Double-cliquez sur une
+  formule en ligne pour la modifier.
+
+Si une formule ne peut pas être lue, Poiesis explique pourquoi au lieu de la
+masquer. À l’impression, les formules sont composées comme de vraies
+mathématiques. Un format d’export qui ne sait pas encore composer les
+formules garde le LaTeX d’un bloc de formule sous forme de texte. Rien dans
+une formule ne peut créer de lien, charger ou exécuter quoi que ce soit.
+
 ## Blocs pour les livres et les poèmes {#blocks-for-books-and-poems}
 
-Le menu des blocs propose ces blocs dans les documents qui font partie d’un
-[projet](./collections.md) : les chapitres, les poèmes et les essais. Un projet
-est un livre, ou tout autre texte long composé de plusieurs documents.
+Le menu des blocs propose ces blocs dans les documents d’**Écrire** : les
+chapitres, les poèmes et les essais d’un [projet](./collections.md), et les
+pièces qui ne font pas encore partie d’un projet. Un projet est un livre, ou
+tout autre texte long composé de plusieurs documents. **Vers** est proposé
+dans tous les documents, sauf les pages du matin.
 
 Si un document contient déjà l’un de ces blocs, celui-ci reste affiché même
-quand le document se trouve hors d’un projet.
+quand le document se trouve ailleurs.
 
 | Bloc | À quoi il sert | Pour l’insérer |
 | --- | --- | --- |
@@ -146,7 +207,8 @@ Cliquez sur une pastille de date pour ouvrir ce jour dans le calendrier.
 Cliquez sur le crayon à côté de la pastille (**Modifier la date et l’heure**)
 pour changer la date ou l’heure.
 
-Le menu des blocs ne propose pas les encadrés dans les entrées de journal.
+Le menu des blocs ne propose ni les encadrés, ni les tableaux, ni les blocs
+de code dans les entrées de journal.
 
 Vous pouvez aussi ajouter deux éléments au fil d’une ligne de texte :
 

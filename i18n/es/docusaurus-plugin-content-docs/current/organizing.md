@@ -136,17 +136,17 @@ En una lista puedes hacer todo esto:
 ## Detalles {#details}
 
 La página **Detalles…** de un documento reúne todo lo que se sabe de él,
-salvo su texto. Hay tres formas de abrirla:
+salvo su texto. Hay dos formas de abrirla:
 
 <img src="/img/app/details-light.png" alt="La página Detalles de una pieza: estado, descripción, meta de palabras, etiquetas, carpeta y enlaces" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="La página Detalles de una pieza: estado, descripción, meta de palabras, etiquetas, carpeta y enlaces" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Haz clic en la ⓘ, en la parte superior de la página.
-- Haz clic en el **⋮** del documento y luego en **Detalles…**.
+- Haz clic en el **⋮** que hay encima de la página y luego en **Detalles…**.
 - Haz clic derecho en la fila del documento, en una lista, y luego en
   **Detalles…**.
 
-**Volver al texto** te lleva de nuevo a la página.
+Mientras Detalles está abierto, aparece una ⓘ en la parte superior de la
+página. Haz clic en ella, o en **Volver al texto**, para volver a la página.
 
 Las filas que ves dependen del tipo de documento:
 
@@ -170,16 +170,21 @@ Haz clic derecho en un documento, en cualquier lista, o haz clic en su
 **⋮**. El menú contiene:
 
 - **Detalles…**, **Abrir al lado** y **Destacar** o **Quitar destacado**.
-- **Esquema**, **Enlaces wiki**, **Notas** e **Historial de versiones**. Cada una abre esa pestaña del
-  [panel de Información](./finding-your-way.md#the-info-panel).
+- **Listo (fuera de la bandeja)**, para una nota de la Bandeja de entrada
+  (consulta [Notas e ideas al vuelo](./notes.md)).
 - Las opciones para moverlo que se describen en
   [Mover un documento](#move-a-document).
+- **Ocultar de las listas** (o **Mostrar en las listas**).
 - **Marcar como páginas matinales** (consulta
   [Diario y páginas matinales](./journal-and-morning-pages.md)).
 - **Renombrar…** y **Copiar como Markdown**.
 - Un submenú con todos los formatos de exportación (consulta
   [Cómo funciona la exportación](./exporting.md)).
 - **Eliminar**, que envía el documento a la papelera.
+
+El esquema, los enlaces, las notas y las versiones del documento no están en
+este menú. Ábrelos desde las pestañas del
+[panel de Información](./finding-your-way.md#the-info-panel) (`⇧⌘I`).
 
 ## Quitar los documentos vacíos {#clear-out-empty-documents}
 
@@ -195,7 +200,8 @@ así que aún puedes restaurarlo.
 
 Lo que eliminas no desaparece en el momento: va a la **Papelera**, al final
 de la barra lateral. Allí se guardan los documentos, proyectos, personajes,
-perfiles de autor, tableros y tarjetas de tablero que hayas eliminado.
+perfiles de autor, entradas del mundo (lugares, trasfondo y sucesos), tableros
+y tarjetas de tablero que hayas eliminado.
 
 <img src="/img/app/trash-light.png" alt="La papelera con un documento eliminado seleccionado y los botones para restaurarlo o eliminarlo para siempre" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/trash-dark.png" alt="La papelera con un documento eliminado seleccionado y los botones para restaurarlo o eliminarlo para siempre" width="1600" height="1000" loading="lazy" decoding="async" />

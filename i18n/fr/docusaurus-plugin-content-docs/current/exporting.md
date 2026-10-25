@@ -104,6 +104,28 @@ Les liens entre vos propres documents (`[[liens wiki]]`) deviennent du texte
 simple dans tous les formats : un lecteur extérieur à votre coffre ne pourrait
 pas les suivre.
 
+## Imprimer un document {#print-a-document}
+
+Pour imprimer le document que vous écrivez, sur votre propre imprimante :
+
+1. Ouvrez le document.
+2. Choisissez **Fichier → Imprimer…**, ou appuyez sur `⌘P` et choisissez
+   **Imprimer…**.
+3. À côté de l’aperçu de la première page, réglez la page :
+   - **Papier** : A4, Letter ou A5.
+   - **Marges** : **Étroites**, **Normales** ou **Larges**.
+   - **Taille du texte** et **Interligne**.
+   - **Titre sur la première page**, **Numéros de page** et **Garder les
+     couleurs de surlignage**.
+4. Appuyez sur **Imprimer…**. La fenêtre d’impression de votre ordinateur
+   s’ouvre. **Enregistrer au format PDF** s’y trouve aussi.
+
+Les notes de bas de page sont numérotées et regroupées à la fin. Les blocs
+repliés s’impriment en entier. Les commentaires ne s’impriment pas.
+
+Cette commande imprime la page telle que vous l’avez écrite. Pour créer un
+manuscrit ou un livre, utilisez **Exporter**.
+
 ## Voir aussi {#see-also}
 
 - [Aperçu](./preview.md) : toutes les pages avant d’exporter.

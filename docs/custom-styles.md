@@ -5,7 +5,7 @@ description: Make a style of your own from one of φ Poiesis's, and use it for a
 
 # Custom styles
 
-A [design](./designs.md) and **Adjust the design** let you change a few things
+A [design](./designs.md) and **Design the book…** let you change a few things
 about how a book looks. If you need to change more, make your own style. You
 copy one of φ Poiesis's designs or styles and change what you want. You can then use
 your style for any project in the [vault](./vaults.md).
@@ -13,7 +13,8 @@ your style for any project in the [vault](./vaults.md).
 ## Make a style
 
 1. Open the project's **Export** page.
-2. Open **Adjust the design**. On **Share a copy**, open **Options**.
+2. Open **Options**, below **Design the book…**. On **Share a copy**, open
+   **Options**.
 3. Choose **Edit styles…**. **Export styles** opens.
 4. Under **Built into φ**, pick the design or style closest to what you want.
 5. Choose **Duplicate**. You cannot change Poiesis's own styles, but you can change

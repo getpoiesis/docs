@@ -19,7 +19,8 @@ livre imprimé.
 1. Ouvrez la page **Exporter** du projet.
 2. Choisissez **Livre numérique**.
 3. Choisissez la **Maquette**. Le livre imprimé utilise la même : les deux
-   versions sont donc assorties.
+   versions sont donc assorties. Pour changer l’apparence, appuyez sur
+   **Mettre en page…** (voir [Maquettes](./designs.md#design-the-book)).
 4. Lisez la vérification. Elle dresse la liste de ce qu’il faut corriger avant
    d’exporter. Corrigez chaque point.
 5. Choisissez **Aperçu**, puis **Livre numérique**. Le livre s’affiche comme
@@ -41,7 +42,9 @@ Voici ce qui est conservé de la maquette :
   lettrine ou les premiers mots en petites capitales ;
 - l’ornement entre les scènes ;
 - la page de titre, la page de copyright, la dédicace, l’épigraphe et la page
-  « À propos de l’auteur ».
+  « À propos de l’auteur » ;
+- [vos images](./designs.md#your-pictures). Une image placée derrière la page
+  est omise, et un bandeau en haut de page devient une image pleine largeur.
 
 ## Ce que vérifient les librairies {#what-the-stores-look-for}
 
@@ -59,6 +62,10 @@ vérification contrôle les points suivants :
 
 Pendant qu’il crée le fichier, Poiesis vérifie aussi que l’EPUB respecte la norme
 EPUB.
+
+L’EPUB indique aussi comment il peut être lu, dans les informations
+d’accessibilité que montrent les librairies : sa structure, sa table des
+matières, un texte qui se recompose et la description de ses images.
 
 ## Voir aussi {#see-also}
 

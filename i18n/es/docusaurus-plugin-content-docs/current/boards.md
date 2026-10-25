@@ -49,6 +49,10 @@ de tareas. En el **⋮** de la lista está **Nuevo tablero personalizado**.
   esta semana**, en Inicio.
 - **En Notas**, **Tableros**, en **Lugares**, reúne los tableros que no
   pertenecen a ningún proyecto.
+- **Desde cualquier sitio**, pulsa `⌘G` y luego `B`. Abre los tableros de
+  Notas o, si estás dentro de un proyecto, el tablero de ese proyecto. Dentro
+  de un proyecto, también lo abre la pestaña **Tablero**, bajo su nombre en
+  la lista (`⌃5`).
 
 Si no hay ningún tablero abierto, la página muestra cada tablero como una
 ficha, con sus columnas y su número de tarjetas abiertas. Haz clic en una

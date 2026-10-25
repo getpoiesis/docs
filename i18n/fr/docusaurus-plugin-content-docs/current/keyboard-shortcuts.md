@@ -21,6 +21,11 @@ Vous pouvez aussi consulter les raccourcis dans Poiesis :
 - La palette de commandes (`⌘P`) affiche le raccourci de chaque commande à
   côté de son nom.
 
+Vous pouvez attribuer vos propres touches à de nombreuses commandes dans
+**Réglages → Raccourcis → Vos raccourcis** (voir [Réglages](./settings.md#shortcuts)).
+Cette page donne les touches propres à φ. Les menus, `⌘/` et les Réglages
+affichent les vôtres.
+
 <img src="/img/app/shortcuts-card-light.png" alt="La carte des raccourcis, avec les principaux raccourcis en quatre groupes" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/shortcuts-card-dark.png" alt="La carte des raccourcis, avec les principaux raccourcis en quatre groupes" width="1600" height="1000" loading="lazy" decoding="async" />
 
@@ -55,6 +60,9 @@ En dehors des listes et des tableaux, `Tab` insère une tabulation.
 | Tapez | Pour |
 | --- | --- |
 | `/` | Insérer un bloc : un titre, une citation, un vers, un tableau, un modèle… |
+| `/toggle` | Une section qui se replie sous une ligne que vous nommez |
+| `/math` | Une formule sur sa propre ligne |
+| `$$E = mc^2$$` | Une formule dans une ligne |
 | `[[` | Créer un lien vers un autre document |
 | `@` | Mentionner un personnage |
 
@@ -65,6 +73,16 @@ En dehors des listes et des tableaux, `Tab` insère une tabulation.
 | Transformer un paragraphe en vers, ou l’inverse | `⌥⌘V` |
 | Passer au vers suivant | `↵` |
 | Sortir des vers et commencer un nouveau paragraphe | `⌘↵` |
+
+### Dans une section repliable ou une formule {#in-a-toggle-or-a-formula}
+
+| Pour | Appuyez sur |
+| --- | --- |
+| Replier ou déplier une section repliable | `⌥⌘↵` (ou cliquez sur sa flèche) |
+| Sortir d’une section repliable | `⌘↵`, ou `↵` sur une dernière ligne vide |
+| Sortir d’une formule en cours de modification | `⌘↵` ou `Esc` |
+
+Voir [Mise en forme et blocs](./formatting-and-blocks.md).
 
 ### Liens {#links}
 
@@ -106,6 +124,7 @@ sélectionnez du texte.
 | Ouvrir le document précédent · suivant de la liste | `⌥⌘←` · `⌥⌘→` |
 | Aller à l’Accueil du premier, du deuxième ou du troisième mode, dans l’ordre de la barre latérale | `⌘1` · `⌘2` · `⌘3` |
 | Aller à l’Accueil de ce mode | `⇧⌘H` |
+| Noter une idée depuis n’importe où, même quand Poiesis est en arrière-plan | `⌥⇧⌘N` |
 | Changer de coffre | `⌥⌘O` |
 | Ouvrir un coffre | `⇧⌘O` |
 
@@ -119,11 +138,23 @@ les deux secondes environ.
 
 | Aller à | Appuyez sur |
 | --- | --- |
+| Écrire | `⌘G` puis `W` |
 | Notes | `⌘G` puis `N` |
-| Écrire | `⌘G` puis `C` |
 | Journal | `⌘G` puis `J` |
-| Trouver un document | `⌘G` puis `S` |
+| Le calendrier, depuis n’importe quel mode | `⌘G` puis `C` |
+| Les tableaux de Notes, ou le tableau du projet où vous êtes | `⌘G` puis `B` |
+| La Boîte de réception | `⌘G` puis `I` |
+| L’Accueil du mode où vous êtes | `⌘G` puis `H` |
 | Le graphe | `⌘G` puis `G` |
+| Trouver un document (`⌘K`) | `⌘G` puis `S` |
+| Personnages | `⌘G` puis `P` |
+| Monde : lieux, univers et chronologie | `⌘G` puis `L` |
+| Recherche | `⌘G` puis `R` |
+
+Dans un projet, `P`, `L` et `R` ouvrent l’onglet correspondant du projet.
+Ailleurs, ils ouvrent la liste du coffre. Après `⌘G`, une bande apparaît avec
+les touches, et **Affichage → Aller à** les donne aussi. Les touches d’un mode
+que le coffre n’a pas sont omises.
 
 ### Dans la palette `⌘K` {#in-the-k-palette}
 
@@ -136,7 +167,11 @@ les deux secondes environ.
 | Fermer le document ouvert sélectionné | `⌘W` |
 | Fermer la palette | `Esc` |
 
-### Dans le plan d’un projet {#in-a-projects-outline}
+### Dans un projet {#in-a-project}
+
+| Pour | Appuyez sur |
+| --- | --- |
+| Afficher l’onglet **Sommaire**, **Personnages**, **Monde**, **Recherche** ou **Tableau** du projet | `⌃1` · `⌃2` · `⌃3` · `⌃4` · `⌃5` |
 
 Dans la liste des chapitres d’un projet :
 
@@ -160,6 +195,7 @@ Dans la liste des chapitres d’un projet :
 | Passer au volet précédent · suivant | `⌃⌘←` · `⌃⌘→` |
 | Fermer les autres volets | `⌥⌘W` |
 | Afficher la barre latérale par-dessus les volets, en vue partagée | `⌘0` |
+| Réduire la liste aux seuls titres, ou revenir | `⌃⌘L` |
 | Zoom avant · arrière | `⌘+` · `⌘-` |
 | Plein écran | `⌃⌘F` |
 | Ouvrir les Réglages | `⌘,` |
@@ -183,9 +219,12 @@ Ces raccourcis sont différents :
 | --- | --- |
 | Mettre le document à la corbeille | **Suppr** |
 | Passer au volet précédent · suivant | **Ctrl + Alt + Maj + ←** · **→** |
+| Les onglets d’un projet | **Alt + 1** à **Alt + 5** |
+| Liste compacte | **Ctrl + Alt + Maj + L** |
+| Capture rapide | **Ctrl + Alt + Maj + N** |
 | Rétablir | **Ctrl + Maj + Z** ou **Ctrl + Y** |
 | Plein écran | **F11** |
-| Ouvrir les Réglages | Le bouton à curseurs en haut de la barre latérale (pas de raccourci) |
+| Ouvrir les Réglages | **Ctrl + ,** (dans le menu **Fichier**) |
 
 Masquer Poiesis et masquer les autres applications ne fonctionnent que sur un Mac.
 

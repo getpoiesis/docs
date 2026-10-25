@@ -1,6 +1,6 @@
 ---
 title: Concentración y Santuario
-description: El Santuario, el desplazamiento de máquina de escribir, la escritura enfocada y el modo lectura, para cuando solo quieres ver la página.
+description: El Santuario, el desplazamiento de máquina de escribir, la escritura enfocada, el modo lectura y los sprints de escritura, para cuando solo quieres ver la página.
 ---
 
 # Concentración y Santuario
@@ -8,7 +8,8 @@ description: El Santuario, el desplazamiento de máquina de escribir, la escritu
 El **Santuario** oculta todo lo que hay en φ Poiesis menos la página, para que nada
 te distraiga mientras escribes. Aquí se explican también tres herramientas
 más pequeñas: el desplazamiento de máquina de escribir, la escritura
-enfocada y el modo lectura.
+enfocada y el modo lectura, y las dos formas en que Poiesis mide el tiempo que
+escribes: las sesiones y los sprints.
 
 <img src="/img/app/focus-light.png" alt="El Santuario: un capítulo solo en la página, con la oración que se está escribiendo nítida y el resto atenuado, y arriba una línea discreta que indica dónde está el capítulo" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/focus-dark.png" alt="El Santuario: un capítulo solo en la página, con la oración que se está escribiendo nítida y el resto atenuado, y arriba una línea discreta que indica dónde está el capítulo" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -130,7 +131,7 @@ Tus sesiones se ven en dos sitios:
   tarjeta **Hoy**.
 - Las estadísticas del documento muestran tu **Sesión más larga** y tu
   **Mejor sesión (palabras)**. Para abrirlas, haz clic en el recuento de
-  palabras y luego haz clic otra vez.
+  palabras y elige **Estadísticas…**.
 
 Para empezar y terminar las sesiones por tu cuenta:
 
@@ -139,6 +140,41 @@ Para empezar y terminar las sesiones por tu cuenta:
 2. Abre la paleta de comandos y elige **Iniciar sesión de escritura**.
 3. Cuando acabes, elige **Terminar sesión de escritura** en la paleta de
    comandos.
+
+Solo cuentan las palabras que escribes. Abrir un documento durante una sesión
+no cuenta las palabras que ya tenía.
+
+## Escribe contra el reloj {#write-against-the-clock}
+
+Un sprint de escritura es un tiempo fijo para escribir todo lo que puedas, con
+una meta de palabras si la quieres.
+
+1. Pulsa `⌘P` y elige **Empezar un sprint de escritura…**. No hace falta
+   tener un documento abierto. También puedes hacer clic en el recuento de
+   palabras, en la esquina de la página, y elegir **Empezar un sprint de
+   escritura…**.
+2. Elige una **Duración**: **10**, **15**, **25**, **45** o **60** minutos, o
+   escribe la que quieras, hasta tres horas.
+3. Si quieres, escribe una **Meta de palabras**.
+4. Si quieres, activa **Sin borrar**.
+5. Haz clic en **Empezar sprint**.
+
+El reloj corre en la esquina inferior izquierda de la página. Muestra el
+tiempo que queda, tus palabras y lo cerca que estás de la meta.
+
+- Cuenta cada palabra que añades, en cualquiera de los documentos por los que
+  te muevas. Borrar palabras no resta ninguna.
+- Con **Sin borrar** activado, `Retroceso`, `Supr`, **Cortar** y
+  **Deshacer** no hacen nada hasta que termina el sprint. Escribir o pegar
+  sobre una selección añade las palabras nuevas después de ella en lugar de
+  sustituirla.
+- Para parar antes, haz clic en el reloj. Poiesis te lo pregunta primero. Las
+  palabras que llevas escritas se conservan y cuentan.
+
+Cuando se acaba el tiempo, Poiesis muestra el resultado del sprint: tus
+palabras, si llegaste a la meta y tu ritmo en palabras por minuto. Haz clic en
+**Otro sprint…** para empezar de nuevo. Poiesis recuerda la duración y la meta
+para la próxima vez.
 
 ## Ver también {#see-also}
 

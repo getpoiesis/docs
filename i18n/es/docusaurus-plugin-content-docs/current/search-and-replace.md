@@ -90,7 +90,7 @@ documento, este lleva la marca **en el nombre**. **Distinguir mayúsculas** y
 | --- | --- |
 | Un documento, un proyecto o un personaje por su nombre | `⌘K`. Consulta [Un recorrido por la ventana](./finding-your-way.md). |
 | Algo en la lista que tienes delante | El campo de búsqueda que está bajo el título de la lista. Filtra por título, por las primeras líneas del texto y por etiquetas. |
-| Un comando | `⌘P`. |
+| Un comando | `⌘P`. O escribe su nombre en `⌘K`: los comandos con ese nombre aparecen debajo de los documentos, con sus teclas. |
 
 ## Ver también {#see-also}
 

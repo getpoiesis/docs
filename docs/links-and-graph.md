@@ -55,11 +55,8 @@ click it under **Outgoing links** (see the next section).
 ## See what links where
 
 The **Links** tab of the [Info panel](./finding-your-way.md#the-info-panel)
-lists a document's links. There are three ways to open it:
-
-- Open the Info panel (`⇧⌘I`) and choose **Links**.
-- Click the document's **⋮**, then **Links and backlinks**.
-- Right-click the document's row in a list, then **Wiki links**.
+lists a document's links. To open it, open the Info panel (`⇧⌘I`) and
+choose **Links**.
 
 The tab shows the document you are reading, including changes you have not
 saved yet.
@@ -79,9 +76,10 @@ the graph around this document.
 
 There are three ways to open the graph:
 
-- Click **Graph** under **Places** in the sidebar (in Write and Notes).
-- Press `⌘K` and choose it.
 - Press `⌘G`, then `G`.
+- Press `⌘K` or `⌘P` and type "Graph".
+- Click **Graph** in the sidebar, if you have put it there in
+  [Setting up](./setup.md). A new vault leaves it out of the sidebar.
 
 <img src="/img/app/graph-light.png" alt="The graph of a vault: linked documents drawn as larger dots joined by lines, unlinked ones as small faint dots" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/graph-dark.png" alt="The graph of a vault: linked documents drawn as larger dots joined by lines, unlinked ones as small faint dots" width="1600" height="1000" loading="lazy" decoding="async" />
@@ -128,7 +126,8 @@ links. Click one to open it.
 
 :::tip Find notes with no links
 
-**Unlinked**, in the Notes sidebar, lists the notes that have no links to
+Open **All notes** in Notes and choose **Only unlinked notes** in the
+list's sort menu. The list then shows only the notes that have no links to
 them and no links from them. See [Notes & capture](./notes.md).
 
 :::

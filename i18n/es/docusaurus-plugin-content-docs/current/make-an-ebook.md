@@ -18,7 +18,8 @@ aplicaciones de lectura saben usar. Lleva el mismo diseño que el libro impreso.
 1. Abre la página **Exportar** del proyecto.
 2. Elige **Libro electrónico**.
 3. Elige el **Diseño**. Es el mismo que usa el libro impreso, así que los dos
-   quedan iguales.
+   quedan iguales. Para cambiar el aspecto, pulsa **Diseñar el libro…**
+   (consulta [Diseños](./designs.md#design-the-book)).
 4. Lee la comprobación. Enumera todo lo que hay que corregir antes de exportar.
    Corrige cada punto.
 5. Elige **Vista previa** y luego **Libro electrónico**. Verás el libro tal
@@ -39,7 +40,9 @@ Del diseño se conserva lo siguiente:
   capitular o las primeras palabras en versalitas;
 - el adorno entre escenas;
 - la portada, la página de créditos, la dedicatoria, el epígrafe y «Sobre el
-  autor».
+  autor»;
+- [tus imágenes](./designs.md#your-pictures). Una imagen detrás de la página
+  se omite, y una franja arriba se convierte en una imagen a todo lo ancho.
 
 ## Qué revisan las tiendas {#what-the-stores-look-for}
 
@@ -57,6 +60,10 @@ siguiente:
 
 Además, mientras crea el archivo, Poiesis comprueba que el EPUB cumple el estándar
 EPUB.
+
+El EPUB indica también cómo se puede leer, en la información de accesibilidad
+que muestran las tiendas: su estructura, su índice, que el texto se adapta y
+las descripciones de sus imágenes.
 
 ## Ver también {#see-also}
 
