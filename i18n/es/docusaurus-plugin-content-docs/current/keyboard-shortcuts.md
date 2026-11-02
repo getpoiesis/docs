@@ -147,7 +147,7 @@ dos segundos.
 | Personajes | `⌘G` y luego `P` |
 | Mundo: lugares, trasfondo y cronología | `⌘G` y luego `L` |
 | Investigación | `⌘G` y luego `R` |
-| Amanuensis, si está configurado | `⌘G` y luego `R` |
+| Amanuensis, si está configurado | `⌘G` y luego `A` |
 
 Dentro de un proyecto, `P`, `L` y `R` abren la pestaña de ese proyecto. En
 cualquier otro sitio, abren la lista de la bóveda. Después de `⌘G` aparece una
