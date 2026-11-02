@@ -69,7 +69,8 @@ rápida de contarlo.
 ## Lo que Poiesis no es {#what-Poiesis-isnt}
 
 - **Un servicio en la nube.** Nada sale de tu ordenador salvo que tú configures
-  una copia de seguridad o pongas la bóveda en una carpeta sincronizada.
+  una copia de seguridad, pongas la bóveda en una carpeta sincronizada o
+  [actives la IA](./ai-and-your-privacy.md).
 - **Una herramienta para colaborar en tiempo real.** En Poiesis escribe una sola
   persona cada vez.
 
