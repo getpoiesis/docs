@@ -38,5 +38,9 @@
   "sidebar.guide.category.Your files": {
     "message": "Vos fichiers",
     "description": "The label for category 'Your files' in sidebar 'guide'"
+  },
+  "sidebar.guide.category.AI": {
+    "message": "IA",
+    "description": "The label for category 'AI' in sidebar 'guide'"
   }
 }

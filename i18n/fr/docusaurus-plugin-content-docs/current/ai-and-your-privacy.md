@@ -1,0 +1,35 @@
+---
+title: L’IA et votre vie privée
+description: Ce que fait l’IA dans φ, ce qui est envoyé et qui le reçoit.
+---
+
+# L’IA et votre vie privée
+
+L’IA est désactivée tant que vous ne l’activez pas. D’ici là, rien sur l’IA n’apparaît dans l’app, sauf **Réglages → IA**.
+
+## À quoi elle sert
+
+[Amanuensis](./amanuensis.md) vous aide à organiser, planifier et prendre des notes. Il n’est pas fait pour écrire vos textes ou vos livres, et il ne peut pas en changer les mots. Il ne peut lancer un projet que sous forme de plan vide, et seulement si vous l’autorisez.
+
+## Ce qui est envoyé
+
+Vos messages, les noms du coffre et du document ouverts et ce qu’il lit pour vous répondre. Il n’envoie pas tout votre coffre. Les interrupteurs de chaque coffre décident de ce qu’il peut lire.
+
+**Les Pages du matin ne sont jamais envoyées ni lues par une IA**, quoi que vous activiez.
+
+## Qui le reçoit
+
+Le fournisseur que vous avez choisi, directement, avec votre clé. φ n’a aucun serveur entre les deux et ne voit rien. Ce que le fournisseur en fait relève de ses propres conditions : lisez-les. **Réglages → IA → L’IA et votre vie privée** renvoie aux conditions de ce que vous utilisez.
+
+Avec un modèle local via Ollama, ce qu’il lit reste sur votre ordinateur.
+
+Les [agents externes](./ai-agents.md) comme Claude ou Codex sont des apps indépendantes, et leurs propres conditions s’appliquent.
+
+## Ce qui reste sur votre ordinateur
+
+- **Les clés** sont enregistrées dans le stockage sécurisé du système, chacune sous son nom, comme `φ Poiesis: API key for Anthropic`. Si votre Mac a Touch ID, il demande la première fois qu’une clé sert.
+- **Les discussions** sont enregistrées sur cet ordinateur, hors de vos coffres.
+
+## Pour la désactiver
+
+Dans **Réglages → IA**, choisissez **Désactiver**. Pour supprimer une clé du stockage du système, choisissez **Retirer la clé**. Ce qu’un fournisseur a déjà reçu relève de ses conditions.
