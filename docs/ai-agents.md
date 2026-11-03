@@ -28,6 +28,10 @@ Everything is off until you turn it on. **Settings → AI** lists your vaults, a
 - **Assist**: they can also leave margin notes, build the story bible, write new notes to your Inbox and propose merges.
 - **Full**: every switch below, including editing notes, the Trash and applying plans.
 
+**Pause all agents** stops every outside agent and Ariadne at once, and keeps your levels for when you resume.
+
+Outside agents list only the tools your switches allow. Some apps need a restart to notice a change, but a tool you've turned off is refused either way.
+
 Changes apply on an agent's next call, with no restart. **All vaults** sets them all at once, and asks first if you choose **Full**. For single switches, choose **Fine-tune** beside a vault. **Default permissions for other vaults** applies to any vault that hasn't set its own.
 
 | Switch | What it allows |

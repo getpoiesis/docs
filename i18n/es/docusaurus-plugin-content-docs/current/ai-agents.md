@@ -28,6 +28,10 @@ Todo está desactivado hasta que lo actives. **Ajustes → IA** lista tus bóved
 - **Ayudar**: también pueden dejar notas al margen, crear la biblia de la historia, escribir notas nuevas en tu bandeja de entrada y proponer fusiones.
 - **Todo**: cada interruptor de abajo, incluso editar notas, la papelera y aplicar planes.
 
+**Pausar todos los agentes** detiene a la vez todos los agentes externos y a Ariadne, y guarda tus niveles para cuando reanudes.
+
+Los agentes externos solo muestran las herramientas que permiten tus interruptores. Algunas apps necesitan reiniciarse para notar un cambio, pero una herramienta desactivada se rechaza de todos modos.
+
 Los cambios se aplican en la siguiente llamada del agente, sin reiniciar. **Todas las bóvedas** las ajusta a la vez, y pregunta antes si eliges **Todo**. Para interruptores sueltos, elige **Ajustar** junto a una bóveda. **Permisos por defecto para otras bóvedas** se aplica a las que no tengan los suyos.
 
 | Interruptor | Qué permite |
