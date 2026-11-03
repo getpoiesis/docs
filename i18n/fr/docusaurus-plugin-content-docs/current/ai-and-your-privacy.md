@@ -9,7 +9,7 @@ L’IA est désactivée tant que vous ne l’activez pas. D’ici là, rien sur 
 
 ## À quoi elle sert
 
-[Amanuensis](./amanuensis.md) vous aide à organiser, planifier et prendre des notes. Il n’est pas fait pour écrire vos textes ou vos livres, et il ne peut pas en changer les mots. Il ne peut lancer un projet que sous forme de plan vide, et seulement si vous l’autorisez.
+[Ariadne](./ariadne.md) lit votre travail avec vous, répond aux questions, vérifie les faits et commente, et vous aide à organiser et à prendre des notes. Elle n’est pas faite pour écrire vos textes ou vos livres, et elle ne peut pas en changer les mots. Elle ne peut lancer un projet que sous forme de plan vide, et seulement si vous l’autorisez.
 
 <img src="/img/app/ai-settings-off-light.png" alt="Réglages → IA avec l’IA désactivée et l’explication sur la vie privée en haut." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-settings-off-dark.png" alt="Réglages → IA avec l’IA désactivée et l’explication sur la vie privée en haut." width="1600" height="1000" loading="lazy" decoding="async" />

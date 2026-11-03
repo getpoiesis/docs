@@ -9,7 +9,7 @@ AI is off until you turn it on. Until then, nothing about AI shows in the app, a
 
 ## What it's for
 
-[Amanuensis](./amanuensis.md) helps you organize, plan and keep notes. It isn't for writing your pieces or books, and it can't change their words. It can start a project only as an empty outline, and only if you allow that.
+[Ariadne](./ariadne.md) reads your work with you, answers questions, checks facts and gives feedback, and helps you organize and keep notes. It isn't for writing your pieces or books, and it can't change their words. It can start a project only as an empty outline, and only if you allow that.
 
 <img src="/img/app/ai-settings-off-light.png" alt="Settings → AI with AI off, and the privacy explanation at the top." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-settings-off-dark.png" alt="Settings → AI with AI off, and the privacy explanation at the top." width="1600" height="1000" loading="lazy" decoding="async" />

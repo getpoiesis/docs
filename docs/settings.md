@@ -144,7 +144,7 @@ See [Vaults](./vaults.md).
 
 ## AI
 
-AI is off until you turn it on. **AI** holds everything about it: what it means for your privacy, [Amanuensis](./amanuensis.md), [AI agents](./ai-agents.md), and what AI may do in each vault. See [AI and your privacy](./ai-and-your-privacy.md).
+AI is off until you turn it on. **AI** holds everything about it: what it means for your privacy, [Ariadne](./ariadne.md), [AI agents](./ai-agents.md), and what AI may do in each vault. See [AI and your privacy](./ai-and-your-privacy.md).
 
 ## Templates
 
