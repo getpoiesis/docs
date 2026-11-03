@@ -72,8 +72,8 @@ latérale, est le moyen le plus rapide de le signaler.
 ## Ce que Poiesis n’est pas {#what-Poiesis-isnt}
 
 - **Un service cloud.** Rien ne quitte votre ordinateur, à moins que vous ne
-  configuriez vous-même une sauvegarde ou que vous ne placiez le coffre dans
-  un dossier synchronisé.
+  configuriez vous-même une sauvegarde, ne placiez le coffre dans un dossier
+  synchronisé ou n’[activiez l’IA](./ai-and-your-privacy.md).
 - **Un outil de collaboration en temps réel.** Poiesis est fait pour une seule
   personne à la fois.
 

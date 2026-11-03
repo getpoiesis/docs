@@ -65,7 +65,8 @@ little longer while more people try it out. If something seems off, the
 ## What Poiesis isn't
 
 - **A cloud service.** Nothing leaves your computer unless you set up a
-  backup or put the vault in a synced folder yourself.
+  backup, put the vault in a synced folder, or
+  [turn on AI](./ai-and-your-privacy.md) yourself.
 - **A real-time collaboration tool.** Poiesis is for one writer at a time.
 
 ## See also

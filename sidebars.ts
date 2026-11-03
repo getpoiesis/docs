@@ -62,6 +62,7 @@ const sidebars: SidebarsConfig = {
       'send-to-an-agent',
       'share-a-copy',
     ]),
+    group('AI', ['ai-and-your-privacy', 'amanuensis', 'ai-agents']),
     group('Your files', ['vaults', 'importing', 'versions-and-backup']),
   ],
   reference: [

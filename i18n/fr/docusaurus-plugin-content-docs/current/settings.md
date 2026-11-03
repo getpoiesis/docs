@@ -146,6 +146,10 @@ n’exécute jamais git : il conserve les versions dans le dossier
 
 Voir [Coffres](./vaults.md).
 
+## IA {#ai}
+
+L’IA est désactivée tant que vous ne l’activez pas. **IA** réunit tout ce qui la concerne : ce que cela implique pour votre vie privée, [Amanuensis](./amanuensis.md), les [agents IA](./ai-agents.md) et ce que l’IA peut faire dans chaque coffre. Voir [L’IA et votre vie privée](./ai-and-your-privacy.md).
+
 ## Modèles {#templates}
 
 En haut figurent les variables qu’un modèle peut utiliser : `<% today %>`,
