@@ -150,7 +150,7 @@ les deux secondes environ.
 | Personnages | `⌘G` puis `P` |
 | Monde : lieux, univers et chronologie | `⌘G` puis `L` |
 | Recherche | `⌘G` puis `R` |
-| Amanuensis, s’il est configuré | `⌘G` puis `A` |
+| Ariadne, si elle est configurée | `⌘G` puis `A` |
 
 Dans un projet, `P`, `L` et `R` ouvrent l’onglet correspondant du projet.
 Ailleurs, ils ouvrent la liste du coffre. Après `⌘G`, une bande apparaît avec

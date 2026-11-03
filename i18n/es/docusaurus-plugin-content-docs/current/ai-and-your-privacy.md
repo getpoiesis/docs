@@ -9,7 +9,7 @@ La IA está desactivada hasta que la actives. Hasta entonces, nada de IA aparece
 
 ## Para qué sirve
 
-[Amanuensis](./amanuensis.md) te ayuda a organizar, planear y llevar notas. No es para escribir tus piezas o libros, y no puede cambiar sus palabras. Solo puede empezar un proyecto como un esquema vacío, y solo si lo permites.
+[Ariadne](./ariadne.md) lee tu trabajo contigo, responde preguntas, comprueba datos y comenta, y te ayuda a organizar y llevar notas. No es para escribir tus piezas o libros, y no puede cambiar sus palabras. Solo puede empezar un proyecto como un esquema vacío, y solo si lo permites.
 
 <img src="/img/app/ai-settings-off-light.png" alt="Ajustes → IA con la IA desactivada y la explicación de privacidad arriba." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-settings-off-dark.png" alt="Ajustes → IA con la IA desactivada y la explicación de privacidad arriba." width="1600" height="1000" loading="lazy" decoding="async" />

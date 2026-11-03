@@ -21,7 +21,14 @@ Para otra app, elige **Copiar configuración para otra app**.
 
 ## Elegir qué pueden hacer
 
-Todo está desactivado hasta que lo actives, para cada bóveda, en **Esta bóveda**, dentro de **Ajustes → IA**. **Permisos por defecto para otras bóvedas** se aplica a cualquier bóveda que no tenga los suyos.
+Todo está desactivado hasta que lo actives. **Ajustes → IA** lista tus bóvedas, y cada una tiene cuatro niveles a un clic:
+
+- **No**: los agentes no ven la bóveda.
+- **Leer**: pueden mirar, sin cambiar nada.
+- **Ayudar**: también pueden dejar notas al margen, crear la biblia de la historia, escribir notas nuevas en tu bandeja de entrada y proponer fusiones.
+- **Todo**: cada interruptor de abajo, incluso editar notas, la papelera y aplicar planes.
+
+Los cambios se aplican en la siguiente llamada del agente, sin reiniciar. **Todas las bóvedas** las ajusta a la vez, y pregunta antes si eliges **Todo**. Para interruptores sueltos, elige **Ajustar** junto a una bóveda. **Permisos por defecto para otras bóvedas** se aplica a las que no tengan los suyos.
 
 | Interruptor | Qué permite |
 |---|---|
@@ -29,6 +36,10 @@ Todo está desactivado hasta que lo actives, para cada bóveda, en **Esta bóved
 | **Organizar** | Etiquetar y archivar documentos, y reordenar proyectos. |
 | **Actualizar tareas y tarjetas** | Marcarlas como hechas, poner fechas y prioridad, mover y archivar tarjetas. |
 | **Editar notas** | Cambiar el texto de las notas. Cada edición guarda una versión llamada **AI edited**. |
+| **Dejar notas al margen** | Comentar un pasaje, también en una pieza, marcado **De un agente**. Las palabras nunca cambian. |
+| **Crear la biblia de la historia** | Completar personajes, entradas del mundo y sinopsis de capítulos. Lo que tú hayas escrito se queda como está. |
+| **Completar datos del libro** | Subtítulo, serie, palabras clave, idioma y descripción, si están vacíos. Nunca el título, las personas, los derechos ni los ISBN. |
+| **Editar tarjetas** | Cambiar el título y las notas de una tarjeta. |
 | **Mover notas a la papelera** | De una en una, y puedes restaurarla. |
 | **Crear** | Notas, carpetas, tableros, tarjetas y esquemas vacíos tienen cada uno su interruptor. |
 | **Proponer fusiones** | Planear la fusión de bóvedas o notas repetidas. |
@@ -39,17 +50,25 @@ Los agentes nunca pueden cambiar las palabras de una pieza, ver el diario ni las
 <img src="/img/app/ai-vault-light.png" alt="Los interruptores de una bóveda en Ajustes → IA, agrupados por lo que permiten." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-vault-dark.png" alt="Los interruptores de una bóveda en Ajustes → IA, agrupados por lo que permiten." width="1600" height="1000" loading="lazy" decoding="async" />
 
+## Qué pueden consultar los agentes
+
+Con **Leer**, un agente puede leer un proyecto entero en orden, la ficha de un personaje y cada capítulo que lo nombra, tus lugares, historia y eventos, tus resaltados y notas al margen, y versiones anteriores de un documento. También puede ver tus palabras por día, contar palabras muy usadas y frases repetidas, y encontrar cabos sueltos como enlaces rotos y sinopsis que faltan. Puede ver qué encontraría una exportación, pero solo tú puedes exportar.
+
+Muchos cambios de tareas pueden ir en un solo plan, que aplicas con un clic.
+
+Algunas apps también ofrecen flujos listos, como una revisión de continuidad o una carta de editor. Usan los mismos interruptores.
+
 ## Fusionar bóvedas con un plan
 
-Pide a un agente o a Amanuensis que planee una fusión. Nada cambia hasta que la apruebes. Las bóvedas de origen no cambian, y al fusionar en una bóveda existente, antes se guarda una versión de ella.
+Pide a un agente o a Ariadne que planee una fusión. Nada cambia hasta que la apruebes. Las bóvedas de origen no cambian, y al fusionar en una bóveda existente, antes se guarda una versión de ella.
 
-- **En Amanuensis**, el plan aparece en el chat. Haz tus elecciones y elige **Aplicar** o **Descartar**.
-- **En un agente externo**, te muestra el plan en su propio chat. Puedes aplicarlo desde la lista de planes del panel de Amanuensis, que aparece aunque Amanuensis no esté configurado.
+- **En Ariadne**, el plan aparece en el chat. Haz tus elecciones y elige **Aplicar** o **Descartar**.
+- **En un agente externo**, te muestra el plan en su propio chat. Puedes aplicarlo desde la lista de planes del panel de Ariadne, que aparece aunque Ariadne no esté configurado.
 - **Para aprobarlo en el chat del agente**, activa **Permitir que los agentes apliquen planes** en cada bóveda implicada. φ Poiesis debe estar abierto, y una bóveda nueva se crea junto a la primera de origen.
 
 :::caution
 Con **Permitir que los agentes apliquen planes** activado, el permiso de la propia app es tu única comprobación. No pongas esa herramienta en permitir siempre.
 :::
 
-<img src="/img/app/amanuensis-plan-light.png" alt="Un plan de fusión en el chat, con sus cifras, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
-<img src="/img/app/amanuensis-plan-dark.png" alt="Un plan de fusión en el chat, con sus cifras, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-plan-light.png" alt="Un plan de fusión en el chat, con sus cifras, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-plan-dark.png" alt="Un plan de fusión en el chat, con sus cifras, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />

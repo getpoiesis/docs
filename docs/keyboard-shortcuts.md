@@ -144,7 +144,7 @@ Press `⌘G`, release the keys, then press the second key within about two secon
 | Characters | `⌘G` then `P` |
 | World: places, lore and the timeline | `⌘G` then `L` |
 | Research | `⌘G` then `R` |
-| Amanuensis, if it's set up | `⌘G` then `A` |
+| Ariadne, if it's set up | `⌘G` then `A` |
 
 Inside a project, `P`, `L` and `R` open that project's tab. Anywhere else,
 they open the vault's list. After `⌘G`, a strip appears that shows the keys,

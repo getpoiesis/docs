@@ -146,7 +146,7 @@ Consulta [Bóvedas](./vaults.md).
 
 ## IA {#ai}
 
-La IA está desactivada hasta que la actives. **IA** reúne todo lo relacionado: qué implica para tu privacidad, [Amanuensis](./amanuensis.md), los [agentes de IA](./ai-agents.md) y lo que la IA puede hacer en cada bóveda. Consulta [La IA y tu privacidad](./ai-and-your-privacy.md).
+La IA está desactivada hasta que la actives. **IA** reúne todo lo relacionado: qué implica para tu privacidad, [Ariadne](./ariadne.md), los [agentes de IA](./ai-agents.md) y lo que la IA puede hacer en cada bóveda. Consulta [La IA y tu privacidad](./ai-and-your-privacy.md).
 
 ## Plantillas {#templates}
 
