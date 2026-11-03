@@ -25,7 +25,7 @@ Everything is off until you turn it on, for each vault, under **This vault** in 
 
 | Switch | What it allows |
 |---|---|
-| **Let AI agents read this vault** | Search and read, except Morning Pages. The others need this one. |
+| **Let AI agents read this vault** | Search and read, except the journal and Morning Pages. The others need this one. |
 | **Organize** | Tag and file documents, and reorder projects. |
 | **Update tasks and cards** | Mark them done, set due dates and priority, move and archive cards. |
 | **Edit notes** | Change notes' text. Each edit saves a version labelled **AI edited**. |
@@ -34,7 +34,7 @@ Everything is off until you turn it on, for each vault, under **This vault** in 
 | **Propose merges** | Plan merging vaults or repeated notes. |
 | **Let agents apply plans** | Approve a plan in the agent's chat. |
 
-Agents can never change the words of a piece, write in the journal, or delete anything for good. Nothing is removed in bulk, except through a merge plan you approve.
+Agents can never change the words of a piece, see the journal or Morning Pages, or delete anything for good. Nothing is removed in bulk, except through a merge plan you approve.
 
 <img src="/img/app/ai-vault-light.png" alt="One vault's switches in Settings → AI, grouped by what they allow." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-vault-dark.png" alt="One vault's switches in Settings → AI, grouped by what they allow." width="1600" height="1000" loading="lazy" decoding="async" />

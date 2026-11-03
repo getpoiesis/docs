@@ -25,7 +25,7 @@ Tout est désactivé tant que vous ne l’activez pas, pour chaque coffre, sous 
 
 | Interrupteur | Ce qu’il permet |
 |---|---|
-| **Autoriser les agents IA à lire ce coffre** | Chercher et lire, sauf les Pages du matin. Les autres en ont besoin. |
+| **Autoriser les agents IA à lire ce coffre** | Chercher et lire, sauf le journal et les Pages du matin. Les autres en ont besoin. |
 | **Organiser** | Étiqueter et classer les documents, réordonner les projets. |
 | **Mettre à jour tâches et cartes** | Les marquer comme faites, fixer dates et priorités, déplacer et archiver les cartes. |
 | **Modifier les notes** | Changer le texte des notes. Chaque modification enregistre une version nommée **AI edited**. |
@@ -34,7 +34,7 @@ Tout est désactivé tant que vous ne l’activez pas, pour chaque coffre, sous 
 | **Proposer des fusions** | Planifier la fusion de coffres ou de notes répétées. |
 | **Autoriser les agents à appliquer les plans** | Approuver un plan dans le chat de l’agent. |
 
-Les agents ne peuvent jamais changer les mots d’un texte, écrire dans le journal ni supprimer quoi que ce soit définitivement. Rien n’est retiré en masse, sauf par un plan de fusion que vous approuvez.
+Les agents ne peuvent jamais changer les mots d’un texte, voir le journal ou les Pages du matin, ni supprimer quoi que ce soit définitivement. Rien n’est retiré en masse, sauf par un plan de fusion que vous approuvez.
 
 <img src="/img/app/ai-vault-light.png" alt="Les interrupteurs d’un coffre dans Réglages → IA, groupés selon ce qu’ils permettent." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-vault-dark.png" alt="Les interrupteurs d’un coffre dans Réglages → IA, groupés selon ce qu’ils permettent." width="1600" height="1000" loading="lazy" decoding="async" />

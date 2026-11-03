@@ -18,7 +18,7 @@ L’IA est désactivée tant que vous ne l’activez pas. D’ici là, rien sur 
 
 Vos messages, les noms du coffre et du document ouverts et ce qu’il lit pour vous répondre. Il n’envoie pas tout votre coffre. Les interrupteurs de chaque coffre décident de ce qu’il peut lire.
 
-**Les Pages du matin ne sont jamais envoyées ni lues par une IA**, quoi que vous activiez.
+**Votre journal et vos Pages du matin ne sont jamais envoyés ni lus par une IA**, quoi que vous activiez.
 
 ## Qui le reçoit
 

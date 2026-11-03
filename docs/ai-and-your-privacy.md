@@ -18,7 +18,7 @@ AI is off until you turn it on. Until then, nothing about AI shows in the app, a
 
 Your messages, the names of the vault and document you have open, and whatever it reads to answer you. It doesn't upload your vault. Each vault's switches decide what it can read at all.
 
-**Morning Pages are never sent or read by any AI**, whatever you turn on.
+**Your journal and Morning Pages are never sent or read by any AI**, whatever you turn on.
 
 ## Who receives it
 

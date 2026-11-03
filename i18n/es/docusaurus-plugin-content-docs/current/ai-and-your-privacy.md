@@ -18,7 +18,7 @@ La IA está desactivada hasta que la actives. Hasta entonces, nada de IA aparece
 
 Tus mensajes, los nombres de la bóveda y el documento que tienes abiertos y lo que lee para responderte. No sube tu bóveda. Los interruptores de cada bóveda deciden qué puede leer.
 
-**Las Páginas matutinas nunca se envían ni las lee ninguna IA**, actives lo que actives.
+**Tu diario y tus Páginas matutinas nunca se envían ni los lee ninguna IA**, actives lo que actives.
 
 ## Quién lo recibe
 

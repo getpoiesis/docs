@@ -25,7 +25,7 @@ Todo está desactivado hasta que lo actives, para cada bóveda, en **Esta bóved
 
 | Interruptor | Qué permite |
 |---|---|
-| **Permitir que los agentes de IA lean esta bóveda** | Buscar y leer, salvo las Páginas matutinas. Los demás lo necesitan. |
+| **Permitir que los agentes de IA lean esta bóveda** | Buscar y leer, salvo el diario y las Páginas matutinas. Los demás lo necesitan. |
 | **Organizar** | Etiquetar y archivar documentos, y reordenar proyectos. |
 | **Actualizar tareas y tarjetas** | Marcarlas como hechas, poner fechas y prioridad, mover y archivar tarjetas. |
 | **Editar notas** | Cambiar el texto de las notas. Cada edición guarda una versión llamada **AI edited**. |
@@ -34,7 +34,7 @@ Todo está desactivado hasta que lo actives, para cada bóveda, en **Esta bóved
 | **Proponer fusiones** | Planear la fusión de bóvedas o notas repetidas. |
 | **Permitir que los agentes apliquen planes** | Aprobar un plan en el chat del agente. |
 
-Los agentes nunca pueden cambiar las palabras de una pieza, escribir en el diario ni eliminar nada definitivamente. Nada se quita en bloque, salvo con un plan de fusión que apruebes.
+Los agentes nunca pueden cambiar las palabras de una pieza, ver el diario ni las Páginas matutinas, ni eliminar nada definitivamente. Nada se quita en bloque, salvo con un plan de fusión que apruebes.
 
 <img src="/img/app/ai-vault-light.png" alt="Los interruptores de una bóveda en Ajustes → IA, agrupados por lo que permiten." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-vault-dark.png" alt="Los interruptores de una bóveda en Ajustes → IA, agrupados por lo que permiten." width="1600" height="1000" loading="lazy" decoding="async" />
