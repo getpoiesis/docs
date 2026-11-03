@@ -28,6 +28,10 @@ Tout est désactivé tant que vous ne l’activez pas. **Réglages → IA** list
 - **Aider** : ils peuvent aussi laisser des notes en marge, créer la bible de l’histoire, écrire de nouvelles notes dans votre boîte d’entrée et proposer des fusions.
 - **Tout** : chaque interrupteur ci-dessous, y compris modifier les notes, la corbeille et appliquer les plans.
 
+**Mettre tous les agents en pause** arrête d’un coup tous les agents externes et Ariadne, et garde vos niveaux pour la reprise.
+
+Les agents externes n’affichent que les outils autorisés par vos interrupteurs. Certaines apps doivent redémarrer pour voir un changement, mais un outil désactivé est refusé dans tous les cas.
+
 Les changements s’appliquent au prochain appel de l’agent, sans redémarrage. **Tous les coffres** les règle d’un coup, et demande d’abord si vous choisissez **Tout**. Pour un seul interrupteur, choisissez **Ajuster** à côté d’un coffre. **Permissions par défaut des autres coffres** s’applique à ceux qui n’ont pas les leurs.
 
 | Interrupteur | Ce qu’il permet |
