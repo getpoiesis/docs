@@ -46,6 +46,7 @@ Los cambios se aplican en la siguiente llamada del agente, sin reiniciar. **Toda
 | **Editar tarjetas** | Cambiar el título y las notas de una tarjeta. |
 | **Mover notas a la papelera** | De una en una, y puedes restaurarla. |
 | **Crear** | Notas, carpetas, tableros, tarjetas y esquemas vacíos tienen cada uno su interruptor. |
+| **Controlar lo que hay en pantalla** | Abrir y cerrar documentos, proyectos y tableros en la app. |
 | **Proponer fusiones** | Planear la fusión de bóvedas o notas repetidas. |
 | **Permitir que los agentes apliquen planes** | Aprobar un plan en el chat del agente. |
 

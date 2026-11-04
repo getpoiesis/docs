@@ -39,6 +39,41 @@ Partez d’une suggestion du panneau, ou demandez avec vos mots :
 
 Avec **Laisser des notes en marge** activé, elle peut commenter un passage, y compris dans un texte. Ces notes sont marquées **D’un agent** dans vos annotations, et ne changent jamais un mot.
 
+Vous pouvez aussi lui demander comment fonctionne φ Poiesis. Elle répond à partir de ce guide, qu’elle télécharge la première fois que vous posez la question et garde sur votre ordinateur, et elle vous renvoie à la page.
+
+## Chercher sur le web
+
+Avec Anthropic, Ariadne peut chercher sur le web quand une question le demande, avec ses sources en lien. Anthropic fait les recherches avec votre clé. Cela peut coûter davantage : consultez d’abord les tarifs et conditions d’Anthropic. C’est désactivé tant que vous n’activez pas **Chercher sur le web** dans **Réglages → IA**. Votre journal et vos Pages du matin restent à l’écart.
+
+Les autres fournisseurs et les modèles locaux ne cherchent pas sur le web. Ariadne peut consulter Wikipédia, et dit que c’est tout ce qu’elle a regardé. C’est désactivé tant que vous n’activez pas **Consulter Wikipédia** sous **Avancé**, dans **Réglages → IA**. Seuls les mots qu’elle cherche quittent alors votre ordinateur, et seulement vers Wikipédia.
+
+Pour garder ce qu’elle a trouvé, choisissez **Enregistrer comme page de recherche** sous sa réponse. Les sources vont avec.
+
+## L’utiliser sur votre sélection
+
+Sélectionnez du texte et cliquez sur le robot de la barre d’outils. Un petit menu s’ouvre sur la page, et la discussion reste fermée.
+
+- Avec un seul mot sélectionné, les **Synonymes** et **Antonymes** de vos dictionnaires s’affichent aussitôt. Ils n’utilisent pas l’IA.
+- **Trouver des synonymes** et **Trouver des antonymes** interrogent Ariadne, en tenant compte de la phrase. Avec une sélection plus longue, vous verrez **Trouver un remplacement**.
+- **Le dire autrement**, **Raccourcir** et **Vérifier l'orthographe et la grammaire** fonctionnent dans un paragraphe.
+- **Demander dans la discussion** envoie la sélection dans le panneau.
+
+Cliquez sur une suggestion pour remplacer votre sélection. Annuler la retire. Seuls la sélection et son paragraphe sont envoyés. Le journal n’a pas ce menu.
+
+## Montre-le-moi à l’écran
+
+Avec **Contrôler ce qui est à l’écran** activé, demandez quelque chose et Ariadne l’ouvre : « montre-moi les recherches du chapitre trois ». Elle peut aussi fermer ce qui est ouvert. S’il y a plusieurs éléments, elle les liste sous forme de liens à cliquer.
+
+## Continuer à écrire pendant qu’elle travaille
+
+Vous pouvez envoyer un autre message pendant qu’Ariadne travaille : elle le lira à son étape suivante. **Arrêter** garde ce qu’elle a déjà dit. Tapez `/` pour les commandes, comme `/continuity`, `/new` ou `/help`.
+
+## Ce que chaque message envoie
+
+Les modèles ne retiennent rien d’un message à l’autre : chacun renvoie donc toute la discussion, et chaque étape d’une réponse est une requête à part. C’est pourquoi l’entrée est bien plus grande que la sortie.
+
+Le compteur en haut du panneau indique les nouveaux jetons. Ce que votre fournisseur a réutilisé depuis son cache s’affiche à part au survol. Les tarifs de votre fournisseur indiquent ce que chacun coûte. Les anciens résultats sont raccourcis à mesure que la discussion s’allonge, et une longue discussion suggère d’en commencer une nouvelle.
+
 ## Lui donner la permission
 
 Ariadne ne peut faire que ce que les interrupteurs du coffre autorisent. Ils sont désactivés tant que vous ne les activez pas, dans la liste des coffres, dans **Réglages → IA**. Choisissez **Lire**, **Aider** ou **Tout** pour un coffre en un clic, ou **Ajuster** ses interrupteurs. Voir [Agents IA](./ai-agents.md). Chaque changement attend aussi que vous choisissiez **Autoriser** ou **Pas maintenant**.
@@ -64,4 +99,4 @@ Les suggestions restent dans le panneau. Pour garder une réponse, survolez-la e
 
 ## Discussions passées
 
-Le bouton de l’horloge liste les discussions passées. Vous pouvez les rechercher, les renommer et les supprimer.
+Le bouton des bulles liste les discussions passées. Vous pouvez les rechercher, les renommer et les supprimer.

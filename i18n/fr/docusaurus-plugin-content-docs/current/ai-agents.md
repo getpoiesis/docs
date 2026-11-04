@@ -46,6 +46,7 @@ Les changements s’appliquent au prochain appel de l’agent, sans redémarrage
 | **Modifier les cartes** | Changer le titre et les notes d’une carte. |
 | **Mettre des notes à la corbeille** | Une à la fois, et vous pouvez la restaurer. |
 | **Créer** | Notes, dossiers, tableaux, cartes et plans vides ont chacun leur interrupteur. |
+| **Contrôler ce qui est à l’écran** | Ouvrir et fermer documents, projets et tableaux dans l’application. |
 | **Proposer des fusions** | Planifier la fusion de coffres ou de notes répétées. |
 | **Autoriser les agents à appliquer les plans** | Approuver un plan dans le chat de l’agent. |
 

@@ -39,6 +39,41 @@ Empieza con una sugerencia del panel o pregunta con tus palabras:
 
 Con **Dejar notas al margen** activado, puede comentar un pasaje, también en una pieza. Estas notas aparecen como **De un agente** en tus anotaciones, y nunca cambian una palabra.
 
+También puedes preguntarle cómo funciona φ Poiesis. Responde a partir de esta guía, que descarga la primera vez que preguntas y guarda en tu equipo, y te enlaza a la página.
+
+## Buscar en la web
+
+Con Anthropic, Ariadne puede buscar en la web cuando una pregunta lo necesite, con sus fuentes enlazadas. Anthropic hace las búsquedas con tu clave. Puede tener un coste adicional, así que consulta antes los precios y términos de Anthropic. Está desactivado hasta que actives **Buscar en la web** en **Ajustes → IA**. Tu diario y tus Páginas matutinas quedan fuera.
+
+Los demás proveedores y los modelos locales no buscan en la web. Ariadne puede consultar Wikipedia, y dice que eso es todo lo que ha mirado. Está desactivado hasta que actives **Consultar Wikipedia** en **Avanzado**, en **Ajustes → IA**. Entonces solo salen de tu equipo las palabras que consulta, y solo hacia Wikipedia.
+
+Para conservar lo que encontró, elige **Guardar como página de investigación** bajo su respuesta. Las fuentes van con ella.
+
+## Úsala sobre tu selección
+
+Selecciona un texto y haz clic en el robot de la barra de herramientas. Se abre un pequeño menú en la página, y el chat sigue cerrado.
+
+- Con una palabra seleccionada, aparecen enseguida **Sinónimos** y **Antónimos** de tus diccionarios. No usan IA.
+- **Buscar sinónimos** y **Buscar antónimos** le preguntan a Ariadne, teniendo en cuenta la frase. Con una selección más larga, verás **Buscar un reemplazo**.
+- **Decirlo de otra forma**, **Acortar** y **Revisar ortografía y gramática** funcionan dentro de un párrafo.
+- **Preguntar en el chat** lleva la selección al panel.
+
+Haz clic en una sugerencia para reemplazar la selección. Deshacer la revierte. Solo se envían la selección y su párrafo. El diario no tiene este menú.
+
+## Enséñamelo en pantalla
+
+Con **Controlar lo que hay en pantalla** activado, pide algo y Ariadne lo abre: «enséñame la investigación del capítulo tres». También puede cerrar lo que esté abierto. Si hay varias cosas, las lista como enlaces en los que puedes hacer clic.
+
+## Sigue escribiendo mientras trabaja
+
+Puedes enviar otro mensaje mientras Ariadne está ocupada, y lo leerá en su siguiente paso. **Detener** conserva lo que ha dicho hasta entonces. Escribe `/` para ver los comandos, como `/continuity`, `/new` o `/help`.
+
+## Qué envía cada mensaje
+
+Los modelos no recuerdan nada entre mensajes, así que cada uno vuelve a enviar todo el chat, y cada paso de una respuesta es una petición aparte. Por eso la entrada es mucho mayor que la salida.
+
+El recuento de la cabecera del panel muestra los tokens nuevos. Lo que tu proveedor reutilizó de su caché aparece aparte al pasar el puntero por encima. Los precios de tu proveedor indican cuánto cuesta cada cosa. Los resultados antiguos se acortan a medida que crece el chat, y un chat largo sugiere empezar otro.
+
 ## Darle permiso
 
 Ariadne solo puede hacer lo que permiten los interruptores de la bóveda. Están desactivados hasta que los actives, en la lista de bóvedas de **Ajustes → IA**. Elige **Leer**, **Ayudar** o **Todo** para una bóveda con un clic, o **Ajustar** sus interruptores. Consulta [Agentes de IA](./ai-agents.md). Cada cambio también espera a que elijas **Permitir** o **Ahora no**.
@@ -64,4 +99,4 @@ Las sugerencias se quedan en el panel. Para conservar una respuesta, pasa el cur
 
 ## Chats anteriores
 
-El botón del reloj muestra los chats anteriores. Puedes buscarlos, renombrarlos y eliminarlos.
+El botón de los bocadillos muestra los chats anteriores. Puedes buscarlos, renombrarlos y eliminarlos.

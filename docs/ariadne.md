@@ -39,6 +39,41 @@ Start from a suggestion in the panel, or ask in your own words:
 
 With **Leave margin notes** on, it can comment on a passage, in a piece too. These notes are marked **From an agent** in your annotations, and they never change a word.
 
+You can also ask it how φ Poiesis works. It answers from this guide, which it downloads the first time you ask and keeps on your computer, and it links you to the page.
+
+## Search the web
+
+With Anthropic, Ariadne can search the web when a question needs it, with her sources linked. Anthropic runs the searches on your key. This can cost extra, so check Anthropic's own pricing and terms first. It's off until you turn on **Search the web** in **Settings → AI**. Your journal and Morning Pages stay out of it.
+
+Other providers and local models don't search the web. Ariadne can look things up on Wikipedia instead, and says that's all she checked. It's off until you turn on **Look things up on Wikipedia** under **Advanced** in **Settings → AI**. Then only the words she looks up leave your computer, and only to Wikipedia.
+
+To keep what she found, choose **Save as a research page** under her reply. The sources go with it.
+
+## Use it on your selection
+
+Select some text and click the bot on the toolbar. A small menu opens on the page, and the chat stays closed.
+
+- With one word selected, **Synonyms** and **Antonyms** from your dictionaries appear straight away. They don't use AI.
+- **Find synonyms** and **Find antonyms** ask Ariadne, using the sentence around the word. With a longer selection, you get **Find a replacement**.
+- **Say it another way**, **Make it shorter** and **Check spelling and grammar** work within one paragraph.
+- **Ask in the chat** takes the selection to the panel.
+
+Click a suggestion to replace your selection. Undo takes it back. Only the selection and its paragraph are sent. The journal doesn't have this menu.
+
+## Show me on screen
+
+With **Control what's on screen** on, ask for something and Ariadne opens it: "show me the research for chapter three". It can close what's open too. When there are several, it lists them as links you can click.
+
+## Keep typing while it works
+
+You can send another message while Ariadne is busy, and it reads it at its next step. **Stop** keeps what it has said so far. Type `/` for commands, such as `/continuity`, `/new` or `/help`.
+
+## What each message sends
+
+Models remember nothing between messages, so each one sends the whole chat again, and each step of a reply is a request of its own. That's why input is far larger than output.
+
+The count in the panel's header shows new tokens. What your provider reused from its cache is listed separately when you hover over it. Your provider's own pricing says what each costs. Old results are shortened as a chat grows, and a long chat suggests starting a new one.
+
 ## Give it permission
 
 Ariadne can only do what the vault's switches allow. They're all off until you turn them on, in the vault list in **Settings → AI**. Pick **Read**, **Assist** or **Full** for a vault in one click, or **Fine-tune** its switches. See [AI agents](./ai-agents.md). Each change also waits for you to choose **Allow** or **Not now**.
@@ -64,4 +99,4 @@ Suggestions stay in the panel. To keep a reply, hover over it and choose **Save 
 
 ## Past chats
 
-The clock button lists past chats. You can search, rename and delete them.
+The speech-bubbles button lists past chats. You can search, rename and delete them.

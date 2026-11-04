@@ -24,9 +24,13 @@ Your messages, the names of the vault and document you have open, and whatever i
 
 The provider you chose, directly, using your own key. φ Poiesis has no server in between and never sees it. What the provider does with it is covered by its own terms, so please read them. **Settings → AI → AI and your privacy** links to the terms of whatever you use.
 
-With a local model through Ollama, what it reads stays on your computer.
+With a local model through Ollama, what it reads stays on your computer, unless you turn on Wikipedia lookups.
 
 [Outside agents](./ai-agents.md) like Claude or Codex are separate apps, and their own terms apply.
+
+## Web search
+
+Web lookups are off until you turn them on. With **Search the web** on, Anthropic's searches go through Anthropic. Your journal and Morning Pages stay out of it. With other providers and local models, you can turn on Wikipedia lookups under **Advanced**: only those words leave your computer, and only to Wikipedia.
 
 ## What stays on your computer
 
