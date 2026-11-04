@@ -92,8 +92,8 @@ selon l’endroit de Poiesis où vous vous trouvez :
 
 - **Sélectionnez du texte.** La barre d’outils apparaît : gras,
   italique, souligné, titre, lien, **Surligner et commenter** et **Commenter
-  (sans surlignage)**. Au bout de la barre, **Plus d’outils** donne accès aux
-  autres outils, dont **Rechercher le mot**. Voir [L’éditeur](./the-editor.md).
+  (sans surlignage)**. Avec un seul mot sélectionné, le livre montre son sens et ses synonymes. Au bout de
+  la barre, **Plus d’outils** donne accès aux autres outils. Voir [L’éditeur](./the-editor.md).
 - **Tapez `/`** en début de ligne. Le menu des blocs s’ouvre : titres,
   listes, citations, sauts de scène, épigraphes, etc. Voir
   [Mise en forme et blocs](./formatting-and-blocks.md).

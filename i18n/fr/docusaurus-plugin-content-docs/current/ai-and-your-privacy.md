@@ -24,9 +24,13 @@ Vos messages, les noms du coffre et du document ouverts et ce qu’il lit pour v
 
 Le fournisseur que vous avez choisi, directement, avec votre clé. φ Poiesis n’a aucun serveur entre les deux et ne voit rien. Ce que le fournisseur en fait relève de ses propres conditions : lisez-les. **Réglages → IA → L’IA et votre vie privée** renvoie aux conditions de ce que vous utilisez.
 
-Avec un modèle local via Ollama, ce qu’il lit reste sur votre ordinateur.
+Avec un modèle local via Ollama, ce qu’il lit reste sur votre ordinateur, sauf si vous activez les recherches sur Wikipédia.
 
 Les [agents externes](./ai-agents.md) comme Claude ou Codex sont des apps indépendantes, et leurs propres conditions s’appliquent.
+
+## Recherche web
+
+Les recherches web sont désactivées tant que vous ne les activez pas. Avec **Chercher sur le web** activé, elles passent par Anthropic. Votre journal et vos Pages du matin restent à l’écart. Avec les autres fournisseurs et les modèles locaux, vous pouvez activer les recherches sur Wikipédia sous **Avancé** : seuls ces mots quittent votre ordinateur, et seulement vers Wikipédia.
 
 ## Ce qui reste sur votre ordinateur
 

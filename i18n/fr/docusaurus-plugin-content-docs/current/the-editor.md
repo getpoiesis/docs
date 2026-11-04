@@ -94,7 +94,7 @@ boutons suivants :
 Cliquez sur **Plus d’outils** (› au bout de la barre) pour accéder aux autres
 outils : **Barré**, **Code en ligne**, **Aligner à gauche**, **Centrer**,
 **Aligner à droite**, **Justifier**, **Rechercher le mot** (qui ouvre le
-[dictionnaire](./dictionary.md)) et **Enregistrer la sélection comme modèle…**.
+[dictionnaire](./dictionary.md)) et **Enregistrer la sélection comme modèle…**. Avec un seul mot sélectionné, **Rechercher le mot** est le livre de la barre elle-même.
 
 Poiesis conserve les surlignages et les commentaires sous forme
 d’[annotations](./annotations.md).

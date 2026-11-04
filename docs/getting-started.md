@@ -82,8 +82,8 @@ part of Poiesis:
 
 - **Select some text.** The formatting toolbar appears: bold, italic,
   underline, heading, link, **Highlight & comment** and **Comment (no
-  highlight)**. **More tools**, at the end of the toolbar, opens the other
-  tools, including **Look up word**. See [The editor](./the-editor.md).
+  highlight)**. With one word selected, the book shows its meaning and synonyms. **More tools**,
+  at the end of the toolbar, opens the other tools. See [The editor](./the-editor.md).
 - **Type `/`** at the start of a line. The block menu opens: headings,
   lists, quotes, scene breaks, epigraphs and more. See
   [Formatting & blocks](./formatting-and-blocks.md).

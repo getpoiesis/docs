@@ -87,7 +87,8 @@ Select some text. A small toolbar appears above it, with these buttons:
 Click **More tools** (› at the end of the toolbar) for the other tools:
 **Strikethrough**, **Inline code**, **Align left**, **Align center**,
 **Align right**, **Justify**, **Look up word** (opens the
-[dictionary](./dictionary.md)) and **Save selection as template…**.
+[dictionary](./dictionary.md)) and **Save selection as template…**. With one word
+selected, **Look up word** is the book on the toolbar itself.
 
 Poiesis keeps highlights and comments as [annotations](./annotations.md).
 

@@ -39,6 +39,61 @@ Empieza con una sugerencia del panel o pregunta con tus palabras:
 
 Con **Dejar notas al margen** activado, puede comentar un pasaje, también en una pieza. Estas notas aparecen como **De un agente** en tus anotaciones, y nunca cambian una palabra.
 
+También puedes preguntarle cómo funciona φ Poiesis. Responde a partir de esta guía, que descarga la primera vez que preguntas y guarda en tu equipo, y te enlaza a la página.
+
+## Recuerda, si estás de acuerdo
+
+Dile a Ariadne algo duradero, como tu forma de trabajar o una decisión sobre el libro, y puede ofrecerse a guardarlo para próximos chats. Pregunta antes de añadir nada. Puedes leer y cambiar lo que guarda en **Lo que Ariadne recuerda**, en **Ajustes → IA**. Se guarda en la bóveda.
+
+## Ordena tus notas
+
+Pídele que ordene tu bandeja de entrada y te da un solo plan: archivar esto aquí, etiquetar aquello. Desmarca lo que no quieras y elige **Aplicar**. Nada se mueve hasta entonces, y **Deshacer** en la tarjeta lo devuelve a su sitio.
+
+<img src="/img/app/ariadne-inbox-light.png" alt="Un solo plan para ordenar la bandeja de entrada, con una casilla junto a cada cambio, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-inbox-dark.png" alt="Un solo plan para ordenar la bandeja de entrada, con una casilla junto a cada cambio, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
+
+## Buscar en la web
+
+Con Anthropic, Ariadne puede buscar en la web cuando una pregunta lo necesite, con sus fuentes enlazadas. Anthropic hace las búsquedas con tu clave. Puede tener un coste adicional, así que consulta antes los precios y términos de Anthropic. Está desactivado hasta que actives **Buscar en la web** en **Ajustes → IA**. Tu diario y tus Páginas matutinas quedan fuera.
+
+Los demás proveedores y los modelos locales no buscan en la web. Ariadne puede consultar Wikipedia, y dice que eso es todo lo que ha mirado. Está desactivado hasta que actives **Consultar Wikipedia** en **Avanzado**, en **Ajustes → IA**. Entonces solo salen de tu equipo las palabras que consulta, y solo hacia Wikipedia.
+
+<img src="/img/app/ai-web-search-light.png" alt="El ajuste para consultar Wikipedia en Ajustes → IA, en Avanzado, desactivado." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ai-web-search-dark.png" alt="El ajuste para consultar Wikipedia en Ajustes → IA, en Avanzado, desactivado." width="1600" height="1000" loading="lazy" decoding="async" />
+
+Para conservar lo que encontró, elige **Guardar como página de investigación** bajo su respuesta. Las fuentes van con ella.
+
+## Úsala sobre tu selección
+
+Selecciona un texto y haz clic en el robot de la barra de herramientas. Se abre un pequeño menú en la página, y el chat sigue cerrado.
+
+- Para ver el significado y los sinónimos de tus diccionarios, sin IA, usa el [libro junto a este botón](./dictionary.md).
+- **Buscar sinónimos** y **Buscar antónimos** le preguntan a Ariadne, teniendo en cuenta la frase. Con una selección más larga, verás **Buscar un reemplazo**.
+- **Decirlo de otra forma**, **Acortar** y **Revisar ortografía y gramática** funcionan dentro de un párrafo.
+- **Preguntar en el chat** lleva la selección al panel.
+
+Haz clic en una palabra para usarla. Con una frase, pregunta antes y nada cambia hasta que elijas **Reemplazar**. Deshacer lo revierte. Solo se envían la selección y su párrafo. El diario no tiene este menú.
+
+<img src="/img/app/ariadne-selection-light.png" alt="La pregunta de si reemplazar la selección, con las opciones de conservar el texto o Reemplazar, sobre una frase seleccionada." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-selection-dark.png" alt="La pregunta de si reemplazar la selección, con las opciones de conservar el texto o Reemplazar, sobre una frase seleccionada." width="1600" height="1000" loading="lazy" decoding="async" />
+
+## Enséñamelo en pantalla
+
+Con **Controlar lo que hay en pantalla** activado, pide algo y Ariadne lo abre: «enséñame la investigación del capítulo tres». También puede cerrar lo que esté abierto. Si hay varias cosas, las lista como enlaces en los que puedes hacer clic.
+
+## Sigue escribiendo mientras trabaja
+
+Puedes enviar otro mensaje mientras Ariadne está ocupada, y lo leerá en su siguiente paso. **Detener** conserva lo que ha dicho hasta entonces. Escribe `/` para ver los comandos, como `/continuity`, `/timeline`, `/voices`, `/new` o `/help`.
+
+<img src="/img/app/ariadne-timeline-light.png" alt="Ariadne señala un capítulo situado en febrero que viene después de otro situado en marzo, y pregunta si es intencionado." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-timeline-dark.png" alt="Ariadne señala un capítulo situado en febrero que viene después de otro situado en marzo, y pregunta si es intencionado." width="1600" height="1000" loading="lazy" decoding="async" />
+
+## Qué envía cada mensaje
+
+Los modelos no recuerdan nada entre mensajes, así que cada uno vuelve a enviar todo el chat, y cada paso de una respuesta es una petición aparte. Por eso la entrada es mucho mayor que la salida.
+
+El recuento de la cabecera del panel muestra los tokens nuevos. Lo que tu proveedor reutilizó de su caché aparece aparte al pasar el puntero por encima. Los precios de tu proveedor indican cuánto cuesta cada cosa. Los resultados antiguos se acortan a medida que crece el chat, y un chat largo sugiere empezar otro.
+
 ## Darle permiso
 
 Ariadne solo puede hacer lo que permiten los interruptores de la bóveda. Están desactivados hasta que los actives, en la lista de bóvedas de **Ajustes → IA**. Elige **Leer**, **Ayudar** o **Todo** para una bóveda con un clic, o **Ajustar** sus interruptores. Consulta [Agentes de IA](./ai-agents.md). Cada cambio también espera a que elijas **Permitir** o **Ahora no**.
@@ -64,4 +119,4 @@ Las sugerencias se quedan en el panel. Para conservar una respuesta, pasa el cur
 
 ## Chats anteriores
 
-El botón del reloj muestra los chats anteriores. Puedes buscarlos, renombrarlos y eliminarlos.
+El botón de los bocadillos muestra los chats anteriores. Puedes buscarlos, renombrarlos y eliminarlos.

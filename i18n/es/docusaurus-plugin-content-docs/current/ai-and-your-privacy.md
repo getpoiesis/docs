@@ -24,9 +24,13 @@ Tus mensajes, los nombres de la bóveda y el documento que tienes abiertos y lo 
 
 El proveedor que elegiste, directamente, con tu propia clave. φ Poiesis no tiene ningún servidor en medio y nunca lo ve. Lo que el proveedor haga con ello depende de sus propios términos, así que léelos. **Ajustes → IA → La IA y tu privacidad** enlaza a los términos de lo que uses.
 
-Con un modelo local en Ollama, lo que lee se queda en tu equipo.
+Con un modelo local en Ollama, lo que lee se queda en tu equipo, salvo que actives las consultas a Wikipedia.
 
 Los [agentes externos](./ai-agents.md) como Claude o Codex son apps independientes, y se aplican sus propios términos.
+
+## Búsqueda web
+
+Las consultas web están desactivadas hasta que las actives. Con **Buscar en la web** activado, las búsquedas pasan por Anthropic. Tu diario y tus Páginas matutinas quedan fuera. Con otros proveedores y modelos locales, puedes activar las consultas a Wikipedia en **Avanzado**: solo esas palabras salen de tu equipo, y solo hacia Wikipedia.
 
 ## Qué se queda en tu equipo
 

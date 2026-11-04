@@ -46,6 +46,7 @@ Changes apply on an agent's next call, with no restart. **All vaults** sets them
 | **Edit cards** | Change a card's title and notes. |
 | **Move notes to the Trash** | One note at a time, and you can restore it. |
 | **Create** | Each of notes, folders, boards, cards and empty outlines has its own switch. |
+| **Control what's on screen** | Open and close documents, projects and boards in the app. |
 | **Propose merges** | Plan merging vaults or repeated notes. |
 | **Let agents apply plans** | Approve a plan in the agent's chat. |
 

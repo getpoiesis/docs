@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus build && docusaurus serve",
     "dev": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && node scripts/ai-files.mjs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

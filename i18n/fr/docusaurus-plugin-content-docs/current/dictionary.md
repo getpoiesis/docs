@@ -17,10 +17,19 @@ de dictionnaire. Ensuite, toutes les recherches se font sur votre ordinateur.
 Pour chercher un mot de votre texte :
 
 1. Sélectionnez le mot sur la page.
-2. Dans la barre d’outils qui apparaît au-dessus, cliquez sur **Plus
-   d’outils** (›), puis sur **Rechercher le mot**.
-3. Lisez la définition dans l’onglet **Dictionnaire** du panneau Infos, le
-   panneau situé à côté de votre page.
+2. Dans la barre d’outils qui apparaît au-dessus, cliquez sur **Rechercher le mot**
+   (le livre). Vous voyez sur place son sens, ses synonymes et ses antonymes.
+   Cliquez sur l’un d’eux pour le mettre dans votre texte.
+3. Pour l’entrée complète, choisissez **Ouvrir dans le Dictionnaire**. Elle s’ouvre
+   dans l’onglet **Dictionnaire** du panneau Infos, le panneau situé à côté de
+   votre page.
+
+Cela n’utilise que vos packs de dictionnaire : ça marche sans IA, et aussi dans
+votre journal. Pour plusieurs mots, **Rechercher le mot** se trouve dans **Plus
+d’outils** (›).
+
+<img src="/img/app/selection-words-light.png" alt="Un mot sélectionné avec son sens, ses synonymes et ses antonymes dans un petit encadré au-dessus de la barre d’outils." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/selection-words-dark.png" alt="Un mot sélectionné avec son sens, ses synonymes et ses antonymes dans un petit encadré au-dessus de la barre d’outils." width="1600" height="1000" loading="lazy" decoding="async" />
 
 Pour chercher un mot que vous n’avez pas écrit :
 
