@@ -136,7 +136,8 @@ its text. There are two ways to open it:
 <img src="/img/app/details-light.png" alt="The Details page of a piece: status, description, word goal, tags, folder and links" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="The Details page of a piece: status, description, word goal, tags, folder and links" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Click **⋮** above the page, then **Details…**.
+- Click **⋮** above the page, then **Details…**, or **Details…** at the bottom of the
+  Info panel. `Esc` takes you back to the text.
 - Right-click the document's row in a list, then **Details…**.
 
 While Details is open, an ⓘ shows at the top of the page. Click it, or
