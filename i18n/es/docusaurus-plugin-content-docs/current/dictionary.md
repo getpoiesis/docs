@@ -18,10 +18,18 @@ todas las consultas se hacen en tu ordenador.
 Para buscar una palabra de tu texto:
 
 1. Selecciona la palabra en la página.
-2. En la barra de herramientas que aparece encima, haz clic en **Más
-   herramientas** (›) y luego en **Buscar palabra**.
-3. Lee la definición en la pestaña **Diccionario** del panel de Información,
-   el panel que está junto a tu página.
+2. En la barra de herramientas que aparece encima, haz clic en **Buscar palabra**
+   (el libro). Verás ahí mismo su significado, sinónimos y antónimos. Haz clic en
+   uno para ponerlo en tu texto.
+3. Para ver la entrada completa, elige **Abrir en el Diccionario**. Se abre en la
+   pestaña **Diccionario** del panel de Información, el panel que está junto a tu
+   página.
+
+Solo usa tus paquetes de diccionario, así que funciona sin IA y también en tu
+diario. Para más de una palabra, **Buscar palabra** está en **Más herramientas** (›).
+
+<img src="/img/app/selection-words-light.png" alt="Una palabra seleccionada con su significado, sinónimos y antónimos en un pequeño recuadro sobre la barra de herramientas." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/selection-words-dark.png" alt="Una palabra seleccionada con su significado, sinónimos y antónimos en un pequeño recuadro sobre la barra de herramientas." width="1600" height="1000" loading="lazy" decoding="async" />
 
 Para buscar una palabra que no has escrito:
 

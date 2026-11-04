@@ -105,6 +105,16 @@ const SHOTS = {
   links: { steps: [...open('shot-note-0002'), ...panel('links'), ...blur], after: noPanel },
   // Needs a dictionary pack, which a fresh settings folder doesn't have: the
   // capture script links one in and sets DOC_SHOTS_DICTIONARY when it finds one.
+  'selection-words': {
+    onlyByName: !process.env.DOC_SHOTS_DICTIONARY,
+    steps: [
+      ...open('shot-doc-ch01'),
+      ...noPanel,
+      ...select('honest'),
+      ...press('.ps-bubble-hl button[aria-label="Look up word"]', null, 1000),
+    ],
+    again: press('.ps-bubble-hl button[aria-label="Look up word"]', null, 1000),
+  },
   dictionary: {
     onlyByName: !process.env.DOC_SHOTS_DICTIONARY,
     steps: [

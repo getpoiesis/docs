@@ -17,9 +17,16 @@ packs. After that, every lookup happens on your computer.
 To look up a word in your text:
 
 1. Select the word on the page.
-2. In the toolbar above it, click **More tools** (›), then **Look up word**.
-3. Read the definition in the **Dictionary** tab of the Info panel, the
-   panel beside your page.
+2. In the toolbar above it, click **Look up word** (the book). You see the word's
+   meaning, synonyms and antonyms right there. Click one to put it in your text.
+3. For the full entry, choose **Open in Dictionary**. It opens in the **Dictionary**
+   tab of the Info panel, the panel beside your page.
+
+This uses only your dictionary packs, so it works without AI and in your journal
+too. For more than one word, **Look up word** is under **More tools** (›).
+
+<img src="/img/app/selection-words-light.png" alt="A selected word with its meaning, synonyms and antonyms in a small box above the toolbar." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/selection-words-dark.png" alt="A selected word with its meaning, synonyms and antonyms in a small box above the toolbar." width="1600" height="1000" loading="lazy" decoding="async" />
 
 To look up a word you haven't written:
 

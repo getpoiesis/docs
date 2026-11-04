@@ -49,11 +49,17 @@ Dites à Ariadne quelque chose de durable, comme votre façon de travailler ou u
 
 Demandez-lui de trier votre boîte d’entrée : elle vous donne un seul plan : classer ceci ici, étiqueter cela, marquer ceci. Décochez ce que vous ne voulez pas et choisissez **Appliquer**. Rien ne bouge avant, et **Annuler** sur la carte remet tout en place.
 
+<img src="/img/app/ariadne-inbox-light.png" alt="Un seul plan pour trier la boîte de réception, avec une case à côté de chaque changement, Abandonner et Appliquer." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-inbox-dark.png" alt="Un seul plan pour trier la boîte de réception, avec une case à côté de chaque changement, Abandonner et Appliquer." width="1600" height="1000" loading="lazy" decoding="async" />
+
 ## Chercher sur le web
 
 Avec Anthropic, Ariadne peut chercher sur le web quand une question le demande, avec ses sources en lien. Anthropic fait les recherches avec votre clé. Cela peut coûter davantage : consultez d’abord les tarifs et conditions d’Anthropic. C’est désactivé tant que vous n’activez pas **Chercher sur le web** dans **Réglages → IA**. Votre journal et vos Pages du matin restent à l’écart.
 
 Les autres fournisseurs et les modèles locaux ne cherchent pas sur le web. Ariadne peut consulter Wikipédia, et dit que c’est tout ce qu’elle a regardé. C’est désactivé tant que vous n’activez pas **Consulter Wikipédia** sous **Avancé**, dans **Réglages → IA**. Seuls les mots qu’elle cherche quittent alors votre ordinateur, et seulement vers Wikipédia.
+
+<img src="/img/app/ai-web-search-light.png" alt="Le réglage pour consulter Wikipédia dans Réglages → IA, sous Avancé, désactivé." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ai-web-search-dark.png" alt="Le réglage pour consulter Wikipédia dans Réglages → IA, sous Avancé, désactivé." width="1600" height="1000" loading="lazy" decoding="async" />
 
 Pour garder ce qu’elle a trouvé, choisissez **Enregistrer comme page de recherche** sous sa réponse. Les sources vont avec.
 
@@ -61,12 +67,15 @@ Pour garder ce qu’elle a trouvé, choisissez **Enregistrer comme page de reche
 
 Sélectionnez du texte et cliquez sur le robot de la barre d’outils. Un petit menu s’ouvre sur la page, et la discussion reste fermée.
 
-- Avec un seul mot sélectionné, les **Synonymes** et **Antonymes** de vos dictionnaires s’affichent aussitôt. Ils n’utilisent pas l’IA.
+- Pour le sens et les synonymes de vos dictionnaires, sans IA, utilisez le [livre à côté de ce bouton](./dictionary.md).
 - **Trouver des synonymes** et **Trouver des antonymes** interrogent Ariadne, en tenant compte de la phrase. Avec une sélection plus longue, vous verrez **Trouver un remplacement**.
 - **Le dire autrement**, **Raccourcir** et **Vérifier l'orthographe et la grammaire** fonctionnent dans un paragraphe.
 - **Demander dans la discussion** envoie la sélection dans le panneau.
 
 Cliquez sur un mot pour l’utiliser. Pour une phrase, elle demande d’abord, et rien ne change tant que vous n’avez pas choisi **Remplacer**. Annuler revient en arrière. Seuls la sélection et son paragraphe sont envoyés. Le journal n’a pas ce menu.
+
+<img src="/img/app/ariadne-selection-light.png" alt="La question de remplacer la sélection, avec le choix de garder le texte ou Remplacer, au-dessus d’une phrase sélectionnée." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-selection-dark.png" alt="La question de remplacer la sélection, avec le choix de garder le texte ou Remplacer, au-dessus d’une phrase sélectionnée." width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Montre-le-moi à l’écran
 
@@ -75,6 +84,9 @@ Avec **Contrôler ce qui est à l’écran** activé, demandez quelque chose et 
 ## Continuer à écrire pendant qu’elle travaille
 
 Vous pouvez envoyer un autre message pendant qu’Ariadne travaille : elle le lira à son étape suivante. **Arrêter** garde ce qu’elle a déjà dit. Tapez `/` pour les commandes, comme `/continuity`, `/timeline`, `/voices`, `/new` ou `/help`.
+
+<img src="/img/app/ariadne-timeline-light.png" alt="Ariadne signale un chapitre situé en février qui vient après un chapitre situé en mars, et demande si c’est voulu." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-timeline-dark.png" alt="Ariadne signale un chapitre situé en février qui vient après un chapitre situé en mars, et demande si c’est voulu." width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Ce que chaque message envoie
 

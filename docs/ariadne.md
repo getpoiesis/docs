@@ -49,11 +49,17 @@ Tell Ariadne something lasting, such as how you work or a decision about the boo
 
 Ask her to sort your Inbox, and she gives you one plan: file this here, tag this, star that. Untick what you don't want and choose **Apply**. Nothing moves until you do, and **Undo** on the card puts it back.
 
+<img src="/img/app/ariadne-inbox-light.png" alt="One plan to sort the Inbox, with a tick beside each change, Discard and Apply." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-inbox-dark.png" alt="One plan to sort the Inbox, with a tick beside each change, Discard and Apply." width="1600" height="1000" loading="lazy" decoding="async" />
+
 ## Search the web
 
 With Anthropic, Ariadne can search the web when a question needs it, with her sources linked. Anthropic runs the searches on your key. This can cost extra, so check Anthropic's own pricing and terms first. It's off until you turn on **Search the web** in **Settings → AI**. Your journal and Morning Pages stay out of it.
 
 Other providers and local models don't search the web. Ariadne can look things up on Wikipedia instead, and says that's all she checked. It's off until you turn on **Look things up on Wikipedia** under **Advanced** in **Settings → AI**. Then only the words she looks up leave your computer, and only to Wikipedia.
+
+<img src="/img/app/ai-web-search-light.png" alt="The Look things up on Wikipedia setting in Settings → AI, under Advanced, turned off." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ai-web-search-dark.png" alt="The Look things up on Wikipedia setting in Settings → AI, under Advanced, turned off." width="1600" height="1000" loading="lazy" decoding="async" />
 
 To keep what she found, choose **Save as a research page** under her reply. The sources go with it.
 
@@ -61,12 +67,15 @@ To keep what she found, choose **Save as a research page** under her reply. The 
 
 Select some text and click the bot on the toolbar. A small menu opens on the page, and the chat stays closed.
 
-- With one word selected, **Synonyms** and **Antonyms** from your dictionaries appear straight away. They don't use AI.
+- For a word's meaning and synonyms from your dictionaries, without AI, use the [book beside this button](./dictionary.md).
 - **Find synonyms** and **Find antonyms** ask Ariadne, using the sentence around the word. With a longer selection, you get **Find a replacement**.
 - **Say it another way**, **Make it shorter** and **Check spelling and grammar** work within one paragraph.
 - **Ask in the chat** takes the selection to the panel.
 
 Click a word to use it. For a sentence, she asks first and nothing changes until you choose **Replace**. Undo takes it back. Only the selection and its paragraph are sent. The journal doesn't have this menu.
+
+<img src="/img/app/ariadne-selection-light.png" alt="Replace your selection with this?, with Keep mine and Replace, over a selected sentence." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-selection-dark.png" alt="Replace your selection with this?, with Keep mine and Replace, over a selected sentence." width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## Show me on screen
 
@@ -75,6 +84,9 @@ With **Control what's on screen** on, ask for something and Ariadne opens it: "s
 ## Keep typing while it works
 
 You can send another message while Ariadne is busy, and it reads it at its next step. **Stop** keeps what it has said so far. Type `/` for commands, such as `/continuity`, `/timeline`, `/voices`, `/new` or `/help`.
+
+<img src="/img/app/ariadne-timeline-light.png" alt="Ariadne pointing out a chapter set in February that comes after one set in March, and asking whether it is meant." width="1600" height="1000" loading="lazy" decoding="async" />
+<img src="/img/app/ariadne-timeline-dark.png" alt="Ariadne pointing out a chapter set in February that comes after one set in March, and asking whether it is meant." width="1600" height="1000" loading="lazy" decoding="async" />
 
 ## What each message sends
 
