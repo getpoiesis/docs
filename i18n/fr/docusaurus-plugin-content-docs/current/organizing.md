@@ -147,7 +147,8 @@ texte. Il y a deux façons de l’ouvrir :
 <img src="/img/app/details-light.png" alt="La page Détails d’une pièce : statut, description, objectif de mots, étiquettes, dossier et liens" width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/details-dark.png" alt="La page Détails d’une pièce : statut, description, objectif de mots, étiquettes, dossier et liens" width="1600" height="1000" loading="lazy" decoding="async" />
 
-- Cliquez sur le **⋮** au-dessus de la page, puis sur **Détails…**.
+- Cliquez sur le **⋮** au-dessus de la page, puis sur **Détails…**, ou sur **Détails…**
+  en bas du panneau Infos. `Échap` vous ramène au texte.
 - Faites un clic droit sur la ligne du document dans une liste, puis
   choisissez **Détails…**.
 
