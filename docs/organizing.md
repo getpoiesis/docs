@@ -96,6 +96,11 @@ sidebar, the list, the folder path and Home.
 A tag groups documents from any folder. A document can have any number of
 tags.
 
+- **Tag as you write**: type `#something` in the document. Once the word is
+  finished, the document has that tag. As you type, tags you already use are
+  offered: pick one with `Enter`. The words stay in your text, and deleting
+  them doesn't remove the tag. A number like `#12` isn't a tag, and neither is
+  anything in code.
 - **Add a tag**: open the document's **Details…**, type in **+ Tag** and
   press Return.
 - **Remove a tag**: click the **×** on the tag.

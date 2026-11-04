@@ -103,6 +103,11 @@ Inicio.
 Una etiqueta agrupa documentos de cualquier carpeta. Un documento puede
 llevar todas las etiquetas que quieras.
 
+- **Etiqueta mientras escribes**: escribe `#algo` en el documento. Al terminar la
+  palabra, el documento tiene esa etiqueta. Mientras escribes, se te ofrecen las
+  etiquetas que ya usas: elige una con `Intro`. Las palabras se quedan en tu texto, y
+  borrarlas no quita la etiqueta. Un número como `#12` no es una etiqueta, ni
+  tampoco lo que esté en código.
 - **Añadir una etiqueta**: abre los **Detalles…** del documento, escribe en
   **+ Etiqueta** y pulsa `Intro`.
 - **Quitar una etiqueta**: haz clic en la **×** de la etiqueta.

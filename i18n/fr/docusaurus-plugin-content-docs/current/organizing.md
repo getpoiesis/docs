@@ -104,6 +104,11 @@ sur l’Accueil.
 Une étiquette réunit des documents, quel que soit leur dossier. Un document
 peut porter autant d’étiquettes que vous voulez.
 
+- **Étiquetez en écrivant** : tapez `#quelquechose` dans le document. Une fois le
+  mot terminé, le document a cette étiquette. Pendant la frappe, les étiquettes que
+  vous utilisez déjà sont proposées : choisissez-en une avec Entrée. Les mots restent dans votre texte, et
+  les effacer ne retire pas l’étiquette. Un nombre comme `#12` n’est pas une
+  étiquette, ni ce qui est dans du code.
 - **Ajouter une étiquette** : ouvrez les **Détails…** du document, tapez dans
   **+ Étiquette** et appuyez sur Entrée.
 - **Retirer une étiquette** : cliquez sur le **×** de l’étiquette.
