@@ -87,8 +87,8 @@ la parte de Poiesis en la que estés:
 
 - **Selecciona un fragmento de texto.** Aparece una pequeña barra de herramientas: negrita,
   cursiva, subrayado, encabezado, enlace, **Resaltar y comentar** y
-  **Comentar (sin resaltado)**. Al final de la barra, **Más herramientas**
-  abre las demás, entre ellas **Buscar palabra**. Consulta
+  **Comentar (sin resaltado)**. Con una palabra seleccionada, el libro muestra su significado y sinónimos. Al
+  final de la barra, **Más herramientas** abre las demás. Consulta
   [El editor](./the-editor.md).
 - **Escribe `/`** al principio de una línea. Se abre el menú de bloques:
   encabezados, listas, citas, saltos de escena, epígrafes y más. Consulta

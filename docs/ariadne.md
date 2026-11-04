@@ -47,7 +47,7 @@ Tell Ariadne something lasting, such as how you work or a decision about the boo
 
 ## Sort your notes
 
-Ask her to sort your Inbox, and she gives you one plan: file this here, tag this, star that. Untick what you don't want and choose **Apply**. Nothing moves until you do, and **Undo** on the card puts it back.
+Ask her to sort your Inbox, and she gives you one plan: file this here, tag that. Untick what you don't want and choose **Apply**. Nothing moves until you do, and **Undo** on the card puts it back.
 
 <img src="/img/app/ariadne-inbox-light.png" alt="One plan to sort the Inbox, with a tick beside each change, Discard and Apply." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ariadne-inbox-dark.png" alt="One plan to sort the Inbox, with a tick beside each change, Discard and Apply." width="1600" height="1000" loading="lazy" decoding="async" />

@@ -47,7 +47,7 @@ Dile a Ariadne algo duradero, como tu forma de trabajar o una decisión sobre el
 
 ## Ordena tus notas
 
-Pídele que ordene tu bandeja de entrada y te da un solo plan: archivar esto aquí, etiquetar esto, destacar aquello. Desmarca lo que no quieras y elige **Aplicar**. Nada se mueve hasta entonces, y **Deshacer** en la tarjeta lo devuelve a su sitio.
+Pídele que ordene tu bandeja de entrada y te da un solo plan: archivar esto aquí, etiquetar aquello. Desmarca lo que no quieras y elige **Aplicar**. Nada se mueve hasta entonces, y **Deshacer** en la tarjeta lo devuelve a su sitio.
 
 <img src="/img/app/ariadne-inbox-light.png" alt="Un solo plan para ordenar la bandeja de entrada, con una casilla junto a cada cambio, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ariadne-inbox-dark.png" alt="Un solo plan para ordenar la bandeja de entrada, con una casilla junto a cada cambio, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />

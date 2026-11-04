@@ -47,7 +47,7 @@ Dites à Ariadne quelque chose de durable, comme votre façon de travailler ou u
 
 ## Triez vos notes
 
-Demandez-lui de trier votre boîte d’entrée : elle vous donne un seul plan : classer ceci ici, étiqueter cela, marquer ceci. Décochez ce que vous ne voulez pas et choisissez **Appliquer**. Rien ne bouge avant, et **Annuler** sur la carte remet tout en place.
+Demandez-lui de trier votre boîte d’entrée : elle vous donne un seul plan : classer ceci ici, étiqueter cela. Décochez ce que vous ne voulez pas et choisissez **Appliquer**. Rien ne bouge avant, et **Annuler** sur la carte remet tout en place.
 
 <img src="/img/app/ariadne-inbox-light.png" alt="Un seul plan pour trier la boîte de réception, avec une case à côté de chaque changement, Abandonner et Appliquer." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ariadne-inbox-dark.png" alt="Un seul plan pour trier la boîte de réception, avec une case à côté de chaque changement, Abandonner et Appliquer." width="1600" height="1000" loading="lazy" decoding="async" />

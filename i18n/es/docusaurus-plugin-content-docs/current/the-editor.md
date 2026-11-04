@@ -93,7 +93,7 @@ Las demás herramientas están en **Más herramientas** (el › del final de la
 barra): **Tachado**, **Código en línea**, **Alinear a la izquierda**,
 **Centrar**, **Alinear a la derecha**, **Justificar**, **Buscar palabra**
 (abre el [diccionario](./dictionary.md)) y **Guardar selección como
-plantilla…**.
+plantilla…**. Con una palabra seleccionada, **Buscar palabra** es el libro de la propia barra.
 
 Poiesis guarda los resaltados y los comentarios como
 [anotaciones](./annotations.md).
