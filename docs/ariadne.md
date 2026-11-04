@@ -41,6 +41,14 @@ With **Leave margin notes** on, it can comment on a passage, in a piece too. The
 
 You can also ask it how φ Poiesis works. It answers from this guide, which it downloads the first time you ask and keeps on your computer, and it links you to the page.
 
+## It remembers, if you agree
+
+Tell Ariadne something lasting, such as how you work or a decision about the book, and she can offer to keep it for later chats. She asks before adding anything. You can read and change what she keeps under **What Ariadne remembers** in **Settings → AI**. It's stored in the vault.
+
+## Sort your notes
+
+Ask her to sort your Inbox, and she gives you one plan: file this here, tag this, star that. Untick what you don't want and choose **Apply**. Nothing moves until you do, and **Undo** on the card puts it back.
+
 ## Search the web
 
 With Anthropic, Ariadne can search the web when a question needs it, with her sources linked. Anthropic runs the searches on your key. This can cost extra, so check Anthropic's own pricing and terms first. It's off until you turn on **Search the web** in **Settings → AI**. Your journal and Morning Pages stay out of it.
@@ -58,7 +66,7 @@ Select some text and click the bot on the toolbar. A small menu opens on the pag
 - **Say it another way**, **Make it shorter** and **Check spelling and grammar** work within one paragraph.
 - **Ask in the chat** takes the selection to the panel.
 
-Click a suggestion to replace your selection. Undo takes it back. Only the selection and its paragraph are sent. The journal doesn't have this menu.
+Click a word to use it. For a sentence, she asks first and nothing changes until you choose **Replace**. Undo takes it back. Only the selection and its paragraph are sent. The journal doesn't have this menu.
 
 ## Show me on screen
 
@@ -66,7 +74,7 @@ With **Control what's on screen** on, ask for something and Ariadne opens it: "s
 
 ## Keep typing while it works
 
-You can send another message while Ariadne is busy, and it reads it at its next step. **Stop** keeps what it has said so far. Type `/` for commands, such as `/continuity`, `/new` or `/help`.
+You can send another message while Ariadne is busy, and it reads it at its next step. **Stop** keeps what it has said so far. Type `/` for commands, such as `/continuity`, `/timeline`, `/voices`, `/new` or `/help`.
 
 ## What each message sends
 

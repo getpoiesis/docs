@@ -41,6 +41,14 @@ Avec **Laisser des notes en marge** activé, elle peut commenter un passage, y c
 
 Vous pouvez aussi lui demander comment fonctionne φ Poiesis. Elle répond à partir de ce guide, qu’elle télécharge la première fois que vous posez la question et garde sur votre ordinateur, et elle vous renvoie à la page.
 
+## Elle se souvient, si vous êtes d’accord
+
+Dites à Ariadne quelque chose de durable, comme votre façon de travailler ou une décision sur le livre, et elle peut proposer de le garder pour les prochaines discussions. Elle demande avant d’ajouter quoi que ce soit. Vous pouvez lire et modifier ce qu’elle garde dans **Ce dont Ariadne se souvient**, dans **Réglages → IA**. C’est stocké dans le coffre.
+
+## Triez vos notes
+
+Demandez-lui de trier votre boîte d’entrée : elle vous donne un seul plan : classer ceci ici, étiqueter cela, marquer ceci. Décochez ce que vous ne voulez pas et choisissez **Appliquer**. Rien ne bouge avant, et **Annuler** sur la carte remet tout en place.
+
 ## Chercher sur le web
 
 Avec Anthropic, Ariadne peut chercher sur le web quand une question le demande, avec ses sources en lien. Anthropic fait les recherches avec votre clé. Cela peut coûter davantage : consultez d’abord les tarifs et conditions d’Anthropic. C’est désactivé tant que vous n’activez pas **Chercher sur le web** dans **Réglages → IA**. Votre journal et vos Pages du matin restent à l’écart.
@@ -58,7 +66,7 @@ Sélectionnez du texte et cliquez sur le robot de la barre d’outils. Un petit 
 - **Le dire autrement**, **Raccourcir** et **Vérifier l'orthographe et la grammaire** fonctionnent dans un paragraphe.
 - **Demander dans la discussion** envoie la sélection dans le panneau.
 
-Cliquez sur une suggestion pour remplacer votre sélection. Annuler la retire. Seuls la sélection et son paragraphe sont envoyés. Le journal n’a pas ce menu.
+Cliquez sur un mot pour l’utiliser. Pour une phrase, elle demande d’abord, et rien ne change tant que vous n’avez pas choisi **Remplacer**. Annuler revient en arrière. Seuls la sélection et son paragraphe sont envoyés. Le journal n’a pas ce menu.
 
 ## Montre-le-moi à l’écran
 
@@ -66,7 +74,7 @@ Avec **Contrôler ce qui est à l’écran** activé, demandez quelque chose et 
 
 ## Continuer à écrire pendant qu’elle travaille
 
-Vous pouvez envoyer un autre message pendant qu’Ariadne travaille : elle le lira à son étape suivante. **Arrêter** garde ce qu’elle a déjà dit. Tapez `/` pour les commandes, comme `/continuity`, `/new` ou `/help`.
+Vous pouvez envoyer un autre message pendant qu’Ariadne travaille : elle le lira à son étape suivante. **Arrêter** garde ce qu’elle a déjà dit. Tapez `/` pour les commandes, comme `/continuity`, `/timeline`, `/voices`, `/new` ou `/help`.
 
 ## Ce que chaque message envoie
 

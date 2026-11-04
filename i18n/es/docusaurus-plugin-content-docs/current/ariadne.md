@@ -41,6 +41,14 @@ Con **Dejar notas al margen** activado, puede comentar un pasaje, también en un
 
 También puedes preguntarle cómo funciona φ Poiesis. Responde a partir de esta guía, que descarga la primera vez que preguntas y guarda en tu equipo, y te enlaza a la página.
 
+## Recuerda, si estás de acuerdo
+
+Dile a Ariadne algo duradero, como tu forma de trabajar o una decisión sobre el libro, y puede ofrecerse a guardarlo para próximos chats. Pregunta antes de añadir nada. Puedes leer y cambiar lo que guarda en **Lo que Ariadne recuerda**, en **Ajustes → IA**. Se guarda en la bóveda.
+
+## Ordena tus notas
+
+Pídele que ordene tu bandeja de entrada y te da un solo plan: archivar esto aquí, etiquetar esto, destacar aquello. Desmarca lo que no quieras y elige **Aplicar**. Nada se mueve hasta entonces, y **Deshacer** en la tarjeta lo devuelve a su sitio.
+
 ## Buscar en la web
 
 Con Anthropic, Ariadne puede buscar en la web cuando una pregunta lo necesite, con sus fuentes enlazadas. Anthropic hace las búsquedas con tu clave. Puede tener un coste adicional, así que consulta antes los precios y términos de Anthropic. Está desactivado hasta que actives **Buscar en la web** en **Ajustes → IA**. Tu diario y tus Páginas matutinas quedan fuera.
@@ -58,7 +66,7 @@ Selecciona un texto y haz clic en el robot de la barra de herramientas. Se abre 
 - **Decirlo de otra forma**, **Acortar** y **Revisar ortografía y gramática** funcionan dentro de un párrafo.
 - **Preguntar en el chat** lleva la selección al panel.
 
-Haz clic en una sugerencia para reemplazar la selección. Deshacer la revierte. Solo se envían la selección y su párrafo. El diario no tiene este menú.
+Haz clic en una palabra para usarla. Con una frase, pregunta antes y nada cambia hasta que elijas **Reemplazar**. Deshacer lo revierte. Solo se envían la selección y su párrafo. El diario no tiene este menú.
 
 ## Enséñamelo en pantalla
 
@@ -66,7 +74,7 @@ Con **Controlar lo que hay en pantalla** activado, pide algo y Ariadne lo abre: 
 
 ## Sigue escribiendo mientras trabaja
 
-Puedes enviar otro mensaje mientras Ariadne está ocupada, y lo leerá en su siguiente paso. **Detener** conserva lo que ha dicho hasta entonces. Escribe `/` para ver los comandos, como `/continuity`, `/new` o `/help`.
+Puedes enviar otro mensaje mientras Ariadne está ocupada, y lo leerá en su siguiente paso. **Detener** conserva lo que ha dicho hasta entonces. Escribe `/` para ver los comandos, como `/continuity`, `/timeline`, `/voices`, `/new` o `/help`.
 
 ## Qué envía cada mensaje
 
