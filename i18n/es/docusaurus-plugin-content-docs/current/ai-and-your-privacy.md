@@ -35,7 +35,7 @@ Las consultas web están desactivadas hasta que las actives. Con **Buscar en la 
 ## Qué se queda en tu equipo
 
 - **Las claves** se guardan en el almacenamiento seguro del sistema, cada una con su nombre, como `φ Poiesis: API key for Anthropic`. Si tu Mac tiene Touch ID, pregunta la primera vez que se usa una clave.
-- **Los chats** se guardan en este equipo, fuera de tus bóvedas.
+- **Los chats** se guardan en este equipo, fuera de tus bóvedas, salvo que actives **Guardar los chats en esta bóveda** en **Ajustes → IA**.
 
 <img src="/img/app/ai-privacy-page-light.png" alt="La página La IA y tu privacidad, abierta desde Ajustes." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-privacy-page-dark.png" alt="La página La IA y tu privacidad, abierta desde Ajustes." width="1600" height="1000" loading="lazy" decoding="async" />

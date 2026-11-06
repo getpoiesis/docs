@@ -120,3 +120,9 @@ Les suggestions restent dans le panneau. Pour garder une réponse, survolez-la e
 ## Discussions passées
 
 Le bouton des bulles liste les discussions passées. Vous pouvez les rechercher, les renommer et les supprimer.
+
+La liste s'ouvre sur le coffre où vous êtes. Si plusieurs coffres ont des discussions, **Afficher les discussions de** en choisit un autre, ou **Tous les coffres**.
+
+### Vos discussions sur tous vos appareils
+
+Activez **Garder les discussions dans ce coffre** dans **Réglages → IA** pour retrouver les discussions d'un coffre dans φ sur vos autres appareils, grâce à la synchronisation du coffre. C'est désactivé par défaut. Seul ce qu'affiche la discussion est enregistré dans le coffre ; ce qu'Ariadne a envoyé à votre fournisseur reste sur chaque appareil. Toute personne avec qui vous partagez le dossier du coffre pourra les lire. Désactivé, les nouvelles discussions restent sur cet appareil.

@@ -35,7 +35,7 @@ Web lookups are off until you turn them on. With **Search the web** on, Anthropi
 ## What stays on your computer
 
 - **Keys** are saved in your system's secure storage, each under its own name, such as `φ Poiesis: API key for Anthropic`. Where your Mac has Touch ID, it asks the first time a key is used.
-- **Chats** are saved on this computer, outside your vaults.
+- **Chats** are saved on this computer, outside your vaults, unless you turn on **Keep chats in this vault** in **Settings → AI**.
 
 <img src="/img/app/ai-privacy-page-light.png" alt="The AI and your privacy page, opened from Settings." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-privacy-page-dark.png" alt="The AI and your privacy page, opened from Settings." width="1600" height="1000" loading="lazy" decoding="async" />

@@ -120,3 +120,9 @@ Suggestions stay in the panel. To keep a reply, hover over it and choose **Save 
 ## Past chats
 
 The speech-bubbles button lists past chats. You can search, rename and delete them.
+
+The list opens on the vault you're in. If more than one vault has chats, **Show chats from** picks another vault or **All vaults**.
+
+### Your chats on every device
+
+Turn on **Keep chats in this vault** in **Settings → AI** to see a vault's chats in φ on your other devices, through the vault's sync. It's off by default. Only what the chat shows goes into the vault; what Ariadne sent your provider stays on each device. Anyone you share the vault's folder with can read them. Turn it off and new chats stay on this device.

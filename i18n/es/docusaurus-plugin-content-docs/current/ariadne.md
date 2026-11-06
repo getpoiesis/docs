@@ -120,3 +120,9 @@ Las sugerencias se quedan en el panel. Para conservar una respuesta, pasa el cur
 ## Chats anteriores
 
 El botón de los bocadillos muestra los chats anteriores. Puedes buscarlos, renombrarlos y eliminarlos.
+
+La lista se abre en la bóveda en la que estás. Si hay chats en más de una bóveda, **Mostrar chats de** elige otra bóveda o **Todas las bóvedas**.
+
+### Tus chats en todos tus dispositivos
+
+Activa **Guardar los chats en esta bóveda** en **Ajustes → IA** para ver los chats de una bóveda en φ en tus otros dispositivos, mediante la sincronización de la bóveda. Viene desactivado. Solo se guarda en la bóveda lo que muestra el chat; lo que Ariadne envió a tu proveedor se queda en cada dispositivo. Quien comparta contigo la carpeta de la bóveda podrá leerlos. Si lo desactivas, los chats nuevos se quedan en este dispositivo.
