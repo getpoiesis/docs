@@ -35,7 +35,7 @@ Les recherches web sont désactivées tant que vous ne les activez pas. Avec **C
 ## Ce qui reste sur votre ordinateur
 
 - **Les clés** sont enregistrées dans le stockage sécurisé du système, chacune sous son nom, comme `φ Poiesis: API key for Anthropic`. Si votre Mac a Touch ID, il demande la première fois qu’une clé sert.
-- **Les discussions** sont enregistrées sur cet ordinateur, hors de vos coffres.
+- **Les discussions** sont enregistrées sur cet ordinateur, hors de vos coffres, sauf si vous activez **Garder les discussions dans ce coffre** dans **Réglages → IA**.
 
 <img src="/img/app/ai-privacy-page-light.png" alt="La page L’IA et votre vie privée, ouverte depuis les Réglages." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ai-privacy-page-dark.png" alt="La page L’IA et votre vie privée, ouverte depuis les Réglages." width="1600" height="1000" loading="lazy" decoding="async" />
