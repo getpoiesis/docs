@@ -187,6 +187,7 @@ En la lista de capítulos de un proyecto:
 | Abrir el diccionario | `⇧⌘D` |
 | Alternar entre lectura y edición | `⌘E` |
 | Entrar en el Santuario o salir de él | `⌘.` (`Esc` también sale) |
+| Cerrar un cuadro de diálogo u hoja | `Esc` |
 | Desplazamiento de máquina de escribir | `⇧⌘T` o `⌥⌘T` |
 | Cerrar el documento (en la vista dividida, el panel en el que estás) | `⌘W` |
 | Vista dividida: abrir un panel al lado de este documento | `⌘\` |

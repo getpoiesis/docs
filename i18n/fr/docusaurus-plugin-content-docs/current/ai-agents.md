@@ -37,7 +37,7 @@ Les changements s’appliquent au prochain appel de l’agent, sans redémarrage
 | Interrupteur | Ce qu’il permet |
 |---|---|
 | **Autoriser les agents IA à lire ce coffre** | Chercher et lire, sauf le journal et les Pages du matin. Les autres en ont besoin. |
-| **Organiser** | Étiqueter et classer les documents, réordonner les projets. |
+| **Organiser** | Étiqueter et classer les documents, réordonner les projets, fixer des objectifs de mots et marquer les chapitres à faire, brouillon, révisé ou final. |
 | **Mettre à jour tâches et cartes** | Les marquer comme faites, fixer dates et priorités, déplacer et archiver les cartes. |
 | **Modifier les notes** | Changer le texte des notes. Chaque modification enregistre une version nommée **AI edited**. |
 | **Laisser des notes en marge** | Commenter un passage, y compris dans un texte, marqué **D’un agent**. Les mots ne changent jamais. |
@@ -45,7 +45,7 @@ Les changements s’appliquent au prochain appel de l’agent, sans redémarrage
 | **Compléter les infos du livre** | Sous-titre, série, mots-clés, langue et description, s’ils sont vides. Jamais le titre, les personnes, les droits ni les ISBN. |
 | **Modifier les cartes** | Changer le titre et les notes d’une carte. |
 | **Mettre des notes à la corbeille** | Une à la fois, et vous pouvez la restaurer. |
-| **Créer** | Notes, dossiers, tableaux, cartes et plans vides ont chacun leur interrupteur. |
+| **Créer** | Notes, dossiers, tableaux, cartes et plans vides ont chacun leur interrupteur. Un plan peut venir avec ses objectifs de mots et ses statuts. |
 | **Contrôler ce qui est à l’écran** | Ouvrir et fermer documents, projets et tableaux dans l’application. |
 | **Proposer des fusions** | Planifier la fusion de coffres ou de notes répétées. |
 | **Autoriser les agents à appliquer les plans** | Approuver un plan dans le chat de l’agent. |

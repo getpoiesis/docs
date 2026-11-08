@@ -52,6 +52,10 @@ Ask her to sort your Inbox, and she gives you one plan: file this here, tag that
 <img src="/img/app/ariadne-inbox-light.png" alt="One plan to sort the Inbox, with a tick beside each change, Discard and Apply." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ariadne-inbox-dark.png" alt="One plan to sort the Inbox, with a tick beside each change, Discard and Apply." width="1600" height="1000" loading="lazy" decoding="async" />
 
+## Plan a project
+
+Ask Ariadne to set up the shape of a book, and she does it in one go: "Start a book called *Salt* with ten chapters named One to Ten, 3,000 words each, except the prologue." The chapters are empty: the writing stays yours. She can also set word goals on a project you already have, for every chapter but the ones you name, and mark chapters as to do, draft, revised or final. Word goals and statuses need **Organize**, and a new outline needs **Create outlines**.
+
 ## Search the web
 
 With Anthropic, Ariadne can search the web when a question needs it, with her sources linked. Anthropic runs the searches on your key. This can cost extra, so check Anthropic's own pricing and terms first. It's off until you turn on **Search the web** in **Settings → AI**. Your journal and Morning Pages stay out of it.

@@ -32,7 +32,9 @@ is what you see:
 
 - **The sentence you are writing is at full strength.** The rest of the
   text is dimmed. If **Focus typing** is set to **Paragraph**, the whole
-  paragraph is at full strength. To stop the dimming, turn off **Settings →
+  paragraph is at full strength. To stop the dimming, click **Dim the rest**
+  (the dimmed sun at the top right, beside typewriter scrolling). Click it
+  again to bring the dimming back. You can also turn off **Settings →
   Appearance → Sanctuary dims the rest**.
 - **A line at the top shows where the document is kept.** It shows the
   mode, then the project, part and chapter, or the folder. Click one of

@@ -49,6 +49,13 @@ puedes elegir un idioma que Poiesis sí tenga.
 2. Haz clic en una sugerencia para sustituir la palabra. O elige **Añadir al
    diccionario** para darla por buena y que Poiesis deje de subrayarla.
 
+Las sugerencias salen de los diccionarios de los idiomas que revisas. Primero
+va la palabra a un desliz de distancia (una letra que falta, sobra, se cambió
+de lugar o está mal), y entre dos igual de cercanas, la más común: para
+"ombre", **hombre** va antes que **sombre**. El español, el inglés y el
+francés traen listas de sus palabras más comunes para esto. Un idioma que
+instales puede traer la suya.
+
 Una palabra bien escrita puede mostrar **Sinónimos** en ese mismo menú, cuando
 un diccionario instalado los tiene. Consulta [Cambiar una palabra por un
 sinónimo](./dictionary.md#replace-a-word-with-a-synonym).

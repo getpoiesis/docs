@@ -52,6 +52,10 @@ Demandez-lui de trier votre boîte d’entrée : elle vous donne un seul plan : 
 <img src="/img/app/ariadne-inbox-light.png" alt="Un seul plan pour trier la boîte de réception, avec une case à côté de chaque changement, Abandonner et Appliquer." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ariadne-inbox-dark.png" alt="Un seul plan pour trier la boîte de réception, avec une case à côté de chaque changement, Abandonner et Appliquer." width="1600" height="1000" loading="lazy" decoding="async" />
 
+## Planifiez un projet
+
+Demandez à Ariadne la forme d’un livre et elle la met en place d’un coup : « Commence un livre intitulé *Sel* avec dix chapitres, de Un à Dix, de 3 000 mots chacun, sauf le prologue. » Les chapitres restent vides : l’écriture est la vôtre. Elle peut aussi fixer des objectifs de mots dans un projet existant, pour tous les chapitres sauf ceux que vous nommez, et marquer des chapitres à faire, brouillon, révisé ou final. Les objectifs et les statuts demandent **Organiser**, et un nouveau plan demande **Créer des plans**.
+
 ## Chercher sur le web
 
 Avec Anthropic, Ariadne peut chercher sur le web quand une question le demande, avec ses sources en lien. Anthropic fait les recherches avec votre clé. Cela peut coûter davantage : consultez d’abord les tarifs et conditions d’Anthropic. C’est désactivé tant que vous n’activez pas **Chercher sur le web** dans **Réglages → IA**. Votre journal et vos Pages du matin restent à l’écart.

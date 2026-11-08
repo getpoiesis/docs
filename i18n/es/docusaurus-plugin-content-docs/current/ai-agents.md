@@ -37,7 +37,7 @@ Los cambios se aplican en la siguiente llamada del agente, sin reiniciar. **Toda
 | Interruptor | Qué permite |
 |---|---|
 | **Permitir que los agentes de IA lean esta bóveda** | Buscar y leer, salvo el diario y las Páginas matutinas. Los demás lo necesitan. |
-| **Organizar** | Etiquetar y archivar documentos, y reordenar proyectos. |
+| **Organizar** | Etiquetar y archivar documentos, reordenar proyectos, fijar metas de palabras y marcar capítulos como pendiente, borrador, revisado o final. |
 | **Actualizar tareas y tarjetas** | Marcarlas como hechas, poner fechas y prioridad, mover y archivar tarjetas. |
 | **Editar notas** | Cambiar el texto de las notas. Cada edición guarda una versión llamada **AI edited**. |
 | **Dejar notas al margen** | Comentar un pasaje, también en una pieza, marcado **De un agente**. Las palabras nunca cambian. |
@@ -45,7 +45,7 @@ Los cambios se aplican en la siguiente llamada del agente, sin reiniciar. **Toda
 | **Completar datos del libro** | Subtítulo, serie, palabras clave, idioma y descripción, si están vacíos. Nunca el título, las personas, los derechos ni los ISBN. |
 | **Editar tarjetas** | Cambiar el título y las notas de una tarjeta. |
 | **Mover notas a la papelera** | De una en una, y puedes restaurarla. |
-| **Crear** | Notas, carpetas, tableros, tarjetas y esquemas vacíos tienen cada uno su interruptor. |
+| **Crear** | Notas, carpetas, tableros, tarjetas y esquemas vacíos tienen cada uno su interruptor. Un esquema puede traer metas de palabras y estados. |
 | **Controlar lo que hay en pantalla** | Abrir y cerrar documentos, proyectos y tableros en la app. |
 | **Proponer fusiones** | Planear la fusión de bóvedas o notas repetidas. |
 | **Permitir que los agentes apliquen planes** | Aprobar un plan en el chat del agente. |
