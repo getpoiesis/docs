@@ -36,7 +36,10 @@ los botones. Esto es lo que queda a la vista:
 - **La oración que estás escribiendo se ve nítida.** El resto
   del texto queda atenuado. Si **Escritura enfocada** está en **Párrafo**,
   es el párrafo entero el que se ve nítido. Para que nada se
-  atenúe, desactiva **Ajustes → Apariencia → El santuario atenúa el resto**.
+  atenúe, haz clic en **Atenuar el resto** (el sol atenuado arriba a la
+  derecha, junto al desplazamiento de máquina de escribir). Vuelve a hacer
+  clic para recuperarlo. También puedes desactivar **Ajustes → Apariencia →
+  El santuario atenúa el resto**.
 - **Una línea en la parte superior indica dónde está el documento.** Muestra
   el modo y, después, el proyecto, la parte y el capítulo, o bien la
   carpeta. Haz clic en cualquiera de ellos para ir allí. Al hacerlo sales

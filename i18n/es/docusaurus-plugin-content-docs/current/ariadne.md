@@ -52,6 +52,10 @@ Pídele que ordene tu bandeja de entrada y te da un solo plan: archivar esto aqu
 <img src="/img/app/ariadne-inbox-light.png" alt="Un solo plan para ordenar la bandeja de entrada, con una casilla junto a cada cambio, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
 <img src="/img/app/ariadne-inbox-dark.png" alt="Un solo plan para ordenar la bandeja de entrada, con una casilla junto a cada cambio, Descartar y Aplicar." width="1600" height="1000" loading="lazy" decoding="async" />
 
+## Planea un proyecto
+
+Pídele a Ariadne la forma de un libro y la arma de una vez: «Empieza un libro llamado *Sal* con diez capítulos, del Uno al Diez, de 3000 palabras cada uno, menos el prólogo». Los capítulos quedan vacíos: la escritura es tuya. También puede fijar metas de palabras en un proyecto que ya tienes, para todos los capítulos menos los que nombres, y marcar capítulos como pendiente, borrador, revisado o final. Las metas y los estados necesitan **Organizar**, y un esquema nuevo necesita **Crear esquemas**.
+
 ## Buscar en la web
 
 Con Anthropic, Ariadne puede buscar en la web cuando una pregunta lo necesite, con sus fuentes enlazadas. Anthropic hace las búsquedas con tu clave. Puede tener un coste adicional, así que consulta antes los precios y términos de Anthropic. Está desactivado hasta que actives **Buscar en la web** en **Ajustes → IA**. Tu diario y tus Páginas matutinas quedan fuera.

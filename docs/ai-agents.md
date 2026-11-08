@@ -37,7 +37,7 @@ Changes apply on an agent's next call, with no restart. **All vaults** sets them
 | Switch | What it allows |
 |---|---|
 | **Let AI agents read this vault** | Search and read, except the journal and Morning Pages. The others need this one. |
-| **Organize** | Tag and file documents, and reorder projects. |
+| **Organize** | Tag and file documents, reorder projects, set word goals, and mark chapters as to do, draft, revised or final. |
 | **Update tasks and cards** | Mark them done, set due dates and priority, move and archive cards. |
 | **Edit notes** | Change notes' text. Each edit saves a version labelled **AI edited**. |
 | **Leave margin notes** | Comment on a passage, in a piece too, marked **From an agent**. The words never change. |
@@ -45,7 +45,7 @@ Changes apply on an agent's next call, with no restart. **All vaults** sets them
 | **Fill in book details** | Subtitle, series, keywords, language and description, where they're empty. Never the title, people, rights or ISBNs. |
 | **Edit cards** | Change a card's title and notes. |
 | **Move notes to the Trash** | One note at a time, and you can restore it. |
-| **Create** | Each of notes, folders, boards, cards and empty outlines has its own switch. |
+| **Create** | Each of notes, folders, boards, cards and empty outlines has its own switch. An outline can come with word goals and statuses. |
 | **Control what's on screen** | Open and close documents, projects and boards in the app. |
 | **Propose merges** | Plan merging vaults or repeated notes. |
 | **Let agents apply plans** | Approve a plan in the agent's chat. |

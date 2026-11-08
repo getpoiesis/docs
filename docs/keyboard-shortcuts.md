@@ -183,6 +183,7 @@ In the list of a project's chapters:
 | Open the dictionary | `⇧⌘D` |
 | Switch between reading and editing | `⌘E` |
 | Enter or leave Sanctuary | `⌘.` (`Esc` also leaves) |
+| Close a dialog or sheet | `Esc` |
 | Typewriter scrolling | `⇧⌘T` or `⌥⌘T` |
 | Close the document (in split view, the pane you're in) | `⌘W` |
 | Split view: open a pane beside this document | `⌘\` |

@@ -50,6 +50,13 @@ pour aucune des langues que vous vérifiez, il vous le signale et propose
 2. Cliquez sur une suggestion pour remplacer le mot. Si le mot est correct,
    choisissez plutôt **Ajouter au dictionnaire** : Poiesis ne le soulignera plus.
 
+Les suggestions viennent des dictionnaires des langues que vous vérifiez. Le
+mot à une faute près (une lettre qui manque, en trop, inversée ou fausse) passe
+en premier et, entre deux mots aussi proches, le plus courant : pour « ombre »
+en espagnol, **hombre** passe avant **sombre**. Le français, l’anglais et
+l’espagnol ont des listes de leurs mots les plus courants pour cela. Une langue
+que vous installez peut apporter la sienne.
+
 Un mot bien orthographié peut proposer des **Synonymes** dans ce même menu,
 quand un dictionnaire installé en contient. Voir [Remplacer un mot par un
 synonyme](./dictionary.md#replace-a-word-with-a-synonym).

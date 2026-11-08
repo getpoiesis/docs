@@ -190,6 +190,7 @@ Dans la liste des chapitres d’un projet :
 | Ouvrir le dictionnaire | `⇧⌘D` |
 | Passer de la lecture à l’édition, ou l’inverse | `⌘E` |
 | Entrer dans le Sanctuaire ou en sortir | `⌘.` (`Esc` permet aussi d’en sortir) |
+| Fermer une boîte de dialogue ou une feuille | `Esc` |
 | Défilement machine à écrire | `⇧⌘T` ou `⌥⌘T` |
 | Fermer le document (en vue partagée, le volet où vous êtes) | `⌘W` |
 | Vue partagée : ouvrir un volet à côté de ce document | `⌘\` |

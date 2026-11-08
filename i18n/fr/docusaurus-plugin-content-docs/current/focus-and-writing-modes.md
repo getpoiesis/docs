@@ -35,8 +35,11 @@ boutons. Voici ce qui reste à l’écran :
 
 - **La phrase que vous écrivez reste bien nette.** Le reste du texte est
   atténué. Si **Écriture focalisée** est réglée sur **Paragraphe**, c’est tout
-  le paragraphe qui reste net. Pour supprimer cette atténuation, désactivez
-  **Réglages → Apparence → Le sanctuaire atténue le reste**.
+  le paragraphe qui reste net. Pour supprimer cette atténuation, cliquez sur
+  **Atténuer le reste** (le soleil atténué en haut à droite, à côté du
+  défilement machine à écrire). Cliquez de nouveau pour la retrouver. Vous
+  pouvez aussi désactiver **Réglages → Apparence → Le sanctuaire atténue le
+  reste**.
 - **Une ligne en haut indique où le document est rangé.** Elle donne le mode,
   puis le projet, la partie et le chapitre, ou bien le dossier. Cliquez sur
   l’un de ces éléments pour vous y rendre : vous quittez le Sanctuaire, et le

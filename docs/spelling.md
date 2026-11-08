@@ -48,6 +48,13 @@ can choose a language that Poiesis has.
 2. Click a suggestion to replace the word. Or choose **Add to Dictionary**
    to keep the word, so Poiesis stops underlining it.
 
+The suggestions come from the dictionaries for the languages you check.
+A word that is one slip away, with a letter missing, extra, swapped or
+mistyped, comes first, and the more common of two words comes first: for
+"ombre", **hombre** comes before **sombre**. English, Spanish and French
+come with lists of their most common words for this. A language you install
+can bring its own.
+
 A word that is spelled right can show **Synonyms** in the same menu,
 when an installed dictionary has them. See [Replace a word with a
 synonym](./dictionary.md#replace-a-word-with-a-synonym).
